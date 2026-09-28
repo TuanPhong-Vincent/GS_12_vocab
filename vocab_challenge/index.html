@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Success 12</title>
+  <meta name="description" content="Trang web ôn tập từ vựng tiếng Anh Global Success 12 theo phương pháp Spaced Repetition (SRS) Leitner 5 cấp độ với 50 ngày học chuẩn mực.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Supabase JS Client & Integration -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="supabase-client.js"></script>
+</head>
+<body>
+
+  <!-- ==========================================
+       APP HEADER
+       ========================================== -->
+  <header class="app-header">
+    <div class="header-content">
+      <div class="brand-wrapper" id="brand-home-btn" onclick="location.reload()">
+        <div class="brand-icon">⚡</div>
+        <div>
+          <div class="brand-title">Global Success 12</div>
+          <div class="brand-tag">
+            <span>50-Day Spaced Repetition Mastery</span>
+            <span style="opacity: 0.5;">•</span>
+            <span style="color: #34d399;">5 Leitner Boxes</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-stats">
+        <div class="stat-chip due-highlight" id="header-due-chip">
+          <span>⏰</span>
+          <span id="header-due-count">0 đến hạn</span>
+        </div>
+        <div class="stat-chip mastered">
+          <span>🏆</span>
+          <span id="header-mastered-count">0 từ dài hạn</span>
+        </div>
+        <div class="header-actions">
+          <a href="../index.html" class="icon-btn" style="text-decoration:none; display:inline-flex; align-items:center; gap:6px; padding:6px 14px; width:auto; border-radius:9999px; font-size:13px; font-weight:700; color:#ffffff; background:rgba(255,255,255,0.12); border:1px solid rgba(255,255,255,0.25);" title="Quay lại Master Portal">
+            <span>🏠</span>
+            <span>Portal GS12</span>
+          </a>
+          <button class="icon-btn" id="btn-toggle-sound" title="Bật/Tắt âm thanh">
+            🔊
+          </button>
+
+          <!-- Auth & User Controls -->
+          <div class="auth-box">
+            <button class="btn-primary" id="btn-open-auth-modal" style="padding: 7px 14px; font-size: 0.82rem;">
+              🔑 Đăng nhập
+            </button>
+
+            <div class="user-menu-wrapper" id="user-menu-box" style="display: none;">
+              <div class="user-avatar-pill" id="user-avatar">U</div>
+              <div class="user-text-meta">
+                <span class="user-display-name" id="user-name-display">Học viên</span>
+                <span class="user-sync-status">🟢 Đã đồng bộ</span>
+              </div>
+              <a href="admin.html" class="btn-admin-portal" id="btn-header-admin" style="display: none;" title="Trang Quản Trị Viên">
+                ⚙️ Quản trị
+              </a>
+              <button class="icon-btn" id="btn-header-logout" title="Đăng xuất" style="width: 32px; height: 32px; font-size: 0.85rem;">
+                🚪
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       MAIN APP CONTAINER
+       ========================================== -->
+  <main class="app-container">
+
+    <!-- SUPABASE CONFIG HELPER BANNER (APPEARS IF API KEY MISSING) -->
+    <div id="supabase-config-banner" class="supabase-config-alert" style="display: none;">
+      <div>
+        <strong>⚡ Kết nối Supabase:</strong> Chưa phát hiện thấy API Key. Hãy dán API Key để kích hoạt tính năng Đăng nhập và Quản lý dữ liệu.
+      </div>
+      <button id="btn-prompt-api-key">Dán API Key ngay</button>
+    </div>
+
+    <!-- REAL-TIME CHALLENGE STATUS BAR -->
+    <section class="study-status-bar" aria-label="Tiến độ học tập thực tế">
+      <div class="study-status-left">
+        <span class="live-date-badge">📅 Hôm nay: <strong id="current-real-date-text">--/--/----</strong></span>
+        <span class="challenge-day-badge" id="challenge-day-badge">🏆 Thử thách: Ngày 1/50</span>
+        <span class="challenge-start-badge" id="challenge-start-badge" style="display: none;">Khởi đầu: --/--/----</span>
+      </div>
+      <div class="study-status-right">
+        <span class="accumulation-note">💡 <em>Mỗi ngày học chuẩn 5 từ mới. Ngày nào bạn không vào học thì từ của ngày đó mới được cộng dồn vào!</em></span>
+      </div>
+    </section>
+
+    <!-- DUE ALERT BANNER -->
+    <section class="due-banner" id="due-banner" style="display: none;">
+      <div class="due-info">
+        <div class="due-bell-ring">🔔</div>
+        <div class="due-text">
+          <h3>Đến Lịch Ôn Tập Hôm Nay!</h3>
+          <p id="due-banner-text">Bạn có các thẻ từ vựng đã đến hạn chu kỳ ôn tập Spaced Repetition.</p>
+        </div>
+      </div>
+      <button class="btn-primary" id="btn-hero-review">
+        <span>⚡</span> Bắt đầu ôn tập ngay
+      </button>
+    </section>
+
+    <!-- NAVIGATION TABS -->
+    <nav class="main-nav" role="tablist">
+      <button class="nav-tab active" data-tab="folders" role="tab" id="tab-btn-folders">
+        <span>🗂️</span> 5 Hộp SRS
+        <span class="tab-badge" id="nav-due-badge" style="display: none;">0</span>
+      </button>
+      <button class="nav-tab" data-tab="arena" role="tab" id="tab-btn-arena">
+        <span>⚡</span> Học & Luyện Tập
+      </button>
+      <button class="nav-tab" data-tab="roadmap" role="tab" id="tab-btn-roadmap">
+        <span>🗺️</span> Lộ Trình 50 Ngày
+      </button>
+      <button class="nav-tab" data-tab="analytics" role="tab" id="tab-btn-analytics">
+        <span>📊</span> Tiến Độ & Cài Đặt
+      </button>
+    </nav>
+
+    <!-- ==========================================
+         TAB 1: 5 SRS FOLDERS (LEITNER BOXES)
+         ========================================== -->
+    <section class="tab-content active" id="view-folders">
+      <div class="folders-overview-header">
+        <h1 class="section-title">Hệ Thống Thư Mục Spaced Repetition (5 Hộp Leitner)</h1>
+        <p class="section-desc">
+          Mỗi ngày học 5 từ mới theo lộ trình. Hệ thống tự động sắp xếp thẻ vào 5 Hộp Leitner (+3, +7, +14, +30 ngày) chuẩn xác theo tag ngày của từ vựng. Trong phần Học & Luyện tập, bạn chỉ cần tập trung ghi nhớ và làm bài tập ôn luyện mà không lo bị nhảy hộp lung tung.
+        </p>
+      </div>
+
+      <!-- 5 Folders Grid -->
+      <div class="folders-grid" id="folders-grid">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+
+      <!-- Selected Folder Detail & Cards List -->
+      <div class="folder-details-pane" id="folder-detail-pane">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </section>
+
+    <!-- ==========================================
+         TAB 2: REVIEW ARENA (FLASHCARD 3D & QUIZ)
+         ========================================== -->
+    <section class="tab-content" id="view-arena">
+      <div class="review-arena">
+        <div class="arena-toolbar">
+          <div class="arena-mode-switch">
+            <button class="mode-btn active" id="mode-flashcard">🃏 Thẻ 3D Flashcard</button>
+            <button class="mode-btn" id="mode-quiz">✍️ Trắc Nghiệm Quiz</button>
+            <button class="mode-btn" id="mode-fillblank">🔤 Điền Từ Khuyết</button>
+            <button class="mode-btn" id="mode-scramble">🧩 Sắp Xếp Câu</button>
+          </div>
+
+          <div class="arena-progress">
+            <div class="progress-track">
+              <div class="progress-fill" id="arena-progress-fill"></div>
+            </div>
+            <span id="arena-progress-text">0 / 0</span>
+          </div>
+        </div>
+
+        <!-- Card Play Area -->
+        <div id="arena-content-area">
+          <!-- Rendered dynamically by app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         TAB 3: 50-DAY ROADMAP
+         ========================================== -->
+    <section class="tab-content" id="view-roadmap">
+      <div class="roadmap-toolbar">
+        <div class="filter-module-tabs">
+          <button class="module-pill-btn active" data-module="ALL">Tất cả (50 Ngày)</button>
+          <button class="module-pill-btn" data-module="1">Module 1 (U01-02)</button>
+          <button class="module-pill-btn" data-module="2">Module 2 (U03-04)</button>
+          <button class="module-pill-btn" data-module="3">Module 3 (U05-06)</button>
+          <button class="module-pill-btn" data-module="4">Module 4 (U07-08)</button>
+          <button class="module-pill-btn" data-module="5">Module 5 (U09-10)</button>
+        </div>
+
+        <div class="search-input-wrap">
+          <span class="search-icon-svg">🔍</span>
+          <input type="text" class="search-input" id="roadmap-search" placeholder="Tìm từ vựng, collocation, chủ đề...">
+        </div>
+      </div>
+
+      <!-- Roadmap Days Grid -->
+      <div class="roadmap-grid" id="roadmap-grid">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </section>
+
+    <!-- ==========================================
+         TAB 4: ANALYTICS & SETTINGS
+         ========================================== -->
+    <section class="tab-content" id="view-analytics">
+      <div class="analytics-grid">
+        <div class="stat-widget-card">
+          <div class="widget-title">Tổng Thẻ Đang Học</div>
+          <div class="widget-number" id="stat-total-cards">0</div>
+          <div class="widget-desc">Các từ vựng đã được nạp vào chu trình Spaced Repetition.</div>
+        </div>
+
+        <div class="stat-widget-card">
+          <div class="widget-title">Đến Hạn Ôn Tập Hôm Nay</div>
+          <div class="widget-number" style="color: #fda4af;" id="stat-due-cards">0</div>
+          <div class="widget-desc">Số lượng thẻ cần bạn hoàn thành ôn tập hôm nay.</div>
+        </div>
+
+        <div class="stat-widget-card">
+          <div class="widget-title">Đã Khắc Sâu (Hộp 1 Tháng)</div>
+          <div class="widget-number" style="color: #6ee7b7;" id="stat-mastered-cards">0</div>
+          <div class="widget-desc">Từ vựng đã thuộc lòng vào trí nhớ dài hạn (Master Level).</div>
+        </div>
+
+        <div class="stat-widget-card">
+          <div class="widget-title">Tiến Độ Ngày Khóa Học</div>
+          <div class="widget-number" style="color: #c7d2fe;" id="stat-learned-days">0 / 50</div>
+          <div class="widget-desc">Số ngày trong lộ trình 50 ngày bạn đã kích hoạt học.</div>
+        </div>
+      </div>
+
+      <!-- Retention Distribution -->
+      <div class="stat-widget-card" style="margin-bottom: 30px;">
+        <div class="widget-title">Phân Bổ Trí Nhớ Giữa 5 Cấp Độ Hộp Leitner</div>
+        <div class="retention-bar-container" id="retention-bar">
+          <!-- Filled dynamically -->
+        </div>
+        <div class="retention-legend">
+          <div class="legend-item"><div class="legend-dot" style="background: var(--box1-color);"></div> Hộp 1: Từ Mới (Khởi Đầu)</div>
+          <div class="legend-item"><div class="legend-dot" style="background: var(--box2-color);"></div> Hộp 2: +3 Ngày</div>
+          <div class="legend-item"><div class="legend-dot" style="background: var(--box3-color);"></div> Hộp 3: +7 Ngày</div>
+          <div class="legend-item"><div class="legend-dot" style="background: var(--box4-color);"></div> Hộp 4: +14 Ngày</div>
+          <div class="legend-item"><div class="legend-dot" style="background: var(--box5-color);"></div> Hộp 5: +30 Ngày (Master)</div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================
+       DAY DETAIL MODAL
+       ========================================== -->
+  <div class="modal-overlay" id="day-modal" role="dialog" aria-modal="true">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 class="modal-title" id="day-modal-title">Chi Tiết Ngày Học</h3>
+        <button class="modal-close-btn" id="day-modal-close" aria-label="Đóng">&times;</button>
+      </div>
+      <div id="day-modal-body">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       AUTH MODAL (LOGIN / REGISTER)
+       ========================================== -->
+  <div class="modal-overlay" id="auth-modal" role="dialog" aria-modal="true">
+    <div class="modal-dialog" style="max-width: 440px;">
+      <div class="modal-header">
+        <h3 class="modal-title" id="auth-title">Đăng Nhập Tài Khoản</h3>
+        <button class="modal-close-btn" id="auth-modal-close" aria-label="Đóng">&times;</button>
+      </div>
+      <div class="modal-body" style="padding: 24px;">
+
+        <!-- KHU VỰC DÀN API KEY NẾU CHƯA CẤU HÌNH -->
+        <div id="auth-key-prompt-section" style="display: none; text-align: center; padding: 10px 0;">
+          <div style="font-size: 2.2rem; margin-bottom: 10px;">⚡</div>
+          <h4 style="margin-bottom: 8px; color: #f8fafc; font-size: 1.1rem;">Chưa Kết Nối API Key</h4>
+          <p style="font-size: 0.85rem; color: #94a3b8; line-height: 1.6; margin-bottom: 18px;">
+            Để kích hoạt tính năng <strong>Đăng nhập</strong> và <strong>Đồng bộ đám mây</strong>, bạn vui lòng dán khóa <code>Publishable key</code> (hoặc <code>anon key</code>) từ Supabase vào ô bên dưới:
+          </p>
+          <div style="display: flex; flex-direction: column; gap: 12px; text-align: left;">
+            <input type="text" id="modal-api-key-input" placeholder="Dán mã sb_publishable_... hoặc eyJ... vào đây" style="padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.15); background: #0f172a; color: #fff; font-size: 0.85rem; width: 100%;">
+            <button type="button" id="btn-save-modal-key" class="btn-primary" style="justify-content: center; padding: 12px; width: 100%;">
+              ⚡ Lưu Khóa & Kích Hoạt Ngay
+            </button>
+          </div>
+        </div>
+
+        <!-- KHU VỰC THÔNG BÁO BẮT BUỘC ĐĂNG NHẬP -->
+        <div id="auth-compulsory-banner" style="display: none; background: rgba(99, 102, 241, 0.15); border: 1px solid rgba(99, 102, 241, 0.3); border-radius: 8px; padding: 12px; margin-bottom: 16px; text-align: center;">
+          <div style="font-weight: 700; color: #a5b4fc; font-size: 0.9rem; margin-bottom: 4px;">🔐 Yêu Cầu Đăng Nhập Để Tiếp Tục</div>
+          <div style="font-size: 0.8rem; color: #cbd5e1; line-height: 1.5;">Vui lòng đăng nhập hoặc tạo tài khoản học viên để bắt đầu học, ghi nhớ tiến độ và đồng bộ bài làm trên đám mây.</div>
+        </div>
+
+        <!-- KHU VỰC FORM ĐĂNG NHẬP / ĐĂNG KÝ -->
+        <div id="auth-forms-container">
+          <div class="auth-tabs">
+            <button class="auth-tab-btn active" id="tab-login-btn">Đăng Nhập</button>
+            <button class="auth-tab-btn" id="tab-register-btn">Đăng Ký Mới</button>
+          </div>
+
+          <div id="auth-feedback" class="auth-msg"></div>
+
+          <!-- FORM ĐĂNG NHẬP -->
+          <form id="form-login">
+            <div class="auth-field-group">
+              <label>Email:</label>
+              <input type="email" id="login-email" required placeholder="nhapemail@example.com">
+            </div>
+            <div class="auth-field-group">
+              <label>Mật khẩu:</label>
+              <input type="password" id="login-password" required placeholder="••••••••">
+            </div>
+            <button type="submit" class="btn-primary" style="width: 100%; justify-content: center; margin-top: 10px; padding: 12px;">
+              Đăng Nhập
+            </button>
+          </form>
+
+          <!-- FORM ĐĂNG KÝ -->
+          <form id="form-register" style="display: none;">
+            <div class="auth-field-group">
+              <label>Họ và tên của bạn:</label>
+              <input type="text" id="reg-name" required placeholder="Nguyễn Văn A">
+            </div>
+            <div class="auth-field-group">
+              <label>Email:</label>
+              <input type="email" id="reg-email" required placeholder="nhapemail@example.com">
+            </div>
+            <div class="auth-field-group">
+              <label>Mật khẩu (tối thiểu 6 ký tự):</label>
+              <input type="password" id="reg-password" minlength="6" required placeholder="••••••••">
+            </div>
+            <button type="submit" class="btn-primary" style="width: 100%; justify-content: center; margin-top: 10px; padding: 12px;">
+              Đăng Ký Tài Khoản
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Application Scripts -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

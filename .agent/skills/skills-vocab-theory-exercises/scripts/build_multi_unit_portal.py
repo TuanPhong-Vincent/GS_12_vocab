@@ -3,20 +3,21 @@
 Multi-Unit Vocabulary & Exercises Master Portal Builder (build_multi_unit_portal.py)
 
 Generates:
-d:/GS12/index.html: Unified Master Portal combining all 3 units in lessons:
-  - Unit 1: Life Stories We Admire
-  - Unit 2: A Multicultural World
-  - Unit 3: Green Living
-With:
-  1. Top Unit Switcher (Unit 1 | Unit 2 | Unit 3 | Tất Cả 3 Units)
-  2. Tab filter (Tất Cả | Lý Thuyết Cards | Bài Tập 16 Dạng)
-  3. Interactive Review vs Practice modes
-  4. Real-time Live Search
-  5. Web Speech API US voice pronunciation
-  6. Per-unit sidebar navigation & statistics
-  7. Exact cards.html visual specifications
-  8. Uniform exercise title colors (#1e3a8a) & aligned form controls
-  9. Direct links to each unit's standalone index.html and cards.html
+1. `d:/GS12/index.html`: Unified Master Portal combining all 3 units in lessons:
+   - Unit 1: Life Stories We Admire
+   - Unit 2: A Multicultural World
+   - Unit 3: Green Living
+   With:
+   - Top Unit Switcher (Unit 1 | Unit 2 | Unit 3 | Tất Cả 3 Units)
+   - Tab filter (Tất Cả | Lý Thuyết Cards | Bài Tập 16 Dạng)
+   - Interactive Review vs Practice modes
+   - Real-time Live Search
+   - Web Speech API US voice pronunciation
+   - Per-unit sidebar navigation & statistics
+   - Exact cards.html visual specifications
+   - Uniform exercise title colors (#1e3a8a) & aligned form controls
+   - Direct links to each unit's standalone index.html and cards.html
+2. `d:/GS12/cards.html`: Master Vocabulary Flashcards page for all 3 units.
 """
 
 import os
@@ -24,7 +25,6 @@ import sys
 import json
 import glob
 import re
-import argparse
 from pathlib import Path
 from html import escape
 
@@ -34,6 +34,9 @@ if hasattr(sys.stdout, "reconfigure"):
         sys.stderr.reconfigure(encoding="utf-8", errors="replace")
     except Exception:
         pass
+
+
+FALLBACK_SVG = "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='1.5'><rect x='3' y='3' width='18' height='18' rx='2'/><circle cx='8.5' cy='8.5' r='1.5'/><path d='M21 15l-5-5L5 21'/></svg>"
 
 
 def load_json(file_path):
@@ -136,7 +139,7 @@ def render_single_exercise_inner(ex, ex_idx, u_prefix, output_file, workspace_ro
             card = f"""
             <div class="pic-word-card" data-q-idx="{q_idx}" data-correct="{escape(correct)}">
                 <div class="pic-wrapper">
-                    <img src="{escape(img_rel)}" alt="Question {q_id}" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <img src="{escape(img_rel)}" alt="Question {q_id}" loading="lazy" onerror="this.onerror=null; this.src='{FALLBACK_SVG}'; this.style.padding='30px';">
                     <span class="pic-tag">#{q_id}</span>
                 </div>
                 <div class="pic-controls">
@@ -514,7 +517,7 @@ def render_unit_vocab_cards_html(vocab_data, u_prefix, output_file, workspace_ro
             card = f"""
             <div class="vocab-card" data-word="{escape(en_word.lower())}" data-group="{escape(g_name.lower())}">
                 <div class="image-container">
-                    <img src="{escape(img_rel)}" alt="{escape(alt_text)}" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <img src="{escape(img_rel)}" alt="{escape(alt_text)}" loading="lazy" onerror="this.onerror=null; this.src='{FALLBACK_SVG}'; this.style.padding='30px';">
                     <button type="button" class="btn-audio" onclick="speak('{safe_word}')" title="Phát âm '{escape(en_word)}'">
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
@@ -549,12 +552,8 @@ def render_unit_vocab_cards_html(vocab_data, u_prefix, output_file, workspace_ro
 
 
 def build_master_index_html(units_info, output_file, workspace_root):
-    """
-    Builds the Master Portal index.html uniting all units.
-    """
     total_all_words = sum(u["total_words"] for u in units_info)
     total_all_exercises = sum(u["total_exercises"] for u in units_info)
-    total_all_questions = sum(u["total_questions"] for u in units_info)
 
     # 1. Render Unit Nav Tabs
     unit_tabs_html = []
@@ -563,7 +562,7 @@ def build_master_index_html(units_info, output_file, workspace_root):
         unit_tabs_html.append(f"""
         <button type="button" class="unit-tab-btn {'active' if is_active else ''}" data-unit="{u['id']}" onclick="switchUnit('{u['id']}')">
             <span class="unit-tab-icon">{u['icon']}</span>
-            <span class="unit-tab-name">{u['short_name']}</span>
+            <span class="unit-tab-name">{u['short_name']}: {escape(u['topic'])}</span>
             <span class="unit-tab-badge">{u['total_words']} từ • {u['total_exercises']} bài</span>
         </button>""")
 
@@ -573,6 +572,14 @@ def build_master_index_html(units_info, output_file, workspace_root):
             <span class="unit-tab-name">Tất Cả 3 Units</span>
             <span class="unit-tab-badge">{total_all_words} từ • {total_all_exercises} bài</span>
         </button>""")
+
+    # VOCAB CHALLENGE (SRS GAME & PRACTICE APP)
+    unit_tabs_html.append(f"""
+        <a href="vocab_challenge/index.html" class="unit-tab-btn vocab-challenge-btn" style="background: linear-gradient(135deg, #7c3aed, #4f46e5); color: #ffffff; border-color: transparent; text-decoration: none;" title="Mở ứng dụng ôn tập từ vựng Spaced Repetition (SRS)">
+            <span class="unit-tab-icon">⚡</span>
+            <span class="unit-tab-name">Vocab Challenge (SRS)</span>
+            <span class="unit-tab-badge" style="background: rgba(255, 255, 255, 0.25); color: #ffffff;">Game & Luyện Thi ↗</span>
+        </a>""")
 
     # 2. Render each Unit's Section
     unit_sections_html = []
@@ -688,6 +695,10 @@ def build_master_index_html(units_info, output_file, workspace_root):
                             <span>📦 vocab.json</span>
                             <span class="file-arrow">↗</span>
                         </a>
+                        <a href="vocab_challenge/index.html" class="quick-file-link" style="border-color: #c4b5fd; background: #faf5ff;">
+                            <span>⚡ vocab_challenge</span>
+                            <span class="file-arrow" style="color: #7c3aed;">↗</span>
+                        </a>
                     </div>
                 </aside>
 
@@ -700,7 +711,7 @@ def build_master_index_html(units_info, output_file, workspace_root):
                                 <div class="headline-icon-box">💡</div>
                                 <div class="headline-text">
                                     <h2>Lý Thuyết Từ Vựng Trọng Tâm &bull; {escape(u['short_name'])}</h2>
-                                    <p>{u['total_words']} từ vựng chuẩn IPA Anh/Mỹ, ảnh minh họa chất lượng cao, phát âm giọng chuẩn và nghĩa tiếng Việt</p>
+                                    <p>{u['total_words']} từ vựng chuẩn IPA Anh/Mỹ, ảnh minh họa trực quan, phát âm giọng chuẩn và nghĩa tiếng Việt</p>
                                 </div>
                             </div>
                             <div>
@@ -743,7 +754,7 @@ def build_master_index_html(units_info, output_file, workspace_root):
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GLOBAL SUCCESS 12 • VOCABULARY & PRACTICE MASTER PORTAL (Units 1 - 3)</title>
+    <title>GLOBAL SUCCESS 12 • HỌC TỪ VỰNG & BÀI TẬP TOÀN DIỆN (Units 1 - 3)</title>
 
     <!-- Google Fonts: Plus Jakarta Sans & Be Vietnam Pro -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1600,7 +1611,7 @@ def build_master_index_html(units_info, output_file, workspace_root):
             font-family: 'Plus Jakarta Sans', sans-serif;
             font-size: 17px;
             font-weight: 700;
-            color: var(--primary-navy); /* UNIFORM DEEP NAVY COLOR ACROSS ALL 16 EXERCISES */
+            color: var(--primary-navy);
             letter-spacing: -0.2px;
         }}
 
@@ -2866,6 +2877,498 @@ def build_master_index_html(units_info, output_file, workspace_root):
 """
 
 
+def build_master_cards_html(units_info, output_file, workspace_root):
+    """
+    Builds the master cards.html containing flashcards from all units with unit switcher.
+    """
+    unit_tabs = []
+    unit_card_blocks = []
+
+    for idx, u in enumerate(units_info):
+        is_first = (idx == 0)
+        unit_tabs.append(f"""
+        <button type="button" class="unit-tab-btn {'active' if is_first else ''}" data-unit="{u['id']}" onclick="filterCardsByUnit('{u['id']}')">
+            <span>{u['icon']} {u['short_name']}</span>
+            <span class="unit-tab-badge">{u['total_words']} từ</span>
+        </button>""")
+
+        cards_html = render_unit_vocab_cards_html(u["vocab_data"], u["prefix"], output_file, workspace_root)
+        block = f"""
+        <div class="cards-unit-wrapper" data-unit="{u['id']}" id="cards-unit-{u['id']}" style="{'display:block;' if is_first else 'display:none;'}">
+            <div class="unit-section-title">
+                <h2>{u['icon']} {escape(u['full_name'])}</h2>
+                <p>{escape(u['description'])} &bull; {u['total_words']} từ vựng</p>
+            </div>
+            {cards_html}
+        </div>"""
+        unit_card_blocks.append(block)
+
+    unit_tabs.append(f"""
+        <button type="button" class="unit-tab-btn" data-unit="all" onclick="filterCardsByUnit('all')">
+            <span>📚 Tất Cả 3 Units</span>
+            <span class="unit-tab-badge">{sum(u['total_words'] for u in units_info)} từ</span>
+        </button>""")
+
+    unit_tabs.append(f"""
+        <a href="vocab_challenge/index.html" class="unit-tab-btn vocab-challenge-link" style="background: linear-gradient(135deg, #7c3aed, #4f46e5); color: #ffffff; border-color: transparent; text-decoration: none;" title="Mở ứng dụng ôn tập từ vựng Spaced Repetition (SRS)">
+            <span>⚡ Vocab Challenge</span>
+            <span class="unit-tab-badge" style="background: rgba(255,255,255,0.25); color: #fff;">SRS App ↗</span>
+        </a>""")
+
+    return f"""<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLOBAL SUCCESS 12 • FLASHCARDS TỪ VỰNG TOÀN DIỆN (Units 1 - 3)</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {{
+            --primary-blue: #2563eb;
+            --primary-dark: #1d4ed8;
+            --primary-navy: #1e3a8a;
+            --primary-light: #eff6ff;
+            --accent-blue: #60a5fa;
+            --surface-white: #ffffff;
+            --bg-gradient: linear-gradient(180deg, #f0f7ff 0%, #f8fafc 100%);
+            --text-main: #0f172a;
+            --text-muted: #64748b;
+            --border-subtle: #e2e8f0;
+            --card-radius: 20px;
+            --shadow-default: 0 4px 20px -2px rgba(37, 99, 235, 0.08), 0 2px 6px -1px rgba(0, 0, 0, 0.04);
+            --shadow-hover: 0 16px 32px -4px rgba(37, 99, 235, 0.15), 0 4px 12px -2px rgba(0, 0, 0, 0.05);
+        }}
+
+        * {{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }}
+
+        body {{
+            font-family: 'Be Vietnam Pro', sans-serif;
+            background: var(--bg-gradient);
+            color: var(--text-main);
+            min-height: 100vh;
+            padding: 30px 24px 60px;
+        }}
+
+        .container {{
+            max-width: 1560px;
+            margin: 0 auto;
+        }}
+
+        .header-bar {{
+            text-align: center;
+            margin-bottom: 28px;
+        }}
+
+        .header-bar h1 {{
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 30px;
+            font-weight: 800;
+            color: var(--primary-navy);
+            letter-spacing: -0.5px;
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+        }}
+
+        .header-bar p {{
+            color: var(--text-muted);
+            font-size: 15px;
+            margin-top: 6px;
+        }}
+
+        /* Toolbar */
+        .toolbar {{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 24px;
+            gap: 14px;
+            flex-wrap: wrap;
+            background: #ffffff;
+            padding: 12px 20px;
+            border-radius: 16px;
+            border: 1px solid var(--border-subtle);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+        }}
+
+        .unit-nav-buttons {{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }}
+
+        .unit-tab-btn {{
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 7px 16px;
+            border-radius: 9999px;
+            border: 1px solid var(--border-subtle);
+            background: #ffffff;
+            color: var(--text-main);
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }}
+
+        .unit-tab-btn:hover {{
+            background: var(--primary-light);
+            border-color: #bfdbfe;
+        }}
+
+        .unit-tab-btn.active {{
+            background: linear-gradient(135deg, var(--primary-navy), var(--primary-blue));
+            color: #ffffff;
+            border-color: transparent;
+        }}
+
+        .unit-tab-badge {{
+            font-size: 11px;
+            padding: 2px 7px;
+            border-radius: 9999px;
+            background: #eff6ff;
+            color: var(--primary-blue);
+            font-weight: 700;
+        }}
+
+        .unit-tab-btn.active .unit-tab-badge {{
+            background: rgba(255, 255, 255, 0.25);
+            color: #ffffff;
+        }}
+
+        .search-box {{
+            position: relative;
+            width: 300px;
+            max-width: 100%;
+        }}
+
+        .search-box input {{
+            width: 100%;
+            padding: 9px 14px 9px 38px;
+            border-radius: 9999px;
+            border: 1px solid var(--border-subtle);
+            background: #ffffff;
+            font-size: 13.5px;
+            font-family: inherit;
+            outline: none;
+            transition: all 0.2s;
+        }}
+
+        .search-box input:focus {{
+            border-color: var(--primary-blue);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+        }}
+
+        .search-box svg {{
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 16px;
+            height: 16px;
+            color: var(--text-muted);
+        }}
+
+        .btn-portal {{
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 9px 18px;
+            border-radius: 9999px;
+            background: var(--primary-blue);
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 13.5px;
+            transition: all 0.2s;
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+        }}
+
+        .btn-portal:hover {{
+            background: var(--primary-dark);
+            transform: translateY(-1px);
+        }}
+
+        .unit-section-title {{
+            margin: 24px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--border-subtle);
+        }}
+
+        .unit-section-title h2 {{
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 22px;
+            font-weight: 800;
+            color: var(--primary-navy);
+        }}
+
+        .unit-section-title p {{
+            font-size: 13.5px;
+            color: var(--text-muted);
+        }}
+
+        /* Flashcard Grid Spec */
+        .theory-group-block {{
+            margin-bottom: 30px;
+        }}
+
+        .theory-group-title {{
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--primary-navy);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 14px;
+        }}
+
+        .group-count-pill {{
+            font-size: 12px;
+            padding: 2px 10px;
+            border-radius: 9999px;
+            background: var(--primary-light);
+            color: var(--primary-blue);
+            font-weight: 600;
+        }}
+
+        .vocab-grid {{
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        }}
+
+        @media (min-width: 1320px) {{
+            .vocab-grid {{
+                grid-template-columns: repeat(5, 1fr);
+            }}
+        }}
+
+        @media (min-width: 1024px) and (max-width: 1319px) {{
+            .vocab-grid {{
+                grid-template-columns: repeat(4, 1fr);
+            }}
+        }}
+
+        .vocab-card {{
+            background: var(--surface-white);
+            border-radius: var(--card-radius);
+            border: 1px solid var(--border-subtle);
+            box-shadow: var(--shadow-default);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            position: relative;
+        }}
+
+        .vocab-card:hover {{
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-hover);
+            border-color: #bfdbfe;
+        }}
+
+        .image-container {{
+            width: 100%;
+            height: 200px;
+            background: #f8fafc;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 1px solid #f1f5f9;
+            padding: 8px;
+        }}
+
+        .image-container img {{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 12px;
+            display: block;
+            transition: transform 0.3s ease;
+        }}
+
+        .vocab-card:hover .image-container img {{
+            transform: scale(1.02);
+        }}
+
+        .btn-audio {{
+            position: absolute;
+            bottom: 14px;
+            right: 14px;
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(226, 232, 240, 0.8);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary-blue);
+            box-shadow: 0 4px 10px rgba(37, 99, 235, 0.15);
+            transition: all 0.2s ease;
+            z-index: 2;
+        }}
+
+        .btn-audio:hover {{
+            transform: scale(1.08);
+            background: var(--primary-blue);
+            color: #ffffff;
+            box-shadow: 0 6px 14px rgba(37, 99, 235, 0.3);
+        }}
+
+        .card-body {{
+            padding: 18px 20px 20px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            justify-content: space-between;
+            gap: 14px;
+        }}
+
+        .vocab-meta {{
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }}
+
+        .word-en {{
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 21px;
+            font-weight: 700;
+            color: #1e293b;
+            letter-spacing: -0.3px;
+        }}
+
+        .word-ipa {{
+            font-size: 14px;
+            color: #3b82f6;
+            font-weight: 500;
+            font-family: 'Be Vietnam Pro', sans-serif;
+        }}
+
+        .divider {{
+            height: 1px;
+            background: linear-gradient(90deg, #e2e8f0 0%, rgba(226, 232, 240, 0.2) 100%);
+        }}
+
+        .word-vi {{
+            font-size: 15px;
+            font-weight: 600;
+            color: #334155;
+            line-height: 1.4;
+        }}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header-bar">
+            <h1>📖 Global Success 12 • Flashcards Toàn Diện</h1>
+            <p>Hệ thống Thẻ Từ Vựng Thông Minh &bull; Chuẩn IPA &bull; Phát Âm Bản Ngữ &bull; Hình Ảnh Trực Quan</p>
+        </div>
+
+        <div class="toolbar">
+            <div class="unit-nav-buttons">
+                {''.join(unit_tabs)}
+            </div>
+            <div style="display:flex; align-items:center; gap:12px;">
+                <div class="search-box">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"/>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                    </svg>
+                    <input type="text" id="cardsSearchInput" placeholder="Tìm kiếm từ vựng, phiên âm, nghĩa..." oninput="filterCards(this.value)">
+                </div>
+                <a href="index.html" class="btn-portal">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                    </svg>
+                    Xem Bài Tập (index.html)
+                </a>
+            </div>
+        </div>
+
+        <!-- ALL CARDS CONTAINER -->
+        <div id="allCardsContainer">
+            {''.join(unit_card_blocks)}
+        </div>
+    </div>
+
+    <script>
+        let currentCardUnit = 'unit-1';
+
+        function speak(text) {{
+            if ('speechSynthesis' in window) {{
+                window.speechSynthesis.cancel();
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = 'en-US';
+                utterance.rate = 0.9;
+                window.speechSynthesis.speak(utterance);
+            }}
+        }}
+
+        function filterCardsByUnit(unitId) {{
+            currentCardUnit = unitId;
+            document.querySelectorAll('.unit-tab-btn').forEach(btn => {{
+                if (btn.getAttribute('data-unit') === unitId) {{
+                    btn.classList.add('active');
+                }} else {{
+                    btn.classList.remove('active');
+                }}
+            }});
+
+            document.querySelectorAll('.cards-unit-wrapper').forEach(w => {{
+                const u = w.getAttribute('data-unit');
+                if (unitId === 'all') {{
+                    w.style.display = 'block';
+                }} else if (u === unitId) {{
+                    w.style.display = 'block';
+                }} else {{
+                    w.style.display = 'none';
+                }}
+            }});
+        }}
+
+        function filterCards(query) {{
+            const q = query.trim().toLowerCase();
+            const activeWrappers = (currentCardUnit === 'all')
+                ? document.querySelectorAll('.cards-unit-wrapper')
+                : [document.getElementById(`cards-unit-${{currentCardUnit}}`)];
+
+            activeWrappers.forEach(wrap => {{
+                if (!wrap) return;
+                const cards = wrap.querySelectorAll('.vocab-card');
+                cards.forEach(card => {{
+                    const text = card.textContent.toLowerCase();
+                    card.style.display = (!q || text.includes(q)) ? 'flex' : 'none';
+                }});
+            }});
+        }}
+    </script>
+</body>
+
+</html>
+"""
+
+
 def main():
     workspace_root = Path("d:/GS12").resolve()
     lessons_dir = workspace_root / "lessons"
@@ -2875,6 +3378,7 @@ def main():
             "id": "unit-1",
             "prefix": "u1",
             "short_name": "Unit 1",
+            "topic": "Life Stories",
             "icon": "🌟",
             "full_name": "Unit 1: Life Stories We Admire",
             "description": "Tiểu sử các danh nhân, cống hiến cuộc đời, dấu mốc lịch sử và bài học truyền cảm hứng.",
@@ -2884,6 +3388,7 @@ def main():
             "id": "unit-2",
             "prefix": "u2",
             "short_name": "Unit 2",
+            "topic": "A Multicultural World",
             "icon": "🌍",
             "full_name": "Unit 2: A Multicultural World",
             "description": "Sự đa dạng văn hóa, toàn cầu hóa, lễ hội quốc tế, ẩm thực thế giới và hội nhập.",
@@ -2893,6 +3398,7 @@ def main():
             "id": "unit-3",
             "prefix": "u3",
             "short_name": "Unit 3",
+            "topic": "Green Living",
             "icon": "🌱",
             "full_name": "Unit 3: Green Living",
             "description": "Lối sống xanh, tái chế rác thải, bảo vệ môi trường, giảm thiểu rác thải nhựa và năng lượng bền vững.",
@@ -2944,6 +3450,13 @@ def main():
     with open(root_index_path, "w", encoding="utf-8") as f:
         f.write(master_html)
     print(f"[OK] Successfully built Master Portal: {root_index_path} ({len(master_html):,} bytes)")
+
+    # Generate master cards.html at root d:\GS12\cards.html
+    root_cards_path = workspace_root / "cards.html"
+    master_cards_html = build_master_cards_html(units_data, root_cards_path, workspace_root)
+    with open(root_cards_path, "w", encoding="utf-8") as f:
+        f.write(master_cards_html)
+    print(f"[OK] Successfully built Master Cards:  {root_cards_path} ({len(master_cards_html):,} bytes)")
 
 
 if __name__ == "__main__":

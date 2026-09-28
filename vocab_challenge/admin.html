@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard - Global Success 12</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body class="admin-body">
+
+  <!-- ==========================================
+       ADMIN HEADER
+       ========================================== -->
+  <header class="app-header admin-header">
+    <div class="header-content">
+      <div class="brand-wrapper" onclick="location.href='index.html'">
+        <div class="brand-icon" style="background: linear-gradient(135deg, #8b5cf6, #ec4899);">👑</div>
+        <div>
+          <div class="brand-title">ADMIN MANAGEMENT PORTAL</div>
+          <div class="brand-tag">
+            <span style="color: #c084fc;">Hệ Thống Quản Trị Từ Vựng & Học Viên</span>
+            <span style="opacity: 0.5;">•</span>
+            <span style="color: #34d399;">Cloud Supabase</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-stats">
+        <div class="admin-user-profile" id="admin-user-badge">
+          <div class="admin-avatar" id="admin-avatar">A</div>
+          <div class="admin-user-meta">
+            <div class="admin-name" id="admin-user-name">Đang tải...</div>
+            <div class="admin-role-pill">ADMINISTRATOR</div>
+          </div>
+        </div>
+        <div class="header-actions">
+          <a href="index.html" class="btn-secondary" style="text-decoration: none; display: flex; align-items: center; gap: 6px;">
+            <span>📖</span> Về ứng dụng học
+          </a>
+          <button class="icon-btn" id="btn-admin-logout" title="Đăng xuất">
+            🚪
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       MAIN ADMIN CONTAINER
+       ========================================== -->
+  <main class="app-container admin-container">
+
+    <!-- ACCESS DENIED / LOGIN PROMPT (HIDDEN BY DEFAULT) -->
+    <div id="admin-gate-screen" class="admin-gate-box" style="display: none;">
+      <div class="gate-card">
+        <div class="gate-icon">🔒</div>
+        <h2 id="gate-title">Khu vực dành riêng cho Quản Trị Viên</h2>
+        <p id="gate-desc">Bạn cần đăng nhập với tài khoản có quyền Quản trị (Admin) để quản lý kho từ vựng và xem báo cáo học viên.</p>
+        <div class="gate-actions">
+          <button class="btn-primary" id="btn-gate-login">🔑 Đăng nhập ngay</button>
+          <a href="index.html" class="btn-secondary" style="text-decoration: none;">Quay lại trang học</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ADMIN CONTENT WRAPPER -->
+    <div id="admin-main-content">
+      
+      <!-- QUICK STATS CARDS -->
+      <section class="admin-stats-grid">
+        <div class="admin-stat-card">
+          <div class="stat-icon" style="background: rgba(99, 102, 241, 0.15); color: #818cf8;">📚</div>
+          <div>
+            <div class="stat-val" id="stat-total-vocab">--</div>
+            <div class="stat-label">Từ vựng trong hệ thống</div>
+          </div>
+        </div>
+        <div class="admin-stat-card">
+          <div class="stat-icon" style="background: rgba(56, 189, 248, 0.15); color: #38bdf8;">👥</div>
+          <div>
+            <div class="stat-val" id="stat-total-students">--</div>
+            <div class="stat-label">Học viên đã đăng ký</div>
+          </div>
+        </div>
+        <div class="admin-stat-card">
+          <div class="stat-icon" style="background: rgba(52, 211, 153, 0.15); color: #34d399;">🏆</div>
+          <div>
+            <div class="stat-val" id="stat-mastered-cards">--</div>
+            <div class="stat-label">Từ đạt cấp độ Master (Hộp 5)</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ADMIN TABS NAVIGATION -->
+      <nav class="main-nav admin-nav">
+        <button class="nav-tab active" id="tab-btn-vocab" data-tab="vocab">
+          <span>📖</span> Kho Từ Vựng (CMS)
+        </button>
+        <button class="nav-tab" id="tab-btn-students" data-tab="students">
+          <span>👨‍🎓</span> Quản Lý Học Viên & Báo Cáo
+        </button>
+      </nav>
+
+      <!-- TAB 1: QUẢN LÝ TỪ VỰNG -->
+      <section class="admin-tab-pane active" id="pane-vocab">
+        <div class="pane-header">
+          <div>
+            <h2 class="section-title">Danh Sách Từ Vựng Trong Cơ Sở Dữ Liệu</h2>
+            <p class="section-desc">Thêm, sửa, xóa các từ vựng Global Success 12, phát âm, từ loại và ví dụ học tập.</p>
+          </div>
+          <div class="pane-actions">
+            <button class="btn-secondary" id="btn-sync-from-datajs" title="Nạp nhanh toàn bộ từ vựng Global Success 12 từ file data.js vào Database">
+              ⚡ Đồng bộ từ vựng GS12 từ data.js
+            </button>
+            <button class="btn-primary" id="btn-open-add-modal">
+              ➕ Thêm từ mới
+            </button>
+          </div>
+        </div>
+
+        <!-- SEARCH & FILTER BAR -->
+        <div class="admin-filter-bar">
+          <div class="search-box">
+            <input type="text" id="vocab-search-input" placeholder="Tìm theo từ, nghĩa, phát âm...">
+          </div>
+          <div class="filter-box">
+            <select id="vocab-day-filter">
+              <option value="all">Tất cả các ngày (Day 1 - 50)</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- TABLE OF VOCABULARY -->
+        <div class="table-responsive">
+          <table class="admin-table" id="vocab-table">
+            <thead>
+              <tr>
+                <th style="width: 70px;">ID</th>
+                <th style="width: 80px;">Ngày</th>
+                <th>Từ Vựng</th>
+                <th>Phiên Âm</th>
+                <th>Từ Loại</th>
+                <th>Định Nghĩa Tiếng Việt</th>
+                <th>Cụm Từ (Collocation)</th>
+                <th style="width: 120px; text-align: right;">Thao Tác</th>
+              </tr>
+            </thead>
+            <tbody id="vocab-table-body">
+              <tr>
+                <td colspan="8" style="text-align: center; padding: 40px; color: var(--text-muted);">Đang tải dữ liệu từ vựng từ đám mây...</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- TAB 2: QUẢN LÝ HỌC VIÊN -->
+      <section class="admin-tab-pane" id="pane-students" style="display: none;">
+        <div class="pane-header">
+          <div>
+            <h2 class="section-title">Danh Sách Học Viên & Tiến Độ SRS</h2>
+            <p class="section-desc">Theo dõi sự chuyên cần, số từ đã nạp và số lượng từ ghi nhớ dài hạn của từng người.</p>
+          </div>
+          <div class="pane-actions" style="display: flex; gap: 10px; flex-wrap: wrap;">
+            <button class="btn-primary" id="btn-calibrate-all-students" style="background: linear-gradient(135deg, #0284c7, #0ea5e9); border: none; font-weight: 700;">
+              ⚡ Chuẩn Hóa Hộp SRS Toàn Bộ Học Viên
+            </button>
+            <button class="btn-secondary" id="btn-refresh-students">
+              🔄 Tải lại dữ liệu
+            </button>
+          </div>
+        </div>
+
+        <!-- TABLE OF STUDENTS -->
+        <div class="table-responsive">
+          <table class="admin-table" id="students-table">
+            <thead>
+              <tr>
+                <th>Học Viên</th>
+                <th>Email</th>
+                <th>Ngày Tham Gia</th>
+                <th>Vai Trò</th>
+                <th>Tổng Từ Đã Học</th>
+                <th>Hộp 1</th>
+                <th>Hộp 2-4</th>
+                <th>Hộp 5 (Mastered)</th>
+                <th style="text-align: right;">Thao Tác</th>
+              </tr>
+            </thead>
+            <tbody id="students-table-body">
+              <tr>
+                <td colspan="9" style="text-align: center; padding: 40px; color: var(--text-muted);">Đang tải danh sách học viên...</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ==========================================
+       MODAL THÊM / SỬA TỪ VỰNG
+       ========================================== -->
+  <div class="modal-overlay" id="vocab-modal" style="display: none;">
+    <div class="modal-dialog" style="max-width: 650px;">
+      <div class="modal-header">
+        <h3 class="modal-title" id="vocab-modal-title">Thêm Từ Vựng Mới</h3>
+        <button class="modal-close-btn" id="btn-close-vocab-modal">&times;</button>
+      </div>
+      <div class="modal-body" style="padding: 24px;">
+        <form id="vocab-form" style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+          <input type="hidden" id="vocab-form-is-edit" value="0">
+          
+          <div class="form-group">
+            <label>Mã ID từ (VD: d1_1, d2_3):</label>
+            <input type="text" id="form-card-id" required placeholder="d1_1">
+          </div>
+          <div class="form-group">
+            <label>Ngày học (Day 1 - 50):</label>
+            <input type="number" id="form-day" min="1" max="50" required placeholder="1">
+          </div>
+
+          <div class="form-group">
+            <label>Từ vựng (Word):</label>
+            <input type="text" id="form-word" required placeholder="routine">
+          </div>
+          <div class="form-group">
+            <label>Phiên âm (Phonetics):</label>
+            <input type="text" id="form-phonetics" placeholder="/ruːˈtiːn/">
+          </div>
+
+          <div class="form-group">
+            <label>Từ loại (POS: n, v, adj, adv...):</label>
+            <input type="text" id="form-pos" placeholder="n">
+          </div>
+          <div class="form-group">
+            <label>Unit / Chủ đề:</label>
+            <input type="text" id="form-unit" placeholder="UNIT 01: DAILY LIFE">
+          </div>
+
+          <div class="form-group" style="grid-column: span 2;">
+            <label>Định nghĩa Tiếng Việt:</label>
+            <input type="text" id="form-meaning" required placeholder="thói quen hàng ngày, trình tự thường nhật">
+          </div>
+
+          <div class="form-group" style="grid-column: span 2;">
+            <label>Cụm từ Collocation ăn điểm:</label>
+            <input type="text" id="form-collocation" placeholder="morning routine (thói quen buổi sáng)">
+          </div>
+
+          <div class="form-group" style="grid-column: span 2;">
+            <label>Câu ví dụ minh họa:</label>
+            <textarea id="form-example" rows="3" required placeholder="I usually follow a strict morning routine to stay productive throughout the day."></textarea>
+          </div>
+
+          <div style="grid-column: span 2; display: flex; justify-content: flex-end; gap: 12px; margin-top: 12px;">
+            <button type="button" class="btn-secondary" id="btn-cancel-vocab-form">Hủy bỏ</button>
+            <button type="submit" class="btn-primary" id="btn-submit-vocab-form">Lưu Dữ Liệu</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       MODAL XEM CHI TIẾT BÀI LÀM HỌC VIÊN
+       ========================================== -->
+  <div class="modal-overlay" id="student-detail-modal" role="dialog" aria-modal="true">
+    <div class="modal-dialog" style="max-width: 820px;">
+      <div class="modal-header">
+        <div>
+          <h3 class="modal-title" id="student-modal-name">Chi Tiết Bài Làm Của Học Viên</h3>
+          <p style="font-size: 0.82rem; color: #94a3b8; margin-top: 2px;" id="student-modal-email">email@example.com</p>
+        </div>
+        <button class="modal-close-btn" id="btn-close-student-modal">&times;</button>
+      </div>
+      <div class="modal-body" style="padding: 24px;" id="student-detail-body">
+        <!-- Nội dung bài làm chi tiết -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="supabase-client.js"></script>
+  <script src="data.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>
+

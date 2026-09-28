@@ -8,9 +8,6 @@ __pycache__/
 Thumbs.db
 ehthumbs.db
 
-# Separate git repository (đã có repo Git riêng để tránh xung đột index.html)
-vocab_challenge/
-
 # Large PDF files
 GS12.pdf
 *.pdf
