@@ -1,0 +1,58 @@
+{
+  "id": "16",
+  "type": "translate_sentences",
+  "title": "Translation",
+  "description": "Translate the following sentences into English, using the vocabulary you have learned.",
+  "questions": [
+    {
+      "id": "1",
+      "vietnamese": "Trong khi bác sĩ phẫu thuật đang tiến hành ca mổ khẩn cấp, bệnh viện dã chiến đã bị cúp điện.",
+      "correct_answer": "While the surgeon was performing an emergency operation, the field hospital lost power."
+    },
+    {
+      "id": "2",
+      "vietnamese": "Nhà lãnh đạo có tầm nhìn xa trông rộng đã cống hiến cả cuộc đời mình cho nền độc lập của đất nước.",
+      "correct_answer": "The visionary leader devoted his whole life to the independence of the nation."
+    },
+    {
+      "id": "3",
+      "vietnamese": "Cô ấy cảm thấy vui sướng ngất ngây khi bộ phim hoạt hình bom tấn của mình giành giải thưởng quốc tế.",
+      "correct_answer": "She felt on top of the world when her animated blockbuster won an international award."
+    },
+    {
+      "id": "4",
+      "vietnamese": "Nhiều chiến sĩ dũng cảm đã thực hiện các cuộc tấn công bất ngờ trong suốt cuộc kháng chiến.",
+      "correct_answer": "Many brave soldiers carried out surprise attacks during the resistance war."
+    },
+    {
+      "id": "5",
+      "vietnamese": "Ông bà tôi đã có một cuộc hôn nhân lâu dài và luôn luôn tương trợ lẫn nhau.",
+      "correct_answer": "My grandparents had a long marriage and always supported each other."
+    },
+    {
+      "id": "6",
+      "vietnamese": "Nhà sản xuất phim đã quyết định bỏ học đại học để theo đuổi niềm đam mê điện ảnh của mình.",
+      "correct_answer": "The film producer decided to drop out of college to pursue his passion for cinema."
+    },
+    {
+      "id": "7",
+      "vietnamese": "Khi người anh hùng dân tộc qua đời, hàng triệu người dân đã chia sẻ những lời triân chân thành.",
+      "correct_answer": "When the national hero passed away, millions of citizens shared heartfelt tributes."
+    },
+    {
+      "id": "8",
+      "vietnamese": "Vị thiên tài quân sự đã thay đổi chiến thuật chiến đấu trong khi quân địch đang tiến công.",
+      "correct_answer": "The military genius changed his battle tactics while the enemy troops were advancing."
+    },
+    {
+      "id": "9",
+      "vietnamese": "Hai sinh viên đã trở nên thân thiết nhờ sở thích chung về kỹ xảo hoạt họa máy tính khi còn học ở trường.",
+      "correct_answer": "Two students bonded over their shared interest in computer animation while they were attending school."
+    },
+    {
+      "id": "10",
+      "vietnamese": "Tôi đang đọc một cuốn tiểu sử truyền cảm hứng thì bạn tôi gọi điện rủ đi công viên giải trí.",
+      "correct_answer": "I was reading an inspiring biography when my friend called to invite me to the theme park."
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": "11",
+  "type": "dictionary_entry",
+  "title": "Dictionary Entries",
+  "description": "Look at the dictionary entries below. Use the information provided to complete the sentences.",
+  "entries": [
+    {
+      "id": "1",
+      "word": "determination",
+      "part_of_speech": "noun",
+      "pronunciation": "/dɪˌtɜːmɪˈneɪʃn/",
+      "definition": "the ability to continue trying to achieve something difficult despite obstacles",
+      "bullet_points": [
+        "Her [determination to succeed against] poverty inspired everyone in the village.",
+        "In moments of sudden crisis, officers are trained to [act with determination].",
+        "Young athletes frequently [show fierce determination] during tournament finals.",
+        "The rescue crew worked throughout the night with [unwavering determination]."
+      ],
+      "questions": [
+        {
+          "id": "1",
+          "text": "The young apprentice possessed a relentless __________ all financial hardships and graduate top of his class.",
+          "correct_answer": "determination to succeed against"
+        },
+        {
+          "id": "2",
+          "text": "The polar research team crossed the vast ice shelf through sheer __________ in freezing temperatures.",
+          "correct_answer": "unwavering determination"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "word": "admire",
+      "part_of_speech": "verb",
+      "pronunciation": "/ədˈmaɪə/",
+      "definition": "to respect somebody for what they have done or to look at something with pleasure",
+      "bullet_points": [
+        "Voters continued to [admire her for] her honesty throughout the political campaign.",
+        "After working alongside the experienced editor, the intern began to [come to admire] his patience.",
+        "Modern architects [greatly admire] the structural balance of the ancient cathedral.",
+        "Visitors to the national park [can admire from afar] the rare migratory birds."
+      ],
+      "questions": [
+        {
+          "id": "3",
+          "text": "Art historians __________ the subtle brushwork and luminous color balance in this renaissance portrait.",
+          "correct_answer": "greatly admire"
+        },
+        {
+          "id": "4",
+          "text": "Colleagues throughout the medical faculty __________ her unflagging dedication to pediatric research.",
+          "correct_answer": "admire her for"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "word": "achievement",
+      "part_of_speech": "noun",
+      "pronunciation": "/əˈtʃiːvmənt/",
+      "definition": "a thing that somebody has done successfully, especially using their own effort and skill",
+      "bullet_points": [
+        "Completing the difficult mountain trek gave the scouts a deep [sense of proud achievement].",
+        "The scholarship committee evaluates candidates primarily on their high level of [academic achievement].",
+        "Preserving the pristine rainforest will remain the minister's most [lasting achievement].",
+        "The software developers gathered at dinner to [celebrate an achievement] after launching their platform."
+      ],
+      "questions": [
+        {
+          "id": "5",
+          "text": "The university honors committee awards special medals to students who demonstrate outstanding __________ throughout their four years.",
+          "correct_answer": "academic achievement"
+        },
+        {
+          "id": "6",
+          "text": "After spending six months carving the wooden violin, the craftsman experienced a genuine __________.",
+          "correct_answer": "sense of proud achievement"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "word": "devote",
+      "part_of_speech": "verb",
+      "pronunciation": "/dɪˈvəʊt/",
+      "definition": "to give an amount of time, attention, or effort to something",
+      "bullet_points": [
+        "Engineers must [devote energy to] making renewable solar batteries more efficient.",
+        "Young volunteers often [devote themselves to] clearing litter along polluted shorelines.",
+        "Busy working parents should still [devote time to] outdoor activities with their children.",
+        "The remaining museum galleries will [be devoted entirely to] regional pottery."
+      ],
+      "questions": [
+        {
+          "id": "7",
+          "text": "Senior researchers encouraged junior doctors to __________ reading peer-reviewed clinical journals each week.",
+          "correct_answer": "devote time to"
+        },
+        {
+          "id": "8",
+          "text": "During the humanitarian crisis, dozens of aid workers stepped forward to __________ distributing food and clean water.",
+          "correct_answer": "devote themselves to"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "word": "independent",
+      "part_of_speech": "adjective",
+      "pronunciation": "/ˌɪndɪˈpendənt/",
+      "definition": "not governed or controlled by other people, countries, or organizations",
+      "bullet_points": [
+        "After decades under colonial administration, the nation fought to [become fully independent].",
+        "By learning computer programming, teenagers can become [financially independent] at an early age.",
+        "The small island territory sought to remain [independent from outside] political alliances.",
+        "The philosophy professor was an [independent thinker] who challenged standard assumptions."
+      ],
+      "questions": [
+        {
+          "id": "9",
+          "text": "Because Arthur refused to blindly accept popular dogmas, his mentors praised him as a truly __________.",
+          "correct_answer": "independent thinker"
+        },
+        {
+          "id": "10",
+          "text": "Through diligent budgeting and personal savings, the young graduate managed to become __________ without relying on family allowances.",
+          "correct_answer": "financially independent"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "8",
+  "type": "sentence_ordering_multiple_choice",
+  "title": "Put the sentences in the correct order",
+  "description": "Read the sentences and choose the correct order to form a logical paragraph or conversation.",
+  "questions": [
+    {
+      "id": "1",
+      "sentences": [
+        "a. These panels generate abundant electricity, which directly reduces our dependency on fossil fuel generators.",
+        "b. This green energy system will save public funds and cut urban greenhouse emissions significantly.",
+        "c. Our town council approved the installation of high-efficiency solar panel arrays across municipal rooftops.",
+        "d. The clean power collected during daylight hours is subsequently stored in modern neighbourhood batteries."
+      ],
+      "options": [
+        "d-a-c-b",
+        "c-a-d-b",
+        "a-c-b-d",
+        "c-d-b-a"
+      ],
+      "correct_answer": "c-a-d-b"
+    },
+    {
+      "id": "2",
+      "sentences": [
+        "a. Huy: 'Great idea! What organic materials should we layer into the wooden bin first?'",
+        "b. Huy: 'Where should we build our new compost pile in the school garden?'",
+        "c. Mai: 'We can begin with dry brown twigs and fallen leaves before adding vegetable kitchen scraps.'",
+        "d. Mai: 'Near the tool shed under the shady tree would be an ideal spot.'"
+      ],
+      "options": [
+        "a-c-b-d",
+        "b-a-d-c",
+        "d-b-a-c",
+        "b-d-a-c"
+      ],
+      "correct_answer": "b-d-a-c"
+    },
+    {
+      "id": "3",
+      "sentences": [
+        "a. Ingesting non-biodegradable debris damages their digestive systems and can fatally harm wild animals.",
+        "b. Marine turtles and seabirds frequently mistake these buoyant plastic fragments for natural food.",
+        "c. Strictly enforcing package recycling and banning throwaway cutlery can stop this ecological tragedy.",
+        "d. Millions of single-use takeaway food containers and plastic bottles enter marine environments every year."
+      ],
+      "options": [
+        "a-d-b-c",
+        "d-a-b-c",
+        "d-b-a-c",
+        "b-a-d-c"
+      ],
+      "correct_answer": "d-b-a-c"
+    },
+    {
+      "id": "4",
+      "sentences": [
+        "a. Lan: 'I noticed some students leave the bathroom taps running while washing their hands.'",
+        "b. Lan: 'Do you think our principal will agree to replace them with automatic sensor taps?'",
+        "c. Minh: 'Definitely, because modern sensor taps cut water wastage immediately and pay for themselves.'",
+        "d. Minh: 'That is such a terrible waste of water when resources are so precious.'"
+      ],
+      "options": [
+        "a-d-b-c",
+        "a-b-d-c",
+        "b-c-a-d",
+        "d-a-b-c"
+      ],
+      "correct_answer": "a-d-b-c"
+    },
+    {
+      "id": "5",
+      "sentences": [
+        "a. The collected biogas is then converted into electricity to power local public transport.",
+        "b. Trapped deep under soil layers, decomposing food waste produces large volumes of combustible methane.",
+        "c. Urban landfills receive thousands of tons of unsorted municipal garbage each week.",
+        "d. Modern waste facilities install specialized subterranean piping systems to capture this toxic gas."
+      ],
+      "options": [
+        "c-b-d-a",
+        "d-a-c-b",
+        "c-d-b-a",
+        "b-c-d-a"
+      ],
+      "correct_answer": "c-b-d-a"
+    }
+  ]
+}

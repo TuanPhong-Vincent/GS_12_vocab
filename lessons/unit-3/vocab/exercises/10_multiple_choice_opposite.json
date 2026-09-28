@@ -1,0 +1,63 @@
+{
+  "id": "10",
+  "type": "multiple_choice",
+  "title": "Multiple Choice - Opposite in Meaning",
+  "description": "Choose the word or phrase OPPOSITE in meaning to the underlined part.",
+  "questions": [
+    {
+      "id": "1",
+      "text": "Consumers should avoid purchasing products that are not [eco-friendly] when shopping for household goods.",
+      "options": [
+        "recyclable",
+        "green",
+        "harmful to nature",
+        "beneficial"
+      ],
+      "correct_answer": "harmful to nature"
+    },
+    {
+      "id": "2",
+      "text": "The chemical spill left the drinking reservoir completely [contaminated], forcing the city to shut off the water mains.",
+      "options": [
+        "filthy",
+        "infected",
+        "pure and clean",
+        "poisonous"
+      ],
+      "correct_answer": "pure and clean"
+    },
+    {
+      "id": "3",
+      "text": "The campus coffee shop stopped handing out [single-use] plastic cups to customers.",
+      "options": [
+        "reusable",
+        "throwaway",
+        "flimsy",
+        "disposable"
+      ],
+      "correct_answer": "reusable"
+    },
+    {
+      "id": "4",
+      "text": "Investing in clean geothermal energy is a [sustainable] solution that will protect our environment for generations.",
+      "options": [
+        "effective",
+        "destructive",
+        "enduring",
+        "renewable"
+      ],
+      "correct_answer": "destructive"
+    },
+    {
+      "id": "5",
+      "text": "The international summit urges major industrial nations to [reduce] their annual greenhouse gas emissions.",
+      "options": [
+        "lessen",
+        "cut",
+        "lower",
+        "increase"
+      ],
+      "correct_answer": "increase"
+    }
+  ]
+}

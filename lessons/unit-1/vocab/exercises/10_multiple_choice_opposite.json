@@ -1,0 +1,63 @@
+{
+  "id": "10",
+  "type": "multiple_choice",
+  "title": "Multiple Choice - Opposite in Meaning",
+  "description": "Choose the word or phrase OPPOSITE in meaning to the underlined part.",
+  "questions": [
+    {
+      "id": "1",
+      "text": "The new startup founder was remarkably [ambitious], aiming to expand services to thirty countries within two years.",
+      "options": [
+        "complacent",
+        "determined",
+        "focused",
+        "talented"
+      ],
+      "correct_answer": "complacent"
+    },
+    {
+      "id": "2",
+      "text": "After years of colonial governance, the nation finally established an [independent] parliament to govern its territory.",
+      "options": [
+        "prosperous",
+        "democratic",
+        "sovereign",
+        "subjugated"
+      ],
+      "correct_answer": "subjugated"
+    },
+    {
+      "id": "3",
+      "text": "The allied general managed to [defeat] the hostile coalition after a strategic standoff in the river valley.",
+      "options": [
+        "lose to",
+        "conquer",
+        "overcome",
+        "command"
+      ],
+      "correct_answer": "lose to"
+    },
+    {
+      "id": "4",
+      "text": "Doctors initially feared that the critically injured explorer might [pass away] during the blizzard, but emergency treatment kept him stable.",
+      "options": [
+        "depart",
+        "expire",
+        "survive",
+        "perish"
+      ],
+      "correct_answer": "survive"
+    },
+    {
+      "id": "5",
+      "text": "When Lucas received the confirmation letter that he had won first prize, he was [on top of the world].",
+      "options": [
+        "mildly surprised",
+        "deeply sorrowful",
+        "extremely cheerful",
+        "pleasantly relaxed"
+      ],
+      "correct_answer": "deeply sorrowful"
+    }
+  ]
+}

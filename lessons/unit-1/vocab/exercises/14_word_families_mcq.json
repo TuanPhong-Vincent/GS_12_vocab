@@ -1,0 +1,118 @@
+{
+  "id": "14",
+  "type": "word_families_mcq",
+  "title": "Multiple Choice – Word Families",
+  "description": "Choose the correct word to complete each sentence.",
+  "questions": [
+    {
+      "id": "1",
+      "text": "Everyone in the audience expressed deep __________ for the surgeon's tireless dedication.",
+      "options": [
+        "admirable",
+        "admiration",
+        "admire",
+        "admirably"
+      ],
+      "correct_answer": "admiration"
+    },
+    {
+      "id": "2",
+      "text": "With regular practice and perseverance, your academic goals are completely __________.",
+      "options": [
+        "achieving",
+        "achieve",
+        "achievable",
+        "achievement"
+      ],
+      "correct_answer": "achievable"
+    },
+    {
+      "id": "3",
+      "text": "Despite multiple setbacks, the athlete remained __________ to win the international championship.",
+      "options": [
+        "determinedly",
+        "determined",
+        "determine",
+        "determination"
+      ],
+      "correct_answer": "determined"
+    },
+    {
+      "id": "4",
+      "text": "From an early age, Daniel showed immense __________ to become a leading aerospace engineer.",
+      "options": [
+        "ambition",
+        "ambitioned",
+        "ambitious",
+        "ambitiously"
+      ],
+      "correct_answer": "ambition"
+    },
+    {
+      "id": "5",
+      "text": "The young journalist conducted interviews __________ without receiving guidance from senior staff.",
+      "options": [
+        "independence",
+        "independent",
+        "independency",
+        "independently"
+      ],
+      "correct_answer": "independently"
+    },
+    {
+      "id": "6",
+      "text": "Sister Teresa showed profound __________ to helping impoverished communities throughout her life.",
+      "options": [
+        "devotion",
+        "devotedly",
+        "devoted",
+        "devote"
+      ],
+      "correct_answer": "devotion"
+    },
+    {
+      "id": "7",
+      "text": "The studio produced an exciting __________ feature film that attracted millions of young viewers.",
+      "options": [
+        "animation",
+        "animate",
+        "animating",
+        "animated"
+      ],
+      "correct_answer": "animated"
+    },
+    {
+      "id": "8",
+      "text": "The ancient tree stood completely __________ after several months of severe summer drought.",
+      "options": [
+        "deadly",
+        "die",
+        "dead",
+        "death"
+      ],
+      "correct_answer": "dead"
+    },
+    {
+      "id": "9",
+      "text": "The visiting soccer players looked deeply __________ as they walked off the pitch after the match.",
+      "options": [
+        "defeat",
+        "defeated",
+        "defeats",
+        "defeating"
+      ],
+      "correct_answer": "defeated"
+    },
+    {
+      "id": "10",
+      "text": "The founder had a clear __________ for transforming clean energy technology across the continent.",
+      "options": [
+        "envision",
+        "visioning",
+        "vision",
+        "visionary"
+      ],
+      "correct_answer": "vision"
+    }
+  ]
+}

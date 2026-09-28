@@ -1,0 +1,148 @@
+{
+  "id": "12",
+  "type": "signs_and_notices",
+  "title": "Signs and Notices",
+  "description": "Read the sign or notice and choose the correct meaning.",
+  "questions": [
+    {
+      "id": "1",
+      "sign_type": "image",
+      "sign_image": "images/sign_1.png",
+      "sign_text": "A circular prohibition sign with a thick red border and diagonal slash over a black silhouette icon of an outside food container and soda can, on a clean white background, filling 90% of the square canvas, NO text or words of any kind.",
+      "question": "What does the sign mean?",
+      "options": [
+        "Free festival food is served inside this pavilion every afternoon.",
+        "Please purchase all your take-away food outside the main pavilion.",
+        "Visitors must not bring outside food into this dining pavilion.",
+        "Leaving unfinished food on pavilion dining tables is prohibited."
+      ],
+      "correct_answer": "Visitors must not bring outside food into this dining pavilion."
+    },
+    {
+      "id": "2",
+      "sign_type": "image",
+      "sign_image": "images/sign_2.png",
+      "sign_text": "A circular prohibition sign with a thick red border and diagonal slash over a black camera silhouette with a prominent lightning bolt flash symbol, on a clean white background, filling 90% of the square canvas, NO text or words of any kind.",
+      "question": "What does the sign mean?",
+      "options": [
+        "Visitors may take photos using flashlights throughout the gallery.",
+        "Do not touch the ancient silk textiles while taking gallery photos.",
+        "Please charge your digital camera batteries outside of the gallery.",
+        "Flash photography is strictly prohibited inside the textile gallery."
+      ],
+      "correct_answer": "Flash photography is strictly prohibited inside the textile gallery."
+    },
+    {
+      "id": "3",
+      "sign_type": "image",
+      "sign_image": "images/sign_3.png",
+      "sign_text": "A circular mandatory action sign with a deep blue background showing a crisp white symbol of clean white socks and removed shoes placed neatly aside, centered and filling 90% of the square canvas, NO text or words of any kind.",
+      "question": "What does the sign mean?",
+      "options": [
+        "Wearing clean white socks without shoes is prohibited in the room.",
+        "Guests are required to remove their shoes before entering the room.",
+        "You can purchase traditional souvenir shoes inside the tea room.",
+        "Please keep your outdoor shoes on while walking through the room."
+      ],
+      "correct_answer": "Guests are required to remove their shoes before entering the room."
+    },
+    {
+      "id": "4",
+      "sign_type": "image",
+      "sign_image": "images/sign_4.png",
+      "sign_text": "A triangular warning sign with a bright yellow background and black border showing a black silhouette icon of a person's foot caught between two horizontal colliding poles, centered and filling 90% of the square canvas, NO text or words of any kind.",
+      "question": "What does the sign say?",
+      "options": [
+        "Watch out for fast-moving poles while trying the bamboo dance.",
+        "Dancing with heavy wooden shoes on the bamboo floor is advised.",
+        "Visitors must avoid watching the traditional bamboo dance show.",
+        "Stepping onto the stage without bamboo poles is strictly banned."
+      ],
+      "correct_answer": "Watch out for fast-moving poles while trying the bamboo dance."
+    },
+    {
+      "id": "5",
+      "sign_type": "image",
+      "sign_image": "images/sign_5.png",
+      "sign_text": "A triangular warning sign with a bright yellow background and black border showing three stylized black flame icons above a red chili pepper silhouette, centered and filling 90% of the square canvas, NO text or words of any kind.",
+      "question": "What does the sign say?",
+      "options": [
+        "Be careful because this specialty dish contains extremely hot peppers.",
+        "Fresh chili peppers can be purchased at this ethnic specialty counter.",
+        "Do not add any dried chili peppers to this traditional specialty dish.",
+        "Cooking this hot specialty dish over open flames is strictly forbidden."
+      ],
+      "correct_answer": "Be careful because this specialty dish contains extremely hot peppers."
+    },
+    {
+      "id": "6",
+      "sign_type": "image",
+      "sign_image": "images/sign_6.png",
+      "sign_text": "Full-bleed square graphic design, 100% edge-to-edge layout filling the entire square image canvas with zero outer background margins, no floating devices or walls, large high-contrast typography, dark bronze metallic plaque texture, bold gold title 'FOLK MUSIC RECITAL IN PROGRESS', subtext 'Silence please - do not enter while performers are playing', maximum readability when printed.",
+      "question": "What does the sign say?",
+      "options": [
+        "The recital has been canceled because several musicians arrived late.",
+        "We must remain quiet and wait outside until the performance concludes.",
+        "Audience members can enter the recital hall whenever performers pause.",
+        "Playing folk instruments inside the recital lobby is strictly allowed."
+      ],
+      "correct_answer": "We must remain quiet and wait outside until the performance concludes."
+    },
+    {
+      "id": "7",
+      "sign_type": "image",
+      "sign_image": "images/sign_7.png",
+      "sign_text": "Full-bleed square graphic design, 100% edge-to-edge layout filling the entire square image canvas with zero outer background margins, no floating devices or walls, large high-contrast typography, textured yellow notepad paper texture, clear handwritten script: 'Hi Lan, I collected our traditional parade costumes from the tailor. Please bring the embroidered headdresses to rehearsal at 4 p.m. - Minh', maximum readability when printed.",
+      "question": "What does the note say?",
+      "options": [
+        "Minh wants Lan to bring the traditional headdresses to the rehearsal.",
+        "The tailor canceled their appointment for fitting the new costumes.",
+        "Minh will deliver the embroidered headdresses directly to the tailor.",
+        "Lan needs to pick up the parade costumes from the tailor at 4 p.m."
+      ],
+      "correct_answer": "Minh wants Lan to bring the traditional headdresses to the rehearsal."
+    },
+    {
+      "id": "8",
+      "sign_type": "image",
+      "sign_image": "images/sign_8.png",
+      "sign_text": "Full-bleed square graphic design, 100% edge-to-edge layout filling the entire square image canvas with zero outer background margins, no floating devices or walls, large high-contrast typography, modern clean email interface layout, header 'To: Exchange Students | Subject: Cultural Orientation Day', body 'Dear students, bring a small cultural souvenir or traditional snack from your home country to share at tomorrow's welcoming circle.', maximum readability when printed.",
+      "question": "What does the email say?",
+      "options": [
+        "The welcoming circle has been postponed until all souvenirs arrive.",
+        "Students should bring a traditional cultural item to share tomorrow.",
+        "Exchange students must purchase their cultural snacks at the campus.",
+        "Only students with traditional costumes can attend the orientation."
+      ],
+      "correct_answer": "Students should bring a traditional cultural item to share tomorrow."
+    },
+    {
+      "id": "9",
+      "sign_type": "image",
+      "sign_image": "images/sign_9.png",
+      "sign_text": "Full-bleed square graphic design, 100% edge-to-edge layout filling the entire square image canvas with zero outer background margins, no floating devices or walls, large high-contrast typography, vibrant festival flyer layout with warm festive colors, headline 'GLOBAL TASTE PASS', text 'Taste 5 international food stalls for the price of 4! Valid only before 5 p.m. on festival weekdays.', maximum readability when printed.",
+      "question": "What does the notice tell us?",
+      "options": [
+        "Festival passes are completely valid for unlimited meals on weekend nights.",
+        "The global food festival opens four new international stalls every weekend.",
+        "Buying five food passes grants a special discount for late evening dinners.",
+        "Visitors can receive one free food stall tasting before 5 p.m. on weekdays."
+      ],
+      "correct_answer": "Visitors can receive one free food stall tasting before 5 p.m. on weekdays."
+    },
+    {
+      "id": "10",
+      "sign_type": "image",
+      "sign_image": "images/sign_10.png",
+      "sign_text": "Full-bleed square graphic design, 100% edge-to-edge layout filling the entire square image canvas with zero outer background margins, no floating devices or walls, large high-contrast typography, artistic festival poster layout with colorful folk carnival masks, headline 'CARNIVAL MASK WORKSHOP', body 'Saturday 2 p.m. at Youth Center. All craft materials provided. Advance registration required via student portal.', maximum readability when printed.",
+      "question": "What does the notice tell us?",
+      "options": [
+        "The carnival mask workshop takes place every Saturday morning at the club.",
+        "Free carnival costumes will be distributed to everyone visiting the center.",
+        "Participants must sign up online before attending the carnival craft class.",
+        "Students need to bring their own paper and paint to the youth center class."
+      ],
+      "correct_answer": "Participants must sign up online before attending the carnival craft class."
+    }
+  ]
+}

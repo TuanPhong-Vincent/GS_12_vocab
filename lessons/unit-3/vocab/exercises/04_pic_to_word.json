@@ -1,0 +1,108 @@
+{
+  "id": "4",
+  "type": "pic_to_word",
+  "title": "Write the English Words for the Pictures",
+  "description": "Look at each picture and write the correct English word in the blank.",
+  "questions": [
+    {
+      "id": "1",
+      "image": "/lessons/media/gs12/unit-3/images/waste.webp",
+      "correct_answer": "waste"
+    },
+    {
+      "id": "2",
+      "image": "/lessons/media/gs12/unit-3/images/landfill.webp",
+      "correct_answer": "landfill"
+    },
+    {
+      "id": "3",
+      "image": "/lessons/media/gs12/unit-3/images/cardboard-box.webp",
+      "correct_answer": "cardboard box"
+    },
+    {
+      "id": "4",
+      "image": "/lessons/media/gs12/unit-3/images/takeaway-container.webp",
+      "correct_answer": "takeaway container"
+    },
+    {
+      "id": "5",
+      "image": "/lessons/media/gs12/unit-3/images/reusable-bottle.webp",
+      "correct_answer": "reusable bottle"
+    },
+    {
+      "id": "6",
+      "image": "/lessons/media/gs12/unit-3/images/reusable-cup.webp",
+      "correct_answer": "reusable cup"
+    },
+    {
+      "id": "7",
+      "image": "/lessons/media/gs12/unit-3/images/glass-jar.webp",
+      "correct_answer": "glass jar"
+    },
+    {
+      "id": "8",
+      "image": "/lessons/media/gs12/unit-3/images/metal-straw.webp",
+      "correct_answer": "metal straw"
+    },
+    {
+      "id": "9",
+      "image": "/lessons/media/gs12/unit-3/images/rubbish-bin.webp",
+      "correct_answer": "rubbish bin"
+    },
+    {
+      "id": "10",
+      "image": "/lessons/media/gs12/unit-3/images/recycling-bin.webp",
+      "correct_answer": "recycling bin"
+    },
+    {
+      "id": "11",
+      "image": "/lessons/media/gs12/unit-3/images/compost.webp",
+      "correct_answer": "compost"
+    },
+    {
+      "id": "12",
+      "image": "/lessons/media/gs12/unit-3/images/compost-pile.webp",
+      "correct_answer": "compost pile"
+    },
+    {
+      "id": "13",
+      "image": "/lessons/media/gs12/unit-3/images/household-waste.webp",
+      "correct_answer": "household waste"
+    },
+    {
+      "id": "14",
+      "image": "/lessons/media/gs12/unit-3/images/garden-waste.webp",
+      "correct_answer": "garden waste"
+    },
+    {
+      "id": "15",
+      "image": "/lessons/media/gs12/unit-3/images/fruit-peel.webp",
+      "correct_answer": "fruit peel"
+    },
+    {
+      "id": "16",
+      "image": "/lessons/media/gs12/unit-3/images/leftovers.webp",
+      "correct_answer": "leftovers"
+    },
+    {
+      "id": "17",
+      "image": "/lessons/media/gs12/unit-3/images/chemical-fertiliser.webp",
+      "correct_answer": "chemical fertiliser"
+    },
+    {
+      "id": "18",
+      "image": "/lessons/media/gs12/unit-3/images/wildfire.webp",
+      "correct_answer": "wildfire"
+    },
+    {
+      "id": "19",
+      "image": "/lessons/media/gs12/unit-3/images/litter.webp",
+      "correct_answer": "litter"
+    },
+    {
+      "id": "20",
+      "image": "/lessons/media/gs12/unit-3/images/green-energy.webp",
+      "correct_answer": "green energy"
+    }
+  ]
+}

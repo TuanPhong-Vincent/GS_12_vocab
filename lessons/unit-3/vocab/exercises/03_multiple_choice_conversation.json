@@ -1,0 +1,118 @@
+{
+  "id": "3",
+  "type": "multiple_choice",
+  "title": "Multiple Choice - Conversation Completion",
+  "description": "Choose the correct response to complete the conversation.",
+  "questions": [
+    {
+      "id": "1",
+      "text": "Liam: \"How can I avoid generating so much plastic trash when buying groceries?\"\nEmma: \"______________________________\"",
+      "options": [
+        "You can purchase heavy chemical fertilisers for your yard.",
+        "You should carry reusable canvas bags and produce nets.",
+        "You must buy more disposable water bottles every morning.",
+        "You ought to toss plastic takeaway containers into rivers."
+      ],
+      "correct_answer": "You should carry reusable canvas bags and produce nets."
+    },
+    {
+      "id": "2",
+      "text": "David: \"Where should I toss this empty soda can and glass bottle?\"\nSarah: \"______________________________\"",
+      "options": [
+        "Throw them straight into the organic garden compost pile.",
+        "Leave them on the cafeteria table for cleaners to collect.",
+        "Drop them into the blue recycling bin beside the doorway.",
+        "Bury them under the flowerbed to help fertilise plants."
+      ],
+      "correct_answer": "Drop them into the blue recycling bin beside the doorway."
+    },
+    {
+      "id": "3",
+      "text": "Tom: \"Would you like to join our neighborhood canal clean up this Saturday?\"\nChloe: \"______________________________\"",
+      "options": [
+        "I'd love to join, because I really care about cleaner waterways.",
+        "That sounds terrible, as nobody should ever clean up public areas.",
+        "I'm afraid I cannot attend since I prefer throwing trash outdoors.",
+        "No way, because clearing plastic waste will definitely harm ducks."
+      ],
+      "correct_answer": "I'd love to join, because I really care about cleaner waterways."
+    },
+    {
+      "id": "4",
+      "text": "Lucas: \"I love your stainless steel water flask! Where did you get it?\"\nMia: \"______________________________\"",
+      "options": [
+        "Thanks, but I only keep it as decoration on my living room shelf.",
+        "Thanks, though disposable cups are definitely much better to use.",
+        "Thanks, but it produces too much harmful methane gas in kitchens.",
+        "Thanks, I carry this reusable bottle daily to reduce plastic waste."
+      ],
+      "correct_answer": "Thanks, I carry this reusable bottle daily to reduce plastic waste."
+    },
+    {
+      "id": "5",
+      "text": "Alex: \"Our dormitory electricity bill went up significantly this month!\"\nRachel: \"______________________________\"",
+      "options": [
+        "We can install old inefficient light bulbs to increase consumption.",
+        "We should keep all ceiling lamps running brightly during daytime.",
+        "We ought to open all windows while running the heater on high power.",
+        "We must remember to turn off air conditioners before heading out."
+      ],
+      "correct_answer": "We must remember to turn off air conditioners before heading out."
+    },
+    {
+      "id": "6",
+      "text": "Daniel: \"Do you think shopping at zero waste package-free stores is practical?\"\nSophie: \"______________________________\"",
+      "options": [
+        "No, since organic food scraps should always go into landfills.",
+        "Yes, because buying single-use plastic cutlery is cheaper for us.",
+        "Yes, bringing our own glass jars saves packaging in the long run.",
+        "No, because sorting garbage increases dangerous toxic pollutants."
+      ],
+      "correct_answer": "Yes, bringing our own glass jars saves packaging in the long run."
+    },
+    {
+      "id": "7",
+      "text": "Noah: \"Did you hear about the massive wildfire raging in the northern forest?\"\nGrace: \"______________________________\"",
+      "options": [
+        "Yes, it released huge clouds of carbon dioxide and destroyed trees.",
+        "Yes, it safely broke down all household waste into organic soil.",
+        "No, burning woodlands is an effective way to conserve resources.",
+        "No, wildfires only produce clean drinking water for forest animals."
+      ],
+      "correct_answer": "Yes, it released huge clouds of carbon dioxide and destroyed trees."
+    },
+    {
+      "id": "8",
+      "text": "Jessica: \"What should we do with all these vegetable peelings and melon rinds?\"\nBen: \"______________________________\"",
+      "options": [
+        "Let's pour synthetic chemical fertilisers directly on the kitchen floor.",
+        "Let's flush all fruit peelings down the bathroom sensor tap immediately.",
+        "Let's toss them into the compost pile instead of the rubbish bin.",
+        "Let's seal them in non-biodegradable takeaway containers forever."
+      ],
+      "correct_answer": "Let's toss them into the compost pile instead of the rubbish bin."
+    },
+    {
+      "id": "9",
+      "text": "Oliver: \"Some people leave the restroom taps dripping water all day long.\"\nZoe: \"______________________________\"",
+      "options": [
+        "Leaving water flowing constantly is a great way to save resources.",
+        "The building manager should install an automatic sensor tap here.",
+        "Students must always drink water directly from garden hoses outside.",
+        "We should encourage everyone to pour dirty wastewater onto desks."
+      ],
+      "correct_answer": "The building manager should install an automatic sensor tap here."
+    },
+    {
+      "id": "10",
+      "text": "Sam: \"Why are you riding your bicycle to school instead of asking for a ride?\"\nLily: \"______________________________\"",
+      "options": [
+        "Cycling burns fossil fuels rapidly, which creates heavy air pollution.",
+        "Cycling produces zero emissions, which shrinks my carbon footprint.",
+        "Pedaling to school is dangerous because it harms wild river birds.",
+        "Riding a bike requires a lot of single-use cardboard packaging boxes."
+      ],
+      "correct_answer": "Cycling produces zero emissions, which shrinks my carbon footprint."
+    }
+  ]
+}

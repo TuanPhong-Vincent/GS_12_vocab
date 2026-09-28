@@ -1,0 +1,118 @@
+{
+  "id": "3",
+  "type": "multiple_choice",
+  "title": "Multiple Choice - Conversation Completion",
+  "description": "Choose the correct response to complete the conversation.",
+  "questions": [
+    {
+      "id": "1",
+      "text": "Sophie: 'Congratulations on winning the youth leadership award last night!'\nDaniel: '______________________________'",
+      "options": [
+        "I appreciate your kind words, and I hope to drop out of the project soon.",
+        "Thank you so much, it was truly an impressive achievement for our team.",
+        "Thanks a lot, although the doctor said my biological parents were resting.",
+        "That is very kind of you, but we were carrying out attacks all afternoon."
+      ],
+      "correct_answer": "Thank you so much, it was truly an impressive achievement for our team."
+    },
+    {
+      "id": "2",
+      "text": "Liam: 'Why is your older sister moving to Los Angeles this autumn?'\nChloe: '______________________________'",
+      "options": [
+        "She intends to recover from cancer while volunteering in another county.",
+        "She hopes to rule an ancient kingdom near the southern coastal borders.",
+        "She is planning to construct a wartime field hospital for local medics.",
+        "She wants to work as an animator for a famous digital animation studio."
+      ],
+      "correct_answer": "She wants to work as an animator for a famous digital animation studio."
+    },
+    {
+      "id": "3",
+      "text": "Hannah: 'How did you feel when you heard you passed the medical exam?'\nMarcus: '______________________________'",
+      "options": [
+        "I felt very exhausted because the army was preparing to defeat enemies.",
+        "I was wondering whether our grandparents had enjoyed a long marriage.",
+        "I was reading a biography when the headmaster asked me to leave school.",
+        "I was on cloud nine and could not stop smiling for the rest of the day."
+      ],
+      "correct_answer": "I was on cloud nine and could not stop smiling for the rest of the day."
+    },
+    {
+      "id": "4",
+      "text": "Olivia: 'Do you want to visit the new historical theme park this Sunday?'\nEthan: '______________________________'",
+      "options": [
+        "I cannot come along because my father is defending the national border.",
+        "I will pass because the surgeon is operating on the injured soldiers now.",
+        "I would love to join you because I really enjoy thrilling roller coasters.",
+        "I am not interested because that place was destroyed during the civil war."
+      ],
+      "correct_answer": "I would love to join you because I really enjoy thrilling roller coasters."
+    },
+    {
+      "id": "5",
+      "text": "Lucas: 'Who inspired you to pursue a career in aerospace research?'\nGrace: '______________________________'",
+      "options": [
+        "A famous monarch who ruled over three different kingdoms in the north.",
+        "A humble volunteer who carried out unexpected attacks along the coast.",
+        "A young student who dropped out of secondary school during the winter.",
+        "A visionary astrophysicist who was designing lunar exploration modules."
+      ],
+      "correct_answer": "A visionary astrophysicist who was designing lunar exploration modules."
+    },
+    {
+      "id": "6",
+      "text": "Noah: 'Could you recommend an inspiring book for my history presentation?'\nEmma: '______________________________'",
+      "options": [
+        "You can visit the local tourist attraction before the ticket counter closes.",
+        "You might ask the biological parents why their daughter changed her school.",
+        "You should read this biography of a scientist who devoted her life to peace.",
+        "You ought to watch this blockbuster movie about a fictional alien invader."
+      ],
+      "correct_answer": "You should read this biography of a scientist who devoted her life to peace."
+    },
+    {
+      "id": "7",
+      "text": "Ava: 'Your grandparents look so joyful in their wedding anniversary photograph!'\nBen: '______________________________'",
+      "options": [
+        "Indeed, they were fighting in a resistance war when the town was flooded.",
+        "Yes, they have had a long marriage filled with mutual trust and harmony.",
+        "Certainly, they decided to drop out of college before meeting each other.",
+        "Yes, they were admitted to a field hospital shortly after moving abroad."
+      ],
+      "correct_answer": "Yes, they have had a long marriage filled with mutual trust and harmony."
+    },
+    {
+      "id": "8",
+      "text": "Mia: 'How does Professor Bradley manage to master five different languages?'\nJack: '______________________________'",
+      "options": [
+        "He is extremely well educated and has spent decades studying linguistics.",
+        "He was on top of the world when the laboratory equipment arrived by rail.",
+        "He was producing an animated cartoon series when his cousin phoned him.",
+        "He decided to adopt a rescue puppy while traveling through South America."
+      ],
+      "correct_answer": "He is extremely well educated and has spent decades studying linguistics."
+    },
+    {
+      "id": "9",
+      "text": "James: 'How did our regional basketball team defeat the defending champions?'\nLily: '______________________________'",
+      "options": [
+        "Our school was establishing a field hospital beside the athletic fields.",
+        "Our players were visiting a famous tourist attraction across the capital.",
+        "Our coach was a tactical genius who adjusted the formation at halftime.",
+        "Our captain decided to attend school in another district after the match."
+      ],
+      "correct_answer": "Our coach was a tactical genius who adjusted the formation at halftime."
+    },
+    {
+      "id": "10",
+      "text": "Zoe: 'I heard that Mr. Henderson passed away peacefully last weekend.'\nLeo: '______________________________'",
+      "options": [
+        "Yes, his death is a huge loss to everyone in our community who knew him.",
+        "Certainly, he showed remarkable determination while running the marathon.",
+        "Yes, he was working as a film producer when the blockbuster debuted online.",
+        "Indeed, he was celebrated as a military genius during the royal tournament."
+      ],
+      "correct_answer": "Yes, his death is a huge loss to everyone in our community who knew him."
+    }
+  ]
+}

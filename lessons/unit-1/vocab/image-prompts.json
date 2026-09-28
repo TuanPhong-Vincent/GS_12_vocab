@@ -1,0 +1,232 @@
+[
+  {
+    "object": "childhood",
+    "prompt": "A photo of a prominent young child playing happily outdoors with traditional wooden toys in a sunny rural garden courtyard, evoking warm early childhood memories, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "childhood.webp"
+  },
+  {
+    "object": "youth",
+    "prompt": "A photo of a prominent group of energetic teenage and university youths walking and laughing together on a university campus lawn, representing the vibrant stage of youth, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "youth.webp"
+  },
+  {
+    "object": "attend school",
+    "prompt": "A photo of prominent young school students wearing neat school uniforms and carrying backpacks, happily walking towards the entrance gates to attend school, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "attend-school.webp"
+  },
+  {
+    "object": "attend college",
+    "prompt": "A photo of prominent young adult students walking past a grand historic university lecture hall with books and a laptop in hand to attend college, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "attend-college.webp"
+  },
+  {
+    "object": "drop out",
+    "prompt": "A photo of a prominent young student carrying a backpack, decisively turning and walking away from a university lecture hall door into the outside world, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "drop-out.webp"
+  },
+  {
+    "object": "marriage",
+    "prompt": "A photo of a prominent newlywed bride and groom smiling joyfully at each other in elegant wedding attire during their marriage ceremony, holding a floral bouquet, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "marriage.webp"
+  },
+  {
+    "object": "have a long marriage",
+    "prompt": "A photo of a prominent elderly couple in their seventies sitting side by side on a garden bench, tenderly holding hands and celebrating their long marriage, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "have-a-long-marriage.webp"
+  },
+  {
+    "object": "adopt",
+    "prompt": "A photo of a prominent loving mother and father warmly welcoming and embracing a happy young adopted child into their sunny family home, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "adopt.webp"
+  },
+  {
+    "object": "biological parents",
+    "prompt": "A photo of a prominent mother and father smiling warmly as they embrace their teenage daughter, with clear shared hereditary facial features and family resemblance, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "biological-parents.webp"
+  },
+  {
+    "object": "cancer",
+    "prompt": "A photo of a prominent compassionate doctor in a white coat consulting with a patient in an oncology clinic, reviewing medical diagnostic charts, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "cancer.webp"
+  },
+  {
+    "object": "pass away",
+    "prompt": "A photo of a prominent peaceful memorial table setting with a gently glowing candle, delicate white lilies, and soft warm lighting honoring someone who has passed away, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "pass-away.webp"
+  },
+  {
+    "object": "death",
+    "prompt": "A photo of a prominent solemn stone memorial monument adorned with commemorative wreaths in a quiet historical cemetery at dusk, honoring lives lost, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "death.webp"
+  },
+  {
+    "object": "genius",
+    "prompt": "A photo of a prominent brilliant young intellectual sitting at a study desk, deeply absorbed in solving intricate scientific and mathematical equations on a large chalkboard, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "genius.webp"
+  },
+  {
+    "object": "visionary",
+    "prompt": "A photo of a prominent visionary leader standing in profile next to a high-rise glass window, thoughtfully gazing out over an innovative sustainable futuristic city at sunrise, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "visionary.webp"
+  },
+  {
+    "object": "determination",
+    "prompt": "A photo of a prominent athlete with intense determination in their eyes, breathing heavily and pushing with all their might along a rainy running track, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "determination.webp"
+  },
+  {
+    "object": "ambitious",
+    "prompt": "A photo of a prominent ambitious young professional standing confidently in a sleek high-floor corporate office, studying a global strategic expansion chart, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "ambitious.webp"
+  },
+  {
+    "object": "well educated",
+    "prompt": "A photo of a prominent well-educated scholar seated comfortably in a majestic classical university library, engrossed in an ancient academic volume, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "well-educated.webp"
+  },
+  {
+    "object": "dedicated to",
+    "prompt": "A photo of a prominent dedicated medical doctor in scrubs leaning over a bedside, providing caring and attentive treatment to a sick patient in a rural clinic, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "dedicated-to.webp"
+  },
+  {
+    "object": "devote to",
+    "prompt": "A photo of a prominent devoted scientist working late at night in a laboratory, completely immersed in observing specimens under a microscope to devote their life to science, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "devote-to.webp"
+  },
+  {
+    "object": "admire",
+    "prompt": "A photo of a prominent group of young students looking up with expressions of genuine wonder and admiration at an inspiring historical hero, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "admire.webp"
+  },
+  {
+    "object": "be admired for",
+    "prompt": "A photo of a prominent inspiring female leader standing center stage, receiving a warm standing ovation and applause from an appreciative audience, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "be-admired-for.webp"
+  },
+  {
+    "object": "bond over",
+    "prompt": "A photo of prominent two teenage friends sitting on a park lawn laughing and bonding over acoustic guitars and shared sheet music, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "bond-over.webp"
+  },
+  {
+    "object": "achievement",
+    "prompt": "A photo of a prominent proud student in graduation cap and gown holding up a graduation diploma scroll with a beaming smile of accomplishment, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "achievement.webp"
+  },
+  {
+    "object": "impressive achievement",
+    "prompt": "A photo of a prominent distinguished scientist holding a glittering international gold medal and trophy under bright stage spotlights for an impressive achievement, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "impressive-achievement.webp"
+  },
+  {
+    "object": "national hero",
+    "prompt": "A photo of a prominent majestic bronze statue of a patriotic national hero holding a scroll, standing tall in a historic city public square under clear blue sky, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "national-hero.webp"
+  },
+  {
+    "object": "military genius",
+    "prompt": "A photo of a prominent historical military genius in formal general's uniform in a strategy command tent, pointing with tactical precision at a battlefield map, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "military-genius.webp"
+  },
+  {
+    "object": "cutting-edge technology",
+    "prompt": "A photo of a prominent cutting-edge technology lab displaying advanced quantum computer processors, robotic manipulators, and luminous optical circuits, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "cutting-edge-technology.webp"
+  },
+  {
+    "object": "blockbuster",
+    "prompt": "A photo of a prominent grand cinema theater at night during a premiere, with bright neon signs, a towering movie billboard, and excited crowds flocking to see a blockbuster, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "blockbuster.webp"
+  },
+  {
+    "object": "tourist attraction",
+    "prompt": "A photo of a prominent world-famous historic stone citadel castle serving as a popular tourist attraction, with visitors strolling and taking photos on a sunny day, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "tourist-attraction.webp"
+  },
+  {
+    "object": "theme park",
+    "prompt": "A photo of a prominent magical theme park entrance with a towering fairytale castle, bustling pedestrian avenues, and thrilling roller coasters looping in the background, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "theme-park.webp"
+  },
+  {
+    "object": "rule",
+    "prompt": "A photo of a prominent majestic historic monarch wearing an ornate crown and royal mantle, seated firmly on an imperial throne holding a royal scepter, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "rule.webp"
+  },
+  {
+    "object": "kingdom",
+    "prompt": "A photo of a prominent vast medieval kingdom landscape with a fortified royal castle, medieval village cottages, and a winding river across lush green valleys, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "kingdom.webp"
+  },
+  {
+    "object": "independent",
+    "prompt": "A photo of prominent enthusiastic citizens waving national flags together in a sun-drenched capital square, celebrating their independent free nation, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "independent.webp"
+  },
+  {
+    "object": "defeat",
+    "prompt": "A photo of a prominent victorious historical commander raising his hand in triumph on a fortress battlement while opposing forces acknowledge defeat, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "defeat.webp"
+  },
+  {
+    "object": "resistance war",
+    "prompt": "A photo of prominent brave patriotic resistance fighters wearing guerrilla attire, marching determinedly through dense tropical jungle during a historical resistance war, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "resistance-war.webp"
+  },
+  {
+    "object": "surgeon",
+    "prompt": "A photo of a prominent skilled surgeon in sterile surgical scrubs, protective mask, and cap, performing a critical operation under bright operating room lights, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "surgeon.webp"
+  },
+  {
+    "object": "field hospital",
+    "prompt": "A photo of a prominent military field hospital tent set up in a forest clearing, with dedicated doctors and nurses caring for patients on canvas cots, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "field-hospital.webp"
+  },
+  {
+    "object": "carry out attacks",
+    "prompt": "A photo of prominent camouflaged tactical soldiers maneuvering covertly through thick forest cover to carry out strategic attacks, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "carry-out-attacks.webp"
+  },
+  {
+    "object": "biography",
+    "prompt": "A photo of a prominent elegant hardcover biography book resting open on an antique wooden study desk beside vintage round spectacles and an ink pen, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "biography.webp"
+  },
+  {
+    "object": "account",
+    "prompt": "A photo of a prominent elderly war veteran sitting in an armchair, using expressive hand gestures to recount a dramatic eyewitness account to an attentive listener, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "account.webp"
+  },
+  {
+    "object": "animator",
+    "prompt": "A photo of a prominent talented animator sitting at a modern creative workstation, drawing animated character frames on an illuminated digital graphics display, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "animator.webp"
+  },
+  {
+    "object": "film producer",
+    "prompt": "A photo of a prominent film producer wearing headphones on an active movie set, discussing camera framing and scene composition with directors beside movie equipment, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "film-producer.webp"
+  },
+  {
+    "object": "computer animation",
+    "prompt": "A photo of a prominent dual-monitor digital workstation showcasing detailed 3D computer animation modeling and character rig animation, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "computer-animation.webp"
+  },
+  {
+    "object": "on top of the world",
+    "prompt": "A photo of a prominent ecstatic hiker standing triumphantly with arms spread wide on a dramatic mountain summit above rolling clouds at sunrise, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "on-top-of-the-world.webp"
+  },
+  {
+    "object": "on cloud nine",
+    "prompt": "A modern digital illustration of a prominent blissfully happy person smiling and lounging comfortably on a fluffy white cloud drifting across a serene pastel blue sky, highly detailed, 8k, don't add any text to the image",
+    "filename": "on-cloud-nine.webp"
+  },
+  {
+    "object": "over the moon",
+    "prompt": "A whimsical modern digital illustration of a prominent joyful character leaping with pure delight over a glowing golden crescent moon in a starry night sky, highly detailed, 8k, don't add any text to the image",
+    "filename": "over-the-moon.webp"
+  }
+]

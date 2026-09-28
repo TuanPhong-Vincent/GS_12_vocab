@@ -1,0 +1,88 @@
+{
+  "id": "8",
+  "type": "sentence_ordering_multiple_choice",
+  "title": "Put the sentences in the correct order",
+  "description": "Read the sentences and choose the correct order to form a logical paragraph or conversation.",
+  "questions": [
+    {
+      "id": "1",
+      "sentences": [
+        "a. City residents can explore authentic international dishes and celebrate world festivals without traveling abroad.",
+        "b. Many modern metropolitan areas across the globe are home to residents from diverse ethnic backgrounds.",
+        "c. Living in such an environment helps individuals develop greater cultural empathy and global awareness.",
+        "d. This widespread diversity enriches urban life by introducing different artistic traditions, languages, and culinary practices."
+      ],
+      "options": [
+        "d-b-a-c",
+        "a-d-b-c",
+        "b-d-a-c",
+        "b-a-d-c"
+      ],
+      "correct_answer": "b-d-a-c"
+    },
+    {
+      "id": "2",
+      "sentences": [
+        "a. Anna: 'Yes, our committee agreed to showcase spring rolls and grilled lemongrass pork.'",
+        "b. Anna: 'Don't worry, my parents offered to buy the fresh herbs and rice paper from the morning market.'",
+        "c. Nam: 'Are we still setting up an international food stall for next week's school festival?'",
+        "d. Nam: 'That sounds delicious, but will we have enough ingredients to serve all the visitors?'"
+      ],
+      "options": [
+        "a-c-d-b",
+        "c-d-a-b",
+        "d-b-c-a",
+        "c-a-d-b"
+      ],
+      "correct_answer": "c-a-d-b"
+    },
+    {
+      "id": "3",
+      "sentences": [
+        "a. These young apprentices gradually master the ancestral patterns and glaze recipes passed down through generations.",
+        "b. Local artisans patiently teach their children the delicate technique of shaping clay on revolving wooden wheels.",
+        "c. Their dedication ensures that the cherished family craft continues to thrive in an era of mass production.",
+        "d. Handcrafted ceramic making has been preserved in this riverside village for over three centuries."
+      ],
+      "options": [
+        "d-a-b-c",
+        "d-b-a-c",
+        "a-b-d-c",
+        "b-d-a-c"
+      ],
+      "correct_answer": "d-b-a-c"
+    },
+    {
+      "id": "4",
+      "sentences": [
+        "a. Alex: 'How did you manage to overcome culture shock when you first studied abroad in London?'",
+        "b. Huy: 'I made local friends through the campus badminton club, which helped me understand daily cultural norms.'",
+        "c. Huy: 'At first, I felt overwhelmed by the fast pace and unfamiliar commuting habits.'",
+        "d. Alex: 'Did you find any effective strategies to feel more comfortable in that new environment?'"
+      ],
+      "options": [
+        "a-c-d-b",
+        "c-a-d-b",
+        "d-b-a-c",
+        "a-d-c-b"
+      ],
+      "correct_answer": "a-c-d-b"
+    },
+    {
+      "id": "5",
+      "sentences": [
+        "a. Today, the festival has evolved into a global commercial celebration centered around trick-or-treating and creative disguises.",
+        "b. Over time, European emigrants carried these seasonal customs across the Atlantic to North America.",
+        "c. People believed that protective bonfires and costumes would ward off roaming spirits during the dark winter transition.",
+        "d. The origins of Halloween date back more than two thousand years to an ancient Celtic harvest celebration."
+      ],
+      "options": [
+        "b-d-c-a",
+        "d-c-b-a",
+        "d-b-c-a",
+        "c-d-b-a"
+      ],
+      "correct_answer": "d-c-b-a"
+    }
+  ]
+}

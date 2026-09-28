@@ -1,0 +1,70 @@
+{
+  "id": "6",
+  "type": "fill_in_blanks",
+  "title": "Fill in the Blanks",
+  "description": "Complete each sentence with the correct word from the box.",
+  "word_box": [
+    "genius",
+    "kingdom",
+    "childhood",
+    "animator",
+    "surgeon",
+    "defeat",
+    "adopt",
+    "biography",
+    "blockbuster",
+    "determination"
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "text": "Arthur spent his entire __________ on a quiet sheep farm in the Scottish highlands.",
+      "correct_answer": "childhood"
+    },
+    {
+      "id": "2",
+      "text": "A kind couple decided to __________ two orphaned siblings and raise them as their own children.",
+      "correct_answer": "adopt"
+    },
+    {
+      "id": "3",
+      "text": "Even as a young boy, Wolfgang was hailed as a musical __________ who could compose concertos at age five.",
+      "correct_answer": "genius"
+    },
+    {
+      "id": "4",
+      "text": "Despite fracturing his ankle in the qualifiers, the sprinter demonstrated extraordinary __________ to finish the race.",
+      "correct_answer": "determination"
+    },
+    {
+      "id": "5",
+      "text": "With stunning special effects and a superstar cast, the sci-fi adventure became a summer __________.",
+      "correct_answer": "blockbuster"
+    },
+    {
+      "id": "6",
+      "text": "The ancient monarch expanded his vast __________ by signing trade agreements with neighboring lands.",
+      "correct_answer": "kingdom"
+    },
+    {
+      "id": "7",
+      "text": "The chess grandmaster managed to __________ his fiercest rival after five grueling hours of play.",
+      "correct_answer": "defeat"
+    },
+    {
+      "id": "8",
+      "text": "The experienced chief __________ performed the delicate coronary bypass operation with complete precision.",
+      "correct_answer": "surgeon"
+    },
+    {
+      "id": "9",
+      "text": "Emily spent months researching historical archives before writing an acclaimed __________ of the astronomer.",
+      "correct_answer": "biography"
+    },
+    {
+      "id": "10",
+      "text": "The creative digital __________ drew hundreds of storyboard sketches to bring the cartoon dragon to life.",
+      "correct_answer": "animator"
+    }
+  ]
+}

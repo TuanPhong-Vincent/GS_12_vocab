@@ -1,0 +1,63 @@
+{
+  "id": "10",
+  "type": "multiple_choice",
+  "title": "Multiple Choice - Opposite in Meaning",
+  "description": "Choose the word or phrase OPPOSITE in meaning to the underlined part.",
+  "questions": [
+    {
+      "id": "1",
+      "text": "Moving into a completely [unfamiliar] neighborhood can initially cause anxiety for young students living away from home.",
+      "options": [
+        "crowded",
+        "mysterious",
+        "well-known",
+        "distant"
+      ],
+      "correct_answer": "well-known"
+    },
+    {
+      "id": "2",
+      "text": "The sudden [popularity] of folk music workshops attracted hundreds of high school students every Saturday.",
+      "options": [
+        "obscurity",
+        "success",
+        "fame",
+        "affection"
+      ],
+      "correct_answer": "obscurity"
+    },
+    {
+      "id": "3",
+      "text": "Through community volunteer work, teenagers learn to [appreciate] the cultural contributions of elderly craftspeople.",
+      "options": [
+        "cherish",
+        "admire",
+        "disregard",
+        "respect"
+      ],
+      "correct_answer": "disregard"
+    },
+    {
+      "id": "4",
+      "text": "Skilled culinary chefs know how to seamlessly [blend] contrasting spices without overwhelming the palate.",
+      "options": [
+        "harmonize",
+        "separate",
+        "combine",
+        "marinate"
+      ],
+      "correct_answer": "separate"
+    },
+    {
+      "id": "5",
+      "text": "Citizens gathered in the central plaza to [celebrate] their national sporting triumph with songs and fireworks.",
+      "options": [
+        "commemorate",
+        "salute",
+        "rejoice",
+        "mourn"
+      ],
+      "correct_answer": "mourn"
+    }
+  ]
+}

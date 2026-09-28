@@ -1,0 +1,70 @@
+{
+  "id": "6",
+  "type": "fill_in_blanks",
+  "title": "Fill in the Blanks",
+  "description": "Complete each sentence with the correct word from the box.",
+  "word_box": [
+    "fruit peel",
+    "metal straw",
+    "cardboard box",
+    "harm wild animals",
+    "separate garbage",
+    "reusable bottle",
+    "plant pot",
+    "decompose",
+    "bird feeder",
+    "rinse out"
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "text": "The online bookstore packs every textbook parcel into a sturdy __________ before shipping.",
+      "correct_answer": "cardboard box"
+    },
+    {
+      "id": "2",
+      "text": "Fallen maple leaves and organic fruit cores take several weeks to __________ under warm, damp soil.",
+      "correct_answer": "decompose"
+    },
+    {
+      "id": "3",
+      "text": "Before leaving for soccer training, Minh always fills his stainless steel __________ with cold water.",
+      "correct_answer": "reusable bottle"
+    },
+    {
+      "id": "4",
+      "text": "You should thoroughly __________ empty juice cartons before placing them into the recycling bin.",
+      "correct_answer": "rinse out"
+    },
+    {
+      "id": "5",
+      "text": "Sanitation regulations instruct residents to __________ into distinct organic and dry rubbish bins.",
+      "correct_answer": "separate garbage"
+    },
+    {
+      "id": "6",
+      "text": "Instead of taking a single-use plastic straw for her smoothie, Lan sips through a washable __________.",
+      "correct_answer": "metal straw"
+    },
+    {
+      "id": "7",
+      "text": "Adding discarded orange rind and apple __________ to the compost bin enriches garden soil naturally.",
+      "correct_answer": "fruit peel"
+    },
+    {
+      "id": "8",
+      "text": "Grandpa built a wooden __________ and hung it on the oak branch so local birds can feed in winter.",
+      "correct_answer": "bird feeder"
+    },
+    {
+      "id": "9",
+      "text": "We painted an old tin can and turned it into a charming __________ for fresh green basil.",
+      "correct_answer": "plant pot"
+    },
+    {
+      "id": "10",
+      "text": "Disposing of plastic rings and fishing nets near natural rivers can seriously __________.",
+      "correct_answer": "harm wild animals"
+    }
+  ]
+}

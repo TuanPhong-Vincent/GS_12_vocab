@@ -1,0 +1,138 @@
+{
+  "id": "5",
+  "type": "write_english_words",
+  "title": "Write English words",
+  "description": "Write the English word for each Vietnamese meaning below.",
+  "questions": [
+    {
+      "id": "1",
+      "parts": [
+        {
+          "vietnamese": "sự đa dạng văn hóa",
+          "correct_answer": "cultural diversity"
+        },
+        {
+          "vietnamese": "sự toàn cầu hóa",
+          "correct_answer": "globalisation"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "parts": [
+        {
+          "vietnamese": "bản sắc, danh tính",
+          "correct_answer": "identity"
+        },
+        {
+          "vietnamese": "cú sốc văn hóa",
+          "correct_answer": "culture shock"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "parts": [
+        {
+          "vietnamese": "đa văn hóa",
+          "correct_answer": "multicultural"
+        },
+        {
+          "vietnamese": "giao lưu văn hóa, xuyên văn hóa",
+          "correct_answer": "cross-cultural"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "parts": [
+        {
+          "vietnamese": "rào cản ngôn ngữ",
+          "correct_answer": "language barrier"
+        },
+        {
+          "vietnamese": "giao lưu văn hóa",
+          "correct_answer": "culture exchange"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "parts": [
+        {
+          "vietnamese": "phong tục, tập quán",
+          "correct_answer": "custom"
+        },
+        {
+          "vietnamese": "truyền thống",
+          "correct_answer": "tradition"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "parts": [
+        {
+          "vietnamese": "trang phục, y phục lễ hội",
+          "correct_answer": "costume"
+        },
+        {
+          "vietnamese": "lễ hội hóa trang, ngày hội",
+          "correct_answer": "carnival"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "parts": [
+        {
+          "vietnamese": "đèn lồng quả bí ngô",
+          "correct_answer": "pumpkin lantern"
+        },
+        {
+          "vietnamese": "ngôi nhà ma ám",
+          "correct_answer": "haunted house"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "parts": [
+        {
+          "vietnamese": "nền ẩm thực, phong cách nấu nướng",
+          "correct_answer": "cuisine"
+        },
+        {
+          "vietnamese": "đặc sản, món đặc trưng",
+          "correct_answer": "speciality"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "parts": [
+        {
+          "vietnamese": "nguyên liệu, thành phần",
+          "correct_answer": "ingredient"
+        },
+        {
+          "vietnamese": "quầy bán đồ ăn, gian hàng ẩm thực",
+          "correct_answer": "food stall"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "parts": [
+        {
+          "vietnamese": "điểm thu hút khách du lịch, điểm tham quan",
+          "correct_answer": "tourist attraction"
+        },
+        {
+          "vietnamese": "đồ lưu niệm",
+          "correct_answer": "souvenir"
+        }
+      ]
+    }
+  ]
+}

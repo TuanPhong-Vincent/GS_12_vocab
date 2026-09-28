@@ -1,0 +1,108 @@
+{
+  "id": "4",
+  "type": "pic_to_word",
+  "title": "Write the English Words for the Pictures",
+  "description": "Look at each picture and write the correct English word in the blank.",
+  "questions": [
+    {
+      "id": "1",
+      "image": "/lessons/media/gs12/unit-1/images/childhood.webp",
+      "correct_answer": "childhood"
+    },
+    {
+      "id": "2",
+      "image": "/lessons/media/gs12/unit-1/images/youth.webp",
+      "correct_answer": "youth"
+    },
+    {
+      "id": "3",
+      "image": "/lessons/media/gs12/unit-1/images/attend-school.webp",
+      "correct_answer": "attend school"
+    },
+    {
+      "id": "4",
+      "image": "/lessons/media/gs12/unit-1/images/attend-college.webp",
+      "correct_answer": "attend college"
+    },
+    {
+      "id": "5",
+      "image": "/lessons/media/gs12/unit-1/images/drop-out.webp",
+      "correct_answer": "drop out"
+    },
+    {
+      "id": "6",
+      "image": "/lessons/media/gs12/unit-1/images/marriage.webp",
+      "correct_answer": "marriage"
+    },
+    {
+      "id": "7",
+      "image": "/lessons/media/gs12/unit-1/images/have-a-long-marriage.webp",
+      "correct_answer": "have a long marriage"
+    },
+    {
+      "id": "8",
+      "image": "/lessons/media/gs12/unit-1/images/adopt.webp",
+      "correct_answer": "adopt"
+    },
+    {
+      "id": "9",
+      "image": "/lessons/media/gs12/unit-1/images/biological-parents.webp",
+      "correct_answer": "biological parents"
+    },
+    {
+      "id": "10",
+      "image": "/lessons/media/gs12/unit-1/images/genius.webp",
+      "correct_answer": "genius"
+    },
+    {
+      "id": "11",
+      "image": "/lessons/media/gs12/unit-1/images/visionary.webp",
+      "correct_answer": "visionary"
+    },
+    {
+      "id": "12",
+      "image": "/lessons/media/gs12/unit-1/images/determination.webp",
+      "correct_answer": "determination"
+    },
+    {
+      "id": "13",
+      "image": "/lessons/media/gs12/unit-1/images/well-educated.webp",
+      "correct_answer": "well educated"
+    },
+    {
+      "id": "14",
+      "image": "/lessons/media/gs12/unit-1/images/national-hero.webp",
+      "correct_answer": "national hero"
+    },
+    {
+      "id": "15",
+      "image": "/lessons/media/gs12/unit-1/images/military-genius.webp",
+      "correct_answer": "military genius"
+    },
+    {
+      "id": "16",
+      "image": "/lessons/media/gs12/unit-1/images/cutting-edge-technology.webp",
+      "correct_answer": "cutting-edge technology"
+    },
+    {
+      "id": "17",
+      "image": "/lessons/media/gs12/unit-1/images/tourist-attraction.webp",
+      "correct_answer": "tourist attraction"
+    },
+    {
+      "id": "18",
+      "image": "/lessons/media/gs12/unit-1/images/theme-park.webp",
+      "correct_answer": "theme park"
+    },
+    {
+      "id": "19",
+      "image": "/lessons/media/gs12/unit-1/images/rule.webp",
+      "correct_answer": "rule"
+    },
+    {
+      "id": "20",
+      "image": "/lessons/media/gs12/unit-1/images/kingdom.webp",
+      "correct_answer": "kingdom"
+    }
+  ]
+}

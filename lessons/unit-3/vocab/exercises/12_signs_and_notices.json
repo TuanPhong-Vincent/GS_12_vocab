@@ -1,0 +1,148 @@
+{
+  "id": "12",
+  "type": "signs_and_notices",
+  "title": "Signs and Notices",
+  "description": "Read the sign or notice and choose the correct meaning.",
+  "questions": [
+    {
+      "id": "1",
+      "sign_type": "image",
+      "sign_image": "images/sign_1.png",
+      "sign_text": "A circular red prohibition sign on a clean white background featuring a bold red circle with a diagonal red slash across a black silhouette icon of a single-use plastic takeaway cup and plastic straw, centered and filling 90% of the square canvas, NO outer border frame, NO inner border box, NO text or words of any kind.",
+      "question": "What does the sign mean?",
+      "options": [
+        "Recycling plastic containers is forbidden.",
+        "Disposable plastic drinkware is banned here.",
+        "You must purchase takeaway drinks in cups.",
+        "Visitors are required to discard straws here."
+      ],
+      "correct_answer": "Disposable plastic drinkware is banned here."
+    },
+    {
+      "id": "2",
+      "sign_type": "image",
+      "sign_image": "images/sign_2.png",
+      "sign_text": "A circular red prohibition sign on a clean white background featuring a bold red circle with a diagonal red slash across a black silhouette icon of a chemical canister pouring toxic liquid into a drain grill, centered and filling 90% of the square canvas, NO outer border frame, NO inner border box, NO text or words of any kind.",
+      "question": "What does the sign say?",
+      "options": [
+        "Pouring chemical pollutants down the drain is strictly prohibited.",
+        "Cleaning the storm drainage pipes with water is fully mandatory.",
+        "Workers must collect chemical canisters from public drainage grills.",
+        "Dumping clean tap water into industrial containers is not allowed."
+      ],
+      "correct_answer": "Pouring chemical pollutants down the drain is strictly prohibited."
+    },
+    {
+      "id": "3",
+      "sign_type": "image",
+      "sign_image": "images/sign_3.png",
+      "sign_text": "A circular blue mandatory safety sign on a clean white background featuring a solid blue circle containing a crisp white graphic symbol of a reusable fabric shopping tote bag, centered and filling 90% of the square canvas, NO outer border frame, NO inner border box, NO text or words of any kind.",
+      "question": "What does the sign say?",
+      "options": [
+        "You must leave your fabric tote bags outside before purchasing.",
+        "Disposable plastic bags will be handed out free at all checkouts.",
+        "Packaging items into plastic cardboard boxes is strictly required.",
+        "Shoppers are expected to bring their own reusable shopping bags."
+      ],
+      "correct_answer": "Shoppers are expected to bring their own reusable shopping bags."
+    },
+    {
+      "id": "4",
+      "sign_type": "image",
+      "sign_image": "images/sign_4.png",
+      "sign_text": "An equilateral triangular warning hazard sign on a clean white background with a thick black border and bright yellow interior featuring a black silhouette symbol of raging fire flames burning among pine tree silhouettes, centered and filling 90% of the square canvas, NO outer border frame, NO inner border box, NO text or words of any kind.",
+      "question": "What does the sign say?",
+      "options": [
+        "Setting up small campfires near dense trees is officially permitted.",
+        "Be cautious because the surrounding woodland faces high wildfire risk.",
+        "Campers are required to burn dry fallen pine branches along the trail.",
+        "Watch out for forestry workers planting fresh pine saplings nearby."
+      ],
+      "correct_answer": "Be cautious because the surrounding woodland faces high wildfire risk."
+    },
+    {
+      "id": "5",
+      "sign_type": "image",
+      "sign_image": "images/sign_5.png",
+      "sign_text": "An equilateral triangular warning hazard sign on a clean white background with a thick black border and bright yellow interior featuring a black silhouette icon of a gas cylinder emitting flammable vapor clouds above an organic waste mound, centered and filling 90% of the square canvas, NO outer border frame, NO inner border box, NO text or words of any kind.",
+      "question": "What does the sign mean?",
+      "options": [
+        "Watch out for flammable methane gas build-up in the landfill area.",
+        "Workers must empty compressed gas canisters into organic soil bins.",
+        "Caution as industrial gas cylinders are being refilled with water.",
+        "Organic fertilizer bags are stored safely inside the facility yard."
+      ],
+      "correct_answer": "Watch out for flammable methane gas build-up in the landfill area."
+    },
+    {
+      "id": "6",
+      "sign_type": "image",
+      "sign_image": "images/sign_6.png",
+      "sign_text": "Full-bleed square graphic design, 100% edge-to-edge layout filling the entire square image canvas with zero outer background margins, dark brushed aluminum sign texture, bold green and white mixed-case lettering stating 'Solar Power Hub: Active Charging In Progress. Clean Renewable Energy Currently Supplying 100% Of Hallway Lighting.', accompanied by clean minimalist solar panel and battery icons, high contrast, maximum readability.",
+      "question": "What does the notice tell us?",
+      "options": [
+        "Technicians have turned off the solar battery bank due to electrical faults.",
+        "Students must not charge laptops using the building solar power system.",
+        "The campus will install new solar panels when conventional power fails.",
+        "The hallway lighting is currently powered entirely by solar green energy."
+      ],
+      "correct_answer": "The hallway lighting is currently powered entirely by solar green energy."
+    },
+    {
+      "id": "7",
+      "sign_type": "image",
+      "sign_image": "images/sign_7.png",
+      "sign_text": "Full-bleed square graphic design, 100% edge-to-edge layout filling the entire square image canvas with zero outer background margins, textured yellow sticky note paper filling the frame, casual handwritten note stating: 'Hi Mark, please don't toss apple peelings or watermelon rinds into the trash can. Put them in the small green counter container for our compost pile! Thanks, Mai', with a small doodle of an apple core.",
+      "question": "What does the note say?",
+      "options": [
+        "Watermelon rinds and apples must be stored inside the refrigerator.",
+        "The green counter container is intended for non-recyclable garbage.",
+        "Mark should deposit his organic fruit scraps into the composting box.",
+        "Mai wants Mark to empty the general trash bin before lunchtime today."
+      ],
+      "correct_answer": "Mark should deposit his organic fruit scraps into the composting box."
+    },
+    {
+      "id": "8",
+      "sign_type": "image",
+      "sign_image": "images/sign_8.png",
+      "sign_text": "Full-bleed square graphic design, 100% edge-to-edge layout filling the entire square image canvas with zero outer background margins, clean modern email interface layout, header showing 'From: Green Campus Committee / Subject: Sensor Taps & Automatic Lights Installation', body text reading 'Dear staff and students, all public restrooms now feature sensor taps, and automatic lights have been fitted in hallways. Please report any dripping valves promptly.', clear typography, high contrast.",
+      "question": "What does the email say?",
+      "options": [
+        "Students are asked to manually turn off hallway lights between lectures.",
+        "All campus restrooms will be closed while plumbers test water valves.",
+        "Restroom sensor taps have broken down and will undergo repairs soon.",
+        "New automated fixtures have been installed to save water and electricity."
+      ],
+      "correct_answer": "New automated fixtures have been installed to save water and electricity."
+    },
+    {
+      "id": "9",
+      "sign_type": "image",
+      "sign_image": "images/sign_9.png",
+      "sign_text": "Full-bleed square graphic design, 100% edge-to-edge layout filling the entire square image canvas with zero outer background margins, vibrant emerald green chalk board texture with stylish café typography, heading 'Zero-Waste Coffee Club', body stating 'Bring your own reusable cup or thermos flask and receive 20% off all beverages. Help us eliminate 50,000 single-use paper cups this year!', decorated with vector coffee cup and leaf icons.",
+      "question": "What does the notice tell us?",
+      "options": [
+        "Customers get a beverage discount if they bring a reusable travel cup.",
+        "Paper cups are provided at a twenty percent reduction for members.",
+        "The café will no longer sell beverages to people without cash cards.",
+        "Free coffee will be served to patrons who purchase disposable cups."
+      ],
+      "correct_answer": "Customers get a beverage discount if they bring a reusable travel cup."
+    },
+    {
+      "id": "10",
+      "sign_type": "image",
+      "sign_image": "images/sign_10.png",
+      "sign_text": "Full-bleed square graphic design, 100% edge-to-edge layout filling the entire square image canvas with zero outer background margins, illustrated modern event poster on textured cream card, headline 'Annual Canal Clean-Up Day', subtext 'Sunday 8 AM at North Bridge. Gloves and rubbish bags provided. Join us to remove plastic litter and protect wild river birds! Free eco-snack provided.', clean typography, stylized river illustration.",
+      "question": "What does the flyer say?",
+      "options": [
+        "Local wild birds are being relocated to safety before construction.",
+        "The annual clean-up event has been rescheduled due to severe rain.",
+        "Volunteers will receive gloves and bags to clear litter from the canal.",
+        "Participants must bring their own heavy rubbish bins to the bridge."
+      ],
+      "correct_answer": "Volunteers will receive gloves and bags to clear litter from the canal."
+    }
+  ]
+}

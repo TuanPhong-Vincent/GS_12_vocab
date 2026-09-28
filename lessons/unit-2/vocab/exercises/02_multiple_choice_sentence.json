@@ -1,0 +1,118 @@
+{
+  "id": "2",
+  "type": "multiple_choice",
+  "title": "Multiple Choice - Sentence Completion",
+  "description": "Choose the correct word to complete the sentence.",
+  "questions": [
+    {
+      "id": "1",
+      "text": "The international school hosted a __________ forum where students from Asia and Europe shared historical perspectives.",
+      "options": [
+        "multicultural",
+        "cross-cultural",
+        "festivities",
+        "unfamiliar"
+      ],
+      "correct_answer": "cross-cultural"
+    },
+    {
+      "id": "2",
+      "text": "Driving across the misty mountain pass at night proved difficult because the narrow roads were completely __________ to the driver.",
+      "options": [
+        "traditional",
+        "multicultural",
+        "unfamiliar",
+        "cross-cultural"
+      ],
+      "correct_answer": "unfamiliar"
+    },
+    {
+      "id": "3",
+      "text": "Archaeological evidence indicates that early pottery techniques did not __________ in the lowlands, but in remote highland valleys.",
+      "options": [
+        "captivate",
+        "appreciate",
+        "celebrate",
+        "originate"
+      ],
+      "correct_answer": "originate"
+    },
+    {
+      "id": "4",
+      "text": "The coastal village came alive with joyful __________ as acoustic bands performed and colorful lanterns illuminated the harbor.",
+      "options": [
+        "ingredients",
+        "souvenirs",
+        "festivities",
+        "specialities"
+      ],
+      "correct_answer": "festivities"
+    },
+    {
+      "id": "5",
+      "text": "Each theatrical performer stepped onto the stage wearing an elaborate historical __________ made of embroidered silk and lace.",
+      "options": [
+        "ingredient",
+        "souvenir",
+        "origin",
+        "costume"
+      ],
+      "correct_answer": "costume"
+    },
+    {
+      "id": "6",
+      "text": "Mediterranean __________ emphasizes cold-pressed olive oil, fresh garlic, fragrant herbs, and abundant grilled seafood.",
+      "options": [
+        "carnival",
+        "festivity",
+        "popularity",
+        "cuisine"
+      ],
+      "correct_answer": "cuisine"
+    },
+    {
+      "id": "7",
+      "text": "Aromatic star anise is a primary __________ that gives traditional pho broth its signature warm and comforting fragrance.",
+      "options": [
+        "attraction",
+        "ingredient",
+        "costume",
+        "souvenir"
+      ],
+      "correct_answer": "ingredient"
+    },
+    {
+      "id": "8",
+      "text": "Shopping for upcycled garments at weekend flea markets has become a stylish eco-friendly __________ among high school teenagers.",
+      "options": [
+        "barrier",
+        "origin",
+        "trend",
+        "custom"
+      ],
+      "correct_answer": "trend"
+    },
+    {
+      "id": "9",
+      "text": "Modern interior architects often __________ raw concrete walls with polished wood surfaces to produce a balanced, contemporary look.",
+      "options": [
+        "blend",
+        "captivate",
+        "originate",
+        "celebrate"
+      ],
+      "correct_answer": "blend"
+    },
+    {
+      "id": "10",
+      "text": "Traditional Japanese woodblock prints exerted a notable __________ on European impressionist painters during the late nineteenth century.",
+      "options": [
+        "influence",
+        "costume",
+        "tradition",
+        "souvenir"
+      ],
+      "correct_answer": "influence"
+    }
+  ]
+}

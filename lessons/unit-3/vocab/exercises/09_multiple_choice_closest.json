@@ -1,0 +1,63 @@
+{
+  "id": "9",
+  "type": "multiple_choice",
+  "title": "Multiple Choice - Closest in Meaning",
+  "description": "Choose the word or phrase CLOSEST in meaning to the underlined part.",
+  "questions": [
+    {
+      "id": "1",
+      "text": "The hotel chain replaced plastic guest amenities with [eco-friendly] alternatives made from wheat straw.",
+      "options": [
+        "environmentally friendly",
+        "artificial",
+        "expensive",
+        "harmful"
+      ],
+      "correct_answer": "environmentally friendly"
+    },
+    {
+      "id": "2",
+      "text": "The floodwaters left the village well [contaminated] with untreated industrial chemicals and sewage.",
+      "options": [
+        "crystal-clear",
+        "potable",
+        "purified",
+        "polluted"
+      ],
+      "correct_answer": "polluted"
+    },
+    {
+      "id": "3",
+      "text": "Fallen autumn leaves slowly [decompose] in the forest, returning organic nutrients to the woodland soil.",
+      "options": [
+        "freeze solid",
+        "break down",
+        "expand rapidly",
+        "catch fire"
+      ],
+      "correct_answer": "break down"
+    },
+    {
+      "id": "4",
+      "text": "Urban planners are developing [sustainable] communities that rely on renewable solar power and green spaces.",
+      "options": [
+        "temporary",
+        "wasteful",
+        "long-lasting",
+        "destructive"
+      ],
+      "correct_answer": "long-lasting"
+    },
+    {
+      "id": "5",
+      "text": "Households are encouraged to [reduce] their power consumption during peak afternoon hours.",
+      "options": [
+        "cut down",
+        "ignore",
+        "double",
+        "increase"
+      ],
+      "correct_answer": "cut down"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "16",
+  "type": "translate_sentences",
+  "title": "Translation",
+  "description": "Translate the following sentences into English, using the vocabulary you have learned.",
+  "questions": [
+    {
+      "id": "1",
+      "vietnamese": "Chúng ta nên phân loại rác thải cẩn thận để bảo vệ môi trường.",
+      "correct_answer": "We should sort waste carefully to protect the environment."
+    },
+    {
+      "id": "2",
+      "vietnamese": "Đồ nhựa dùng một lần mất hàng trăm năm để phân hủy tự nhiên.",
+      "correct_answer": "Single-use plastics take hundreds of years to decompose naturally."
+    },
+    {
+      "id": "3",
+      "vietnamese": "Nhiều người mang theo bình nước dùng nhiều lần khi đi học.",
+      "correct_answer": "Many people carry a reusable bottle when going to school."
+    },
+    {
+      "id": "4",
+      "vietnamese": "Gia đình tôi ủ thức ăn thừa thành phân hữu cơ, điều này giúp giảm rác thải sinh hoạt.",
+      "correct_answer": "My family turns food leftovers into compost, which helps reduce household waste."
+    },
+    {
+      "id": "5",
+      "vietnamese": "Khí mê-tan từ các bãi chôn lấp là một loại khí nhà kính nguy hiểm.",
+      "correct_answer": "Methane from landfills is a dangerous greenhouse gas."
+    },
+    {
+      "id": "6",
+      "vietnamese": "Bạn nên súc sạch các hộp sữa trước khi bỏ chúng vào thùng tái chế.",
+      "correct_answer": "You should rinse out milk cartons before putting them into the recycling bin."
+    },
+    {
+      "id": "7",
+      "vietnamese": "Năng lượng xanh từ gió và mặt trời giúp cắt giảm lượng khí carbon dioxide.",
+      "correct_answer": "Green energy from wind and sun helps cut down on carbon dioxide."
+    },
+    {
+      "id": "8",
+      "vietnamese": "Tắt các thiết bị điện khi không sử dụng giúp ngăn ngừa sự lãng phí điện năng.",
+      "correct_answer": "Turning off electrical appliances when not in use helps prevent a waste of electricity."
+    },
+    {
+      "id": "9",
+      "vietnamese": "Học sinh sử dụng phương tiện giao thông công cộng để giảm dấu chân carbon của mình.",
+      "correct_answer": "Students use public transport to reduce their carbon footprint."
+    },
+    {
+      "id": "10",
+      "vietnamese": "Trường học lắp đặt vòi nước cảm ứng để tiết kiệm nước về lâu về dài.",
+      "correct_answer": "The school installed sensor taps to save water in the long run."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "6",
+  "type": "fill_in_blanks",
+  "title": "Fill in the Blanks",
+  "description": "Complete each sentence with the correct word from the box.",
+  "word_box": [
+    "language barrier",
+    "identity",
+    "extracurricular activity",
+    "trend",
+    "speciality",
+    "bamboo dancing",
+    "culture shock",
+    "popularity",
+    "costume",
+    "ingredient"
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "text": "Preserving ancestral storytelling helps minority communities maintain their unique cultural __________ in modern times.",
+      "correct_answer": "identity"
+    },
+    {
+      "id": "2",
+      "text": "The international student suffered from mild __________ during his initial weeks abroad because daily social customs felt so unfamiliar.",
+      "correct_answer": "culture shock"
+    },
+    {
+      "id": "3",
+      "text": "Even when foreign travelers face a steep __________, friendly smiles and helpful translation apps can establish immediate mutual understanding.",
+      "correct_answer": "language barrier"
+    },
+    {
+      "id": "4",
+      "text": "The stage actor spent several days hand-sewing an ornate ethnic __________ decorated with silver coins and colorful silk embroidery.",
+      "correct_answer": "costume"
+    },
+    {
+      "id": "5",
+      "text": "Clam chowder served in a toasted sourdough bowl is a world-famous coastal __________ that tourists always order when visiting the harbor.",
+      "correct_answer": "speciality"
+    },
+    {
+      "id": "6",
+      "text": "Fresh lemongrass is an indispensable __________ that imparts a vibrant citrus flavor to Southeast Asian soups and marinades.",
+      "correct_answer": "ingredient"
+    },
+    {
+      "id": "7",
+      "text": "Upcycling second-hand clothing has become a fashionable eco-friendly __________ among high school students who care about sustainability.",
+      "correct_answer": "trend"
+    },
+    {
+      "id": "8",
+      "text": "The sudden surge in the __________ of Korean street snacks has prompted many night markets to open tteokbokki stalls.",
+      "correct_answer": "popularity"
+    },
+    {
+      "id": "9",
+      "text": "Joining the youth debate society as an __________ enabled Nam to build valuable public speaking skills and expand his worldview.",
+      "correct_answer": "extracurricular activity"
+    },
+    {
+      "id": "10",
+      "text": "Guests at the cultural fair clapped rhythmically while watching performers leap skillfully over moving poles during a lively __________ demonstration.",
+      "correct_answer": "bamboo dancing"
+    }
+  ]
+}

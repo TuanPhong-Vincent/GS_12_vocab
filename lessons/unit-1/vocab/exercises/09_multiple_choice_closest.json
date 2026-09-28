@@ -1,0 +1,63 @@
+{
+  "id": "9",
+  "type": "multiple_choice",
+  "title": "Multiple Choice - Closest in Meaning",
+  "description": "Choose the word or phrase CLOSEST in meaning to the underlined part.",
+  "questions": [
+    {
+      "id": "1",
+      "text": "The young cellist displayed musical [genius] when she effortlessly improvised a complex classical piece without sheet music.",
+      "options": [
+        "average memory",
+        "careful habit",
+        "ordinary training",
+        "exceptional talent"
+      ],
+      "correct_answer": "exceptional talent"
+    },
+    {
+      "id": "2",
+      "text": "The company's chief architect was a true [visionary] who anticipated renewable energy trends decades ahead of competitors.",
+      "options": [
+        "forward-thinking leader",
+        "cautious investor",
+        "practical assistant",
+        "strict supervisor"
+      ],
+      "correct_answer": "forward-thinking leader"
+    },
+    {
+      "id": "3",
+      "text": "Completing a degree in astrophysics while working two night jobs was an [impressive achievement] for the young scholar.",
+      "options": [
+        "easy experiment",
+        "unpleasant task",
+        "remarkable accomplishment",
+        "common assignment"
+      ],
+      "correct_answer": "remarkable accomplishment"
+    },
+    {
+      "id": "4",
+      "text": "The veteran statesman was widely [admired for] his fairness and unwavering commitment to global peace.",
+      "options": [
+        "criticized for",
+        "respected for",
+        "blamed for",
+        "warned about"
+      ],
+      "correct_answer": "respected for"
+    },
+    {
+      "id": "5",
+      "text": "Many courageous patriots volunteered to fight in the [resistance war] to liberate their occupied homeland.",
+      "options": [
+        "cultural exchange festival",
+        "peaceful trade agreement",
+        "fight for national liberation",
+        "friendly border tournament"
+      ],
+      "correct_answer": "fight for national liberation"
+    }
+  ]
+}

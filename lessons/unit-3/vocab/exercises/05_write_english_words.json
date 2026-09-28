@@ -1,0 +1,138 @@
+{
+  "id": "5",
+  "type": "write_english_words",
+  "title": "Write English words",
+  "description": "Write the English word for each Vietnamese meaning below.",
+  "questions": [
+    {
+      "id": "1",
+      "parts": [
+        {
+          "vietnamese": "tái chế",
+          "correct_answer": "recycle"
+        },
+        {
+          "vietnamese": "tái sử dụng",
+          "correct_answer": "reuse"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "parts": [
+        {
+          "vietnamese": "cắt giảm, giảm thiểu",
+          "correct_answer": "reduce"
+        },
+        {
+          "vietnamese": "phân hủy (tự nhiên)",
+          "correct_answer": "decompose"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "parts": [
+        {
+          "vietnamese": "bao bì đóng gói",
+          "correct_answer": "packaging"
+        },
+        {
+          "vietnamese": "thân thiện với môi trường",
+          "correct_answer": "eco-friendly"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "parts": [
+        {
+          "vietnamese": "dấu chân carbon",
+          "correct_answer": "carbon footprint"
+        },
+        {
+          "vietnamese": "tài nguyên thiên nhiên",
+          "correct_answer": "natural resources"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "parts": [
+        {
+          "vietnamese": "bền vững",
+          "correct_answer": "sustainable"
+        },
+        {
+          "vietnamese": "lối sống không rác thải",
+          "correct_answer": "zero waste"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "parts": [
+        {
+          "vietnamese": "làm đầy lại, rót đầy lại",
+          "correct_answer": "refill"
+        },
+        {
+          "vietnamese": "tắt (thiết bị điện)",
+          "correct_answer": "turn off"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "parts": [
+        {
+          "vietnamese": "chất gây ô nhiễm",
+          "correct_answer": "pollutant"
+        },
+        {
+          "vietnamese": "biến đổi khí hậu",
+          "correct_answer": "climate change"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "parts": [
+        {
+          "vietnamese": "phương tiện giao thông công cộng",
+          "correct_answer": "public transport"
+        },
+        {
+          "vietnamese": "vòi nước cảm ứng",
+          "correct_answer": "sensor tap"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "parts": [
+        {
+          "vietnamese": "chậu trồng cây",
+          "correct_answer": "plant pot"
+        },
+        {
+          "vietnamese": "máng ăn cho chim",
+          "correct_answer": "bird feeder"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "parts": [
+        {
+          "vietnamese": "gây hại cho động vật hoang dã",
+          "correct_answer": "harm wild animals"
+        },
+        {
+          "vietnamese": "về lâu về dài",
+          "correct_answer": "in the long run"
+        }
+      ]
+    }
+  ]
+}

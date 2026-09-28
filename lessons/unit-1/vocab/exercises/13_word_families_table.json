@@ -1,0 +1,166 @@
+{
+  "id": "13",
+  "type": "word_families_table",
+  "title": "Word Families",
+  "description": "Complete the table below with different forms of each word. Some forms may not exist.",
+  "questions": [
+    {
+      "id": "1",
+      "base_word": "admire",
+      "base_word_type": "verb",
+      "verb": [
+        "admire"
+      ],
+      "noun": [
+        "admiration",
+        "admirer"
+      ],
+      "adjective": [
+        "admirable"
+      ],
+      "adverb": [
+        "admirably"
+      ]
+    },
+    {
+      "id": "2",
+      "base_word": "achievement",
+      "base_word_type": "noun",
+      "verb": [
+        "achieve"
+      ],
+      "noun": [
+        "achievement"
+      ],
+      "adjective": [
+        "achievable"
+      ],
+      "adverb": []
+    },
+    {
+      "id": "3",
+      "base_word": "determination",
+      "base_word_type": "noun",
+      "verb": [
+        "determine"
+      ],
+      "noun": [
+        "determination"
+      ],
+      "adjective": [
+        "determined"
+      ],
+      "adverb": [
+        "determinedly"
+      ]
+    },
+    {
+      "id": "4",
+      "base_word": "ambitious",
+      "base_word_type": "adjective",
+      "verb": [],
+      "noun": [
+        "ambition"
+      ],
+      "adjective": [
+        "ambitious"
+      ],
+      "adverb": [
+        "ambitiously"
+      ]
+    },
+    {
+      "id": "5",
+      "base_word": "independent",
+      "base_word_type": "adjective",
+      "verb": [],
+      "noun": [
+        "independence"
+      ],
+      "adjective": [
+        "independent"
+      ],
+      "adverb": [
+        "independently"
+      ]
+    },
+    {
+      "id": "6",
+      "base_word": "devote",
+      "base_word_type": "verb",
+      "verb": [
+        "devote"
+      ],
+      "noun": [
+        "devotion"
+      ],
+      "adjective": [
+        "devoted"
+      ],
+      "adverb": [
+        "devotedly"
+      ]
+    },
+    {
+      "id": "7",
+      "base_word": "animator",
+      "base_word_type": "noun",
+      "verb": [
+        "animate"
+      ],
+      "noun": [
+        "animator",
+        "animation"
+      ],
+      "adjective": [
+        "animated"
+      ],
+      "adverb": []
+    },
+    {
+      "id": "8",
+      "base_word": "death",
+      "base_word_type": "noun",
+      "verb": [
+        "die"
+      ],
+      "noun": [
+        "death"
+      ],
+      "adjective": [
+        "dead",
+        "deadly"
+      ],
+      "adverb": []
+    },
+    {
+      "id": "9",
+      "base_word": "defeat",
+      "base_word_type": "verb",
+      "verb": [
+        "defeat"
+      ],
+      "noun": [
+        "defeat"
+      ],
+      "adjective": [
+        "defeated"
+      ],
+      "adverb": []
+    },
+    {
+      "id": "10",
+      "base_word": "visionary",
+      "base_word_type": "noun",
+      "verb": [],
+      "noun": [
+        "vision",
+        "visionary"
+      ],
+      "adjective": [
+        "visionary"
+      ],
+      "adverb": []
+    }
+  ]
+}

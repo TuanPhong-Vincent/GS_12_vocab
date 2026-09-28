@@ -1,0 +1,138 @@
+{
+  "id": "5",
+  "type": "write_english_words",
+  "title": "Write English words",
+  "description": "Write the English word for each Vietnamese meaning below.",
+  "questions": [
+    {
+      "id": "1",
+      "parts": [
+        {
+          "vietnamese": "thời thơ ấu, tuổi thơ",
+          "correct_answer": "childhood"
+        },
+        {
+          "vietnamese": "thời thanh xuân, tuổi trẻ",
+          "correct_answer": "youth"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "parts": [
+        {
+          "vietnamese": "nhận nuôi (con nuôi)",
+          "correct_answer": "adopt"
+        },
+        {
+          "vietnamese": "cuộc hôn nhân, sự kết hôn",
+          "correct_answer": "marriage"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "parts": [
+        {
+          "vietnamese": "thiên tài",
+          "correct_answer": "genius"
+        },
+        {
+          "vietnamese": "người nhìn xa trông rộng",
+          "correct_answer": "visionary"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "parts": [
+        {
+          "vietnamese": "sự quyết tâm, lòng kiên định",
+          "correct_answer": "determination"
+        },
+        {
+          "vietnamese": "có nhiều hoài bão, giàu tham vọng",
+          "correct_answer": "ambitious"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "parts": [
+        {
+          "vietnamese": "thành tựu, thành tích",
+          "correct_answer": "achievement"
+        },
+        {
+          "vietnamese": "anh hùng dân tộc",
+          "correct_answer": "national hero"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "parts": [
+        {
+          "vietnamese": "phim bom tấn",
+          "correct_answer": "blockbuster"
+        },
+        {
+          "vietnamese": "công viên giải trí theo chủ đề",
+          "correct_answer": "theme park"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "parts": [
+        {
+          "vietnamese": "vương quốc",
+          "correct_answer": "kingdom"
+        },
+        {
+          "vietnamese": "độc lập, tự chủ",
+          "correct_answer": "independent"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "parts": [
+        {
+          "vietnamese": "bác sĩ phẫu thuật",
+          "correct_answer": "surgeon"
+        },
+        {
+          "vietnamese": "tiểu sử, truyện ký",
+          "correct_answer": "biography"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "parts": [
+        {
+          "vietnamese": "họa sĩ hoạt hình",
+          "correct_answer": "animator"
+        },
+        {
+          "vietnamese": "nhà sản xuất phim",
+          "correct_answer": "film producer"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "parts": [
+        {
+          "vietnamese": "ngưỡng mộ, khâm phục",
+          "correct_answer": "admire"
+        },
+        {
+          "vietnamese": "đánh bại, đánh thắng",
+          "correct_answer": "defeat"
+        }
+      ]
+    }
+  ]
+}

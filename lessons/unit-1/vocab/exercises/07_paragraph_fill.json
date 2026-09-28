@@ -1,0 +1,81 @@
+{
+  "id": "7",
+  "type": "paragraph_fill",
+  "title": "Fill in the Blanks in the Paragraph",
+  "description": "Complete the paragraph below using words from the box.",
+  "word_box": [
+    "ambitious",
+    "admire",
+    "cancer",
+    "independent",
+    "achievement",
+    "rule",
+    "death",
+    "marriage",
+    "visionary",
+    "youth"
+  ],
+  "paragraph_parts": [
+    "During her ",
+    {
+      "id": "1",
+      "type": "blank",
+      "correct_answer": "youth"
+    },
+    ", Elena was fascinated by oceanic life and dreamed of exploring coral reefs. She was an ",
+    {
+      "id": "2",
+      "type": "blank",
+      "correct_answer": "ambitious"
+    },
+    " young scientist who worked long hours in the laboratory while other students were resting. After her ",
+    {
+      "id": "3",
+      "type": "blank",
+      "correct_answer": "marriage"
+    },
+    " to a fellow oceanographer, the couple established an ",
+    {
+      "id": "4",
+      "type": "blank",
+      "correct_answer": "independent"
+    },
+    " marine research station on a remote Pacific island. Elena proved to be a true ",
+    {
+      "id": "5",
+      "type": "blank",
+      "correct_answer": "visionary"
+    },
+    ", introducing underwater cameras long before other teams considered the technique. Her greatest scientific ",
+    {
+      "id": "6",
+      "type": "blank",
+      "correct_answer": "achievement"
+    },
+    " came when she discovered a deep-sea ecosystem that seemed to follow its own natural ",
+    {
+      "id": "7",
+      "type": "blank",
+      "correct_answer": "rule"
+    },
+    " of survival. Even when she was diagnosed with ",
+    {
+      "id": "8",
+      "type": "blank",
+      "correct_answer": "cancer"
+    },
+    " in her fifties, she continued teaching students about marine conservation. Following her ",
+    {
+      "id": "9",
+      "type": "blank",
+      "correct_answer": "death"
+    },
+    " in 2018, scientific journals published special editions to honor her groundbreaking legacy. Today, researchers around the globe still deeply ",
+    {
+      "id": "10",
+      "type": "blank",
+      "correct_answer": "admire"
+    },
+    " her courage and enduring contributions."
+  ]
+}

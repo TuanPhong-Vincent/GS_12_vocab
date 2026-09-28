@@ -1,0 +1,118 @@
+{
+  "id": "14",
+  "type": "word_families_mcq",
+  "title": "Multiple Choice – Word Families",
+  "description": "Choose the correct word to complete each sentence.",
+  "questions": [
+    {
+      "id": "1",
+      "text": "The chemical spill caused severe river __________ that threatened local drinking water supplies.",
+      "options": [
+        "pollutant",
+        "pollute",
+        "polluted",
+        "pollution"
+      ],
+      "correct_answer": "pollution"
+    },
+    {
+      "id": "2",
+      "text": "Aluminum cans and glass containers are completely __________ materials that we should never throw away.",
+      "options": [
+        "recycling",
+        "recyclable",
+        "recycled",
+        "recycle"
+      ],
+      "correct_answer": "recyclable"
+    },
+    {
+      "id": "3",
+      "text": "Many organic farmers strive to manage their acreage __________ to protect soil quality.",
+      "options": [
+        "sustainable",
+        "sustainably",
+        "sustain",
+        "sustainability"
+      ],
+      "correct_answer": "sustainably"
+    },
+    {
+      "id": "4",
+      "text": "Greasy napkins can __________ an entire batch of clean cardboard during processing.",
+      "options": [
+        "contaminate",
+        "contamination",
+        "contaminating",
+        "contaminated"
+      ],
+      "correct_answer": "contaminate"
+    },
+    {
+      "id": "5",
+      "text": "Leaving electrical appliances running in empty classrooms is a very __________ habit.",
+      "options": [
+        "waste",
+        "wastes",
+        "wasteful",
+        "wastefully"
+      ],
+      "correct_answer": "wasteful"
+    },
+    {
+      "id": "6",
+      "text": "Warm summer temperatures accelerate the __________ of organic kitchen scraps in the compost barrel.",
+      "options": [
+        "decomposition",
+        "decompose",
+        "decomposing",
+        "decomposed"
+      ],
+      "correct_answer": "decomposition"
+    },
+    {
+      "id": "7",
+      "text": "Shoppers who bring their own __________ cloth bags help prevent millions of plastic sacks from polluting oceans.",
+      "options": [
+        "reused",
+        "reusing",
+        "reusable",
+        "reuse"
+      ],
+      "correct_answer": "reusable"
+    },
+    {
+      "id": "8",
+      "text": "The delivery service wraps fragile glass bottles in protective paper __________.",
+      "options": [
+        "packaging",
+        "packed",
+        "package",
+        "pack"
+      ],
+      "correct_answer": "packaging"
+    },
+    {
+      "id": "9",
+      "text": "Educating young citizens on environmental __________ ensures the long-term protection of natural habitats.",
+      "options": [
+        "sustain",
+        "sustainably",
+        "sustainability",
+        "sustainable"
+      ],
+      "correct_answer": "sustainability"
+    },
+    {
+      "id": "10",
+      "text": "Smoke particles from coal-fired power stations act as a dangerous atmospheric __________.",
+      "options": [
+        "polluted",
+        "pollution",
+        "pollute",
+        "pollutant"
+      ],
+      "correct_answer": "pollutant"
+    }
+  ]
+}

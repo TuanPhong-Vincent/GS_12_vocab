@@ -1,0 +1,118 @@
+{
+  "id": "1",
+  "type": "multiple_choice",
+  "title": "Multiple Choice - Direct Questions",
+  "description": "Choose the best answer for each question.",
+  "questions": [
+    {
+      "id": "1",
+      "text": "Which phrase refers to leaving university or school before completing your studies?",
+      "options": [
+        "drop out",
+        "attend school",
+        "bond over",
+        "pass away"
+      ],
+      "correct_answer": "drop out"
+    },
+    {
+      "id": "2",
+      "text": "What do we call an artist who creates drawings and digital models for animated movies?",
+      "options": [
+        "a film producer",
+        "a military genius",
+        "a surgeon",
+        "an animator"
+      ],
+      "correct_answer": "an animator"
+    },
+    {
+      "id": "3",
+      "text": "Which term describes an extraordinary accomplishment that earns widespread praise?",
+      "options": [
+        "a biological parent",
+        "cutting-edge technology",
+        "a tourist attraction",
+        "an impressive achievement"
+      ],
+      "correct_answer": "an impressive achievement"
+    },
+    {
+      "id": "4",
+      "text": "What kind of medical facility is temporarily set up near a combat zone to treat wounded soldiers?",
+      "options": [
+        "a field hospital",
+        "a theme park",
+        "a craft village",
+        "a college campus"
+      ],
+      "correct_answer": "a field hospital"
+    },
+    {
+      "id": "5",
+      "text": "Which idiom describes a feeling of extreme happiness and elation?",
+      "options": [
+        "under the weather",
+        "down in the dumps",
+        "at a crossroads",
+        "on top of the world"
+      ],
+      "correct_answer": "on top of the world"
+    },
+    {
+      "id": "6",
+      "text": "What is a book recounting a real person's life history called?",
+      "options": [
+        "a kingdom",
+        "a biography",
+        "an animation",
+        "a blockbuster"
+      ],
+      "correct_answer": "a biography"
+    },
+    {
+      "id": "7",
+      "text": "Which adjective describes someone who has a strong desire to achieve great success or power?",
+      "options": [
+        "visionary",
+        "independent",
+        "ambitious",
+        "well educated"
+      ],
+      "correct_answer": "ambitious"
+    },
+    {
+      "id": "8",
+      "text": "What title is given to a courageous historical figure who fought to defend or liberate their nation?",
+      "options": [
+        "a national hero",
+        "a film producer",
+        "a talented artist",
+        "a young genius"
+      ],
+      "correct_answer": "a national hero"
+    },
+    {
+      "id": "9",
+      "text": "What is the professional title of a doctor who specializes in performing surgical operations?",
+      "options": [
+        "an animator",
+        "a volunteer",
+        "a surgeon",
+        "a journalist"
+      ],
+      "correct_answer": "a surgeon"
+    },
+    {
+      "id": "10",
+      "text": "Which phrase refers to the mother and father who are genetically related to their child?",
+      "options": [
+        "extended family",
+        "biological parents",
+        "elderly couple",
+        "adoptive parents"
+      ],
+      "correct_answer": "biological parents"
+    }
+  ]
+}

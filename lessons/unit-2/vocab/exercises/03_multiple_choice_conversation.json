@@ -1,0 +1,118 @@
+{
+  "id": "3",
+  "type": "multiple_choice",
+  "title": "Multiple Choice - Conversation Completion",
+  "description": "Choose the correct response to complete the conversation.",
+  "questions": [
+    {
+      "id": "1",
+      "text": "Mark: 'Your presentation on traditional Andean weaving techniques was truly fascinating!'\nElena: '______________________________'",
+      "options": [
+        "Thank you, I spent months doing research to make sure the details were accurate.",
+        "No problem, we can reschedule our presentation for next Friday morning instead.",
+        "I am afraid that the university library is already closed for weekend cleaning.",
+        "You must submit the printed assignment to the teacher before three this afternoon."
+      ],
+      "correct_answer": "Thank you, I spent months doing research to make sure the details were accurate."
+    },
+    {
+      "id": "2",
+      "text": "Sophie: 'I feel slightly nervous about experiencing culture shock during my exchange semester in Tokyo.'\nKen: '______________________________'",
+      "options": [
+        "Joining an international student club will help you adapt much faster to daily life.",
+        "The subway system in that city is regarded as one of the most punctual in the world.",
+        "We have already submitted the final project proposal to the academic scholarship committee.",
+        "You should buy several extra suitcases before booking your round-trip flight tickets."
+      ],
+      "correct_answer": "Joining an international student club will help you adapt much faster to daily life."
+    },
+    {
+      "id": "3",
+      "text": "Tom: 'How do you handle the language barrier when shopping in crowded local morning markets?'\nAn: '______________________________'",
+      "options": [
+        "The flight was delayed for three hours due to heavy thunderstorms over the coastline.",
+        "We plan to order two large bowls of beef noodle soup for our lunch at the restaurant.",
+        "I usually rely on a pocket translation app and polite hand gestures to negotiate prices.",
+        "My younger brother prefers watching foreign action movies without any subtitles on."
+      ],
+      "correct_answer": "I usually rely on a pocket translation app and polite hand gestures to negotiate prices."
+    },
+    {
+      "id": "4",
+      "text": "Clara: 'Would you like to come with us to the international carnival parade this Saturday?'\nDavid: '______________________________'",
+      "options": [
+        "My train departs from platform four in approximately fifteen minutes from now.",
+        "We have to clean our dormitory rooms before the weekly inspection on Monday morning.",
+        "The museum ticket counter does not accept cash payments on public holiday weekends.",
+        "I would love to join, especially if we get to see the spectacular marching bands."
+      ],
+      "correct_answer": "I would love to join, especially if we get to see the spectacular marching bands."
+    },
+    {
+      "id": "5",
+      "text": "Liam: 'Do you know where we can sample authentic regional street food around here?'\nHoa: '______________________________'",
+      "options": [
+        "You must leave your umbrella in the metallic stand near the main entrance lobby.",
+        "The local post office operates from eight in the morning until four in the afternoon.",
+        "That vibrant food stall down the alley serves fantastic homemade steamed dumplings.",
+        "We should finish reading the historical biography before attending the lecture."
+      ],
+      "correct_answer": "That vibrant food stall down the alley serves fantastic homemade steamed dumplings."
+    },
+    {
+      "id": "6",
+      "text": "Lucas: 'Why are those neighborhood children carrying colorful pumpkin buckets tonight?'\nEmma: '______________________________'",
+      "options": [
+        "Her parents decided to renovate the old garage into a cozy wooden workshop space.",
+        "They are collecting chocolate and fruit candy while playing trick or treat tonight.",
+        "The electrical technician repaired all the broken ceiling lights inside the studio.",
+        "We need to return these borrowed reference encyclopedias to the municipal archive."
+      ],
+      "correct_answer": "They are collecting chocolate and fruit candy while playing trick or treat tonight."
+    },
+    {
+      "id": "7",
+      "text": "Minh: 'Would you like to try bamboo dancing with our folk performance group after class?'\nSarah: '______________________________'",
+      "options": [
+        "Our flight reservation includes two complimentary meals and one piece of baggage.",
+        "You should wash those fresh vegetables thoroughly before preparing the garden salad.",
+        "The final examination scores were posted on the student bulletin board yesterday.",
+        "That sounds like fun, although I will need someone to show me the basic rhythms first."
+      ],
+      "correct_answer": "That sounds like fun, although I will need someone to show me the basic rhythms first."
+    },
+    {
+      "id": "8",
+      "text": "Daniel: 'Where did you get that beautifully painted ceramic bowl on your bookshelf?'\nLinh: '______________________________'",
+      "options": [
+        "The conference speaker discussed modern renewable energy technologies for an hour.",
+        "I bought it as a souvenir from an artisan workshop in the southern craft village.",
+        "We will probably need another gallon of paint to finish coating the living room.",
+        "Her bicycle chain snapped while she was pedaling up the steep suburban incline."
+      ],
+      "correct_answer": "I bought it as a souvenir from an artisan workshop in the southern craft village."
+    },
+    {
+      "id": "9",
+      "text": "Jessica: 'What did you find most meaningful about your youth cultural exchange trip?'\nBao: '______________________________'",
+      "options": [
+        "We purchased five kilograms of organic oranges from the cooperative farm outlet.",
+        "My laptop battery lasted throughout the entire four-hour online business seminar.",
+        "The chemical laboratory was closed early for routine ventilation disinfection work.",
+        "I learned to appreciate diverse cultural traditions and formed lasting friendships."
+      ],
+      "correct_answer": "I learned to appreciate diverse cultural traditions and formed lasting friendships."
+    },
+    {
+      "id": "10",
+      "text": "Peter: 'Is the growing popularity of foreign holiday celebrations a cause for alarm?'\nMai: '______________________________'",
+      "options": [
+        "You can borrow up to three audiobooks at the same time using your campus library card.",
+        "Our university athletic team won two gold medals at the regional championship.",
+        "Not really, because young people can celebrate global events while valuing their roots.",
+        "The municipal water supply company announced a planned maintenance outage tomorrow."
+      ],
+      "correct_answer": "Not really, because young people can celebrate global events while valuing their roots."
+    }
+  ]
+}

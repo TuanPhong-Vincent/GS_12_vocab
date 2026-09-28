@@ -1,0 +1,133 @@
+{
+  "id": "11",
+  "type": "dictionary_entry",
+  "title": "Dictionary Entries",
+  "description": "Look at the dictionary entries below. Use the information provided to complete the sentences.",
+  "entries": [
+    {
+      "id": "1",
+      "word": "identity",
+      "part_of_speech": "noun",
+      "pronunciation": "/aɪˈdentəti/",
+      "definition": "the characteristics, feelings or beliefs that distinguish people from others",
+      "bullet_points": [
+        "Rapid modernisation can lead to a tragic [loss of identity] in historic rural communities.",
+        "The author explored the [sense of personal identity] among teenage refugees.",
+        "Traditional songs help immigrants [preserve cultural identity] while living in foreign lands.",
+        "Passports serve as official [identity documents] during international airport security checks."
+      ],
+      "questions": [
+        {
+          "id": "1",
+          "text": "Generations of craftspeople believe that passing down ancient pottery skills helps their community __________ despite rapid globalisation.",
+          "correct_answer": "preserve cultural identity"
+        },
+        {
+          "id": "2",
+          "text": "Before boarding the ferry to the island, each passenger's __________ were inspected by customs officials.",
+          "correct_answer": "identity documents"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "word": "custom",
+      "part_of_speech": "noun",
+      "pronunciation": "/ˈkʌstəm/",
+      "definition": "an accepted way of behaving or of doing things in a society or a community",
+      "bullet_points": [
+        "Nomadic elders prefer to [live by custom] rather than modern urban regulations.",
+        "It is considered a [matter of local custom] to remove your footwear before entering.",
+        "Villagers gather every spring to [observe the custom] of blessing the harvest.",
+        "Bowing deeply upon greeting guests is an [ancient custom] in East Asian societies."
+      ],
+      "questions": [
+        {
+          "id": "3",
+          "text": "Sharing hot herbal tea with weary travelers arriving at the temple gate is an __________ that dates back to the twelfth century.",
+          "correct_answer": "ancient custom"
+        },
+        {
+          "id": "4",
+          "text": "Presenting gifts with both hands during the welcoming ceremony is treated as a __________ by all community leaders.",
+          "correct_answer": "matter of local custom"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "word": "cuisine",
+      "part_of_speech": "noun",
+      "pronunciation": "/kwɪˈziːn/",
+      "definition": "a style of cooking, especially of a particular country or establishment",
+      "bullet_points": [
+        "Talented pastry chefs must master advanced [cuisine techniques] before opening a bakery.",
+        "Travelers often [sample local cuisine] at bustling night markets.",
+        "The international food festival featured authentic [regional cuisine] from five different provinces.",
+        "Culinary students spend months learning to [cook vegetarian cuisine] using organic produce."
+      ],
+      "questions": [
+        {
+          "id": "5",
+          "text": "During their homestay tour through the northern valleys, tourists had a wonderful chance to __________ freshly prepared over open hearths.",
+          "correct_answer": "sample local cuisine"
+        },
+        {
+          "id": "6",
+          "text": "Distinct __________ reflects the unique microclimate, agricultural heritage, and coastal geography of each seaside district.",
+          "correct_answer": "regional cuisine"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "word": "originate",
+      "part_of_speech": "verb",
+      "pronunciation": "/əˈrɪdʒɪneɪt/",
+      "definition": "to happen or appear for the first time in a particular place or situation",
+      "bullet_points": [
+        "Many world-famous carnivals [originate as religious] observances before transforming into public street parades.",
+        "These traditional herbal remedies [originate from ancient] medicinal manuscripts.",
+        "The festive celebration may [originate with nomadic tribes] who traveled across the central plains.",
+        "Several classical melodies [originate in rural] villages along the river valley."
+      ],
+      "questions": [
+        {
+          "id": "7",
+          "text": "Ethnomusicologists discovered that these vibrant wedding flutes __________ mountainous communities far from the royal capital.",
+          "correct_answer": "originate in rural"
+        },
+        {
+          "id": "8",
+          "text": "The restorative properties of this herbal tea __________ botanical compendiums compiled by monastic scholars.",
+          "correct_answer": "originate from ancient"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "word": "appreciate",
+      "part_of_speech": "verb",
+      "pronunciation": "/əˈpriːʃieɪt/",
+      "definition": "to recognize the good qualities or value of somebody or something",
+      "bullet_points": [
+        "Museum docents [fully appreciate] the historical significance of these bronze artifacts.",
+        "Tourists pause along the scenic terrace to [appreciate the beauty of] ancient terraced rice paddies.",
+        "Visitors learn to [appreciate cultural nuances] when observing traditional ceremonies.",
+        "Educators encourage students to [appreciate the value of] preserving folklore songs."
+      ],
+      "questions": [
+        {
+          "id": "9",
+          "text": "Historians argue that modern observers can only __________ the depth of this temple architecture by examining its stone foundations.",
+          "correct_answer": "fully appreciate"
+        },
+        {
+          "id": "10",
+          "text": "Living abroad for several years helps diplomats __________ that cannot be learned from textbooks alone.",
+          "correct_answer": "appreciate cultural nuances"
+        }
+      ]
+    }
+  ]
+}

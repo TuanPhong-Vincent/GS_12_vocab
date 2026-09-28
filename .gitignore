@@ -1,0 +1,21 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Separate git repository (đã có repo Git riêng để tránh xung đột index.html)
+vocab_challenge/
+
+# Large PDF files
+GS12.pdf
+*.pdf
+
+# Node / temporary files
+node_modules/
+dist/
+*.log

@@ -1,0 +1,135 @@
+{
+  "id": "13",
+  "type": "word_families_table",
+  "title": "Word Families",
+  "description": "Complete the table below with different forms of each word. Some forms may not exist.",
+  "questions": [
+    {
+      "id": "1",
+      "base_word": "recycle",
+      "base_word_type": "verb",
+      "verb": [
+        "recycle"
+      ],
+      "noun": [
+        "recycling"
+      ],
+      "adjective": [
+        "recyclable"
+      ],
+      "adverb": []
+    },
+    {
+      "id": "2",
+      "base_word": "decompose",
+      "base_word_type": "verb",
+      "verb": [
+        "decompose"
+      ],
+      "noun": [
+        "decomposition"
+      ],
+      "adjective": [
+        "decomposed"
+      ],
+      "adverb": []
+    },
+    {
+      "id": "3",
+      "base_word": "pollutant",
+      "base_word_type": "noun",
+      "verb": [
+        "pollute"
+      ],
+      "noun": [
+        "pollutant",
+        "pollution"
+      ],
+      "adjective": [
+        "polluted"
+      ],
+      "adverb": []
+    },
+    {
+      "id": "4",
+      "base_word": "sustainable",
+      "base_word_type": "adjective",
+      "verb": [
+        "sustain"
+      ],
+      "noun": [
+        "sustainability"
+      ],
+      "adjective": [
+        "sustainable"
+      ],
+      "adverb": [
+        "sustainably"
+      ]
+    },
+    {
+      "id": "5",
+      "base_word": "contaminated",
+      "base_word_type": "adjective",
+      "verb": [
+        "contaminate"
+      ],
+      "noun": [
+        "contamination"
+      ],
+      "adjective": [
+        "contaminated"
+      ],
+      "adverb": []
+    },
+    {
+      "id": "6",
+      "base_word": "waste",
+      "base_word_type": "noun",
+      "verb": [
+        "waste"
+      ],
+      "noun": [
+        "waste"
+      ],
+      "adjective": [
+        "wasteful"
+      ],
+      "adverb": [
+        "wastefully"
+      ]
+    },
+    {
+      "id": "7",
+      "base_word": "packaging",
+      "base_word_type": "noun",
+      "verb": [
+        "pack",
+        "package"
+      ],
+      "noun": [
+        "packaging",
+        "package"
+      ],
+      "adjective": [
+        "packed"
+      ],
+      "adverb": []
+    },
+    {
+      "id": "8",
+      "base_word": "reuse",
+      "base_word_type": "verb",
+      "verb": [
+        "reuse"
+      ],
+      "noun": [
+        "reuse"
+      ],
+      "adjective": [
+        "reusable"
+      ],
+      "adverb": []
+    }
+  ]
+}

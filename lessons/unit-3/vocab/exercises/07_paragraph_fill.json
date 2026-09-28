@@ -1,0 +1,81 @@
+{
+  "id": "7",
+  "type": "paragraph_fill",
+  "title": "Fill in the Blanks in the Paragraph",
+  "description": "Complete the paragraph below using words from the box.",
+  "word_box": [
+    "carbon footprint",
+    "household waste",
+    "landfill",
+    "layer",
+    "compost",
+    "single-use",
+    "green living",
+    "container",
+    "sustainable",
+    "natural resources"
+  ],
+  "paragraph_parts": [
+    "Transitioning towards a lifestyle of ",
+    {
+      "id": "1",
+      "type": "blank",
+      "correct_answer": "green living"
+    },
+    " is one of the most effective ways to reduce our personal ",
+    {
+      "id": "2",
+      "type": "blank",
+      "correct_answer": "carbon footprint"
+    },
+    ". In our neighbourhood, residents decided to eliminate ",
+    {
+      "id": "3",
+      "type": "blank",
+      "correct_answer": "single-use"
+    },
+    " plastics by packing lunches in a durable glass ",
+    {
+      "id": "4",
+      "type": "blank",
+      "correct_answer": "container"
+    },
+    " instead of disposable bags. We also started a community garden where food scraps are turned into nutrient-rich ",
+    {
+      "id": "5",
+      "type": "blank",
+      "correct_answer": "compost"
+    },
+    " rather than being sent directly to the local ",
+    {
+      "id": "6",
+      "type": "blank",
+      "correct_answer": "landfill"
+    },
+    ". When maintaining the compost bin, volunteers spread a brown ",
+    {
+      "id": "7",
+      "type": "blank",
+      "correct_answer": "layer"
+    },
+    " of dried leaves over kitchen leftovers to prevent bad smells. By sorting our ",
+    {
+      "id": "8",
+      "type": "blank",
+      "correct_answer": "household waste"
+    },
+    " carefully every morning, we conserve precious ",
+    {
+      "id": "9",
+      "type": "blank",
+      "correct_answer": "natural resources"
+    },
+    " and create a truly ",
+    {
+      "id": "10",
+      "type": "blank",
+      "correct_answer": "sustainable"
+    },
+    " environment for future generations."
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "13",
+  "type": "word_families_table",
+  "title": "Word Families",
+  "description": "Complete the table below with different forms of each word. Some forms may not exist.",
+  "questions": [
+    {
+      "id": "1",
+      "base_word": "celebrate",
+      "base_word_type": "verb",
+      "verb": [
+        "celebrate"
+      ],
+      "noun": [
+        "celebration"
+      ],
+      "adjective": [
+        "celebrated",
+        "celebratory"
+      ],
+      "adverb": []
+    },
+    {
+      "id": "2",
+      "base_word": "tradition",
+      "base_word_type": "noun",
+      "verb": [],
+      "noun": [
+        "tradition"
+      ],
+      "adjective": [
+        "traditional"
+      ],
+      "adverb": [
+        "traditionally"
+      ]
+    },
+    {
+      "id": "3",
+      "base_word": "originate",
+      "base_word_type": "verb",
+      "verb": [
+        "originate"
+      ],
+      "noun": [
+        "origin",
+        "originality"
+      ],
+      "adjective": [
+        "original"
+      ],
+      "adverb": [
+        "originally"
+      ]
+    },
+    {
+      "id": "4",
+      "base_word": "identity",
+      "base_word_type": "noun",
+      "verb": [
+        "identify"
+      ],
+      "noun": [
+        "identity",
+        "identification"
+      ],
+      "adjective": [
+        "identifiable"
+      ],
+      "adverb": []
+    },
+    {
+      "id": "5",
+      "base_word": "influence",
+      "base_word_type": "verb",
+      "verb": [
+        "influence"
+      ],
+      "noun": [
+        "influence"
+      ],
+      "adjective": [
+        "influential"
+      ],
+      "adverb": []
+    },
+    {
+      "id": "6",
+      "base_word": "appreciate",
+      "base_word_type": "verb",
+      "verb": [
+        "appreciate"
+      ],
+      "noun": [
+        "appreciation"
+      ],
+      "adjective": [
+        "appreciative"
+      ],
+      "adverb": []
+    },
+    {
+      "id": "7",
+      "base_word": "popularity",
+      "base_word_type": "noun",
+      "verb": [
+        "popularize"
+      ],
+      "noun": [
+        "popularity"
+      ],
+      "adjective": [
+        "popular"
+      ],
+      "adverb": [
+        "popularly"
+      ]
+    },
+    {
+      "id": "8",
+      "base_word": "speciality",
+      "base_word_type": "noun",
+      "verb": [
+        "specialize"
+      ],
+      "noun": [
+        "speciality",
+        "specialist"
+      ],
+      "adjective": [
+        "special"
+      ],
+      "adverb": [
+        "specially"
+      ]
+    },
+    {
+      "id": "9",
+      "base_word": "custom",
+      "base_word_type": "noun",
+      "verb": [
+        "customize"
+      ],
+      "noun": [
+        "custom"
+      ],
+      "adjective": [
+        "customary"
+      ],
+      "adverb": [
+        "customarily"
+      ]
+    }
+  ]
+}

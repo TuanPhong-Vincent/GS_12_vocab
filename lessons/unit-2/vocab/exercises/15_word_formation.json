@@ -1,0 +1,38 @@
+{
+  "id": "15",
+  "type": "word_formation",
+  "title": "Supply the correct form of the word given in each sentence.",
+  "description": "Read the sentence and provide the correct form of the word in brackets.",
+  "questions": [
+    {
+      "id": "1",
+      "text": "Folk dancers performed a __________ bamboo dance to welcome the international delegates.",
+      "correct_answer": "traditional",
+      "base_word": "TRADITION"
+    },
+    {
+      "id": "2",
+      "text": "The city organized a magnificent fireworks display for the New Year __________.",
+      "correct_answer": "celebration",
+      "base_word": "CELEBRATE"
+    },
+    {
+      "id": "3",
+      "text": "This classical folklore ballad was __________ composed in a quiet mountain monastery.",
+      "correct_answer": "originally",
+      "base_word": "ORIGIN"
+    },
+    {
+      "id": "4",
+      "text": "Several __________ artists established a studio in the old district to promote local handicrafts.",
+      "correct_answer": "influential",
+      "base_word": "INFLUENCE"
+    },
+    {
+      "id": "5",
+      "text": "The growing __________ of international food fairs encourages cross-cultural understanding.",
+      "correct_answer": "popularity",
+      "base_word": "POPULAR"
+    }
+  ]
+}

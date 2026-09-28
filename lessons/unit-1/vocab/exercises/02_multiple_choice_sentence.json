@@ -1,0 +1,118 @@
+{
+  "id": "2",
+  "type": "multiple_choice",
+  "title": "Multiple Choice - Sentence Completion",
+  "description": "Choose the correct word or phrase to complete the sentence.",
+  "questions": [
+    {
+      "id": "1",
+      "text": "While the young pianist was performing her solo recital, the audience recognized her remarkable musical __________.",
+      "options": [
+        "marriage",
+        "death",
+        "cancer",
+        "genius"
+      ],
+      "correct_answer": "genius"
+    },
+    {
+      "id": "2",
+      "text": "The tech company invested heavily in __________ to build energy-efficient electric aircraft.",
+      "options": [
+        "resistance war",
+        "computer animation",
+        "cutting-edge technology",
+        "tourist attraction"
+      ],
+      "correct_answer": "cutting-edge technology"
+    },
+    {
+      "id": "3",
+      "text": "After completing secondary school in Manchester, Liam decided to __________ to study astrophysics.",
+      "options": [
+        "attend college",
+        "carry out attacks",
+        "attend school",
+        "pass away"
+      ],
+      "correct_answer": "attend college"
+    },
+    {
+      "id": "4",
+      "text": "Even when project funding was abruptly cancelled, the environmentalist showed immense __________ to finish planting the trees.",
+      "options": [
+        "biography",
+        "determination",
+        "kingdom",
+        "theme park"
+      ],
+      "correct_answer": "determination"
+    },
+    {
+      "id": "5",
+      "text": "When the film studio released the superhero movie in July, it instantly became an international __________.",
+      "options": [
+        "blockbuster",
+        "surgeon",
+        "field hospital",
+        "childhood"
+      ],
+      "correct_answer": "blockbuster"
+    },
+    {
+      "id": "6",
+      "text": "The ancient stone fortress overlooking the bay is now a major __________ welcoming thousands of visitors each summer.",
+      "options": [
+        "film producer",
+        "resistance war",
+        "national hero",
+        "tourist attraction"
+      ],
+      "correct_answer": "tourist attraction"
+    },
+    {
+      "id": "7",
+      "text": "King Ferdinand __________ the realm with wisdom and fairness while foreign diplomats were negotiating peace treaties.",
+      "options": [
+        "defeated",
+        "ruled",
+        "adopted",
+        "admired"
+      ],
+      "correct_answer": "ruled"
+    },
+    {
+      "id": "8",
+      "text": "Clara was __________ when the university committee awarded her the prestigious international scholarship.",
+      "options": [
+        "independent",
+        "well educated",
+        "over the moon",
+        "dedicated to"
+      ],
+      "correct_answer": "over the moon"
+    },
+    {
+      "id": "9",
+      "text": "Two engineering students __________ their shared passion for robotics while they were working in the campus laboratory.",
+      "options": [
+        "bonded over",
+        "carried out",
+        "dropped out",
+        "passed away"
+      ],
+      "correct_answer": "bonded over"
+    },
+    {
+      "id": "10",
+      "text": "Every young researcher hopes to __________ significant scientific breakthroughs that benefit society.",
+      "options": [
+        "be dedicated to",
+        "be devoted to",
+        "be adopted by",
+        "be admired for"
+      ],
+      "correct_answer": "be admired for"
+    }
+  ]
+}

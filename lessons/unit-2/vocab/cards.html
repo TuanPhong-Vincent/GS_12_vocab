@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Success 12 - Unit 2 - Vocabulary Cards</title>
+    <!-- Google Fonts: Be Vietnam Pro & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary-blue: #2563eb;
+            --primary-dark: #1d4ed8;
+            --primary-light: #eff6ff;
+            --accent-blue: #60a5fa;
+            --surface-white: #ffffff;
+            --bg-gradient: linear-gradient(180deg, #f0f7ff 0%, #f8fafc 100%);
+            --text-main: #0f172a;
+            --text-muted: #64748b;
+            --border-subtle: #e2e8f0;
+            --card-radius: 20px;
+            --shadow-default: 0 4px 20px -2px rgba(37, 99, 235, 0.08), 0 2px 6px -1px rgba(0, 0, 0, 0.04);
+            --shadow-hover: 0 16px 32px -4px rgba(37, 99, 235, 0.15), 0 4px 12px -2px rgba(0, 0, 0, 0.05);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Be Vietnam Pro', sans-serif;
+            background: var(--bg-gradient);
+            color: var(--text-main);
+            min-height: 100vh;
+            padding: 40px 24px 60px;
+        }
+
+        .container {
+            max-width: 1460px;
+            margin: 0 auto;
+        }
+
+        .header-bar {
+            text-align: center;
+            margin-bottom: 36px;
+        }
+
+        .header-bar h1 {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 30px;
+            font-weight: 800;
+            color: #1e3a8a;
+            letter-spacing: -0.5px;
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .header-bar p {
+            color: var(--text-muted);
+            font-size: 15px;
+            margin-top: 8px;
+        }
+
+        /* Live filter toolbar */
+        .toolbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+
+        .search-box {
+            position: relative;
+            width: 320px;
+            max-width: 100%;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 10px 16px 10px 42px;
+            border-radius: 9999px;
+            border: 1px solid var(--border-subtle);
+            background: #ffffff;
+            font-size: 14px;
+            font-family: inherit;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+            outline: none;
+            transition: all 0.2s;
+        }
+
+        .search-box input:focus {
+            border-color: var(--primary-blue);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+        }
+
+        .search-box svg {
+            position: absolute;
+            left: 14px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 18px;
+            height: 18px;
+            color: var(--text-muted);
+        }
+
+        .btn-portal {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 20px;
+            border-radius: 9999px;
+            background: var(--primary-blue);
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+            transition: all 0.2s;
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+        }
+
+        .btn-portal:hover {
+            background: var(--primary-dark);
+            transform: translateY(-1px);
+        }
+
+        /* BỐ CỤC GRID: 4 - 5 cards / hàng */
+        .vocab-grid {
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        }
+
+        @media (min-width: 1320px) {
+            .vocab-grid {
+                grid-template-columns: repeat(5, 1fr);
+                /* 5 cards / hàng cho màn hình rộng */
+            }
+        }
+
+        @media (min-width: 1024px) and (max-width: 1319px) {
+            .vocab-grid {
+                grid-template-columns: repeat(4, 1fr);
+                /* 4 cards / hàng cho laptop */
+            }
+        }
+
+        /* CARD TỪ VỰNG BO GÓC MỀM MẠI */
+        .vocab-card {
+            background: var(--surface-white);
+            border-radius: var(--card-radius);
+            border: 1px solid var(--border-subtle);
+            box-shadow: var(--shadow-default);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            position: relative;
+        }
+
+        .vocab-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-hover);
+            border-color: #bfdbfe;
+        }
+
+        /* KHUNG HÌNH ẢNH TO - KHÔNG CROP MẤT HÌNH - KHÔNG PHÓNG TO */
+        .image-container {
+            width: 100%;
+            height: 200px;
+            background: #f8fafc;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 1px solid #f1f5f9;
+            padding: 8px;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            /* Giữ trọn vẹn toàn bộ ảnh, không bị cắt góc */
+            border-radius: 12px;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+
+        .vocab-card:hover .image-container img {
+            transform: scale(1.02);
+        }
+
+        /* NÚT LOA PHÁT ÂM HIỆN ĐẠI */
+        .btn-audio {
+            position: absolute;
+            bottom: 14px;
+            right: 14px;
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(226, 232, 240, 0.8);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary-blue);
+            box-shadow: 0 4px 10px rgba(37, 99, 235, 0.15);
+            transition: all 0.2s ease;
+            z-index: 2;
+        }
+
+        .btn-audio:hover {
+            transform: scale(1.08);
+            background: var(--primary-blue);
+            color: #ffffff;
+            box-shadow: 0 6px 14px rgba(37, 99, 235, 0.3);
+        }
+
+        /* KHỐI NỘI DUNG TỪ VỰNG */
+        .card-body {
+            padding: 18px 20px 20px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            justify-content: space-between;
+            gap: 14px;
+        }
+
+        .vocab-meta {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        /* TỪ TIẾNG ANH: CHỮ THƯỜNG / TITLE CASE TINH TẾ (KHÔNG DÙNG IN HOA) */
+        .word-en {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 21px;
+            font-weight: 700;
+            color: #1e293b;
+            letter-spacing: -0.3px;
+            text-transform: none;
+            /* Giữ chữ thường, không in hoa */
+        }
+
+        /* PHIÊN ÂM IPA */
+        .word-ipa {
+            font-size: 14px;
+            color: #3b82f6;
+            /* Xanh lam dịu */
+            font-weight: 500;
+            font-family: 'Be Vietnam Pro', sans-serif;
+        }
+
+        /* ĐƯỜNG PHÂN CÁCH TINH GỌN */
+        .divider {
+            height: 1px;
+            background: linear-gradient(90deg, #e2e8f0 0%, rgba(226, 232, 240, 0.2) 100%);
+        }
+
+        /* NGHĨA TIẾNG VIỆT */
+        .word-vi {
+            font-size: 15px;
+            font-weight: 600;
+            color: #334155;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header-bar">
+            <h1>📖 Global Success 12 - Unit 2 - Lý Thuyết Từ Vựng</h1>
+            <p>Trực quan • Dễ ghi nhớ • Chuẩn phát âm</p>
+        </div>
+
+        <div class="toolbar">
+            <div class="search-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"/>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                </svg>
+                <input type="text" id="searchInput" placeholder="Tìm kiếm từ vựng, phiên âm, nghĩa..." oninput="filterCards(this.value)">
+            </div>
+            <a href="index.html" class="btn-portal">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                </svg>
+                Xem Bài Tập & Lý Thuyết (index.html)
+            </a>
+        </div>
+
+        <!-- GRID HIỂN THỊ HÀNG LOẠT -->
+        <div class="vocab-grid" id="vocabGrid">
+
+            <!-- Card: cultural diversity -->
+            <div class="vocab-card" data-word="cultural diversity" data-group="cultural diversity and globalisation">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/cultural-diversity.webp" alt="Image for cultural diversity" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('cultural diversity')" title="Nghe phát âm 'cultural diversity'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">cultural diversity</div>
+                        <div class="word-ipa">/ˌkʌltʃərəl daɪˈvɜːsəti/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n.phr): sự đa dạng văn hóa</div>
+                </div>
+            </div>
+
+            <!-- Card: globalisation -->
+            <div class="vocab-card" data-word="globalisation" data-group="cultural diversity and globalisation">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/globalisation.webp" alt="Image for globalisation" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('globalisation')" title="Nghe phát âm 'globalisation'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">globalisation</div>
+                        <div class="word-ipa">/ˌɡləʊbəlaɪˈzeɪʃn/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): sự toàn cầu hóa</div>
+                </div>
+            </div>
+
+            <!-- Card: identity -->
+            <div class="vocab-card" data-word="identity" data-group="cultural diversity and globalisation">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/identity.webp" alt="Image for identity" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('identity')" title="Nghe phát âm 'identity'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">identity</div>
+                        <div class="word-ipa">/aɪˈdentəti/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): bản sắc, danh tính</div>
+                </div>
+            </div>
+
+            <!-- Card: culture shock -->
+            <div class="vocab-card" data-word="culture shock" data-group="cultural diversity and globalisation">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/culture-shock.webp" alt="Image for culture shock" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('culture shock')" title="Nghe phát âm 'culture shock'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">culture shock</div>
+                        <div class="word-ipa">/ˈkʌltʃə ʃɒk/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n.phr): cú sốc văn hóa</div>
+                </div>
+            </div>
+
+            <!-- Card: multicultural -->
+            <div class="vocab-card" data-word="multicultural" data-group="cultural diversity and globalisation">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/multicultural.webp" alt="Image for multicultural" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('multicultural')" title="Nghe phát âm 'multicultural'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">multicultural</div>
+                        <div class="word-ipa">/ˌmʌltiˈkʌltʃərəl/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(adj): đa văn hóa</div>
+                </div>
+            </div>
+
+            <!-- Card: cross-cultural -->
+            <div class="vocab-card" data-word="cross-cultural" data-group="cultural diversity and globalisation">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/cross-cultural.webp" alt="Image for cross-cultural" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('cross-cultural')" title="Nghe phát âm 'cross-cultural'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">cross-cultural</div>
+                        <div class="word-ipa">/ˌkrɒs ˈkʌltʃərəl/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(adj): giao lưu văn hóa, xuyên văn hóa</div>
+                </div>
+            </div>
+
+            <!-- Card: language barrier -->
+            <div class="vocab-card" data-word="language barrier" data-group="cultural diversity and globalisation">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/language-barrier.webp" alt="Image for language barrier" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('language barrier')" title="Nghe phát âm 'language barrier'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">language barrier</div>
+                        <div class="word-ipa">/ˈlæŋɡwɪdʒ ˌbæriə/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n.phr): rào cản ngôn ngữ</div>
+                </div>
+            </div>
+
+            <!-- Card: culture exchange -->
+            <div class="vocab-card" data-word="culture exchange" data-group="cultural diversity and globalisation">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/culture-exchange.webp" alt="Image for culture exchange" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('culture exchange')" title="Nghe phát âm 'culture exchange'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">culture exchange</div>
+                        <div class="word-ipa">/ˈkʌltʃər ɪksˌtʃeɪndʒ/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n.phr): giao lưu văn hóa</div>
+                </div>
+            </div>
+
+            <!-- Card: unfamiliar -->
+            <div class="vocab-card" data-word="unfamiliar" data-group="cultural diversity and globalisation">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/unfamiliar.webp" alt="Image for unfamiliar" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('unfamiliar')" title="Nghe phát âm 'unfamiliar'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">unfamiliar</div>
+                        <div class="word-ipa">/ˌʌnfəˈmɪliə/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(adj): xa lạ, không quen thuộc</div>
+                </div>
+            </div>
+
+            <!-- Card: originate -->
+            <div class="vocab-card" data-word="originate" data-group="cultural diversity and globalisation">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/originate.webp" alt="Image for originate" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('originate')" title="Nghe phát âm 'originate'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">originate</div>
+                        <div class="word-ipa">/əˈrɪdʒɪneɪt/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(v): bắt nguồn, khởi nguồn</div>
+                </div>
+            </div>
+
+            <!-- Card: festivities -->
+            <div class="vocab-card" data-word="festivities" data-group="cultural traditions and festivities">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/festivities.webp" alt="Image for festivities" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('festivities')" title="Nghe phát âm 'festivities'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">festivities</div>
+                        <div class="word-ipa">/feˈstɪvətiz/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n.pl): các hoạt động lễ hội, không khí lễ hội</div>
+                </div>
+            </div>
+
+            <!-- Card: origin -->
+            <div class="vocab-card" data-word="origin" data-group="cultural traditions and festivities">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/origin.webp" alt="Image for origin" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('origin')" title="Nghe phát âm 'origin'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">origin</div>
+                        <div class="word-ipa">/ˈɒrɪdʒɪn/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): nguồn gốc, xuất xứ</div>
+                </div>
+            </div>
+
+            <!-- Card: custom -->
+            <div class="vocab-card" data-word="custom" data-group="cultural traditions and festivities">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/custom.webp" alt="Image for custom" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('custom')" title="Nghe phát âm 'custom'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">custom</div>
+                        <div class="word-ipa">/ˈkʌstəm/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): phong tục, tập quán</div>
+                </div>
+            </div>
+
+            <!-- Card: tradition -->
+            <div class="vocab-card" data-word="tradition" data-group="cultural traditions and festivities">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/tradition.webp" alt="Image for tradition" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('tradition')" title="Nghe phát âm 'tradition'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">tradition</div>
+                        <div class="word-ipa">/trəˈdɪʃn/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): truyền thống</div>
+                </div>
+            </div>
+
+            <!-- Card: celebrate -->
+            <div class="vocab-card" data-word="celebrate" data-group="cultural traditions and festivities">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/celebrate.webp" alt="Image for celebrate" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('celebrate')" title="Nghe phát âm 'celebrate'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">celebrate</div>
+                        <div class="word-ipa">/ˈselɪbreɪt/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(v): kỷ niệm, ăn mừng, làm lễ kỷ niệm</div>
+                </div>
+            </div>
+
+            <!-- Card: costume -->
+            <div class="vocab-card" data-word="costume" data-group="cultural traditions and festivities">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/costume.webp" alt="Image for costume" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('costume')" title="Nghe phát âm 'costume'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">costume</div>
+                        <div class="word-ipa">/ˈkɒstjuːm/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): trang phục, y phục lễ hội</div>
+                </div>
+            </div>
+
+            <!-- Card: carnival -->
+            <div class="vocab-card" data-word="carnival" data-group="cultural traditions and festivities">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/carnival.webp" alt="Image for carnival" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('carnival')" title="Nghe phát âm 'carnival'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">carnival</div>
+                        <div class="word-ipa">/ˈkɑːnɪvl/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): lễ hội hóa trang, ngày hội</div>
+                </div>
+            </div>
+
+            <!-- Card: trick or treat -->
+            <div class="vocab-card" data-word="trick or treat" data-group="cultural traditions and festivities">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/trick-or-treat.webp" alt="Image for trick or treat" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('trick or treat')" title="Nghe phát âm 'trick or treat'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">trick or treat</div>
+                        <div class="word-ipa">/ˌtrɪk ɔː ˈtriːt/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(phrase): trò chơi &#x27;cho kẹo hay bị ghẹo&#x27; (vào dịp Halloween)</div>
+                </div>
+            </div>
+
+            <!-- Card: pumpkin lantern -->
+            <div class="vocab-card" data-word="pumpkin lantern" data-group="cultural traditions and festivities">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/pumpkin-lantern.webp" alt="Image for pumpkin lantern" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('pumpkin lantern')" title="Nghe phát âm 'pumpkin lantern'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">pumpkin lantern</div>
+                        <div class="word-ipa">/ˌpʌmpkɪn ˈlæntən/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n.phr): đèn lồng quả bí ngô</div>
+                </div>
+            </div>
+
+            <!-- Card: haunted house -->
+            <div class="vocab-card" data-word="haunted house" data-group="cultural traditions and festivities">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/haunted-house.webp" alt="Image for haunted house" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('haunted house')" title="Nghe phát âm 'haunted house'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">haunted house</div>
+                        <div class="word-ipa">/ˌhɔːntɪd ˈhaʊs/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n.phr): ngôi nhà ma ám</div>
+                </div>
+            </div>
+
+            <!-- Card: cause for alarm -->
+            <div class="vocab-card" data-word="cause for alarm" data-group="cultural traditions and festivities">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/cause-for-alarm.webp" alt="Image for cause for alarm" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('cause for alarm')" title="Nghe phát âm 'cause for alarm'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">cause for alarm</div>
+                        <div class="word-ipa">/ˌkɔːz fər əˈlɑːm/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(idiom): lý do để báo động, điều đáng lo ngại</div>
+                </div>
+            </div>
+
+            <!-- Card: cuisine -->
+            <div class="vocab-card" data-word="cuisine" data-group="world cuisines and cultural experiences">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/cuisine.webp" alt="Image for cuisine" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('cuisine')" title="Nghe phát âm 'cuisine'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">cuisine</div>
+                        <div class="word-ipa">/kwɪˈziːn/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): nền ẩm thực, phong cách nấu nướng</div>
+                </div>
+            </div>
+
+            <!-- Card: speciality -->
+            <div class="vocab-card" data-word="speciality" data-group="world cuisines and cultural experiences">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/speciality.webp" alt="Image for speciality" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('speciality')" title="Nghe phát âm 'speciality'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">speciality</div>
+                        <div class="word-ipa">/ˌspeʃiˈæləti/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): đặc sản, món đặc trưng</div>
+                </div>
+            </div>
+
+            <!-- Card: ingredient -->
+            <div class="vocab-card" data-word="ingredient" data-group="world cuisines and cultural experiences">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/ingredient.webp" alt="Image for ingredient" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('ingredient')" title="Nghe phát âm 'ingredient'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">ingredient</div>
+                        <div class="word-ipa">/ɪnˈɡriːdiənt/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): nguyên liệu, thành phần</div>
+                </div>
+            </div>
+
+            <!-- Card: food stall -->
+            <div class="vocab-card" data-word="food stall" data-group="world cuisines and cultural experiences">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/food-stall.webp" alt="Image for food stall" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('food stall')" title="Nghe phát âm 'food stall'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">food stall</div>
+                        <div class="word-ipa">/ˈfuːd stɔːl/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n.phr): quầy bán đồ ăn, gian hàng ẩm thực</div>
+                </div>
+            </div>
+
+            <!-- Card: tourist attraction -->
+            <div class="vocab-card" data-word="tourist attraction" data-group="world cuisines and cultural experiences">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/tourist-attraction.webp" alt="Image for tourist attraction" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('tourist attraction')" title="Nghe phát âm 'tourist attraction'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">tourist attraction</div>
+                        <div class="word-ipa">/ˈtʊərɪst əˌtrækʃn/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n.phr): điểm thu hút khách du lịch, điểm tham quan</div>
+                </div>
+            </div>
+
+            <!-- Card: souvenir -->
+            <div class="vocab-card" data-word="souvenir" data-group="world cuisines and cultural experiences">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/souvenir.webp" alt="Image for souvenir" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('souvenir')" title="Nghe phát âm 'souvenir'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">souvenir</div>
+                        <div class="word-ipa">/ˌsuːvəˈnɪə/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): đồ lưu niệm</div>
+                </div>
+            </div>
+
+            <!-- Card: traditional game -->
+            <div class="vocab-card" data-word="traditional game" data-group="world cuisines and cultural experiences">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/traditional-game.webp" alt="Image for traditional game" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('traditional game')" title="Nghe phát âm 'traditional game'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">traditional game</div>
+                        <div class="word-ipa">/trəˈdɪʃənl ɡeɪm/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n.phr): trò chơi dân gian, trò chơi truyền thống</div>
+                </div>
+            </div>
+
+            <!-- Card: tug of war -->
+            <div class="vocab-card" data-word="tug of war" data-group="world cuisines and cultural experiences">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/tug-of-war.webp" alt="Image for tug of war" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('tug of war')" title="Nghe phát âm 'tug of war'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">tug of war</div>
+                        <div class="word-ipa">/ˌtʌɡ əv ˈwɔː/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n.phr): trò chơi kéo co</div>
+                </div>
+            </div>
+
+            <!-- Card: bamboo dancing -->
+            <div class="vocab-card" data-word="bamboo dancing" data-group="world cuisines and cultural experiences">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/bamboo-dancing.webp" alt="Image for bamboo dancing" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('bamboo dancing')" title="Nghe phát âm 'bamboo dancing'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">bamboo dancing</div>
+                        <div class="word-ipa">/ˌbæmˈbuː ˌdɑːnsɪŋ/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n.phr): điệu nhảy sạp, múa sạp</div>
+                </div>
+            </div>
+
+            <!-- Card: trend -->
+            <div class="vocab-card" data-word="trend" data-group="cultural trends and modern influences">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/trend.webp" alt="Image for trend" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('trend')" title="Nghe phát âm 'trend'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">trend</div>
+                        <div class="word-ipa">/trend/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): xu hướng, mốt</div>
+                </div>
+            </div>
+
+            <!-- Card: popularity -->
+            <div class="vocab-card" data-word="popularity" data-group="cultural trends and modern influences">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/popularity.webp" alt="Image for popularity" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('popularity')" title="Nghe phát âm 'popularity'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">popularity</div>
+                        <div class="word-ipa">/ˌpɒpjuˈlærəti/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): sự phổ biến, sự ưa chuộng</div>
+                </div>
+            </div>
+
+            <!-- Card: blend -->
+            <div class="vocab-card" data-word="blend" data-group="cultural trends and modern influences">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/blend.webp" alt="Image for blend" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('blend')" title="Nghe phát âm 'blend'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">blend</div>
+                        <div class="word-ipa">/blend/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(v): pha trộn, kết hợp hài hòa</div>
+                </div>
+            </div>
+
+            <!-- Card: captivate -->
+            <div class="vocab-card" data-word="captivate" data-group="cultural trends and modern influences">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/captivate.webp" alt="Image for captivate" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('captivate')" title="Nghe phát âm 'captivate'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">captivate</div>
+                        <div class="word-ipa">/ˈkæptɪveɪt/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(v): cuốn hút, làm say đắm</div>
+                </div>
+            </div>
+
+            <!-- Card: influence -->
+            <div class="vocab-card" data-word="influence" data-group="cultural trends and modern influences">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/influence.webp" alt="Image for influence" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('influence')" title="Nghe phát âm 'influence'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">influence</div>
+                        <div class="word-ipa">/ˈɪnfluəns/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): sự ảnh hưởng, sức ảnh hưởng</div>
+                </div>
+            </div>
+
+            <!-- Card: extracurricular activity -->
+            <div class="vocab-card" data-word="extracurricular activity" data-group="cultural trends and modern influences">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/extracurricular-activity.webp" alt="Image for extracurricular activity" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('extracurricular activity')" title="Nghe phát âm 'extracurricular activity'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">extracurricular activity</div>
+                        <div class="word-ipa">/ˌekstrəkəˈrɪkjələ ækˌtɪvəti/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n.phr): hoạt động ngoại khóa</div>
+                </div>
+            </div>
+
+            <!-- Card: appreciate -->
+            <div class="vocab-card" data-word="appreciate" data-group="cultural trends and modern influences">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-2/images/appreciate.webp" alt="Image for appreciate" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('appreciate')" title="Nghe phát âm 'appreciate'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">appreciate</div>
+                        <div class="word-ipa">/əˈpriːʃieɪt/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(v): trân trọng, đánh giá cao, thấu hiểu</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Phát âm giọng chuẩn Mỹ qua Web Speech API
+        function speak(text) {
+            if ('speechSynthesis' in window) {
+                window.speechSynthesis.cancel();
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = 'en-US';
+                utterance.rate = 0.9;
+                window.speechSynthesis.speak(utterance);
+            }
+        }
+
+        // Lọc thẻ từ vựng trực tiếp
+        function filterCards(query) {
+            const q = query.trim().toLowerCase();
+            const cards = document.querySelectorAll('.vocab-card');
+            cards.forEach(card => {
+                const text = card.textContent.toLowerCase();
+                if (!q || text.includes(q)) {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

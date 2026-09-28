@@ -1,0 +1,118 @@
+{
+  "id": "2",
+  "type": "multiple_choice",
+  "title": "Multiple Choice - Sentence Completion",
+  "description": "Choose the correct word to complete the sentence.",
+  "questions": [
+    {
+      "id": "1",
+      "text": "Throwing oily food boxes into the paper recycling makes the entire batch __________, which prevents proper processing.",
+      "options": [
+        "reusable",
+        "eco-friendly",
+        "sustainable",
+        "contaminated"
+      ],
+      "correct_answer": "contaminated"
+    },
+    {
+      "id": "2",
+      "text": "The eco-conscious cosmetics brand replaced plastic wrap with biodegradable cornstarch __________, which breaks down naturally.",
+      "options": [
+        "methane",
+        "wildfire",
+        "packaging",
+        "pollutant"
+      ],
+      "correct_answer": "packaging"
+    },
+    {
+      "id": "3",
+      "text": "Wind turbines and rooftop solar panels generate clean __________, which reduces our reliance on fossil fuels.",
+      "options": [
+        "carbon dioxide",
+        "air pollution",
+        "green energy",
+        "chemical fertiliser"
+      ],
+      "correct_answer": "green energy"
+    },
+    {
+      "id": "4",
+      "text": "Before heading home from the workshop, technicians must __________ all electric heaters to prevent energy waste.",
+      "options": [
+        "rinse out",
+        "turn off",
+        "care about",
+        "sort waste"
+      ],
+      "correct_answer": "turn off"
+    },
+    {
+      "id": "5",
+      "text": "Adding dried banana skins and citrus __________ provides organic potassium to vegetable garden beds.",
+      "options": [
+        "fruit peel",
+        "rubbish bin",
+        "sensor tap",
+        "bird feeder"
+      ],
+      "correct_answer": "fruit peel"
+    },
+    {
+      "id": "6",
+      "text": "Instead of tossing uneaten dinner into the garbage bin, my roommate packs the __________ into a lunch container for work.",
+      "options": [
+        "landfills",
+        "pollutants",
+        "leftovers",
+        "layers"
+      ],
+      "correct_answer": "leftovers"
+    },
+    {
+      "id": "7",
+      "text": "Rising ocean temperatures and shifting rainfall patterns are visible consequences of global __________.",
+      "options": [
+        "green living",
+        "climate change",
+        "natural resources",
+        "zero waste"
+      ],
+      "correct_answer": "climate change"
+    },
+    {
+      "id": "8",
+      "text": "Dense toxic smog from vehicle exhausts causes hazardous levels of __________, which triggers respiratory illnesses in cities.",
+      "options": [
+        "compost pile",
+        "plant pot",
+        "household waste",
+        "air pollution"
+      ],
+      "correct_answer": "air pollution"
+    },
+    {
+      "id": "9",
+      "text": "Citizens who travel by subway and electric bus choose __________ over private cars, which decreases city traffic jams.",
+      "options": [
+        "public transport",
+        "chemical fertiliser",
+        "takeaway container",
+        "automatic light"
+      ],
+      "correct_answer": "public transport"
+    },
+    {
+      "id": "10",
+      "text": "The hotel installed an __________ in each corridor, which automatically illuminates whenever motion is detected.",
+      "options": [
+        "reusable bottle",
+        "automatic light",
+        "bird feeder",
+        "metal straw"
+      ],
+      "correct_answer": "automatic light"
+    }
+  ]
+}

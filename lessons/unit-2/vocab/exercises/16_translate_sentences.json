@@ -1,0 +1,58 @@
+{
+  "id": "16",
+  "type": "translate_sentences",
+  "title": "Translation",
+  "description": "Translate the following sentences into English, using the vocabulary you have learned.",
+  "questions": [
+    {
+      "id": "1",
+      "vietnamese": "Lễ hội quốc tế là một cơ hội tuyệt vời để học hỏi về sự đa dạng văn hóa.",
+      "correct_answer": "The international festival is a wonderful opportunity to learn about cultural diversity."
+    },
+    {
+      "id": "2",
+      "vietnamese": "Nhiều sinh viên trao đổi trải qua cú sốc văn hóa trong những tuần đầu tiên ở nước ngoài.",
+      "correct_answer": "Many exchange students experience culture shock during their first weeks abroad."
+    },
+    {
+      "id": "3",
+      "vietnamese": "Toàn cầu hóa giúp các bạn trẻ tiếp cận các phong tục truyền thống từ khắp nơi trên thế giới.",
+      "correct_answer": "Globalisation helps young people access traditional customs from all over the world."
+    },
+    {
+      "id": "4",
+      "vietnamese": "Họ đã sử dụng phần mềm dịch thuật hiện đại để vượt qua rào cản ngôn ngữ.",
+      "correct_answer": "They used modern translation software to overcome the language barrier."
+    },
+    {
+      "id": "5",
+      "vietnamese": "Trang phục truyền thống phản ánh bản sắc văn hóa độc đáo của mỗi dân tộc.",
+      "correct_answer": "Traditional costumes reflect the unique cultural identity of each ethnic group."
+    },
+    {
+      "id": "6",
+      "vietnamese": "Ẩm thực Ý nổi tiếng với các món đặc sản làm từ mì ống tươi và phô mai.",
+      "correct_answer": "Italian cuisine is famous for speciality dishes made from fresh pasta and cheese."
+    },
+    {
+      "id": "7",
+      "vietnamese": "Trẻ em trong khu phố thích thú chơi trò cho kẹo hay bị ghẹo vào đêm Halloween.",
+      "correct_answer": "Neighborhood children enjoy playing trick or treat on Halloween night."
+    },
+    {
+      "id": "8",
+      "vietnamese": "Các nghệ sĩ thường kết hợp các nhạc cụ dân tộc với âm nhạc điện tử hiện đại.",
+      "correct_answer": "Artists often blend traditional ethnic instruments with modern electronic music."
+    },
+    {
+      "id": "9",
+      "vietnamese": "Ngôi làng cổ kính này là một điểm thu hút khách du lịch nổi tiếng ở vùng cao nguyên.",
+      "correct_answer": "This ancient village is a famous tourist attraction in the highland region."
+    },
+    {
+      "id": "10",
+      "vietnamese": "Tham gia các hoạt động ngoại khóa giúp học sinh trân trọng những giá trị văn hóa khác nhau.",
+      "correct_answer": "Participating in extracurricular activities helps students appreciate different cultural values."
+    }
+  ]
+}

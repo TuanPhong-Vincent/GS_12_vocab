@@ -1,0 +1,148 @@
+{
+  "id": "12",
+  "type": "signs_and_notices",
+  "title": "Signs and Notices",
+  "description": "Read the sign or notice and choose the correct meaning.",
+  "questions": [
+    {
+      "id": "1",
+      "sign_type": "image",
+      "sign_image": "images/sign_1.png",
+      "sign_text": "A standard circular prohibition sign on a clean white background with a thick red border and diagonal slash over a modern digital camera with a flash icon, centered and filling 90% of the square canvas, NO outer border frame, NO text or words of any kind.",
+      "question": "What does the sign mean?",
+      "options": [
+        "Visitors must charge camera batteries before entering the archive room.",
+        "Visitors can purchase digital cameras at the memorial museum entrance.",
+        "Flash photography is strictly prohibited inside the historical archive.",
+        "Taking photos without camera equipment is permitted in the gallery room."
+      ],
+      "correct_answer": "Flash photography is strictly prohibited inside the historical archive."
+    },
+    {
+      "id": "2",
+      "sign_type": "image",
+      "sign_image": "images/sign_2.png",
+      "sign_text": "A standard circular prohibition sign on a clean white background with a thick red border and diagonal slash over a person touching an antique historical display pedestal, centered and filling 90% of the square canvas, NO outer border frame, NO text or words of any kind.",
+      "question": "What does the sign mean?",
+      "options": [
+        "Cleaning historical statues requires wearing protective rubber gloves.",
+        "Visitors are encouraged to hold the ancient stone sculptures on display.",
+        "Touching the historic artifacts in this exhibition gallery is forbidden.",
+        "Standing close to the commemorative exhibition pedestal is not allowed."
+      ],
+      "correct_answer": "Touching the historic artifacts in this exhibition gallery is forbidden."
+    },
+    {
+      "id": "3",
+      "sign_type": "image",
+      "sign_image": "images/sign_3.png",
+      "sign_text": "A standard circular mandatory action sign with a deep blue background featuring a crisp white icon of audio guide headphones, centered and filling 90% of the square canvas, NO outer border frame, NO text or words of any kind.",
+      "question": "What does the sign say?",
+      "options": [
+        "Listening to the biography audio tour via personal headphones is required.",
+        "Speaking loudly into audio headsets is strictly forbidden in this section.",
+        "Repairing damaged museum headphones can be requested at the service desk.",
+        "Visitors should store audio headsets inside the cloakroom before exiting."
+      ],
+      "correct_answer": "Listening to the biography audio tour via personal headphones is required."
+    },
+    {
+      "id": "4",
+      "sign_type": "image",
+      "sign_image": "images/sign_4.png",
+      "sign_text": "A standard equilateral triangular warning sign on a clean white background with a bold yellow interior, thick black border, and a black symbol of fragile antique glass showcase display cracking under pressure, centered and filling 90% of the square canvas, NO outer border frame, NO text or words of any kind.",
+      "question": "What does the sign say?",
+      "options": [
+        "Watch out for high electrical voltage behind the antique museum lighting.",
+        "Be aware that the gallery floor has become very slippery after scrubbing.",
+        "Caution: the historic glass cabinets are fragile and must not be pushed.",
+        "Notice that damaged glassware will be replaced by the restoration team soon."
+      ],
+      "correct_answer": "Caution: the historic glass cabinets are fragile and must not be pushed."
+    },
+    {
+      "id": "5",
+      "sign_type": "image",
+      "sign_image": "images/sign_5.png",
+      "sign_text": "A standard equilateral triangular warning sign on a clean white background with a bold yellow interior, thick black border, and a black symbol of a laser beam hazard during film studio production, centered and filling 90% of the square canvas, NO outer border frame, NO text or words of any kind.",
+      "question": "What does the sign say?",
+      "options": [
+        "Beware: heavy moving cameras might cause loud noise in the production bay.",
+        "Notice: overhead stage lighting will be switched off during the rehearsal.",
+        "Attention: sound recording microphones are currently active in this studio.",
+        "Warning: optical laser equipment is actively operating on the film set."
+      ],
+      "correct_answer": "Warning: optical laser equipment is actively operating on the film set."
+    },
+    {
+      "id": "6",
+      "sign_type": "image",
+      "sign_image": "images/sign_6.png",
+      "sign_text": "Full-bleed square graphic design, 100% edge-to-edge layout filling the entire square image canvas with zero outer background margins. A sleek brushed metal rectangular plaque displaying bold white and gold text: 'HISTORICAL ARCHIVE: ORAL ACCOUNTS RECORDING IN PROGRESS — SILENCE OBSERVED'. Large high-contrast typography, maximum readability when printed.",
+      "question": "What does the notice tell us?",
+      "options": [
+        "Oral history recordings have been postponed until the studio opens tomorrow.",
+        "Visitors can join the public interview session with veterans this morning.",
+        "Sound equipment inside the archive room is currently undergoing repairs now.",
+        "People must maintain silence because a wartime interview is being filmed."
+      ],
+      "correct_answer": "People must maintain silence because a wartime interview is being filmed."
+    },
+    {
+      "id": "7",
+      "sign_type": "image",
+      "sign_image": "images/sign_7.png",
+      "sign_text": "Full-bleed square graphic design, 100% edge-to-edge layout filling the entire square image canvas with zero outer background margins. A realistic yellow textured sticky note with neat handwritten blue ink: 'Hi Leo, I left the biography of the national hero on your desk. Please return it to the library by 4 p.m. today! — Sarah'. High-contrast handwriting, maximum readability when printed.",
+      "question": "What does the note say?",
+      "options": [
+        "Sarah wants Leo to leave the history book on her study desk after lunch.",
+        "Leo should take the borrowed biography back to the library before 4 p.m.",
+        "Sarah needs Leo to purchase a new copy of the biography at the bookshop.",
+        "Leo has to finish reading the historical biography together with Sarah."
+      ],
+      "correct_answer": "Leo should take the borrowed biography back to the library before 4 p.m."
+    },
+    {
+      "id": "8",
+      "sign_type": "image",
+      "sign_image": "images/sign_8.png",
+      "sign_text": "Full-bleed square graphic design, 100% edge-to-edge layout filling the entire square image canvas with zero outer background margins. A clean corporate email interface card. Subject: 'Guest Lecture: Military Strategy in World History'. Body: 'Dear students, General Harrison's lecture moves to Hall B at 2 p.m. due to high attendance.' High-contrast typography, maximum readability when printed.",
+      "question": "What does the email say?",
+      "options": [
+        "General Harrison has cancelled his military history lecture this afternoon.",
+        "The historical lecture will take place in a different hall at two o'clock.",
+        "The presentation has been extended because many visitors arrived early today.",
+        "Students must register online in advance before attending the talk in Hall B."
+      ],
+      "correct_answer": "The historical lecture will take place in a different hall at two o'clock."
+    },
+    {
+      "id": "9",
+      "sign_type": "image",
+      "sign_image": "images/sign_9.png",
+      "sign_text": "Full-bleed square graphic design, 100% edge-to-edge layout filling the entire square image canvas with zero outer background margins. A stylish vintage bookstore promotional poster: 'HEROES & LEGENDS BOOK FAIR: Buy any two biographies of visionary leaders, receive a documentary DVD for free! Valid this weekend only.' High-contrast typography, maximum readability when printed.",
+      "question": "What does the notice tell us?",
+      "options": [
+        "Customers get a complimentary documentary DVD when purchasing two biographies.",
+        "Visitors receive two free documentary films when buying any history magazine.",
+        "All historical books about visionary leaders are discounted by fifty percent.",
+        "The book fair offers free biography volumes for anyone visiting this weekend."
+      ],
+      "correct_answer": "Customers get a complimentary documentary DVD when purchasing two biographies."
+    },
+    {
+      "id": "10",
+      "sign_type": "image",
+      "sign_image": "images/sign_10.png",
+      "sign_text": "Full-bleed square graphic design, 100% edge-to-edge layout filling the entire square image canvas with zero outer background margins. A vibrant cinematic poster for 'INDEPENDENCE FILM FESTIVAL: Screening award-winning resistance war blockbusters from October 10 to 15 at City Cinema. Free admission for students with valid student ID.' High-contrast typography, maximum readability when printed.",
+      "question": "What does the flyer tell us?",
+      "options": [
+        "Students with valid identification cards can attend the screenings for free.",
+        "Moviegoers must purchase tickets online before October 10 to see the films.",
+        "The film festival will showcase foreign animated cartoons for secondary kids.",
+        "Cinema tickets are fifty percent off for all visitors during the five days."
+      ],
+      "correct_answer": "Students with valid identification cards can attend the screenings for free."
+    }
+  ]
+}

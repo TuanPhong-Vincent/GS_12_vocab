@@ -1,0 +1,38 @@
+{
+  "id": "15",
+  "type": "word_formation",
+  "title": "Supply the correct form of the word given in each sentence.",
+  "description": "Read the sentence and provide the correct form of the word in brackets.",
+  "questions": [
+    {
+      "id": "1",
+      "text": "Many eco-friendly supermarkets avoid using __________ plastic wrap for fresh vegetables.",
+      "correct_answer": "wasteful",
+      "base_word": "WASTE"
+    },
+    {
+      "id": "2",
+      "text": "Proper waste sorting increases the proportion of __________ materials sent to recovery plants.",
+      "correct_answer": "recyclable",
+      "base_word": "RECYCLE"
+    },
+    {
+      "id": "3",
+      "text": "The rapid __________ of discarded vegetable peelings produces nutrient-rich garden compost.",
+      "correct_answer": "decomposition",
+      "base_word": "DECOMPOSE"
+    },
+    {
+      "id": "4",
+      "text": "Installing rooftop solar panels helps families power their homes __________.",
+      "correct_answer": "sustainably",
+      "base_word": "SUSTAIN"
+    },
+    {
+      "id": "5",
+      "text": "Tossing oily cardboard into the paper collection causes serious __________ of clean materials.",
+      "correct_answer": "contamination",
+      "base_word": "CONTAMINATE"
+    }
+  ]
+}

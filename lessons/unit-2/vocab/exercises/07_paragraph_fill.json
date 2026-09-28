@@ -1,0 +1,81 @@
+{
+  "id": "7",
+  "type": "paragraph_fill",
+  "title": "Fill in the Blanks in the Paragraph",
+  "description": "Complete the paragraph below using words from the box.",
+  "word_box": [
+    "cuisine",
+    "custom",
+    "multicultural",
+    "appreciate",
+    "originate",
+    "souvenir",
+    "tradition",
+    "blend",
+    "carnival",
+    "festivities"
+  ],
+  "paragraph_parts": [
+    "Living in a ",
+    {
+      "id": "1",
+      "type": "blank",
+      "correct_answer": "multicultural"
+    },
+    " city offers wonderful opportunities to discover diverse global heritages. Every autumn, joyful ",
+    {
+      "id": "2",
+      "type": "blank",
+      "correct_answer": "festivities"
+    },
+    " transform our neighborhood square into an open-air celebration with music and dance. A cherished local ",
+    {
+      "id": "3",
+      "type": "blank",
+      "correct_answer": "custom"
+    },
+    " encourages families from every background to share authentic dishes representing their homeland. Walking through the dining marquee, visitors can sample rich Mediterranean ",
+    {
+      "id": "4",
+      "type": "blank",
+      "correct_answer": "cuisine"
+    },
+    " alongside delicate East Asian pastries. Historical records explain that many of these recipes ",
+    {
+      "id": "5",
+      "type": "blank",
+      "correct_answer": "originate"
+    },
+    " from centuries-old family notebooks. At the festival, innovative young cooks often ",
+    {
+      "id": "6",
+      "type": "blank",
+      "correct_answer": "blend"
+    },
+    " ancestral spices with fresh local produce to create exciting new flavors. Attending these public gatherings teaches high school students to ",
+    {
+      "id": "7",
+      "type": "blank",
+      "correct_answer": "appreciate"
+    },
+    " the cultural richness of their community. Before returning home, many visitors purchase an artisan ",
+    {
+      "id": "8",
+      "type": "blank",
+      "correct_answer": "souvenir"
+    },
+    " from the craft stalls as a lasting memento. The vibrant weekend concludes with an energetic street ",
+    {
+      "id": "9",
+      "type": "blank",
+      "correct_answer": "carnival"
+    },
+    " where dancers in flamboyant feather headdresses parade past cheering crowds. Preserving this communal celebration ensures that our proud cultural ",
+    {
+      "id": "10",
+      "type": "blank",
+      "correct_answer": "tradition"
+    },
+    " remains strong for generations to come."
+  ]
+}

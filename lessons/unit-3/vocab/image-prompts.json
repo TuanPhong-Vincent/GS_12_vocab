@@ -1,0 +1,292 @@
+[
+  {
+    "object": "waste",
+    "prompt": "A photo of a prominent large pile of discarded everyday domestic trash bags and rubbish piled up on a city curb, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "waste.webp"
+  },
+  {
+    "object": "landfill",
+    "prompt": "A photo of a vast open-air municipal landfill site with massive mounds of compressed garbage stretching across the terrain and a distant yellow bulldozer, highly detailed, photorealistic, 8k, cinematic lighting, don't add any text to the image",
+    "filename": "landfill.webp"
+  },
+  {
+    "object": "decompose",
+    "prompt": "A photo centered and close-up showing an organic apple core decomposing naturally into rich dark soil, surrounded by tiny earthworms and natural breakdown, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "decompose.webp"
+  },
+  {
+    "object": "packaging",
+    "prompt": "A photo centered and large of various eco-friendly packaging materials including brown kraft paper wraps, moulded pulp cushions, and unprinted cardboard parcel wrappers, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "packaging.webp"
+  },
+  {
+    "object": "container",
+    "prompt": "A photo centered and close-up of a prominent transparent glass reusable food container with a sealed silicone lid, filled with a freshly prepared healthy salad, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "container.webp"
+  },
+  {
+    "object": "cardboard box",
+    "prompt": "A photo centered and prominent of an open sturdy brown corrugated cardboard box sitting on a wooden floor, ready for packing goods, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "cardboard-box.webp"
+  },
+  {
+    "object": "single-use",
+    "prompt": "A photo centered and close-up of typical single-use disposable plastic items including a thin clear plastic cup with a plastic lid, plastic straw, and flimsy plastic fork, isolated on a neutral background, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "single-use.webp"
+  },
+  {
+    "object": "takeaway container",
+    "prompt": "A photo centered and prominent of an eco-friendly biodegradable sugarcane bagasse clamshell takeaway food container opened with a hot meal inside, resting on a table, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "takeaway-container.webp"
+  },
+  {
+    "object": "recyclable",
+    "prompt": "A photo centered and large of clean recyclable materials grouped together, including empty clear plastic bottles, clean aluminum soda cans, and flattened cardboard, all pristine and ready for reprocessing, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "recyclable.webp"
+  },
+  {
+    "object": "recycle",
+    "prompt": "A photo of a person actively feeding a clean empty plastic bottle into the intake slot of a modern automated recycling reverse vending machine, close-up on hands and machine, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "recycle.webp"
+  },
+  {
+    "object": "reuse",
+    "prompt": "A photo centered and prominent of a creative reuse project, showing an empty vintage glass jam jar repurposed into a stylish desk pen and pencil holder filled with stationery, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "reuse.webp"
+  },
+  {
+    "object": "reduce",
+    "prompt": "A modern graphic illustration demonstrating waste reduction, comparing a towering huge pile of trash shrinking drastically down to a tiny neat cloth bag through a downward trending arrow, clean minimalist educational style, 8k, don't add any text to the image",
+    "filename": "reduce.webp"
+  },
+  {
+    "object": "contaminated",
+    "prompt": "A photo centered and close-up of paper recyclables ruined and contaminated by a greasy discarded pizza box and dripping food oil stains inside a paper recycling bin, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "contaminated.webp"
+  },
+  {
+    "object": "rinse out",
+    "prompt": "A photo centered and close-up of a person's hands holding an empty beverage carton under a running kitchen faucet, thoroughly rinsing out residual liquid before putting it into recycling, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "rinse-out.webp"
+  },
+  {
+    "object": "sort waste",
+    "prompt": "A photo of a student standing in a bright modern school hallway actively sorting waste, dropping clean paper into a paper receptacle while holding plastic bottles to place into a separate plastic slot, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "sort-waste.webp"
+  },
+  {
+    "object": "separate garbage",
+    "prompt": "A photo centered and prominent of two clearly separated modern kitchen garbage bins side by side, one marked green filled with organic fruit and vegetable peels, and one grey for dry waste, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "separate-garbage.webp"
+  },
+  {
+    "object": "rubbish bin",
+    "prompt": "A photo of a standard dark grey outdoor park rubbish bin with a garbage bag inside, placed beside a wooden park bench along a paved walking path, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "rubbish-bin.webp"
+  },
+  {
+    "object": "recycling bin",
+    "prompt": "A photo centered and prominent of a bright blue recycling bin featuring the universal embossed three-arrow recycling symbol, standing in a brightly lit modern classroom corner, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "recycling-bin.webp"
+  },
+  {
+    "object": "green living",
+    "prompt": "A photo of a bright, sunlit modern eco-friendly living room featuring abundant indoor potted plants, solar-powered lighting, reusable cloth tote bags, and large windows opening onto a lush green garden, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "green-living.webp"
+  },
+  {
+    "object": "eco-friendly",
+    "prompt": "A photo centered and prominent of eco-friendly sustainable lifestyle items flat-lay on a wooden surface, including a bamboo toothbrush, wooden hairbrush, organic cotton tote bag, and solid shampoo bar on fresh green leaves, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "eco-friendly.webp"
+  },
+  {
+    "object": "environmental awareness",
+    "prompt": "A photo of high school students gathered around an interactive educational exhibit and a glowing green Earth globe model, discussing environmental conservation with curiosity, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "environmental-awareness.webp"
+  },
+  {
+    "object": "carbon footprint",
+    "prompt": "A modern graphic illustration of a large conceptual human footprint silhouette composed of miniature cars, aircraft, and factory smoke icons, walking across a pristine green landscape, educational infographic style, 8k, don't add any text to the image",
+    "filename": "carbon-footprint.webp"
+  },
+  {
+    "object": "natural resources",
+    "prompt": "A photo of pristine untouched natural resources, featuring a clear mountain river, fertile forest soil, rich mineral rocks, and dense green timber trees under bright sunlight, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "natural-resources.webp"
+  },
+  {
+    "object": "sustainable",
+    "prompt": "A photo of a sustainable eco-city district featuring buildings covered in vertical hanging gardens, rooftop solar panels, cycling lanes, and clean electric trams, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "sustainable.webp"
+  },
+  {
+    "object": "zero waste",
+    "prompt": "A photo centered and prominent of a zero-waste grocery shopping kit, featuring organic cotton mesh produce bags filled with fresh apples and oranges, stainless steel food tins, and glass containers on a wooden counter, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "zero-waste.webp"
+  },
+  {
+    "object": "green energy",
+    "prompt": "A photo of large modern white wind turbines standing majestically on a green grassy hill alongside expansive photovoltaic solar panel arrays under a clear sunny sky, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "green-energy.webp"
+  },
+  {
+    "object": "reusable bottle",
+    "prompt": "A photo centered and large of a sleek insulated stainless steel reusable water bottle with a sturdy carry handle, standing on an outdoor wooden picnic table, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "reusable-bottle.webp"
+  },
+  {
+    "object": "reusable cup",
+    "prompt": "A photo centered and close-up of a stylish ceramic and silicone reusable takeaway coffee cup with a secure drinking lid, resting on a clean wooden café tabletop, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "reusable-cup.webp"
+  },
+  {
+    "object": "glass jar",
+    "prompt": "A photo centered and prominent of a clear transparent glass mason jar with an airtight metal clamp latch, filled with dried brown lentils on a kitchen pantry shelf, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "glass-jar.webp"
+  },
+  {
+    "object": "metal straw",
+    "prompt": "A photo centered and close-up of a shiny stainless steel reusable metal drinking straw placed inside a tall glass of fresh iced lemonade with a mint sprig, next to a small straw wire cleaning brush, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "metal-straw.webp"
+  },
+  {
+    "object": "refill",
+    "prompt": "A photo centered on a person holding a reusable stainless steel flask beneath the nozzle of a modern public filtered drinking water refill station, clean fresh water pouring in, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "refill.webp"
+  },
+  {
+    "object": "turn off",
+    "prompt": "A photo centered and close-up of a person's hand pressing a modern white electric wall light switch down into the OFF position, darkening the room to conserve energy, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "turn-off.webp"
+  },
+  {
+    "object": "waste of electricity",
+    "prompt": "A photo of a completely empty modern room in broad daylight with multiple ceiling lights blazing and an air conditioning unit running with open windows, depicting clear electricity wastage, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "waste-of-electricity.webp"
+  },
+  {
+    "object": "compost",
+    "prompt": "A photo centered and close-up of cupped gardening hands holding rich, dark, crumbly organic compost soil teeming with nutrients for planting, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "compost.webp"
+  },
+  {
+    "object": "compost pile",
+    "prompt": "A photo of an outdoor garden compost pile contained within wooden slatted walls, visibly layered with vegetable kitchen scraps, dry brown leaves, and decaying organic matter, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "compost-pile.webp"
+  },
+  {
+    "object": "household waste",
+    "prompt": "A photo centered on an open kitchen domestic trash can revealing typical mixed household waste such as crumpled wrappers, empty milk cartons, and packaging waste, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "household-waste.webp"
+  },
+  {
+    "object": "garden waste",
+    "prompt": "A photo of a garden wheelbarrow heaped high with fresh green lawn clippings, pruned tree twigs, and dry raked leaves, standing on a backyard lawn, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "garden-waste.webp"
+  },
+  {
+    "object": "fruit peel",
+    "prompt": "A photo centered and close-up of fresh colorful fruit peels including curled orange rinds, apple skins, and banana peels piled neatly on a wooden cutting board, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "fruit-peel.webp"
+  },
+  {
+    "object": "leftovers",
+    "prompt": "A photo centered and prominent of delicious roasted vegetables and pasta leftovers stored inside a clear rectangular glass food storage box with a sealed lid, resting in a refrigerator, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "leftovers.webp"
+  },
+  {
+    "object": "layer",
+    "prompt": "A photo cutaway cross-section view of a transparent composting bin demonstrating distinct horizontal layers of brown dried leaves, green vegetable scraps, and dark garden soil, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "layer.webp"
+  },
+  {
+    "object": "chemical fertiliser",
+    "prompt": "A photo centered and close-up of synthetic chemical fertiliser white and blue granules spilling from an agricultural bag onto dry farmed soil, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "chemical-fertiliser.webp"
+  },
+  {
+    "object": "air pollution",
+    "prompt": "A photo of a dense grey toxic smog and haze blanket hanging over a sprawling city skyline, with vehicle exhaust fumes and industrial chimneys emitting smoke into the dull grey atmosphere, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "air-pollution.webp"
+  },
+  {
+    "object": "greenhouse gas",
+    "prompt": "A modern graphic educational illustration showing the planet Earth encircled by an atmospheric heat-trapping greenhouse gas layer, reflecting thermal infrared rays back to the planetary surface, 8k, don't add any text to the image",
+    "filename": "greenhouse-gas.webp"
+  },
+  {
+    "object": "methane",
+    "prompt": "A 3D scientific educational illustration of a methane CH4 gas molecule with a central carbon sphere and four surrounding hydrogen spheres hovering above a landfill mound, clean scientific graphic, 8k, don't add any text to the image",
+    "filename": "methane.webp"
+  },
+  {
+    "object": "carbon dioxide",
+    "prompt": "A modern educational graphic illustration showing carbon dioxide gas emissions rising as molecular vapor clouds from car exhausts and industrial smoke stacks into the atmosphere, clean infographic style, 8k, don't add any text to the image",
+    "filename": "carbon-dioxide.webp"
+  },
+  {
+    "object": "pollutant",
+    "prompt": "A photo centered and close-up of dark toxic chemical liquid pollutants discharging from a metal industrial pipe directly into a clean natural river stream, creating murky discoloration, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "pollutant.webp"
+  },
+  {
+    "object": "wildfire",
+    "prompt": "A photo of a dramatic and fierce wildfire blazing across a pine forest ridge at dusk, with towering orange flames and thick billows of smoke consuming dry trees, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "wildfire.webp"
+  },
+  {
+    "object": "litter",
+    "prompt": "A photo centered on unsightly plastic litter including crushed soda cans, empty plastic wrappers, and disposable bottles scattered carelessly across green grass in a public park, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "litter.webp"
+  },
+  {
+    "object": "climate change",
+    "prompt": "A conceptual split-scene photo illustrating climate change, showing one half as cracked parched drought-stricken earth under intense heat and the other half as melting polar glaciers collapsing into rising seas, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "climate-change.webp"
+  },
+  {
+    "object": "harm wild animals",
+    "prompt": "A photo of a marine sea turtle swimming underwater dangerously close to floating transparent discarded plastic bags and entangled fishing nylon cords in an ocean reef, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "harm-wild-animals.webp"
+  },
+  {
+    "object": "public transport",
+    "prompt": "A photo of a modern electric city bus and a sleek passenger transit metro train arriving simultaneously at a bright urban transit hub with commuters boarding, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "public-transport.webp"
+  },
+  {
+    "object": "sensor tap",
+    "prompt": "A photo centered and close-up of a sleek chrome automatic sensor faucet in a modern restroom, with clean water dispensing hands-free as a pair of hands moves beneath the infrared sensor, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "sensor-tap.webp"
+  },
+  {
+    "object": "automatic light",
+    "prompt": "A photo of a modern ceiling-mounted motion sensor light turning on automatically as a person steps into a hallway, casting bright warm illumination down the corridor, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "automatic-light.webp"
+  },
+  {
+    "object": "plant pot",
+    "prompt": "A photo centered and prominent of a charming terracotta plant pot with a vibrant green potted houseplant growing vigorously, sitting on a sunlit classroom windowsill, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "plant-pot.webp"
+  },
+  {
+    "object": "bird feeder",
+    "prompt": "A photo centered and prominent of a handcrafted wooden bird feeder hanging from a leafy tree branch in a garden, with small colorful wild birds perching and feeding on seeds, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "bird-feeder.webp"
+  },
+  {
+    "object": "clean up",
+    "prompt": "A photo of a group of enthusiastic young volunteers wearing protective gloves and holding trash grabbers, actively collecting litter into large garbage bags along a riverbank park, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "clean-up.webp"
+  },
+  {
+    "object": "care about",
+    "prompt": "A photo centered and close-up of a caring young volunteer tenderly planting and staking a small delicate tree sapling in rich soil, shielding it with cupped hands, highly detailed, photorealistic, 8k, don't add any text to the image",
+    "filename": "care-about.webp"
+  },
+  {
+    "object": "in the long run",
+    "prompt": "A modern graphic conceptual progression showing a timeline arrow from a newly planted small sapling and rooftop solar installation to a flourishing lush shade tree and an energy-abundant green home, representing long-term benefits, 8k, don't add any text to the image",
+    "filename": "in-the-long-run.webp"
+  }
+]

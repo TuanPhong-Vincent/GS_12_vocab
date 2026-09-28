@@ -1,0 +1,63 @@
+{
+  "id": "9",
+  "type": "multiple_choice",
+  "title": "Multiple Choice - Closest in Meaning",
+  "description": "Choose the word or phrase CLOSEST in meaning to the underlined part.",
+  "questions": [
+    {
+      "id": "1",
+      "text": "Lighting decorative floating candles along the canal is an ancient [custom] observed by generations of townspeople.",
+      "options": [
+        "barrier",
+        "practice",
+        "obstacle",
+        "alarm"
+      ],
+      "correct_answer": "practice"
+    },
+    {
+      "id": "2",
+      "text": "Steamed lotus seed pudding is a renowned regional [speciality] that visitors eagerly seek out at the spring fair.",
+      "options": [
+        "signature dish",
+        "cooking utensil",
+        "raw ingredient",
+        "souvenir item"
+      ],
+      "correct_answer": "signature dish"
+    },
+    {
+      "id": "3",
+      "text": "The energetic street acrobats managed to [captivate] the huge festival audience with their daring balance stunts.",
+      "options": [
+        "fascinate",
+        "disappoint",
+        "frighten",
+        "confuse"
+      ],
+      "correct_answer": "fascinate"
+    },
+    {
+      "id": "4",
+      "text": "Joyful [festivities] filled the town square as families gathered to celebrate the arrival of the new lunar year.",
+      "options": [
+        "arguments",
+        "regulations",
+        "celebrations",
+        "competitions"
+      ],
+      "correct_answer": "celebrations"
+    },
+    {
+      "id": "5",
+      "text": "Wearing hand-embroidered ethnic motifs on casual denim jackets represents an exciting modern fashion [trend].",
+      "options": [
+        "hardship",
+        "barrier",
+        "heritage",
+        "tendency"
+      ],
+      "correct_answer": "tendency"
+    }
+  ]
+}

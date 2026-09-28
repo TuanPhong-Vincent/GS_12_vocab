@@ -1,0 +1,133 @@
+{
+  "id": "11",
+  "type": "dictionary_entry",
+  "title": "Dictionary Entries",
+  "description": "Look at the dictionary entries below. Use the information provided to complete the sentences.",
+  "entries": [
+    {
+      "id": "1",
+      "word": "pollutant",
+      "part_of_speech": "noun",
+      "pronunciation": "/pəˈluːtənt/",
+      "definition": "a substance that makes air, water, or soil dirty and not suitable or safe to use",
+      "bullet_points": [
+        "Environmental scientists identified plastic microfibers [as a major pollutant] threatening coastal wildlife.",
+        "Heavy vehicle exhaust is recognized as a common [air pollutant] in crowded downtown streets.",
+        "Old thermal power stations can [release a pollutant] into nearby freshwater reservoirs.",
+        "The agricultural inspection team detected a [dangerous chemical pollutant] in the farmland drainage canal."
+      ],
+      "questions": [
+        {
+          "id": "1",
+          "text": "Smoggy factory chimneys pump particulate matter into the sky, making it a hazardous __________ that causes lung disease.",
+          "correct_answer": "air pollutant"
+        },
+        {
+          "id": "2",
+          "text": "Strict environmental laws prevent manufacturing factories from having the right to __________ into public streams.",
+          "correct_answer": "release a pollutant"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "word": "decompose",
+      "part_of_speech": "verb",
+      "pronunciation": "/ˌdiːkəmˈpəʊz/",
+      "definition": "to break down gradually into smaller parts through natural, chemical, or biological processes",
+      "bullet_points": [
+        "Beneficial soil microbes and earthworms [help decompose organic matter] into nutrient-rich humus.",
+        "Thick cardboard packaging takes several humid months [to decompose slowly] in a backyard garden.",
+        "Most cotton canvas fabrics [can decompose over time] without leaving synthetic toxic residues behind.",
+        "Fruit peelings and dry garden leaves will [decompose naturally] when buried in aerated soil."
+      ],
+      "questions": [
+        {
+          "id": "3",
+          "text": "Adding red wriggler worms to your compost barrel will __________ much faster than ordinary aeration alone.",
+          "correct_answer": "help decompose organic matter"
+        },
+        {
+          "id": "4",
+          "text": "Dense wooden tree bark requires many rainy seasons __________ beneath the forest floor before turning into rich loam.",
+          "correct_answer": "to decompose slowly"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "word": "sustainable",
+      "part_of_speech": "adjective",
+      "pronunciation": "/səˈsteɪnəbl/",
+      "definition": "able to continue or be continued for a long time without damaging the environment",
+      "bullet_points": [
+        "Switching municipal bus fleets entirely to electricity [is economically sustainable] over a ten-year operational period.",
+        "Crop rotation and drip irrigation are traditional techniques supporting [sustainable agriculture] in rural valleys.",
+        "Local timber companies are legally required to manage forestry reserves [in a sustainable manner] without clear-cutting.",
+        "Biodegradable seaweed wraps offer an innovative, [sustainable alternative to plastics] for packaging fresh groceries."
+      ],
+      "questions": [
+        {
+          "id": "5",
+          "text": "Natural bamboo cutlery provides a durable, __________ when packing takeaway lunches.",
+          "correct_answer": "sustainable alternative to plastics"
+        },
+        {
+          "id": "6",
+          "text": "Farmers adopting organic fertilisation and solar water pumps contribute greatly to __________ across the countryside.",
+          "correct_answer": "sustainable agriculture"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "word": "container",
+      "part_of_speech": "noun",
+      "pronunciation": "/kənˈteɪnə/",
+      "definition": "an object such as a box, bottle, or jar that can be used for holding something",
+      "bullet_points": [
+        "Mai washed an aluminium [container for food leftovers] before putting it in her school backpack.",
+        "Customers who purchase package-free detergents must [use a container] brought from home.",
+        "Keep dried pantry herbs and spices in a labelled [storage container] to prevent moisture damage.",
+        "Laboratory researchers placed biological specimens inside a firmly [sealed glass container] on the sterilised bench."
+      ],
+      "questions": [
+        {
+          "id": "7",
+          "text": "Shoppers visiting zero-waste bulk grocery stores are asked to __________ rather than purchasing disposable plastic wraps.",
+          "correct_answer": "use a container"
+        },
+        {
+          "id": "8",
+          "text": "To preserve homemade raspberry jam without spoiling, pour the warm mixture into a __________.",
+          "correct_answer": "sealed glass container"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "word": "refill",
+      "part_of_speech": "verb",
+      "pronunciation": "/ˌriːˈfɪl/",
+      "definition": "to fill something again after it has been emptied or partly emptied",
+      "bullet_points": [
+        "Modern airport transit lounges provide filtered water stations so passengers can easily [refill bottles] before flying.",
+        "If your metal flasks are empty, you [can refill them] at the hallway drinking fountain free of charge.",
+        "Customers at the neighborhood beverage kiosk are encouraged [to refill cups] rather than requesting disposable mugs.",
+        "Athletes at the marathon finish line quickly [refill containers with water] to rehydrate after running."
+      ],
+      "questions": [
+        {
+          "id": "9",
+          "text": "Volunteers setting up the hydration booth at the park marathon must __________ before runners cross the finish line.",
+          "correct_answer": "refill containers with water"
+        },
+        {
+          "id": "10",
+          "text": "The university cafeteria offers a ten-percent drink discount to students who bring mugs __________.",
+          "correct_answer": "to refill cups"
+        }
+      ]
+    }
+  ]
+}

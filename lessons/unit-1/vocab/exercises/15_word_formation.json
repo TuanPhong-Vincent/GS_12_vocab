@@ -1,0 +1,38 @@
+{
+  "id": "15",
+  "type": "word_formation",
+  "title": "Supply the correct form of the word given in each sentence.",
+  "description": "Read the sentence and provide the correct form of the word in brackets.",
+  "questions": [
+    {
+      "id": "1",
+      "text": "The young mountaineer's courage and perseverance were truly __________.",
+      "correct_answer": "admirable",
+      "base_word": "ADMIRE"
+    },
+    {
+      "id": "2",
+      "text": "After years of financial dependence, the entrepreneur finally gained total __________.",
+      "correct_answer": "independence",
+      "base_word": "INDEPENDENT"
+    },
+    {
+      "id": "3",
+      "text": "Even in the face of fierce criticism, she remained completely __________ to her principles.",
+      "correct_answer": "devoted",
+      "base_word": "DEVOTE"
+    },
+    {
+      "id": "4",
+      "text": "The young chess player advanced __________ through every stage of the national tournament.",
+      "correct_answer": "determinedly",
+      "base_word": "DETERMINE"
+    },
+    {
+      "id": "5",
+      "text": "Rebuilding the destroyed medieval library was an extraordinarily __________ project for the city.",
+      "correct_answer": "ambitious",
+      "base_word": "AMBITION"
+    }
+  ]
+}

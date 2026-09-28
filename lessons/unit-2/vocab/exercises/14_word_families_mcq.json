@@ -1,0 +1,118 @@
+{
+  "id": "14",
+  "type": "word_families_mcq",
+  "title": "Multiple Choice – Word Families",
+  "description": "Choose the correct word to complete each sentence.",
+  "questions": [
+    {
+      "id": "1",
+      "text": "The whole school gathered on the sports field to __________ the victory of the soccer team.",
+      "options": [
+        "celebrate",
+        "celebratory",
+        "celebration",
+        "celebrated"
+      ],
+      "correct_answer": "celebrate"
+    },
+    {
+      "id": "2",
+      "text": "Villagers __________ wear embroidered silk tunics during the annual autumn harvest ceremony.",
+      "options": [
+        "traditional",
+        "tradition",
+        "traditionally",
+        "traditions"
+      ],
+      "correct_answer": "traditionally"
+    },
+    {
+      "id": "3",
+      "text": "Historians confirmed that the manuscript was an __________ copy written by hand in the fourteenth century.",
+      "options": [
+        "originate",
+        "originally",
+        "origin",
+        "original"
+      ],
+      "correct_answer": "original"
+    },
+    {
+      "id": "4",
+      "text": "Wearing uniform vests helped festival volunteers __________ each other easily in the crowded park.",
+      "options": [
+        "identifying",
+        "identify",
+        "identity",
+        "identifiable"
+      ],
+      "correct_answer": "identify"
+    },
+    {
+      "id": "5",
+      "text": "Her grandmother was an __________ cultural mentor who taught many young girls traditional embroidery.",
+      "options": [
+        "influencing",
+        "influences",
+        "influence",
+        "influential"
+      ],
+      "correct_answer": "influential"
+    },
+    {
+      "id": "6",
+      "text": "The village council presented a wooden plaque to show their deep __________ for his voluntary service.",
+      "options": [
+        "appreciating",
+        "appreciation",
+        "appreciate",
+        "appreciative"
+      ],
+      "correct_answer": "appreciation"
+    },
+    {
+      "id": "7",
+      "text": "Japanese matcha tea has become increasingly __________ among high school students in recent years.",
+      "options": [
+        "popularity",
+        "popularly",
+        "popular",
+        "popularize"
+      ],
+      "correct_answer": "popular"
+    },
+    {
+      "id": "8",
+      "text": "Some culinary chefs choose to __________ in preparing authentic regional seafood delicacies.",
+      "options": [
+        "special",
+        "specialize",
+        "speciality",
+        "specially"
+      ],
+      "correct_answer": "specialize"
+    },
+    {
+      "id": "9",
+      "text": "In this highland region, it is __________ for hosts to offer hot ginger tea to newly arrived guests.",
+      "options": [
+        "customarily",
+        "custom",
+        "customary",
+        "customs"
+      ],
+      "correct_answer": "customary"
+    },
+    {
+      "id": "10",
+      "text": "The orchestra played several lively __________ tunes as the festival parade marched through the main square.",
+      "options": [
+        "celebratory",
+        "celebrate",
+        "celebration",
+        "celebrations"
+      ],
+      "correct_answer": "celebratory"
+    }
+  ]
+}

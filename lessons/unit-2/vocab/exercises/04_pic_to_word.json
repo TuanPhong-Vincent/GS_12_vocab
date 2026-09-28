@@ -1,0 +1,108 @@
+{
+  "id": "4",
+  "type": "pic_to_word",
+  "title": "Write the English Words for the Pictures",
+  "description": "Look at each picture and write the correct English word in the blank.",
+  "questions": [
+    {
+      "id": "1",
+      "image": "/lessons/media/gs12/unit-2/images/cultural-diversity.webp",
+      "correct_answer": "cultural diversity"
+    },
+    {
+      "id": "2",
+      "image": "/lessons/media/gs12/unit-2/images/globalisation.webp",
+      "correct_answer": "globalisation"
+    },
+    {
+      "id": "3",
+      "image": "/lessons/media/gs12/unit-2/images/identity.webp",
+      "correct_answer": "identity"
+    },
+    {
+      "id": "4",
+      "image": "/lessons/media/gs12/unit-2/images/costume.webp",
+      "correct_answer": "costume"
+    },
+    {
+      "id": "5",
+      "image": "/lessons/media/gs12/unit-2/images/carnival.webp",
+      "correct_answer": "carnival"
+    },
+    {
+      "id": "6",
+      "image": "/lessons/media/gs12/unit-2/images/trick-or-treat.webp",
+      "correct_answer": "trick or treat"
+    },
+    {
+      "id": "7",
+      "image": "/lessons/media/gs12/unit-2/images/pumpkin-lantern.webp",
+      "correct_answer": "pumpkin lantern"
+    },
+    {
+      "id": "8",
+      "image": "/lessons/media/gs12/unit-2/images/haunted-house.webp",
+      "correct_answer": "haunted house"
+    },
+    {
+      "id": "9",
+      "image": "/lessons/media/gs12/unit-2/images/cuisine.webp",
+      "correct_answer": "cuisine"
+    },
+    {
+      "id": "10",
+      "image": "/lessons/media/gs12/unit-2/images/speciality.webp",
+      "correct_answer": "speciality"
+    },
+    {
+      "id": "11",
+      "image": "/lessons/media/gs12/unit-2/images/ingredient.webp",
+      "correct_answer": "ingredient"
+    },
+    {
+      "id": "12",
+      "image": "/lessons/media/gs12/unit-2/images/food-stall.webp",
+      "correct_answer": "food stall"
+    },
+    {
+      "id": "13",
+      "image": "/lessons/media/gs12/unit-2/images/tourist-attraction.webp",
+      "correct_answer": "tourist attraction"
+    },
+    {
+      "id": "14",
+      "image": "/lessons/media/gs12/unit-2/images/souvenir.webp",
+      "correct_answer": "souvenir"
+    },
+    {
+      "id": "15",
+      "image": "/lessons/media/gs12/unit-2/images/traditional-game.webp",
+      "correct_answer": "traditional game"
+    },
+    {
+      "id": "16",
+      "image": "/lessons/media/gs12/unit-2/images/tug-of-war.webp",
+      "correct_answer": "tug of war"
+    },
+    {
+      "id": "17",
+      "image": "/lessons/media/gs12/unit-2/images/bamboo-dancing.webp",
+      "correct_answer": "bamboo dancing"
+    },
+    {
+      "id": "18",
+      "image": "/lessons/media/gs12/unit-2/images/culture-exchange.webp",
+      "correct_answer": "culture exchange"
+    },
+    {
+      "id": "19",
+      "image": "/lessons/media/gs12/unit-2/images/language-barrier.webp",
+      "correct_answer": "language barrier"
+    },
+    {
+      "id": "20",
+      "image": "/lessons/media/gs12/unit-2/images/festivities.webp",
+      "correct_answer": "festivities"
+    }
+  ]
+}

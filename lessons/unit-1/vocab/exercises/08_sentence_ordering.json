@@ -1,0 +1,88 @@
+{
+  "id": "8",
+  "type": "sentence_ordering_multiple_choice",
+  "title": "Put the sentences in the correct order",
+  "description": "Read the sentences and choose the correct order to form a logical paragraph or conversation.",
+  "questions": [
+    {
+      "id": "1",
+      "sentences": [
+        "a. Elena: 'That remarkable victory certainly explains why his people celebrated him as a hero.'",
+        "b. Marcus: 'I watched a fascinating documentary about an ancient military genius last night.'",
+        "c. Elena: 'What made his wartime strategies so impressive to modern historians?'",
+        "d. Marcus: 'He changed his battle tactics unexpectedly and forced the invading army to surrender.'"
+      ],
+      "options": [
+        "c-b-d-a",
+        "b-d-c-a",
+        "b-a-d-c",
+        "b-c-d-a"
+      ],
+      "correct_answer": "b-c-d-a"
+    },
+    {
+      "id": "2",
+      "sentences": [
+        "a. Sara: 'Let's meet at the train station at eight o'clock so we can arrive before the crowds.'",
+        "b. Tom: 'That sounds exciting since I really want to examine the original lunar flight modules.'",
+        "c. Tom: 'Are we still visiting the aviation museum for our history assignment this Saturday?'",
+        "d. Sara: 'Yes, because the main exhibition features cutting-edge technology developed during the space race.'"
+      ],
+      "options": [
+        "c-d-b-a",
+        "c-d-a-b",
+        "c-b-d-a",
+        "d-c-b-a"
+      ],
+      "correct_answer": "c-d-b-a"
+    },
+    {
+      "id": "3",
+      "sentences": [
+        "a. Through intense determination and patient training, the young boy gradually built up his stamina.",
+        "b. Ten years later, he crossed the finish line of the national marathon to the cheers of thousands.",
+        "c. His parents encouraged him to take daily walks in the countryside to strengthen his breathing.",
+        "d. When Julian was diagnosed with a severe respiratory condition as a child, doctors doubted he could ever run."
+      ],
+      "options": [
+        "d-c-b-a",
+        "c-d-a-b",
+        "d-c-a-b",
+        "d-a-c-b"
+      ],
+      "correct_answer": "d-c-a-b"
+    },
+    {
+      "id": "4",
+      "sentences": [
+        "a. A small team of independent animators began sketching storyboard concepts in an abandoned warehouse.",
+        "b. The touching story went on to become an unexpected global blockbuster that captivated audiences worldwide.",
+        "c. Film critics praised the innovative visuals when the indie project debuted at an international festival.",
+        "d. They spent three years perfecting their computer animation to create lifelike character expressions."
+      ],
+      "options": [
+        "a-d-c-b",
+        "d-a-c-b",
+        "a-d-b-c",
+        "a-c-d-b"
+      ],
+      "correct_answer": "a-d-c-b"
+    },
+    {
+      "id": "5",
+      "sentences": [
+        "a. Working under flickering lanterns, the dedicated surgeon saved hundreds of lives with limited supplies.",
+        "b. Dr. Alistair volunteered to provide medical care when conflict broke out along the disputed frontier.",
+        "c. His selfless courage earned him the highest civilian honor when peace finally returned to the region.",
+        "d. He established a makeshift field hospital inside a mountain cavern to shelter the wounded from artillery fire."
+      ],
+      "options": [
+        "b-d-c-a",
+        "b-d-a-c",
+        "b-a-d-c",
+        "d-b-a-c"
+      ],
+      "correct_answer": "b-d-a-c"
+    }
+  ]
+}

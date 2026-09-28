@@ -1,0 +1,118 @@
+{
+  "id": "1",
+  "type": "multiple_choice",
+  "title": "Multiple Choice - Direct Questions",
+  "description": "Choose the best answer for each question.",
+  "questions": [
+    {
+      "id": "1",
+      "text": "Which of the following describes a site where municipal garbage is buried underground?",
+      "options": [
+        "layer",
+        "wildfire",
+        "landfill",
+        "plant pot"
+      ],
+      "correct_answer": "landfill"
+    },
+    {
+      "id": "2",
+      "text": "What happens when organic matter breaks down naturally over time?",
+      "options": [
+        "it contaminates",
+        "it burns as a fuel",
+        "it turns into metal",
+        "it decomposes"
+      ],
+      "correct_answer": "it decomposes"
+    },
+    {
+      "id": "3",
+      "text": "Which term refers to items designed to be thrown away after just one single use?",
+      "options": [
+        "sustainable",
+        "single-use",
+        "eco-friendly",
+        "recyclable"
+      ],
+      "correct_answer": "single-use"
+    },
+    {
+      "id": "4",
+      "text": "What should you do to an empty beverage carton before putting it into a recycling bin?",
+      "options": [
+        "burn it",
+        "bury it",
+        "freeze it",
+        "rinse it out"
+      ],
+      "correct_answer": "rinse it out"
+    },
+    {
+      "id": "5",
+      "text": "Which concept measures the total greenhouse gas emissions caused directly and indirectly by an individual?",
+      "options": [
+        "green energy",
+        "environmental awareness",
+        "waste of electricity",
+        "carbon footprint"
+      ],
+      "correct_answer": "carbon footprint"
+    },
+    {
+      "id": "6",
+      "text": "What is the dark, nutrient-rich substance produced by decaying leaves and food scraps called?",
+      "options": [
+        "compost",
+        "packaging",
+        "pollutant",
+        "leftovers"
+      ],
+      "correct_answer": "compost"
+    },
+    {
+      "id": "7",
+      "text": "Which potent greenhouse gas is released from decomposing organic food rotting in landfills?",
+      "options": [
+        "nitrogen",
+        "methane",
+        "water vapor",
+        "oxygen"
+      ],
+      "correct_answer": "methane"
+    },
+    {
+      "id": "8",
+      "text": "Which fixture turns water on and off automatically without needing manual touch?",
+      "options": [
+        "sensor tap",
+        "metal straw",
+        "glass jar",
+        "reusable cup"
+      ],
+      "correct_answer": "sensor tap"
+    },
+    {
+      "id": "9",
+      "text": "Which phrase describes discarded pruned tree branches, clipped hedge twigs, and fallen leaves?",
+      "options": [
+        "chemical fertiliser",
+        "cardboard box",
+        "garden waste",
+        "takeaway container"
+      ],
+      "correct_answer": "garden waste"
+    },
+    {
+      "id": "10",
+      "text": "Which phrase means 'over a long period of time in the future'?",
+      "options": [
+        "zero waste",
+        "in the long run",
+        "clean up",
+        "green living"
+      ],
+      "correct_answer": "in the long run"
+    }
+  ]
+}
