@@ -1,0 +1,1500 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Success 12 - Unit 3 - Vocabulary Cards</title>
+    <!-- Google Fonts: Be Vietnam Pro & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary-blue: #2563eb;
+            --primary-dark: #1d4ed8;
+            --primary-light: #eff6ff;
+            --accent-blue: #60a5fa;
+            --surface-white: #ffffff;
+            --bg-gradient: linear-gradient(180deg, #f0f7ff 0%, #f8fafc 100%);
+            --text-main: #0f172a;
+            --text-muted: #64748b;
+            --border-subtle: #e2e8f0;
+            --card-radius: 20px;
+            --shadow-default: 0 4px 20px -2px rgba(37, 99, 235, 0.08), 0 2px 6px -1px rgba(0, 0, 0, 0.04);
+            --shadow-hover: 0 16px 32px -4px rgba(37, 99, 235, 0.15), 0 4px 12px -2px rgba(0, 0, 0, 0.05);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Be Vietnam Pro', sans-serif;
+            background: var(--bg-gradient);
+            color: var(--text-main);
+            min-height: 100vh;
+            padding: 40px 24px 60px;
+        }
+
+        .container {
+            max-width: 1460px;
+            margin: 0 auto;
+        }
+
+        .header-bar {
+            text-align: center;
+            margin-bottom: 36px;
+        }
+
+        .header-bar h1 {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 30px;
+            font-weight: 800;
+            color: #1e3a8a;
+            letter-spacing: -0.5px;
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .header-bar p {
+            color: var(--text-muted);
+            font-size: 15px;
+            margin-top: 8px;
+        }
+
+        /* Live filter toolbar */
+        .toolbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+
+        .search-box {
+            position: relative;
+            width: 320px;
+            max-width: 100%;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 10px 16px 10px 42px;
+            border-radius: 9999px;
+            border: 1px solid var(--border-subtle);
+            background: #ffffff;
+            font-size: 14px;
+            font-family: inherit;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+            outline: none;
+            transition: all 0.2s;
+        }
+
+        .search-box input:focus {
+            border-color: var(--primary-blue);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+        }
+
+        .search-box svg {
+            position: absolute;
+            left: 14px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 18px;
+            height: 18px;
+            color: var(--text-muted);
+        }
+
+        .btn-portal {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 20px;
+            border-radius: 9999px;
+            background: var(--primary-blue);
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+            transition: all 0.2s;
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+        }
+
+        .btn-portal:hover {
+            background: var(--primary-dark);
+            transform: translateY(-1px);
+        }
+
+        /* BỐ CỤC GRID: 4 - 5 cards / hàng */
+        .vocab-grid {
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        }
+
+        @media (min-width: 1320px) {
+            .vocab-grid {
+                grid-template-columns: repeat(5, 1fr);
+                /* 5 cards / hàng cho màn hình rộng */
+            }
+        }
+
+        @media (min-width: 1024px) and (max-width: 1319px) {
+            .vocab-grid {
+                grid-template-columns: repeat(4, 1fr);
+                /* 4 cards / hàng cho laptop */
+            }
+        }
+
+        /* CARD TỪ VỰNG BO GÓC MỀM MẠI */
+        .vocab-card {
+            background: var(--surface-white);
+            border-radius: var(--card-radius);
+            border: 1px solid var(--border-subtle);
+            box-shadow: var(--shadow-default);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            position: relative;
+        }
+
+        .vocab-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-hover);
+            border-color: #bfdbfe;
+        }
+
+        /* KHUNG HÌNH ẢNH TO - KHÔNG CROP MẤT HÌNH - KHÔNG PHÓNG TO */
+        .image-container {
+            width: 100%;
+            height: 200px;
+            background: #f8fafc;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 1px solid #f1f5f9;
+            padding: 8px;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            /* Giữ trọn vẹn toàn bộ ảnh, không bị cắt góc */
+            border-radius: 12px;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+
+        .vocab-card:hover .image-container img {
+            transform: scale(1.02);
+        }
+
+        /* NÚT LOA PHÁT ÂM HIỆN ĐẠI */
+        .btn-audio {
+            position: absolute;
+            bottom: 14px;
+            right: 14px;
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(226, 232, 240, 0.8);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary-blue);
+            box-shadow: 0 4px 10px rgba(37, 99, 235, 0.15);
+            transition: all 0.2s ease;
+            z-index: 2;
+        }
+
+        .btn-audio:hover {
+            transform: scale(1.08);
+            background: var(--primary-blue);
+            color: #ffffff;
+            box-shadow: 0 6px 14px rgba(37, 99, 235, 0.3);
+        }
+
+        /* KHỐI NỘI DUNG TỪ VỰNG */
+        .card-body {
+            padding: 18px 20px 20px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            justify-content: space-between;
+            gap: 14px;
+        }
+
+        .vocab-meta {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        /* TỪ TIẾNG ANH: CHỮ THƯỜNG / TITLE CASE TINH TẾ (KHÔNG DÙNG IN HOA) */
+        .word-en {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 21px;
+            font-weight: 700;
+            color: #1e293b;
+            letter-spacing: -0.3px;
+            text-transform: none;
+            /* Giữ chữ thường, không in hoa */
+        }
+
+        /* PHIÊN ÂM IPA */
+        .word-ipa {
+            font-size: 14px;
+            color: #3b82f6;
+            /* Xanh lam dịu */
+            font-weight: 500;
+            font-family: 'Be Vietnam Pro', sans-serif;
+        }
+
+        /* ĐƯỜNG PHÂN CÁCH TINH GỌN */
+        .divider {
+            height: 1px;
+            background: linear-gradient(90deg, #e2e8f0 0%, rgba(226, 232, 240, 0.2) 100%);
+        }
+
+        /* NGHĨA TIẾNG VIỆT */
+        .word-vi {
+            font-size: 15px;
+            font-weight: 600;
+            color: #334155;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header-bar">
+            <h1>📖 Global Success 12 - Unit 3 - Lý Thuyết Từ Vựng</h1>
+            <p>Trực quan • Dễ ghi nhớ • Chuẩn phát âm</p>
+        </div>
+
+        <div class="toolbar">
+            <div class="search-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"/>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                </svg>
+                <input type="text" id="searchInput" placeholder="Tìm kiếm từ vựng, phiên âm, nghĩa..." oninput="filterCards(this.value)">
+            </div>
+            <a href="index.html" class="btn-portal">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                </svg>
+                Xem Bài Tập & Lý Thuyết (index.html)
+            </a>
+        </div>
+
+        <!-- GRID HIỂN THỊ HÀNG LOẠT -->
+        <div class="vocab-grid" id="vocabGrid">
+
+            <!-- Card: waste -->
+            <div class="vocab-card" data-word="waste" data-group="waste and recycling">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/waste.webp" alt="Image for waste" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('waste')" title="Nghe phát âm 'waste'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">waste</div>
+                        <div class="word-ipa">/weɪst/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): rác thải, sự lãng phí</div>
+                </div>
+            </div>
+
+            <!-- Card: landfill -->
+            <div class="vocab-card" data-word="landfill" data-group="waste and recycling">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/landfill.webp" alt="Image for landfill" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('landfill')" title="Nghe phát âm 'landfill'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">landfill</div>
+                        <div class="word-ipa">/ˈlændfɪl/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): bãi chôn lấp rác</div>
+                </div>
+            </div>
+
+            <!-- Card: decompose -->
+            <div class="vocab-card" data-word="decompose" data-group="waste and recycling">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/decompose.webp" alt="Image for decompose" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('decompose')" title="Nghe phát âm 'decompose'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">decompose</div>
+                        <div class="word-ipa">/ˌdiːkəmˈpəʊz/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(v): phân hủy (tự nhiên)</div>
+                </div>
+            </div>
+
+            <!-- Card: packaging -->
+            <div class="vocab-card" data-word="packaging" data-group="waste and recycling">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/packaging.webp" alt="Image for packaging" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('packaging')" title="Nghe phát âm 'packaging'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">packaging</div>
+                        <div class="word-ipa">/ˈpækɪdʒɪŋ/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): bao bì đóng gói</div>
+                </div>
+            </div>
+
+            <!-- Card: container -->
+            <div class="vocab-card" data-word="container" data-group="waste and recycling">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/container.webp" alt="Image for container" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('container')" title="Nghe phát âm 'container'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">container</div>
+                        <div class="word-ipa">/kənˈteɪnə/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): hộp đựng, đồ chứa</div>
+                </div>
+            </div>
+
+            <!-- Card: cardboard box -->
+            <div class="vocab-card" data-word="cardboard box" data-group="waste and recycling">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/cardboard-box.webp" alt="Image for cardboard box" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('cardboard box')" title="Nghe phát âm 'cardboard box'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">cardboard box</div>
+                        <div class="word-ipa">/ˈkɑːdbɔːd bɒks/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): thùng các-tông, hộp bìa cứng</div>
+                </div>
+            </div>
+
+            <!-- Card: single-use -->
+            <div class="vocab-card" data-word="single-use" data-group="waste and recycling">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/single-use.webp" alt="Image for single-use" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('single-use')" title="Nghe phát âm 'single-use'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">single-use</div>
+                        <div class="word-ipa">/ˌsɪŋɡl ˈjuːs/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(adj): dùng một lần</div>
+                </div>
+            </div>
+
+            <!-- Card: takeaway container -->
+            <div class="vocab-card" data-word="takeaway container" data-group="waste and recycling">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/takeaway-container.webp" alt="Image for takeaway container" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('takeaway container')" title="Nghe phát âm 'takeaway container'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">takeaway container</div>
+                        <div class="word-ipa">/ˈteɪkəweɪ kənˈteɪnə/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): hộp đựng thức ăn mang đi</div>
+                </div>
+            </div>
+
+            <!-- Card: recyclable -->
+            <div class="vocab-card" data-word="recyclable" data-group="waste and recycling">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/recyclable.webp" alt="Image for recyclable" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('recyclable')" title="Nghe phát âm 'recyclable'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">recyclable</div>
+                        <div class="word-ipa">/ˌriːˈsaɪkləbl/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(adj): có thể tái chế</div>
+                </div>
+            </div>
+
+            <!-- Card: recycle -->
+            <div class="vocab-card" data-word="recycle" data-group="waste and recycling">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/recycle.webp" alt="Image for recycle" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('recycle')" title="Nghe phát âm 'recycle'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">recycle</div>
+                        <div class="word-ipa">/ˌriːˈsaɪkl/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(v): tái chế</div>
+                </div>
+            </div>
+
+            <!-- Card: reuse -->
+            <div class="vocab-card" data-word="reuse" data-group="waste and recycling">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/reuse.webp" alt="Image for reuse" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('reuse')" title="Nghe phát âm 'reuse'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">reuse</div>
+                        <div class="word-ipa">/ˌriːˈjuːz/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(v): tái sử dụng</div>
+                </div>
+            </div>
+
+            <!-- Card: reduce -->
+            <div class="vocab-card" data-word="reduce" data-group="waste and recycling">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/reduce.webp" alt="Image for reduce" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('reduce')" title="Nghe phát âm 'reduce'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">reduce</div>
+                        <div class="word-ipa">/rɪˈdjuːs/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(v): cắt giảm, giảm thiểu</div>
+                </div>
+            </div>
+
+            <!-- Card: contaminated -->
+            <div class="vocab-card" data-word="contaminated" data-group="waste and recycling">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/contaminated.webp" alt="Image for contaminated" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('contaminated')" title="Nghe phát âm 'contaminated'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">contaminated</div>
+                        <div class="word-ipa">/kənˈtæmɪneɪtɪd/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(adj): bị nhiễm bẩn, bị ô nhiễm</div>
+                </div>
+            </div>
+
+            <!-- Card: rinse out -->
+            <div class="vocab-card" data-word="rinse out" data-group="waste and recycling">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/rinse-out.webp" alt="Image for rinse out" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('rinse out')" title="Nghe phát âm 'rinse out'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">rinse out</div>
+                        <div class="word-ipa">/rɪns aʊt/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(phr.v): súc sạch, rửa sạch</div>
+                </div>
+            </div>
+
+            <!-- Card: sort waste -->
+            <div class="vocab-card" data-word="sort waste" data-group="waste and recycling">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/sort-waste.webp" alt="Image for sort waste" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('sort waste')" title="Nghe phát âm 'sort waste'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">sort waste</div>
+                        <div class="word-ipa">/sɔːt weɪst/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(v): phân loại rác thải</div>
+                </div>
+            </div>
+
+            <!-- Card: separate garbage -->
+            <div class="vocab-card" data-word="separate garbage" data-group="waste and recycling">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/separate-garbage.webp" alt="Image for separate garbage" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('separate garbage')" title="Nghe phát âm 'separate garbage'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">separate garbage</div>
+                        <div class="word-ipa">/ˈsepəreɪt ˈɡɑːbɪdʒ/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(v): phân tách rác</div>
+                </div>
+            </div>
+
+            <!-- Card: rubbish bin -->
+            <div class="vocab-card" data-word="rubbish bin" data-group="waste and recycling">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/rubbish-bin.webp" alt="Image for rubbish bin" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('rubbish bin')" title="Nghe phát âm 'rubbish bin'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">rubbish bin</div>
+                        <div class="word-ipa">/ˈrʌbɪʃ bɪn/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): thùng rác (thường)</div>
+                </div>
+            </div>
+
+            <!-- Card: recycling bin -->
+            <div class="vocab-card" data-word="recycling bin" data-group="waste and recycling">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/recycling-bin.webp" alt="Image for recycling bin" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('recycling bin')" title="Nghe phát âm 'recycling bin'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">recycling bin</div>
+                        <div class="word-ipa">/ˌriːˈsaɪklɪŋ bɪn/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): thùng rác tái chế</div>
+                </div>
+            </div>
+
+            <!-- Card: green living -->
+            <div class="vocab-card" data-word="green living" data-group="eco-friendly habits and lifestyle">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/green-living.webp" alt="Image for green living" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('green living')" title="Nghe phát âm 'green living'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">green living</div>
+                        <div class="word-ipa">/ɡriːn ˈlɪvɪŋ/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): lối sống xanh</div>
+                </div>
+            </div>
+
+            <!-- Card: eco-friendly -->
+            <div class="vocab-card" data-word="eco-friendly" data-group="eco-friendly habits and lifestyle">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/eco-friendly.webp" alt="Image for eco-friendly" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('eco-friendly')" title="Nghe phát âm 'eco-friendly'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">eco-friendly</div>
+                        <div class="word-ipa">/ˌiːkəʊ ˈfrendli/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(adj): thân thiện với môi trường</div>
+                </div>
+            </div>
+
+            <!-- Card: environmental awareness -->
+            <div class="vocab-card" data-word="environmental awareness" data-group="eco-friendly habits and lifestyle">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/environmental-awareness.webp" alt="Image for environmental awareness" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('environmental awareness')" title="Nghe phát âm 'environmental awareness'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">environmental awareness</div>
+                        <div class="word-ipa">/ɪnˌvaɪrənˈmentl əˈweənəs/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): nhận thức về môi trường</div>
+                </div>
+            </div>
+
+            <!-- Card: carbon footprint -->
+            <div class="vocab-card" data-word="carbon footprint" data-group="eco-friendly habits and lifestyle">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/carbon-footprint.webp" alt="Image for carbon footprint" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('carbon footprint')" title="Nghe phát âm 'carbon footprint'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">carbon footprint</div>
+                        <div class="word-ipa">/ˈkɑːbən ˈfʊtprɪnt/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): dấu chân carbon (lượng khí thải carbon)</div>
+                </div>
+            </div>
+
+            <!-- Card: natural resources -->
+            <div class="vocab-card" data-word="natural resources" data-group="eco-friendly habits and lifestyle">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/natural-resources.webp" alt="Image for natural resources" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('natural resources')" title="Nghe phát âm 'natural resources'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">natural resources</div>
+                        <div class="word-ipa">/ˈnætʃrəl rɪˈsɔːsɪz/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): tài nguyên thiên nhiên</div>
+                </div>
+            </div>
+
+            <!-- Card: sustainable -->
+            <div class="vocab-card" data-word="sustainable" data-group="eco-friendly habits and lifestyle">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/sustainable.webp" alt="Image for sustainable" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('sustainable')" title="Nghe phát âm 'sustainable'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">sustainable</div>
+                        <div class="word-ipa">/səˈsteɪnəbl/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(adj): bền vững</div>
+                </div>
+            </div>
+
+            <!-- Card: zero waste -->
+            <div class="vocab-card" data-word="zero waste" data-group="eco-friendly habits and lifestyle">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/zero-waste.webp" alt="Image for zero waste" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('zero waste')" title="Nghe phát âm 'zero waste'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">zero waste</div>
+                        <div class="word-ipa">/ˌzɪərəʊ ˈweɪst/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): lối sống không rác thải</div>
+                </div>
+            </div>
+
+            <!-- Card: green energy -->
+            <div class="vocab-card" data-word="green energy" data-group="eco-friendly habits and lifestyle">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/green-energy.webp" alt="Image for green energy" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('green energy')" title="Nghe phát âm 'green energy'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">green energy</div>
+                        <div class="word-ipa">/ɡriːn ˈenədʒi/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): năng lượng xanh</div>
+                </div>
+            </div>
+
+            <!-- Card: reusable bottle -->
+            <div class="vocab-card" data-word="reusable bottle" data-group="eco-friendly habits and lifestyle">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/reusable-bottle.webp" alt="Image for reusable bottle" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('reusable bottle')" title="Nghe phát âm 'reusable bottle'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">reusable bottle</div>
+                        <div class="word-ipa">/ˌriːˈjuːzəbl ˈbɒtl/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): bình nước dùng nhiều lần</div>
+                </div>
+            </div>
+
+            <!-- Card: reusable cup -->
+            <div class="vocab-card" data-word="reusable cup" data-group="eco-friendly habits and lifestyle">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/reusable-cup.webp" alt="Image for reusable cup" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('reusable cup')" title="Nghe phát âm 'reusable cup'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">reusable cup</div>
+                        <div class="word-ipa">/ˌriːˈjuːzəbl kʌp/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): cốc dùng nhiều lần</div>
+                </div>
+            </div>
+
+            <!-- Card: glass jar -->
+            <div class="vocab-card" data-word="glass jar" data-group="eco-friendly habits and lifestyle">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/glass-jar.webp" alt="Image for glass jar" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('glass jar')" title="Nghe phát âm 'glass jar'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">glass jar</div>
+                        <div class="word-ipa">/ɡlɑːs dʒɑː/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): lọ thủy tinh, hũ thủy tinh</div>
+                </div>
+            </div>
+
+            <!-- Card: metal straw -->
+            <div class="vocab-card" data-word="metal straw" data-group="eco-friendly habits and lifestyle">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/metal-straw.webp" alt="Image for metal straw" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('metal straw')" title="Nghe phát âm 'metal straw'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">metal straw</div>
+                        <div class="word-ipa">/ˈmetl strɔː/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): ống hút kim loại</div>
+                </div>
+            </div>
+
+            <!-- Card: refill -->
+            <div class="vocab-card" data-word="refill" data-group="eco-friendly habits and lifestyle">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/refill.webp" alt="Image for refill" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('refill')" title="Nghe phát âm 'refill'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">refill</div>
+                        <div class="word-ipa">/ˌriːˈfɪl/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(v): làm đầy lại, rót đầy lại</div>
+                </div>
+            </div>
+
+            <!-- Card: turn off -->
+            <div class="vocab-card" data-word="turn off" data-group="eco-friendly habits and lifestyle">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/turn-off.webp" alt="Image for turn off" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('turn off')" title="Nghe phát âm 'turn off'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">turn off</div>
+                        <div class="word-ipa">/tɜːn ɒf/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(phr.v): tắt (thiết bị điện)</div>
+                </div>
+            </div>
+
+            <!-- Card: waste of electricity -->
+            <div class="vocab-card" data-word="waste of electricity" data-group="eco-friendly habits and lifestyle">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/waste-of-electricity.webp" alt="Image for waste of electricity" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('waste of electricity')" title="Nghe phát âm 'waste of electricity'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">waste of electricity</div>
+                        <div class="word-ipa">/weɪst əv ɪˌlekˈtrɪsəti/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): sự lãng phí điện năng</div>
+                </div>
+            </div>
+
+            <!-- Card: compost -->
+            <div class="vocab-card" data-word="compost" data-group="composting and organic waste">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/compost.webp" alt="Image for compost" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('compost')" title="Nghe phát âm 'compost'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">compost</div>
+                        <div class="word-ipa">/ˈkɒmpɒst/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): phân trộn, phân hữu cơ</div>
+                </div>
+            </div>
+
+            <!-- Card: compost pile -->
+            <div class="vocab-card" data-word="compost pile" data-group="composting and organic waste">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/compost-pile.webp" alt="Image for compost pile" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('compost pile')" title="Nghe phát âm 'compost pile'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">compost pile</div>
+                        <div class="word-ipa">/ˈkɒmpɒst paɪl/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): đống ủ phân hữu cơ</div>
+                </div>
+            </div>
+
+            <!-- Card: household waste -->
+            <div class="vocab-card" data-word="household waste" data-group="composting and organic waste">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/household-waste.webp" alt="Image for household waste" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('household waste')" title="Nghe phát âm 'household waste'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">household waste</div>
+                        <div class="word-ipa">/ˈhaʊshəʊld weɪst/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): rác thải sinh hoạt gia đình</div>
+                </div>
+            </div>
+
+            <!-- Card: garden waste -->
+            <div class="vocab-card" data-word="garden waste" data-group="composting and organic waste">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/garden-waste.webp" alt="Image for garden waste" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('garden waste')" title="Nghe phát âm 'garden waste'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">garden waste</div>
+                        <div class="word-ipa">/ˈɡɑːdn weɪst/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): rác vườn (cành cây, lá khô, cỏ xén)</div>
+                </div>
+            </div>
+
+            <!-- Card: fruit peel -->
+            <div class="vocab-card" data-word="fruit peel" data-group="composting and organic waste">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/fruit-peel.webp" alt="Image for fruit peel" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('fruit peel')" title="Nghe phát âm 'fruit peel'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">fruit peel</div>
+                        <div class="word-ipa">/fruːt piːl/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): vỏ trái cây, vỏ hoa quả</div>
+                </div>
+            </div>
+
+            <!-- Card: leftovers -->
+            <div class="vocab-card" data-word="leftovers" data-group="composting and organic waste">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/leftovers.webp" alt="Image for leftovers" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('leftovers')" title="Nghe phát âm 'leftovers'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">leftovers</div>
+                        <div class="word-ipa">/ˈleftəʊvəz/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): thức ăn thừa, phần ăn còn lại</div>
+                </div>
+            </div>
+
+            <!-- Card: layer -->
+            <div class="vocab-card" data-word="layer" data-group="composting and organic waste">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/layer.webp" alt="Image for layer" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('layer')" title="Nghe phát âm 'layer'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">layer</div>
+                        <div class="word-ipa">/ˈleɪə/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): lớp, tầng (vật liệu)</div>
+                </div>
+            </div>
+
+            <!-- Card: chemical fertiliser -->
+            <div class="vocab-card" data-word="chemical fertiliser" data-group="composting and organic waste">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/chemical-fertiliser.webp" alt="Image for chemical fertiliser" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('chemical fertiliser')" title="Nghe phát âm 'chemical fertiliser'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">chemical fertiliser</div>
+                        <div class="word-ipa">/ˈkemɪkl ˈfɜːtəlaɪzə/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): phân bón hóa học</div>
+                </div>
+            </div>
+
+            <!-- Card: air pollution -->
+            <div class="vocab-card" data-word="air pollution" data-group="environmental issues and pollution">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/air-pollution.webp" alt="Image for air pollution" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('air pollution')" title="Nghe phát âm 'air pollution'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">air pollution</div>
+                        <div class="word-ipa">/eə pəˈluːʃn/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): ô nhiễm không khí</div>
+                </div>
+            </div>
+
+            <!-- Card: greenhouse gas -->
+            <div class="vocab-card" data-word="greenhouse gas" data-group="environmental issues and pollution">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/greenhouse-gas.webp" alt="Image for greenhouse gas" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('greenhouse gas')" title="Nghe phát âm 'greenhouse gas'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">greenhouse gas</div>
+                        <div class="word-ipa">/ˈɡriːnhaʊs ɡæs/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): khí nhà kính</div>
+                </div>
+            </div>
+
+            <!-- Card: methane -->
+            <div class="vocab-card" data-word="methane" data-group="environmental issues and pollution">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/methane.webp" alt="Image for methane" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('methane')" title="Nghe phát âm 'methane'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">methane</div>
+                        <div class="word-ipa">/ˈmiːθeɪn/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): khí mê-tan</div>
+                </div>
+            </div>
+
+            <!-- Card: carbon dioxide -->
+            <div class="vocab-card" data-word="carbon dioxide" data-group="environmental issues and pollution">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/carbon-dioxide.webp" alt="Image for carbon dioxide" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('carbon dioxide')" title="Nghe phát âm 'carbon dioxide'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">carbon dioxide</div>
+                        <div class="word-ipa">/ˌkɑːbən daɪˈɒksaɪd/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): khí cacbonic, khí carbon dioxide (CO2)</div>
+                </div>
+            </div>
+
+            <!-- Card: pollutant -->
+            <div class="vocab-card" data-word="pollutant" data-group="environmental issues and pollution">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/pollutant.webp" alt="Image for pollutant" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('pollutant')" title="Nghe phát âm 'pollutant'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">pollutant</div>
+                        <div class="word-ipa">/pəˈluːtənt/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): chất gây ô nhiễm</div>
+                </div>
+            </div>
+
+            <!-- Card: wildfire -->
+            <div class="vocab-card" data-word="wildfire" data-group="environmental issues and pollution">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/wildfire.webp" alt="Image for wildfire" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('wildfire')" title="Nghe phát âm 'wildfire'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">wildfire</div>
+                        <div class="word-ipa">/ˈwaɪldfaɪə/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): đám cháy rừng, trận cháy dữ dội ngoài tự nhiên</div>
+                </div>
+            </div>
+
+            <!-- Card: litter -->
+            <div class="vocab-card" data-word="litter" data-group="environmental issues and pollution">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/litter.webp" alt="Image for litter" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('litter')" title="Nghe phát âm 'litter'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">litter</div>
+                        <div class="word-ipa">/ˈlɪtə/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): rác rưởi bừa bãi</div>
+                </div>
+            </div>
+
+            <!-- Card: climate change -->
+            <div class="vocab-card" data-word="climate change" data-group="environmental issues and pollution">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/climate-change.webp" alt="Image for climate change" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('climate change')" title="Nghe phát âm 'climate change'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">climate change</div>
+                        <div class="word-ipa">/ˈklaɪmət tʃeɪndʒ/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): biến đổi khí hậu</div>
+                </div>
+            </div>
+
+            <!-- Card: harm wild animals -->
+            <div class="vocab-card" data-word="harm wild animals" data-group="environmental issues and pollution">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/harm-wild-animals.webp" alt="Image for harm wild animals" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('harm wild animals')" title="Nghe phát âm 'harm wild animals'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">harm wild animals</div>
+                        <div class="word-ipa">/hɑːm waɪld ˈænɪmlz/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(v): gây hại cho động vật hoang dã</div>
+                </div>
+            </div>
+
+            <!-- Card: public transport -->
+            <div class="vocab-card" data-word="public transport" data-group="green solutions and community actions">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/public-transport.webp" alt="Image for public transport" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('public transport')" title="Nghe phát âm 'public transport'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">public transport</div>
+                        <div class="word-ipa">/ˌpʌblɪk ˈtrænspɔːt/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): phương tiện giao thông công cộng</div>
+                </div>
+            </div>
+
+            <!-- Card: sensor tap -->
+            <div class="vocab-card" data-word="sensor tap" data-group="green solutions and community actions">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/sensor-tap.webp" alt="Image for sensor tap" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('sensor tap')" title="Nghe phát âm 'sensor tap'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">sensor tap</div>
+                        <div class="word-ipa">/ˈsensə tæp/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): vòi nước cảm ứng</div>
+                </div>
+            </div>
+
+            <!-- Card: automatic light -->
+            <div class="vocab-card" data-word="automatic light" data-group="green solutions and community actions">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/automatic-light.webp" alt="Image for automatic light" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('automatic light')" title="Nghe phát âm 'automatic light'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">automatic light</div>
+                        <div class="word-ipa">/ˌɔːtəˈmætɪk laɪt/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): đèn tự động (cảm biến chuyển động)</div>
+                </div>
+            </div>
+
+            <!-- Card: plant pot -->
+            <div class="vocab-card" data-word="plant pot" data-group="green solutions and community actions">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/plant-pot.webp" alt="Image for plant pot" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('plant pot')" title="Nghe phát âm 'plant pot'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">plant pot</div>
+                        <div class="word-ipa">/plɑːnt pɒt/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): chậu trồng cây</div>
+                </div>
+            </div>
+
+            <!-- Card: bird feeder -->
+            <div class="vocab-card" data-word="bird feeder" data-group="green solutions and community actions">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/bird-feeder.webp" alt="Image for bird feeder" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('bird feeder')" title="Nghe phát âm 'bird feeder'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">bird feeder</div>
+                        <div class="word-ipa">/bɜːd ˈfiːdə/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(n): khay đựng thức ăn cho chim, máng ăn cho chim</div>
+                </div>
+            </div>
+
+            <!-- Card: clean up -->
+            <div class="vocab-card" data-word="clean up" data-group="green solutions and community actions">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/clean-up.webp" alt="Image for clean up" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('clean up')" title="Nghe phát âm 'clean up'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">clean up</div>
+                        <div class="word-ipa">/kliːn ʌp/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(phr.v): dọn dẹp sạch sẽ, tổng vệ sinh</div>
+                </div>
+            </div>
+
+            <!-- Card: care about -->
+            <div class="vocab-card" data-word="care about" data-group="green solutions and community actions">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/care-about.webp" alt="Image for care about" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('care about')" title="Nghe phát âm 'care about'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">care about</div>
+                        <div class="word-ipa">/keər əˈbaʊt/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(phr.v): quan tâm đến, để tâm đến</div>
+                </div>
+            </div>
+
+            <!-- Card: in the long run -->
+            <div class="vocab-card" data-word="in the long run" data-group="green solutions and community actions">
+                <div class="image-container">
+                    <img src="../../media/gs12/unit-3/images/in-the-long-run.webp" alt="Image for in the long run" loading="lazy" onerror="this.style.opacity='0.4';">
+                    <button class="btn-audio" onclick="speak('in the long run')" title="Nghe phát âm 'in the long run'">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="vocab-meta">
+                        <div class="word-en">in the long run</div>
+                        <div class="word-ipa">/ɪn ðə lɒŋ rʌn/</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="word-vi">(idiom): về lâu về dài</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Phát âm giọng chuẩn Mỹ qua Web Speech API
+        function speak(text) {
+            if ('speechSynthesis' in window) {
+                window.speechSynthesis.cancel();
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = 'en-US';
+                utterance.rate = 0.9;
+                window.speechSynthesis.speak(utterance);
+            }
+        }
+
+        // Lọc thẻ từ vựng trực tiếp
+        function filterCards(query) {
+            const q = query.trim().toLowerCase();
+            const cards = document.querySelectorAll('.vocab-card');
+            cards.forEach(card => {
+                const text = card.textContent.toLowerCase();
+                if (!q || text.includes(q)) {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
