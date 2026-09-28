@@ -967,6 +967,8 @@ def build_unified_index_html(vocab_data, exercises_data, book_name, unit_name, o
         elif "paragraph_parts" in ex:
             total_questions += len([p for p in ex.get("paragraph_parts", []) if isinstance(p, dict) and p.get("type") == "blank"])
 
+    m_u = re.search(r'\d+', unit_name)
+    unit_num = m_u.group(0) if m_u else '1'
     full_title = f"{book_name.upper()} • {unit_name.upper()}"
     subtitle = f"Toàn diện Lý Thuyết Từ Vựng (Flashcards) & Hệ Thống 16 Dạng Bài Tập Thực Hành"
 
@@ -2533,14 +2535,14 @@ def build_unified_index_html(vocab_data, exercises_data, book_name, unit_name, o
                     <button type="button" class="mode-btn active" id="btnModePractice" onclick="setMode('practice')">✏️ Làm Bài</button>
                 </div>
 
-                <button type="button" class="btn-print" onclick="window.print()" title="In bài tập">
+                <a href="vocab_unit{unit_num}.pdf" target="_blank" class="btn-print" title="Mở &amp; In file PDF sách bài học (Lý thuyết &amp; 16 Dạng bài)" style="text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
                     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <polyline points="6 9 6 2 18 2 18 9"/>
                         <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
                         <rect x="6" y="14" width="12" height="8"/>
                     </svg>
-                    In
-                </button>
+                    In PDF
+                </a>
             </div>
         </div>
     </header>

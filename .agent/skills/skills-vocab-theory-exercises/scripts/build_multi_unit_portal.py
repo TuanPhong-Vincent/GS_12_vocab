@@ -2469,14 +2469,14 @@ def build_master_index_html(units_info, output_file, workspace_root):
                     <button type="button" class="mode-btn" id="btnModePractice" onclick="setMode('practice')">✍️ Làm Bài</button>
                 </div>
 
-                <!-- PRINT BUTTON -->
-                <button type="button" class="btn-print" onclick="window.print()">
+                <!-- PRINT BUTTON: Opens PDF of active Unit -->
+                <button type="button" class="btn-print" onclick="openActiveUnitPdf()" title="Mở &amp; In file PDF sách bài học theo Unit đang xem">
                     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <polyline points="6 9 6 2 18 2 18 9"/>
                         <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
                         <rect x="6" y="14" width="12" height="8"/>
                     </svg>
-                    In Đề
+                    In PDF
                 </button>
             </div>
         </div>
@@ -2552,6 +2552,17 @@ def build_master_index_html(units_info, output_file, workspace_root):
 
             // 4. Re-apply current tab filter (all / theory / exercises)
             switchMainTab(currentTab);
+        }}
+
+        // Open publication-grade PDF for active unit
+        function openActiveUnitPdf() {{
+            let uNum = '1';
+            if (currentUnitId && currentUnitId !== 'all') {{
+                const m = currentUnitId.match(/\d+/);
+                if (m) uNum = m[0];
+            }}
+            const pdfUrl = `lessons/unit-${{uNum}}/vocab/vocab_unit${{uNum}}.pdf`;
+            window.open(pdfUrl, '_blank');
         }}
 
         // Tab Switcher (Tất Cả / Lý Thuyết / Bài Tập)

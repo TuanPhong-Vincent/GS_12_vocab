@@ -1716,14 +1716,14 @@
                         Bài</button>
                 </div>
 
-                <!-- PRINT BUTTON -->
-                <button type="button" class="btn-print" onclick="window.print()">
+                <!-- PRINT BUTTON: Opens Unit PDF -->
+                <button type="button" class="btn-print" onclick="openActiveUnitPdf()" title="Mở &amp; In file PDF sách bài học theo Unit đang xem">
                     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <polyline points="6 9 6 2 18 2 18 9" />
                         <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2" />
                         <rect x="6" y="14" width="12" height="8" />
                     </svg>
-                    In Đề
+                    In PDF
                 </button>
             </div>
         </div>
@@ -21675,6 +21675,15 @@
                 utterance.rate = 0.9;
                 window.speechSynthesis.speak(utterance);
             }
+        // Open publication-grade PDF for active unit
+        function openActiveUnitPdf() {
+            let uNum = '1';
+            if (currentUnit && currentUnit !== 'all') {
+                const m = currentUnit.match(/\d+/);
+                if (m) uNum = m[0];
+            }
+            const pdfUrl = `lessons/unit-${uNum}/vocab/vocab_unit${uNum}.pdf`;
+            window.open(pdfUrl, '_blank');
         }
 
         // Switch Unit Handler

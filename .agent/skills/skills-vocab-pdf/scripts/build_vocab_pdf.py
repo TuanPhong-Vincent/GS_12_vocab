@@ -4,14 +4,15 @@ Vocab & Exercises PDF Book Generator (build_vocab_pdf.py)
 
 Generates a publication-grade, textbook-styled PDF file containing:
 - Title Header: Unit * [ĐỀ MỤC]
-- Section I: Vocabulary Theory (cards with images, IPA, Vietnamese definitions, examples)
-- Section II: Practice Exercises (all 16 exercise types formatted as authentic textbook pages)
+- Section I: Vocabulary (cards with images, IPA, Vietnamese definitions, examples)
+- Section II: Exercises (all 16 exercise types formatted as authentic textbook pages)
 - Section III: Answer Key & Explanations (compact reference at the end of the unit)
 
 Key Design Features:
 - Natural continuous flow with strictly zero awkward page breaks (no sliced cards, no broken questions, no orphan headers)
 - Professional textbook color scheme (Deep Navy #1e3a8a, Royal Blue #2563eb, Slate #334155, Crisp Borders #cbd5e1)
 - Native running headers and footers with dynamic page numbering (Page X of Y)
+- Responsive CSS-ruled handwriting lines (clean vector dotted lines that never wrap or overflow)
 - Automatic headless browser PDF conversion (Edge/Chrome)
 """
 
@@ -36,39 +37,39 @@ if hasattr(sys.stdout, "reconfigure"):
 
 ROADMAP_THEMES = {
     "GS12": {
-        1: "Life stories we admire",
-        2: "A multicultural world",
-        3: "Green living",
+        1: "Life Stories We Admire",
+        2: "A Multicultural World",
+        3: "Green Living",
         4: "Urbanisation",
-        5: "The world of work",
-        6: "Artificial intelligence",
-        7: "The world of mass media",
-        8: "Wildlife conservation",
-        9: "Career paths",
-        10: "Lifelong learning"
+        5: "The World of Work",
+        6: "Artificial Intelligence",
+        7: "The World of Mass Media",
+        8: "Wildlife Conservation",
+        9: "Career Paths",
+        10: "Lifelong Learning"
     },
     "GS11": {
-        1: "A long and healthy life",
-        2: "The generation gap",
-        3: "Cities of the future",
+        1: "A Long and Healthy Life",
+        2: "The Generation Gap",
+        3: "Cities of the Future",
         4: "ASEAN and Viet Nam",
-        5: "Global warming",
-        6: "Preserving our heritage",
-        7: "Education options for school-leavers",
-        8: "Becoming independent",
-        9: "Social issues",
-        10: "The ecosystem"
+        5: "Global Warming",
+        6: "Preserving Our Heritage",
+        7: "Education Options for School-Leavers",
+        8: "Becoming Independent",
+        9: "Social Issues",
+        10: "The Ecosystem"
     },
     "GS10": {
-        1: "Family life",
-        2: "Humans and the environment",
+        1: "Family Life",
+        2: "Humans and the Environment",
         3: "Music",
-        4: "For a better community",
+        4: "For a Better Community",
         5: "Inventions",
-        6: "Gender equality",
-        7: "Viet Nam and international organisations",
-        8: "New ways to learn",
-        9: "Protecting the environment",
+        6: "Gender Equality",
+        7: "Viet Nam and International Organisations",
+        8: "New Ways to Learn",
+        9: "Protecting the Environment",
         10: "Ecotourism"
     }
 }
@@ -184,7 +185,7 @@ def render_vocabulary_cards_html(vocab_data, workspace_root):
     """
     Renders Section I: Vocabulary Cards arranged in a textbook-styled 3-column grid.
     Each card contains:
-    - High-quality image (contain/cover, proportional height)
+    - High-quality image (contain, proportional height)
     - English word (Bold Deep Navy #1e3a8a)
     - IPA transcription (Soft Blue #2563eb)
     - Vietnamese meaning (Slate #334155)
@@ -217,34 +218,29 @@ def render_vocabulary_cards_html(vocab_data, workspace_root):
             img_raw = w.get("image", "")
             img_uri = to_file_uri(img_raw, workspace_root)
             alt_text = w.get("alt") or en_word
-            ex_en = w.get("example_sentence_en", "").strip()
-            ex_vi = w.get("example_sentence_vi", "").strip()
 
             img_tag = ""
             if img_raw:
                 img_tag = f"""
                 <div class="card-img-wrap">
                     <img src="{escape(img_uri)}" alt="{escape(alt_text)}" loading="eager" onerror="this.parentElement.style.display='none';">
-                </div>"""
-
-            example_tag = ""
-            if ex_en:
-                example_tag = f"""
-                <div class="card-example-box">
-                    <div class="ex-en">“{escape(ex_en)}”</div>
-                    {f'<div class="ex-vi">→ {escape(ex_vi)}</div>' if ex_vi else ''}
+                    <div class="btn-speaker-mini">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </div>
                 </div>"""
 
             card_html = f"""
             <div class="vocab-book-card">
                 {img_tag}
-                <div class="card-info">
+                <div class="card-body">
                     <div class="word-header-row">
-                        <span class="word-en">{escape(en_word)}</span>
-                        {f'<span class="word-ipa">{escape(ipa)}</span>' if ipa else ''}
+                        <div class="word-en">{escape(en_word)}</div>
+                        {f'<div class="word-ipa">{escape(ipa)}</div>' if ipa else ''}
                     </div>
+                    <div class="card-divider"></div>
                     <div class="word-vi-def">{escape(vi_meaning)}</div>
-                    {example_tag}
                 </div>
             </div>"""
             html_parts.append(card_html)
@@ -257,8 +253,8 @@ def render_vocabulary_cards_html(vocab_data, workspace_root):
 # ==========================================
 # RENDER SECTION II: 16 PRACTICE EXERCISES
 # ==========================================
-def render_mcq_options(options, q_idx, ex_idx, cols=2):
-    """Render 4 MCQ options formatted for textbook printing."""
+def render_mcq_options(options, q_idx, ex_idx):
+    """Render 4 MCQ options formatted for textbook printing with automatic column balancing."""
     letters = ["A", "B", "C", "D"]
     opt_tags = []
     
@@ -345,7 +341,7 @@ def render_single_exercise(ex, ex_num, workspace_root):
             q_items.append(q_card)
         body_html = "<div class='mcq-list'>" + "\n".join(q_items) + "</div>"
 
-    # 4: Picture to Word
+    # 4: Picture to Word (Balanced 4-column grid with responsive CSS dotted line)
     elif ex_type == "pic_to_word":
         cards = []
         for q_idx, q in enumerate(questions):
@@ -360,13 +356,13 @@ def render_single_exercise(ex, ex_num, workspace_root):
                     <img src="{escape(img_uri)}" alt="Item {q_id}" loading="eager" onerror="this.style.opacity='0.3';">
                 </div>
                 <div class="pic-write-line">
-                    <span class="hw-dots">...................................................</span>
+                    <div class="hw-line"></div>
                 </div>
             </div>"""
             cards.append(card)
         body_html = f"<div class='pic-grid-book'>{''.join(cards)}</div>"
 
-    # 5: Write English Words from Vietnamese
+    # 5: Write English Words from Vietnamese (Responsive flex dotted lines)
     elif ex_type == "write_english_words":
         rows = []
         item_counter = 1
@@ -377,8 +373,8 @@ def render_single_exercise(ex, ex_num, workspace_root):
                 row = f"""
                 <div class="write-word-item">
                     <span class="q-badge">{item_counter}</span>
-                    <span class="vi-prompt">🇻🇳 {escape(vi)}</span>
-                    <span class="hw-dots flex-grow">...........................................................................</span>
+                    <span class="vi-prompt">{escape(vi)}</span>
+                    <div class="hw-line-flex"></div>
                 </div>"""
                 rows.append(row)
                 item_counter += 1
@@ -588,7 +584,7 @@ def render_single_exercise(ex, ex_num, workspace_root):
             items.append(item)
         body_html = f"<div class='wf-formation-list'>{''.join(items)}</div>"
 
-    # 16: Translation Sentences
+    # 16: Translation Sentences (Clean vector ruled lines)
     elif ex_type == "translate_sentences":
         items = []
         for q_idx, q in enumerate(questions):
@@ -599,11 +595,11 @@ def render_single_exercise(ex, ex_num, workspace_root):
             <div class="book-q-item trans-q-item">
                 <div class="trans-top">
                     <span class="q-badge">{q_id}</span>
-                    <span class="trans-vi-text">🇻🇳 {escape(vi)}</span>
+                    <span class="trans-vi-text">{escape(vi)}</span>
                 </div>
                 <div class="trans-hw-lines">
-                    <div class="hw-dots-full">....................................................................................................................................................................................</div>
-                    <div class="hw-dots-full">....................................................................................................................................................................................</div>
+                    <div class="hw-line-full"></div>
+                    <div class="hw-line-full"></div>
                 </div>
             </div>"""
             items.append(item)
@@ -751,7 +747,7 @@ def build_book_html(vocab_data, exercises_data, book_name, book_code, unit_num, 
     Assembles the complete publication-grade HTML book ready for headless browser PDF conversion.
     """
     theme_upper = theme_title.upper()
-    unit_str = f"UNIT {unit_num}"
+    unit_header_str = f"Unit {unit_num} [{theme_upper}]"
     
     # Render sections
     section_1_html = render_vocabulary_cards_html(vocab_data, workspace_root)
@@ -784,7 +780,7 @@ def build_book_html(vocab_data, exercises_data, book_name, book_code, unit_num, 
             margin: 14mm 12mm 14mm 12mm;
 
             @top-left {{
-                content: "{escape(book_name).upper()} • {unit_str}";
+                content: "{escape(book_name).upper()} • UNIT {unit_num}";
                 font-family: 'Plus Jakarta Sans', sans-serif;
                 font-size: 7.5pt;
                 font-weight: 700;
@@ -853,6 +849,7 @@ def build_book_html(vocab_data, exercises_data, book_name, book_code, unit_num, 
         .word-box-book,
         .paragraph-card-book,
         .pic-to-word-card,
+        .write-word-item,
         .key-exercise-card {{
             break-inside: avoid !important;
             page-break-inside: avoid !important;
@@ -876,7 +873,7 @@ def build_book_html(vocab_data, exercises_data, book_name, book_code, unit_num, 
         }}
 
         /* =========================================================
-           BOOK COVER / TOP HEADER
+           BOOK COVER / TOP HEADER: Title: Unit * [ĐỀ MỤC]
            ========================================================= */
         .book-header {{
             text-align: center;
@@ -910,9 +907,13 @@ def build_book_html(vocab_data, exercises_data, book_name, book_code, unit_num, 
             margin: 2px 0 4px;
         }}
 
-        .unit-label {{
+        .unit-prefix {{
             color: var(--secondary-blue);
             margin-right: 6px;
+        }}
+
+        .unit-topic {{
+            color: var(--primary-navy);
         }}
 
         .book-divider {{
@@ -922,7 +923,7 @@ def build_book_html(vocab_data, exercises_data, book_name, book_code, unit_num, 
         }}
 
         /* =========================================================
-           SECTION HEADERS
+           SECTION HEADERS: I. Vocabulary & II. Exercises
            ========================================================= */
         .section-title-wrap {{
             margin: 18px 0 10px;
@@ -991,42 +992,55 @@ def build_book_html(vocab_data, exercises_data, book_name, book_code, unit_num, 
 
         .vocab-grid-book {{
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 8px;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
             margin-bottom: 12px;
         }}
 
         .vocab-book-card {{
             border: 1px solid var(--border-divider);
-            border-radius: 6px;
+            border-radius: 14px;
             background: #ffffff;
-            padding: 6px;
+            overflow: hidden;
             display: flex;
             flex-direction: column;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+            break-inside: avoid !important;
+            page-break-inside: avoid !important;
         }}
 
         .card-img-wrap {{
+            position: relative;
             width: 100%;
-            height: 72px;
-            border-radius: 4px;
-            overflow: hidden;
+            height: 82px;
             background: var(--bg-light);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 5px;
-            border: 1px solid #f1f5f9;
+            overflow: hidden;
         }}
 
         .card-img-wrap img {{
             width: 100%;
             height: 100%;
-            object-fit: contain;
+            object-fit: cover;
             display: block;
         }}
 
-        .card-info {{
+        .btn-speaker-mini {{
+            position: absolute;
+            right: 5px;
+            bottom: 5px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #ffffff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.18);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--secondary-blue);
+        }}
+
+        .card-body {{
+            padding: 7px 9px 9px;
             display: flex;
             flex-direction: column;
             flex-grow: 1;
@@ -1035,14 +1049,14 @@ def build_book_html(vocab_data, exercises_data, book_name, book_code, unit_num, 
         .word-header-row {{
             display: flex;
             flex-direction: column;
-            margin-bottom: 3px;
+            margin-bottom: 2px;
         }}
 
         .word-en {{
             font-family: 'Plus Jakarta Sans', sans-serif;
-            font-size: 9.8pt;
+            font-size: 10pt;
             font-weight: 700;
-            color: var(--primary-navy);
+            color: #0f172a;
             line-height: 1.2;
         }}
 
@@ -1050,39 +1064,21 @@ def build_book_html(vocab_data, exercises_data, book_name, book_code, unit_num, 
             font-size: 7.8pt;
             font-family: 'Plus Jakarta Sans', sans-serif;
             color: var(--secondary-blue);
-            font-style: italic;
+            font-weight: 600;
             margin-top: 1px;
+        }}
+
+        .card-divider {{
+            height: 1px;
+            background: #f1f5f9;
+            margin: 5px 0 4px;
         }}
 
         .word-vi-def {{
-            font-size: 8.5pt;
+            font-size: 8pt;
             font-weight: 500;
             color: var(--text-body);
-            line-height: 1.3;
-            margin-bottom: 4px;
-            padding-bottom: 3px;
-            border-bottom: 1px dashed #f1f5f9;
-        }}
-
-        .card-example-box {{
-            background: #f8fafc;
-            padding: 3px 5px;
-            border-radius: 3px;
-            margin-top: auto;
-            border-left: 2px solid #cbd5e1;
-        }}
-
-        .ex-en {{
-            font-size: 7.5pt;
-            color: #334155;
-            line-height: 1.25;
-        }}
-
-        .ex-vi {{
-            font-size: 7.2pt;
-            color: #64748b;
-            font-style: italic;
-            margin-top: 1px;
+            line-height: 1.28;
         }}
 
         /* =========================================================
@@ -1235,20 +1231,26 @@ def build_book_html(vocab_data, exercises_data, book_name, book_code, unit_num, 
             margin-right: 4px;
         }}
 
-        /* Handwriting Blanks & Dots */
-        .hw-dots {{
-            color: #94a3b8;
-            letter-spacing: 1.5px;
-            font-family: monospace;
-            font-size: 8pt;
+        /* Responsive Handwriting Lines */
+        .hw-line {{
+            border-bottom: 1.2px dotted #94a3b8;
+            width: 85%;
+            margin: 6px auto 2px;
+            height: 12px;
         }}
 
-        .hw-dots-full {{
-            color: #94a3b8;
-            letter-spacing: 2px;
-            font-family: monospace;
-            font-size: 8pt;
-            line-height: 1.6;
+        .hw-line-flex {{
+            border-bottom: 1.2px dotted #cbd5e1;
+            flex-grow: 1;
+            height: 14px;
+            margin-left: 8px;
+        }}
+
+        .hw-line-full {{
+            border-bottom: 1.2px dotted #cbd5e1;
+            width: 100%;
+            height: 18px;
+            margin-top: 2px;
         }}
 
         .inline-hw-blank {{
@@ -1293,10 +1295,10 @@ def build_book_html(vocab_data, exercises_data, book_name, book_code, unit_num, 
             border-radius: 4px;
         }}
 
-        /* Picture to Word Grid */
+        /* Picture to Word Grid (Balanced 4-column layout) */
         .pic-grid-book {{
             display: grid;
-            grid-template-columns: repeat(5, 1fr);
+            grid-template-columns: repeat(4, 1fr);
             gap: 8px;
             margin-bottom: 10px;
         }}
@@ -1311,7 +1313,7 @@ def build_book_html(vocab_data, exercises_data, book_name, book_code, unit_num, 
 
         .pic-box {{
             position: relative;
-            height: 60px;
+            height: 62px;
             background: var(--bg-light);
             border-radius: 3px;
             overflow: hidden;
@@ -1339,11 +1341,11 @@ def build_book_html(vocab_data, exercises_data, book_name, book_code, unit_num, 
             border-radius: 2px;
         }}
 
-        /* Write Words List */
+        /* Write Words List (2 Balanced Columns) */
         .write-words-list-book {{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            gap: 6px 14px;
+            gap: 6px 16px;
         }}
 
         .write-word-item {{
@@ -1356,12 +1358,8 @@ def build_book_html(vocab_data, exercises_data, book_name, book_code, unit_num, 
         .vi-prompt {{
             color: var(--text-main);
             font-weight: 500;
-        }}
-
-        .flex-grow {{
-            flex-grow: 1;
-            overflow: hidden;
-            white-space: nowrap;
+            flex-shrink: 0;
+            max-width: 55%;
         }}
 
         /* Paragraph Fill */
@@ -1664,10 +1662,10 @@ def build_book_html(vocab_data, exercises_data, book_name, book_code, unit_num, 
 </head>
 <body>
 
-    <!-- BOOK HEADER -->
+    <!-- BOOK HEADER: Title: Unit * [ĐỀ MỤC] -->
     <header class="book-header">
-        <div class="book-badge">{escape(book_name)} • {unit_str}</div>
-        <h1 class="book-title"><span class="unit-label">{unit_str}:</span> {escape(theme_upper)}</h1>
+        <div class="book-badge">{escape(book_name)} • UNIT {unit_num}</div>
+        <h1 class="book-title"><span class="unit-prefix">Unit {unit_num}</span> <span class="unit-topic">[{escape(theme_upper)}]</span></h1>
         <div class="book-divider"></div>
     </header>
 
@@ -1685,7 +1683,7 @@ def build_book_html(vocab_data, exercises_data, book_name, book_code, unit_num, 
     <!-- SECTION II: PRACTICE EXERCISES -->
     <section class="book-exercises-master-section">
         <div class="section-title-wrap">
-            <h2 class="section-title"><span class="sec-num">II.</span> PRACTICE EXERCISES</h2>
+            <h2 class="section-title"><span class="sec-num">II.</span> EXERCISES</h2>
             <div class="sec-subtitle">Hệ thống 16 dạng bài tập củng cố và phát triển năng lực từ vựng toàn diện</div>
         </div>
         <div class="exercises-master-content">
@@ -1721,7 +1719,6 @@ def find_headless_browser():
             if os.path.exists(c):
                 return c
         else:
-            # Check PATH
             cmd = "where.exe" if os.name == "nt" else "which"
             res = subprocess.run([cmd, c], capture_output=True, text=True)
             if res.returncode == 0 and res.stdout.strip():
@@ -1813,7 +1810,7 @@ def main():
         include_answers=not args.no_answers
     )
 
-    # Output paths
+    # Output paths: save in vocab/ and also unit root for easy access
     default_html_name = f"vocab_unit{unit_num}.html"
     default_pdf_name = f"vocab_unit{unit_num}.pdf"
 
@@ -1830,7 +1827,6 @@ def main():
     if success:
         size_mb = target_pdf.stat().st_size / (1024 * 1024)
         print(f"SUCCESS: Generated PDF Book at: {target_pdf} ({size_mb:.2f} MB)")
-        # Inspect page count via fitz (PyMuPDF) if installed
         try:
             import fitz
             doc = fitz.open(str(target_pdf))
