@@ -11,6 +11,7 @@ ehthumbs.db
 # Large PDF files
 GS12.pdf
 *.pdf
+!lessons/**/vocab/vocab_unit*.pdf
 
 # Node / temporary files
 node_modules/

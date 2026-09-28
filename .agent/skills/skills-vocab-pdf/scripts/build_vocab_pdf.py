@@ -1756,8 +1756,48 @@ def export_html_to_pdf(html_path, pdf_path, browser_executable=None):
         print(f"[Warning] Headless browser returned code {res.returncode}: {res.stderr}", file=sys.stderr)
 
     if abs_pdf.exists() and abs_pdf.stat().st_size > 0:
+        optimize_pdf_size(abs_pdf)
         return True
     return False
+
+
+def optimize_pdf_size(pdf_path):
+    """Compress embedded images in PDF to optimize file size for web & Cloudflare Pages (< 25MB)."""
+    try:
+        import fitz
+        import io
+        from PIL import Image
+    except ImportError:
+        return
+
+    try:
+        orig_mb = Path(pdf_path).stat().st_size / (1024 * 1024)
+        doc = fitz.open(str(pdf_path))
+        replaced = set()
+        for page in doc:
+            for img_info in page.get_images():
+                xref = img_info[0]
+                if xref in replaced:
+                    continue
+                base_img = doc.extract_image(xref)
+                pil_img = Image.open(io.BytesIO(base_img["image"]))
+                if pil_img.mode in ("RGBA", "P"):
+                    pil_img = pil_img.convert("RGB")
+                if pil_img.width > 600:
+                    ratio = 600 / pil_img.width
+                    pil_img = pil_img.resize((600, int(pil_img.height * ratio)), Image.Resampling.LANCZOS)
+                buf = io.BytesIO()
+                pil_img.save(buf, format="JPEG", quality=85, optimize=True)
+                page.replace_image(xref, stream=buf.getvalue())
+                replaced.add(xref)
+        tmp_path = str(pdf_path) + ".opt.tmp"
+        doc.save(tmp_path, garbage=4, deflate=True)
+        doc.close()
+        os.replace(tmp_path, str(pdf_path))
+        new_mb = Path(pdf_path).stat().st_size / (1024 * 1024)
+        print(f"Optimized PDF size: {orig_mb:.2f} MB -> {new_mb:.2f} MB")
+    except Exception as e:
+        print(f"[Warning] PDF optimization skipped: {e}", file=sys.stderr)
 
 
 # ==========================================
