@@ -1505,40 +1505,56 @@ def generate_master_index(workspace_root, available_units, theory_db, output_fil
         </button>
         """)
 
-        # Vocab Theory HTML
+        # Vocab Theory HTML (Exact cards.html Spec)
         v_theory_html = []
-        for grp in u_info["vocab"]:
-            grp_name = grp.get("group", "")
-            v_theory_html.append(f'<div class="vocab-group-header"><h3>📁 {escape(grp_name)}</h3></div>')
-            v_theory_html.append('<div class="vocab-cards-grid">')
-            for w in grp.get("words", []):
-                eng = w.get("english_word", "")
-                ipa = w.get("phonetics", {}).get("uk", "") or w.get("phonetics", {}).get("us", "")
-                pos = w.get("part_of_speech", "")
-                defn = w.get("vietnamese_meaning", "")
-                ex_en = w.get("example_sentence", {}).get("english", "")
-                img = w.get("image_url", "")
-                if img.startswith("/"):
-                    img = img.lstrip("/")
+        for grp_idx, grp in enumerate(u_info["vocab"]):
+            grp_name = grp.get("group", f"Nhóm {grp_idx+1}")
+            words = grp.get("words", [])
+            cards_in_grp = []
+            for w in words:
+                eng = w.get("english_word", "").strip()
+                ipa_raw = w.get("pronunciation_british") or w.get("pronunciation_american") or ""
+                ipa_clean = ipa_raw.strip("/ ")
+                ipa_display = f"/{ipa_clean}/" if ipa_clean else ""
+                defn = w.get("vietnamese_meaning", "").strip()
+                ex_en = w.get("example_sentence_en") or w.get("example_sentence", {}).get("english", "") or ""
+                img_raw = w.get("image", "") or w.get("image_url", "")
+                clean_img = img_raw.lstrip("/\\").replace("\\", "/")
+                alt_text = w.get("alt") or eng
+                safe_word = eng.replace("'", "\\'")
 
-                v_theory_html.append(f"""
-                <div class="vocab-card-item">
-                    <div class="card-img-wrap">
-                        <img src="{escape(img)}" alt="{escape(eng)}" loading="lazy" onerror="this.src='images/placeholder.webp'">
-                        <button type="button" class="btn-audio-speak" onclick="speakWord('{escape(eng)}')" title="Phát âm">
-                            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+                cards_in_grp.append(f"""
+                <div class="vocab-card" data-word="{escape(eng.lower())}" data-group="{escape(grp_name.lower())}">
+                    <div class="image-container">
+                        <img src="{escape(clean_img)}" alt="{escape(alt_text)}" loading="lazy" onerror="this.onerror=null; this.style.opacity='0.4';">
+                        <button type="button" class="btn-audio" onclick="speakWord('{safe_word}')" title="Nghe phát âm '{escape(eng)}'">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                            </svg>
                         </button>
                     </div>
                     <div class="card-body">
-                        <div class="card-word-title">{escape(eng)}</div>
-                        <div class="card-ipa-line">/{escape(ipa)}/ <span class="card-pos">({escape(pos)})</span></div>
-                        <div class="card-divider"></div>
-                        <div class="card-def-vi">{escape(defn)}</div>
+                        <div class="vocab-meta">
+                            <div class="word-en">{escape(eng)}</div>
+                            {f'<div class="word-ipa">{escape(ipa_display)}</div>' if ipa_display else ''}
+                        </div>
+                        <div class="divider"></div>
+                        <div class="word-vi">{escape(defn)}</div>
                         {f'<div class="card-ex-en">"{escape(ex_en)}"</div>' if ex_en else ''}
                     </div>
+                </div>""")
+
+            v_theory_html.append(f"""
+            <div class="theory-group-block">
+                <div class="theory-group-title">
+                    <span class="group-folder-icon">📁</span>
+                    <span>{escape(grp_name)}</span>
+                    <span class="group-count-pill">{len(words)} từ</span>
                 </div>
-                """)
-            v_theory_html.append('</div>')
+                <div class="vocab-grid">
+                    {''.join(cards_in_grp)}
+                </div>
+            </div>""")
 
         # Grammar Theory HTML
         g_theory_html = render_grammar_theory_html(u, u_info["grammar_theory"])
@@ -1998,118 +2014,171 @@ def generate_master_index(workspace_root, available_units, theory_db, output_fil
         }}
 
         /* VOCAB FLASHCARDS (CARDS.HTML SPEC) */
-        .vocab-group-header {{
-            margin: 20px 0 12px 0;
+        .theory-group-block {{
+            margin-bottom: 32px;
+        }}
+
+        .theory-group-title {{
             font-family: 'Plus Jakarta Sans', sans-serif;
-            color: #1e3a8a;
             font-size: 16px;
+            font-weight: 700;
+            color: #1e3a8a;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 16px;
         }}
 
-        .vocab-cards-grid {{
+        .group-folder-icon {{
+            font-size: 18px;
+        }}
+
+        .group-count-pill {{
+            background: #eff6ff;
+            color: var(--primary-blue);
+            border: 1px solid #bfdbfe;
+            padding: 2px 10px;
+            border-radius: 9999px;
+            font-size: 12px;
+            font-weight: 600;
+        }}
+
+        .vocab-grid {{
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-            gap: 18px;
-            margin-bottom: 24px;
+            gap: 20px;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
         }}
 
-        .vocab-card-item {{
-            background: #ffffff;
+        @media (min-width: 1320px) {{
+            .vocab-grid {{
+                grid-template-columns: repeat(5, 1fr);
+            }}
+        }}
+
+        @media (min-width: 1024px) and (max-width: 1319px) {{
+            .vocab-grid {{
+                grid-template-columns: repeat(4, 1fr);
+            }}
+        }}
+
+        .vocab-card {{
+            background: var(--surface-white);
+            border-radius: var(--card-radius);
             border: 1px solid var(--border-subtle);
-            border-radius: 14px;
-            overflow: hidden;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+            box-shadow: var(--shadow-default);
             display: flex;
             flex-direction: column;
-            transition: all 0.2s;
+            overflow: hidden;
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            position: relative;
         }}
 
-        .vocab-card-item:hover {{
-            transform: translateY(-3px);
-            box-shadow: 0 8px 20px rgba(37,99,235,0.12);
+        .vocab-card:hover {{
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-hover);
+            border-color: #bfdbfe;
         }}
 
-        .card-img-wrap {{
-            height: 160px;
+        .image-container {{
+            width: 100%;
+            height: 200px;
             background: #f8fafc;
             position: relative;
+            overflow: hidden;
             display: flex;
             align-items: center;
             justify-content: center;
-            overflow: hidden;
+            border-bottom: 1px solid #f1f5f9;
+            padding: 8px;
         }}
 
-        .card-img-wrap img {{
-            max-width: 100%;
-            max-height: 100%;
+        .image-container img {{
+            width: 100%;
+            height: 100%;
             object-fit: contain;
+            border-radius: 12px;
+            display: block;
+            transition: transform 0.3s ease;
         }}
 
-        .btn-audio-speak {{
+        .vocab-card:hover .image-container img {{
+            transform: scale(1.03);
+        }}
+
+        .btn-audio {{
             position: absolute;
-            bottom: 10px;
-            right: 10px;
-            width: 32px;
-            height: 32px;
+            bottom: 12px;
+            right: 12px;
+            width: 36px;
+            height: 36px;
             border-radius: 50%;
-            background: rgba(37, 99, 235, 0.9);
-            color: white;
-            border: none;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(226, 232, 240, 0.8);
             cursor: pointer;
             display: flex;
             align-items: center;
             justify-content: center;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-            transition: all 0.15s;
+            color: var(--primary-blue);
+            box-shadow: 0 4px 10px rgba(37, 99, 235, 0.15);
+            transition: all 0.2s ease;
+            z-index: 2;
         }}
 
-        .btn-audio-speak:hover {{
-            background: #1d4ed8;
+        .btn-audio:hover {{
             transform: scale(1.1);
+            background: var(--primary-blue);
+            color: #ffffff;
+            box-shadow: 0 6px 14px rgba(37, 99, 235, 0.3);
         }}
 
-        .card-body {{
-            padding: 14px;
+        .vocab-card .card-body {{
+            padding: 16px 18px 18px;
             display: flex;
             flex-direction: column;
-            flex: 1;
+            flex-grow: 1;
+            justify-content: space-between;
+            gap: 10px;
         }}
 
-        .card-word-title {{
+        .vocab-meta {{
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }}
+
+        .word-en {{
             font-family: 'Plus Jakarta Sans', sans-serif;
-            font-size: 17px;
+            font-size: 20px;
             font-weight: 700;
-            color: #0f172a;
+            color: #1e293b;
+            letter-spacing: -0.3px;
         }}
 
-        .card-ipa-line {{
-            font-size: 13px;
-            color: var(--primary-blue);
-            margin-top: 2px;
-        }}
-
-        .card-pos {{
-            color: #64748b;
-            font-style: italic;
-        }}
-
-        .card-divider {{
-            height: 1px;
-            background: #e2e8f0;
-            margin: 8px 0;
-        }}
-
-        .card-def-vi {{
+        .word-ipa {{
             font-size: 13.5px;
+            color: var(--primary-blue);
+            font-weight: 500;
+        }}
+
+        .divider {{
+            height: 1px;
+            background: linear-gradient(90deg, #e2e8f0 0%, transparent 100%);
+        }}
+
+        .word-vi {{
+            font-size: 14px;
             font-weight: 600;
             color: #334155;
-            line-height: 1.4;
+            line-height: 1.45;
         }}
 
         .card-ex-en {{
-            font-size: 12px;
+            font-size: 12.5px;
             font-style: italic;
             color: #64748b;
-            margin-top: 6px;
+            margin-top: 4px;
+            line-height: 1.4;
         }}
 
         .vocab-exercises-preview-note {{
