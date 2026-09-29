@@ -7,11 +7,11 @@
   "questions": [
     {
       "id": "1",
-      "text": "Many exchange students experience ______ culture shock when they first encounter unfamiliar customs in a foreign country.",
+      "text": "Many exchange students experience ______ culture shock when they first encounter an unfamiliar custom in a foreign country.",
       "options": [
         "an",
-        "the",
         "a",
+        "the",
         "Ø"
       ],
       "correct_answer": "Ø",
@@ -21,9 +21,9 @@
       "id": "2",
       "text": "During the autumn carnival, children carried ______ colourful pumpkin lantern through the illuminated village square.",
       "options": [
-        "the",
-        "a",
         "Ø",
+        "a",
+        "the",
         "an"
       ],
       "correct_answer": "a",
@@ -33,10 +33,10 @@
       "id": "3",
       "text": "The international marine expedition sailed across ______ Atlantic Ocean to investigate endangered coral reefs.",
       "options": [
-        "a",
-        "the",
+        "Ø",
         "an",
-        "Ø"
+        "the",
+        "a"
       ],
       "correct_answer": "the",
       "explanation": "Dùng mạo từ xác định 'the' trước tên của các đại dương (the Atlantic Ocean)."
@@ -46,9 +46,9 @@
       "text": "After exploring the floating market in the Mekong Delta, Liam bought ______ unique hand-woven scarf as a souvenir.",
       "options": [
         "a",
+        "Ø",
         "an",
-        "the",
-        "Ø"
+        "the"
       ],
       "correct_answer": "a",
       "explanation": "Tính từ 'unique' bắt đầu bằng âm bán nguyên âm /juː/, do đó dùng mạo từ bất định 'a' chứ không dùng 'an'."
@@ -57,10 +57,10 @@
       "id": "5",
       "text": "In our high school, participating in an extracurricular activity is considered ______ excellent way to appreciate cultural diversity.",
       "options": [
-        "Ø",
-        "an",
         "the",
-        "a"
+        "a",
+        "Ø",
+        "an"
       ],
       "correct_answer": "an",
       "explanation": "Danh từ số ít đếm được đi kèm tính từ bắt đầu bằng nguyên âm ('excellent') dùng mạo từ bất định 'an'."
@@ -71,8 +71,8 @@
       "options": [
         "Ø",
         "An",
-        "The",
-        "A"
+        "A",
+        "The"
       ],
       "correct_answer": "The",
       "explanation": "Danh từ 'food stall' được nhắc lại lần thứ hai và đã được xác định cụ thể trong ngữ cảnh, nên dùng mạo từ 'The'."
@@ -81,10 +81,10 @@
       "id": "7",
       "text": "Our music teacher encouraged everyone in the class to learn to play ______ traditional guitar or the bamboo flute.",
       "options": [
-        "a",
-        "an",
         "the",
-        "Ø"
+        "a",
+        "Ø",
+        "an"
       ],
       "correct_answer": "the",
       "explanation": "Dùng mạo từ 'the' trước danh từ chỉ nhạc cụ khi đi với động từ 'play' hoặc 'learn to play'."
@@ -94,8 +94,8 @@
       "text": "Every morning, my host family in Ha Noi has ______ breakfast together before going to work and school.",
       "options": [
         "a",
-        "the",
         "an",
+        "the",
         "Ø"
       ],
       "correct_answer": "Ø",
@@ -105,10 +105,10 @@
       "id": "9",
       "text": "Last summer, an international youth delegation traveled to ______ United Kingdom to attend a conference on globalisation.",
       "options": [
-        "an",
-        "a",
         "Ø",
-        "the"
+        "the",
+        "an",
+        "a"
       ],
       "correct_answer": "the",
       "explanation": "Dùng mạo từ 'the' trước tên quốc gia có chứa từ 'Kingdom' (the United Kingdom)."
@@ -117,9 +117,9 @@
       "id": "10",
       "text": "During the highland festival, teenagers enthusiastically took part in ______ bamboo dancing on the central stage.",
       "options": [
-        "Ø",
         "an",
         "a",
+        "Ø",
         "the"
       ],
       "correct_answer": "Ø",
@@ -129,9 +129,9 @@
       "id": "11",
       "text": "The guest speaker gave ______ inspiring lecture on how world cuisines influence modern eating trends.",
       "options": [
-        "the",
-        "an",
         "Ø",
+        "an",
+        "the",
         "a"
       ],
       "correct_answer": "an",
@@ -141,10 +141,10 @@
       "id": "12",
       "text": "Astronomers gathered in the observatory to observe ______ moon during the lunar eclipse celebration.",
       "options": [
-        "the",
+        "an",
         "a",
-        "Ø",
-        "an"
+        "the",
+        "Ø"
       ],
       "correct_answer": "the",
       "explanation": "Dùng mạo từ 'the' trước các thiên thể và thực thể duy nhất trong tự nhiên (the sun, the moon, the earth)."
@@ -165,10 +165,10 @@
       "id": "14",
       "text": "Students from various ethnic backgrounds gathered in ______ capital city to celebrate their shared cultural identity.",
       "options": [
-        "a",
-        "an",
+        "the",
         "Ø",
-        "the"
+        "an",
+        "a"
       ],
       "correct_answer": "the",
       "explanation": "Thủ đô của một quốc gia là thực thể xác định duy nhất trong ngữ cảnh đó, do đó dùng mạo từ 'the'."
@@ -178,9 +178,9 @@
       "text": "My pen pal lives in ______ Japan, where ancient temples stand alongside futuristic skyscrapers.",
       "options": [
         "the",
+        "a",
         "an",
-        "Ø",
-        "a"
+        "Ø"
       ],
       "correct_answer": "Ø",
       "explanation": "Tên hầu hết các quốc gia ở dạng số ít thông thường (như Japan, Viet Nam, France) không dùng mạo từ (zero article Ø)."
@@ -201,9 +201,9 @@
       "id": "17",
       "text": "Mount Fansipan is officially recognised as ______ highest mountain peak in the entire Indochinese region.",
       "options": [
+        "an",
         "Ø",
         "the",
-        "an",
         "a"
       ],
       "correct_answer": "the",
@@ -214,8 +214,8 @@
       "text": "On October 31st, children in many Western countries dress up in scary costumes and go ______ trick or treating.",
       "options": [
         "the",
-        "a",
         "Ø",
+        "a",
         "an"
       ],
       "correct_answer": "Ø",
@@ -225,20 +225,20 @@
       "id": "19",
       "text": "Overcoming ______ language barrier is one of the most rewarding challenges for participants in culture exchange programs.",
       "options": [
-        "an",
         "the",
+        "a",
         "Ø",
-        "a"
+        "an"
       ],
       "correct_answer": "a",
       "explanation": "Danh từ đếm được số ít 'language barrier' được nói tới một cách khái quát mang nghĩa 'một rào cản', dùng 'a'."
     },
     {
       "id": "20",
-      "text": "In the 21st century, ______ globalisation has accelerated the exchange of ideas, art forms, and cultural practices worldwide.",
+      "text": "In the 21st century, ______ globalisation has accelerated cultural exchange, leading to the worldwide popularity of international art festivals.",
       "options": [
-        "a",
         "an",
+        "a",
         "Ø",
         "the"
       ],

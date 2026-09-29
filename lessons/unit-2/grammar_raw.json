@@ -15,11 +15,11 @@
       "questions": [
         {
           "id": "1",
-          "text": "Many exchange students experience ______ culture shock when they first encounter unfamiliar customs in a foreign country.",
+          "text": "Many exchange students experience ______ culture shock when they first encounter an unfamiliar custom in a foreign country.",
           "options": [
             "an",
-            "the",
             "a",
+            "the",
             "Ø"
           ],
           "correct_answer": "Ø",
@@ -29,9 +29,9 @@
           "id": "2",
           "text": "During the autumn carnival, children carried ______ colourful pumpkin lantern through the illuminated village square.",
           "options": [
-            "the",
-            "a",
             "Ø",
+            "a",
+            "the",
             "an"
           ],
           "correct_answer": "a",
@@ -41,10 +41,10 @@
           "id": "3",
           "text": "The international marine expedition sailed across ______ Atlantic Ocean to investigate endangered coral reefs.",
           "options": [
-            "a",
-            "the",
+            "Ø",
             "an",
-            "Ø"
+            "the",
+            "a"
           ],
           "correct_answer": "the",
           "explanation": "Dùng mạo từ xác định 'the' trước tên của các đại dương (the Atlantic Ocean)."
@@ -54,9 +54,9 @@
           "text": "After exploring the floating market in the Mekong Delta, Liam bought ______ unique hand-woven scarf as a souvenir.",
           "options": [
             "a",
+            "Ø",
             "an",
-            "the",
-            "Ø"
+            "the"
           ],
           "correct_answer": "a",
           "explanation": "Tính từ 'unique' bắt đầu bằng âm bán nguyên âm /juː/, do đó dùng mạo từ bất định 'a' chứ không dùng 'an'."
@@ -65,10 +65,10 @@
           "id": "5",
           "text": "In our high school, participating in an extracurricular activity is considered ______ excellent way to appreciate cultural diversity.",
           "options": [
-            "Ø",
-            "an",
             "the",
-            "a"
+            "a",
+            "Ø",
+            "an"
           ],
           "correct_answer": "an",
           "explanation": "Danh từ số ít đếm được đi kèm tính từ bắt đầu bằng nguyên âm ('excellent') dùng mạo từ bất định 'an'."
@@ -79,8 +79,8 @@
           "options": [
             "Ø",
             "An",
-            "The",
-            "A"
+            "A",
+            "The"
           ],
           "correct_answer": "The",
           "explanation": "Danh từ 'food stall' được nhắc lại lần thứ hai và đã được xác định cụ thể trong ngữ cảnh, nên dùng mạo từ 'The'."
@@ -89,10 +89,10 @@
           "id": "7",
           "text": "Our music teacher encouraged everyone in the class to learn to play ______ traditional guitar or the bamboo flute.",
           "options": [
-            "a",
-            "an",
             "the",
-            "Ø"
+            "a",
+            "Ø",
+            "an"
           ],
           "correct_answer": "the",
           "explanation": "Dùng mạo từ 'the' trước danh từ chỉ nhạc cụ khi đi với động từ 'play' hoặc 'learn to play'."
@@ -102,8 +102,8 @@
           "text": "Every morning, my host family in Ha Noi has ______ breakfast together before going to work and school.",
           "options": [
             "a",
-            "the",
             "an",
+            "the",
             "Ø"
           ],
           "correct_answer": "Ø",
@@ -113,10 +113,10 @@
           "id": "9",
           "text": "Last summer, an international youth delegation traveled to ______ United Kingdom to attend a conference on globalisation.",
           "options": [
-            "an",
-            "a",
             "Ø",
-            "the"
+            "the",
+            "an",
+            "a"
           ],
           "correct_answer": "the",
           "explanation": "Dùng mạo từ 'the' trước tên quốc gia có chứa từ 'Kingdom' (the United Kingdom)."
@@ -125,9 +125,9 @@
           "id": "10",
           "text": "During the highland festival, teenagers enthusiastically took part in ______ bamboo dancing on the central stage.",
           "options": [
-            "Ø",
             "an",
             "a",
+            "Ø",
             "the"
           ],
           "correct_answer": "Ø",
@@ -137,9 +137,9 @@
           "id": "11",
           "text": "The guest speaker gave ______ inspiring lecture on how world cuisines influence modern eating trends.",
           "options": [
-            "the",
-            "an",
             "Ø",
+            "an",
+            "the",
             "a"
           ],
           "correct_answer": "an",
@@ -149,10 +149,10 @@
           "id": "12",
           "text": "Astronomers gathered in the observatory to observe ______ moon during the lunar eclipse celebration.",
           "options": [
-            "the",
+            "an",
             "a",
-            "Ø",
-            "an"
+            "the",
+            "Ø"
           ],
           "correct_answer": "the",
           "explanation": "Dùng mạo từ 'the' trước các thiên thể và thực thể duy nhất trong tự nhiên (the sun, the moon, the earth)."
@@ -173,10 +173,10 @@
           "id": "14",
           "text": "Students from various ethnic backgrounds gathered in ______ capital city to celebrate their shared cultural identity.",
           "options": [
-            "a",
-            "an",
+            "the",
             "Ø",
-            "the"
+            "an",
+            "a"
           ],
           "correct_answer": "the",
           "explanation": "Thủ đô của một quốc gia là thực thể xác định duy nhất trong ngữ cảnh đó, do đó dùng mạo từ 'the'."
@@ -186,9 +186,9 @@
           "text": "My pen pal lives in ______ Japan, where ancient temples stand alongside futuristic skyscrapers.",
           "options": [
             "the",
+            "a",
             "an",
-            "Ø",
-            "a"
+            "Ø"
           ],
           "correct_answer": "Ø",
           "explanation": "Tên hầu hết các quốc gia ở dạng số ít thông thường (như Japan, Viet Nam, France) không dùng mạo từ (zero article Ø)."
@@ -209,9 +209,9 @@
           "id": "17",
           "text": "Mount Fansipan is officially recognised as ______ highest mountain peak in the entire Indochinese region.",
           "options": [
+            "an",
             "Ø",
             "the",
-            "an",
             "a"
           ],
           "correct_answer": "the",
@@ -222,8 +222,8 @@
           "text": "On October 31st, children in many Western countries dress up in scary costumes and go ______ trick or treating.",
           "options": [
             "the",
-            "a",
             "Ø",
+            "a",
             "an"
           ],
           "correct_answer": "Ø",
@@ -233,20 +233,20 @@
           "id": "19",
           "text": "Overcoming ______ language barrier is one of the most rewarding challenges for participants in culture exchange programs.",
           "options": [
-            "an",
             "the",
+            "a",
             "Ø",
-            "a"
+            "an"
           ],
           "correct_answer": "a",
           "explanation": "Danh từ đếm được số ít 'language barrier' được nói tới một cách khái quát mang nghĩa 'một rào cản', dùng 'a'."
         },
         {
           "id": "20",
-          "text": "In the 21st century, ______ globalisation has accelerated the exchange of ideas, art forms, and cultural practices worldwide.",
+          "text": "In the 21st century, ______ globalisation has accelerated cultural exchange, leading to the worldwide popularity of international art festivals.",
           "options": [
-            "a",
             "an",
+            "a",
             "Ø",
             "the"
           ],
@@ -320,11 +320,11 @@
         },
         {
           "id": "8",
-          "text": "Anthropologists believe that (article) ______ custom of carving turnip lanterns originated in ancient Ireland.",
+          "text": "Anthropologists believe that (article) ______ ancient tradition of carving turnip lanterns originated in Ireland.",
           "prompt": "article",
           "verb": "article",
           "correct_answer": "the",
-          "explanation": "Danh từ 'custom' được xác định cụ thể bởi cụm giới từ 'of carving turnip lanterns', nên dùng mạo từ xác định 'the'."
+          "explanation": "Danh từ 'tradition' được xác định cụ thể bởi cụm giới từ 'of carving turnip lanterns', nên dùng mạo từ xác định 'the'."
         },
         {
           "id": "9",
@@ -720,10 +720,10 @@
               "id": "1",
               "blank_number": 1,
               "options": [
-                "the",
                 "a",
-                "Ø",
-                "an"
+                "the",
+                "an",
+                "Ø"
               ],
               "correct_answer": "the",
               "explanation": "Sân trung tâm của trường là địa điểm xác định duy nhất trong bối cảnh khuôn viên trường, dùng 'the'."
@@ -732,10 +732,10 @@
               "id": "2",
               "blank_number": 2,
               "options": [
-                "an",
                 "the",
                 "a",
-                "Ø"
+                "Ø",
+                "an"
               ],
               "correct_answer": "Ø",
               "explanation": "Danh từ số nhiều 'traditional costumes' mang ý nghĩa khái quát chung, dùng zero article (Ø)."
@@ -746,8 +746,8 @@
               "options": [
                 "Ø",
                 "a",
-                "an",
-                "the"
+                "the",
+                "an"
               ],
               "correct_answer": "a",
               "explanation": "Cụm danh từ đếm được số ít 'vibrant atmosphere' lần đầu được giới thiệu, bắt đầu bằng phụ âm /v/, dùng 'a'."
@@ -757,9 +757,9 @@
               "blank_number": 4,
               "options": [
                 "an",
-                "the",
+                "Ø",
                 "a",
-                "Ø"
+                "the"
               ],
               "correct_answer": "a",
               "explanation": "'Helpful guide' là danh từ đếm được số ít, 'helpful' bắt đầu bằng âm phụ âm /h/, dùng 'a'."
@@ -768,10 +768,10 @@
               "id": "5",
               "blank_number": 5,
               "options": [
-                "Ø",
-                "a",
+                "the",
                 "an",
-                "the"
+                "a",
+                "Ø"
               ],
               "correct_answer": "the",
               "explanation": "Sân khấu âm nhạc chính của lễ hội là thực thể xác định cụ thể trong khuôn viên, dùng 'the'."
@@ -781,9 +781,9 @@
               "blank_number": 6,
               "options": [
                 "an",
-                "a",
                 "Ø",
-                "the"
+                "the",
+                "a"
               ],
               "correct_answer": "the",
               "explanation": "Dùng mạo từ 'the' trước tên nhạc cụ khi chơi ('playing the bamboo flute')."
@@ -792,10 +792,10 @@
               "id": "7",
               "blank_number": 7,
               "options": [
-                "a",
-                "an",
+                "Ø",
                 "the",
-                "Ø"
+                "a",
+                "an"
               ],
               "correct_answer": "the",
               "explanation": "Dùng mạo từ 'the' trước tên nhạc cụ đi cùng giới từ chỉ phương tiện âm nhạc ('on the guitar')."
@@ -804,10 +804,10 @@
               "id": "8",
               "blank_number": 8,
               "options": [
+                "a",
                 "an",
                 "the",
-                "Ø",
-                "a"
+                "Ø"
               ],
               "correct_answer": "a",
               "explanation": "Cụm từ mang ý nghĩa 'một rào cản ngôn ngữ' nói chung, dùng mạo từ bất định 'a'."
@@ -816,10 +816,10 @@
               "id": "9",
               "blank_number": 9,
               "options": [
-                "Ø",
-                "the",
                 "a",
-                "an"
+                "the",
+                "an",
+                "Ø"
               ],
               "correct_answer": "Ø",
               "explanation": "Tên điệu nhảy truyền thống hoặc trò chơi dân gian (bamboo dancing) dùng zero article (Ø)."
@@ -828,10 +828,10 @@
               "id": "10",
               "blank_number": 10,
               "options": [
-                "Ø",
+                "a",
                 "the",
-                "an",
-                "a"
+                "Ø",
+                "an"
               ],
               "correct_answer": "an",
               "explanation": "'Unfamiliar activity' là danh từ đếm được số ít với tính từ bắt đầu bằng nguyên âm /ʌ/, dùng 'an'."
@@ -852,10 +852,10 @@
               "id": "12",
               "blank_number": 12,
               "options": [
-                "a",
-                "Ø",
+                "the",
                 "an",
-                "the"
+                "a",
+                "Ø"
               ],
               "correct_answer": "Ø",
               "explanation": "'Cultural identity' là danh từ không đếm được chỉ bản sắc văn hóa nói chung, dùng zero article (Ø)."
@@ -864,10 +864,10 @@
               "id": "13",
               "blank_number": 13,
               "options": [
-                "the",
                 "a",
-                "Ø",
-                "an"
+                "an",
+                "the",
+                "Ø"
               ],
               "correct_answer": "Ø",
               "explanation": "'Culture shock' là danh từ không đếm được chỉ hiện tượng sốc văn hóa nói chung, dùng zero article (Ø)."
@@ -877,9 +877,9 @@
               "blank_number": 14,
               "options": [
                 "a",
+                "Ø",
                 "an",
-                "the",
-                "Ø"
+                "the"
               ],
               "correct_answer": "a",
               "explanation": "Danh từ số ít đếm được 'opportunity' đi sau tính từ bắt đầu bằng phụ âm 'wonderful', dùng 'a'."
@@ -889,9 +889,9 @@
               "blank_number": 15,
               "options": [
                 "a",
+                "the",
                 "an",
-                "Ø",
-                "the"
+                "Ø"
               ],
               "correct_answer": "the",
               "explanation": "'Proceeds' (tiền thu được) được xác định cụ thể bởi cụm 'from selling these souvenirs', nên dùng 'the'."
@@ -900,10 +900,10 @@
               "id": "16",
               "blank_number": 16,
               "options": [
-                "Ø",
+                "a",
                 "the",
-                "an",
-                "a"
+                "Ø",
+                "an"
               ],
               "correct_answer": "the",
               "explanation": "Dùng 'the' trước cụm danh từ chỉ các vùng miền địa lý cụ thể ('the northern mountainous provinces')."
@@ -912,10 +912,10 @@
               "id": "17",
               "blank_number": 17,
               "options": [
-                "an",
                 "the",
-                "a",
-                "Ø"
+                "an",
+                "Ø",
+                "a"
               ],
               "correct_answer": "the",
               "explanation": "'The moon' là thiên thể duy nhất trong tự nhiên, luôn dùng mạo từ xác định 'the'."
@@ -936,10 +936,10 @@
               "id": "19",
               "blank_number": 19,
               "options": [
-                "the",
-                "an",
                 "a",
-                "Ø"
+                "an",
+                "Ø",
+                "the"
               ],
               "correct_answer": "the",
               "explanation": "Toàn bộ khuôn viên trường là không gian cụ thể xác định ('the entire campus'), dùng 'the'."
@@ -948,10 +948,10 @@
               "id": "20",
               "blank_number": 20,
               "options": [
-                "a",
-                "an",
                 "Ø",
-                "the"
+                "the",
+                "an",
+                "a"
               ],
               "correct_answer": "an",
               "explanation": "Cụm danh từ số ít 'unforgettable celebration' bắt đầu bằng nguyên âm /ʌ/, dùng mạo từ 'an'."
@@ -967,9 +967,9 @@
               "id": "21",
               "blank_number": 21,
               "options": [
-                "a",
                 "Ø",
                 "an",
+                "a",
                 "the"
               ],
               "correct_answer": "a",
@@ -979,10 +979,10 @@
               "id": "22",
               "blank_number": 22,
               "options": [
-                "an",
+                "the",
                 "Ø",
                 "a",
-                "the"
+                "an"
               ],
               "correct_answer": "Ø",
               "explanation": "Cụm danh từ 'places of origin' dùng zero article (Ø) trước danh từ không đếm được/trừu tượng 'origin'."
@@ -991,10 +991,10 @@
               "id": "23",
               "blank_number": 23,
               "options": [
-                "an",
-                "Ø",
                 "a",
-                "the"
+                "the",
+                "an",
+                "Ø"
               ],
               "correct_answer": "a",
               "explanation": "Cụm thành ngữ chỉ số lượng/đa dạng: 'a diverse range of' (một loạt/đa dạng các...)."
@@ -1003,10 +1003,10 @@
               "id": "24",
               "blank_number": 24,
               "options": [
-                "the",
                 "a",
-                "Ø",
-                "an"
+                "an",
+                "the",
+                "Ø"
               ],
               "correct_answer": "Ø",
               "explanation": "'World cuisine' được dùng với nghĩa khái quát chỉ nền ẩm thực thế giới nói chung, dùng zero article (Ø)."
@@ -1015,10 +1015,10 @@
               "id": "25",
               "blank_number": 25,
               "options": [
-                "Ø",
+                "the",
                 "an",
-                "a",
-                "the"
+                "Ø",
+                "a"
               ],
               "correct_answer": "the",
               "explanation": "Dùng 'the' trước tính từ mang ý nghĩa tối thượng/hàng đầu ('the premier tourist attraction')."
@@ -1028,9 +1028,9 @@
               "blank_number": 26,
               "options": [
                 "Ø",
+                "a",
                 "an",
-                "the",
-                "a"
+                "the"
               ],
               "correct_answer": "a",
               "explanation": "Danh từ đếm được số ít 'food stall' được nhắc đến với nghĩa 'một quầy hàng', dùng 'a'."
@@ -1039,10 +1039,10 @@
               "id": "27",
               "blank_number": 27,
               "options": [
+                "the",
                 "a",
-                "Ø",
                 "an",
-                "the"
+                "Ø"
               ],
               "correct_answer": "a",
               "explanation": "Danh từ đếm được số ít 'local speciality' mang nghĩa 'một đặc sản địa phương', dùng mạo từ 'a'."
@@ -1052,8 +1052,8 @@
               "blank_number": 28,
               "options": [
                 "an",
-                "a",
                 "the",
+                "a",
                 "Ø"
               ],
               "correct_answer": "Ø",
@@ -1063,9 +1063,9 @@
               "id": "29",
               "blank_number": 29,
               "options": [
+                "an",
                 "Ø",
                 "a",
-                "an",
                 "the"
               ],
               "correct_answer": "the",
@@ -1075,10 +1075,10 @@
               "id": "30",
               "blank_number": 30,
               "options": [
-                "a",
-                "Ø",
+                "the",
                 "an",
-                "the"
+                "Ø",
+                "a"
               ],
               "correct_answer": "Ø",
               "explanation": "'Cultural diversity' là danh từ trừu tượng không đếm được chỉ sự đa dạng văn hóa nói chung, dùng zero article (Ø)."
@@ -1087,10 +1087,10 @@
               "id": "31",
               "blank_number": 31,
               "options": [
-                "the",
-                "an",
                 "Ø",
-                "a"
+                "an",
+                "a",
+                "the"
               ],
               "correct_answer": "the",
               "explanation": "Danh từ 'customs' được xác định bởi cụm 'embedded in each recipe', nên dùng mạo từ 'the'."
@@ -1100,8 +1100,8 @@
               "blank_number": 32,
               "options": [
                 "the",
-                "Ø",
                 "a",
+                "Ø",
                 "an"
               ],
               "correct_answer": "a",
@@ -1112,9 +1112,9 @@
               "blank_number": 33,
               "options": [
                 "a",
+                "the",
                 "Ø",
-                "an",
-                "the"
+                "an"
               ],
               "correct_answer": "Ø",
               "explanation": "Tên các quốc gia thông thường ở dạng số ít như India, Viet Nam không dùng mạo từ (zero article Ø)."
@@ -1124,9 +1124,9 @@
               "blank_number": 34,
               "options": [
                 "an",
-                "a",
+                "the",
                 "Ø",
-                "the"
+                "a"
               ],
               "correct_answer": "a",
               "explanation": "Danh từ đếm được số ít 'pumpkin lantern' mang nghĩa chạm khắc một chiếc đèn bí ngô, dùng 'a'."
@@ -1147,10 +1147,10 @@
               "id": "36",
               "blank_number": 36,
               "options": [
-                "Ø",
+                "an",
                 "the",
-                "a",
-                "an"
+                "Ø",
+                "a"
               ],
               "correct_answer": "Ø",
               "explanation": "Thành ngữ cố định 'cause for alarm' (lý do để lo lắng) không đi kèm mạo từ (zero article Ø)."
@@ -1159,10 +1159,10 @@
               "id": "37",
               "blank_number": 37,
               "options": [
-                "an",
-                "a",
                 "Ø",
-                "the"
+                "the",
+                "an",
+                "a"
               ],
               "correct_answer": "the",
               "explanation": "Dùng mạo từ 'the' trước tên các biển và đại dương (the Mediterranean Sea)."
@@ -1171,10 +1171,10 @@
               "id": "38",
               "blank_number": 38,
               "options": [
-                "the",
-                "a",
                 "an",
-                "Ø"
+                "Ø",
+                "a",
+                "the"
               ],
               "correct_answer": "an",
               "explanation": "Danh từ đếm được số ít 'ocean' bắt đầu bằng nguyên âm /ˈəʊʃn/, dùng mạo từ 'an'."
@@ -1183,9 +1183,9 @@
               "id": "39",
               "blank_number": 39,
               "options": [
-                "the",
                 "a",
                 "Ø",
+                "the",
                 "an"
               ],
               "correct_answer": "a",
@@ -1196,9 +1196,9 @@
               "blank_number": 40,
               "options": [
                 "a",
+                "the",
                 "Ø",
-                "an",
-                "the"
+                "an"
               ],
               "correct_answer": "a",
               "explanation": "Cụm danh từ đếm được số ít 'vital step' bắt đầu bằng âm phụ âm /v/, dùng mạo từ 'a'."

@@ -1,0 +1,347 @@
+import json
+import os
+
+db = {
+    "GS12": {
+        "1": {
+            "grade": "GS12",
+            "unit": 1,
+            "unit_theme": "Life Stories We Admire",
+            "grammar_topic": "Past simple vs. Past continuous",
+            "lesson_title": "LESSON 1 – PAST SIMPLE VS. PAST CONTINUOUS",
+            "sections": [
+                {
+                    "pill_badge": "Past simple vs. Past continuous: forms and core uses",
+                    "intro_bullets": [
+                        "We use the <b>past simple</b> to describe a completed action at a specific time in the past, or main chronological events in a life story. <i>e.g. Steve Jobs dropped out of Reed College in 1972.</i>",
+                        "We use the <b>past continuous</b> to describe an action in progress at a specific time in the past, or to set the historical background/setting of a narrative. <i>e.g. At 9 p.m. yesterday, Nam was reading the wartime diary of Dang Thuy Tram.</i>"
+                    ],
+                    "table": {
+                        "headers": ["Tense / Structure", "Grammatical Form", "Core Usage & Context", "Example (Unit Context)"],
+                        "rows": [
+                            [
+                                "Past Simple",
+                                "S + V-ed / V2<br><small>S + didn't + V-inf</small>",
+                                "Completed action; historical milestone; sequence of events",
+                                "Dr. Dang Thuy Tram <span class='grammar-hl'>volunteered</span> to join the army at the age of 24."
+                            ],
+                            [
+                                "Past Continuous",
+                                "S + was / were + V-ing<br><small>S + wasn't / weren't + V-ing</small>",
+                                "Action in progress at a specific past point; background scene",
+                                "She <span class='grammar-hl'>was treating</span> wounded soldiers in a remote field clinic."
+                            ],
+                            [
+                                "Interrupted Action",
+                                "Past Cont. + WHEN + Past Simple<br><small>or WHILE + Past Cont., Past Simple</small>",
+                                "A shorter action interrupts or occurs in the middle of a longer action",
+                                "The surgeon was operating on a patient when the power suddenly <span class='grammar-hl'>went</span> out."
+                            ],
+                            [
+                                "Parallel Actions",
+                                "Past Cont. + WHILE + Past Cont.",
+                                "Two continuous actions taking place simultaneously in the past",
+                                "While grandfather <span class='grammar-hl'>was fighting</span> at the front, grandmother <span class='grammar-hl'>was managing</span> the family farm."
+                            ]
+                        ]
+                    },
+                    "watch_out": {
+                        "bullets": [
+                            "We do <b>not</b> use the past continuous with <b>stative verbs</b> (verbs describing states, thoughts, senses, or emotions: <i>know, believe, understand, realize, remember, love, want, belong</i>).<br>&bull; <i>Correct:</i> 'She <span class='grammar-hl'>knew</span> her duty was dangerous.' (NOT: <s>She was knowing...</s>)",
+                            "When describing a succession of quick consecutive actions in a biography, use the <b>Past Simple</b> for every verb in the sequence.<br>&bull; <i>Example:</i> 'He <span class='grammar-hl'>left</span> Apple in 1985, <span class='grammar-hl'>founded</span> NeXT, and <span class='grammar-hl'>purchased</span> Pixar.'"
+                        ]
+                    }
+                },
+                {
+                    "pill_badge": "Time clauses with When, While, and As",
+                    "intro_bullets": [
+                        "We frequently use time conjunctions (<b>when</b>, <b>while</b>, <b>as</b>) to link two clauses describing past actions.",
+                        "As a rule of thumb, <b>while</b> and <b>as</b> introduce a longer background action (past continuous), whereas <b>when</b> often introduces a short or interrupting event (past simple)."
+                    ],
+                    "table": {
+                        "headers": ["Conjunction", "Clause Pattern", "Pedagogical Function", "Authentic Example"],
+                        "rows": [
+                            [
+                                "While / As",
+                                "While + S + was/were + V-ing, S + V-ed",
+                                "Introduces background duration before the main event",
+                                "While Steve Jobs <span class='grammar-hl'>was auditing</span> calligraphy classes, he <span class='grammar-hl'>developed</span> a love for typography."
+                            ],
+                            [
+                                "When",
+                                "S + was/were + V-ing + when + S + V-ed",
+                                "Points to the specific moment an unexpected event happened",
+                                "The team was finalizing the animation software when the computer system <span class='grammar-hl'>crashed</span>."
+                            ],
+                            [
+                                "While (Simultaneous)",
+                                "While + Past Cont., Past Cont.",
+                                "Highlights two continuous activities in parallel",
+                                "While Nam <span class='grammar-hl'>was reading</span> the diary, his brother <span class='grammar-hl'>was writing</span> the historical summary."
+                            ],
+                            [
+                                "When (Immediate)",
+                                "When + Past Simple, Past Simple",
+                                "Action in the 'when' clause triggers the next immediate action",
+                                "When the soldier <span class='grammar-hl'>found</span> the diary, he <span class='grammar-hl'>decided</span> not to burn it."
+                            ]
+                        ]
+                    },
+                    "watch_out": {
+                        "bullets": [
+                            "If the time clause introduced by <b>While</b> or <b>When</b> stands at the beginning of the sentence, place a <b>comma (,)</b> after it. If it comes at the end, usually no comma is required.<br>&bull; <i>While Dr. Tram was tending to the wounded, an explosion rocked the hill.</i><br>&bull; <i>An explosion rocked the hill while Dr. Tram was tending to the wounded.</i>"
+                        ]
+                    }
+                },
+                {
+                    "pill_badge": "Spelling rules & verb inflection: -ed and -ing",
+                    "intro_bullets": [
+                        "Pay close attention to consonant doubling and silent 'e' deletion when forming past tense and present participles:"
+                    ],
+                    "table": {
+                        "headers": ["Base Form Rule", "Past Simple (-ed)", "Past Continuous (-ing)", "Examples"],
+                        "rows": [
+                            [
+                                "Consonant + single vowel + consonant (stressed)",
+                                "Double consonant + -ed",
+                                "Double consonant + -ing",
+                                "drop &rarr; <span class='grammar-hl'>dropped</span>, <span class='grammar-hl'>dropping</span><br>occur &rarr; <span class='grammar-hl'>occurred</span>, <span class='grammar-hl'>occurring</span>"
+                            ],
+                            [
+                                "Ending in silent -e",
+                                "Add -d",
+                                "Drop -e + -ing",
+                                "devote &rarr; <span class='grammar-hl'>devoted</span>, <span class='grammar-hl'>devoting</span><br>operate &rarr; <span class='grammar-hl'>operated</span>, <span class='grammar-hl'>operating</span>"
+                            ],
+                            [
+                                "Irregular Past Verbs",
+                                "V2 form (special change)",
+                                "Regular -ing addition",
+                                "write &rarr; <span class='grammar-hl'>wrote</span>, <span class='grammar-hl'>writing</span><br>fly &rarr; <span class='grammar-hl'>flew</span>, <span class='grammar-hl'>flying</span>"
+                            ]
+                        ]
+                    }
+                }
+            ]
+        },
+        "2": {
+            "grade": "GS12",
+            "unit": 2,
+            "unit_theme": "A Multicultural World",
+            "grammar_topic": "Articles (review and extension)",
+            "lesson_title": "LESSON 2 – ARTICLES (REVIEW & EXTENSION)",
+            "sections": [
+                {
+                    "pill_badge": "Indefinite articles: A and An",
+                    "intro_bullets": [
+                        "We use the indefinite articles <b>a</b> and <b>an</b> before singular, countable nouns when the listener does not know exactly which person or thing we are referring to (first mention). <i>e.g. I want to visit a cultural exhibition.</i>",
+                        "We also use <b>a / an</b> when stating someone's job, religion, or nationality: <i>She is an anthropologist; he is a craftsman.</i>"
+                    ],
+                    "table": {
+                        "headers": ["Article", "Phonetic Rule", "Usage Note", "Example (Unit Context)"],
+                        "rows": [
+                            [
+                                "a",
+                                "Before words beginning with a consonant sound",
+                                "Includes vowels pronounced with /j/ or /w/ sounds",
+                                "He bought <span class='grammar-hl'>a</span> handcrafted souvenir from <span class='grammar-hl'>a</span> European vendor."
+                            ],
+                            [
+                                "an",
+                                "Before words beginning with a vowel sound",
+                                "Includes silent 'h' or acronyms starting with vowel sounds",
+                                "It was <span class='grammar-hl'>an</span> honor to meet <span class='grammar-hl'>an</span> elderly artisan from <span class='grammar-hl'>an</span> ethnic community."
+                            ]
+                        ]
+                    },
+                    "watch_out": {
+                        "bullets": [
+                            "Always choose <b>a</b> or <b>an</b> based on the <b>spoken sound</b>, not the written letter!<br>&bull; <span class='grammar-hl'>a</span> university (begins with consonant sound /j/), <span class='grammar-hl'>a</span> one-day festival (/wʌn/).<br>&bull; <span class='grammar-hl'>an</span> hour (silent 'h' /aʊər/), <span class='grammar-hl'>an</span> honest person, <span class='grammar-hl'>an</span> MP3 player (/em/)."
+                        ]
+                    }
+                },
+                {
+                    "pill_badge": "Definite article: The (Rules and Special Extensions)",
+                    "intro_bullets": [
+                        "We use the definite article <b>the</b> before singular or plural nouns when both the speaker and listener know which specific entity is meant."
+                    ],
+                    "table": {
+                        "headers": ["Category", "Specific Rule", "Example (Unit Context)"],
+                        "rows": [
+                            [
+                                "Unique Entities",
+                                "Things of which there is only one in the world or universe",
+                                "<span class='grammar-hl'>The</span> sun shines brightly over <span class='grammar-hl'>the</span> equator."
+                            ],
+                            [
+                                "Second Mention",
+                                "Nouns that have already been introduced previously in the discourse",
+                                "A craftsman made a bronze drum. <span class='grammar-hl'>The</span> drum was displayed in the cultural museum."
+                            ],
+                            [
+                                "Musical Instruments",
+                                "When referring to playing or learning a musical instrument",
+                                "Linh is learning to play <span class='grammar-hl'>the</span> Dan Bau; Peter plays <span class='grammar-hl'>the</span> guitar."
+                            ],
+                            [
+                                "Superlatives & Ordinals",
+                                "With superlative adjectives and ordinal numbers",
+                                "This is <span class='grammar-hl'>the</span> most vibrant festival; Charles Lindbergh was <span class='grammar-hl'>the</span> first person to fly solo."
+                            ],
+                            [
+                                "Plural / Compound Countries",
+                                "Countries with 'Kingdom', 'States', 'Republic', or plural nouns",
+                                "<span class='grammar-hl'>the</span> UK, <span class='grammar-hl'>the</span> US, <span class='grammar-hl'>the</span> Philippines, <span class='grammar-hl'>the</span> Netherlands."
+                            ],
+                            [
+                                "Oceans, Seas, Mountain Ranges",
+                                "Names of oceans, seas, rivers, canals, deserts, and mountain chains",
+                                "<span class='grammar-hl'>The</span> Pacific, <span class='grammar-hl'>the</span> Atlantic, <span class='grammar-hl'>the</span> Alps, <span class='grammar-hl'>the</span> Mekong River."
+                            ]
+                        ]
+                    },
+                    "watch_out": {
+                        "bullets": [
+                            "Do <b>NOT</b> use 'the' with <b>single mountains</b> or <b>single lakes</b>: <i>Mount Everest (NOT <s>the Mount Everest</s>), Lake Baikal (NOT <s>the Lake Baikal</s>).</i>",
+                            "Do <b>NOT</b> use 'the' with most individual country names, continents, or cities: <i>Viet Nam, Japan, Asia, Paris (NOT <s>the Viet Nam</s>).</i>"
+                        ]
+                    }
+                },
+                {
+                    "pill_badge": "Zero article (Ø) / No article",
+                    "intro_bullets": [
+                        "We do not use an article before plural countable nouns or uncountable nouns when speaking about them in a broad, general sense."
+                    ],
+                    "table": {
+                        "headers": ["Classification", "Grammar Rule", "Example"],
+                        "rows": [
+                            [
+                                "General Plural Nouns",
+                                "Plural countable nouns referring to a whole class or group",
+                                "<span class='grammar-hl'>Ø</span> Tigers are endangered animals; <span class='grammar-hl'>Ø</span> museums preserve cultural heritage."
+                            ],
+                            [
+                                "General Uncountable Nouns",
+                                "Abstract concepts, materials, or substances in general",
+                                "We cherish <span class='grammar-hl'>Ø</span> peace, <span class='grammar-hl'>Ø</span> mutual respect, and <span class='grammar-hl'>Ø</span> cultural diversity."
+                            ],
+                            [
+                                "Meals, Sports & Languages",
+                                "Routine meals, games/sports, and languages (without the word 'language')",
+                                "They enjoyed <span class='grammar-hl'>Ø</span> lunch together, played <span class='grammar-hl'>Ø</span> badminton, and spoke <span class='grammar-hl'>Ø</span> English."
+                            ]
+                        ]
+                    },
+                    "watch_out": {
+                        "bullets": [
+                            "Contrast general vs. specific use:<br>&bull; <i>General:</i> 'I love <span class='grammar-hl'>Ø</span> traditional cuisine.'<br>&bull; <i>Specific:</i> 'I love <span class='grammar-hl'>the</span> traditional cuisine of Hue.' (Defined by the phrase 'of Hue').",
+                            "Notice the language difference:<br>&bull; 'She speaks <span class='grammar-hl'>Ø</span> Japanese.' BUT: 'She speaks <span class='grammar-hl'>the</span> Japanese language.'"
+                        ]
+                    }
+                }
+            ]
+        },
+        "3": {
+            "grade": "GS12",
+            "unit": 3,
+            "unit_theme": "Green Living",
+            "grammar_topic": "Verbs with prepositions, Relative clauses referring to a whole sentence",
+            "lesson_title": "LESSON 3 – VERBS WITH PREPOSITIONS & RELATIVE CLAUSES",
+            "sections": [
+                {
+                    "pill_badge": "Verbs with prepositions: collocations and patterns",
+                    "intro_bullets": [
+                        "In English, many verbs are followed by specific prepositions. These combinations form fixed verb collocations that cannot be changed. <i>e.g. Many households depend on solar energy.</i>",
+                        "The preposition is always followed by a <b>noun phrase</b>, <b>pronoun</b>, or <b>gerund (V-ing)</b>."
+                    ],
+                    "table": {
+                        "headers": ["Preposition", "Common Verb Collocations", "Context Meaning", "Example (Unit Context)"],
+                        "rows": [
+                            [
+                                "for",
+                                "apologize for, blame for, search for, care for, prepare for",
+                                "Expresses purpose, cause, reason, or responsibility",
+                                "The chemical plant apologized <span class='grammar-hl'>for polluting</span> the local river ecosystem."
+                            ],
+                            [
+                                "to",
+                                "belong to, contribute to, adapt to, object to, listen to",
+                                "Expresses direction, recipient, or consequence",
+                                "Excessive plastic packaging contributes <span class='grammar-hl'>to</span> catastrophic marine waste."
+                            ],
+                            [
+                                "on",
+                                "rely on, depend on, concentrate on, insist on, base on",
+                                "Expresses reliance, focus, or foundation",
+                                "Successful green living depends <span class='grammar-hl'>on</span> grassroots community initiatives."
+                            ],
+                            [
+                                "in",
+                                "succeed in, participate in, believe in, result in, invest in",
+                                "Expresses involvement, success, or outcome",
+                                "The school community succeeded <span class='grammar-hl'>in reducing</span> single-use plastics by 80%."
+                            ],
+                            [
+                                "from",
+                                "protect from, prevent from, recover from, suffer from",
+                                "Expresses separation, origin, or defense",
+                                "Planting urban trees protects citizens <span class='grammar-hl'>from</span> hazardous air pollution."
+                            ],
+                            [
+                                "about",
+                                "worry about, care about, complain about, think about",
+                                "Expresses mental focus, concern, or emotion",
+                                "Environmentalists worry <span class='grammar-hl'>about</span> rising global temperatures and ice melts."
+                            ]
+                        ]
+                    },
+                    "watch_out": {
+                        "bullets": [
+                            "Preposition + Gerund Rule: A verb coming directly after a preposition MUST take the <b>-ing form</b> (gerund). Never use a bare infinitive or to-infinitive!<br>&bull; <i>Correct:</i> 'They succeeded in <span class='grammar-hl'>conserving</span> freshwater.' (NOT: <s>succeeded in conserve</s>)",
+                            "Beware of 'to' as a preposition: In verbs like <i>contribute to</i>, <i>look forward to</i>, <i>object to</i>, 'to' is a preposition, so it is followed by <b>V-ing</b>:<br>&bull; 'Everyone can contribute to <span class='grammar-hl'>protecting</span> the planet.'"
+                        ]
+                    }
+                },
+                {
+                    "pill_badge": "Relative clauses referring to a whole sentence (with 'which')",
+                    "intro_bullets": [
+                        "We can use a non-defining relative clause introduced by <b>which</b> to comment on or describe the result of an <b>entire preceding clause</b>, not just the single noun before it.",
+                        "This structure creates elegant, cohesive academic writing by showing cause, effect, or evaluation in a single flowing sentence."
+                    ],
+                    "table": {
+                        "headers": ["Structure / Pattern", "Communicative Purpose", "Example (Unit Context)"],
+                        "rows": [
+                            [
+                                "[Clause], which + verb...",
+                                "States a direct result or outcome of the preceding fact",
+                                "The city council installed solar lighting, <span class='grammar-hl'>which saved</span> thousands of kilowatt-hours."
+                            ],
+                            [
+                                "[Clause], which is + adjective...",
+                                "Provides the writer's judgment, attitude, or comment",
+                                "Many families have started composting kitchen waste, <span class='grammar-hl'>which is highly commendable</span>."
+                            ],
+                            [
+                                "[Clause], which means that...",
+                                "Explains the logical consequence or implication",
+                                "Students bring their own water bottles, <span class='grammar-hl'>which means that</span> no plastic trash is created."
+                            ]
+                        ]
+                    },
+                    "watch_out": {
+                        "bullets": [
+                            "You <b>MUST always use a comma (,)</b> before <b>which</b> when it refers to the entire sentence!<br>&bull; <i>The students cleaned the park, which impressed local residents.</i>",
+                            "You can <b>NEVER use 'that' or 'what'</b> to replace 'which' in this sentence-commenting structure!<br>&bull; <i>Wrong:</i> <s>The students cleaned the park, that impressed everyone.</s><br>&bull; <i>Wrong:</i> <s>The students cleaned the park, what impressed everyone.</s>"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
+
+target_file = os.path.join(os.path.dirname(__file__), "grammar_theory_database.json")
+with open(target_file, "w", encoding="utf-8") as f:
+    json.dump(db, f, ensure_ascii=False, indent=2)
+
+print("Saved grammar_theory_database.json successfully to", target_file)

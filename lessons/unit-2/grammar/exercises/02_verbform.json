@@ -63,11 +63,11 @@
     },
     {
       "id": "8",
-      "text": "Anthropologists believe that (article) ______ custom of carving turnip lanterns originated in ancient Ireland.",
+      "text": "Anthropologists believe that (article) ______ ancient tradition of carving turnip lanterns originated in Ireland.",
       "prompt": "article",
       "verb": "article",
       "correct_answer": "the",
-      "explanation": "Danh từ 'custom' được xác định cụ thể bởi cụm giới từ 'of carving turnip lanterns', nên dùng mạo từ xác định 'the'."
+      "explanation": "Danh từ 'tradition' được xác định cụ thể bởi cụm giới từ 'of carving turnip lanterns', nên dùng mạo từ xác định 'the'."
     },
     {
       "id": "9",
