@@ -1,0 +1,149 @@
+{
+  "id": "6",
+  "type": "error_identification",
+  "title": "Exercise 6: Error Identification & Correction",
+  "instruction": "Identify the bracketed part (A, B, C, or D) that contains a grammatical error in each sentence, then provide the correct form.",
+  "target_grammar": "Articles (review and extension)",
+  "questions": [
+    {
+      "id": "1",
+      "text": "When we traveled across [A: the Viet Nam] last summer, we visited [B: an ancient temple] and admired [C: the stunning architecture] of [D: the imperial citadel].",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "A",
+      "error_segment": "the Viet Nam",
+      "correction": "Viet Nam",
+      "explanation": "Tên hầu hết các quốc gia ở dạng số ít đơn lẻ (như Viet Nam, Japan) không dùng mạo từ 'the'."
+    },
+    {
+      "id": "2",
+      "text": "My older brother is learning to play [A: guitar] at [B: a youth club], while my sister [C: is practicing] the bamboo flute for [D: an upcoming competition].",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "A",
+      "error_segment": "guitar",
+      "correction": "the guitar",
+      "explanation": "Dùng mạo từ 'the' trước danh từ chỉ nhạc cụ khi đi cùng động từ 'play' hoặc 'learn to play' ('play the guitar')."
+    },
+    {
+      "id": "3",
+      "text": "Millions of international travelers visit [A: the Philippines] every year to relax on [B: pristine beaches] and explore marine life in [C: Pacific] [D: Ocean].",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "C",
+      "error_segment": "Pacific",
+      "correction": "the Pacific",
+      "explanation": "Tên các đại dương luôn phải có mạo từ xác định 'the' phía trước ('the Pacific Ocean')."
+    },
+    {
+      "id": "4",
+      "text": "During the highland carnival, local students [A: wore] authentic costumes and [B: enthusiastically played] [C: the tug of war] on [D: the village square].",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "C",
+      "error_segment": "the tug of war",
+      "correction": "tug of war",
+      "explanation": "Tên các trò chơi thể thao dân gian truyền thống (như tug of war, football) không đi kèm mạo từ 'the'."
+    },
+    {
+      "id": "5",
+      "text": "The mountaineering team traveled to [A: the Mount Everest] to conduct research on glaciers, but they encountered [B: an unexpected blizzard] near [C: the base camp] [D: yesterday].",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "A",
+      "error_segment": "the Mount Everest",
+      "correction": "Mount Everest",
+      "explanation": "Tên các ngọn núi đơn lẻ (như Mount Everest, Mount Fansipan) không dùng mạo từ 'the'."
+    },
+    {
+      "id": "6",
+      "text": "[A: The globalisation] has created [B: unprecedented opportunities] for youth across developing countries to participate in [C: international] [D: culture exchange].",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "A",
+      "error_segment": "The globalisation",
+      "correction": "Globalisation",
+      "explanation": "'Globalisation' là danh từ trừu tượng không đếm được dùng với ý nghĩa khái quát toàn cầu, không dùng mạo từ 'the'."
+    },
+    {
+      "id": "7",
+      "text": "She purchased [A: an unique] souvenir at [B: the night market] to remind herself of [C: the memorable trip] to [D: the ancient town].",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "A",
+      "error_segment": "an unique",
+      "correction": "a unique",
+      "explanation": "Tính từ 'unique' bắt đầu bằng âm bán nguyên âm /juː/, vì vậy phải dùng mạo từ 'a' thay vì 'an'."
+    },
+    {
+      "id": "8",
+      "text": "After exploring [A: the Louvre Museum] in [B: the Paris], the exchange students enjoyed lunch at [C: a traditional bistro] near [D: the Seine River].",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "B",
+      "error_segment": "the Paris",
+      "correction": "Paris",
+      "explanation": "Tên các thành phố (như Paris, Ha Noi, London) không sử dụng mạo từ xác định 'the'."
+    },
+    {
+      "id": "9",
+      "text": "Last Saturday evening, our entire family [A: had] [B: a dinner] at [C: a bustling food stall] that serves [D: authentic Hue specialities].",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "B",
+      "error_segment": "a dinner",
+      "correction": "dinner",
+      "explanation": "Tên các bữa ăn thông thường trong ngày không có tính từ bổ nghĩa phía trước thì không dùng mạo từ 'a' ('had dinner')."
+    },
+    {
+      "id": "10",
+      "text": "The environmentalists crossed [A: the Sahara Desert] to assess [B: the severe impact of droughts] on wildlife in [C: northern] [D: an Africa].",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "D",
+      "error_segment": "an Africa",
+      "correction": "Africa",
+      "explanation": "Tên các châu lục (như Africa, Asia, Europe) không dùng mạo từ."
+    }
+  ]
+}

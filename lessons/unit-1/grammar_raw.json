@@ -1,0 +1,1576 @@
+{
+  "grade": "GS12",
+  "unit": 1,
+  "unit_theme": "Unit 1",
+  "grammar_topic": "Past simple vs. Past continuous",
+  "total_exercises": 8,
+  "total_questions": 130,
+  "exercises": {
+    "ex1_mcq": {
+      "id": "1",
+      "type": "multiple_choice",
+      "title": "Exercise 1: Multiple Choice Questions",
+      "instruction": "Choose the best option (A, B, C, or D) that correctly applies the Past Simple or Past Continuous tense.",
+      "target_grammar": "Past simple vs. Past continuous",
+      "questions": [
+        {
+          "id": "1",
+          "text": "While the young surgeon ______ in a remote field hospital, she kept a detailed diary of her wartime experiences.",
+          "options": [
+            "has served",
+            "was serving",
+            "is serving",
+            "served"
+          ],
+          "correct_answer": "was serving",
+          "explanation": "Hành động kéo dài làm nền trong quá khứ dùng thì Quá khứ tiếp diễn ('was serving') sau liên từ 'While'."
+        },
+        {
+          "id": "2",
+          "text": "Steve Jobs ______ out of Reed College in 1972, but he decided to audit creative calligraphy classes.",
+          "options": [
+            "dropped",
+            "drops",
+            "has dropped",
+            "was dropping"
+          ],
+          "correct_answer": "dropped",
+          "explanation": "Sự kiện lịch sử đã hoàn thành dứt điểm tại một mốc thời gian xác định (1972) dùng thì Quá khứ đơn ('dropped')."
+        },
+        {
+          "id": "3",
+          "text": "The visionary animator ______ a revolutionary computer animation technique when the studio suddenly lost all electrical power.",
+          "options": [
+            "pioneers",
+            "was pioneering",
+            "is pioneering",
+            "pioneered"
+          ],
+          "correct_answer": "was pioneering",
+          "explanation": "Hành động đang diễn tiến thì bị một hành động khác xen vào ('lost power') dùng Quá khứ tiếp diễn ('was pioneering')."
+        },
+        {
+          "id": "4",
+          "text": "General Vo Nguyen Giap ______ the enemy forces at Dien Bien Phu through his brilliant military genius, defending an independent nation.",
+          "options": [
+            "defeated",
+            "defeats",
+            "was defeating",
+            "had been defeating"
+          ],
+          "correct_answer": "defeated",
+          "explanation": "Chiến công lịch sử hoàn tất trong quá khứ dùng thì Quá khứ đơn ('defeated')."
+        },
+        {
+          "id": "5",
+          "text": "While my grandfather ______ his youth to the resistance war, my grandmother managed the family farm.",
+          "options": [
+            "is devoting",
+            "devoted",
+            "has devoted",
+            "was devoting"
+          ],
+          "correct_answer": "was devoting",
+          "explanation": "Diễn tả hành động kéo dài song song với một bối cảnh khác trong quá khứ dùng Quá khứ tiếp diễn sau 'While'."
+        },
+        {
+          "id": "6",
+          "text": "When the biographer contacted her, the author ______ a novel based on the life of an ancient national hero.",
+          "options": [
+            "writes",
+            "was writing",
+            "wrote",
+            "has written"
+          ],
+          "correct_answer": "was writing",
+          "explanation": "Hành động viết tiểu thuyết đang diễn ra tại thời điểm nhà viết tiểu sử liên hệ ('when the biographer contacted her')."
+        },
+        {
+          "id": "7",
+          "text": "The young entrepreneur felt ______ when his startup received its first major investment grant.",
+          "options": [
+            "is feeling on cloud nine",
+            "felt on cloud nine",
+            "on cloud nine",
+            "was feeling on cloud nine"
+          ],
+          "correct_answer": "on cloud nine",
+          "explanation": "Thành ngữ chỉ niềm vui tột cùng 'on cloud nine' đi sau động từ nối 'felt'."
+        },
+        {
+          "id": "8",
+          "text": "What ______ at 8 p.m. yesterday when the documentary about Queen Trinh Nu was broadcast?",
+          "options": [
+            "were you doing",
+            "have you done",
+            "do you do",
+            "did you do"
+          ],
+          "correct_answer": "were you doing",
+          "explanation": "Hỏi về hành động đang diễn ra tại một thời điểm chính xác trong quá khứ ('at 8 p.m. yesterday') dùng Quá khứ tiếp diễn."
+        },
+        {
+          "id": "9",
+          "text": "During his childhood, Alexander ______ school in a small village before moving to the capital city.",
+          "options": [
+            "has attended",
+            "was attending",
+            "is attending",
+            "attended"
+          ],
+          "correct_answer": "attended",
+          "explanation": "Thói quen hoặc sự việc diễn ra và đã kết thúc trong thời thơ ấu dùng thì Quá khứ đơn ('attended')."
+        },
+        {
+          "id": "10",
+          "text": "The film producer ______ the script while his creative design team was rendering digital graphics.",
+          "options": [
+            "reviews",
+            "reviewed",
+            "has reviewed",
+            "was reviewing"
+          ],
+          "correct_answer": "was reviewing",
+          "explanation": "Hai hành động diễn ra song song cùng lúc trong quá khứ: cả hai vế đều dùng Quá khứ tiếp diễn ('was reviewing' và 'was rendering')."
+        },
+        {
+          "id": "11",
+          "text": "She ______ her biological parents for the first time while she was visiting her hometown in 2015.",
+          "options": [
+            "met",
+            "was meeting",
+            "has met",
+            "meets"
+          ],
+          "correct_answer": "met",
+          "explanation": "Hành động gặp mặt xảy ra dứt khoát ('met') cắt ngang bối cảnh đang về thăm quê ('was visiting')."
+        },
+        {
+          "id": "12",
+          "text": "The medical researchers ______ an impressive achievement when they synthesized the novel vaccine.",
+          "options": [
+            "were celebrating",
+            "are celebrating",
+            "celebrated",
+            "celebrates"
+          ],
+          "correct_answer": "celebrated",
+          "explanation": "Hành động ăn mừng diễn ra ngay sau khi điều chế thành công vắc xin, chuỗi hành động kế tiếp dùng Quá khứ đơn."
+        },
+        {
+          "id": "13",
+          "text": "While the volunteers ______ relief supplies to disaster victims, an unexpected landslide blocked the mountain pass.",
+          "options": [
+            "transported",
+            "were transporting",
+            "have transported",
+            "are transporting"
+          ],
+          "correct_answer": "were transporting",
+          "explanation": "Hành động vận chuyển đang diễn tiến thì bị sạt lở đất cắt ngang."
+        },
+        {
+          "id": "14",
+          "text": "King Quang Trung ______ his soldiers to victory in the spring of 1789 through decisive tactical maneuvers.",
+          "options": [
+            "was leading",
+            "leads",
+            "has led",
+            "led"
+          ],
+          "correct_answer": "led",
+          "explanation": "Sự kiện lịch sử hào hùng hoàn tất tại thời điểm cụ thể ('spring of 1789') dùng Quá khứ đơn ('led')."
+        },
+        {
+          "id": "15",
+          "text": "Although the inventor was extremely ambitious, he ______ to drop out of university due to family hardships.",
+          "options": [
+            "has decided",
+            "decides",
+            "was deciding",
+            "decided"
+          ],
+          "correct_answer": "decided",
+          "explanation": "Động từ chỉ quyết định dứt khoát 'decided' dùng ở thì Quá khứ đơn."
+        },
+        {
+          "id": "16",
+          "text": "The couple ______ a long marriage filled with mutual respect until the husband passed away last winter.",
+          "options": [
+            "have had",
+            "were having",
+            "had",
+            "are having"
+          ],
+          "correct_answer": "had",
+          "explanation": "'Have' mang nghĩa sở hữu/trải qua hôn nhân bền vững là động từ chỉ trạng thái, không chia tiếp diễn; dùng Quá khứ đơn 'had'."
+        },
+        {
+          "id": "17",
+          "text": "While the technicians ______ cutting-edge technology into the theme park, safety inspectors inspected the rides.",
+          "options": [
+            "installed",
+            "have installed",
+            "were installing",
+            "are installing"
+          ],
+          "correct_answer": "were installing",
+          "explanation": "Hành động lắp đặt đang diễn ra dùng Quá khứ tiếp diễn sau 'While'."
+        },
+        {
+          "id": "18",
+          "text": "Marie Curie was dedicated to scientific research; she ______ her life to discover radioactivity and won two Nobel Prizes.",
+          "options": [
+            "devoted",
+            "was devoting",
+            "devotes",
+            "has devoted"
+          ],
+          "correct_answer": "devoted",
+          "explanation": "Chuỗi sự kiện lịch sử trong cuộc đời một nhà khoa học vĩ đại dùng Quá khứ đơn ('devoted ... and won')."
+        },
+        {
+          "id": "19",
+          "text": "The patient ______ from cancer when an innovative immunotherapy treatment was introduced.",
+          "options": [
+            "has suffered",
+            "was suffering",
+            "suffers",
+            "suffered"
+          ],
+          "correct_answer": "was suffering",
+          "explanation": "Tình trạng bệnh nhân đang chịu đựng kéo dài thì có liệu pháp mới xuất hiện xen vào."
+        },
+        {
+          "id": "20",
+          "text": "When the military genius ______ the strategic command, all divisions advanced simultaneously.",
+          "options": [
+            "gives",
+            "was giving",
+            "gave",
+            "has given"
+          ],
+          "correct_answer": "gave",
+          "explanation": "Hành động ra lệnh ngắn gọn dứt khoát kích hoạt chuỗi tấn công dùng Quá khứ đơn ('gave')."
+        }
+      ]
+    },
+    "ex2_verbform": {
+      "id": "2",
+      "type": "verb_form",
+      "title": "Exercise 2: Verb Form & Sentence Completion",
+      "instruction": "Complete each sentence with the correct form of the verb in brackets using either the Past Simple or Past Continuous tense.",
+      "target_grammar": "Past simple vs. Past continuous",
+      "questions": [
+        {
+          "id": "1",
+          "text": "While Dr. Dang Thuy Tram (treat) ______ wounded soldiers in the forest clinic, an enemy plane flew overhead.",
+          "verb": "treat",
+          "correct_answer": "was treating",
+          "explanation": "Hành động điều trị vết thương đang diễn ra kéo dài thì máy bay bay qua cắt ngang."
+        },
+        {
+          "id": "2",
+          "text": "The ambitious student (attend) ______ college for two semesters before deciding to launch his own software company.",
+          "verb": "attend",
+          "correct_answer": "attended",
+          "explanation": "Hành động học đại học 2 học kỳ đã hoàn thành trong quá khứ trước khi đưa ra quyết định khác."
+        },
+        {
+          "id": "3",
+          "text": "When the museum curator called him, the historian (write) ______ an inspiring biography of Queen Vo Thi Sau.",
+          "verb": "write",
+          "correct_answer": "was writing",
+          "explanation": "Hành động viết tiểu sử đang diễn ra khi người phụ trách bảo tàng gọi điện tới."
+        },
+        {
+          "id": "4",
+          "text": "The courageous leader (defeat) ______ the invading forces and restored peace to rule an independent kingdom.",
+          "verb": "defeat",
+          "correct_answer": "defeated",
+          "explanation": "Chiến công lịch sử dứt điểm trong quá khứ dùng thì Quá khứ đơn."
+        },
+        {
+          "id": "5",
+          "text": "While the animator (sketch) ______ characters for the blockbuster cartoon, his assistant was mixing color palettes.",
+          "verb": "sketch",
+          "correct_answer": "was sketching",
+          "explanation": "Hai hành động diễn ra song song cùng lúc trong quá khứ: 'was sketching' và 'was mixing'."
+        },
+        {
+          "id": "6",
+          "text": "Steve Jobs (pass) ______ away in 2011 after battling a rare form of pancreatic cancer.",
+          "verb": "pass",
+          "correct_answer": "passed",
+          "explanation": "Sự kiện lịch sử xảy ra tại thời điểm xác định năm 2011 dùng Quá khứ đơn ('passed away')."
+        },
+        {
+          "id": "7",
+          "text": "They (bond) ______ over their mutual admiration for traditional music while they were studying in Hue.",
+          "verb": "bond",
+          "correct_answer": "bonded",
+          "explanation": "Hành động trở nên thân thiết gắn bó ('bonded') diễn ra trong quãng thời gian học tập."
+        },
+        {
+          "id": "8",
+          "text": "At 7 p.m. last night, the film crew (edit) ______ the final scenes of the biographical documentary.",
+          "verb": "edit",
+          "correct_answer": "was editing",
+          "explanation": "Hành động đang diễn tiến tại mốc thời gian cụ thể trong quá khứ ('At 7 p.m. last night')."
+        },
+        {
+          "id": "9",
+          "text": "When the commander gave the signal, the elite battalion (carry) ______ out attacks on the enemy stronghold.",
+          "verb": "carry",
+          "correct_answer": "carried",
+          "explanation": "Hành động tấn công diễn ra nối tiếp ngay sau hiệu lệnh của chỉ huy dùng Quá khứ đơn."
+        },
+        {
+          "id": "10",
+          "text": "While she (devote) ______ her youth to medical volunteering, she met many inspirational mentors.",
+          "verb": "devote",
+          "correct_answer": "was devoting",
+          "explanation": "Hành động cống hiến tuổi trẻ là bối cảnh kéo dài dùng Quá khứ tiếp diễn sau 'While'."
+        },
+        {
+          "id": "11",
+          "text": "The couple finally (adopt) ______ a young orphan boy after completing all legal procedures in 1998.",
+          "verb": "adopt",
+          "correct_answer": "adopted",
+          "explanation": "Hành động nhận con nuôi hoàn tất tại mốc thời gian năm 1998 dùng Quá khứ đơn."
+        },
+        {
+          "id": "12",
+          "text": "The computer scientist (test) ______ cutting-edge graphics algorithms when the laboratory server crashed.",
+          "verb": "test",
+          "correct_answer": "was testing",
+          "explanation": "Hành động đang thử nghiệm thuật toán thì máy chủ bị sập cắt ngang."
+        },
+        {
+          "id": "13",
+          "text": "Walt Disney (dream) ______ of creating an innovative theme park that whole families could enjoy together.",
+          "verb": "dream",
+          "correct_answer": "dreamed",
+          "explanation": "Trạng thái ước mơ và ấp ủ ý tưởng trong quá khứ dùng Quá khứ đơn ('dreamed' hoặc 'dreamt')."
+        },
+        {
+          "id": "14",
+          "text": "While the tourist attraction (undergo) ______ extensive renovations, thousands of visitors waited outside.",
+          "verb": "undergo",
+          "correct_answer": "was undergoing",
+          "explanation": "Khu du lịch đang trong quá trình trải qua nâng cấp tu sửa dùng Quá khứ tiếp diễn."
+        },
+        {
+          "id": "15",
+          "text": "The visionary engineer (drop) ______ out of his postgraduate program to focus entirely on his invention.",
+          "verb": "drop",
+          "correct_answer": "dropped",
+          "explanation": "Hành động thôi học là một quyết định dứt khoát tại một thời điểm trong quá khứ."
+        },
+        {
+          "id": "16",
+          "text": "What (the researchers / discuss) ______ when the renowned professor walked into the lecture hall?",
+          "verb": "discuss",
+          "correct_answer": "were the researchers discussing",
+          "explanation": "Câu hỏi về hành động đang diễn tiến khi giáo sư bước vào phòng."
+        },
+        {
+          "id": "17",
+          "text": "During his childhood, he (spend) ______ long summer afternoons reading historical accounts in the library.",
+          "verb": "spend",
+          "correct_answer": "spent",
+          "explanation": "Thói quen trong thời thơ ấu đã kết thúc dùng Quá khứ đơn ('spent')."
+        },
+        {
+          "id": "18",
+          "text": "While the resistance forces (defend) ______ the border, local villagers transported rations and medicine.",
+          "verb": "defend",
+          "correct_answer": "were defending",
+          "explanation": "Hành động chiến đấu bảo vệ biên giới diễn ra song song với việc tiếp tế dùng Quá khứ tiếp diễn."
+        },
+        {
+          "id": "19",
+          "text": "The young prodigy (demonstrate) ______ remarkable mathematical genius at the age of ten, and he grew to be admired for his humility.",
+          "verb": "demonstrate",
+          "correct_answer": "demonstrated",
+          "explanation": "Sự việc bộc lộ tài năng tại mốc năm 10 tuổi dùng Quá khứ đơn."
+        },
+        {
+          "id": "20",
+          "text": "When she heard the news of her scholarship, she (feel) ______ on top of the world.",
+          "verb": "feel",
+          "correct_answer": "felt",
+          "explanation": "Cảm xúc xuất hiện ngay sau khi nghe tin báo trúng học bổng dùng Quá khứ đơn ('felt')."
+        }
+      ]
+    },
+    "ex3_matching": {
+      "id": "3",
+      "type": "matching_halves",
+      "title": "Exercise 3: Match the Sentence Halves",
+      "instruction": "Match the sentence beginnings (1–10) with the appropriate endings (A–J) to create complete, grammatically sound sentences.",
+      "target_grammar": "Past simple vs. Past continuous",
+      "questions": [
+        {
+          "id": "1",
+          "half_a": "While Dr. Dang Thuy Tram was recording her wartime thoughts in her diary,"
+        },
+        {
+          "id": "2",
+          "half_a": "Steve Jobs was working relentlessly on the first Macintosh computer"
+        },
+        {
+          "id": "3",
+          "half_a": "The archaeological team discovered ancient military artifacts"
+        },
+        {
+          "id": "4",
+          "half_a": "When the young inventor heard that his design won the grand prize,"
+        },
+        {
+          "id": "5",
+          "half_a": "While the resistance soldiers were enduring harsh conditions in the mountains,"
+        },
+        {
+          "id": "6",
+          "half_a": "The visionary animator was sketching preliminary storyboards"
+        },
+        {
+          "id": "7",
+          "half_a": "General Vo Nguyen Giap devised revolutionary tactics to carry out attacks"
+        },
+        {
+          "id": "8",
+          "half_a": "While the newly married couple were traveling across Southeast Asia,"
+        },
+        {
+          "id": "9",
+          "half_a": "The medical researchers made an impressive scientific breakthrough"
+        },
+        {
+          "id": "10",
+          "half_a": "When the historical documentary ended on television last night,"
+        }
+      ],
+      "options": [
+        {
+          "label": "A",
+          "half_b": "she expressed profound love for her family and homeland."
+        },
+        {
+          "label": "B",
+          "half_b": "when a catastrophic technical malfunction damaged the prototype."
+        },
+        {
+          "label": "C",
+          "half_b": "while they were excavating the citadel of the ancient kingdom."
+        },
+        {
+          "label": "D",
+          "half_b": "he felt on cloud nine and called his biological parents immediately."
+        },
+        {
+          "label": "E",
+          "half_b": "local villagers were secretly transporting rice and medical supplies."
+        },
+        {
+          "label": "F",
+          "half_b": "while the sound engineers were composing the blockbuster soundtrack."
+        },
+        {
+          "label": "G",
+          "half_b": "while he was preparing his army for the historic campaign."
+        },
+        {
+          "label": "H",
+          "half_b": "they bonded over their mutual passion for wildlife photography."
+        },
+        {
+          "label": "I",
+          "half_b": "while they were investigating innovative therapies for cancer."
+        },
+        {
+          "label": "J",
+          "half_b": "the audience stood up and applauded the heroic sacrifices of the martyrs."
+        }
+      ],
+      "correct_matches": {
+        "1": "A",
+        "2": "B",
+        "3": "C",
+        "4": "D",
+        "5": "E",
+        "6": "F",
+        "7": "G",
+        "8": "H",
+        "9": "I",
+        "10": "J"
+      },
+      "pairs": [
+        {
+          "id": "1",
+          "first_half": "While Dr. Dang Thuy Tram was recording her wartime thoughts in her diary,",
+          "second_half": "she expressed profound love for her family and homeland.",
+          "second_half_label": "A"
+        },
+        {
+          "id": "2",
+          "first_half": "Steve Jobs was working relentlessly on the first Macintosh computer",
+          "second_half": "when a catastrophic technical malfunction damaged the prototype.",
+          "second_half_label": "B"
+        },
+        {
+          "id": "3",
+          "first_half": "The archaeological team discovered ancient military artifacts",
+          "second_half": "while they were excavating the citadel of the ancient kingdom.",
+          "second_half_label": "C"
+        },
+        {
+          "id": "4",
+          "first_half": "When the young inventor heard that his design won the grand prize,",
+          "second_half": "he felt on cloud nine and called his biological parents immediately.",
+          "second_half_label": "D"
+        },
+        {
+          "id": "5",
+          "first_half": "While the resistance soldiers were enduring harsh conditions in the mountains,",
+          "second_half": "local villagers were secretly transporting rice and medical supplies.",
+          "second_half_label": "E"
+        },
+        {
+          "id": "6",
+          "first_half": "The visionary animator was sketching preliminary storyboards",
+          "second_half": "while the sound engineers were composing the blockbuster soundtrack.",
+          "second_half_label": "F"
+        },
+        {
+          "id": "7",
+          "first_half": "General Vo Nguyen Giap devised revolutionary tactics to carry out attacks",
+          "second_half": "while he was preparing his army for the historic campaign.",
+          "second_half_label": "G"
+        },
+        {
+          "id": "8",
+          "first_half": "While the newly married couple were traveling across Southeast Asia,",
+          "second_half": "they bonded over their mutual passion for wildlife photography.",
+          "second_half_label": "H"
+        },
+        {
+          "id": "9",
+          "first_half": "The medical researchers made an impressive scientific breakthrough",
+          "second_half": "while they were investigating innovative therapies for cancer.",
+          "second_half_label": "I"
+        },
+        {
+          "id": "10",
+          "first_half": "When the historical documentary ended on television last night,",
+          "second_half": "the audience stood up and applauded the heroic sacrifices of the martyrs.",
+          "second_half_label": "J"
+        }
+      ]
+    },
+    "ex4_rewrite": {
+      "id": "4",
+      "type": "sentence_transformation",
+      "title": "Exercise 4: Sentence Transformation",
+      "instruction": "Rewrite each sentence using the cue provided so that it has the same meaning as the original sentence.",
+      "target_grammar": "Past simple vs. Past continuous",
+      "questions": [
+        {
+          "id": "1",
+          "original_sentence": "During his college years at Reed College, Steve Jobs attended calligraphy classes.",
+          "cue": "While",
+          "correct_answer": "While Steve Jobs was attending Reed College, he took calligraphy classes.",
+          "acceptable_answers": [
+            "While Steve Jobs was attending Reed College, he took calligraphy classes.",
+            "While Steve Jobs was studying at Reed College, he attended calligraphy classes.",
+            "While he was attending Reed College, Steve Jobs took calligraphy classes."
+          ],
+          "explanation": "Chuyển cụm giới từ 'During his college years' thành mệnh đề trạng ngữ thời gian 'While + past continuous'."
+        },
+        {
+          "id": "2",
+          "original_sentence": "Dang Thuy Tram was writing her personal diary when an artillery strike shook the field hospital.",
+          "cue": "While",
+          "correct_answer": "While Dang Thuy Tram was writing her personal diary, an artillery strike shook the field hospital.",
+          "acceptable_answers": [
+            "While Dang Thuy Tram was writing her personal diary, an artillery strike shook the field hospital.",
+            "An artillery strike shook the field hospital while Dang Thuy Tram was writing her personal diary."
+          ],
+          "explanation": "Chuyển mệnh đề từ cấu trúc 'was V-ing when...' sang cấu trúc mở đầu bằng 'While + past continuous'."
+        },
+        {
+          "id": "3",
+          "original_sentence": "The film producer was reviewing the animation script, and at the same time his design team was rendering graphics.",
+          "cue": "While",
+          "correct_answer": "While the film producer was reviewing the animation script, his design team was rendering graphics.",
+          "acceptable_answers": [
+            "While the film producer was reviewing the animation script, his design team was rendering graphics.",
+            "The film producer was reviewing the animation script while his design team was rendering graphics."
+          ],
+          "explanation": "Sử dụng 'While' để nối hai hành động đang diễn ra song song trong quá khứ."
+        },
+        {
+          "id": "4",
+          "original_sentence": "During the resistance war against foreign invaders, the general devised revolutionary guerrilla tactics.",
+          "cue": "While he was",
+          "correct_answer": "While he was fighting in the resistance war against foreign invaders, the general devised revolutionary guerrilla tactics.",
+          "acceptable_answers": [
+            "While he was fighting in the resistance war against foreign invaders, the general devised revolutionary guerrilla tactics.",
+            "While he was commanding forces in the resistance war against foreign invaders, the general devised revolutionary guerrilla tactics."
+          ],
+          "explanation": "Chuyển cụm thời gian 'During the resistance war' thành mệnh đề có chủ ngữ và động từ 'While he was fighting/leading...'."
+        },
+        {
+          "id": "5",
+          "original_sentence": "The young innovator dropped out of university because of financial hardship.",
+          "cue": "due to",
+          "correct_answer": "The young innovator dropped out of university due to financial hardship.",
+          "acceptable_answers": [
+            "The young innovator dropped out of university due to financial hardship.",
+            "Due to financial hardship, the young innovator dropped out of university."
+          ],
+          "explanation": "Chuyển mệnh đề chỉ nguyên nhân 'because of' sang 'due to' kết hợp thì Quá khứ đơn 'dropped out'."
+        },
+        {
+          "id": "6",
+          "original_sentence": "At 8 o'clock yesterday evening, the historian was giving a lecture on national heroes.",
+          "cue": "When the clock struck 8 yesterday evening",
+          "correct_answer": "When the clock struck 8 yesterday evening, the historian was giving a lecture on national heroes.",
+          "acceptable_answers": [
+            "When the clock struck 8 yesterday evening, the historian was giving a lecture on national heroes.",
+            "The historian was giving a lecture on national heroes when the clock struck 8 yesterday evening."
+          ],
+          "explanation": "Sử dụng 'when' đi kèm mệnh đề chỉ mốc thời gian xác định kết hợp với hành động đang diễn tiến."
+        },
+        {
+          "id": "7",
+          "original_sentence": "They heard the announcement of their marriage approval and felt extremely overjoyed.",
+          "cue": "When",
+          "correct_answer": "When they heard the announcement of their marriage approval, they felt on top of the world.",
+          "acceptable_answers": [
+            "When they heard the announcement of their marriage approval, they felt on top of the world.",
+            "When they heard the announcement of their marriage approval, they felt over the moon.",
+            "They felt on top of the world when they heard the announcement of their marriage approval."
+          ],
+          "explanation": "Dùng liên từ 'When' cho hành động nhận tin xảy ra dứt khoát dẫn tới cảm xúc thăng hoa ('on top of the world')."
+        },
+        {
+          "id": "8",
+          "original_sentence": "During the inspection of the theme park, the engineers identified a critical safety flaw.",
+          "cue": "While the engineers",
+          "correct_answer": "While the engineers were inspecting the theme park, they identified a critical safety flaw.",
+          "acceptable_answers": [
+            "While the engineers were inspecting the theme park, they identified a critical safety flaw.",
+            "The engineers identified a critical safety flaw while they were inspecting the theme park."
+          ],
+          "explanation": "Chuyển đổi danh từ 'the inspection' thành động từ chia thì Quá khứ tiếp diễn 'were inspecting'."
+        },
+        {
+          "id": "9",
+          "original_sentence": "The surgeon was performing a complicated emergency operation when the power supply suddenly failed.",
+          "cue": "While",
+          "correct_answer": "While the surgeon was performing a complicated emergency operation, the power supply suddenly failed.",
+          "acceptable_answers": [
+            "While the surgeon was performing a complicated emergency operation, the power supply suddenly failed.",
+            "The power supply suddenly failed while the surgeon was performing a complicated emergency operation."
+          ],
+          "explanation": "Biến đổi câu 'was V-ing when...' sang 'While + was V-ing, past simple'."
+        },
+        {
+          "id": "10",
+          "original_sentence": "He chose to devote to community medical service while he was spending his youth in the highlands.",
+          "cue": "While he was spending his youth in the highlands",
+          "correct_answer": "While he was spending his youth in the highlands, he chose to devote to community medical service.",
+          "acceptable_answers": [
+            "While he was spending his youth in the highlands, he chose to devote to community medical service.",
+            "He chose to devote to community medical service while he was spending his youth in the highlands."
+          ],
+          "explanation": "Đặt hành động kéo dài 'was spending his youth' vào mệnh đề phụ mở đầu bằng 'While', mệnh đề chính diễn tả quyết định cống hiến 'devote to'."
+        }
+      ]
+    },
+    "ex5_guided_cloze": {
+      "id": "5",
+      "type": "guided_cloze",
+      "title": "Exercise 5: Guided Cloze Passages",
+      "instruction": "Read the following passages and choose the best answer (A, B, C, or D) for each numbered blank.",
+      "target_grammar": "Past simple vs. Past continuous",
+      "passages": [
+        {
+          "passage_id": "1",
+          "title": "An Inspirational Wartime Legacy: The Diary of Dang Thuy Tram",
+          "content": "Dang Thuy Tram was born in Hue in 1942 into a well-educated medical family. In her (1) ______, she showed great determination and academic excellence. After she (2) ______ from medical university in Ha Noi, she volunteered to serve on the front lines. In 1966, while many of her peers (3) ______ in peaceful cities, she embarked on a perilous journey to the South. She (4) ______ as a surgeon in a concealed field hospital in Quang Ngai Province during the fiercest years of the resistance war. Every single day, while artillery shells (5) ______ around the clinic, she tirelessly treated wounded soldiers and comforted local villagers.\n\nIt was during these harrowing months that she (6) ______ her personal diary. While she (7) ______ after exhausting medical operations, she penned heartfelt accounts of sacrifice, compassion, and patriotism. One night, while she (8) ______ by candlelight, a severely injured soldier asked her about peace. She (9) ______ him with deep emotion, recording every detail in her journal. In early 1970, while enemy battalions (10) ______ the surrounding jungle, her medical unit relocated deeper into the mountains. In June 1970, while she (11) ______ on a mountain trail with a small defense squad, an enemy patrol launched a surprise ambush. She (12) ______ heroically while defending her patients and comrades at the youthful age of twenty-seven.\n\nAn American military officer found her diary on the battlefield. When he (13) ______ to burn it, his Vietnamese interpreter intervened, saying it already contained fire. The officer (14) ______ the diary safely for more than three decades. In 2005, when the diary (15) ______ in Viet Nam, it immediately became a national publishing phenomenon. Millions of young people read her words and felt (16) ______ by her boundless dedication. Today, Dang Thuy Tram is officially honored as a (17) ______ hero. While modern generations (18) ______ her immense sacrifices, her legacy continues to inspire youth across the world. When foreign readers first encountered the translated edition, they (19) ______ deep respect for her ideals. She truly (20) ______ her youth and life to the independence of her nation.",
+          "questions": [
+            {
+              "id": "1",
+              "blank_number": 1,
+              "options": [
+                "childhood",
+                "marriage",
+                "cancer",
+                "death"
+              ],
+              "correct_answer": "childhood",
+              "explanation": "Cụm từ 'In her childhood' diễn tả giai đoạn thời thơ ấu của nữ bác sĩ."
+            },
+            {
+              "id": "2",
+              "blank_number": 2,
+              "options": [
+                "graduates",
+                "was graduating",
+                "has graduated",
+                "graduated"
+              ],
+              "correct_answer": "graduated",
+              "explanation": "Sự kiện tốt nghiệp đại học y khoa hoàn thành dứt điểm trong quá khứ dùng Quá khứ đơn."
+            },
+            {
+              "id": "3",
+              "blank_number": 3,
+              "options": [
+                "were living",
+                "are living",
+                "lived",
+                "have lived"
+              ],
+              "correct_answer": "were living",
+              "explanation": "Hành động sinh sống ở các thành phố là bối cảnh kéo dài đối lập trong quá khứ dùng Quá khứ tiếp diễn sau 'while'."
+            },
+            {
+              "id": "4",
+              "blank_number": 4,
+              "options": [
+                "works",
+                "worked",
+                "was working",
+                "has worked"
+              ],
+              "correct_answer": "worked",
+              "explanation": "Nêu một sự thật lịch sử về công việc bác sĩ phẫu thuật trong chiến tranh dùng Quá khứ đơn."
+            },
+            {
+              "id": "5",
+              "blank_number": 5,
+              "options": [
+                "have exploded",
+                "were exploding",
+                "explode",
+                "exploded"
+              ],
+              "correct_answer": "were exploding",
+              "explanation": "Hành động đạn pháo đang dội xuống liên tục trong khi bà cứu chữa thương binh dùng Quá khứ tiếp diễn."
+            },
+            {
+              "id": "6",
+              "blank_number": 6,
+              "options": [
+                "was beginning",
+                "has begun",
+                "begins",
+                "began"
+              ],
+              "correct_answer": "began",
+              "explanation": "Mốc bắt đầu viết nhật ký là sự kiện xác định dùng Quá khứ đơn ('began')."
+            },
+            {
+              "id": "7",
+              "blank_number": 7,
+              "options": [
+                "rested",
+                "is resting",
+                "was resting",
+                "rests"
+              ],
+              "correct_answer": "was resting",
+              "explanation": "Hành động nghỉ ngơi đang diễn ra sau ca mổ dùng Quá khứ tiếp diễn sau 'While'."
+            },
+            {
+              "id": "8",
+              "blank_number": 8,
+              "options": [
+                "wrote",
+                "writes",
+                "was writing",
+                "has written"
+              ],
+              "correct_answer": "was writing",
+              "explanation": "Bà đang ngồi viết dưới ánh nến thì người chiến sĩ hỏi chuyện."
+            },
+            {
+              "id": "9",
+              "blank_number": 9,
+              "options": [
+                "is answering",
+                "answers",
+                "answered",
+                "was answering"
+              ],
+              "correct_answer": "answered",
+              "explanation": "Hành động trả lời diễn ra dứt khoát đáp lại câu hỏi dùng Quá khứ đơn."
+            },
+            {
+              "id": "10",
+              "blank_number": 10,
+              "options": [
+                "encircled",
+                "encircle",
+                "have encircled",
+                "were encircling"
+              ],
+              "correct_answer": "were encircling",
+              "explanation": "Quân địch đang siết chặt vòng vây xung quanh cánh rừng dùng Quá khứ tiếp diễn."
+            },
+            {
+              "id": "11",
+              "blank_number": 11,
+              "options": [
+                "has walked",
+                "walked",
+                "is walking",
+                "was walking"
+              ],
+              "correct_answer": "was walking",
+              "explanation": "Bà đang di chuyển trên đường mòn thì bất ngờ bị phục kích."
+            },
+            {
+              "id": "12",
+              "blank_number": 12,
+              "options": [
+                "fell",
+                "has fallen",
+                "falls",
+                "was falling"
+              ],
+              "correct_answer": "fell",
+              "explanation": "Sự hy sinh anh dũng dứt điểm trong quá khứ dùng Quá khứ đơn ('fell')."
+            },
+            {
+              "id": "13",
+              "blank_number": 13,
+              "options": [
+                "prepares",
+                "prepared",
+                "has prepared",
+                "was preparing"
+              ],
+              "correct_answer": "was preparing",
+              "explanation": "Khi người sĩ quan đang chuẩn bị châm lửa đốt cuốn sổ thì được can ngăn."
+            },
+            {
+              "id": "14",
+              "blank_number": 14,
+              "options": [
+                "preserved",
+                "is preserving",
+                "was preserving",
+                "preserves"
+              ],
+              "correct_answer": "preserved",
+              "explanation": "Hành động gìn giữ cuốn nhật ký qua ba thập kỷ dùng Quá khứ đơn ('preserved')."
+            },
+            {
+              "id": "15",
+              "blank_number": 15,
+              "options": [
+                "published",
+                "was published",
+                "publishes",
+                "was publishing"
+              ],
+              "correct_answer": "was published",
+              "explanation": "Cuốn nhật ký được xuất bản ở dạng bị động thì Quá khứ đơn ('was published')."
+            },
+            {
+              "id": "16",
+              "blank_number": 16,
+              "options": [
+                "admiration",
+                "admired",
+                "admire",
+                "admiring"
+              ],
+              "correct_answer": "admired",
+              "explanation": "Cấu trúc 'felt admired' / xúc động và ngưỡng mộ đức hy sinh."
+            },
+            {
+              "id": "17",
+              "blank_number": 17,
+              "options": [
+                "animated",
+                "national",
+                "cutting-edge",
+                "tourist"
+              ],
+              "correct_answer": "national",
+              "explanation": "Cụm danh từ cố định trong Unit 1: 'national hero' (anh hùng dân tộc)."
+            },
+            {
+              "id": "18",
+              "blank_number": 18,
+              "options": [
+                "learn about",
+                "are learning about",
+                "learned about",
+                "were learning about"
+              ],
+              "correct_answer": "learned about",
+              "explanation": "Thế hệ trẻ tìm hiểu về sự hy sinh của bà trong chương trình học."
+            },
+            {
+              "id": "19",
+              "blank_number": 19,
+              "options": [
+                "expressed",
+                "were expressing",
+                "express",
+                "have expressed"
+              ],
+              "correct_answer": "expressed",
+              "explanation": "Độc giả quốc tế bày tỏ sự kính trọng khi lần đầu đọc bản dịch dùng Quá khứ đơn."
+            },
+            {
+              "id": "20",
+              "blank_number": 20,
+              "options": [
+                "is devoting",
+                "devotes",
+                "devoted",
+                "was devoting"
+              ],
+              "correct_answer": "devoted",
+              "explanation": "Cụm từ 'devote one's life/youth to' chỉ sự cống hiến trọn đời dùng Quá khứ đơn."
+            }
+          ]
+        },
+        {
+          "passage_id": "2",
+          "title": "Steve Jobs & The Dawn of Computer Animation",
+          "content": "Steve Jobs was born in San Francisco in 1955 and was soon (21) ______ by Clara and Paul Jobs after his biological parents felt unable to support him. Growing up in Silicon Valley, he exhibited a brilliant technical mind and boundless curiosity. In 1972, he enrolled at Reed College, but he (22) ______ out after merely six months because the tuition fees burdened his working-class family. However, while he (23) ______ on campus unofficially, he attended calligraphy and typography classes, which later influenced the elegant design of Apple computers.\n\nIn 1976, Jobs and Steve Wozniak founded Apple in a family garage. While they (24) ______ early personal computers by hand, tech enthusiasts began taking notice. A decade later, after leaving Apple, Jobs purchased a small computer graphics division from filmmaker George Lucas. While many industry analysts (25) ______ skeptical of digital cinema, Jobs saw tremendous potential in combining cutting-edge technology with storytelling. Under his ambitious leadership, the studio was renamed Pixar. In the early 1990s, while traditional animators (26) ______ hand-drawn frames, Pixar artists (27) ______ on the world's very first feature-length computer-animated film, Toy Story.\n\nDuring the demanding production of Toy Story, technical challenges arose constantly. While computers (28) ______ complex three-dimensional scenes, the team often worked through the night. When Toy Story hit theaters in 1995, it (29) ______ a massive box-office blockbuster and transformed the entertainment industry forever. Jobs felt (30) ______ cloud nine as his visionary gamble paid off brilliantly. The studio went public, and Jobs suddenly (31) ______ an influential film producer and billionaire.\n\nWhile Pixar (32) ______ one award-winning hit after another, Apple was struggling near bankruptcy. In 1997, Apple acquired Jobs's software company, and Jobs returned as CEO. While he (33) ______ the struggling company, he streamlined product lines and introduced the iMac, iPod, and iPhone. In 2003, however, while his career (34) ______ at its absolute zenith, doctors diagnosed him with pancreatic cancer. Although he (35) ______ immense physical pain, he continued to work tirelessly with fierce determination. In 2007, when he (36) ______ the groundbreaking iPhone on stage, the entire technology world (37) ______ in awe. Jobs passed away peacefully in October 2011. While global citizens (38) ______ his untimely death, millions of people held up smartphones to honor his memory. His extraordinary life account proves that visionary passion can change the world. People across the globe still (39) ______ his remarkable genius and indelible impact. He remains an admirable model for aspiring innovators who dare to dream (40) ______ big ideas.",
+          "questions": [
+            {
+              "id": "21",
+              "blank_number": 21,
+              "options": [
+                "adoption",
+                "adopted",
+                "adopting",
+                "adopt"
+              ],
+              "correct_answer": "adopted",
+              "explanation": "Thể bị động: 'was adopted by' (được nhận làm con nuôi bởi vợ chồng Paul và Clara Jobs)."
+            },
+            {
+              "id": "22",
+              "blank_number": 22,
+              "options": [
+                "was dropping",
+                "drops",
+                "has dropped",
+                "dropped"
+              ],
+              "correct_answer": "dropped",
+              "explanation": "Quyết định thôi học 'dropped out' là sự kiện dứt khoát trong quá khứ dùng Quá khứ đơn."
+            },
+            {
+              "id": "23",
+              "blank_number": 23,
+              "options": [
+                "was staying",
+                "has stayed",
+                "stays",
+                "stayed"
+              ],
+              "correct_answer": "was staying",
+              "explanation": "Hành động lưu lại khuôn viên trường dự thính diễn ra kéo dài dùng Quá khứ tiếp diễn sau 'while'."
+            },
+            {
+              "id": "24",
+              "blank_number": 24,
+              "options": [
+                "assembled",
+                "have assembled",
+                "were assembling",
+                "assemble"
+              ],
+              "correct_answer": "were assembling",
+              "explanation": "Trong khi họ đang lắp ráp thủ công những cỗ máy đầu tiên thì công chúng bắt đầu chú ý."
+            },
+            {
+              "id": "25",
+              "blank_number": 25,
+              "options": [
+                "remain",
+                "remained",
+                "have remained",
+                "were remaining"
+              ],
+              "correct_answer": "remained",
+              "explanation": "'Remain' là động từ trạng thái chỉ thái độ hoài nghi của giới phân tích, dùng Quá khứ đơn."
+            },
+            {
+              "id": "26",
+              "blank_number": 26,
+              "options": [
+                "were drawing",
+                "drew",
+                "draw",
+                "have drawn"
+              ],
+              "correct_answer": "were drawing",
+              "explanation": "Các họa sĩ truyền thống đang vẽ tay từng khung hình (hành động song song kéo dài)."
+            },
+            {
+              "id": "27",
+              "blank_number": 27,
+              "options": [
+                "work",
+                "worked",
+                "are working",
+                "were working"
+              ],
+              "correct_answer": "were working",
+              "explanation": "Đội ngũ Pixar đang miệt mài thực hiện bộ phim hoạt hình máy tính đầu tiên ('were working')."
+            },
+            {
+              "id": "28",
+              "blank_number": 28,
+              "options": [
+                "have rendered",
+                "rendered",
+                "render",
+                "were rendering"
+              ],
+              "correct_answer": "were rendering",
+              "explanation": "Hành động máy tính đang xử lý kết xuất đồ họa 3D dùng Quá khứ tiếp diễn sau 'While'."
+            },
+            {
+              "id": "29",
+              "blank_number": 29,
+              "options": [
+                "was becoming",
+                "has become",
+                "becomes",
+                "became"
+              ],
+              "correct_answer": "became",
+              "explanation": "Bộ phim trở thành bom tấn phòng vé ngay khi ra rạp năm 1995 dùng Quá khứ đơn ('became')."
+            },
+            {
+              "id": "30",
+              "blank_number": 30,
+              "options": [
+                "in",
+                "at",
+                "on",
+                "over"
+              ],
+              "correct_answer": "on",
+              "explanation": "Thành ngữ chỉ cảm xúc vui sướng tột độ: 'on cloud nine'."
+            },
+            {
+              "id": "31",
+              "blank_number": 31,
+              "options": [
+                "becomes",
+                "has become",
+                "was becoming",
+                "became"
+              ],
+              "correct_answer": "became",
+              "explanation": "Steve Jobs nhanh chóng trở thành nhà sản xuất phim quyền lực và tỷ phú dùng Quá khứ đơn."
+            },
+            {
+              "id": "32",
+              "blank_number": 32,
+              "options": [
+                "has produced",
+                "was producing",
+                "produces",
+                "produced"
+              ],
+              "correct_answer": "was producing",
+              "explanation": "Pixar liên tục cho ra mắt các tác phẩm đỉnh cao trong khi Apple gặp khủng hoảng."
+            },
+            {
+              "id": "33",
+              "blank_number": 33,
+              "options": [
+                "was restructuring",
+                "has restructured",
+                "restructured",
+                "restructures"
+              ],
+              "correct_answer": "was restructuring",
+              "explanation": "Hành động tái cơ cấu công ty đang được Jobs tiến hành từng bước dùng Quá khứ tiếp diễn."
+            },
+            {
+              "id": "34",
+              "blank_number": 34,
+              "options": [
+                "stands",
+                "stood",
+                "was standing",
+                "has stood"
+              ],
+              "correct_answer": "was standing",
+              "explanation": "Sự nghiệp của ông đang ở đỉnh cao chói lọi thì phát hiện bệnh ung thư."
+            },
+            {
+              "id": "35",
+              "blank_number": 35,
+              "options": [
+                "suffered",
+                "has suffered",
+                "suffers",
+                "was suffering"
+              ],
+              "correct_answer": "suffered",
+              "explanation": "Mặc dù phải chịu đựng nỗi đau bệnh tật nhưng ông vẫn kiên cường làm việc."
+            },
+            {
+              "id": "36",
+              "blank_number": 36,
+              "options": [
+                "has unveiled",
+                "was unveiling",
+                "unveiled",
+                "unveils"
+              ],
+              "correct_answer": "unveiled",
+              "explanation": "Hành động công bố chiếc iPhone mang tính bước ngoặt trên sân khấu năm 2007 dùng Quá khứ đơn."
+            },
+            {
+              "id": "37",
+              "blank_number": 37,
+              "options": [
+                "watched",
+                "has watched",
+                "watches",
+                "was watching"
+              ],
+              "correct_answer": "watched",
+              "explanation": "Cả thế giới công nghệ dõi theo trong kinh ngạc dùng Quá khứ đơn ('watched in awe')."
+            },
+            {
+              "id": "38",
+              "blank_number": 38,
+              "options": [
+                "mourned",
+                "mourn",
+                "were mourning",
+                "are mourning"
+              ],
+              "correct_answer": "were mourning",
+              "explanation": "Hành động người dân toàn cầu đang tiếc thương sự ra đi của ông dùng Quá khứ tiếp diễn."
+            },
+            {
+              "id": "39",
+              "blank_number": 39,
+              "options": [
+                "admired",
+                "admire",
+                "were admiring",
+                "are admiring"
+              ],
+              "correct_answer": "admire",
+              "explanation": "Thì Hiện tại đơn 'admire' diễn tả sự trân trọng và ngưỡng mộ của mọi người ngày nay."
+            },
+            {
+              "id": "40",
+              "blank_number": 40,
+              "options": [
+                "in",
+                "about",
+                "of",
+                "for"
+              ],
+              "correct_answer": "about",
+              "explanation": "Giới từ đi với 'dream': 'dream about big ideas'."
+            }
+          ]
+        }
+      ]
+    },
+    "ex6_error_identification": {
+      "id": "6",
+      "type": "error_identification",
+      "title": "Exercise 6: Error Identification & Correction",
+      "instruction": "Identify the underlined/bracketed part (A, B, C, or D) that contains a grammatical error in each sentence, then provide the correct form.",
+      "target_grammar": "Past simple vs. Past continuous",
+      "questions": [
+        {
+          "id": "1",
+          "text": "While Dr. Dang Thuy Tram [A: was treating] injured soldiers in the underground hospital, she [B: was writing] a poignant diary that later [C: inspired] millions of young [D: people].",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct_answer": "B",
+          "error_segment": "was writing",
+          "correction": "wrote",
+          "explanation": "Hành động viết nhật ký diễn ra định kỳ hoặc là hành động chính hoàn tất sau các đợt cứu chữa, dùng Quá khứ đơn 'wrote' thay cho Quá khứ tiếp diễn."
+        },
+        {
+          "id": "2",
+          "text": "Steve Jobs [A: dropped] out of college when he [B: was realizing] that calligraphy [C: would inspire] his future computer [D: typography].",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct_answer": "B",
+          "error_segment": "was realizing",
+          "correction": "realized",
+          "explanation": "'Realize' là động từ chỉ nhận thức/trạng thái (stative verb), không dùng ở thì tiếp diễn; phải sửa thành 'realized'."
+        },
+        {
+          "id": "3",
+          "text": "When the young inventor [A: was receiving] the prestigious international award, all the guests [B: in the hall] [C: stood] up and applauded with [D: immense] admiration.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct_answer": "A",
+          "error_segment": "was receiving",
+          "correction": "received",
+          "explanation": "Thời điểm nhận giải thưởng là khoảnh khắc diễn ra tức thì, dứt khoát ('When the young inventor received...')."
+        },
+        {
+          "id": "4",
+          "text": "While the resistance forces [A: were defending] the border citadel, the enemy [B: were launching] a massive artillery barrage [C: without] prior [D: warning].",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct_answer": "B",
+          "error_segment": "were launching",
+          "correction": "launched",
+          "explanation": "Đợt bắn pháo kích bất ngờ của quân địch là hành động xen vào cắt ngang cuộc phòng thủ kéo dài, chia Quá khứ đơn 'launched'."
+        },
+        {
+          "id": "5",
+          "text": "During his childhood, the visionary artist [A: was living] in a quiet rural village where he [B: painted] landscapes and [C: observed] the wildlife [D: daily].",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct_answer": "A",
+          "error_segment": "was living",
+          "correction": "lived",
+          "explanation": "Diễn tả nơi sinh sống trong suốt thời thơ ấu như một sự kiện dài hạn hoàn tất trong quá khứ dùng Quá khứ đơn 'lived'."
+        },
+        {
+          "id": "6",
+          "text": "The computer animators [A: were rendering] the climax of the blockbuster [B: when] the entire power network [C: was shutting] down [D: abruptly].",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct_answer": "C",
+          "error_segment": "was shutting",
+          "correction": "shut",
+          "explanation": "Mạng lưới điện sập xuống đột ngột ('shut down') là hành động ngắn cắt ngang quá trình kết xuất đồ họa, chia Quá khứ đơn."
+        },
+        {
+          "id": "7",
+          "text": "While the military commanders [A: were analyzing] reconnaissance maps, an urgent courier [B: arrived] and [C: was delivering] an encoded message [D: to the general].",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct_answer": "C",
+          "error_segment": "was delivering",
+          "correction": "delivered",
+          "explanation": "Chuỗi hành động kế tiếp nhau của người liên lạc: đến nơi ('arrived') và chuyển giao mật thư ('delivered'), cả hai đều chia Quá khứ đơn."
+        },
+        {
+          "id": "8",
+          "text": "The couple [A: was having] a prosperous marriage for thirty years before the husband [B: passed] away from pancreatic cancer in a specialized [C: medical] [D: clinic].",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct_answer": "A",
+          "error_segment": "was having",
+          "correction": "had",
+          "explanation": "'Have' trong cụm 'have a marriage' diễn tả trạng thái trải nghiệm hôn nhân bền vững, không chia tiếp diễn; phải dùng 'had'."
+        },
+        {
+          "id": "9",
+          "text": "At 9 p.m. last Friday, the film producer [A: negotiated] terms with the studio executives while his partner [B: was finalizing] the visual effects [C: for the upcoming] [D: premiere].",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct_answer": "A",
+          "error_segment": "negotiated",
+          "correction": "was negotiating",
+          "explanation": "Tại mốc thời gian cụ thể trong quá khứ ('At 9 p.m. last Friday') diễn ra hai hành động song song kéo dài, phải dùng 'was negotiating'."
+        },
+        {
+          "id": "10",
+          "text": "When the doctor announced that the tumor [A: was benign], the patient and her family [B: were feeling] on cloud nine and [C: thanked] the medical staff [D: profusely].",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct_answer": "B",
+          "error_segment": "were feeling",
+          "correction": "felt",
+          "explanation": "Cảm giác vui sướng tột độ xuất hiện ngay lập tức sau thông báo của bác sĩ; 'feel' chỉ cảm xúc dứt khoát dùng Quá khứ đơn 'felt'."
+        }
+      ]
+    },
+    "ex7_sentence_combination": {
+      "id": "7",
+      "type": "sentence_combination",
+      "title": "Exercise 7: Sentence Combination",
+      "instruction": "Combine each pair of sentences into a single coherent sentence using the Past Simple and Past Continuous with the provided cue word.",
+      "target_grammar": "Past simple vs. Past continuous",
+      "questions": [
+        {
+          "id": "1",
+          "sentence_1": "Dr. Dang Thuy Tram was attending to wounded soldiers in the field hospital.",
+          "sentence_2": "Suddenly, a loud explosion rocked the clinic entrance.",
+          "cue": "Use 'when'",
+          "correct_answer": "Dr. Dang Thuy Tram was attending to wounded soldiers in the field hospital when a loud explosion rocked the clinic entrance.",
+          "acceptable_answers": [
+            "Dr. Dang Thuy Tram was attending to wounded soldiers in the field hospital when a loud explosion rocked the clinic entrance.",
+            "When a loud explosion rocked the clinic entrance, Dr. Dang Thuy Tram was attending to wounded soldiers in the field hospital."
+          ],
+          "explanation": "Dùng 'when' nối hành động ngắn bất ngờ xen vào ('rocked') với hành động dài đang tiếp diễn ('was attending')."
+        },
+        {
+          "id": "2",
+          "sentence_1": "Steve Jobs was studying unofficially at Reed College.",
+          "sentence_2": "He discovered a profound passion for calligraphy and typography.",
+          "cue": "Use 'While'",
+          "correct_answer": "While Steve Jobs was studying unofficially at Reed College, he discovered a profound passion for calligraphy and typography.",
+          "acceptable_answers": [
+            "While Steve Jobs was studying unofficially at Reed College, he discovered a profound passion for calligraphy and typography.",
+            "Steve Jobs discovered a profound passion for calligraphy and typography while he was studying unofficially at Reed College."
+          ],
+          "explanation": "Dùng 'While' mở đầu mệnh đề chỉ quá trình học tập kéo dài, mệnh đề chính dùng Quá khứ đơn 'discovered'."
+        },
+        {
+          "id": "3",
+          "sentence_1": "The animators were drawing character sketches for the new animated film.",
+          "sentence_2": "At the same time, the sound designers were recording audio effects.",
+          "cue": "Use 'while'",
+          "correct_answer": "The animators were drawing character sketches for the new animated film while the sound designers were recording audio effects.",
+          "acceptable_answers": [
+            "The animators were drawing character sketches for the new animated film while the sound designers were recording audio effects.",
+            "While the animators were drawing character sketches for the new animated film, the sound designers were recording audio effects."
+          ],
+          "explanation": "Dùng 'while' diễn tả hai hành động diễn ra song song cùng lúc trong quá khứ."
+        },
+        {
+          "id": "4",
+          "sentence_1": "General Vo Nguyen Giap was planning the strategic offensive.",
+          "sentence_2": "His military couriers brought vital intelligence from the northern front.",
+          "cue": "Use 'While'",
+          "correct_answer": "While General Vo Nguyen Giap was planning the strategic offensive, his military couriers brought vital intelligence from the northern front.",
+          "acceptable_answers": [
+            "While General Vo Nguyen Giap was planning the strategic offensive, his military couriers brought vital intelligence from the northern front.",
+            "General Vo Nguyen Giap's military couriers brought vital intelligence from the northern front while he was planning the strategic offensive."
+          ],
+          "explanation": "Hành động người liên lạc mang tin mật tới ('brought') xảy ra cắt ngang quá trình lập kế hoạch ('was planning')."
+        },
+        {
+          "id": "5",
+          "sentence_1": "The volunteers were distributing emergency rations to the flood victims.",
+          "sentence_2": "An unexpected downpour caused river levels to rise rapidly.",
+          "cue": "Use 'when'",
+          "correct_answer": "The volunteers were distributing emergency rations to the flood victims when an unexpected downpour caused river levels to rise rapidly.",
+          "acceptable_answers": [
+            "The volunteers were distributing emergency rations to the flood victims when an unexpected downpour caused river levels to rise rapidly.",
+            "When an unexpected downpour caused river levels to rise rapidly, the volunteers were distributing emergency rations to the flood victims."
+          ],
+          "explanation": "Dùng 'when' cho mệnh đề Quá khứ đơn diễn tả sự việc đột ngột xảy đến."
+        },
+        {
+          "id": "6",
+          "sentence_1": "The young biologist was conducting research in the pristine rainforest.",
+          "sentence_2": "She discovered an unrecorded species of medicinal flora.",
+          "cue": "Use 'While'",
+          "correct_answer": "While the young biologist was conducting research in the pristine rainforest, she discovered an unrecorded species of medicinal flora.",
+          "acceptable_answers": [
+            "While the young biologist was conducting research in the pristine rainforest, she discovered an unrecorded species of medicinal flora.",
+            "The young biologist discovered an unrecorded species of medicinal flora while she was conducting research in the pristine rainforest."
+          ],
+          "explanation": "Hành động phát hiện loài cây mới ('discovered') xảy ra trong quá trình nghiên cứu ('was conducting')."
+        },
+        {
+          "id": "7",
+          "sentence_1": "The film director was filming the climactic battle scene.",
+          "sentence_2": "The heavy camera crane suffered a severe mechanical failure.",
+          "cue": "Use 'while'",
+          "correct_answer": "The heavy camera crane suffered a severe mechanical failure while the film director was filming the climactic battle scene.",
+          "acceptable_answers": [
+            "The heavy camera crane suffered a severe mechanical failure while the film director was filming the climactic battle scene.",
+            "While the film director was filming the climactic battle scene, the heavy camera crane suffered a severe mechanical failure."
+          ],
+          "explanation": "Sự cố cơ học ('suffered') diễn ra trong lúc đoàn phim đang quay đại cảnh chiến đấu ('was filming')."
+        },
+        {
+          "id": "8",
+          "sentence_1": "The software engineer was demonstrating the cutting-edge AI model.",
+          "sentence_2": "The conference hall lost its internet connection completely.",
+          "cue": "Use 'when'",
+          "correct_answer": "The software engineer was demonstrating the cutting-edge AI model when the conference hall lost its internet connection completely.",
+          "acceptable_answers": [
+            "The software engineer was demonstrating the cutting-edge AI model when the conference hall lost its internet connection completely.",
+            "When the conference hall lost its internet connection completely, the software engineer was demonstrating the cutting-edge AI model."
+          ],
+          "explanation": "Mất kết nối mạng là sự cố xen vào quá trình kỹ sư đang thuyết trình giới thiệu mô hình."
+        },
+        {
+          "id": "9",
+          "sentence_1": "The couple were preparing for their wedding ceremony.",
+          "sentence_2": "They received congratulatory letters from their former professors.",
+          "cue": "Use 'While'",
+          "correct_answer": "While the couple were preparing for their wedding ceremony, they received congratulatory letters from their former professors.",
+          "acceptable_answers": [
+            "While the couple were preparing for their wedding ceremony, they received congratulatory letters from their former professors.",
+            "The couple received congratulatory letters from their former professors while they were preparing for their wedding ceremony."
+          ],
+          "explanation": "Hành động nhận thư chúc mừng xảy đến trong quá trình chuẩn bị hôn lễ."
+        },
+        {
+          "id": "10",
+          "sentence_1": "The historian was compiling biographical accounts of ancient queens.",
+          "sentence_2": "He uncovered rare royal manuscripts preserved in the temple archives.",
+          "cue": "Use 'While'",
+          "correct_answer": "While the historian was compiling biographical accounts of ancient queens, he uncovered rare royal manuscripts preserved in the temple archives.",
+          "acceptable_answers": [
+            "While the historian was compiling biographical accounts of ancient queens, he uncovered rare royal manuscripts preserved in the temple archives.",
+            "The historian uncovered rare royal manuscripts preserved in the temple archives while he was compiling biographical accounts of ancient queens."
+          ],
+          "explanation": "Quá trình biên soạn tài liệu là hành động nền kéo dài dùng Quá khứ tiếp diễn sau 'While'."
+        }
+      ]
+    },
+    "ex8_sentence_building": {
+      "id": "8",
+      "type": "sentence_building",
+      "title": "Exercise 8: Sentence Building from Cues",
+      "instruction": "Use the given cue words to write complete, grammatically correct sentences using the Past Simple and Past Continuous.",
+      "target_grammar": "Past simple vs. Past continuous",
+      "questions": [
+        {
+          "id": "1",
+          "cues": "While / Dr. Dang Thuy Tram / work / field hospital / she / write / inspiring diary",
+          "correct_answer": "While Dr. Dang Thuy Tram was working in the field hospital, she wrote an inspiring diary.",
+          "acceptable_answers": [
+            "While Dr. Dang Thuy Tram was working in the field hospital, she wrote an inspiring diary.",
+            "While Dr. Dang Thuy Tram was working in a field hospital, she wrote an inspiring diary."
+          ],
+          "explanation": "Thêm mạo từ và giới từ, chia 'was working' (hành động kéo dài sau While) và 'wrote' (Quá khứ đơn)."
+        },
+        {
+          "id": "2",
+          "cues": "Steve Jobs / design / first Macintosh / when / he / encounter / critical technical issues",
+          "correct_answer": "Steve Jobs was designing the first Macintosh when he encountered critical technical issues.",
+          "acceptable_answers": [
+            "Steve Jobs was designing the first Macintosh when he encountered critical technical issues."
+          ],
+          "explanation": "Chia 'was designing' cho hành động đang diễn tiến và 'encountered' cho sự cố phát sinh bất ngờ sau 'when'."
+        },
+        {
+          "id": "3",
+          "cues": "While / animator / sketch / new characters / director / review / screenplay",
+          "correct_answer": "While the animator was sketching new characters, the director was reviewing the screenplay.",
+          "acceptable_answers": [
+            "While the animator was sketching new characters, the director was reviewing the screenplay."
+          ],
+          "explanation": "Hai hành động song song trong quá khứ: cả hai vế đều chia Quá khứ tiếp diễn ('was sketching' và 'was reviewing')."
+        },
+        {
+          "id": "4",
+          "cues": "General Vo Nguyen Giap / lead / soldiers / victory / while / country / fight / independence",
+          "correct_answer": "General Vo Nguyen Giap led his soldiers to victory while the country was fighting for independence.",
+          "acceptable_answers": [
+            "General Vo Nguyen Giap led his soldiers to victory while the country was fighting for independence."
+          ],
+          "explanation": "Mệnh đề chính dùng Quá khứ đơn 'led', mệnh đề phụ sau 'while' dùng Quá khứ tiếp diễn 'was fighting'."
+        },
+        {
+          "id": "5",
+          "cues": "When / surgeon / receive / prestigious award / she / feel / cloud nine",
+          "correct_answer": "When the surgeon received the prestigious award, she felt on cloud nine.",
+          "acceptable_answers": [
+            "When the surgeon received the prestigious award, she felt on cloud nine."
+          ],
+          "explanation": "Cả hai hành động diễn ra liên tiếp dứt khoát: nhận giải ('received') và cảm xúc hạnh phúc ('felt on cloud nine')."
+        },
+        {
+          "id": "6",
+          "cues": "The young innovator / drop out / university / while / he / develop / cutting-edge software",
+          "correct_answer": "The young innovator dropped out of university while he was developing cutting-edge software.",
+          "acceptable_answers": [
+            "The young innovator dropped out of university while he was developing cutting-edge software."
+          ],
+          "explanation": "Hành động thôi học 'dropped out' diễn ra trong giai đoạn đang phát triển phần mềm 'was developing'."
+        },
+        {
+          "id": "7",
+          "cues": "While / resistance forces / defend / valley / enemy / launch / surprise attack",
+          "correct_answer": "While the resistance forces were defending the valley, the enemy launched a surprise attack.",
+          "acceptable_answers": [
+            "While the resistance forces were defending the valley, the enemy launched a surprise attack."
+          ],
+          "explanation": "Cuộc tấn công bất ngờ ('launched') cắt ngang quá trình phòng thủ thung lũng ('were defending')."
+        },
+        {
+          "id": "8",
+          "cues": "What / researchers / investigate / when / fire / break out / laboratory?",
+          "correct_answer": "What were the researchers investigating when the fire broke out in the laboratory?",
+          "acceptable_answers": [
+            "What were the researchers investigating when the fire broke out in the laboratory?"
+          ],
+          "explanation": "Câu hỏi ở thì Quá khứ tiếp diễn 'were the researchers investigating' kết hợp với sự cố hỏa hoạn 'broke out'."
+        },
+        {
+          "id": "9",
+          "cues": "During his youth / Alexander / attend school / diligently / before / he / attend college",
+          "correct_answer": "During his youth, Alexander attended school diligently before he chose to attend college.",
+          "acceptable_answers": [
+            "During his youth, Alexander attended school diligently before he chose to attend college.",
+            "During his youth, Alexander attended school diligently before he attended college."
+          ],
+          "explanation": "Sự kiện diễn ra trong thời niên thiếu đã hoàn thành trong quá khứ dùng Quá khứ đơn 'attended school' và 'attend college'."
+        },
+        {
+          "id": "10",
+          "cues": "While / historians / translate / ancient manuscripts / they / uncover / rare royal records",
+          "correct_answer": "While the historians were translating ancient manuscripts, they uncovered rare royal records.",
+          "acceptable_answers": [
+            "While the historians were translating ancient manuscripts, they uncovered rare royal records."
+          ],
+          "explanation": "Hành động phát hiện ghi chép quý hiếm ('uncovered') diễn ra trong quá trình dịch thuật ('were translating')."
+        }
+      ]
+    }
+  }
+}

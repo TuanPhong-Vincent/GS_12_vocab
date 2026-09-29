@@ -1,0 +1,1592 @@
+{
+  "grade": "GS12",
+  "unit": 2,
+  "unit_theme": "Unit 2",
+  "grammar_topic": "Articles (review and extension)",
+  "total_exercises": 8,
+  "total_questions": 130,
+  "exercises": {
+    "ex1_mcq": {
+      "id": "1",
+      "type": "multiple_choice",
+      "title": "Exercise 1: Multiple Choice Questions",
+      "instruction": "Choose the best option (A, B, C, or D) that correctly uses articles (a, an, the, or Ø for zero article).",
+      "target_grammar": "Articles (review and extension)",
+      "questions": [
+        {
+          "id": "1",
+          "text": "Many exchange students experience ______ culture shock when they first encounter unfamiliar customs in a foreign country.",
+          "options": [
+            "an",
+            "the",
+            "a",
+            "Ø"
+          ],
+          "correct_answer": "Ø",
+          "explanation": "'Culture shock' là danh từ không đếm được dùng với nghĩa chung khái quát, do đó ta dùng mạo từ zero (Ø)."
+        },
+        {
+          "id": "2",
+          "text": "During the autumn carnival, children carried ______ colourful pumpkin lantern through the illuminated village square.",
+          "options": [
+            "the",
+            "a",
+            "Ø",
+            "an"
+          ],
+          "correct_answer": "a",
+          "explanation": "Danh từ đếm được số ít 'pumpkin lantern' lần đầu được đề cập, đứng sau tính từ bắt đầu bằng phụ âm 'colourful', dùng mạo từ bất định 'a'."
+        },
+        {
+          "id": "3",
+          "text": "The international marine expedition sailed across ______ Atlantic Ocean to investigate endangered coral reefs.",
+          "options": [
+            "a",
+            "the",
+            "an",
+            "Ø"
+          ],
+          "correct_answer": "the",
+          "explanation": "Dùng mạo từ xác định 'the' trước tên của các đại dương (the Atlantic Ocean)."
+        },
+        {
+          "id": "4",
+          "text": "After exploring the floating market in the Mekong Delta, Liam bought ______ unique hand-woven scarf as a souvenir.",
+          "options": [
+            "a",
+            "an",
+            "the",
+            "Ø"
+          ],
+          "correct_answer": "a",
+          "explanation": "Tính từ 'unique' bắt đầu bằng âm bán nguyên âm /juː/, do đó dùng mạo từ bất định 'a' chứ không dùng 'an'."
+        },
+        {
+          "id": "5",
+          "text": "In our high school, participating in an extracurricular activity is considered ______ excellent way to appreciate cultural diversity.",
+          "options": [
+            "Ø",
+            "an",
+            "the",
+            "a"
+          ],
+          "correct_answer": "an",
+          "explanation": "Danh từ số ít đếm được đi kèm tính từ bắt đầu bằng nguyên âm ('excellent') dùng mạo từ bất định 'an'."
+        },
+        {
+          "id": "6",
+          "text": "The tourists stopped at a lively night market. ______ food stall they visited was famous for its spicy noodles and authentic broth.",
+          "options": [
+            "Ø",
+            "An",
+            "The",
+            "A"
+          ],
+          "correct_answer": "The",
+          "explanation": "Danh từ 'food stall' được nhắc lại lần thứ hai và đã được xác định cụ thể trong ngữ cảnh, nên dùng mạo từ 'The'."
+        },
+        {
+          "id": "7",
+          "text": "Our music teacher encouraged everyone in the class to learn to play ______ traditional guitar or the bamboo flute.",
+          "options": [
+            "a",
+            "an",
+            "the",
+            "Ø"
+          ],
+          "correct_answer": "the",
+          "explanation": "Dùng mạo từ 'the' trước danh từ chỉ nhạc cụ khi đi với động từ 'play' hoặc 'learn to play'."
+        },
+        {
+          "id": "8",
+          "text": "Every morning, my host family in Ha Noi has ______ breakfast together before going to work and school.",
+          "options": [
+            "a",
+            "the",
+            "an",
+            "Ø"
+          ],
+          "correct_answer": "Ø",
+          "explanation": "Tên các bữa ăn thông thường trong ngày (breakfast, lunch, dinner) dùng zero article (Ø)."
+        },
+        {
+          "id": "9",
+          "text": "Last summer, an international youth delegation traveled to ______ United Kingdom to attend a conference on globalisation.",
+          "options": [
+            "an",
+            "a",
+            "Ø",
+            "the"
+          ],
+          "correct_answer": "the",
+          "explanation": "Dùng mạo từ 'the' trước tên quốc gia có chứa từ 'Kingdom' (the United Kingdom)."
+        },
+        {
+          "id": "10",
+          "text": "During the highland festival, teenagers enthusiastically took part in ______ bamboo dancing on the central stage.",
+          "options": [
+            "Ø",
+            "an",
+            "a",
+            "the"
+          ],
+          "correct_answer": "Ø",
+          "explanation": "Tên các điệu nhảy truyền thống hoặc môn thể thao/trò chơi dân gian dùng zero article (Ø)."
+        },
+        {
+          "id": "11",
+          "text": "The guest speaker gave ______ inspiring lecture on how world cuisines influence modern eating trends.",
+          "options": [
+            "the",
+            "an",
+            "Ø",
+            "a"
+          ],
+          "correct_answer": "an",
+          "explanation": "Cụm danh từ số ít 'inspiring lecture' bắt đầu bằng nguyên âm /ɪ/ nên dùng mạo từ 'an'."
+        },
+        {
+          "id": "12",
+          "text": "Astronomers gathered in the observatory to observe ______ moon during the lunar eclipse celebration.",
+          "options": [
+            "the",
+            "a",
+            "Ø",
+            "an"
+          ],
+          "correct_answer": "the",
+          "explanation": "Dùng mạo từ 'the' trước các thiên thể và thực thể duy nhất trong tự nhiên (the sun, the moon, the earth)."
+        },
+        {
+          "id": "13",
+          "text": "The local chef explained that lemongrass is ______ essential ingredient in crafting authentic Vietnamese noodle soup.",
+          "options": [
+            "an",
+            "Ø",
+            "the",
+            "a"
+          ],
+          "correct_answer": "an",
+          "explanation": "Danh từ đếm được số ít 'ingredient' đi sau tính từ bắt đầu bằng nguyên âm 'essential' (/ɪˈsenʃl/), dùng 'an'."
+        },
+        {
+          "id": "14",
+          "text": "Students from various ethnic backgrounds gathered in ______ capital city to celebrate their shared cultural identity.",
+          "options": [
+            "a",
+            "an",
+            "Ø",
+            "the"
+          ],
+          "correct_answer": "the",
+          "explanation": "Thủ đô của một quốc gia là thực thể xác định duy nhất trong ngữ cảnh đó, do đó dùng mạo từ 'the'."
+        },
+        {
+          "id": "15",
+          "text": "My pen pal lives in ______ Japan, where ancient temples stand alongside futuristic skyscrapers.",
+          "options": [
+            "the",
+            "an",
+            "Ø",
+            "a"
+          ],
+          "correct_answer": "Ø",
+          "explanation": "Tên hầu hết các quốc gia ở dạng số ít thông thường (như Japan, Viet Nam, France) không dùng mạo từ (zero article Ø)."
+        },
+        {
+          "id": "16",
+          "text": "The students felt a slight chill as they stepped into ______ haunted house built for the charity carnival.",
+          "options": [
+            "a",
+            "the",
+            "Ø",
+            "an"
+          ],
+          "correct_answer": "a",
+          "explanation": "Danh từ số ít 'haunted house' được giới thiệu lần đầu, từ 'haunted' bắt đầu bằng âm phụ âm /h/, dùng mạo từ 'a'."
+        },
+        {
+          "id": "17",
+          "text": "Mount Fansipan is officially recognised as ______ highest mountain peak in the entire Indochinese region.",
+          "options": [
+            "Ø",
+            "the",
+            "an",
+            "a"
+          ],
+          "correct_answer": "the",
+          "explanation": "Trước tính từ so sánh nhất ('the highest') luôn dùng mạo từ xác định 'the'."
+        },
+        {
+          "id": "18",
+          "text": "On October 31st, children in many Western countries dress up in scary costumes and go ______ trick or treating.",
+          "options": [
+            "the",
+            "a",
+            "Ø",
+            "an"
+          ],
+          "correct_answer": "Ø",
+          "explanation": "Cụm thành ngữ và hoạt động lễ hội 'go trick or treating' / 'play trick or treat' không sử dụng mạo từ (zero article Ø)."
+        },
+        {
+          "id": "19",
+          "text": "Overcoming ______ language barrier is one of the most rewarding challenges for participants in culture exchange programs.",
+          "options": [
+            "an",
+            "the",
+            "Ø",
+            "a"
+          ],
+          "correct_answer": "a",
+          "explanation": "Danh từ đếm được số ít 'language barrier' được nói tới một cách khái quát mang nghĩa 'một rào cản', dùng 'a'."
+        },
+        {
+          "id": "20",
+          "text": "In the 21st century, ______ globalisation has accelerated the exchange of ideas, art forms, and cultural practices worldwide.",
+          "options": [
+            "a",
+            "an",
+            "Ø",
+            "the"
+          ],
+          "correct_answer": "Ø",
+          "explanation": "'Globalisation' là danh từ trừu tượng không đếm được dùng với ý nghĩa khái quát toàn cầu, dùng mạo từ zero (Ø)."
+        }
+      ]
+    },
+    "ex2_verbform": {
+      "id": "2",
+      "type": "verb_form",
+      "title": "Exercise 2: Article & Sentence Completion",
+      "instruction": "Complete each sentence with the correct article: a, an, the, or Ø (zero article).",
+      "target_grammar": "Articles (review and extension)",
+      "questions": [
+        {
+          "id": "1",
+          "text": "Many international students experience culture shock when they first arrive in (article) ______ United States.",
+          "prompt": "article",
+          "verb": "article",
+          "correct_answer": "the",
+          "explanation": "Dùng mạo từ 'the' trước tên quốc gia có từ 'States' (the United States)."
+        },
+        {
+          "id": "2",
+          "text": "During their field trip to the northern highlands, the volunteers enjoyed watching (article) ______ bamboo dancing performed by Tay villagers.",
+          "prompt": "article",
+          "verb": "article",
+          "correct_answer": "Ø",
+          "explanation": "Tên các điệu múa truyền thống và trò chơi dân gian dùng zero article (Ø)."
+        },
+        {
+          "id": "3",
+          "text": "Globalisation has opened up (article) ______ unprecedented opportunity for young Vietnamese people to experience cross-cultural learning.",
+          "prompt": "article",
+          "verb": "article",
+          "correct_answer": "an",
+          "explanation": "Danh từ số ít 'opportunity' đi sau tính từ bắt đầu bằng nguyên âm 'unprecedented' (/ʌnˈpresɪdentɪd/), dùng 'an'."
+        },
+        {
+          "id": "4",
+          "text": "My cousin practices playing (article) ______ piano every afternoon to prepare for the school's multicultural talent show.",
+          "prompt": "article",
+          "verb": "article",
+          "correct_answer": "the",
+          "explanation": "Dùng 'the' trước tên nhạc cụ khi đi với động từ chỉ việc luyện tập hoặc chơi nhạc cụ ('playing the piano')."
+        },
+        {
+          "id": "5",
+          "text": "Every weekend, food enthusiasts flock to the night bazaar to savour delicious local (article) ______ cuisine.",
+          "prompt": "article",
+          "verb": "article",
+          "correct_answer": "Ø",
+          "explanation": "'Cuisine' được dùng như danh từ không đếm được chỉ ẩm thực nói chung, dùng zero article (Ø)."
+        },
+        {
+          "id": "6",
+          "text": "The university exchange team traveled to (article) ______ Netherlands to attend an international symposium on cultural heritage.",
+          "prompt": "article",
+          "verb": "article",
+          "correct_answer": "the",
+          "explanation": "Dùng 'the' trước tên các quốc gia có dạng danh từ số nhiều (the Netherlands, the Philippines)."
+        },
+        {
+          "id": "7",
+          "text": "At the folk art museum, the guide introduced (article) ______ unfamiliar musical instrument crafted from buffalo horn.",
+          "prompt": "article",
+          "verb": "article",
+          "correct_answer": "an",
+          "explanation": "Danh từ số ít 'musical instrument' đi kèm tính từ bắt đầu bằng nguyên âm 'unfamiliar' (/ˌʌnfəˈmɪliər/), dùng 'an'."
+        },
+        {
+          "id": "8",
+          "text": "Anthropologists believe that (article) ______ custom of carving turnip lanterns originated in ancient Ireland.",
+          "prompt": "article",
+          "verb": "article",
+          "correct_answer": "the",
+          "explanation": "Danh từ 'custom' được xác định cụ thể bởi cụm giới từ 'of carving turnip lanterns', nên dùng mạo từ xác định 'the'."
+        },
+        {
+          "id": "9",
+          "text": "Children in the residential area dressed in imaginative costumes and played (article) ______ trick or treat on Halloween evening.",
+          "prompt": "article",
+          "verb": "article",
+          "correct_answer": "Ø",
+          "explanation": "Tên hoạt động/phong tục truyền thống 'trick or treat' dùng zero article (Ø)."
+        },
+        {
+          "id": "10",
+          "text": "The veteran artisan delivered (article) ______ inspiring speech about preserving traditional games for future generations.",
+          "prompt": "article",
+          "verb": "article",
+          "correct_answer": "an",
+          "explanation": "Danh từ số ít 'speech' đi kèm tính từ bắt đầu bằng nguyên âm 'inspiring' (/ɪnˈspaɪərɪŋ/), dùng 'an'."
+        },
+        {
+          "id": "11",
+          "text": "Marine biologists are tracking how rising sea temperatures impact coral ecosystems in (article) ______ Pacific Ocean.",
+          "prompt": "article",
+          "verb": "article",
+          "correct_answer": "the",
+          "explanation": "Dùng mạo từ 'the' trước tên của các đại dương (the Pacific Ocean)."
+        },
+        {
+          "id": "12",
+          "text": "The entire team had (article) ______ dinner together at a local food stall after winning the tug of war contest.",
+          "prompt": "article",
+          "verb": "article",
+          "correct_answer": "Ø",
+          "explanation": "Các danh từ chỉ bữa ăn thông thường (breakfast, lunch, dinner) dùng zero article (Ø)."
+        },
+        {
+          "id": "13",
+          "text": "The children squealed with excitement as they entered (article) ______ haunted house during the community carnival.",
+          "prompt": "article",
+          "verb": "article",
+          "correct_answer": "a",
+          "explanation": "Danh từ số ít đếm được 'haunted house' được nhắc đến lần đầu, 'haunted' bắt đầu bằng âm phụ âm /h/, dùng 'a'."
+        },
+        {
+          "id": "14",
+          "text": "The pastry chef emphasized that fresh vanilla is (article) ______ indispensable ingredient in authentic French desserts.",
+          "prompt": "article",
+          "verb": "article",
+          "correct_answer": "an",
+          "explanation": "Danh từ số ít 'ingredient' đi sau tính từ bắt đầu bằng nguyên âm 'indispensable' (/ˌɪndɪˈspensəbl/), dùng 'an'."
+        },
+        {
+          "id": "15",
+          "text": "Mount Fansipan is widely celebrated as (article) ______ highest summit in Viet Nam.",
+          "prompt": "article",
+          "verb": "article",
+          "correct_answer": "the",
+          "explanation": "Trước tính từ ở dạng so sánh nhất ('the highest') luôn dùng mạo từ xác định 'the'."
+        },
+        {
+          "id": "16",
+          "text": "When traveling to rural regions, foreign backpackers often encounter (article) ______ language barrier with older residents.",
+          "prompt": "article",
+          "verb": "article",
+          "correct_answer": "a",
+          "explanation": "Danh từ đếm được số ít 'language barrier' với nghĩa chung 'một rào cản ngôn ngữ', dùng 'a'."
+        },
+        {
+          "id": "17",
+          "text": "The youth union held (article) ______ annual cultural exchange to promote understanding among international students.",
+          "prompt": "article",
+          "verb": "article",
+          "correct_answer": "an",
+          "explanation": "Danh từ đếm được số ít đi sau tính từ bắt đầu bằng nguyên âm 'annual' (/ˈænjuəl/), dùng 'an'."
+        },
+        {
+          "id": "18",
+          "text": "Educators believe that young people should learn to respect (article) ______ cultural diversity in our interconnected world.",
+          "prompt": "article",
+          "verb": "article",
+          "correct_answer": "Ø",
+          "explanation": "'Cultural diversity' là danh từ không đếm được dùng với ý nghĩa khái quát, dùng zero article (Ø)."
+        },
+        {
+          "id": "19",
+          "text": "She purchased a conical hat at the souvenir shop, and (article) ______ souvenir was carefully signed by the local artisan.",
+          "prompt": "article",
+          "verb": "article",
+          "correct_answer": "the",
+          "explanation": "Danh từ 'souvenir' đã được xác định cụ thể do đã nhắc đến món đồ lưu niệm ở mệnh đề trước, dùng 'the'."
+        },
+        {
+          "id": "20",
+          "text": "In the modern digital era, (article) ______ internet has become the primary platform for broadcasting global cultural trends.",
+          "prompt": "article",
+          "verb": "article",
+          "correct_answer": "the",
+          "explanation": "Thực thể duy nhất và phổ quát 'the internet' luôn đi với mạo từ xác định 'the'."
+        }
+      ]
+    },
+    "ex3_matching": {
+      "id": "3",
+      "type": "matching_halves",
+      "title": "Exercise 3: Match the Sentence Halves",
+      "instruction": "Match the sentence beginnings (1–10) with the appropriate endings (A–J) to build syntactically sound and coherent sentences illustrating article rules and cultural diversity.",
+      "target_grammar": "Articles (review and extension)",
+      "questions": [
+        {
+          "id": "1",
+          "half_a": "While traveling across the United Kingdom,"
+        },
+        {
+          "id": "2",
+          "half_a": "The master chef highlighted the local speciality"
+        },
+        {
+          "id": "3",
+          "half_a": "Although globalisation encourages cross-cultural dialogue,"
+        },
+        {
+          "id": "4",
+          "half_a": "During the mid-autumn festivities, children carried pumpkin lanterns"
+        },
+        {
+          "id": "5",
+          "half_a": "She purchased a hand-painted fan at the tourist attraction,"
+        },
+        {
+          "id": "6",
+          "half_a": "Teenagers love wearing creative costumes on Halloween,"
+        },
+        {
+          "id": "7",
+          "half_a": "Overcoming a language barrier requires consistent practice,"
+        },
+        {
+          "id": "8",
+          "half_a": "The annual multicultural carnival captivated thousands of spectators"
+        },
+        {
+          "id": "9",
+          "half_a": "Taking part in a traditional game like tug of war"
+        },
+        {
+          "id": "10",
+          "half_a": "The scientific expedition sailed across the Pacific Ocean"
+        }
+      ],
+      "options": [
+        {
+          "label": "A",
+          "half_b": "the exchange students encountered an unfamiliar regional dialect."
+        },
+        {
+          "label": "B",
+          "half_b": "because it was cooked with an organic, indigenous ingredient."
+        },
+        {
+          "label": "C",
+          "half_b": "some indigenous communities struggle to preserve their distinct cultural identity."
+        },
+        {
+          "label": "D",
+          "half_b": "while elders gathered around to enjoy a live performance of bamboo dancing."
+        },
+        {
+          "label": "E",
+          "half_b": "and the souvenir reminded her of the vibrant riverside community."
+        },
+        {
+          "label": "F",
+          "half_b": "yet venturing inside the spooky haunted house was still a cause for alarm."
+        },
+        {
+          "label": "G",
+          "half_b": "especially when communicating within a multicultural working environment."
+        },
+        {
+          "label": "H",
+          "half_b": "because it displayed a fascinating blend of international music and dance."
+        },
+        {
+          "label": "I",
+          "half_b": "serves as an enjoyable extracurricular activity that strengthens community bonding."
+        },
+        {
+          "label": "J",
+          "half_b": "to study the migration routes of rare marine mammals."
+        }
+      ],
+      "correct_matches": {
+        "1": "A",
+        "2": "B",
+        "3": "C",
+        "4": "D",
+        "5": "E",
+        "6": "F",
+        "7": "G",
+        "8": "H",
+        "9": "I",
+        "10": "J"
+      },
+      "pairs": [
+        {
+          "id": "1",
+          "first_half": "While traveling across the United Kingdom,",
+          "second_half": "the exchange students encountered an unfamiliar regional dialect.",
+          "second_half_label": "A"
+        },
+        {
+          "id": "2",
+          "first_half": "The master chef highlighted the local speciality",
+          "second_half": "because it was cooked with an organic, indigenous ingredient.",
+          "second_half_label": "B"
+        },
+        {
+          "id": "3",
+          "first_half": "Although globalisation encourages cross-cultural dialogue,",
+          "second_half": "some indigenous communities struggle to preserve their distinct cultural identity.",
+          "second_half_label": "C"
+        },
+        {
+          "id": "4",
+          "first_half": "During the mid-autumn festivities, children carried pumpkin lanterns",
+          "second_half": "while elders gathered around to enjoy a live performance of bamboo dancing.",
+          "second_half_label": "D"
+        },
+        {
+          "id": "5",
+          "first_half": "She purchased a hand-painted fan at the tourist attraction,",
+          "second_half": "and the souvenir reminded her of the vibrant riverside community.",
+          "second_half_label": "E"
+        },
+        {
+          "id": "6",
+          "first_half": "Teenagers love wearing creative costumes on Halloween,",
+          "second_half": "yet venturing inside the spooky haunted house was still a cause for alarm.",
+          "second_half_label": "F"
+        },
+        {
+          "id": "7",
+          "first_half": "Overcoming a language barrier requires consistent practice,",
+          "second_half": "especially when communicating within a multicultural working environment.",
+          "second_half_label": "G"
+        },
+        {
+          "id": "8",
+          "first_half": "The annual multicultural carnival captivated thousands of spectators",
+          "second_half": "because it displayed a fascinating blend of international music and dance.",
+          "second_half_label": "H"
+        },
+        {
+          "id": "9",
+          "first_half": "Taking part in a traditional game like tug of war",
+          "second_half": "serves as an enjoyable extracurricular activity that strengthens community bonding.",
+          "second_half_label": "I"
+        },
+        {
+          "id": "10",
+          "first_half": "The scientific expedition sailed across the Pacific Ocean",
+          "second_half": "to study the migration routes of rare marine mammals.",
+          "second_half_label": "J"
+        }
+      ]
+    },
+    "ex4_rewrite": {
+      "id": "4",
+      "type": "sentence_transformation",
+      "title": "Exercise 4: Sentence Transformation",
+      "instruction": "Rewrite each sentence using the cue provided so that it has the same meaning as the original sentence, paying close attention to article usage.",
+      "target_grammar": "Articles (review and extension)",
+      "questions": [
+        {
+          "id": "1",
+          "original_sentence": "Vietnamese cuisine is renowned worldwide because it combines fresh herbs and balanced flavours.",
+          "cue": "The",
+          "correct_answer": "The cuisine of Viet Nam is renowned worldwide for its blend of fresh herbs and balanced flavours.",
+          "acceptable_answers": [
+            "The cuisine of Viet Nam is renowned worldwide for its blend of fresh herbs and balanced flavours.",
+            "The cuisine of Viet Nam is renowned worldwide because it combines fresh herbs and balanced flavours."
+          ],
+          "explanation": "Chuyển tính từ chỉ quốc tịch 'Vietnamese cuisine' thành cụm danh từ xác định 'The cuisine of Viet Nam'."
+        },
+        {
+          "id": "2",
+          "original_sentence": "She was the first student who gave a presentation on cultural diversity in our seminar.",
+          "cue": "She was the first student to",
+          "correct_answer": "She was the first student to give a presentation on cultural diversity in our seminar.",
+          "acceptable_answers": [
+            "She was the first student to give a presentation on cultural diversity in our seminar.",
+            "She was the first student to present on cultural diversity in our seminar."
+          ],
+          "explanation": "Rút gọn mệnh đề quan hệ sau số thứ tự 'the first student' bằng động từ nguyên mẫu có to ('to give')."
+        },
+        {
+          "id": "3",
+          "original_sentence": "People believe that globalisation has a profound influence on modern youth culture.",
+          "cue": "Globalisation is believed",
+          "correct_answer": "Globalisation is believed to have a profound influence on modern youth culture.",
+          "acceptable_answers": [
+            "Globalisation is believed to have a profound influence on modern youth culture."
+          ],
+          "explanation": "Chuyển đổi câu bị động với động từ tường thuật, giữ nguyên danh từ trừu tượng 'Globalisation' với mạo từ zero."
+        },
+        {
+          "id": "4",
+          "original_sentence": "No other tourist attraction in our province is as popular as the ancient citadel.",
+          "cue": "The ancient citadel is the",
+          "correct_answer": "The ancient citadel is the most popular tourist attraction in our province.",
+          "acceptable_answers": [
+            "The ancient citadel is the most popular tourist attraction in our province."
+          ],
+          "explanation": "Chuyển từ so sánh bằng phủ định sang so sánh nhất với mạo từ xác định 'the most popular tourist attraction'."
+        },
+        {
+          "id": "5",
+          "original_sentence": "She bought an elaborate costume yesterday, and it was crafted from organic silk.",
+          "cue": "The elaborate costume that",
+          "correct_answer": "The elaborate costume that she bought yesterday was crafted from organic silk.",
+          "acceptable_answers": [
+            "The elaborate costume that she bought yesterday was crafted from organic silk.",
+            "The elaborate costume which she bought yesterday was crafted from organic silk."
+          ],
+          "explanation": "Biến đổi từ câu ghép với mạo từ bất định 'an elaborate costume' thành mệnh đề quan hệ xác định với 'The elaborate costume that...'."
+        },
+        {
+          "id": "6",
+          "original_sentence": "The carnival had such a captivating atmosphere that thousands of tourists joined the street parade.",
+          "cue": "The atmosphere of the carnival was so",
+          "correct_answer": "The atmosphere of the carnival was so captivating that thousands of tourists joined the street parade.",
+          "acceptable_answers": [
+            "The atmosphere of the carnival was so captivating that thousands of tourists joined the street parade."
+          ],
+          "explanation": "Chuyển cấu trúc 'such a + adj + noun' sang 'so + adj + that' với cụm danh từ xác định 'The atmosphere of the carnival'."
+        },
+        {
+          "id": "7",
+          "original_sentence": "Learning to play the violin requires more patience than learning any other musical instrument.",
+          "cue": "The violin is the",
+          "correct_answer": "The violin is the most demanding musical instrument to learn.",
+          "acceptable_answers": [
+            "The violin is the most demanding musical instrument to learn.",
+            "The violin is the most difficult musical instrument to learn."
+          ],
+          "explanation": "Dùng mạo từ 'the' cho nhạc cụ đại diện cả loài/loại nhạc cụ ('The violin') kết hợp so sánh nhất 'the most demanding musical instrument'."
+        },
+        {
+          "id": "8",
+          "original_sentence": "It is difficult for many exchange students to overcome a language barrier in an unfamiliar city.",
+          "cue": "Overcoming a",
+          "correct_answer": "Overcoming a language barrier in an unfamiliar city is difficult for many exchange students.",
+          "acceptable_answers": [
+            "Overcoming a language barrier in an unfamiliar city is difficult for many exchange students."
+          ],
+          "explanation": "Biến đổi cấu trúc 'It is adj for sb to V' thành danh từ/danh động từ làm chủ ngữ 'Overcoming a language barrier...'."
+        },
+        {
+          "id": "9",
+          "original_sentence": "The Pacific Ocean is wider and deeper than any other ocean on earth.",
+          "cue": "The Pacific Ocean is the",
+          "correct_answer": "The Pacific Ocean is the largest and deepest ocean on earth.",
+          "acceptable_answers": [
+            "The Pacific Ocean is the largest and deepest ocean on earth.",
+            "The Pacific Ocean is the biggest ocean on earth."
+          ],
+          "explanation": "Giữ nguyên mạo từ 'The' trước tên đại dương và áp dụng so sánh nhất 'the largest and deepest ocean on earth'."
+        },
+        {
+          "id": "10",
+          "original_sentence": "Children always feel thrilled when they take part in trick or treat on Halloween night.",
+          "cue": "Taking part in",
+          "correct_answer": "Taking part in trick or treat on Halloween night always makes children feel thrilled.",
+          "acceptable_answers": [
+            "Taking part in trick or treat on Halloween night always makes children feel thrilled.",
+            "Taking part in trick or treat on Halloween night brings great excitement to children."
+          ],
+          "explanation": "Chuyển thành danh động từ làm chủ ngữ với cụm từ không mạo từ 'trick or treat' và 'Halloween night'."
+        }
+      ]
+    },
+    "ex5_guided_cloze": {
+      "id": "5",
+      "type": "guided_cloze",
+      "title": "Exercise 5: Guided Cloze Passages",
+      "instruction": "Read the following passages and choose the best option (A, B, C, or D) for each numbered blank, applying target grammar rules and context vocabulary.",
+      "target_grammar": "Articles (review and extension)",
+      "passages": [
+        {
+          "passage_id": "1",
+          "title": "Embracing Cultural Diversity: The International Youth Festival",
+          "content": "Every autumn, our university hosts an international festival to celebrate cultural diversity and global unity. Students from more than thirty nations gather in (1) ______ central courtyard to showcase their native heritage. The opening ceremony begins with an impressive procession where participants wear (2) ______ traditional costumes adorned with intricate folk embroidery. Walking through the campus, visitors encounter (3) ______ vibrant atmosphere filled with music and laughter.\n\nAt the entrance, an information booth provides visitors with (4) ______ helpful guide outlining the schedule of performances. One of the main attractions is (5) ______ music stage, where talented students perform on various instruments. Last year, a student from Ha Noi mesmerised the audience by playing (6) ______ bamboo flute, while a classmate from Spain accompanied her on (7) ______ guitar. This creative collaboration proved that music easily bridges (8) ______ language barrier among young people.\n\nNearby, a dedicated pavilion highlights the cultural traditions of Southeast Asia. Visitors can try their hand at (9) ______ bamboo dancing, a traditional game that requires agility and rhythm. Although it initially seemed (10) ______ unfamiliar activity to many international guests, local students patiently explained each step. In the main hall, educators delivered a lecture on how (11) ______ globalisation influences contemporary youth lifestyles. They emphasized that while adopting global trends, preserving (12) ______ cultural identity remains essential for every community.\n\nFor students studying abroad, adapting to a new society can occasionally cause (13) ______ culture shock. However, participating in such extracurricular activities provides (14) ______ wonderful opportunity to form lasting friendships. During the festival, guests also explored a charity booth offering hand-made souvenirs. A young volunteer explained that (15) ______ proceeds from selling these souvenirs would support rural schools in (16) ______ northern mountainous provinces. As dusk fell, everyone gathered around the outdoor stage to admire (17) ______ moon rising above the university library. The festival concluded with (18) ______ grand fireworks display that illuminated (19) ______ entire campus. It was truly (20) ______ unforgettable celebration of multicultural harmony.",
+          "questions": [
+            {
+              "id": "1",
+              "blank_number": 1,
+              "options": [
+                "the",
+                "a",
+                "Ø",
+                "an"
+              ],
+              "correct_answer": "the",
+              "explanation": "Sân trung tâm của trường là địa điểm xác định duy nhất trong bối cảnh khuôn viên trường, dùng 'the'."
+            },
+            {
+              "id": "2",
+              "blank_number": 2,
+              "options": [
+                "an",
+                "the",
+                "a",
+                "Ø"
+              ],
+              "correct_answer": "Ø",
+              "explanation": "Danh từ số nhiều 'traditional costumes' mang ý nghĩa khái quát chung, dùng zero article (Ø)."
+            },
+            {
+              "id": "3",
+              "blank_number": 3,
+              "options": [
+                "Ø",
+                "a",
+                "an",
+                "the"
+              ],
+              "correct_answer": "a",
+              "explanation": "Cụm danh từ đếm được số ít 'vibrant atmosphere' lần đầu được giới thiệu, bắt đầu bằng phụ âm /v/, dùng 'a'."
+            },
+            {
+              "id": "4",
+              "blank_number": 4,
+              "options": [
+                "an",
+                "the",
+                "a",
+                "Ø"
+              ],
+              "correct_answer": "a",
+              "explanation": "'Helpful guide' là danh từ đếm được số ít, 'helpful' bắt đầu bằng âm phụ âm /h/, dùng 'a'."
+            },
+            {
+              "id": "5",
+              "blank_number": 5,
+              "options": [
+                "Ø",
+                "a",
+                "an",
+                "the"
+              ],
+              "correct_answer": "the",
+              "explanation": "Sân khấu âm nhạc chính của lễ hội là thực thể xác định cụ thể trong khuôn viên, dùng 'the'."
+            },
+            {
+              "id": "6",
+              "blank_number": 6,
+              "options": [
+                "an",
+                "a",
+                "Ø",
+                "the"
+              ],
+              "correct_answer": "the",
+              "explanation": "Dùng mạo từ 'the' trước tên nhạc cụ khi chơi ('playing the bamboo flute')."
+            },
+            {
+              "id": "7",
+              "blank_number": 7,
+              "options": [
+                "a",
+                "an",
+                "the",
+                "Ø"
+              ],
+              "correct_answer": "the",
+              "explanation": "Dùng mạo từ 'the' trước tên nhạc cụ đi cùng giới từ chỉ phương tiện âm nhạc ('on the guitar')."
+            },
+            {
+              "id": "8",
+              "blank_number": 8,
+              "options": [
+                "an",
+                "the",
+                "Ø",
+                "a"
+              ],
+              "correct_answer": "a",
+              "explanation": "Cụm từ mang ý nghĩa 'một rào cản ngôn ngữ' nói chung, dùng mạo từ bất định 'a'."
+            },
+            {
+              "id": "9",
+              "blank_number": 9,
+              "options": [
+                "Ø",
+                "the",
+                "a",
+                "an"
+              ],
+              "correct_answer": "Ø",
+              "explanation": "Tên điệu nhảy truyền thống hoặc trò chơi dân gian (bamboo dancing) dùng zero article (Ø)."
+            },
+            {
+              "id": "10",
+              "blank_number": 10,
+              "options": [
+                "Ø",
+                "the",
+                "an",
+                "a"
+              ],
+              "correct_answer": "an",
+              "explanation": "'Unfamiliar activity' là danh từ đếm được số ít với tính từ bắt đầu bằng nguyên âm /ʌ/, dùng 'an'."
+            },
+            {
+              "id": "11",
+              "blank_number": 11,
+              "options": [
+                "Ø",
+                "a",
+                "an",
+                "the"
+              ],
+              "correct_answer": "Ø",
+              "explanation": "'Globalisation' là danh từ trừu tượng không đếm được dùng với ý nghĩa khái quát, dùng zero article (Ø)."
+            },
+            {
+              "id": "12",
+              "blank_number": 12,
+              "options": [
+                "a",
+                "Ø",
+                "an",
+                "the"
+              ],
+              "correct_answer": "Ø",
+              "explanation": "'Cultural identity' là danh từ không đếm được chỉ bản sắc văn hóa nói chung, dùng zero article (Ø)."
+            },
+            {
+              "id": "13",
+              "blank_number": 13,
+              "options": [
+                "the",
+                "a",
+                "Ø",
+                "an"
+              ],
+              "correct_answer": "Ø",
+              "explanation": "'Culture shock' là danh từ không đếm được chỉ hiện tượng sốc văn hóa nói chung, dùng zero article (Ø)."
+            },
+            {
+              "id": "14",
+              "blank_number": 14,
+              "options": [
+                "a",
+                "an",
+                "the",
+                "Ø"
+              ],
+              "correct_answer": "a",
+              "explanation": "Danh từ số ít đếm được 'opportunity' đi sau tính từ bắt đầu bằng phụ âm 'wonderful', dùng 'a'."
+            },
+            {
+              "id": "15",
+              "blank_number": 15,
+              "options": [
+                "a",
+                "an",
+                "Ø",
+                "the"
+              ],
+              "correct_answer": "the",
+              "explanation": "'Proceeds' (tiền thu được) được xác định cụ thể bởi cụm 'from selling these souvenirs', nên dùng 'the'."
+            },
+            {
+              "id": "16",
+              "blank_number": 16,
+              "options": [
+                "Ø",
+                "the",
+                "an",
+                "a"
+              ],
+              "correct_answer": "the",
+              "explanation": "Dùng 'the' trước cụm danh từ chỉ các vùng miền địa lý cụ thể ('the northern mountainous provinces')."
+            },
+            {
+              "id": "17",
+              "blank_number": 17,
+              "options": [
+                "an",
+                "the",
+                "a",
+                "Ø"
+              ],
+              "correct_answer": "the",
+              "explanation": "'The moon' là thiên thể duy nhất trong tự nhiên, luôn dùng mạo từ xác định 'the'."
+            },
+            {
+              "id": "18",
+              "blank_number": 18,
+              "options": [
+                "the",
+                "Ø",
+                "a",
+                "an"
+              ],
+              "correct_answer": "a",
+              "explanation": "Cụm danh từ đếm được số ít 'grand fireworks display' lần đầu xuất hiện, dùng mạo từ 'a'."
+            },
+            {
+              "id": "19",
+              "blank_number": 19,
+              "options": [
+                "the",
+                "an",
+                "a",
+                "Ø"
+              ],
+              "correct_answer": "the",
+              "explanation": "Toàn bộ khuôn viên trường là không gian cụ thể xác định ('the entire campus'), dùng 'the'."
+            },
+            {
+              "id": "20",
+              "blank_number": 20,
+              "options": [
+                "a",
+                "an",
+                "Ø",
+                "the"
+              ],
+              "correct_answer": "an",
+              "explanation": "Cụm danh từ số ít 'unforgettable celebration' bắt đầu bằng nguyên âm /ʌ/, dùng mạo từ 'an'."
+            }
+          ]
+        },
+        {
+          "passage_id": "2",
+          "title": "Global Flavours: The Journey of World Cuisines and Traditions",
+          "content": "Food has always served as (21) ______ universal language that connects communities across continents. Through trade routes and modern globalisation, culinary traditions have traveled far beyond their places of (22) ______ origin. Today, walking down any bustling metropolitan street, one can observe (23) ______ diverse range of international eateries. From aromatic noodle shops to authentic Italian pizzerias, world (24) ______ cuisine has captured the hearts of modern diners.\n\nIn many tourist destinations, the night market is regarded as (25) ______ premier tourist attraction. Here, dozens of independent vendors set up (26) ______ food stall offering freshly cooked delicacies. Each vendor proudly promotes (27) ______ local speciality, preparing dishes with passion and precision. For instance, in Hue, chefs use (28) ______ shrimp paste as an essential ingredient to craft distinctive royal broths. The aroma alone is enough to captivate (29) ______ tourists who wander past.\n\nCulinary exchange also encourages people to respect (30) ______ cultural diversity. When tourists taste unfamiliar dishes, they learn to appreciate (31) ______ customs and history embedded in each recipe. Food critics note that modern culinary trends represent (32) ______ fascinating blend of traditional heritage and contemporary innovation. A chef in London might combine British roast beef with spices imported from (33) ______ India, creating a completely new dining experience.\n\nFestivals around the globe further celebrate these gastronomic traditions. During European carnivals, street bakers prepare sweet pastries, while in America, families celebrate autumn by carving (34) ______ pumpkin lantern and sharing pumpkin pies. On Halloween, young children wear scary costumes, visit neighbours for (35) ______ trick or treat, and explore haunted houses without any real (36) ______ cause for alarm. At the same time, communities along (37) ______ Mediterranean Sea gather for open-air feasts to celebrate the olive harvest.\n\nUltimately, food allows us to experience the world without crossing (38) ______ ocean. It reminds us that despite our different backgrounds, human beings share (39) ______ fundamental desire for fellowship and celebration. Embracing world cuisines is not merely a gastronomic trend; it is (40) ______ vital step toward cross-cultural understanding.",
+          "questions": [
+            {
+              "id": "21",
+              "blank_number": 21,
+              "options": [
+                "a",
+                "Ø",
+                "an",
+                "the"
+              ],
+              "correct_answer": "a",
+              "explanation": "Từ 'universal' bắt đầu bằng âm bán nguyên âm /juː/, do đó dùng mạo từ bất định 'a universal language'."
+            },
+            {
+              "id": "22",
+              "blank_number": 22,
+              "options": [
+                "an",
+                "Ø",
+                "a",
+                "the"
+              ],
+              "correct_answer": "Ø",
+              "explanation": "Cụm danh từ 'places of origin' dùng zero article (Ø) trước danh từ không đếm được/trừu tượng 'origin'."
+            },
+            {
+              "id": "23",
+              "blank_number": 23,
+              "options": [
+                "an",
+                "Ø",
+                "a",
+                "the"
+              ],
+              "correct_answer": "a",
+              "explanation": "Cụm thành ngữ chỉ số lượng/đa dạng: 'a diverse range of' (một loạt/đa dạng các...)."
+            },
+            {
+              "id": "24",
+              "blank_number": 24,
+              "options": [
+                "the",
+                "a",
+                "Ø",
+                "an"
+              ],
+              "correct_answer": "Ø",
+              "explanation": "'World cuisine' được dùng với nghĩa khái quát chỉ nền ẩm thực thế giới nói chung, dùng zero article (Ø)."
+            },
+            {
+              "id": "25",
+              "blank_number": 25,
+              "options": [
+                "Ø",
+                "an",
+                "a",
+                "the"
+              ],
+              "correct_answer": "the",
+              "explanation": "Dùng 'the' trước tính từ mang ý nghĩa tối thượng/hàng đầu ('the premier tourist attraction')."
+            },
+            {
+              "id": "26",
+              "blank_number": 26,
+              "options": [
+                "Ø",
+                "an",
+                "the",
+                "a"
+              ],
+              "correct_answer": "a",
+              "explanation": "Danh từ đếm được số ít 'food stall' được nhắc đến với nghĩa 'một quầy hàng', dùng 'a'."
+            },
+            {
+              "id": "27",
+              "blank_number": 27,
+              "options": [
+                "a",
+                "Ø",
+                "an",
+                "the"
+              ],
+              "correct_answer": "a",
+              "explanation": "Danh từ đếm được số ít 'local speciality' mang nghĩa 'một đặc sản địa phương', dùng mạo từ 'a'."
+            },
+            {
+              "id": "28",
+              "blank_number": 28,
+              "options": [
+                "an",
+                "a",
+                "the",
+                "Ø"
+              ],
+              "correct_answer": "Ø",
+              "explanation": "'Shrimp paste' (mắm tôm) là danh từ không đếm được chỉ nguyên liệu chung, dùng zero article (Ø)."
+            },
+            {
+              "id": "29",
+              "blank_number": 29,
+              "options": [
+                "Ø",
+                "a",
+                "an",
+                "the"
+              ],
+              "correct_answer": "the",
+              "explanation": "'Tourists' được xác định cụ thể bởi mệnh đề quan hệ 'who wander past', nên dùng mạo từ xác định 'the'."
+            },
+            {
+              "id": "30",
+              "blank_number": 30,
+              "options": [
+                "a",
+                "Ø",
+                "an",
+                "the"
+              ],
+              "correct_answer": "Ø",
+              "explanation": "'Cultural diversity' là danh từ trừu tượng không đếm được chỉ sự đa dạng văn hóa nói chung, dùng zero article (Ø)."
+            },
+            {
+              "id": "31",
+              "blank_number": 31,
+              "options": [
+                "the",
+                "an",
+                "Ø",
+                "a"
+              ],
+              "correct_answer": "the",
+              "explanation": "Danh từ 'customs' được xác định bởi cụm 'embedded in each recipe', nên dùng mạo từ 'the'."
+            },
+            {
+              "id": "32",
+              "blank_number": 32,
+              "options": [
+                "the",
+                "Ø",
+                "a",
+                "an"
+              ],
+              "correct_answer": "a",
+              "explanation": "Cụm danh từ đếm được số ít 'fascinating blend' bắt đầu bằng âm phụ âm /f/, dùng mạo từ 'a'."
+            },
+            {
+              "id": "33",
+              "blank_number": 33,
+              "options": [
+                "a",
+                "Ø",
+                "an",
+                "the"
+              ],
+              "correct_answer": "Ø",
+              "explanation": "Tên các quốc gia thông thường ở dạng số ít như India, Viet Nam không dùng mạo từ (zero article Ø)."
+            },
+            {
+              "id": "34",
+              "blank_number": 34,
+              "options": [
+                "an",
+                "a",
+                "Ø",
+                "the"
+              ],
+              "correct_answer": "a",
+              "explanation": "Danh từ đếm được số ít 'pumpkin lantern' mang nghĩa chạm khắc một chiếc đèn bí ngô, dùng 'a'."
+            },
+            {
+              "id": "35",
+              "blank_number": 35,
+              "options": [
+                "an",
+                "a",
+                "Ø",
+                "the"
+              ],
+              "correct_answer": "Ø",
+              "explanation": "Cụm thành ngữ hoạt động lễ hội 'trick or treat' dùng zero article (Ø)."
+            },
+            {
+              "id": "36",
+              "blank_number": 36,
+              "options": [
+                "Ø",
+                "the",
+                "a",
+                "an"
+              ],
+              "correct_answer": "Ø",
+              "explanation": "Thành ngữ cố định 'cause for alarm' (lý do để lo lắng) không đi kèm mạo từ (zero article Ø)."
+            },
+            {
+              "id": "37",
+              "blank_number": 37,
+              "options": [
+                "an",
+                "a",
+                "Ø",
+                "the"
+              ],
+              "correct_answer": "the",
+              "explanation": "Dùng mạo từ 'the' trước tên các biển và đại dương (the Mediterranean Sea)."
+            },
+            {
+              "id": "38",
+              "blank_number": 38,
+              "options": [
+                "the",
+                "a",
+                "an",
+                "Ø"
+              ],
+              "correct_answer": "an",
+              "explanation": "Danh từ đếm được số ít 'ocean' bắt đầu bằng nguyên âm /ˈəʊʃn/, dùng mạo từ 'an'."
+            },
+            {
+              "id": "39",
+              "blank_number": 39,
+              "options": [
+                "the",
+                "a",
+                "Ø",
+                "an"
+              ],
+              "correct_answer": "a",
+              "explanation": "Cụm danh từ đếm được số ít 'fundamental desire' bắt đầu bằng âm phụ âm /f/, dùng mạo từ 'a'."
+            },
+            {
+              "id": "40",
+              "blank_number": 40,
+              "options": [
+                "a",
+                "Ø",
+                "an",
+                "the"
+              ],
+              "correct_answer": "a",
+              "explanation": "Cụm danh từ đếm được số ít 'vital step' bắt đầu bằng âm phụ âm /v/, dùng mạo từ 'a'."
+            }
+          ]
+        }
+      ]
+    },
+    "ex6_error_identification": {
+      "id": "6",
+      "type": "error_identification",
+      "title": "Exercise 6: Error Identification & Correction",
+      "instruction": "Identify the bracketed part (A, B, C, or D) that contains a grammatical error in each sentence, then provide the correct form.",
+      "target_grammar": "Articles (review and extension)",
+      "questions": [
+        {
+          "id": "1",
+          "text": "When we traveled across [A: the Viet Nam] last summer, we visited [B: an ancient temple] and admired [C: the stunning architecture] of [D: the imperial citadel].",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct_answer": "A",
+          "error_segment": "the Viet Nam",
+          "correction": "Viet Nam",
+          "explanation": "Tên hầu hết các quốc gia ở dạng số ít đơn lẻ (như Viet Nam, Japan) không dùng mạo từ 'the'."
+        },
+        {
+          "id": "2",
+          "text": "My older brother is learning to play [A: guitar] at [B: a youth club], while my sister [C: is practicing] the bamboo flute for [D: an upcoming competition].",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct_answer": "A",
+          "error_segment": "guitar",
+          "correction": "the guitar",
+          "explanation": "Dùng mạo từ 'the' trước danh từ chỉ nhạc cụ khi đi cùng động từ 'play' hoặc 'learn to play' ('play the guitar')."
+        },
+        {
+          "id": "3",
+          "text": "Millions of international travelers visit [A: the Philippines] every year to relax on [B: pristine beaches] and explore marine life in [C: Pacific] [D: Ocean].",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct_answer": "C",
+          "error_segment": "Pacific",
+          "correction": "the Pacific",
+          "explanation": "Tên các đại dương luôn phải có mạo từ xác định 'the' phía trước ('the Pacific Ocean')."
+        },
+        {
+          "id": "4",
+          "text": "During the highland carnival, local students [A: wore] authentic costumes and [B: enthusiastically played] [C: the tug of war] on [D: the village square].",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct_answer": "C",
+          "error_segment": "the tug of war",
+          "correction": "tug of war",
+          "explanation": "Tên các trò chơi thể thao dân gian truyền thống (như tug of war, football) không đi kèm mạo từ 'the'."
+        },
+        {
+          "id": "5",
+          "text": "The mountaineering team traveled to [A: the Mount Everest] to conduct research on glaciers, but they encountered [B: an unexpected blizzard] near [C: the base camp] [D: yesterday].",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct_answer": "A",
+          "error_segment": "the Mount Everest",
+          "correction": "Mount Everest",
+          "explanation": "Tên các ngọn núi đơn lẻ (như Mount Everest, Mount Fansipan) không dùng mạo từ 'the'."
+        },
+        {
+          "id": "6",
+          "text": "[A: The globalisation] has created [B: unprecedented opportunities] for youth across developing countries to participate in [C: international] [D: culture exchange].",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct_answer": "A",
+          "error_segment": "The globalisation",
+          "correction": "Globalisation",
+          "explanation": "'Globalisation' là danh từ trừu tượng không đếm được dùng với ý nghĩa khái quát toàn cầu, không dùng mạo từ 'the'."
+        },
+        {
+          "id": "7",
+          "text": "She purchased [A: an unique] souvenir at [B: the night market] to remind herself of [C: the memorable trip] to [D: the ancient town].",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct_answer": "A",
+          "error_segment": "an unique",
+          "correction": "a unique",
+          "explanation": "Tính từ 'unique' bắt đầu bằng âm bán nguyên âm /juː/, vì vậy phải dùng mạo từ 'a' thay vì 'an'."
+        },
+        {
+          "id": "8",
+          "text": "After exploring [A: the Louvre Museum] in [B: the Paris], the exchange students enjoyed lunch at [C: a traditional bistro] near [D: the Seine River].",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct_answer": "B",
+          "error_segment": "the Paris",
+          "correction": "Paris",
+          "explanation": "Tên các thành phố (như Paris, Ha Noi, London) không sử dụng mạo từ xác định 'the'."
+        },
+        {
+          "id": "9",
+          "text": "Last Saturday evening, our entire family [A: had] [B: a dinner] at [C: a bustling food stall] that serves [D: authentic Hue specialities].",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct_answer": "B",
+          "error_segment": "a dinner",
+          "correction": "dinner",
+          "explanation": "Tên các bữa ăn thông thường trong ngày không có tính từ bổ nghĩa phía trước thì không dùng mạo từ 'a' ('had dinner')."
+        },
+        {
+          "id": "10",
+          "text": "The environmentalists crossed [A: the Sahara Desert] to assess [B: the severe impact of droughts] on wildlife in [C: northern] [D: an Africa].",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct_answer": "D",
+          "error_segment": "an Africa",
+          "correction": "Africa",
+          "explanation": "Tên các châu lục (như Africa, Asia, Europe) không dùng mạo từ."
+        }
+      ]
+    },
+    "ex7_sentence_combination": {
+      "id": "7",
+      "type": "sentence_combination",
+      "title": "Exercise 7: Sentence Combination",
+      "instruction": "Combine each pair of sentences into a single, coherent sentence using the target grammatical structure indicated.",
+      "target_grammar": "Articles (review and extension)",
+      "questions": [
+        {
+          "id": "1",
+          "sentence_1": "The annual carnival features a captivating blend of traditional music.",
+          "sentence_2": "It attracts thousands of international spectators every year.",
+          "cue": "Use a relative clause with 'which'",
+          "correct_answer": "The annual carnival features a captivating blend of traditional music, which attracts thousands of international spectators every year.",
+          "acceptable_answers": [
+            "The annual carnival features a captivating blend of traditional music, which attracts thousands of international spectators every year.",
+            "The annual carnival, which features a captivating blend of traditional music, attracts thousands of international spectators every year."
+          ],
+          "explanation": "Dùng đại từ quan hệ 'which' tạo mệnh đề quan hệ bổ nghĩa cho mệnh đề hoặc danh từ phía trước."
+        },
+        {
+          "id": "2",
+          "sentence_1": "The local chef used an organic secret ingredient.",
+          "sentence_2": "The speciality dish became the highlight of the food festival.",
+          "cue": "Use 'Because'",
+          "correct_answer": "Because the local chef used an organic secret ingredient, the speciality dish became the highlight of the food festival.",
+          "acceptable_answers": [
+            "Because the local chef used an organic secret ingredient, the speciality dish became the highlight of the food festival.",
+            "The speciality dish became the highlight of the food festival because the local chef used an organic secret ingredient."
+          ],
+          "explanation": "Dùng liên từ 'Because' chỉ nguyên nhân kết quả, kết hợp chính xác mạo từ 'an organic secret ingredient' và 'the speciality dish'."
+        },
+        {
+          "id": "3",
+          "sentence_1": "Globalisation expands international economic trade.",
+          "sentence_2": "It also promotes cultural diversity among modern youth.",
+          "cue": "Use 'Not only... but also'",
+          "correct_answer": "Not only does globalisation expand international economic trade, but it also promotes cultural diversity among modern youth.",
+          "acceptable_answers": [
+            "Not only does globalisation expand international economic trade, but it also promotes cultural diversity among modern youth.",
+            "Globalisation not only expands international economic trade but also promotes cultural diversity among modern youth."
+          ],
+          "explanation": "Dùng cấu trúc đảo ngữ với 'Not only does... but it also...' hoặc cấu trúc song hành nối hai vị ngữ."
+        },
+        {
+          "id": "4",
+          "sentence_1": "Students learn more about unfamiliar customs.",
+          "sentence_2": "They appreciate cultural diversity more deeply.",
+          "cue": "Use 'The more... the more'",
+          "correct_answer": "The more students learn about unfamiliar customs, the more deeply they appreciate cultural diversity.",
+          "acceptable_answers": [
+            "The more students learn about unfamiliar customs, the more deeply they appreciate cultural diversity.",
+            "The more they learn about unfamiliar customs, the more students appreciate cultural diversity."
+          ],
+          "explanation": "Cấu trúc so sánh kép 'The more + S + V, the more + S + V' thể hiện mối tương quan tăng tiến."
+        },
+        {
+          "id": "5",
+          "sentence_1": "The young musicians formed a multicultural ensemble.",
+          "sentence_2": "They wanted to overcome language barriers through their art.",
+          "cue": "Use 'in order to'",
+          "correct_answer": "The young musicians formed a multicultural ensemble in order to overcome language barriers through their art.",
+          "acceptable_answers": [
+            "The young musicians formed a multicultural ensemble in order to overcome language barriers through their art.",
+            "In order to overcome language barriers through their art, the young musicians formed a multicultural ensemble."
+          ],
+          "explanation": "Dùng cụm chỉ mục đích 'in order to + V' để nối hai câu có chung chủ ngữ."
+        },
+        {
+          "id": "6",
+          "sentence_1": "The ancient citadel is a renowned tourist attraction.",
+          "sentence_2": "It was recognised as a World Cultural Heritage Site by UNESCO.",
+          "cue": "Use 'which'",
+          "correct_answer": "The ancient citadel, which is a renowned tourist attraction, was recognised as a World Cultural Heritage Site by UNESCO.",
+          "acceptable_answers": [
+            "The ancient citadel, which is a renowned tourist attraction, was recognised as a World Cultural Heritage Site by UNESCO.",
+            "The ancient citadel is a renowned tourist attraction which was recognised as a World Cultural Heritage Site by UNESCO."
+          ],
+          "explanation": "Sử dụng mệnh đề quan hệ không xác định với 'which' để bổ sung thông tin cho chủ ngữ 'The ancient citadel'."
+        },
+        {
+          "id": "7",
+          "sentence_1": "Children dressed in creative Halloween costumes.",
+          "sentence_2": "They eagerly went trick or treating across the neighbourhood.",
+          "cue": "Use 'Dressed in'",
+          "correct_answer": "Dressed in creative Halloween costumes, the children eagerly went trick or treating across the neighbourhood.",
+          "acceptable_answers": [
+            "Dressed in creative Halloween costumes, the children eagerly went trick or treating across the neighbourhood."
+          ],
+          "explanation": "Rút gọn mệnh đề đồng chủ ngữ thành cụm quá khứ phân từ 'Dressed in creative Halloween costumes'."
+        },
+        {
+          "id": "8",
+          "sentence_1": "The exchange student experienced severe culture shock at first.",
+          "sentence_2": "She quickly adapted to the multicultural lifestyle in the United Kingdom.",
+          "cue": "Use 'Although'",
+          "correct_answer": "Although the exchange student experienced severe culture shock at first, she quickly adapted to the multicultural lifestyle in the United Kingdom.",
+          "acceptable_answers": [
+            "Although the exchange student experienced severe culture shock at first, she quickly adapted to the multicultural lifestyle in the United Kingdom.",
+            "The exchange student quickly adapted to the multicultural lifestyle in the United Kingdom although she experienced severe culture shock at first."
+          ],
+          "explanation": "Dùng liên từ nhượng bộ 'Although' nối hai mệnh đề có ý nghĩa tương phản."
+        },
+        {
+          "id": "9",
+          "sentence_1": "Playing a traditional game like tug of war builds physical endurance.",
+          "sentence_2": "It also reinforces teamwork during school festivities.",
+          "cue": "Use 'Besides'",
+          "correct_answer": "Besides building physical endurance, playing a traditional game like tug of war reinforces teamwork during school festivities.",
+          "acceptable_answers": [
+            "Besides building physical endurance, playing a traditional game like tug of war reinforces teamwork during school festivities."
+          ],
+          "explanation": "Dùng 'Besides + V-ing' để bổ sung thêm lợi ích của hoạt động trò chơi dân gian."
+        },
+        {
+          "id": "10",
+          "sentence_1": "The internet connects individuals from diverse backgrounds.",
+          "sentence_2": "It allows young people to appreciate cultural differences effortlessly.",
+          "cue": "Use 'By connecting'",
+          "correct_answer": "By connecting individuals from diverse backgrounds, the internet allows young people to appreciate cultural differences effortlessly.",
+          "acceptable_answers": [
+            "By connecting individuals from diverse backgrounds, the internet allows young people to appreciate cultural differences effortlessly."
+          ],
+          "explanation": "Dùng giới từ 'By + V-ing' diễn đạt phương tiện / cách thức mà 'the internet' tạo điều kiện cho giới trẻ."
+        }
+      ]
+    },
+    "ex8_sentence_building": {
+      "id": "8",
+      "type": "sentence_building",
+      "title": "Exercise 8: Sentence Building from Cues",
+      "instruction": "Use the given cue words to write complete, grammatically correct sentences, inserting appropriate articles (a, an, the, or Ø) and necessary prepositions or verb inflections.",
+      "target_grammar": "Articles (review and extension)",
+      "questions": [
+        {
+          "id": "1",
+          "cues": "globalisation / create / many / opportunity / for / youth / participate / culture exchange",
+          "correct_answer": "Globalisation creates many opportunities for youth to participate in culture exchange.",
+          "acceptable_answers": [
+            "Globalisation creates many opportunities for youth to participate in culture exchange.",
+            "Globalisation has created many opportunities for youth to participate in culture exchange."
+          ],
+          "explanation": "'Globalisation' dùng zero article, 'youth' chỉ giới trẻ nói chung, thêm giới từ 'in' sau 'participate'."
+        },
+        {
+          "id": "2",
+          "cues": "while / travel / across / United Kingdom / exchange / student / experience / culture shock",
+          "correct_answer": "While traveling across the United Kingdom, the exchange students experienced culture shock.",
+          "acceptable_answers": [
+            "While traveling across the United Kingdom, the exchange students experienced culture shock.",
+            "While traveling across the United Kingdom, an exchange student experienced culture shock."
+          ],
+          "explanation": "Thêm 'the' trước 'United Kingdom', 'the exchange students' và zero article trước 'culture shock'."
+        },
+        {
+          "id": "3",
+          "cues": "participating / traditional game / like / tug of war / be / great / extracurricular activity",
+          "correct_answer": "Participating in a traditional game like tug of war is a great extracurricular activity.",
+          "acceptable_answers": [
+            "Participating in a traditional game like tug of war is a great extracurricular activity."
+          ],
+          "explanation": "Thêm giới từ 'in', mạo từ 'a traditional game', zero article trước 'tug of war', và 'a great extracurricular activity'."
+        },
+        {
+          "id": "4",
+          "cues": "during / autumn / festival / children / carry / pumpkin lantern / and / wear / costume",
+          "correct_answer": "During the autumn festival, children carried pumpkin lanterns and wore colourful costumes.",
+          "acceptable_answers": [
+            "During the autumn festival, children carried pumpkin lanterns and wore colourful costumes.",
+            "During the autumn festival, children carry pumpkin lanterns and wear colourful costumes."
+          ],
+          "explanation": "Thêm 'the' trước 'autumn festival', dạng số nhiều 'pumpkin lanterns' và 'colourful costumes' dùng zero article."
+        },
+        {
+          "id": "5",
+          "cues": "local / chef / use / fresh / ingredient / to / prepare / unique / speciality / of / region",
+          "correct_answer": "The local chef used fresh ingredients to prepare a unique speciality of the region.",
+          "acceptable_answers": [
+            "The local chef used fresh ingredients to prepare a unique speciality of the region.",
+            "The local chef uses fresh ingredients to prepare the unique speciality of the region."
+          ],
+          "explanation": "Thêm 'The' trước 'local chef', zero article trước danh từ số nhiều 'fresh ingredients', 'a unique speciality' và 'the region'."
+        },
+        {
+          "id": "6",
+          "cues": "ancient / town / be / popular / tourist attraction / which / attract / visitors / all / over / world",
+          "correct_answer": "The ancient town is a popular tourist attraction which attracts visitors from all over the world.",
+          "acceptable_answers": [
+            "The ancient town is a popular tourist attraction which attracts visitors from all over the world."
+          ],
+          "explanation": "Thêm 'The ancient town', 'a popular tourist attraction', và cụm cố định 'from all over the world'."
+        },
+        {
+          "id": "7",
+          "cues": "she / buy / hand-crafted / souvenir / at / night market / after / enjoy / local / cuisine",
+          "correct_answer": "She bought a hand-crafted souvenir at the night market after enjoying the local cuisine.",
+          "acceptable_answers": [
+            "She bought a hand-crafted souvenir at the night market after enjoying the local cuisine.",
+            "She bought a hand-crafted souvenir at the night market after enjoying local cuisine."
+          ],
+          "explanation": "Thêm mạo từ 'a hand-crafted souvenir', 'the night market' và 'the local cuisine' (hoặc zero article)."
+        },
+        {
+          "id": "8",
+          "cues": "learning / to / play / flute / help / student / appreciate / cultural identity",
+          "correct_answer": "Learning to play the flute helps students appreciate their cultural identity.",
+          "acceptable_answers": [
+            "Learning to play the flute helps students appreciate their cultural identity.",
+            "Learning to play the flute helps students appreciate cultural identity."
+          ],
+          "explanation": "Dùng 'the' trước tên nhạc cụ 'the flute', chia động từ 'helps' theo danh động từ 'Learning'."
+        },
+        {
+          "id": "9",
+          "cues": "expedition / team / sail / across / Pacific Ocean / to / study / marine / life",
+          "correct_answer": "The expedition team sailed across the Pacific Ocean to study marine life.",
+          "acceptable_answers": [
+            "The expedition team sailed across the Pacific Ocean to study marine life."
+          ],
+          "explanation": "Thêm mạo từ xác định 'The expedition team', 'the Pacific Ocean' và zero article trước 'marine life'."
+        },
+        {
+          "id": "10",
+          "cues": "entering / dark / haunted house / during / carnival / be / not / cause for alarm",
+          "correct_answer": "Entering a dark haunted house during the carnival was not a cause for alarm.",
+          "acceptable_answers": [
+            "Entering a dark haunted house during the carnival was not a cause for alarm.",
+            "Entering a dark haunted house during the carnival is not a cause for alarm."
+          ],
+          "explanation": "Thêm 'a dark haunted house', 'the carnival', và cụm vị ngữ 'not a cause for alarm'."
+        }
+      ]
+    }
+  }
+}

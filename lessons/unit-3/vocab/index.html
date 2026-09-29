@@ -1302,6 +1302,25 @@
             flex-shrink: 0;
         }
 
+        .sign-board.has-image {
+            background: #ffffff;
+            padding: 4px;
+            border: 1px solid var(--border-subtle);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .sign-img-view {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 1 / 1;
+            object-fit: contain;
+            display: block;
+            border-radius: 8px;
+        }
+
         .sign-icon-circle {
             font-size: 32px;
             margin-bottom: 8px;
@@ -2805,22 +2824,22 @@
                     <span class="option-text">layer</span>
                     <span class="check-icon">✓</span>
                 </label>
-                <label class="option-label" for="opt_0_0_1" data-is-correct="false">
-                    <input type="radio" name="ex_0_q_0" id="opt_0_0_1" value="wildfire" onchange="markSelected(this)">
+                <label class="option-label" for="opt_0_0_1" data-is-correct="true">
+                    <input type="radio" name="ex_0_q_0" id="opt_0_0_1" value="landfill" onchange="markSelected(this)">
                     <span class="option-badge">B</span>
-                    <span class="option-text">wildfire</span>
-                    <span class="check-icon">✓</span>
-                </label>
-                <label class="option-label" for="opt_0_0_2" data-is-correct="true">
-                    <input type="radio" name="ex_0_q_0" id="opt_0_0_2" value="landfill" onchange="markSelected(this)">
-                    <span class="option-badge">C</span>
                     <span class="option-text">landfill</span>
                     <span class="check-icon">✓</span>
                 </label>
-                <label class="option-label" for="opt_0_0_3" data-is-correct="false">
-                    <input type="radio" name="ex_0_q_0" id="opt_0_0_3" value="plant pot" onchange="markSelected(this)">
-                    <span class="option-badge">D</span>
+                <label class="option-label" for="opt_0_0_2" data-is-correct="false">
+                    <input type="radio" name="ex_0_q_0" id="opt_0_0_2" value="plant pot" onchange="markSelected(this)">
+                    <span class="option-badge">C</span>
                     <span class="option-text">plant pot</span>
+                    <span class="check-icon">✓</span>
+                </label>
+                <label class="option-label" for="opt_0_0_3" data-is-correct="false">
+                    <input type="radio" name="ex_0_q_0" id="opt_0_0_3" value="wildfire" onchange="markSelected(this)">
+                    <span class="option-badge">D</span>
+                    <span class="option-text">wildfire</span>
                     <span class="check-icon">✓</span>
                 </label>
                 </div>
@@ -2835,21 +2854,21 @@
                 <div class="options-grid">
                     
                 <label class="option-label" for="opt_0_1_0" data-is-correct="false">
-                    <input type="radio" name="ex_0_q_1" id="opt_0_1_0" value="it contaminates" onchange="markSelected(this)">
+                    <input type="radio" name="ex_0_q_1" id="opt_0_1_0" value="it burns as a fuel" onchange="markSelected(this)">
                     <span class="option-badge">A</span>
-                    <span class="option-text">it contaminates</span>
-                    <span class="check-icon">✓</span>
-                </label>
-                <label class="option-label" for="opt_0_1_1" data-is-correct="false">
-                    <input type="radio" name="ex_0_q_1" id="opt_0_1_1" value="it burns as a fuel" onchange="markSelected(this)">
-                    <span class="option-badge">B</span>
                     <span class="option-text">it burns as a fuel</span>
                     <span class="check-icon">✓</span>
                 </label>
-                <label class="option-label" for="opt_0_1_2" data-is-correct="false">
-                    <input type="radio" name="ex_0_q_1" id="opt_0_1_2" value="it turns into metal" onchange="markSelected(this)">
-                    <span class="option-badge">C</span>
+                <label class="option-label" for="opt_0_1_1" data-is-correct="false">
+                    <input type="radio" name="ex_0_q_1" id="opt_0_1_1" value="it turns into metal" onchange="markSelected(this)">
+                    <span class="option-badge">B</span>
                     <span class="option-text">it turns into metal</span>
+                    <span class="check-icon">✓</span>
+                </label>
+                <label class="option-label" for="opt_0_1_2" data-is-correct="false">
+                    <input type="radio" name="ex_0_q_1" id="opt_0_1_2" value="it contaminates" onchange="markSelected(this)">
+                    <span class="option-badge">C</span>
+                    <span class="option-text">it contaminates</span>
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_0_1_3" data-is-correct="true">
@@ -2870,27 +2889,27 @@
                 <div class="options-grid">
                     
                 <label class="option-label" for="opt_0_2_0" data-is-correct="false">
-                    <input type="radio" name="ex_0_q_2" id="opt_0_2_0" value="sustainable" onchange="markSelected(this)">
+                    <input type="radio" name="ex_0_q_2" id="opt_0_2_0" value="recyclable" onchange="markSelected(this)">
                     <span class="option-badge">A</span>
-                    <span class="option-text">sustainable</span>
+                    <span class="option-text">recyclable</span>
                     <span class="check-icon">✓</span>
                 </label>
-                <label class="option-label" for="opt_0_2_1" data-is-correct="true">
-                    <input type="radio" name="ex_0_q_2" id="opt_0_2_1" value="single-use" onchange="markSelected(this)">
+                <label class="option-label" for="opt_0_2_1" data-is-correct="false">
+                    <input type="radio" name="ex_0_q_2" id="opt_0_2_1" value="eco-friendly" onchange="markSelected(this)">
                     <span class="option-badge">B</span>
-                    <span class="option-text">single-use</span>
-                    <span class="check-icon">✓</span>
-                </label>
-                <label class="option-label" for="opt_0_2_2" data-is-correct="false">
-                    <input type="radio" name="ex_0_q_2" id="opt_0_2_2" value="eco-friendly" onchange="markSelected(this)">
-                    <span class="option-badge">C</span>
                     <span class="option-text">eco-friendly</span>
                     <span class="check-icon">✓</span>
                 </label>
+                <label class="option-label" for="opt_0_2_2" data-is-correct="true">
+                    <input type="radio" name="ex_0_q_2" id="opt_0_2_2" value="single-use" onchange="markSelected(this)">
+                    <span class="option-badge">C</span>
+                    <span class="option-text">single-use</span>
+                    <span class="check-icon">✓</span>
+                </label>
                 <label class="option-label" for="opt_0_2_3" data-is-correct="false">
-                    <input type="radio" name="ex_0_q_2" id="opt_0_2_3" value="recyclable" onchange="markSelected(this)">
+                    <input type="radio" name="ex_0_q_2" id="opt_0_2_3" value="sustainable" onchange="markSelected(this)">
                     <span class="option-badge">D</span>
-                    <span class="option-text">recyclable</span>
+                    <span class="option-text">sustainable</span>
                     <span class="check-icon">✓</span>
                 </label>
                 </div>
@@ -2905,27 +2924,27 @@
                 <div class="options-grid">
                     
                 <label class="option-label" for="opt_0_3_0" data-is-correct="false">
-                    <input type="radio" name="ex_0_q_3" id="opt_0_3_0" value="burn it" onchange="markSelected(this)">
+                    <input type="radio" name="ex_0_q_3" id="opt_0_3_0" value="bury it" onchange="markSelected(this)">
                     <span class="option-badge">A</span>
-                    <span class="option-text">burn it</span>
-                    <span class="check-icon">✓</span>
-                </label>
-                <label class="option-label" for="opt_0_3_1" data-is-correct="false">
-                    <input type="radio" name="ex_0_q_3" id="opt_0_3_1" value="bury it" onchange="markSelected(this)">
-                    <span class="option-badge">B</span>
                     <span class="option-text">bury it</span>
                     <span class="check-icon">✓</span>
                 </label>
-                <label class="option-label" for="opt_0_3_2" data-is-correct="false">
-                    <input type="radio" name="ex_0_q_3" id="opt_0_3_2" value="freeze it" onchange="markSelected(this)">
-                    <span class="option-badge">C</span>
+                <label class="option-label" for="opt_0_3_1" data-is-correct="false">
+                    <input type="radio" name="ex_0_q_3" id="opt_0_3_1" value="freeze it" onchange="markSelected(this)">
+                    <span class="option-badge">B</span>
                     <span class="option-text">freeze it</span>
                     <span class="check-icon">✓</span>
                 </label>
-                <label class="option-label" for="opt_0_3_3" data-is-correct="true">
-                    <input type="radio" name="ex_0_q_3" id="opt_0_3_3" value="rinse it out" onchange="markSelected(this)">
-                    <span class="option-badge">D</span>
+                <label class="option-label" for="opt_0_3_2" data-is-correct="true">
+                    <input type="radio" name="ex_0_q_3" id="opt_0_3_2" value="rinse it out" onchange="markSelected(this)">
+                    <span class="option-badge">C</span>
                     <span class="option-text">rinse it out</span>
+                    <span class="check-icon">✓</span>
+                </label>
+                <label class="option-label" for="opt_0_3_3" data-is-correct="false">
+                    <input type="radio" name="ex_0_q_3" id="opt_0_3_3" value="burn it" onchange="markSelected(this)">
+                    <span class="option-badge">D</span>
+                    <span class="option-text">burn it</span>
                     <span class="check-icon">✓</span>
                 </label>
                 </div>
@@ -2940,21 +2959,21 @@
                 <div class="options-grid">
                     
                 <label class="option-label" for="opt_0_4_0" data-is-correct="false">
-                    <input type="radio" name="ex_0_q_4" id="opt_0_4_0" value="green energy" onchange="markSelected(this)">
+                    <input type="radio" name="ex_0_q_4" id="opt_0_4_0" value="environmental awareness" onchange="markSelected(this)">
                     <span class="option-badge">A</span>
-                    <span class="option-text">green energy</span>
-                    <span class="check-icon">✓</span>
-                </label>
-                <label class="option-label" for="opt_0_4_1" data-is-correct="false">
-                    <input type="radio" name="ex_0_q_4" id="opt_0_4_1" value="environmental awareness" onchange="markSelected(this)">
-                    <span class="option-badge">B</span>
                     <span class="option-text">environmental awareness</span>
                     <span class="check-icon">✓</span>
                 </label>
-                <label class="option-label" for="opt_0_4_2" data-is-correct="false">
-                    <input type="radio" name="ex_0_q_4" id="opt_0_4_2" value="waste of electricity" onchange="markSelected(this)">
-                    <span class="option-badge">C</span>
+                <label class="option-label" for="opt_0_4_1" data-is-correct="false">
+                    <input type="radio" name="ex_0_q_4" id="opt_0_4_1" value="waste of electricity" onchange="markSelected(this)">
+                    <span class="option-badge">B</span>
                     <span class="option-text">waste of electricity</span>
+                    <span class="check-icon">✓</span>
+                </label>
+                <label class="option-label" for="opt_0_4_2" data-is-correct="false">
+                    <input type="radio" name="ex_0_q_4" id="opt_0_4_2" value="green energy" onchange="markSelected(this)">
+                    <span class="option-badge">C</span>
+                    <span class="option-text">green energy</span>
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_0_4_3" data-is-correct="true">
@@ -2981,21 +3000,21 @@
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_0_5_1" data-is-correct="false">
-                    <input type="radio" name="ex_0_q_5" id="opt_0_5_1" value="packaging" onchange="markSelected(this)">
+                    <input type="radio" name="ex_0_q_5" id="opt_0_5_1" value="leftovers" onchange="markSelected(this)">
                     <span class="option-badge">B</span>
-                    <span class="option-text">packaging</span>
+                    <span class="option-text">leftovers</span>
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_0_5_2" data-is-correct="false">
-                    <input type="radio" name="ex_0_q_5" id="opt_0_5_2" value="pollutant" onchange="markSelected(this)">
+                    <input type="radio" name="ex_0_q_5" id="opt_0_5_2" value="packaging" onchange="markSelected(this)">
                     <span class="option-badge">C</span>
-                    <span class="option-text">pollutant</span>
+                    <span class="option-text">packaging</span>
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_0_5_3" data-is-correct="false">
-                    <input type="radio" name="ex_0_q_5" id="opt_0_5_3" value="leftovers" onchange="markSelected(this)">
+                    <input type="radio" name="ex_0_q_5" id="opt_0_5_3" value="pollutant" onchange="markSelected(this)">
                     <span class="option-badge">D</span>
-                    <span class="option-text">leftovers</span>
+                    <span class="option-text">pollutant</span>
                     <span class="check-icon">✓</span>
                 </label>
                 </div>
@@ -3010,9 +3029,9 @@
                 <div class="options-grid">
                     
                 <label class="option-label" for="opt_0_6_0" data-is-correct="false">
-                    <input type="radio" name="ex_0_q_6" id="opt_0_6_0" value="nitrogen" onchange="markSelected(this)">
+                    <input type="radio" name="ex_0_q_6" id="opt_0_6_0" value="water vapor" onchange="markSelected(this)">
                     <span class="option-badge">A</span>
-                    <span class="option-text">nitrogen</span>
+                    <span class="option-text">water vapor</span>
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_0_6_1" data-is-correct="true">
@@ -3022,9 +3041,9 @@
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_0_6_2" data-is-correct="false">
-                    <input type="radio" name="ex_0_q_6" id="opt_0_6_2" value="water vapor" onchange="markSelected(this)">
+                    <input type="radio" name="ex_0_q_6" id="opt_0_6_2" value="nitrogen" onchange="markSelected(this)">
                     <span class="option-badge">C</span>
-                    <span class="option-text">water vapor</span>
+                    <span class="option-text">nitrogen</span>
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_0_6_3" data-is-correct="false">
@@ -3051,21 +3070,21 @@
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_0_7_1" data-is-correct="false">
-                    <input type="radio" name="ex_0_q_7" id="opt_0_7_1" value="metal straw" onchange="markSelected(this)">
+                    <input type="radio" name="ex_0_q_7" id="opt_0_7_1" value="reusable cup" onchange="markSelected(this)">
                     <span class="option-badge">B</span>
-                    <span class="option-text">metal straw</span>
+                    <span class="option-text">reusable cup</span>
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_0_7_2" data-is-correct="false">
-                    <input type="radio" name="ex_0_q_7" id="opt_0_7_2" value="glass jar" onchange="markSelected(this)">
+                    <input type="radio" name="ex_0_q_7" id="opt_0_7_2" value="metal straw" onchange="markSelected(this)">
                     <span class="option-badge">C</span>
-                    <span class="option-text">glass jar</span>
+                    <span class="option-text">metal straw</span>
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_0_7_3" data-is-correct="false">
-                    <input type="radio" name="ex_0_q_7" id="opt_0_7_3" value="reusable cup" onchange="markSelected(this)">
+                    <input type="radio" name="ex_0_q_7" id="opt_0_7_3" value="glass jar" onchange="markSelected(this)">
                     <span class="option-badge">D</span>
-                    <span class="option-text">reusable cup</span>
+                    <span class="option-text">glass jar</span>
                     <span class="check-icon">✓</span>
                 </label>
                 </div>
@@ -3079,22 +3098,22 @@
                 </div>
                 <div class="options-grid">
                     
-                <label class="option-label" for="opt_0_8_0" data-is-correct="false">
-                    <input type="radio" name="ex_0_q_8" id="opt_0_8_0" value="chemical fertiliser" onchange="markSelected(this)">
+                <label class="option-label" for="opt_0_8_0" data-is-correct="true">
+                    <input type="radio" name="ex_0_q_8" id="opt_0_8_0" value="garden waste" onchange="markSelected(this)">
                     <span class="option-badge">A</span>
-                    <span class="option-text">chemical fertiliser</span>
+                    <span class="option-text">garden waste</span>
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_0_8_1" data-is-correct="false">
-                    <input type="radio" name="ex_0_q_8" id="opt_0_8_1" value="cardboard box" onchange="markSelected(this)">
+                    <input type="radio" name="ex_0_q_8" id="opt_0_8_1" value="chemical fertiliser" onchange="markSelected(this)">
                     <span class="option-badge">B</span>
-                    <span class="option-text">cardboard box</span>
+                    <span class="option-text">chemical fertiliser</span>
                     <span class="check-icon">✓</span>
                 </label>
-                <label class="option-label" for="opt_0_8_2" data-is-correct="true">
-                    <input type="radio" name="ex_0_q_8" id="opt_0_8_2" value="garden waste" onchange="markSelected(this)">
+                <label class="option-label" for="opt_0_8_2" data-is-correct="false">
+                    <input type="radio" name="ex_0_q_8" id="opt_0_8_2" value="cardboard box" onchange="markSelected(this)">
                     <span class="option-badge">C</span>
-                    <span class="option-text">garden waste</span>
+                    <span class="option-text">cardboard box</span>
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_0_8_3" data-is-correct="false">
@@ -3115,21 +3134,21 @@
                 <div class="options-grid">
                     
                 <label class="option-label" for="opt_0_9_0" data-is-correct="false">
-                    <input type="radio" name="ex_0_q_9" id="opt_0_9_0" value="zero waste" onchange="markSelected(this)">
+                    <input type="radio" name="ex_0_q_9" id="opt_0_9_0" value="clean up" onchange="markSelected(this)">
                     <span class="option-badge">A</span>
+                    <span class="option-text">clean up</span>
+                    <span class="check-icon">✓</span>
+                </label>
+                <label class="option-label" for="opt_0_9_1" data-is-correct="false">
+                    <input type="radio" name="ex_0_q_9" id="opt_0_9_1" value="zero waste" onchange="markSelected(this)">
+                    <span class="option-badge">B</span>
                     <span class="option-text">zero waste</span>
                     <span class="check-icon">✓</span>
                 </label>
-                <label class="option-label" for="opt_0_9_1" data-is-correct="true">
-                    <input type="radio" name="ex_0_q_9" id="opt_0_9_1" value="in the long run" onchange="markSelected(this)">
-                    <span class="option-badge">B</span>
-                    <span class="option-text">in the long run</span>
-                    <span class="check-icon">✓</span>
-                </label>
-                <label class="option-label" for="opt_0_9_2" data-is-correct="false">
-                    <input type="radio" name="ex_0_q_9" id="opt_0_9_2" value="clean up" onchange="markSelected(this)">
+                <label class="option-label" for="opt_0_9_2" data-is-correct="true">
+                    <input type="radio" name="ex_0_q_9" id="opt_0_9_2" value="in the long run" onchange="markSelected(this)">
                     <span class="option-badge">C</span>
-                    <span class="option-text">clean up</span>
+                    <span class="option-text">in the long run</span>
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_0_9_3" data-is-correct="false">
@@ -5466,9 +5485,8 @@
                 </div>
                 <div class="sign-layout">
                     
-            <div class="sign-board">
-                <div class="sign-icon-circle">🪧</div>
-                <div class="sign-desc">A circular red prohibition sign on a clean white background featuring a bold red circle with a diagonal red slash across a black silhouette icon of a single-use plastic takeaway cup and plastic straw, centered and filling 90% of the square canvas, NO outer border frame, NO inner border box, NO text or words of any kind.</div>
+            <div class="sign-board has-image">
+                <img src="../../../images/sign_1.png" alt="Sign #1" class="sign-img-view" loading="lazy">
             </div>
                     <div class="sign-qa">
                         <div class="question-stem"><strong>What does the sign mean?</strong></div>
@@ -5510,9 +5528,8 @@
                 </div>
                 <div class="sign-layout">
                     
-            <div class="sign-board">
-                <div class="sign-icon-circle">🪧</div>
-                <div class="sign-desc">A circular red prohibition sign on a clean white background featuring a bold red circle with a diagonal red slash across a black silhouette icon of a chemical canister pouring toxic liquid into a drain grill, centered and filling 90% of the square canvas, NO outer border frame, NO inner border box, NO text or words of any kind.</div>
+            <div class="sign-board has-image">
+                <img src="../../../images/sign_2.png" alt="Sign #2" class="sign-img-view" loading="lazy">
             </div>
                     <div class="sign-qa">
                         <div class="question-stem"><strong>What does the sign say?</strong></div>
@@ -5554,9 +5571,8 @@
                 </div>
                 <div class="sign-layout">
                     
-            <div class="sign-board">
-                <div class="sign-icon-circle">🪧</div>
-                <div class="sign-desc">A circular blue mandatory safety sign on a clean white background featuring a solid blue circle containing a crisp white graphic symbol of a reusable fabric shopping tote bag, centered and filling 90% of the square canvas, NO outer border frame, NO inner border box, NO text or words of any kind.</div>
+            <div class="sign-board has-image">
+                <img src="../../../images/sign_3.png" alt="Sign #3" class="sign-img-view" loading="lazy">
             </div>
                     <div class="sign-qa">
                         <div class="question-stem"><strong>What does the sign say?</strong></div>
@@ -5598,9 +5614,8 @@
                 </div>
                 <div class="sign-layout">
                     
-            <div class="sign-board">
-                <div class="sign-icon-circle">🪧</div>
-                <div class="sign-desc">An equilateral triangular warning hazard sign on a clean white background with a thick black border and bright yellow interior featuring a black silhouette symbol of raging fire flames burning among pine tree silhouettes, centered and filling 90% of the square canvas, NO outer border frame, NO inner border box, NO text or words of any kind.</div>
+            <div class="sign-board has-image">
+                <img src="../../../images/sign_4.png" alt="Sign #4" class="sign-img-view" loading="lazy">
             </div>
                     <div class="sign-qa">
                         <div class="question-stem"><strong>What does the sign say?</strong></div>
@@ -5642,9 +5657,8 @@
                 </div>
                 <div class="sign-layout">
                     
-            <div class="sign-board">
-                <div class="sign-icon-circle">🪧</div>
-                <div class="sign-desc">An equilateral triangular warning hazard sign on a clean white background with a thick black border and bright yellow interior featuring a black silhouette icon of a gas cylinder emitting flammable vapor clouds above an organic waste mound, centered and filling 90% of the square canvas, NO outer border frame, NO inner border box, NO text or words of any kind.</div>
+            <div class="sign-board has-image">
+                <img src="../../../images/sign_5.png" alt="Sign #5" class="sign-img-view" loading="lazy">
             </div>
                     <div class="sign-qa">
                         <div class="question-stem"><strong>What does the sign mean?</strong></div>
@@ -5686,9 +5700,8 @@
                 </div>
                 <div class="sign-layout">
                     
-            <div class="sign-board">
-                <div class="sign-icon-circle">🪧</div>
-                <div class="sign-desc">Full-bleed square graphic design, 100% edge-to-edge layout filling the entire square image canvas with zero outer background margins, dark brushed aluminum sign texture, bold green and white mixed-case lettering stating &#x27;Solar Power Hub: Active Charging In Progress. Clean Renewable Energy Currently Supplying 100% Of Hallway Lighting.&#x27;, accompanied by clean minimalist solar panel and battery icons, high contrast, maximum readability.</div>
+            <div class="sign-board has-image">
+                <img src="../../../images/sign_6.png" alt="Sign #6" class="sign-img-view" loading="lazy">
             </div>
                     <div class="sign-qa">
                         <div class="question-stem"><strong>What does the notice tell us?</strong></div>
@@ -5730,9 +5743,8 @@
                 </div>
                 <div class="sign-layout">
                     
-            <div class="sign-board">
-                <div class="sign-icon-circle">🪧</div>
-                <div class="sign-desc">Full-bleed square graphic design, 100% edge-to-edge layout filling the entire square image canvas with zero outer background margins, textured yellow sticky note paper filling the frame, casual handwritten note stating: &#x27;Hi Mark, please don&#x27;t toss apple peelings or watermelon rinds into the trash can. Put them in the small green counter container for our compost pile! Thanks, Mai&#x27;, with a small doodle of an apple core.</div>
+            <div class="sign-board has-image">
+                <img src="../../../images/sign_7.png" alt="Sign #7" class="sign-img-view" loading="lazy">
             </div>
                     <div class="sign-qa">
                         <div class="question-stem"><strong>What does the note say?</strong></div>
@@ -5774,9 +5786,8 @@
                 </div>
                 <div class="sign-layout">
                     
-            <div class="sign-board">
-                <div class="sign-icon-circle">🪧</div>
-                <div class="sign-desc">Full-bleed square graphic design, 100% edge-to-edge layout filling the entire square image canvas with zero outer background margins, clean modern email interface layout, header showing &#x27;From: Green Campus Committee / Subject: Sensor Taps &amp; Automatic Lights Installation&#x27;, body text reading &#x27;Dear staff and students, all public restrooms now feature sensor taps, and automatic lights have been fitted in hallways. Please report any dripping valves promptly.&#x27;, clear typography, high contrast.</div>
+            <div class="sign-board has-image">
+                <img src="../../../images/sign_8.png" alt="Sign #8" class="sign-img-view" loading="lazy">
             </div>
                     <div class="sign-qa">
                         <div class="question-stem"><strong>What does the email say?</strong></div>
@@ -5818,9 +5829,8 @@
                 </div>
                 <div class="sign-layout">
                     
-            <div class="sign-board">
-                <div class="sign-icon-circle">🪧</div>
-                <div class="sign-desc">Full-bleed square graphic design, 100% edge-to-edge layout filling the entire square image canvas with zero outer background margins, vibrant emerald green chalk board texture with stylish café typography, heading &#x27;Zero-Waste Coffee Club&#x27;, body stating &#x27;Bring your own reusable cup or thermos flask and receive 20% off all beverages. Help us eliminate 50,000 single-use paper cups this year!&#x27;, decorated with vector coffee cup and leaf icons.</div>
+            <div class="sign-board has-image">
+                <img src="../../../images/sign_9.png" alt="Sign #9" class="sign-img-view" loading="lazy">
             </div>
                     <div class="sign-qa">
                         <div class="question-stem"><strong>What does the notice tell us?</strong></div>
@@ -5862,9 +5872,8 @@
                 </div>
                 <div class="sign-layout">
                     
-            <div class="sign-board">
-                <div class="sign-icon-circle">🪧</div>
-                <div class="sign-desc">Full-bleed square graphic design, 100% edge-to-edge layout filling the entire square image canvas with zero outer background margins, illustrated modern event poster on textured cream card, headline &#x27;Annual Canal Clean-Up Day&#x27;, subtext &#x27;Sunday 8 AM at North Bridge. Gloves and rubbish bags provided. Join us to remove plastic litter and protect wild river birds! Free eco-snack provided.&#x27;, clean typography, stylized river illustration.</div>
+            <div class="sign-board has-image">
+                <img src="../../../images/sign_10.png" alt="Sign #10" class="sign-img-view" loading="lazy">
             </div>
                     <div class="sign-qa">
                         <div class="question-stem"><strong>What does the flyer say?</strong></div>
@@ -6044,10 +6053,10 @@
                 </div>
                 <div class="options-grid">
                     
-                <label class="option-label" for="opt_13_0_0" data-is-correct="false">
-                    <input type="radio" name="ex_13_q_0" id="opt_13_0_0" value="pollutant" onchange="markSelected(this)">
+                <label class="option-label" for="opt_13_0_0" data-is-correct="true">
+                    <input type="radio" name="ex_13_q_0" id="opt_13_0_0" value="pollution" onchange="markSelected(this)">
                     <span class="option-badge">A</span>
-                    <span class="option-text">pollutant</span>
+                    <span class="option-text">pollution</span>
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_13_0_1" data-is-correct="false">
@@ -6062,10 +6071,10 @@
                     <span class="option-text">polluted</span>
                     <span class="check-icon">✓</span>
                 </label>
-                <label class="option-label" for="opt_13_0_3" data-is-correct="true">
-                    <input type="radio" name="ex_13_q_0" id="opt_13_0_3" value="pollution" onchange="markSelected(this)">
+                <label class="option-label" for="opt_13_0_3" data-is-correct="false">
+                    <input type="radio" name="ex_13_q_0" id="opt_13_0_3" value="pollutant" onchange="markSelected(this)">
                     <span class="option-badge">D</span>
-                    <span class="option-text">pollution</span>
+                    <span class="option-text">pollutant</span>
                     <span class="check-icon">✓</span>
                 </label>
                 </div>
@@ -6080,27 +6089,27 @@
                 <div class="options-grid">
                     
                 <label class="option-label" for="opt_13_1_0" data-is-correct="false">
-                    <input type="radio" name="ex_13_q_1" id="opt_13_1_0" value="recycling" onchange="markSelected(this)">
+                    <input type="radio" name="ex_13_q_1" id="opt_13_1_0" value="recycled" onchange="markSelected(this)">
                     <span class="option-badge">A</span>
-                    <span class="option-text">recycling</span>
-                    <span class="check-icon">✓</span>
-                </label>
-                <label class="option-label" for="opt_13_1_1" data-is-correct="true">
-                    <input type="radio" name="ex_13_q_1" id="opt_13_1_1" value="recyclable" onchange="markSelected(this)">
-                    <span class="option-badge">B</span>
-                    <span class="option-text">recyclable</span>
-                    <span class="check-icon">✓</span>
-                </label>
-                <label class="option-label" for="opt_13_1_2" data-is-correct="false">
-                    <input type="radio" name="ex_13_q_1" id="opt_13_1_2" value="recycled" onchange="markSelected(this)">
-                    <span class="option-badge">C</span>
                     <span class="option-text">recycled</span>
                     <span class="check-icon">✓</span>
                 </label>
-                <label class="option-label" for="opt_13_1_3" data-is-correct="false">
-                    <input type="radio" name="ex_13_q_1" id="opt_13_1_3" value="recycle" onchange="markSelected(this)">
-                    <span class="option-badge">D</span>
+                <label class="option-label" for="opt_13_1_1" data-is-correct="false">
+                    <input type="radio" name="ex_13_q_1" id="opt_13_1_1" value="recycling" onchange="markSelected(this)">
+                    <span class="option-badge">B</span>
+                    <span class="option-text">recycling</span>
+                    <span class="check-icon">✓</span>
+                </label>
+                <label class="option-label" for="opt_13_1_2" data-is-correct="false">
+                    <input type="radio" name="ex_13_q_1" id="opt_13_1_2" value="recycle" onchange="markSelected(this)">
+                    <span class="option-badge">C</span>
                     <span class="option-text">recycle</span>
+                    <span class="check-icon">✓</span>
+                </label>
+                <label class="option-label" for="opt_13_1_3" data-is-correct="true">
+                    <input type="radio" name="ex_13_q_1" id="opt_13_1_3" value="recyclable" onchange="markSelected(this)">
+                    <span class="option-badge">D</span>
+                    <span class="option-text">recyclable</span>
                     <span class="check-icon">✓</span>
                 </label>
                 </div>
@@ -6120,22 +6129,22 @@
                     <span class="option-text">sustainable</span>
                     <span class="check-icon">✓</span>
                 </label>
-                <label class="option-label" for="opt_13_2_1" data-is-correct="true">
-                    <input type="radio" name="ex_13_q_2" id="opt_13_2_1" value="sustainably" onchange="markSelected(this)">
+                <label class="option-label" for="opt_13_2_1" data-is-correct="false">
+                    <input type="radio" name="ex_13_q_2" id="opt_13_2_1" value="sustain" onchange="markSelected(this)">
                     <span class="option-badge">B</span>
-                    <span class="option-text">sustainably</span>
-                    <span class="check-icon">✓</span>
-                </label>
-                <label class="option-label" for="opt_13_2_2" data-is-correct="false">
-                    <input type="radio" name="ex_13_q_2" id="opt_13_2_2" value="sustain" onchange="markSelected(this)">
-                    <span class="option-badge">C</span>
                     <span class="option-text">sustain</span>
                     <span class="check-icon">✓</span>
                 </label>
-                <label class="option-label" for="opt_13_2_3" data-is-correct="false">
-                    <input type="radio" name="ex_13_q_2" id="opt_13_2_3" value="sustainability" onchange="markSelected(this)">
-                    <span class="option-badge">D</span>
+                <label class="option-label" for="opt_13_2_2" data-is-correct="false">
+                    <input type="radio" name="ex_13_q_2" id="opt_13_2_2" value="sustainability" onchange="markSelected(this)">
+                    <span class="option-badge">C</span>
                     <span class="option-text">sustainability</span>
+                    <span class="check-icon">✓</span>
+                </label>
+                <label class="option-label" for="opt_13_2_3" data-is-correct="true">
+                    <input type="radio" name="ex_13_q_2" id="opt_13_2_3" value="sustainably" onchange="markSelected(this)">
+                    <span class="option-badge">D</span>
+                    <span class="option-text">sustainably</span>
                     <span class="check-icon">✓</span>
                 </label>
                 </div>
@@ -6149,10 +6158,10 @@
                 </div>
                 <div class="options-grid">
                     
-                <label class="option-label" for="opt_13_3_0" data-is-correct="true">
-                    <input type="radio" name="ex_13_q_3" id="opt_13_3_0" value="contaminate" onchange="markSelected(this)">
+                <label class="option-label" for="opt_13_3_0" data-is-correct="false">
+                    <input type="radio" name="ex_13_q_3" id="opt_13_3_0" value="contaminating" onchange="markSelected(this)">
                     <span class="option-badge">A</span>
-                    <span class="option-text">contaminate</span>
+                    <span class="option-text">contaminating</span>
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_13_3_1" data-is-correct="false">
@@ -6161,10 +6170,10 @@
                     <span class="option-text">contamination</span>
                     <span class="check-icon">✓</span>
                 </label>
-                <label class="option-label" for="opt_13_3_2" data-is-correct="false">
-                    <input type="radio" name="ex_13_q_3" id="opt_13_3_2" value="contaminating" onchange="markSelected(this)">
+                <label class="option-label" for="opt_13_3_2" data-is-correct="true">
+                    <input type="radio" name="ex_13_q_3" id="opt_13_3_2" value="contaminate" onchange="markSelected(this)">
                     <span class="option-badge">C</span>
-                    <span class="option-text">contaminating</span>
+                    <span class="option-text">contaminate</span>
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_13_3_3" data-is-correct="false">
@@ -6184,28 +6193,28 @@
                 </div>
                 <div class="options-grid">
                     
-                <label class="option-label" for="opt_13_4_0" data-is-correct="false">
-                    <input type="radio" name="ex_13_q_4" id="opt_13_4_0" value="waste" onchange="markSelected(this)">
+                <label class="option-label" for="opt_13_4_0" data-is-correct="true">
+                    <input type="radio" name="ex_13_q_4" id="opt_13_4_0" value="wasteful" onchange="markSelected(this)">
                     <span class="option-badge">A</span>
-                    <span class="option-text">waste</span>
-                    <span class="check-icon">✓</span>
-                </label>
-                <label class="option-label" for="opt_13_4_1" data-is-correct="false">
-                    <input type="radio" name="ex_13_q_4" id="opt_13_4_1" value="wastes" onchange="markSelected(this)">
-                    <span class="option-badge">B</span>
-                    <span class="option-text">wastes</span>
-                    <span class="check-icon">✓</span>
-                </label>
-                <label class="option-label" for="opt_13_4_2" data-is-correct="true">
-                    <input type="radio" name="ex_13_q_4" id="opt_13_4_2" value="wasteful" onchange="markSelected(this)">
-                    <span class="option-badge">C</span>
                     <span class="option-text">wasteful</span>
                     <span class="check-icon">✓</span>
                 </label>
-                <label class="option-label" for="opt_13_4_3" data-is-correct="false">
-                    <input type="radio" name="ex_13_q_4" id="opt_13_4_3" value="wastefully" onchange="markSelected(this)">
-                    <span class="option-badge">D</span>
+                <label class="option-label" for="opt_13_4_1" data-is-correct="false">
+                    <input type="radio" name="ex_13_q_4" id="opt_13_4_1" value="waste" onchange="markSelected(this)">
+                    <span class="option-badge">B</span>
+                    <span class="option-text">waste</span>
+                    <span class="check-icon">✓</span>
+                </label>
+                <label class="option-label" for="opt_13_4_2" data-is-correct="false">
+                    <input type="radio" name="ex_13_q_4" id="opt_13_4_2" value="wastefully" onchange="markSelected(this)">
+                    <span class="option-badge">C</span>
                     <span class="option-text">wastefully</span>
+                    <span class="check-icon">✓</span>
+                </label>
+                <label class="option-label" for="opt_13_4_3" data-is-correct="false">
+                    <input type="radio" name="ex_13_q_4" id="opt_13_4_3" value="wastes" onchange="markSelected(this)">
+                    <span class="option-badge">D</span>
+                    <span class="option-text">wastes</span>
                     <span class="check-icon">✓</span>
                 </label>
                 </div>
@@ -6219,28 +6228,28 @@
                 </div>
                 <div class="options-grid">
                     
-                <label class="option-label" for="opt_13_5_0" data-is-correct="true">
-                    <input type="radio" name="ex_13_q_5" id="opt_13_5_0" value="decomposition" onchange="markSelected(this)">
+                <label class="option-label" for="opt_13_5_0" data-is-correct="false">
+                    <input type="radio" name="ex_13_q_5" id="opt_13_5_0" value="decomposed" onchange="markSelected(this)">
                     <span class="option-badge">A</span>
-                    <span class="option-text">decomposition</span>
+                    <span class="option-text">decomposed</span>
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_13_5_1" data-is-correct="false">
-                    <input type="radio" name="ex_13_q_5" id="opt_13_5_1" value="decompose" onchange="markSelected(this)">
+                    <input type="radio" name="ex_13_q_5" id="opt_13_5_1" value="decomposing" onchange="markSelected(this)">
                     <span class="option-badge">B</span>
-                    <span class="option-text">decompose</span>
-                    <span class="check-icon">✓</span>
-                </label>
-                <label class="option-label" for="opt_13_5_2" data-is-correct="false">
-                    <input type="radio" name="ex_13_q_5" id="opt_13_5_2" value="decomposing" onchange="markSelected(this)">
-                    <span class="option-badge">C</span>
                     <span class="option-text">decomposing</span>
                     <span class="check-icon">✓</span>
                 </label>
+                <label class="option-label" for="opt_13_5_2" data-is-correct="true">
+                    <input type="radio" name="ex_13_q_5" id="opt_13_5_2" value="decomposition" onchange="markSelected(this)">
+                    <span class="option-badge">C</span>
+                    <span class="option-text">decomposition</span>
+                    <span class="check-icon">✓</span>
+                </label>
                 <label class="option-label" for="opt_13_5_3" data-is-correct="false">
-                    <input type="radio" name="ex_13_q_5" id="opt_13_5_3" value="decomposed" onchange="markSelected(this)">
+                    <input type="radio" name="ex_13_q_5" id="opt_13_5_3" value="decompose" onchange="markSelected(this)">
                     <span class="option-badge">D</span>
-                    <span class="option-text">decomposed</span>
+                    <span class="option-text">decompose</span>
                     <span class="check-icon">✓</span>
                 </label>
                 </div>
@@ -6255,15 +6264,15 @@
                 <div class="options-grid">
                     
                 <label class="option-label" for="opt_13_6_0" data-is-correct="false">
-                    <input type="radio" name="ex_13_q_6" id="opt_13_6_0" value="reused" onchange="markSelected(this)">
+                    <input type="radio" name="ex_13_q_6" id="opt_13_6_0" value="reusing" onchange="markSelected(this)">
                     <span class="option-badge">A</span>
-                    <span class="option-text">reused</span>
+                    <span class="option-text">reusing</span>
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_13_6_1" data-is-correct="false">
-                    <input type="radio" name="ex_13_q_6" id="opt_13_6_1" value="reusing" onchange="markSelected(this)">
+                    <input type="radio" name="ex_13_q_6" id="opt_13_6_1" value="reuse" onchange="markSelected(this)">
                     <span class="option-badge">B</span>
-                    <span class="option-text">reusing</span>
+                    <span class="option-text">reuse</span>
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_13_6_2" data-is-correct="true">
@@ -6273,9 +6282,9 @@
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_13_6_3" data-is-correct="false">
-                    <input type="radio" name="ex_13_q_6" id="opt_13_6_3" value="reuse" onchange="markSelected(this)">
+                    <input type="radio" name="ex_13_q_6" id="opt_13_6_3" value="reused" onchange="markSelected(this)">
                     <span class="option-badge">D</span>
-                    <span class="option-text">reuse</span>
+                    <span class="option-text">reused</span>
                     <span class="check-icon">✓</span>
                 </label>
                 </div>
@@ -6289,16 +6298,16 @@
                 </div>
                 <div class="options-grid">
                     
-                <label class="option-label" for="opt_13_7_0" data-is-correct="true">
-                    <input type="radio" name="ex_13_q_7" id="opt_13_7_0" value="packaging" onchange="markSelected(this)">
+                <label class="option-label" for="opt_13_7_0" data-is-correct="false">
+                    <input type="radio" name="ex_13_q_7" id="opt_13_7_0" value="pack" onchange="markSelected(this)">
                     <span class="option-badge">A</span>
-                    <span class="option-text">packaging</span>
+                    <span class="option-text">pack</span>
                     <span class="check-icon">✓</span>
                 </label>
-                <label class="option-label" for="opt_13_7_1" data-is-correct="false">
-                    <input type="radio" name="ex_13_q_7" id="opt_13_7_1" value="packed" onchange="markSelected(this)">
+                <label class="option-label" for="opt_13_7_1" data-is-correct="true">
+                    <input type="radio" name="ex_13_q_7" id="opt_13_7_1" value="packaging" onchange="markSelected(this)">
                     <span class="option-badge">B</span>
-                    <span class="option-text">packed</span>
+                    <span class="option-text">packaging</span>
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_13_7_2" data-is-correct="false">
@@ -6308,9 +6317,9 @@
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_13_7_3" data-is-correct="false">
-                    <input type="radio" name="ex_13_q_7" id="opt_13_7_3" value="pack" onchange="markSelected(this)">
+                    <input type="radio" name="ex_13_q_7" id="opt_13_7_3" value="packed" onchange="markSelected(this)">
                     <span class="option-badge">D</span>
-                    <span class="option-text">pack</span>
+                    <span class="option-text">packed</span>
                     <span class="check-icon">✓</span>
                 </label>
                 </div>
@@ -6324,10 +6333,10 @@
                 </div>
                 <div class="options-grid">
                     
-                <label class="option-label" for="opt_13_8_0" data-is-correct="false">
-                    <input type="radio" name="ex_13_q_8" id="opt_13_8_0" value="sustain" onchange="markSelected(this)">
+                <label class="option-label" for="opt_13_8_0" data-is-correct="true">
+                    <input type="radio" name="ex_13_q_8" id="opt_13_8_0" value="sustainability" onchange="markSelected(this)">
                     <span class="option-badge">A</span>
-                    <span class="option-text">sustain</span>
+                    <span class="option-text">sustainability</span>
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_13_8_1" data-is-correct="false">
@@ -6336,10 +6345,10 @@
                     <span class="option-text">sustainably</span>
                     <span class="check-icon">✓</span>
                 </label>
-                <label class="option-label" for="opt_13_8_2" data-is-correct="true">
-                    <input type="radio" name="ex_13_q_8" id="opt_13_8_2" value="sustainability" onchange="markSelected(this)">
+                <label class="option-label" for="opt_13_8_2" data-is-correct="false">
+                    <input type="radio" name="ex_13_q_8" id="opt_13_8_2" value="sustain" onchange="markSelected(this)">
                     <span class="option-badge">C</span>
-                    <span class="option-text">sustainability</span>
+                    <span class="option-text">sustain</span>
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_13_8_3" data-is-correct="false">
@@ -6360,27 +6369,27 @@
                 <div class="options-grid">
                     
                 <label class="option-label" for="opt_13_9_0" data-is-correct="false">
-                    <input type="radio" name="ex_13_q_9" id="opt_13_9_0" value="polluted" onchange="markSelected(this)">
+                    <input type="radio" name="ex_13_q_9" id="opt_13_9_0" value="pollution" onchange="markSelected(this)">
                     <span class="option-badge">A</span>
-                    <span class="option-text">polluted</span>
-                    <span class="check-icon">✓</span>
-                </label>
-                <label class="option-label" for="opt_13_9_1" data-is-correct="false">
-                    <input type="radio" name="ex_13_q_9" id="opt_13_9_1" value="pollution" onchange="markSelected(this)">
-                    <span class="option-badge">B</span>
                     <span class="option-text">pollution</span>
                     <span class="check-icon">✓</span>
                 </label>
-                <label class="option-label" for="opt_13_9_2" data-is-correct="false">
-                    <input type="radio" name="ex_13_q_9" id="opt_13_9_2" value="pollute" onchange="markSelected(this)">
-                    <span class="option-badge">C</span>
-                    <span class="option-text">pollute</span>
+                <label class="option-label" for="opt_13_9_1" data-is-correct="true">
+                    <input type="radio" name="ex_13_q_9" id="opt_13_9_1" value="pollutant" onchange="markSelected(this)">
+                    <span class="option-badge">B</span>
+                    <span class="option-text">pollutant</span>
                     <span class="check-icon">✓</span>
                 </label>
-                <label class="option-label" for="opt_13_9_3" data-is-correct="true">
-                    <input type="radio" name="ex_13_q_9" id="opt_13_9_3" value="pollutant" onchange="markSelected(this)">
+                <label class="option-label" for="opt_13_9_2" data-is-correct="false">
+                    <input type="radio" name="ex_13_q_9" id="opt_13_9_2" value="polluted" onchange="markSelected(this)">
+                    <span class="option-badge">C</span>
+                    <span class="option-text">polluted</span>
+                    <span class="check-icon">✓</span>
+                </label>
+                <label class="option-label" for="opt_13_9_3" data-is-correct="false">
+                    <input type="radio" name="ex_13_q_9" id="opt_13_9_3" value="pollute" onchange="markSelected(this)">
                     <span class="option-badge">D</span>
-                    <span class="option-text">pollutant</span>
+                    <span class="option-text">pollute</span>
                     <span class="check-icon">✓</span>
                 </label>
                 </div>

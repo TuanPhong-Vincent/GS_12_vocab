@@ -811,8 +811,15 @@ def render_single_exercise_inner(ex, ex_idx, output_file, workspace_root):
 
             sign_img_rel = resolve_asset_relpath(sign_img_raw, output_file, workspace_root)
 
-            # Visual sign simulation box
-            sign_preview = f"""
+            # Visual sign simulation box or actual sign image
+            target_sign_path = (workspace_root / sign_img_raw.lstrip("/\\")) if sign_img_raw else None
+            if sign_img_rel and target_sign_path and target_sign_path.exists():
+                sign_preview = f"""
+            <div class="sign-board has-image">
+                <img src="{escape(sign_img_rel)}" alt="Sign #{escape(str(q_id))}" class="sign-img-view" loading="lazy">
+            </div>"""
+            else:
+                sign_preview = f"""
             <div class="sign-board">
                 <div class="sign-icon-circle">🪧</div>
                 <div class="sign-desc">{escape(sign_text)}</div>
@@ -2349,6 +2356,25 @@ def build_unified_index_html(vocab_data, exercises_data, book_name, unit_name, o
             text-align: center;
             box-shadow: 0 4px 12px rgba(30, 58, 138, 0.2);
             flex-shrink: 0;
+        }}
+
+        .sign-board.has-image {{
+            background: #ffffff;
+            padding: 4px;
+            border: 1px solid var(--border-subtle);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }}
+
+        .sign-img-view {{
+            width: 100%;
+            height: auto;
+            aspect-ratio: 1 / 1;
+            object-fit: contain;
+            display: block;
+            border-radius: 8px;
         }}
 
         .sign-icon-circle {{

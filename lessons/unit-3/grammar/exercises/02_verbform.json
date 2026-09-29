@@ -1,0 +1,149 @@
+{
+  "id": "2",
+  "type": "verb_form",
+  "title": "Exercise 2: Verb Form & Conjugation",
+  "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+  "target_grammar": "Verbs with prepositions, Relative clauses referring to a whole sentence",
+  "questions": [
+    {
+      "id": "1",
+      "text": "The eco-friendly supermarket focuses on (reduce) ______ single-use plastic packaging by offering biodegradable cloth tote bags.",
+      "verb": "reduce",
+      "correct_answer": "reducing",
+      "explanation": "Sau giới từ 'on' trong cụm 'focus on', động từ theo sau chia ở dạng danh động từ (V-ing)."
+    },
+    {
+      "id": "2",
+      "text": "The youth volunteer club succeeded in (clean) ______ up three tons of plastic litter along the polluted river canal.",
+      "verb": "clean",
+      "correct_answer": "cleaning",
+      "explanation": "Cấu trúc 'succeed in doing sth': sau giới từ 'in' động từ có dạng danh động từ 'cleaning'."
+    },
+    {
+      "id": "3",
+      "text": "Our school installed an automatic light in every corridor, which (save) ______ a tremendous amount of electrical energy each month.",
+      "verb": "save",
+      "correct_answer": "saves",
+      "explanation": "Mệnh đề quan hệ ', which' thay thế cho toàn bộ sự việc ở mệnh đề trước (coi là chủ ngữ số ít), động từ chia thì hiện tại đơn ngôi thứ ba số ít ('saves')."
+    },
+    {
+      "id": "4",
+      "text": "Instead of throwing away plastic takeaway containers, we should (reuse) ______ every container as a plant pot.",
+      "verb": "reuse",
+      "correct_answer": "reuse",
+      "explanation": "Sau động từ khuyết thiếu 'should', động từ giữ nguyên thể không 'to' ('reuse')."
+    },
+    {
+      "id": "5",
+      "text": "The chemical plant manager apologised to local residents for (fail) ______ to prevent industrial pollutants from leaking into the reservoir.",
+      "verb": "fail",
+      "correct_answer": "failing",
+      "explanation": "Cấu trúc 'apologise for doing sth': sau giới từ 'for' động từ chia ở dạng danh động từ ('failing')."
+    },
+    {
+      "id": "6",
+      "text": "Many suburban families depend on (compost) ______ household waste to produce rich natural fertiliser for their vegetable patches.",
+      "verb": "compost",
+      "correct_answer": "composting",
+      "explanation": "Sau giới từ 'on' trong cụm 'depend on', động từ chia V-ing ('composting')."
+    },
+    {
+      "id": "7",
+      "text": "The community planted five hundred shade trees in the public square, which (provide) ______ fresh air and shade for neighborhood children.",
+      "verb": "provide",
+      "correct_answer": "provides",
+      "explanation": "Mệnh đề quan hệ ', which' đại diện cho toàn bộ sự việc trồng cây, động từ chia ngôi thứ ba số ít 'provides'."
+    },
+    {
+      "id": "8",
+      "text": "Transitioning to green energy and public transit directly (contribute) ______ to reducing dangerous greenhouse gas emissions.",
+      "verb": "contribute",
+      "correct_answer": "contributes",
+      "explanation": "Chủ ngữ là danh động từ 'Transitioning...' (ngôi thứ ba số ít), đi với 'contribute to' thì hiện tại đơn chia 'contributes'."
+    },
+    {
+      "id": "9",
+      "text": "Volunteers spent their entire Saturday morning (sort) ______ recyclable cardboard boxes and glass jars at the community center.",
+      "verb": "sort",
+      "correct_answer": "sorting",
+      "explanation": "Cấu trúc 'spend time doing sth': chia V-ing ('sorting')."
+    },
+    {
+      "id": "10",
+      "text": "Non-biodegradable plastics take centuries to (decompose) ______ in landfills, which severely damages underground soil ecosystems.",
+      "verb": "decompose",
+      "correct_answer": "decompose",
+      "explanation": "Cấu trúc 'take + time + to-V': sau 'to' dùng động từ nguyên thể ('decompose')."
+    },
+    {
+      "id": "11",
+      "text": "The industrial company was heavily fined for (discharge) ______ untreated wastewater and chemical contaminants into the ocean.",
+      "verb": "discharge",
+      "correct_answer": "discharging",
+      "explanation": "Sau giới từ 'for' (bị phạt vì hành vi gì), động từ chia ở dạng danh động từ 'discharging'."
+    },
+    {
+      "id": "12",
+      "text": "Every citizen can practice green living by (turn) ______ off unnecessary electrical appliances when leaving the house.",
+      "verb": "turn",
+      "correct_answer": "turning",
+      "explanation": "Sau giới từ 'by' chỉ phương thức, động từ chia V-ing ('turning off')."
+    },
+    {
+      "id": "13",
+      "text": "The cafe replaced plastic smoothie cups with a glass jar, which (help) ______ eliminate unnecessary single-use waste.",
+      "verb": "help",
+      "correct_answer": "helps",
+      "explanation": "Đại từ quan hệ ', which' thay cho cả sự việc thay cốc của quán cà phê, động từ chia số ít 'helps'."
+    },
+    {
+      "id": "14",
+      "text": "Dr. Ha dedicated her scientific career to (find) ______ biodegradable packaging materials that decompose rapidly in soil.",
+      "verb": "find",
+      "correct_answer": "finding",
+      "explanation": "Cấu trúc 'dedicate sth to doing sth': 'to' là giới từ nên động từ đi sau chia V-ing ('finding')."
+    },
+    {
+      "id": "15",
+      "text": "Properly building a compost pile prevents an organic fruit peel from (rot) ______ in landfills and releasing methane gas.",
+      "verb": "rot",
+      "correct_answer": "rotting",
+      "explanation": "Cấu trúc 'prevent sth from doing sth': sau giới từ 'from' động từ chia V-ing ('rotting')."
+    },
+    {
+      "id": "16",
+      "text": "Our school canteen decided to ban plastic straws, which (encourage) ______ students to bring their own reusable metal straws.",
+      "verb": "encourage",
+      "correct_answer": "encourages",
+      "explanation": "Mệnh đề ', which' thay cho việc nhà trường cấm ống hút nhựa, động từ chia số ít 'encourages'."
+    },
+    {
+      "id": "17",
+      "text": "The residential complex committed to (switch) ______ entirely to solar green energy before the beginning of the dry season.",
+      "verb": "switch",
+      "correct_answer": "switching",
+      "explanation": "Cấu trúc 'commit to doing sth' (cam kết làm gì): 'to' là giới từ nên động từ chia V-ing ('switching')."
+    },
+    {
+      "id": "18",
+      "text": "Local wildlife conservationists succeeded in (protect) ______ wild animals from consuming toxic landfill litter.",
+      "verb": "protect",
+      "correct_answer": "protecting",
+      "explanation": "Sau giới từ 'in' trong 'succeed in', động từ chia V-ing ('protecting')."
+    },
+    {
+      "id": "19",
+      "text": "The municipal council opened a rapid electric bus route, which (make) ______ public transport far more appealing to urban commuters.",
+      "verb": "make",
+      "correct_answer": "makes",
+      "explanation": "Mệnh đề ', which' bổ nghĩa cho toàn bộ sự việc mở tuyến xe buýt điện, động từ chia ngôi thứ ba số ít 'makes'."
+    },
+    {
+      "id": "20",
+      "text": "Before (refill) ______ your reusable water bottle at the communal filtered station, please ensure it has been thoroughly sanitized.",
+      "verb": "refill",
+      "correct_answer": "refilling",
+      "explanation": "Sau giới từ/liên từ rút gọn chỉ thời gian 'Before', động từ chia ở dạng danh động từ 'refilling'."
+    }
+  ]
+}

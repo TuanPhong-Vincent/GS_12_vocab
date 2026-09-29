@@ -1,0 +1,169 @@
+{
+  "id": "2",
+  "type": "verb_form",
+  "title": "Exercise 2: Article & Sentence Completion",
+  "instruction": "Complete each sentence with the correct article: a, an, the, or Ø (zero article).",
+  "target_grammar": "Articles (review and extension)",
+  "questions": [
+    {
+      "id": "1",
+      "text": "Many international students experience culture shock when they first arrive in (article) ______ United States.",
+      "prompt": "article",
+      "verb": "article",
+      "correct_answer": "the",
+      "explanation": "Dùng mạo từ 'the' trước tên quốc gia có từ 'States' (the United States)."
+    },
+    {
+      "id": "2",
+      "text": "During their field trip to the northern highlands, the volunteers enjoyed watching (article) ______ bamboo dancing performed by Tay villagers.",
+      "prompt": "article",
+      "verb": "article",
+      "correct_answer": "Ø",
+      "explanation": "Tên các điệu múa truyền thống và trò chơi dân gian dùng zero article (Ø)."
+    },
+    {
+      "id": "3",
+      "text": "Globalisation has opened up (article) ______ unprecedented opportunity for young Vietnamese people to experience cross-cultural learning.",
+      "prompt": "article",
+      "verb": "article",
+      "correct_answer": "an",
+      "explanation": "Danh từ số ít 'opportunity' đi sau tính từ bắt đầu bằng nguyên âm 'unprecedented' (/ʌnˈpresɪdentɪd/), dùng 'an'."
+    },
+    {
+      "id": "4",
+      "text": "My cousin practices playing (article) ______ piano every afternoon to prepare for the school's multicultural talent show.",
+      "prompt": "article",
+      "verb": "article",
+      "correct_answer": "the",
+      "explanation": "Dùng 'the' trước tên nhạc cụ khi đi với động từ chỉ việc luyện tập hoặc chơi nhạc cụ ('playing the piano')."
+    },
+    {
+      "id": "5",
+      "text": "Every weekend, food enthusiasts flock to the night bazaar to savour delicious local (article) ______ cuisine.",
+      "prompt": "article",
+      "verb": "article",
+      "correct_answer": "Ø",
+      "explanation": "'Cuisine' được dùng như danh từ không đếm được chỉ ẩm thực nói chung, dùng zero article (Ø)."
+    },
+    {
+      "id": "6",
+      "text": "The university exchange team traveled to (article) ______ Netherlands to attend an international symposium on cultural heritage.",
+      "prompt": "article",
+      "verb": "article",
+      "correct_answer": "the",
+      "explanation": "Dùng 'the' trước tên các quốc gia có dạng danh từ số nhiều (the Netherlands, the Philippines)."
+    },
+    {
+      "id": "7",
+      "text": "At the folk art museum, the guide introduced (article) ______ unfamiliar musical instrument crafted from buffalo horn.",
+      "prompt": "article",
+      "verb": "article",
+      "correct_answer": "an",
+      "explanation": "Danh từ số ít 'musical instrument' đi kèm tính từ bắt đầu bằng nguyên âm 'unfamiliar' (/ˌʌnfəˈmɪliər/), dùng 'an'."
+    },
+    {
+      "id": "8",
+      "text": "Anthropologists believe that (article) ______ custom of carving turnip lanterns originated in ancient Ireland.",
+      "prompt": "article",
+      "verb": "article",
+      "correct_answer": "the",
+      "explanation": "Danh từ 'custom' được xác định cụ thể bởi cụm giới từ 'of carving turnip lanterns', nên dùng mạo từ xác định 'the'."
+    },
+    {
+      "id": "9",
+      "text": "Children in the residential area dressed in imaginative costumes and played (article) ______ trick or treat on Halloween evening.",
+      "prompt": "article",
+      "verb": "article",
+      "correct_answer": "Ø",
+      "explanation": "Tên hoạt động/phong tục truyền thống 'trick or treat' dùng zero article (Ø)."
+    },
+    {
+      "id": "10",
+      "text": "The veteran artisan delivered (article) ______ inspiring speech about preserving traditional games for future generations.",
+      "prompt": "article",
+      "verb": "article",
+      "correct_answer": "an",
+      "explanation": "Danh từ số ít 'speech' đi kèm tính từ bắt đầu bằng nguyên âm 'inspiring' (/ɪnˈspaɪərɪŋ/), dùng 'an'."
+    },
+    {
+      "id": "11",
+      "text": "Marine biologists are tracking how rising sea temperatures impact coral ecosystems in (article) ______ Pacific Ocean.",
+      "prompt": "article",
+      "verb": "article",
+      "correct_answer": "the",
+      "explanation": "Dùng mạo từ 'the' trước tên của các đại dương (the Pacific Ocean)."
+    },
+    {
+      "id": "12",
+      "text": "The entire team had (article) ______ dinner together at a local food stall after winning the tug of war contest.",
+      "prompt": "article",
+      "verb": "article",
+      "correct_answer": "Ø",
+      "explanation": "Các danh từ chỉ bữa ăn thông thường (breakfast, lunch, dinner) dùng zero article (Ø)."
+    },
+    {
+      "id": "13",
+      "text": "The children squealed with excitement as they entered (article) ______ haunted house during the community carnival.",
+      "prompt": "article",
+      "verb": "article",
+      "correct_answer": "a",
+      "explanation": "Danh từ số ít đếm được 'haunted house' được nhắc đến lần đầu, 'haunted' bắt đầu bằng âm phụ âm /h/, dùng 'a'."
+    },
+    {
+      "id": "14",
+      "text": "The pastry chef emphasized that fresh vanilla is (article) ______ indispensable ingredient in authentic French desserts.",
+      "prompt": "article",
+      "verb": "article",
+      "correct_answer": "an",
+      "explanation": "Danh từ số ít 'ingredient' đi sau tính từ bắt đầu bằng nguyên âm 'indispensable' (/ˌɪndɪˈspensəbl/), dùng 'an'."
+    },
+    {
+      "id": "15",
+      "text": "Mount Fansipan is widely celebrated as (article) ______ highest summit in Viet Nam.",
+      "prompt": "article",
+      "verb": "article",
+      "correct_answer": "the",
+      "explanation": "Trước tính từ ở dạng so sánh nhất ('the highest') luôn dùng mạo từ xác định 'the'."
+    },
+    {
+      "id": "16",
+      "text": "When traveling to rural regions, foreign backpackers often encounter (article) ______ language barrier with older residents.",
+      "prompt": "article",
+      "verb": "article",
+      "correct_answer": "a",
+      "explanation": "Danh từ đếm được số ít 'language barrier' với nghĩa chung 'một rào cản ngôn ngữ', dùng 'a'."
+    },
+    {
+      "id": "17",
+      "text": "The youth union held (article) ______ annual cultural exchange to promote understanding among international students.",
+      "prompt": "article",
+      "verb": "article",
+      "correct_answer": "an",
+      "explanation": "Danh từ đếm được số ít đi sau tính từ bắt đầu bằng nguyên âm 'annual' (/ˈænjuəl/), dùng 'an'."
+    },
+    {
+      "id": "18",
+      "text": "Educators believe that young people should learn to respect (article) ______ cultural diversity in our interconnected world.",
+      "prompt": "article",
+      "verb": "article",
+      "correct_answer": "Ø",
+      "explanation": "'Cultural diversity' là danh từ không đếm được dùng với ý nghĩa khái quát, dùng zero article (Ø)."
+    },
+    {
+      "id": "19",
+      "text": "She purchased a conical hat at the souvenir shop, and (article) ______ souvenir was carefully signed by the local artisan.",
+      "prompt": "article",
+      "verb": "article",
+      "correct_answer": "the",
+      "explanation": "Danh từ 'souvenir' đã được xác định cụ thể do đã nhắc đến món đồ lưu niệm ở mệnh đề trước, dùng 'the'."
+    },
+    {
+      "id": "20",
+      "text": "In the modern digital era, (article) ______ internet has become the primary platform for broadcasting global cultural trends.",
+      "prompt": "article",
+      "verb": "article",
+      "correct_answer": "the",
+      "explanation": "Thực thể duy nhất và phổ quát 'the internet' luôn đi với mạo từ xác định 'the'."
+    }
+  ]
+}

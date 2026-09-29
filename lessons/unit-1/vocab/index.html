@@ -1302,6 +1302,25 @@
             flex-shrink: 0;
         }
 
+        .sign-board.has-image {
+            background: #ffffff;
+            padding: 4px;
+            border: 1px solid var(--border-subtle);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .sign-img-view {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 1 / 1;
+            object-fit: contain;
+            display: block;
+            border-radius: 8px;
+        }
+
         .sign-icon-circle {
             font-size: 32px;
             margin-bottom: 8px;
@@ -2983,15 +3002,15 @@
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_1_0_1" data-is-correct="false">
-                    <input type="radio" name="ex_1_q_0" id="opt_1_0_1" value="death" onchange="markSelected(this)">
+                    <input type="radio" name="ex_1_q_0" id="opt_1_0_1" value="cancer" onchange="markSelected(this)">
                     <span class="option-badge">B</span>
-                    <span class="option-text">death</span>
+                    <span class="option-text">cancer</span>
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_1_0_2" data-is-correct="false">
-                    <input type="radio" name="ex_1_q_0" id="opt_1_0_2" value="cancer" onchange="markSelected(this)">
+                    <input type="radio" name="ex_1_q_0" id="opt_1_0_2" value="death" onchange="markSelected(this)">
                     <span class="option-badge">C</span>
-                    <span class="option-text">cancer</span>
+                    <span class="option-text">death</span>
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_1_0_3" data-is-correct="true">
@@ -3012,9 +3031,9 @@
                 <div class="options-grid">
                     
                 <label class="option-label" for="opt_1_1_0" data-is-correct="false">
-                    <input type="radio" name="ex_1_q_1" id="opt_1_1_0" value="resistance war" onchange="markSelected(this)">
+                    <input type="radio" name="ex_1_q_1" id="opt_1_1_0" value="tourist attraction" onchange="markSelected(this)">
                     <span class="option-badge">A</span>
-                    <span class="option-text">resistance war</span>
+                    <span class="option-text">tourist attraction</span>
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_1_1_1" data-is-correct="false">
@@ -3030,9 +3049,9 @@
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_1_1_3" data-is-correct="false">
-                    <input type="radio" name="ex_1_q_1" id="opt_1_1_3" value="tourist attraction" onchange="markSelected(this)">
+                    <input type="radio" name="ex_1_q_1" id="opt_1_1_3" value="resistance war" onchange="markSelected(this)">
                     <span class="option-badge">D</span>
-                    <span class="option-text">tourist attraction</span>
+                    <span class="option-text">resistance war</span>
                     <span class="check-icon">✓</span>
                 </label>
                 </div>
@@ -3046,28 +3065,28 @@
                 </div>
                 <div class="options-grid">
                     
-                <label class="option-label" for="opt_1_2_0" data-is-correct="true">
-                    <input type="radio" name="ex_1_q_2" id="opt_1_2_0" value="attend college" onchange="markSelected(this)">
+                <label class="option-label" for="opt_1_2_0" data-is-correct="false">
+                    <input type="radio" name="ex_1_q_2" id="opt_1_2_0" value="carry out attacks" onchange="markSelected(this)">
                     <span class="option-badge">A</span>
-                    <span class="option-text">attend college</span>
-                    <span class="check-icon">✓</span>
-                </label>
-                <label class="option-label" for="opt_1_2_1" data-is-correct="false">
-                    <input type="radio" name="ex_1_q_2" id="opt_1_2_1" value="carry out attacks" onchange="markSelected(this)">
-                    <span class="option-badge">B</span>
                     <span class="option-text">carry out attacks</span>
                     <span class="check-icon">✓</span>
                 </label>
-                <label class="option-label" for="opt_1_2_2" data-is-correct="false">
-                    <input type="radio" name="ex_1_q_2" id="opt_1_2_2" value="attend school" onchange="markSelected(this)">
+                <label class="option-label" for="opt_1_2_1" data-is-correct="false">
+                    <input type="radio" name="ex_1_q_2" id="opt_1_2_1" value="pass away" onchange="markSelected(this)">
+                    <span class="option-badge">B</span>
+                    <span class="option-text">pass away</span>
+                    <span class="check-icon">✓</span>
+                </label>
+                <label class="option-label" for="opt_1_2_2" data-is-correct="true">
+                    <input type="radio" name="ex_1_q_2" id="opt_1_2_2" value="attend college" onchange="markSelected(this)">
                     <span class="option-badge">C</span>
-                    <span class="option-text">attend school</span>
+                    <span class="option-text">attend college</span>
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_1_2_3" data-is-correct="false">
-                    <input type="radio" name="ex_1_q_2" id="opt_1_2_3" value="pass away" onchange="markSelected(this)">
+                    <input type="radio" name="ex_1_q_2" id="opt_1_2_3" value="attend school" onchange="markSelected(this)">
                     <span class="option-badge">D</span>
-                    <span class="option-text">pass away</span>
+                    <span class="option-text">attend school</span>
                     <span class="check-icon">✓</span>
                 </label>
                 </div>
@@ -3082,27 +3101,27 @@
                 <div class="options-grid">
                     
                 <label class="option-label" for="opt_1_3_0" data-is-correct="false">
-                    <input type="radio" name="ex_1_q_3" id="opt_1_3_0" value="biography" onchange="markSelected(this)">
+                    <input type="radio" name="ex_1_q_3" id="opt_1_3_0" value="kingdom" onchange="markSelected(this)">
                     <span class="option-badge">A</span>
-                    <span class="option-text">biography</span>
-                    <span class="check-icon">✓</span>
-                </label>
-                <label class="option-label" for="opt_1_3_1" data-is-correct="true">
-                    <input type="radio" name="ex_1_q_3" id="opt_1_3_1" value="determination" onchange="markSelected(this)">
-                    <span class="option-badge">B</span>
-                    <span class="option-text">determination</span>
-                    <span class="check-icon">✓</span>
-                </label>
-                <label class="option-label" for="opt_1_3_2" data-is-correct="false">
-                    <input type="radio" name="ex_1_q_3" id="opt_1_3_2" value="kingdom" onchange="markSelected(this)">
-                    <span class="option-badge">C</span>
                     <span class="option-text">kingdom</span>
                     <span class="check-icon">✓</span>
                 </label>
-                <label class="option-label" for="opt_1_3_3" data-is-correct="false">
-                    <input type="radio" name="ex_1_q_3" id="opt_1_3_3" value="theme park" onchange="markSelected(this)">
-                    <span class="option-badge">D</span>
+                <label class="option-label" for="opt_1_3_1" data-is-correct="false">
+                    <input type="radio" name="ex_1_q_3" id="opt_1_3_1" value="biography" onchange="markSelected(this)">
+                    <span class="option-badge">B</span>
+                    <span class="option-text">biography</span>
+                    <span class="check-icon">✓</span>
+                </label>
+                <label class="option-label" for="opt_1_3_2" data-is-correct="false">
+                    <input type="radio" name="ex_1_q_3" id="opt_1_3_2" value="theme park" onchange="markSelected(this)">
+                    <span class="option-badge">C</span>
                     <span class="option-text">theme park</span>
+                    <span class="check-icon">✓</span>
+                </label>
+                <label class="option-label" for="opt_1_3_3" data-is-correct="true">
+                    <input type="radio" name="ex_1_q_3" id="opt_1_3_3" value="determination" onchange="markSelected(this)">
+                    <span class="option-badge">D</span>
+                    <span class="option-text">determination</span>
                     <span class="check-icon">✓</span>
                 </label>
                 </div>
@@ -3116,16 +3135,16 @@
                 </div>
                 <div class="options-grid">
                     
-                <label class="option-label" for="opt_1_4_0" data-is-correct="true">
-                    <input type="radio" name="ex_1_q_4" id="opt_1_4_0" value="blockbuster" onchange="markSelected(this)">
+                <label class="option-label" for="opt_1_4_0" data-is-correct="false">
+                    <input type="radio" name="ex_1_q_4" id="opt_1_4_0" value="childhood" onchange="markSelected(this)">
                     <span class="option-badge">A</span>
-                    <span class="option-text">blockbuster</span>
+                    <span class="option-text">childhood</span>
                     <span class="check-icon">✓</span>
                 </label>
-                <label class="option-label" for="opt_1_4_1" data-is-correct="false">
-                    <input type="radio" name="ex_1_q_4" id="opt_1_4_1" value="surgeon" onchange="markSelected(this)">
+                <label class="option-label" for="opt_1_4_1" data-is-correct="true">
+                    <input type="radio" name="ex_1_q_4" id="opt_1_4_1" value="blockbuster" onchange="markSelected(this)">
                     <span class="option-badge">B</span>
-                    <span class="option-text">surgeon</span>
+                    <span class="option-text">blockbuster</span>
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_1_4_2" data-is-correct="false">
@@ -3135,9 +3154,9 @@
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_1_4_3" data-is-correct="false">
-                    <input type="radio" name="ex_1_q_4" id="opt_1_4_3" value="childhood" onchange="markSelected(this)">
+                    <input type="radio" name="ex_1_q_4" id="opt_1_4_3" value="surgeon" onchange="markSelected(this)">
                     <span class="option-badge">D</span>
-                    <span class="option-text">childhood</span>
+                    <span class="option-text">surgeon</span>
                     <span class="check-icon">✓</span>
                 </label>
                 </div>
@@ -3157,10 +3176,10 @@
                     <span class="option-text">film producer</span>
                     <span class="check-icon">✓</span>
                 </label>
-                <label class="option-label" for="opt_1_5_1" data-is-correct="false">
-                    <input type="radio" name="ex_1_q_5" id="opt_1_5_1" value="resistance war" onchange="markSelected(this)">
+                <label class="option-label" for="opt_1_5_1" data-is-correct="true">
+                    <input type="radio" name="ex_1_q_5" id="opt_1_5_1" value="tourist attraction" onchange="markSelected(this)">
                     <span class="option-badge">B</span>
-                    <span class="option-text">resistance war</span>
+                    <span class="option-text">tourist attraction</span>
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_1_5_2" data-is-correct="false">
@@ -3169,10 +3188,10 @@
                     <span class="option-text">national hero</span>
                     <span class="check-icon">✓</span>
                 </label>
-                <label class="option-label" for="opt_1_5_3" data-is-correct="true">
-                    <input type="radio" name="ex_1_q_5" id="opt_1_5_3" value="tourist attraction" onchange="markSelected(this)">
+                <label class="option-label" for="opt_1_5_3" data-is-correct="false">
+                    <input type="radio" name="ex_1_q_5" id="opt_1_5_3" value="resistance war" onchange="markSelected(this)">
                     <span class="option-badge">D</span>
-                    <span class="option-text">tourist attraction</span>
+                    <span class="option-text">resistance war</span>
                     <span class="check-icon">✓</span>
                 </label>
                 </div>
@@ -3186,16 +3205,16 @@
                 </div>
                 <div class="options-grid">
                     
-                <label class="option-label" for="opt_1_6_0" data-is-correct="false">
-                    <input type="radio" name="ex_1_q_6" id="opt_1_6_0" value="defeated" onchange="markSelected(this)">
+                <label class="option-label" for="opt_1_6_0" data-is-correct="true">
+                    <input type="radio" name="ex_1_q_6" id="opt_1_6_0" value="ruled" onchange="markSelected(this)">
                     <span class="option-badge">A</span>
-                    <span class="option-text">defeated</span>
+                    <span class="option-text">ruled</span>
                     <span class="check-icon">✓</span>
                 </label>
-                <label class="option-label" for="opt_1_6_1" data-is-correct="true">
-                    <input type="radio" name="ex_1_q_6" id="opt_1_6_1" value="ruled" onchange="markSelected(this)">
+                <label class="option-label" for="opt_1_6_1" data-is-correct="false">
+                    <input type="radio" name="ex_1_q_6" id="opt_1_6_1" value="admired" onchange="markSelected(this)">
                     <span class="option-badge">B</span>
-                    <span class="option-text">ruled</span>
+                    <span class="option-text">admired</span>
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_1_6_2" data-is-correct="false">
@@ -3205,9 +3224,9 @@
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_1_6_3" data-is-correct="false">
-                    <input type="radio" name="ex_1_q_6" id="opt_1_6_3" value="admired" onchange="markSelected(this)">
+                    <input type="radio" name="ex_1_q_6" id="opt_1_6_3" value="defeated" onchange="markSelected(this)">
                     <span class="option-badge">D</span>
-                    <span class="option-text">admired</span>
+                    <span class="option-text">defeated</span>
                     <span class="check-icon">✓</span>
                 </label>
                 </div>
@@ -3227,22 +3246,22 @@
                     <span class="option-text">independent</span>
                     <span class="check-icon">✓</span>
                 </label>
-                <label class="option-label" for="opt_1_7_1" data-is-correct="false">
-                    <input type="radio" name="ex_1_q_7" id="opt_1_7_1" value="well educated" onchange="markSelected(this)">
+                <label class="option-label" for="opt_1_7_1" data-is-correct="true">
+                    <input type="radio" name="ex_1_q_7" id="opt_1_7_1" value="over the moon" onchange="markSelected(this)">
                     <span class="option-badge">B</span>
-                    <span class="option-text">well educated</span>
-                    <span class="check-icon">✓</span>
-                </label>
-                <label class="option-label" for="opt_1_7_2" data-is-correct="true">
-                    <input type="radio" name="ex_1_q_7" id="opt_1_7_2" value="over the moon" onchange="markSelected(this)">
-                    <span class="option-badge">C</span>
                     <span class="option-text">over the moon</span>
                     <span class="check-icon">✓</span>
                 </label>
-                <label class="option-label" for="opt_1_7_3" data-is-correct="false">
-                    <input type="radio" name="ex_1_q_7" id="opt_1_7_3" value="dedicated to" onchange="markSelected(this)">
-                    <span class="option-badge">D</span>
+                <label class="option-label" for="opt_1_7_2" data-is-correct="false">
+                    <input type="radio" name="ex_1_q_7" id="opt_1_7_2" value="dedicated to" onchange="markSelected(this)">
+                    <span class="option-badge">C</span>
                     <span class="option-text">dedicated to</span>
+                    <span class="check-icon">✓</span>
+                </label>
+                <label class="option-label" for="opt_1_7_3" data-is-correct="false">
+                    <input type="radio" name="ex_1_q_7" id="opt_1_7_3" value="well educated" onchange="markSelected(this)">
+                    <span class="option-badge">D</span>
+                    <span class="option-text">well educated</span>
                     <span class="check-icon">✓</span>
                 </label>
                 </div>
@@ -3263,56 +3282,56 @@
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_1_8_1" data-is-correct="false">
-                    <input type="radio" name="ex_1_q_8" id="opt_1_8_1" value="carried out" onchange="markSelected(this)">
+                    <input type="radio" name="ex_1_q_8" id="opt_1_8_1" value="passed away" onchange="markSelected(this)">
                     <span class="option-badge">B</span>
-                    <span class="option-text">carried out</span>
+                    <span class="option-text">passed away</span>
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_1_8_2" data-is-correct="false">
-                    <input type="radio" name="ex_1_q_8" id="opt_1_8_2" value="dropped out" onchange="markSelected(this)">
+                    <input type="radio" name="ex_1_q_8" id="opt_1_8_2" value="carried out" onchange="markSelected(this)">
                     <span class="option-badge">C</span>
-                    <span class="option-text">dropped out</span>
+                    <span class="option-text">carried out</span>
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_1_8_3" data-is-correct="false">
-                    <input type="radio" name="ex_1_q_8" id="opt_1_8_3" value="passed away" onchange="markSelected(this)">
+                    <input type="radio" name="ex_1_q_8" id="opt_1_8_3" value="dropped out" onchange="markSelected(this)">
                     <span class="option-badge">D</span>
-                    <span class="option-text">passed away</span>
+                    <span class="option-text">dropped out</span>
                     <span class="check-icon">✓</span>
                 </label>
                 </div>
                 <div class="q-feedback" id="feedback_1_8" style="display:none;"></div>
             </div>
 
-            <div class="question-row" data-q-idx="9" data-correct="admired for">
+            <div class="question-row" data-q-idx="9" data-correct="be admired for">
                 <div class="q-header">
                     <span class="q-num">Câu 10</span>
-                    <div class="q-content"><div class='question-stem'>The veteran diplomat was widely __________ his integrity and calm leadership during international negotiations.</div></div>
+                    <div class="q-content"><div class='question-stem'>Every young researcher hopes to __________ significant scientific breakthroughs that benefit society.</div></div>
                 </div>
                 <div class="options-grid">
                     
-                <label class="option-label" for="opt_1_9_0" data-is-correct="false">
-                    <input type="radio" name="ex_1_q_9" id="opt_1_9_0" value="devoted to" onchange="markSelected(this)">
+                <label class="option-label" for="opt_1_9_0" data-is-correct="true">
+                    <input type="radio" name="ex_1_q_9" id="opt_1_9_0" value="be admired for" onchange="markSelected(this)">
                     <span class="option-badge">A</span>
-                    <span class="option-text">devoted to</span>
+                    <span class="option-text">be admired for</span>
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_1_9_1" data-is-correct="false">
-                    <input type="radio" name="ex_1_q_9" id="opt_1_9_1" value="dedicated to" onchange="markSelected(this)">
+                    <input type="radio" name="ex_1_q_9" id="opt_1_9_1" value="be devoted to" onchange="markSelected(this)">
                     <span class="option-badge">B</span>
-                    <span class="option-text">dedicated to</span>
+                    <span class="option-text">be devoted to</span>
                     <span class="check-icon">✓</span>
                 </label>
                 <label class="option-label" for="opt_1_9_2" data-is-correct="false">
-                    <input type="radio" name="ex_1_q_9" id="opt_1_9_2" value="adopted by" onchange="markSelected(this)">
+                    <input type="radio" name="ex_1_q_9" id="opt_1_9_2" value="be dedicated to" onchange="markSelected(this)">
                     <span class="option-badge">C</span>
-                    <span class="option-text">adopted by</span>
+                    <span class="option-text">be dedicated to</span>
                     <span class="check-icon">✓</span>
                 </label>
-                <label class="option-label" for="opt_1_9_3" data-is-correct="true">
-                    <input type="radio" name="ex_1_q_9" id="opt_1_9_3" value="admired for" onchange="markSelected(this)">
+                <label class="option-label" for="opt_1_9_3" data-is-correct="false">
+                    <input type="radio" name="ex_1_q_9" id="opt_1_9_3" value="be adopted by" onchange="markSelected(this)">
                     <span class="option-badge">D</span>
-                    <span class="option-text">admired for</span>
+                    <span class="option-text">be adopted by</span>
                     <span class="check-icon">✓</span>
                 </label>
                 </div>
@@ -5097,20 +5116,20 @@
                 <div class="dict-def">the ability to continue trying to achieve something difficult despite obstacles</div>
                 <div class="dict-collocs">
                     <div class="dict-collocs-title">Collocations & Contextual Usages:</div>
-                    <ul class="dict-bullets-list"><li>The rescue crew worked throughout the night with <span class='target-word'>unwavering determination</span>.</li><li>In moments of sudden crisis, officers are trained to <span class='target-word'>act with determination</span>.</li><li>Young athletes frequently <span class='target-word'>show fierce determination</span> during tournament finals.</li><li>Her <span class='target-word'>determination to succeed against</span> poverty inspired everyone in the village.</li></ul>
+                    <ul class="dict-bullets-list"><li>Her <span class='target-word'>determination to succeed against</span> poverty inspired everyone in the village.</li><li>In moments of sudden crisis, officers are trained to <span class='target-word'>act with determination</span>.</li><li>Young athletes frequently <span class='target-word'>show fierce determination</span> during tournament finals.</li><li>The rescue crew worked throughout the night with <span class='target-word'>unwavering determination</span>.</li></ul>
                 </div>
                 <div class="dict-practice-section">
                     <div class="dict-practice-title">📝 Practice Sentences:</div>
                     
-                <div class="dict-question-item" data-correct="unwavering determination">
-                    <span class="dict-q-num">#1</span>
-                    <div class="dict-q-body">The polar research team crossed the vast ice shelf through sheer <input type='text' class='tidy-input dict-blank' id='dict_inp_10_0_0' placeholder='...' autocomplete='off' data-correct='unwavering determination'> in freezing temperatures.</div>
-                    <div class="dict-ans-reveal" id="dict_ans_10_0_0" style="display:none;">Đáp án: <strong>unwavering determination</strong></div>
-                </div>
                 <div class="dict-question-item" data-correct="determination to succeed against">
+                    <span class="dict-q-num">#1</span>
+                    <div class="dict-q-body">The young apprentice possessed a relentless <input type='text' class='tidy-input dict-blank' id='dict_inp_10_0_0' placeholder='...' autocomplete='off' data-correct='determination to succeed against'> all financial hardships and graduate top of his class.</div>
+                    <div class="dict-ans-reveal" id="dict_ans_10_0_0" style="display:none;">Đáp án: <strong>determination to succeed against</strong></div>
+                </div>
+                <div class="dict-question-item" data-correct="unwavering determination">
                     <span class="dict-q-num">#2</span>
-                    <div class="dict-q-body">The young apprentice possessed a relentless <input type='text' class='tidy-input dict-blank' id='dict_inp_10_0_1' placeholder='...' autocomplete='off' data-correct='determination to succeed against'> all financial hardships and graduate top of his class.</div>
-                    <div class="dict-ans-reveal" id="dict_ans_10_0_1" style="display:none;">Đáp án: <strong>determination to succeed against</strong></div>
+                    <div class="dict-q-body">The polar research team crossed the vast ice shelf through sheer <input type='text' class='tidy-input dict-blank' id='dict_inp_10_0_1' placeholder='...' autocomplete='off' data-correct='unwavering determination'> in freezing temperatures.</div>
+                    <div class="dict-ans-reveal" id="dict_ans_10_0_1" style="display:none;">Đáp án: <strong>unwavering determination</strong></div>
                 </div>
                 </div>
             </div>
@@ -5124,7 +5143,7 @@
                 <div class="dict-def">to respect somebody for what they have done or to look at something with pleasure</div>
                 <div class="dict-collocs">
                     <div class="dict-collocs-title">Collocations & Contextual Usages:</div>
-                    <ul class="dict-bullets-list"><li>Modern architects <span class='target-word'>greatly admire</span> the structural balance of the ancient cathedral.</li><li>Voters continued to <span class='target-word'>admire her for</span> her honesty throughout the political campaign.</li><li>Visitors to the national park <span class='target-word'>can admire from afar</span> the rare migratory birds.</li><li>After working alongside the experienced editor, the intern began to <span class='target-word'>come to admire</span> his patience.</li></ul>
+                    <ul class="dict-bullets-list"><li>Voters continued to <span class='target-word'>admire her for</span> her honesty throughout the political campaign.</li><li>After working alongside the experienced editor, the intern began to <span class='target-word'>come to admire</span> his patience.</li><li>Modern architects <span class='target-word'>greatly admire</span> the structural balance of the ancient cathedral.</li><li>Visitors to the national park <span class='target-word'>can admire from afar</span> the rare migratory birds.</li></ul>
                 </div>
                 <div class="dict-practice-section">
                     <div class="dict-practice-title">📝 Practice Sentences:</div>
@@ -5151,7 +5170,7 @@
                 <div class="dict-def">a thing that somebody has done successfully, especially using their own effort and skill</div>
                 <div class="dict-collocs">
                     <div class="dict-collocs-title">Collocations & Contextual Usages:</div>
-                    <ul class="dict-bullets-list"><li>The scholarship committee evaluates candidates primarily on their high level of <span class='target-word'>academic achievement</span>.</li><li>Completing the difficult mountain trek gave the scouts a deep <span class='target-word'>sense of proud achievement</span>.</li><li>The software developers gathered at dinner to <span class='target-word'>celebrate an achievement</span> after launching their platform.</li><li>Preserving the pristine rainforest will remain the minister&#x27;s most <span class='target-word'>lasting achievement</span>.</li></ul>
+                    <ul class="dict-bullets-list"><li>Completing the difficult mountain trek gave the scouts a deep <span class='target-word'>sense of proud achievement</span>.</li><li>The scholarship committee evaluates candidates primarily on their high level of <span class='target-word'>academic achievement</span>.</li><li>Preserving the pristine rainforest will remain the minister&#x27;s most <span class='target-word'>lasting achievement</span>.</li><li>The software developers gathered at dinner to <span class='target-word'>celebrate an achievement</span> after launching their platform.</li></ul>
                 </div>
                 <div class="dict-practice-section">
                     <div class="dict-practice-title">📝 Practice Sentences:</div>
@@ -5178,7 +5197,7 @@
                 <div class="dict-def">to give an amount of time, attention, or effort to something</div>
                 <div class="dict-collocs">
                     <div class="dict-collocs-title">Collocations & Contextual Usages:</div>
-                    <ul class="dict-bullets-list"><li>Busy working parents should still <span class='target-word'>devote time to</span> outdoor activities with their children.</li><li>Young volunteers often <span class='target-word'>devote themselves to</span> clearing litter along polluted shorelines.</li><li>Engineers must <span class='target-word'>devote energy to</span> making renewable solar batteries more efficient.</li><li>The remaining museum galleries will <span class='target-word'>be devoted entirely to</span> regional pottery.</li></ul>
+                    <ul class="dict-bullets-list"><li>Engineers must <span class='target-word'>devote energy to</span> making renewable solar batteries more efficient.</li><li>Young volunteers often <span class='target-word'>devote themselves to</span> clearing litter along polluted shorelines.</li><li>Busy working parents should still <span class='target-word'>devote time to</span> outdoor activities with their children.</li><li>The remaining museum galleries will <span class='target-word'>be devoted entirely to</span> regional pottery.</li></ul>
                 </div>
                 <div class="dict-practice-section">
                     <div class="dict-practice-title">📝 Practice Sentences:</div>
@@ -5205,7 +5224,7 @@
                 <div class="dict-def">not governed or controlled by other people, countries, or organizations</div>
                 <div class="dict-collocs">
                     <div class="dict-collocs-title">Collocations & Contextual Usages:</div>
-                    <ul class="dict-bullets-list"><li>The philosophy professor was an <span class='target-word'>independent thinker</span> who challenged standard assumptions.</li><li>The small island territory sought to remain <span class='target-word'>independent from outside</span> political alliances.</li><li>By learning computer programming, teenagers can become <span class='target-word'>financially independent</span> at an early age.</li><li>After decades under colonial administration, the nation fought to <span class='target-word'>become fully independent</span>.</li></ul>
+                    <ul class="dict-bullets-list"><li>After decades under colonial administration, the nation fought to <span class='target-word'>become fully independent</span>.</li><li>By learning computer programming, teenagers can become <span class='target-word'>financially independent</span> at an early age.</li><li>The small island territory sought to remain <span class='target-word'>independent from outside</span> political alliances.</li><li>The philosophy professor was an <span class='target-word'>independent thinker</span> who challenged standard assumptions.</li></ul>
                 </div>
                 <div class="dict-practice-section">
                     <div class="dict-practice-title">📝 Practice Sentences:</div>
@@ -5261,9 +5280,8 @@
                 </div>
                 <div class="sign-layout">
                     
-            <div class="sign-board">
-                <div class="sign-icon-circle">🪧</div>
-                <div class="sign-desc">A standard circular prohibition sign on a clean white background with a thick red border and diagonal slash over a modern digital camera with a flash icon, centered and filling 90% of the square canvas, NO outer border frame, NO text or words of any kind.</div>
+            <div class="sign-board has-image">
+                <img src="../../../images/sign_1.png" alt="Sign #1" class="sign-img-view" loading="lazy">
             </div>
                     <div class="sign-qa">
                         <div class="question-stem"><strong>What does the sign mean?</strong></div>
@@ -5305,9 +5323,8 @@
                 </div>
                 <div class="sign-layout">
                     
-            <div class="sign-board">
-                <div class="sign-icon-circle">🪧</div>
-                <div class="sign-desc">A standard circular prohibition sign on a clean white background with a thick red border and diagonal slash over a person touching an antique historical display pedestal, centered and filling 90% of the square canvas, NO outer border frame, NO text or words of any kind.</div>
+            <div class="sign-board has-image">
+                <img src="../../../images/sign_2.png" alt="Sign #2" class="sign-img-view" loading="lazy">
             </div>
                     <div class="sign-qa">
                         <div class="question-stem"><strong>What does the sign mean?</strong></div>
@@ -5349,9 +5366,8 @@
                 </div>
                 <div class="sign-layout">
                     
-            <div class="sign-board">
-                <div class="sign-icon-circle">🪧</div>
-                <div class="sign-desc">A standard circular mandatory action sign with a deep blue background featuring a crisp white icon of audio guide headphones, centered and filling 90% of the square canvas, NO outer border frame, NO text or words of any kind.</div>
+            <div class="sign-board has-image">
+                <img src="../../../images/sign_3.png" alt="Sign #3" class="sign-img-view" loading="lazy">
             </div>
                     <div class="sign-qa">
                         <div class="question-stem"><strong>What does the sign say?</strong></div>
@@ -5393,9 +5409,8 @@
                 </div>
                 <div class="sign-layout">
                     
-            <div class="sign-board">
-                <div class="sign-icon-circle">🪧</div>
-                <div class="sign-desc">A standard equilateral triangular warning sign on a clean white background with a bold yellow interior, thick black border, and a black symbol of fragile antique glass showcase display cracking under pressure, centered and filling 90% of the square canvas, NO outer border frame, NO text or words of any kind.</div>
+            <div class="sign-board has-image">
+                <img src="../../../images/sign_4.png" alt="Sign #4" class="sign-img-view" loading="lazy">
             </div>
                     <div class="sign-qa">
                         <div class="question-stem"><strong>What does the sign say?</strong></div>
@@ -5437,9 +5452,8 @@
                 </div>
                 <div class="sign-layout">
                     
-            <div class="sign-board">
-                <div class="sign-icon-circle">🪧</div>
-                <div class="sign-desc">A standard equilateral triangular warning sign on a clean white background with a bold yellow interior, thick black border, and a black symbol of a laser beam hazard during film studio production, centered and filling 90% of the square canvas, NO outer border frame, NO text or words of any kind.</div>
+            <div class="sign-board has-image">
+                <img src="../../../images/sign_5.png" alt="Sign #5" class="sign-img-view" loading="lazy">
             </div>
                     <div class="sign-qa">
                         <div class="question-stem"><strong>What does the sign say?</strong></div>
@@ -5481,9 +5495,8 @@
                 </div>
                 <div class="sign-layout">
                     
-            <div class="sign-board">
-                <div class="sign-icon-circle">🪧</div>
-                <div class="sign-desc">Full-bleed square graphic design, 100% edge-to-edge layout filling the entire square image canvas with zero outer background margins. A sleek brushed metal rectangular plaque displaying bold white and gold text: &#x27;HISTORICAL ARCHIVE: ORAL ACCOUNTS RECORDING IN PROGRESS — SILENCE OBSERVED&#x27;. Large high-contrast typography, maximum readability when printed.</div>
+            <div class="sign-board has-image">
+                <img src="../../../images/sign_6.png" alt="Sign #6" class="sign-img-view" loading="lazy">
             </div>
                     <div class="sign-qa">
                         <div class="question-stem"><strong>What does the notice tell us?</strong></div>
@@ -5525,9 +5538,8 @@
                 </div>
                 <div class="sign-layout">
                     
-            <div class="sign-board">
-                <div class="sign-icon-circle">🪧</div>
-                <div class="sign-desc">Full-bleed square graphic design, 100% edge-to-edge layout filling the entire square image canvas with zero outer background margins. A realistic yellow textured sticky note with neat handwritten blue ink: &#x27;Hi Leo, I left the biography of the national hero on your desk. Please return it to the library by 4 p.m. today! — Sarah&#x27;. High-contrast handwriting, maximum readability when printed.</div>
+            <div class="sign-board has-image">
+                <img src="../../../images/sign_7.png" alt="Sign #7" class="sign-img-view" loading="lazy">
             </div>
                     <div class="sign-qa">
                         <div class="question-stem"><strong>What does the note say?</strong></div>
@@ -5569,9 +5581,8 @@
                 </div>
                 <div class="sign-layout">
                     
-            <div class="sign-board">
-                <div class="sign-icon-circle">🪧</div>
-                <div class="sign-desc">Full-bleed square graphic design, 100% edge-to-edge layout filling the entire square image canvas with zero outer background margins. A clean corporate email interface card. Subject: &#x27;Guest Lecture: Military Strategy in World History&#x27;. Body: &#x27;Dear students, General Harrison&#x27;s lecture moves to Hall B at 2 p.m. due to high attendance.&#x27; High-contrast typography, maximum readability when printed.</div>
+            <div class="sign-board has-image">
+                <img src="../../../images/sign_8.png" alt="Sign #8" class="sign-img-view" loading="lazy">
             </div>
                     <div class="sign-qa">
                         <div class="question-stem"><strong>What does the email say?</strong></div>
@@ -5613,9 +5624,8 @@
                 </div>
                 <div class="sign-layout">
                     
-            <div class="sign-board">
-                <div class="sign-icon-circle">🪧</div>
-                <div class="sign-desc">Full-bleed square graphic design, 100% edge-to-edge layout filling the entire square image canvas with zero outer background margins. A stylish vintage bookstore promotional poster: &#x27;HEROES &amp; LEGENDS BOOK FAIR: Buy any two biographies of visionary leaders, receive a documentary DVD for free! Valid this weekend only.&#x27; High-contrast typography, maximum readability when printed.</div>
+            <div class="sign-board has-image">
+                <img src="../../../images/sign_9.png" alt="Sign #9" class="sign-img-view" loading="lazy">
             </div>
                     <div class="sign-qa">
                         <div class="question-stem"><strong>What does the notice tell us?</strong></div>
@@ -5657,9 +5667,8 @@
                 </div>
                 <div class="sign-layout">
                     
-            <div class="sign-board">
-                <div class="sign-icon-circle">🪧</div>
-                <div class="sign-desc">Full-bleed square graphic design, 100% edge-to-edge layout filling the entire square image canvas with zero outer background margins. A vibrant cinematic poster for &#x27;INDEPENDENCE FILM FESTIVAL: Screening award-winning resistance war blockbusters from October 10 to 15 at City Cinema. Free admission for students with valid student ID.&#x27; High-contrast typography, maximum readability when printed.</div>
+            <div class="sign-board has-image">
+                <img src="../../../images/sign_10.png" alt="Sign #10" class="sign-img-view" loading="lazy">
             </div>
                     <div class="sign-qa">
                         <div class="question-stem"><strong>What does the flyer tell us?</strong></div>

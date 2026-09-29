@@ -1,0 +1,103 @@
+{
+  "id": "8",
+  "type": "sentence_building",
+  "title": "Exercise 8: Sentence Building from Cues",
+  "instruction": "Use the given cue words to write grammatically complete and meaningful sentences using verbs with prepositions and relative clauses.",
+  "target_grammar": "Verbs with prepositions, Relative clauses referring to a whole sentence",
+  "questions": [
+    {
+      "id": "1",
+      "cues": "Many / eco-conscious / families / turn off / unnecessary / appliances / which / prevent / waste of electricity",
+      "correct_answer": "Many eco-conscious families turn off unnecessary appliances, which prevents a waste of electricity.",
+      "acceptable_answers": [
+        "Many eco-conscious families turn off unnecessary appliances, which prevents a waste of electricity."
+      ],
+      "explanation": "Thêm mạo từ và chia động từ: 'turn off' (hiện tại đơn số nhiều) và 'prevents' (chia số ít sau ', which')."
+    },
+    {
+      "id": "2",
+      "cues": "Households / should / rinse out / dirty / takeaway container / before / throw / it / recycling bin",
+      "correct_answer": "Households should rinse out a dirty takeaway container before throwing it into the recycling bin.",
+      "acceptable_answers": [
+        "Households should rinse out a dirty takeaway container before throwing it into the recycling bin.",
+        "Households should rinse out a dirty takeaway container before throwing it in the recycling bin."
+      ],
+      "explanation": "Cụm động từ 'rinse out', sau 'before' dùng danh động từ 'throwing', thêm giới từ 'into the recycling bin'."
+    },
+    {
+      "id": "3",
+      "cues": "The school / start / compost / each / fruit peel / garden waste / which / provide / organic fertiliser / plant pot",
+      "correct_answer": "The school started composting each fruit peel and garden waste, which provides organic fertiliser for each plant pot.",
+      "acceptable_answers": [
+        "The school started composting each fruit peel and garden waste, which provides organic fertiliser for each plant pot.",
+        "The school has started composting each fruit peel and garden waste, which provides organic fertiliser for each plant pot."
+      ],
+      "explanation": "'started composting', liên từ 'and', đại từ ', which' đi với động từ số ít 'provides', giới từ 'for each plant pot'."
+    },
+    {
+      "id": "4",
+      "cues": "Volunteers / succeed / clean up / plastic litter / along / canal / which / protect / wild animals / harm",
+      "correct_answer": "Volunteers succeeded in cleaning up plastic litter along the canal, which protected wild animals from harm.",
+      "acceptable_answers": [
+        "Volunteers succeeded in cleaning up plastic litter along the canal, which protected wild animals from harm."
+      ],
+      "explanation": "Cấu trúc 'succeeded in cleaning up', mạo từ 'the canal', ', which' và 'protected wild animals from harm'."
+    },
+    {
+      "id": "5",
+      "cues": "The company / commit / eliminate / single-use / packaging / which / contribute / sustainable / green living",
+      "correct_answer": "The company committed to eliminating single-use packaging, which contributes to sustainable green living.",
+      "acceptable_answers": [
+        "The company committed to eliminating single-use packaging, which contributes to sustainable green living."
+      ],
+      "explanation": "Cấu trúc 'committed to eliminating', đại từ ', which', động từ 'contributes to sustainable green living'."
+    },
+    {
+      "id": "6",
+      "cues": "Using / public transport / instead / private / cars / lower / carbon emissions / which / combat / climate change",
+      "correct_answer": "Using public transport instead of private cars lowers carbon emissions, which combats climate change.",
+      "acceptable_answers": [
+        "Using public transport instead of private cars lowers carbon emissions, which combats climate change."
+      ],
+      "explanation": "Chủ ngữ danh động từ 'Using... lowers', cụm 'instead of', đại từ ', which' và động từ số ít 'combats climate change'."
+    },
+    {
+      "id": "7",
+      "cues": "The factory / apologise / dispose / toxic / chemical pollutants / local / landfill",
+      "correct_answer": "The factory apologised for disposing of toxic chemical pollutants into the local landfill.",
+      "acceptable_answers": [
+        "The factory apologised for disposing of toxic chemical pollutants into the local landfill.",
+        "The factory apologised for disposing of toxic chemical pollutants in the local landfill."
+      ],
+      "explanation": "Cấu trúc 'apologised for disposing of' và thêm mạo từ 'the local landfill'."
+    },
+    {
+      "id": "8",
+      "cues": "Students / craft / charming / bird feeder / discarded / cardboard box / which / impress / their / biology teacher",
+      "correct_answer": "Students crafted a charming bird feeder from a discarded cardboard box, which impressed their biology teacher.",
+      "acceptable_answers": [
+        "Students crafted a charming bird feeder from a discarded cardboard box, which impressed their biology teacher."
+      ],
+      "explanation": "Chia thì quá khứ đơn 'crafted a charming bird feeder from a discarded cardboard box', mệnh đề ', which' bổ nghĩa cho cả câu."
+    },
+    {
+      "id": "9",
+      "cues": "Transitioning / green energy / lower / greenhouse gas emissions / which / benefit / planet / long run",
+      "correct_answer": "Transitioning to green energy lowers greenhouse gas emissions, which benefits our planet in the long run.",
+      "acceptable_answers": [
+        "Transitioning to green energy lowers greenhouse gas emissions, which benefits our planet in the long run.",
+        "Transitioning to green energy lowers greenhouse gas emissions, which benefits the planet in the long run."
+      ],
+      "explanation": "'Transitioning to green energy lowers...', đại từ ', which' đi với 'benefits our planet in the long run'."
+    },
+    {
+      "id": "10",
+      "cues": "Installing / sensor tap / restroom / save / clean water / which / demonstrate / high / environmental awareness",
+      "correct_answer": "Installing a sensor tap in each restroom saves clean water, which demonstrates high environmental awareness.",
+      "acceptable_answers": [
+        "Installing a sensor tap in each restroom saves clean water, which demonstrates high environmental awareness."
+      ],
+      "explanation": "'Installing a sensor tap in each restroom saves...', mệnh đề ', which' đi với 'demonstrates high environmental awareness'."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "8",
+  "type": "sentence_building",
+  "title": "Exercise 8: Sentence Building from Cues",
+  "instruction": "Use the given cue words to write complete, grammatically correct sentences using the Past Simple and Past Continuous.",
+  "target_grammar": "Past simple vs. Past continuous",
+  "questions": [
+    {
+      "id": "1",
+      "cues": "While / Dr. Dang Thuy Tram / work / field hospital / she / write / inspiring diary",
+      "correct_answer": "While Dr. Dang Thuy Tram was working in the field hospital, she wrote an inspiring diary.",
+      "acceptable_answers": [
+        "While Dr. Dang Thuy Tram was working in the field hospital, she wrote an inspiring diary.",
+        "While Dr. Dang Thuy Tram was working in a field hospital, she wrote an inspiring diary."
+      ],
+      "explanation": "Thêm mạo từ và giới từ, chia 'was working' (hành động kéo dài sau While) và 'wrote' (Quá khứ đơn)."
+    },
+    {
+      "id": "2",
+      "cues": "Steve Jobs / design / first Macintosh / when / he / encounter / critical technical issues",
+      "correct_answer": "Steve Jobs was designing the first Macintosh when he encountered critical technical issues.",
+      "acceptable_answers": [
+        "Steve Jobs was designing the first Macintosh when he encountered critical technical issues."
+      ],
+      "explanation": "Chia 'was designing' cho hành động đang diễn tiến và 'encountered' cho sự cố phát sinh bất ngờ sau 'when'."
+    },
+    {
+      "id": "3",
+      "cues": "While / animator / sketch / new characters / director / review / screenplay",
+      "correct_answer": "While the animator was sketching new characters, the director was reviewing the screenplay.",
+      "acceptable_answers": [
+        "While the animator was sketching new characters, the director was reviewing the screenplay."
+      ],
+      "explanation": "Hai hành động song song trong quá khứ: cả hai vế đều chia Quá khứ tiếp diễn ('was sketching' và 'was reviewing')."
+    },
+    {
+      "id": "4",
+      "cues": "General Vo Nguyen Giap / lead / soldiers / victory / while / country / fight / independence",
+      "correct_answer": "General Vo Nguyen Giap led his soldiers to victory while the country was fighting for independence.",
+      "acceptable_answers": [
+        "General Vo Nguyen Giap led his soldiers to victory while the country was fighting for independence."
+      ],
+      "explanation": "Mệnh đề chính dùng Quá khứ đơn 'led', mệnh đề phụ sau 'while' dùng Quá khứ tiếp diễn 'was fighting'."
+    },
+    {
+      "id": "5",
+      "cues": "When / surgeon / receive / prestigious award / she / feel / cloud nine",
+      "correct_answer": "When the surgeon received the prestigious award, she felt on cloud nine.",
+      "acceptable_answers": [
+        "When the surgeon received the prestigious award, she felt on cloud nine."
+      ],
+      "explanation": "Cả hai hành động diễn ra liên tiếp dứt khoát: nhận giải ('received') và cảm xúc hạnh phúc ('felt on cloud nine')."
+    },
+    {
+      "id": "6",
+      "cues": "The young innovator / drop out / university / while / he / develop / cutting-edge software",
+      "correct_answer": "The young innovator dropped out of university while he was developing cutting-edge software.",
+      "acceptable_answers": [
+        "The young innovator dropped out of university while he was developing cutting-edge software."
+      ],
+      "explanation": "Hành động thôi học 'dropped out' diễn ra trong giai đoạn đang phát triển phần mềm 'was developing'."
+    },
+    {
+      "id": "7",
+      "cues": "While / resistance forces / defend / valley / enemy / launch / surprise attack",
+      "correct_answer": "While the resistance forces were defending the valley, the enemy launched a surprise attack.",
+      "acceptable_answers": [
+        "While the resistance forces were defending the valley, the enemy launched a surprise attack."
+      ],
+      "explanation": "Cuộc tấn công bất ngờ ('launched') cắt ngang quá trình phòng thủ thung lũng ('were defending')."
+    },
+    {
+      "id": "8",
+      "cues": "What / researchers / investigate / when / fire / break out / laboratory?",
+      "correct_answer": "What were the researchers investigating when the fire broke out in the laboratory?",
+      "acceptable_answers": [
+        "What were the researchers investigating when the fire broke out in the laboratory?"
+      ],
+      "explanation": "Câu hỏi ở thì Quá khứ tiếp diễn 'were the researchers investigating' kết hợp với sự cố hỏa hoạn 'broke out'."
+    },
+    {
+      "id": "9",
+      "cues": "During his youth / Alexander / attend school / diligently / before / he / attend college",
+      "correct_answer": "During his youth, Alexander attended school diligently before he chose to attend college.",
+      "acceptable_answers": [
+        "During his youth, Alexander attended school diligently before he chose to attend college.",
+        "During his youth, Alexander attended school diligently before he attended college."
+      ],
+      "explanation": "Sự kiện diễn ra trong thời niên thiếu đã hoàn thành trong quá khứ dùng Quá khứ đơn 'attended school' và 'attend college'."
+    },
+    {
+      "id": "10",
+      "cues": "While / historians / translate / ancient manuscripts / they / uncover / rare royal records",
+      "correct_answer": "While the historians were translating ancient manuscripts, they uncovered rare royal records.",
+      "acceptable_answers": [
+        "While the historians were translating ancient manuscripts, they uncovered rare royal records."
+      ],
+      "explanation": "Hành động phát hiện ghi chép quý hiếm ('uncovered') diễn ra trong quá trình dịch thuật ('were translating')."
+    }
+  ]
+}

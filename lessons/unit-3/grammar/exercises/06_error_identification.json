@@ -1,0 +1,149 @@
+{
+  "id": "6",
+  "type": "error_identification",
+  "title": "Exercise 6: Error Identification & Correction",
+  "instruction": "Identify the bracketed part (A, B, C, or D) that contains a grammatical error, then provide the correct form.",
+  "target_grammar": "Verbs with prepositions, Relative clauses referring to a whole sentence",
+  "questions": [
+    {
+      "id": "1",
+      "text": "The local community [A: decided to] install solar panels, [B: that] significantly [C: reduced] their monthly [D: reliance on] fossil fuels.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "B",
+      "error_segment": "that",
+      "correction": "which",
+      "explanation": "Mệnh đề quan hệ bổ nghĩa cho toàn bộ mệnh đề phía trước sau dấu phẩy bắt buộc dùng 'which', không được dùng 'that'."
+    },
+    {
+      "id": "2",
+      "text": "The active youth volunteers [A: succeeded on] [B: sorting] household waste into each [C: recycling bin] across the [D: neighborhood].",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "A",
+      "error_segment": "succeeded on",
+      "correction": "succeeded in",
+      "explanation": "Động từ 'succeed' kết hợp với giới từ 'in' (succeed in doing sth), không đi với 'on'."
+    },
+    {
+      "id": "3",
+      "text": "Many students genuinely [A: care about] green living, [B: which] [C: motivate] them to eliminate every [D: single-use] container.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "C",
+      "error_segment": "motivate",
+      "correction": "motivates",
+      "explanation": "Mệnh đề quan hệ ', which' thay thế cho toàn bộ sự việc ở mệnh đề trước được tính là chủ ngữ số ít, do đó động từ chia thì hiện tại đơn phải thêm 's' ('motivates')."
+    },
+    {
+      "id": "4",
+      "text": "The cafeteria manager [A: apologised to] all students [B: to using] polystyrene [C: takeaway container] units instead of a sturdy [D: cardboard box].",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "B",
+      "error_segment": "to using",
+      "correction": "for using",
+      "explanation": "Cấu trúc chuẩn là 'apologise (to sb) for doing sth' (xin lỗi ai vì đã làm gì), không dùng 'to using'."
+    },
+    {
+      "id": "5",
+      "text": "Non-biodegradable packaging takes centuries to [A: decompose] in landfills, [B: this] releases dangerous [C: greenhouse gases] and [D: contaminates] groundwater.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "B",
+      "error_segment": "this",
+      "correction": "which",
+      "explanation": "Hai mệnh đề nối với nhau sau dấu phẩy mà vế sau chỉ hệ quả của cả câu trước phải dùng đại từ quan hệ ', which', không dùng đại từ chỉ định 'this'."
+    },
+    {
+      "id": "6",
+      "text": "The manufacturing plant was [A: fined for] disposing [B: with] toxic chemical pollutants [C: directly into] the municipal water [D: canal].",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "B",
+      "error_segment": "with",
+      "correction": "of",
+      "explanation": "Cụm động từ chính xác là 'dispose of sth' (xử lý / thải bỏ rác hoặc chất độc), không dùng 'dispose with'."
+    },
+    {
+      "id": "7",
+      "text": "Urban citizens must [A: learn to] cope [B: about] unpredictable climate change, [C: which] intensifies summer droughts and [D: catastrophic wildfires].",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "B",
+      "error_segment": "about",
+      "correction": "with",
+      "explanation": "'cope' đi với giới từ 'with' (cope with sth: đối phó, thích nghi với khó khăn), không dùng 'cope about'."
+    },
+    {
+      "id": "8",
+      "text": "The university [A: fitted] a water-efficient sensor tap in each restroom, [B: which] [C: prevent] a tremendous [D: waste of] clean water.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "C",
+      "error_segment": "prevent",
+      "correction": "prevents",
+      "explanation": "Đại từ ', which' đại diện cho toàn bộ sự việc lắp vòi cảm ứng ở mệnh đề trước nên động từ chia ngôi thứ ba số ít ('prevents')."
+    },
+    {
+      "id": "9",
+      "text": "Farmers across the valley [A: rely at] organic compost piles [B: rather than] spraying synthetic [C: chemical fertiliser] over [D: agricultural crops].",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "A",
+      "error_segment": "rely at",
+      "correction": "rely on",
+      "explanation": "Động từ 'rely' đi với giới từ 'on' (rely on sth: dựa dẫm, trông cậy vào cái gì), không đi với 'at'."
+    },
+    {
+      "id": "10",
+      "text": "The park rangers [A: prevented] careless campers [B: for] leaving hazardous plastic [C: litter] near the riverbank [D: bird feeder].",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "B",
+      "error_segment": "for",
+      "correction": "from",
+      "explanation": "Cấu trúc 'prevent sb/sth from doing sth' (ngăn chặn ai khỏi việc làm gì), không dùng 'for'."
+    }
+  ]
+}

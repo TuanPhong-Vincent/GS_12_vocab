@@ -1,0 +1,503 @@
+{
+  "id": "5",
+  "type": "guided_cloze",
+  "title": "Exercise 5: Guided Cloze Passages",
+  "instruction": "Read the following passages and choose the best answer (A, B, C, or D) for each numbered blank.",
+  "target_grammar": "Past simple vs. Past continuous",
+  "passages": [
+    {
+      "passage_id": "1",
+      "title": "An Inspirational Wartime Legacy: The Diary of Dang Thuy Tram",
+      "content": "Dang Thuy Tram was born in Hue in 1942 into a well-educated medical family. In her (1) ______, she showed great determination and academic excellence. After she (2) ______ from medical university in Ha Noi, she volunteered to serve on the front lines. In 1966, while many of her peers (3) ______ in peaceful cities, she embarked on a perilous journey to the South. She (4) ______ as a surgeon in a concealed field hospital in Quang Ngai Province during the fiercest years of the resistance war. Every single day, while artillery shells (5) ______ around the clinic, she tirelessly treated wounded soldiers and comforted local villagers.\n\nIt was during these harrowing months that she (6) ______ her personal diary. While she (7) ______ after exhausting medical operations, she penned heartfelt accounts of sacrifice, compassion, and patriotism. One night, while she (8) ______ by candlelight, a severely injured soldier asked her about peace. She (9) ______ him with deep emotion, recording every detail in her journal. In early 1970, while enemy battalions (10) ______ the surrounding jungle, her medical unit relocated deeper into the mountains. In June 1970, while she (11) ______ on a mountain trail with a small defense squad, an enemy patrol launched a surprise ambush. She (12) ______ heroically while defending her patients and comrades at the youthful age of twenty-seven.\n\nAn American military officer found her diary on the battlefield. When he (13) ______ to burn it, his Vietnamese interpreter intervened, saying it already contained fire. The officer (14) ______ the diary safely for more than three decades. In 2005, when the diary (15) ______ in Viet Nam, it immediately became a national publishing phenomenon. Millions of young people read her words and felt (16) ______ by her boundless dedication. Today, Dang Thuy Tram is officially honored as a (17) ______ hero. While modern generations (18) ______ her immense sacrifices, her legacy continues to inspire youth across the world. When foreign readers first encountered the translated edition, they (19) ______ deep respect for her ideals. She truly (20) ______ her youth and life to the independence of her nation.",
+      "questions": [
+        {
+          "id": "1",
+          "blank_number": 1,
+          "options": [
+            "childhood",
+            "marriage",
+            "cancer",
+            "death"
+          ],
+          "correct_answer": "childhood",
+          "explanation": "Cụm từ 'In her childhood' diễn tả giai đoạn thời thơ ấu của nữ bác sĩ."
+        },
+        {
+          "id": "2",
+          "blank_number": 2,
+          "options": [
+            "graduates",
+            "was graduating",
+            "has graduated",
+            "graduated"
+          ],
+          "correct_answer": "graduated",
+          "explanation": "Sự kiện tốt nghiệp đại học y khoa hoàn thành dứt điểm trong quá khứ dùng Quá khứ đơn."
+        },
+        {
+          "id": "3",
+          "blank_number": 3,
+          "options": [
+            "were living",
+            "are living",
+            "lived",
+            "have lived"
+          ],
+          "correct_answer": "were living",
+          "explanation": "Hành động sinh sống ở các thành phố là bối cảnh kéo dài đối lập trong quá khứ dùng Quá khứ tiếp diễn sau 'while'."
+        },
+        {
+          "id": "4",
+          "blank_number": 4,
+          "options": [
+            "works",
+            "worked",
+            "was working",
+            "has worked"
+          ],
+          "correct_answer": "worked",
+          "explanation": "Nêu một sự thật lịch sử về công việc bác sĩ phẫu thuật trong chiến tranh dùng Quá khứ đơn."
+        },
+        {
+          "id": "5",
+          "blank_number": 5,
+          "options": [
+            "have exploded",
+            "were exploding",
+            "explode",
+            "exploded"
+          ],
+          "correct_answer": "were exploding",
+          "explanation": "Hành động đạn pháo đang dội xuống liên tục trong khi bà cứu chữa thương binh dùng Quá khứ tiếp diễn."
+        },
+        {
+          "id": "6",
+          "blank_number": 6,
+          "options": [
+            "was beginning",
+            "has begun",
+            "begins",
+            "began"
+          ],
+          "correct_answer": "began",
+          "explanation": "Mốc bắt đầu viết nhật ký là sự kiện xác định dùng Quá khứ đơn ('began')."
+        },
+        {
+          "id": "7",
+          "blank_number": 7,
+          "options": [
+            "rested",
+            "is resting",
+            "was resting",
+            "rests"
+          ],
+          "correct_answer": "was resting",
+          "explanation": "Hành động nghỉ ngơi đang diễn ra sau ca mổ dùng Quá khứ tiếp diễn sau 'While'."
+        },
+        {
+          "id": "8",
+          "blank_number": 8,
+          "options": [
+            "wrote",
+            "writes",
+            "was writing",
+            "has written"
+          ],
+          "correct_answer": "was writing",
+          "explanation": "Bà đang ngồi viết dưới ánh nến thì người chiến sĩ hỏi chuyện."
+        },
+        {
+          "id": "9",
+          "blank_number": 9,
+          "options": [
+            "is answering",
+            "answers",
+            "answered",
+            "was answering"
+          ],
+          "correct_answer": "answered",
+          "explanation": "Hành động trả lời diễn ra dứt khoát đáp lại câu hỏi dùng Quá khứ đơn."
+        },
+        {
+          "id": "10",
+          "blank_number": 10,
+          "options": [
+            "encircled",
+            "encircle",
+            "have encircled",
+            "were encircling"
+          ],
+          "correct_answer": "were encircling",
+          "explanation": "Quân địch đang siết chặt vòng vây xung quanh cánh rừng dùng Quá khứ tiếp diễn."
+        },
+        {
+          "id": "11",
+          "blank_number": 11,
+          "options": [
+            "has walked",
+            "walked",
+            "is walking",
+            "was walking"
+          ],
+          "correct_answer": "was walking",
+          "explanation": "Bà đang di chuyển trên đường mòn thì bất ngờ bị phục kích."
+        },
+        {
+          "id": "12",
+          "blank_number": 12,
+          "options": [
+            "fell",
+            "has fallen",
+            "falls",
+            "was falling"
+          ],
+          "correct_answer": "fell",
+          "explanation": "Sự hy sinh anh dũng dứt điểm trong quá khứ dùng Quá khứ đơn ('fell')."
+        },
+        {
+          "id": "13",
+          "blank_number": 13,
+          "options": [
+            "prepares",
+            "prepared",
+            "has prepared",
+            "was preparing"
+          ],
+          "correct_answer": "was preparing",
+          "explanation": "Khi người sĩ quan đang chuẩn bị châm lửa đốt cuốn sổ thì được can ngăn."
+        },
+        {
+          "id": "14",
+          "blank_number": 14,
+          "options": [
+            "preserved",
+            "is preserving",
+            "was preserving",
+            "preserves"
+          ],
+          "correct_answer": "preserved",
+          "explanation": "Hành động gìn giữ cuốn nhật ký qua ba thập kỷ dùng Quá khứ đơn ('preserved')."
+        },
+        {
+          "id": "15",
+          "blank_number": 15,
+          "options": [
+            "published",
+            "was published",
+            "publishes",
+            "was publishing"
+          ],
+          "correct_answer": "was published",
+          "explanation": "Cuốn nhật ký được xuất bản ở dạng bị động thì Quá khứ đơn ('was published')."
+        },
+        {
+          "id": "16",
+          "blank_number": 16,
+          "options": [
+            "admiration",
+            "admired",
+            "admire",
+            "admiring"
+          ],
+          "correct_answer": "admired",
+          "explanation": "Cấu trúc 'felt admired' / xúc động và ngưỡng mộ đức hy sinh."
+        },
+        {
+          "id": "17",
+          "blank_number": 17,
+          "options": [
+            "animated",
+            "national",
+            "cutting-edge",
+            "tourist"
+          ],
+          "correct_answer": "national",
+          "explanation": "Cụm danh từ cố định trong Unit 1: 'national hero' (anh hùng dân tộc)."
+        },
+        {
+          "id": "18",
+          "blank_number": 18,
+          "options": [
+            "learn about",
+            "are learning about",
+            "learned about",
+            "were learning about"
+          ],
+          "correct_answer": "learned about",
+          "explanation": "Thế hệ trẻ tìm hiểu về sự hy sinh của bà trong chương trình học."
+        },
+        {
+          "id": "19",
+          "blank_number": 19,
+          "options": [
+            "expressed",
+            "were expressing",
+            "express",
+            "have expressed"
+          ],
+          "correct_answer": "expressed",
+          "explanation": "Độc giả quốc tế bày tỏ sự kính trọng khi lần đầu đọc bản dịch dùng Quá khứ đơn."
+        },
+        {
+          "id": "20",
+          "blank_number": 20,
+          "options": [
+            "is devoting",
+            "devotes",
+            "devoted",
+            "was devoting"
+          ],
+          "correct_answer": "devoted",
+          "explanation": "Cụm từ 'devote one's life/youth to' chỉ sự cống hiến trọn đời dùng Quá khứ đơn."
+        }
+      ]
+    },
+    {
+      "passage_id": "2",
+      "title": "Steve Jobs & The Dawn of Computer Animation",
+      "content": "Steve Jobs was born in San Francisco in 1955 and was soon (21) ______ by Clara and Paul Jobs after his biological parents felt unable to support him. Growing up in Silicon Valley, he exhibited a brilliant technical mind and boundless curiosity. In 1972, he enrolled at Reed College, but he (22) ______ out after merely six months because the tuition fees burdened his working-class family. However, while he (23) ______ on campus unofficially, he attended calligraphy and typography classes, which later influenced the elegant design of Apple computers.\n\nIn 1976, Jobs and Steve Wozniak founded Apple in a family garage. While they (24) ______ early personal computers by hand, tech enthusiasts began taking notice. A decade later, after leaving Apple, Jobs purchased a small computer graphics division from filmmaker George Lucas. While many industry analysts (25) ______ skeptical of digital cinema, Jobs saw tremendous potential in combining cutting-edge technology with storytelling. Under his ambitious leadership, the studio was renamed Pixar. In the early 1990s, while traditional animators (26) ______ hand-drawn frames, Pixar artists (27) ______ on the world's very first feature-length computer-animated film, Toy Story.\n\nDuring the demanding production of Toy Story, technical challenges arose constantly. While computers (28) ______ complex three-dimensional scenes, the team often worked through the night. When Toy Story hit theaters in 1995, it (29) ______ a massive box-office blockbuster and transformed the entertainment industry forever. Jobs felt (30) ______ cloud nine as his visionary gamble paid off brilliantly. The studio went public, and Jobs suddenly (31) ______ an influential film producer and billionaire.\n\nWhile Pixar (32) ______ one award-winning hit after another, Apple was struggling near bankruptcy. In 1997, Apple acquired Jobs's software company, and Jobs returned as CEO. While he (33) ______ the struggling company, he streamlined product lines and introduced the iMac, iPod, and iPhone. In 2003, however, while his career (34) ______ at its absolute zenith, doctors diagnosed him with pancreatic cancer. Although he (35) ______ immense physical pain, he continued to work tirelessly with fierce determination. In 2007, when he (36) ______ the groundbreaking iPhone on stage, the entire technology world (37) ______ in awe. Jobs passed away peacefully in October 2011. While global citizens (38) ______ his untimely death, millions of people held up smartphones to honor his memory. His extraordinary life account proves that visionary passion can change the world. People across the globe still (39) ______ his remarkable genius and indelible impact. He remains an admirable model for aspiring innovators who dare to dream (40) ______ big ideas.",
+      "questions": [
+        {
+          "id": "21",
+          "blank_number": 21,
+          "options": [
+            "adoption",
+            "adopted",
+            "adopting",
+            "adopt"
+          ],
+          "correct_answer": "adopted",
+          "explanation": "Thể bị động: 'was adopted by' (được nhận làm con nuôi bởi vợ chồng Paul và Clara Jobs)."
+        },
+        {
+          "id": "22",
+          "blank_number": 22,
+          "options": [
+            "was dropping",
+            "drops",
+            "has dropped",
+            "dropped"
+          ],
+          "correct_answer": "dropped",
+          "explanation": "Quyết định thôi học 'dropped out' là sự kiện dứt khoát trong quá khứ dùng Quá khứ đơn."
+        },
+        {
+          "id": "23",
+          "blank_number": 23,
+          "options": [
+            "was staying",
+            "has stayed",
+            "stays",
+            "stayed"
+          ],
+          "correct_answer": "was staying",
+          "explanation": "Hành động lưu lại khuôn viên trường dự thính diễn ra kéo dài dùng Quá khứ tiếp diễn sau 'while'."
+        },
+        {
+          "id": "24",
+          "blank_number": 24,
+          "options": [
+            "assembled",
+            "have assembled",
+            "were assembling",
+            "assemble"
+          ],
+          "correct_answer": "were assembling",
+          "explanation": "Trong khi họ đang lắp ráp thủ công những cỗ máy đầu tiên thì công chúng bắt đầu chú ý."
+        },
+        {
+          "id": "25",
+          "blank_number": 25,
+          "options": [
+            "remain",
+            "remained",
+            "have remained",
+            "were remaining"
+          ],
+          "correct_answer": "remained",
+          "explanation": "'Remain' là động từ trạng thái chỉ thái độ hoài nghi của giới phân tích, dùng Quá khứ đơn."
+        },
+        {
+          "id": "26",
+          "blank_number": 26,
+          "options": [
+            "were drawing",
+            "drew",
+            "draw",
+            "have drawn"
+          ],
+          "correct_answer": "were drawing",
+          "explanation": "Các họa sĩ truyền thống đang vẽ tay từng khung hình (hành động song song kéo dài)."
+        },
+        {
+          "id": "27",
+          "blank_number": 27,
+          "options": [
+            "work",
+            "worked",
+            "are working",
+            "were working"
+          ],
+          "correct_answer": "were working",
+          "explanation": "Đội ngũ Pixar đang miệt mài thực hiện bộ phim hoạt hình máy tính đầu tiên ('were working')."
+        },
+        {
+          "id": "28",
+          "blank_number": 28,
+          "options": [
+            "have rendered",
+            "rendered",
+            "render",
+            "were rendering"
+          ],
+          "correct_answer": "were rendering",
+          "explanation": "Hành động máy tính đang xử lý kết xuất đồ họa 3D dùng Quá khứ tiếp diễn sau 'While'."
+        },
+        {
+          "id": "29",
+          "blank_number": 29,
+          "options": [
+            "was becoming",
+            "has become",
+            "becomes",
+            "became"
+          ],
+          "correct_answer": "became",
+          "explanation": "Bộ phim trở thành bom tấn phòng vé ngay khi ra rạp năm 1995 dùng Quá khứ đơn ('became')."
+        },
+        {
+          "id": "30",
+          "blank_number": 30,
+          "options": [
+            "in",
+            "at",
+            "on",
+            "over"
+          ],
+          "correct_answer": "on",
+          "explanation": "Thành ngữ chỉ cảm xúc vui sướng tột độ: 'on cloud nine'."
+        },
+        {
+          "id": "31",
+          "blank_number": 31,
+          "options": [
+            "becomes",
+            "has become",
+            "was becoming",
+            "became"
+          ],
+          "correct_answer": "became",
+          "explanation": "Steve Jobs nhanh chóng trở thành nhà sản xuất phim quyền lực và tỷ phú dùng Quá khứ đơn."
+        },
+        {
+          "id": "32",
+          "blank_number": 32,
+          "options": [
+            "has produced",
+            "was producing",
+            "produces",
+            "produced"
+          ],
+          "correct_answer": "was producing",
+          "explanation": "Pixar liên tục cho ra mắt các tác phẩm đỉnh cao trong khi Apple gặp khủng hoảng."
+        },
+        {
+          "id": "33",
+          "blank_number": 33,
+          "options": [
+            "was restructuring",
+            "has restructured",
+            "restructured",
+            "restructures"
+          ],
+          "correct_answer": "was restructuring",
+          "explanation": "Hành động tái cơ cấu công ty đang được Jobs tiến hành từng bước dùng Quá khứ tiếp diễn."
+        },
+        {
+          "id": "34",
+          "blank_number": 34,
+          "options": [
+            "stands",
+            "stood",
+            "was standing",
+            "has stood"
+          ],
+          "correct_answer": "was standing",
+          "explanation": "Sự nghiệp của ông đang ở đỉnh cao chói lọi thì phát hiện bệnh ung thư."
+        },
+        {
+          "id": "35",
+          "blank_number": 35,
+          "options": [
+            "suffered",
+            "has suffered",
+            "suffers",
+            "was suffering"
+          ],
+          "correct_answer": "suffered",
+          "explanation": "Mặc dù phải chịu đựng nỗi đau bệnh tật nhưng ông vẫn kiên cường làm việc."
+        },
+        {
+          "id": "36",
+          "blank_number": 36,
+          "options": [
+            "has unveiled",
+            "was unveiling",
+            "unveiled",
+            "unveils"
+          ],
+          "correct_answer": "unveiled",
+          "explanation": "Hành động công bố chiếc iPhone mang tính bước ngoặt trên sân khấu năm 2007 dùng Quá khứ đơn."
+        },
+        {
+          "id": "37",
+          "blank_number": 37,
+          "options": [
+            "watched",
+            "has watched",
+            "watches",
+            "was watching"
+          ],
+          "correct_answer": "watched",
+          "explanation": "Cả thế giới công nghệ dõi theo trong kinh ngạc dùng Quá khứ đơn ('watched in awe')."
+        },
+        {
+          "id": "38",
+          "blank_number": 38,
+          "options": [
+            "mourned",
+            "mourn",
+            "were mourning",
+            "are mourning"
+          ],
+          "correct_answer": "were mourning",
+          "explanation": "Hành động người dân toàn cầu đang tiếc thương sự ra đi của ông dùng Quá khứ tiếp diễn."
+        },
+        {
+          "id": "39",
+          "blank_number": 39,
+          "options": [
+            "admired",
+            "admire",
+            "were admiring",
+            "are admiring"
+          ],
+          "correct_answer": "admire",
+          "explanation": "Thì Hiện tại đơn 'admire' diễn tả sự trân trọng và ngưỡng mộ của mọi người ngày nay."
+        },
+        {
+          "id": "40",
+          "blank_number": 40,
+          "options": [
+            "in",
+            "about",
+            "of",
+            "for"
+          ],
+          "correct_answer": "about",
+          "explanation": "Giới từ đi với 'dream': 'dream about big ideas'."
+        }
+      ]
+    }
+  ]
+}

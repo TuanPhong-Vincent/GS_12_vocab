@@ -1,0 +1,126 @@
+{
+  "id": "7",
+  "type": "sentence_combination",
+  "title": "Exercise 7: Sentence Combination",
+  "instruction": "Combine each pair of sentences into a single, coherent sentence using the target grammatical structure indicated.",
+  "target_grammar": "Articles (review and extension)",
+  "questions": [
+    {
+      "id": "1",
+      "sentence_1": "The annual carnival features a captivating blend of traditional music.",
+      "sentence_2": "It attracts thousands of international spectators every year.",
+      "cue": "Use a relative clause with 'which'",
+      "correct_answer": "The annual carnival features a captivating blend of traditional music, which attracts thousands of international spectators every year.",
+      "acceptable_answers": [
+        "The annual carnival features a captivating blend of traditional music, which attracts thousands of international spectators every year.",
+        "The annual carnival, which features a captivating blend of traditional music, attracts thousands of international spectators every year."
+      ],
+      "explanation": "Dùng đại từ quan hệ 'which' tạo mệnh đề quan hệ bổ nghĩa cho mệnh đề hoặc danh từ phía trước."
+    },
+    {
+      "id": "2",
+      "sentence_1": "The local chef used an organic secret ingredient.",
+      "sentence_2": "The speciality dish became the highlight of the food festival.",
+      "cue": "Use 'Because'",
+      "correct_answer": "Because the local chef used an organic secret ingredient, the speciality dish became the highlight of the food festival.",
+      "acceptable_answers": [
+        "Because the local chef used an organic secret ingredient, the speciality dish became the highlight of the food festival.",
+        "The speciality dish became the highlight of the food festival because the local chef used an organic secret ingredient."
+      ],
+      "explanation": "Dùng liên từ 'Because' chỉ nguyên nhân kết quả, kết hợp chính xác mạo từ 'an organic secret ingredient' và 'the speciality dish'."
+    },
+    {
+      "id": "3",
+      "sentence_1": "Globalisation expands international economic trade.",
+      "sentence_2": "It also promotes cultural diversity among modern youth.",
+      "cue": "Use 'Not only... but also'",
+      "correct_answer": "Not only does globalisation expand international economic trade, but it also promotes cultural diversity among modern youth.",
+      "acceptable_answers": [
+        "Not only does globalisation expand international economic trade, but it also promotes cultural diversity among modern youth.",
+        "Globalisation not only expands international economic trade but also promotes cultural diversity among modern youth."
+      ],
+      "explanation": "Dùng cấu trúc đảo ngữ với 'Not only does... but it also...' hoặc cấu trúc song hành nối hai vị ngữ."
+    },
+    {
+      "id": "4",
+      "sentence_1": "Students learn more about unfamiliar customs.",
+      "sentence_2": "They appreciate cultural diversity more deeply.",
+      "cue": "Use 'The more... the more'",
+      "correct_answer": "The more students learn about unfamiliar customs, the more deeply they appreciate cultural diversity.",
+      "acceptable_answers": [
+        "The more students learn about unfamiliar customs, the more deeply they appreciate cultural diversity.",
+        "The more they learn about unfamiliar customs, the more students appreciate cultural diversity."
+      ],
+      "explanation": "Cấu trúc so sánh kép 'The more + S + V, the more + S + V' thể hiện mối tương quan tăng tiến."
+    },
+    {
+      "id": "5",
+      "sentence_1": "The young musicians formed a multicultural ensemble.",
+      "sentence_2": "They wanted to overcome language barriers through their art.",
+      "cue": "Use 'in order to'",
+      "correct_answer": "The young musicians formed a multicultural ensemble in order to overcome language barriers through their art.",
+      "acceptable_answers": [
+        "The young musicians formed a multicultural ensemble in order to overcome language barriers through their art.",
+        "In order to overcome language barriers through their art, the young musicians formed a multicultural ensemble."
+      ],
+      "explanation": "Dùng cụm chỉ mục đích 'in order to + V' để nối hai câu có chung chủ ngữ."
+    },
+    {
+      "id": "6",
+      "sentence_1": "The ancient citadel is a renowned tourist attraction.",
+      "sentence_2": "It was recognised as a World Cultural Heritage Site by UNESCO.",
+      "cue": "Use 'which'",
+      "correct_answer": "The ancient citadel, which is a renowned tourist attraction, was recognised as a World Cultural Heritage Site by UNESCO.",
+      "acceptable_answers": [
+        "The ancient citadel, which is a renowned tourist attraction, was recognised as a World Cultural Heritage Site by UNESCO.",
+        "The ancient citadel is a renowned tourist attraction which was recognised as a World Cultural Heritage Site by UNESCO."
+      ],
+      "explanation": "Sử dụng mệnh đề quan hệ không xác định với 'which' để bổ sung thông tin cho chủ ngữ 'The ancient citadel'."
+    },
+    {
+      "id": "7",
+      "sentence_1": "Children dressed in creative Halloween costumes.",
+      "sentence_2": "They eagerly went trick or treating across the neighbourhood.",
+      "cue": "Use 'Dressed in'",
+      "correct_answer": "Dressed in creative Halloween costumes, the children eagerly went trick or treating across the neighbourhood.",
+      "acceptable_answers": [
+        "Dressed in creative Halloween costumes, the children eagerly went trick or treating across the neighbourhood."
+      ],
+      "explanation": "Rút gọn mệnh đề đồng chủ ngữ thành cụm quá khứ phân từ 'Dressed in creative Halloween costumes'."
+    },
+    {
+      "id": "8",
+      "sentence_1": "The exchange student experienced severe culture shock at first.",
+      "sentence_2": "She quickly adapted to the multicultural lifestyle in the United Kingdom.",
+      "cue": "Use 'Although'",
+      "correct_answer": "Although the exchange student experienced severe culture shock at first, she quickly adapted to the multicultural lifestyle in the United Kingdom.",
+      "acceptable_answers": [
+        "Although the exchange student experienced severe culture shock at first, she quickly adapted to the multicultural lifestyle in the United Kingdom.",
+        "The exchange student quickly adapted to the multicultural lifestyle in the United Kingdom although she experienced severe culture shock at first."
+      ],
+      "explanation": "Dùng liên từ nhượng bộ 'Although' nối hai mệnh đề có ý nghĩa tương phản."
+    },
+    {
+      "id": "9",
+      "sentence_1": "Playing a traditional game like tug of war builds physical endurance.",
+      "sentence_2": "It also reinforces teamwork during school festivities.",
+      "cue": "Use 'Besides'",
+      "correct_answer": "Besides building physical endurance, playing a traditional game like tug of war reinforces teamwork during school festivities.",
+      "acceptable_answers": [
+        "Besides building physical endurance, playing a traditional game like tug of war reinforces teamwork during school festivities."
+      ],
+      "explanation": "Dùng 'Besides + V-ing' để bổ sung thêm lợi ích của hoạt động trò chơi dân gian."
+    },
+    {
+      "id": "10",
+      "sentence_1": "The internet connects individuals from diverse backgrounds.",
+      "sentence_2": "It allows young people to appreciate cultural differences effortlessly.",
+      "cue": "Use 'By connecting'",
+      "correct_answer": "By connecting individuals from diverse backgrounds, the internet allows young people to appreciate cultural differences effortlessly.",
+      "acceptable_answers": [
+        "By connecting individuals from diverse backgrounds, the internet allows young people to appreciate cultural differences effortlessly."
+      ],
+      "explanation": "Dùng giới từ 'By + V-ing' diễn đạt phương tiện / cách thức mà 'the internet' tạo điều kiện cho giới trẻ."
+    }
+  ]
+}

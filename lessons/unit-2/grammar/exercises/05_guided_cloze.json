@@ -1,0 +1,503 @@
+{
+  "id": "5",
+  "type": "guided_cloze",
+  "title": "Exercise 5: Guided Cloze Passages",
+  "instruction": "Read the following passages and choose the best option (A, B, C, or D) for each numbered blank, applying target grammar rules and context vocabulary.",
+  "target_grammar": "Articles (review and extension)",
+  "passages": [
+    {
+      "passage_id": "1",
+      "title": "Embracing Cultural Diversity: The International Youth Festival",
+      "content": "Every autumn, our university hosts an international festival to celebrate cultural diversity and global unity. Students from more than thirty nations gather in (1) ______ central courtyard to showcase their native heritage. The opening ceremony begins with an impressive procession where participants wear (2) ______ traditional costumes adorned with intricate folk embroidery. Walking through the campus, visitors encounter (3) ______ vibrant atmosphere filled with music and laughter.\n\nAt the entrance, an information booth provides visitors with (4) ______ helpful guide outlining the schedule of performances. One of the main attractions is (5) ______ music stage, where talented students perform on various instruments. Last year, a student from Ha Noi mesmerised the audience by playing (6) ______ bamboo flute, while a classmate from Spain accompanied her on (7) ______ guitar. This creative collaboration proved that music easily bridges (8) ______ language barrier among young people.\n\nNearby, a dedicated pavilion highlights the cultural traditions of Southeast Asia. Visitors can try their hand at (9) ______ bamboo dancing, a traditional game that requires agility and rhythm. Although it initially seemed (10) ______ unfamiliar activity to many international guests, local students patiently explained each step. In the main hall, educators delivered a lecture on how (11) ______ globalisation influences contemporary youth lifestyles. They emphasized that while adopting global trends, preserving (12) ______ cultural identity remains essential for every community.\n\nFor students studying abroad, adapting to a new society can occasionally cause (13) ______ culture shock. However, participating in such extracurricular activities provides (14) ______ wonderful opportunity to form lasting friendships. During the festival, guests also explored a charity booth offering hand-made souvenirs. A young volunteer explained that (15) ______ proceeds from selling these souvenirs would support rural schools in (16) ______ northern mountainous provinces. As dusk fell, everyone gathered around the outdoor stage to admire (17) ______ moon rising above the university library. The festival concluded with (18) ______ grand fireworks display that illuminated (19) ______ entire campus. It was truly (20) ______ unforgettable celebration of multicultural harmony.",
+      "questions": [
+        {
+          "id": "1",
+          "blank_number": 1,
+          "options": [
+            "the",
+            "a",
+            "Ø",
+            "an"
+          ],
+          "correct_answer": "the",
+          "explanation": "Sân trung tâm của trường là địa điểm xác định duy nhất trong bối cảnh khuôn viên trường, dùng 'the'."
+        },
+        {
+          "id": "2",
+          "blank_number": 2,
+          "options": [
+            "an",
+            "the",
+            "a",
+            "Ø"
+          ],
+          "correct_answer": "Ø",
+          "explanation": "Danh từ số nhiều 'traditional costumes' mang ý nghĩa khái quát chung, dùng zero article (Ø)."
+        },
+        {
+          "id": "3",
+          "blank_number": 3,
+          "options": [
+            "Ø",
+            "a",
+            "an",
+            "the"
+          ],
+          "correct_answer": "a",
+          "explanation": "Cụm danh từ đếm được số ít 'vibrant atmosphere' lần đầu được giới thiệu, bắt đầu bằng phụ âm /v/, dùng 'a'."
+        },
+        {
+          "id": "4",
+          "blank_number": 4,
+          "options": [
+            "an",
+            "the",
+            "a",
+            "Ø"
+          ],
+          "correct_answer": "a",
+          "explanation": "'Helpful guide' là danh từ đếm được số ít, 'helpful' bắt đầu bằng âm phụ âm /h/, dùng 'a'."
+        },
+        {
+          "id": "5",
+          "blank_number": 5,
+          "options": [
+            "Ø",
+            "a",
+            "an",
+            "the"
+          ],
+          "correct_answer": "the",
+          "explanation": "Sân khấu âm nhạc chính của lễ hội là thực thể xác định cụ thể trong khuôn viên, dùng 'the'."
+        },
+        {
+          "id": "6",
+          "blank_number": 6,
+          "options": [
+            "an",
+            "a",
+            "Ø",
+            "the"
+          ],
+          "correct_answer": "the",
+          "explanation": "Dùng mạo từ 'the' trước tên nhạc cụ khi chơi ('playing the bamboo flute')."
+        },
+        {
+          "id": "7",
+          "blank_number": 7,
+          "options": [
+            "a",
+            "an",
+            "the",
+            "Ø"
+          ],
+          "correct_answer": "the",
+          "explanation": "Dùng mạo từ 'the' trước tên nhạc cụ đi cùng giới từ chỉ phương tiện âm nhạc ('on the guitar')."
+        },
+        {
+          "id": "8",
+          "blank_number": 8,
+          "options": [
+            "an",
+            "the",
+            "Ø",
+            "a"
+          ],
+          "correct_answer": "a",
+          "explanation": "Cụm từ mang ý nghĩa 'một rào cản ngôn ngữ' nói chung, dùng mạo từ bất định 'a'."
+        },
+        {
+          "id": "9",
+          "blank_number": 9,
+          "options": [
+            "Ø",
+            "the",
+            "a",
+            "an"
+          ],
+          "correct_answer": "Ø",
+          "explanation": "Tên điệu nhảy truyền thống hoặc trò chơi dân gian (bamboo dancing) dùng zero article (Ø)."
+        },
+        {
+          "id": "10",
+          "blank_number": 10,
+          "options": [
+            "Ø",
+            "the",
+            "an",
+            "a"
+          ],
+          "correct_answer": "an",
+          "explanation": "'Unfamiliar activity' là danh từ đếm được số ít với tính từ bắt đầu bằng nguyên âm /ʌ/, dùng 'an'."
+        },
+        {
+          "id": "11",
+          "blank_number": 11,
+          "options": [
+            "Ø",
+            "a",
+            "an",
+            "the"
+          ],
+          "correct_answer": "Ø",
+          "explanation": "'Globalisation' là danh từ trừu tượng không đếm được dùng với ý nghĩa khái quát, dùng zero article (Ø)."
+        },
+        {
+          "id": "12",
+          "blank_number": 12,
+          "options": [
+            "a",
+            "Ø",
+            "an",
+            "the"
+          ],
+          "correct_answer": "Ø",
+          "explanation": "'Cultural identity' là danh từ không đếm được chỉ bản sắc văn hóa nói chung, dùng zero article (Ø)."
+        },
+        {
+          "id": "13",
+          "blank_number": 13,
+          "options": [
+            "the",
+            "a",
+            "Ø",
+            "an"
+          ],
+          "correct_answer": "Ø",
+          "explanation": "'Culture shock' là danh từ không đếm được chỉ hiện tượng sốc văn hóa nói chung, dùng zero article (Ø)."
+        },
+        {
+          "id": "14",
+          "blank_number": 14,
+          "options": [
+            "a",
+            "an",
+            "the",
+            "Ø"
+          ],
+          "correct_answer": "a",
+          "explanation": "Danh từ số ít đếm được 'opportunity' đi sau tính từ bắt đầu bằng phụ âm 'wonderful', dùng 'a'."
+        },
+        {
+          "id": "15",
+          "blank_number": 15,
+          "options": [
+            "a",
+            "an",
+            "Ø",
+            "the"
+          ],
+          "correct_answer": "the",
+          "explanation": "'Proceeds' (tiền thu được) được xác định cụ thể bởi cụm 'from selling these souvenirs', nên dùng 'the'."
+        },
+        {
+          "id": "16",
+          "blank_number": 16,
+          "options": [
+            "Ø",
+            "the",
+            "an",
+            "a"
+          ],
+          "correct_answer": "the",
+          "explanation": "Dùng 'the' trước cụm danh từ chỉ các vùng miền địa lý cụ thể ('the northern mountainous provinces')."
+        },
+        {
+          "id": "17",
+          "blank_number": 17,
+          "options": [
+            "an",
+            "the",
+            "a",
+            "Ø"
+          ],
+          "correct_answer": "the",
+          "explanation": "'The moon' là thiên thể duy nhất trong tự nhiên, luôn dùng mạo từ xác định 'the'."
+        },
+        {
+          "id": "18",
+          "blank_number": 18,
+          "options": [
+            "the",
+            "Ø",
+            "a",
+            "an"
+          ],
+          "correct_answer": "a",
+          "explanation": "Cụm danh từ đếm được số ít 'grand fireworks display' lần đầu xuất hiện, dùng mạo từ 'a'."
+        },
+        {
+          "id": "19",
+          "blank_number": 19,
+          "options": [
+            "the",
+            "an",
+            "a",
+            "Ø"
+          ],
+          "correct_answer": "the",
+          "explanation": "Toàn bộ khuôn viên trường là không gian cụ thể xác định ('the entire campus'), dùng 'the'."
+        },
+        {
+          "id": "20",
+          "blank_number": 20,
+          "options": [
+            "a",
+            "an",
+            "Ø",
+            "the"
+          ],
+          "correct_answer": "an",
+          "explanation": "Cụm danh từ số ít 'unforgettable celebration' bắt đầu bằng nguyên âm /ʌ/, dùng mạo từ 'an'."
+        }
+      ]
+    },
+    {
+      "passage_id": "2",
+      "title": "Global Flavours: The Journey of World Cuisines and Traditions",
+      "content": "Food has always served as (21) ______ universal language that connects communities across continents. Through trade routes and modern globalisation, culinary traditions have traveled far beyond their places of (22) ______ origin. Today, walking down any bustling metropolitan street, one can observe (23) ______ diverse range of international eateries. From aromatic noodle shops to authentic Italian pizzerias, world (24) ______ cuisine has captured the hearts of modern diners.\n\nIn many tourist destinations, the night market is regarded as (25) ______ premier tourist attraction. Here, dozens of independent vendors set up (26) ______ food stall offering freshly cooked delicacies. Each vendor proudly promotes (27) ______ local speciality, preparing dishes with passion and precision. For instance, in Hue, chefs use (28) ______ shrimp paste as an essential ingredient to craft distinctive royal broths. The aroma alone is enough to captivate (29) ______ tourists who wander past.\n\nCulinary exchange also encourages people to respect (30) ______ cultural diversity. When tourists taste unfamiliar dishes, they learn to appreciate (31) ______ customs and history embedded in each recipe. Food critics note that modern culinary trends represent (32) ______ fascinating blend of traditional heritage and contemporary innovation. A chef in London might combine British roast beef with spices imported from (33) ______ India, creating a completely new dining experience.\n\nFestivals around the globe further celebrate these gastronomic traditions. During European carnivals, street bakers prepare sweet pastries, while in America, families celebrate autumn by carving (34) ______ pumpkin lantern and sharing pumpkin pies. On Halloween, young children wear scary costumes, visit neighbours for (35) ______ trick or treat, and explore haunted houses without any real (36) ______ cause for alarm. At the same time, communities along (37) ______ Mediterranean Sea gather for open-air feasts to celebrate the olive harvest.\n\nUltimately, food allows us to experience the world without crossing (38) ______ ocean. It reminds us that despite our different backgrounds, human beings share (39) ______ fundamental desire for fellowship and celebration. Embracing world cuisines is not merely a gastronomic trend; it is (40) ______ vital step toward cross-cultural understanding.",
+      "questions": [
+        {
+          "id": "21",
+          "blank_number": 21,
+          "options": [
+            "a",
+            "Ø",
+            "an",
+            "the"
+          ],
+          "correct_answer": "a",
+          "explanation": "Từ 'universal' bắt đầu bằng âm bán nguyên âm /juː/, do đó dùng mạo từ bất định 'a universal language'."
+        },
+        {
+          "id": "22",
+          "blank_number": 22,
+          "options": [
+            "an",
+            "Ø",
+            "a",
+            "the"
+          ],
+          "correct_answer": "Ø",
+          "explanation": "Cụm danh từ 'places of origin' dùng zero article (Ø) trước danh từ không đếm được/trừu tượng 'origin'."
+        },
+        {
+          "id": "23",
+          "blank_number": 23,
+          "options": [
+            "an",
+            "Ø",
+            "a",
+            "the"
+          ],
+          "correct_answer": "a",
+          "explanation": "Cụm thành ngữ chỉ số lượng/đa dạng: 'a diverse range of' (một loạt/đa dạng các...)."
+        },
+        {
+          "id": "24",
+          "blank_number": 24,
+          "options": [
+            "the",
+            "a",
+            "Ø",
+            "an"
+          ],
+          "correct_answer": "Ø",
+          "explanation": "'World cuisine' được dùng với nghĩa khái quát chỉ nền ẩm thực thế giới nói chung, dùng zero article (Ø)."
+        },
+        {
+          "id": "25",
+          "blank_number": 25,
+          "options": [
+            "Ø",
+            "an",
+            "a",
+            "the"
+          ],
+          "correct_answer": "the",
+          "explanation": "Dùng 'the' trước tính từ mang ý nghĩa tối thượng/hàng đầu ('the premier tourist attraction')."
+        },
+        {
+          "id": "26",
+          "blank_number": 26,
+          "options": [
+            "Ø",
+            "an",
+            "the",
+            "a"
+          ],
+          "correct_answer": "a",
+          "explanation": "Danh từ đếm được số ít 'food stall' được nhắc đến với nghĩa 'một quầy hàng', dùng 'a'."
+        },
+        {
+          "id": "27",
+          "blank_number": 27,
+          "options": [
+            "a",
+            "Ø",
+            "an",
+            "the"
+          ],
+          "correct_answer": "a",
+          "explanation": "Danh từ đếm được số ít 'local speciality' mang nghĩa 'một đặc sản địa phương', dùng mạo từ 'a'."
+        },
+        {
+          "id": "28",
+          "blank_number": 28,
+          "options": [
+            "an",
+            "a",
+            "the",
+            "Ø"
+          ],
+          "correct_answer": "Ø",
+          "explanation": "'Shrimp paste' (mắm tôm) là danh từ không đếm được chỉ nguyên liệu chung, dùng zero article (Ø)."
+        },
+        {
+          "id": "29",
+          "blank_number": 29,
+          "options": [
+            "Ø",
+            "a",
+            "an",
+            "the"
+          ],
+          "correct_answer": "the",
+          "explanation": "'Tourists' được xác định cụ thể bởi mệnh đề quan hệ 'who wander past', nên dùng mạo từ xác định 'the'."
+        },
+        {
+          "id": "30",
+          "blank_number": 30,
+          "options": [
+            "a",
+            "Ø",
+            "an",
+            "the"
+          ],
+          "correct_answer": "Ø",
+          "explanation": "'Cultural diversity' là danh từ trừu tượng không đếm được chỉ sự đa dạng văn hóa nói chung, dùng zero article (Ø)."
+        },
+        {
+          "id": "31",
+          "blank_number": 31,
+          "options": [
+            "the",
+            "an",
+            "Ø",
+            "a"
+          ],
+          "correct_answer": "the",
+          "explanation": "Danh từ 'customs' được xác định bởi cụm 'embedded in each recipe', nên dùng mạo từ 'the'."
+        },
+        {
+          "id": "32",
+          "blank_number": 32,
+          "options": [
+            "the",
+            "Ø",
+            "a",
+            "an"
+          ],
+          "correct_answer": "a",
+          "explanation": "Cụm danh từ đếm được số ít 'fascinating blend' bắt đầu bằng âm phụ âm /f/, dùng mạo từ 'a'."
+        },
+        {
+          "id": "33",
+          "blank_number": 33,
+          "options": [
+            "a",
+            "Ø",
+            "an",
+            "the"
+          ],
+          "correct_answer": "Ø",
+          "explanation": "Tên các quốc gia thông thường ở dạng số ít như India, Viet Nam không dùng mạo từ (zero article Ø)."
+        },
+        {
+          "id": "34",
+          "blank_number": 34,
+          "options": [
+            "an",
+            "a",
+            "Ø",
+            "the"
+          ],
+          "correct_answer": "a",
+          "explanation": "Danh từ đếm được số ít 'pumpkin lantern' mang nghĩa chạm khắc một chiếc đèn bí ngô, dùng 'a'."
+        },
+        {
+          "id": "35",
+          "blank_number": 35,
+          "options": [
+            "an",
+            "a",
+            "Ø",
+            "the"
+          ],
+          "correct_answer": "Ø",
+          "explanation": "Cụm thành ngữ hoạt động lễ hội 'trick or treat' dùng zero article (Ø)."
+        },
+        {
+          "id": "36",
+          "blank_number": 36,
+          "options": [
+            "Ø",
+            "the",
+            "a",
+            "an"
+          ],
+          "correct_answer": "Ø",
+          "explanation": "Thành ngữ cố định 'cause for alarm' (lý do để lo lắng) không đi kèm mạo từ (zero article Ø)."
+        },
+        {
+          "id": "37",
+          "blank_number": 37,
+          "options": [
+            "an",
+            "a",
+            "Ø",
+            "the"
+          ],
+          "correct_answer": "the",
+          "explanation": "Dùng mạo từ 'the' trước tên các biển và đại dương (the Mediterranean Sea)."
+        },
+        {
+          "id": "38",
+          "blank_number": 38,
+          "options": [
+            "the",
+            "a",
+            "an",
+            "Ø"
+          ],
+          "correct_answer": "an",
+          "explanation": "Danh từ đếm được số ít 'ocean' bắt đầu bằng nguyên âm /ˈəʊʃn/, dùng mạo từ 'an'."
+        },
+        {
+          "id": "39",
+          "blank_number": 39,
+          "options": [
+            "the",
+            "a",
+            "Ø",
+            "an"
+          ],
+          "correct_answer": "a",
+          "explanation": "Cụm danh từ đếm được số ít 'fundamental desire' bắt đầu bằng âm phụ âm /f/, dùng mạo từ 'a'."
+        },
+        {
+          "id": "40",
+          "blank_number": 40,
+          "options": [
+            "a",
+            "Ø",
+            "an",
+            "the"
+          ],
+          "correct_answer": "a",
+          "explanation": "Cụm danh từ đếm được số ít 'vital step' bắt đầu bằng âm phụ âm /v/, dùng mạo từ 'a'."
+        }
+      ]
+    }
+  ]
+}

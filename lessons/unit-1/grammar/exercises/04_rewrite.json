@@ -1,0 +1,121 @@
+{
+  "id": "4",
+  "type": "sentence_transformation",
+  "title": "Exercise 4: Sentence Transformation",
+  "instruction": "Rewrite each sentence using the cue provided so that it has the same meaning as the original sentence.",
+  "target_grammar": "Past simple vs. Past continuous",
+  "questions": [
+    {
+      "id": "1",
+      "original_sentence": "During his college years at Reed College, Steve Jobs attended calligraphy classes.",
+      "cue": "While",
+      "correct_answer": "While Steve Jobs was attending Reed College, he took calligraphy classes.",
+      "acceptable_answers": [
+        "While Steve Jobs was attending Reed College, he took calligraphy classes.",
+        "While Steve Jobs was studying at Reed College, he attended calligraphy classes.",
+        "While he was attending Reed College, Steve Jobs took calligraphy classes."
+      ],
+      "explanation": "Chuyển cụm giới từ 'During his college years' thành mệnh đề trạng ngữ thời gian 'While + past continuous'."
+    },
+    {
+      "id": "2",
+      "original_sentence": "Dang Thuy Tram was writing her personal diary when an artillery strike shook the field hospital.",
+      "cue": "While",
+      "correct_answer": "While Dang Thuy Tram was writing her personal diary, an artillery strike shook the field hospital.",
+      "acceptable_answers": [
+        "While Dang Thuy Tram was writing her personal diary, an artillery strike shook the field hospital.",
+        "An artillery strike shook the field hospital while Dang Thuy Tram was writing her personal diary."
+      ],
+      "explanation": "Chuyển mệnh đề từ cấu trúc 'was V-ing when...' sang cấu trúc mở đầu bằng 'While + past continuous'."
+    },
+    {
+      "id": "3",
+      "original_sentence": "The film producer was reviewing the animation script, and at the same time his design team was rendering graphics.",
+      "cue": "While",
+      "correct_answer": "While the film producer was reviewing the animation script, his design team was rendering graphics.",
+      "acceptable_answers": [
+        "While the film producer was reviewing the animation script, his design team was rendering graphics.",
+        "The film producer was reviewing the animation script while his design team was rendering graphics."
+      ],
+      "explanation": "Sử dụng 'While' để nối hai hành động đang diễn ra song song trong quá khứ."
+    },
+    {
+      "id": "4",
+      "original_sentence": "During the resistance war against foreign invaders, the general devised revolutionary guerrilla tactics.",
+      "cue": "While he was",
+      "correct_answer": "While he was fighting in the resistance war against foreign invaders, the general devised revolutionary guerrilla tactics.",
+      "acceptable_answers": [
+        "While he was fighting in the resistance war against foreign invaders, the general devised revolutionary guerrilla tactics.",
+        "While he was commanding forces in the resistance war against foreign invaders, the general devised revolutionary guerrilla tactics."
+      ],
+      "explanation": "Chuyển cụm thời gian 'During the resistance war' thành mệnh đề có chủ ngữ và động từ 'While he was fighting/leading...'."
+    },
+    {
+      "id": "5",
+      "original_sentence": "The young innovator dropped out of university because of financial hardship.",
+      "cue": "due to",
+      "correct_answer": "The young innovator dropped out of university due to financial hardship.",
+      "acceptable_answers": [
+        "The young innovator dropped out of university due to financial hardship.",
+        "Due to financial hardship, the young innovator dropped out of university."
+      ],
+      "explanation": "Chuyển mệnh đề chỉ nguyên nhân 'because of' sang 'due to' kết hợp thì Quá khứ đơn 'dropped out'."
+    },
+    {
+      "id": "6",
+      "original_sentence": "At 8 o'clock yesterday evening, the historian was giving a lecture on national heroes.",
+      "cue": "When the clock struck 8 yesterday evening",
+      "correct_answer": "When the clock struck 8 yesterday evening, the historian was giving a lecture on national heroes.",
+      "acceptable_answers": [
+        "When the clock struck 8 yesterday evening, the historian was giving a lecture on national heroes.",
+        "The historian was giving a lecture on national heroes when the clock struck 8 yesterday evening."
+      ],
+      "explanation": "Sử dụng 'when' đi kèm mệnh đề chỉ mốc thời gian xác định kết hợp với hành động đang diễn tiến."
+    },
+    {
+      "id": "7",
+      "original_sentence": "They heard the announcement of their marriage approval and felt extremely overjoyed.",
+      "cue": "When",
+      "correct_answer": "When they heard the announcement of their marriage approval, they felt on top of the world.",
+      "acceptable_answers": [
+        "When they heard the announcement of their marriage approval, they felt on top of the world.",
+        "When they heard the announcement of their marriage approval, they felt over the moon.",
+        "They felt on top of the world when they heard the announcement of their marriage approval."
+      ],
+      "explanation": "Dùng liên từ 'When' cho hành động nhận tin xảy ra dứt khoát dẫn tới cảm xúc thăng hoa ('on top of the world')."
+    },
+    {
+      "id": "8",
+      "original_sentence": "During the inspection of the theme park, the engineers identified a critical safety flaw.",
+      "cue": "While the engineers",
+      "correct_answer": "While the engineers were inspecting the theme park, they identified a critical safety flaw.",
+      "acceptable_answers": [
+        "While the engineers were inspecting the theme park, they identified a critical safety flaw.",
+        "The engineers identified a critical safety flaw while they were inspecting the theme park."
+      ],
+      "explanation": "Chuyển đổi danh từ 'the inspection' thành động từ chia thì Quá khứ tiếp diễn 'were inspecting'."
+    },
+    {
+      "id": "9",
+      "original_sentence": "The surgeon was performing a complicated emergency operation when the power supply suddenly failed.",
+      "cue": "While",
+      "correct_answer": "While the surgeon was performing a complicated emergency operation, the power supply suddenly failed.",
+      "acceptable_answers": [
+        "While the surgeon was performing a complicated emergency operation, the power supply suddenly failed.",
+        "The power supply suddenly failed while the surgeon was performing a complicated emergency operation."
+      ],
+      "explanation": "Biến đổi câu 'was V-ing when...' sang 'While + was V-ing, past simple'."
+    },
+    {
+      "id": "10",
+      "original_sentence": "He chose to devote to community medical service while he was spending his youth in the highlands.",
+      "cue": "While he was spending his youth in the highlands",
+      "correct_answer": "While he was spending his youth in the highlands, he chose to devote to community medical service.",
+      "acceptable_answers": [
+        "While he was spending his youth in the highlands, he chose to devote to community medical service.",
+        "He chose to devote to community medical service while he was spending his youth in the highlands."
+      ],
+      "explanation": "Đặt hành động kéo dài 'was spending his youth' vào mệnh đề phụ mở đầu bằng 'While', mệnh đề chính diễn tả quyết định cống hiến 'devote to'."
+    }
+  ]
+}

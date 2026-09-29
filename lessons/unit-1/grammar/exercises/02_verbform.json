@@ -1,0 +1,149 @@
+{
+  "id": "2",
+  "type": "verb_form",
+  "title": "Exercise 2: Verb Form & Sentence Completion",
+  "instruction": "Complete each sentence with the correct form of the verb in brackets using either the Past Simple or Past Continuous tense.",
+  "target_grammar": "Past simple vs. Past continuous",
+  "questions": [
+    {
+      "id": "1",
+      "text": "While Dr. Dang Thuy Tram (treat) ______ wounded soldiers in the forest clinic, an enemy plane flew overhead.",
+      "verb": "treat",
+      "correct_answer": "was treating",
+      "explanation": "Hành động điều trị vết thương đang diễn ra kéo dài thì máy bay bay qua cắt ngang."
+    },
+    {
+      "id": "2",
+      "text": "The ambitious student (attend) ______ college for two semesters before deciding to launch his own software company.",
+      "verb": "attend",
+      "correct_answer": "attended",
+      "explanation": "Hành động học đại học 2 học kỳ đã hoàn thành trong quá khứ trước khi đưa ra quyết định khác."
+    },
+    {
+      "id": "3",
+      "text": "When the museum curator called him, the historian (write) ______ an inspiring biography of Queen Vo Thi Sau.",
+      "verb": "write",
+      "correct_answer": "was writing",
+      "explanation": "Hành động viết tiểu sử đang diễn ra khi người phụ trách bảo tàng gọi điện tới."
+    },
+    {
+      "id": "4",
+      "text": "The courageous leader (defeat) ______ the invading forces and restored peace to rule an independent kingdom.",
+      "verb": "defeat",
+      "correct_answer": "defeated",
+      "explanation": "Chiến công lịch sử dứt điểm trong quá khứ dùng thì Quá khứ đơn."
+    },
+    {
+      "id": "5",
+      "text": "While the animator (sketch) ______ characters for the blockbuster cartoon, his assistant was mixing color palettes.",
+      "verb": "sketch",
+      "correct_answer": "was sketching",
+      "explanation": "Hai hành động diễn ra song song cùng lúc trong quá khứ: 'was sketching' và 'was mixing'."
+    },
+    {
+      "id": "6",
+      "text": "Steve Jobs (pass) ______ away in 2011 after battling a rare form of pancreatic cancer.",
+      "verb": "pass",
+      "correct_answer": "passed",
+      "explanation": "Sự kiện lịch sử xảy ra tại thời điểm xác định năm 2011 dùng Quá khứ đơn ('passed away')."
+    },
+    {
+      "id": "7",
+      "text": "They (bond) ______ over their mutual admiration for traditional music while they were studying in Hue.",
+      "verb": "bond",
+      "correct_answer": "bonded",
+      "explanation": "Hành động trở nên thân thiết gắn bó ('bonded') diễn ra trong quãng thời gian học tập."
+    },
+    {
+      "id": "8",
+      "text": "At 7 p.m. last night, the film crew (edit) ______ the final scenes of the biographical documentary.",
+      "verb": "edit",
+      "correct_answer": "was editing",
+      "explanation": "Hành động đang diễn tiến tại mốc thời gian cụ thể trong quá khứ ('At 7 p.m. last night')."
+    },
+    {
+      "id": "9",
+      "text": "When the commander gave the signal, the elite battalion (carry) ______ out attacks on the enemy stronghold.",
+      "verb": "carry",
+      "correct_answer": "carried",
+      "explanation": "Hành động tấn công diễn ra nối tiếp ngay sau hiệu lệnh của chỉ huy dùng Quá khứ đơn."
+    },
+    {
+      "id": "10",
+      "text": "While she (devote) ______ her youth to medical volunteering, she met many inspirational mentors.",
+      "verb": "devote",
+      "correct_answer": "was devoting",
+      "explanation": "Hành động cống hiến tuổi trẻ là bối cảnh kéo dài dùng Quá khứ tiếp diễn sau 'While'."
+    },
+    {
+      "id": "11",
+      "text": "The couple finally (adopt) ______ a young orphan boy after completing all legal procedures in 1998.",
+      "verb": "adopt",
+      "correct_answer": "adopted",
+      "explanation": "Hành động nhận con nuôi hoàn tất tại mốc thời gian năm 1998 dùng Quá khứ đơn."
+    },
+    {
+      "id": "12",
+      "text": "The computer scientist (test) ______ cutting-edge graphics algorithms when the laboratory server crashed.",
+      "verb": "test",
+      "correct_answer": "was testing",
+      "explanation": "Hành động đang thử nghiệm thuật toán thì máy chủ bị sập cắt ngang."
+    },
+    {
+      "id": "13",
+      "text": "Walt Disney (dream) ______ of creating an innovative theme park that whole families could enjoy together.",
+      "verb": "dream",
+      "correct_answer": "dreamed",
+      "explanation": "Trạng thái ước mơ và ấp ủ ý tưởng trong quá khứ dùng Quá khứ đơn ('dreamed' hoặc 'dreamt')."
+    },
+    {
+      "id": "14",
+      "text": "While the tourist attraction (undergo) ______ extensive renovations, thousands of visitors waited outside.",
+      "verb": "undergo",
+      "correct_answer": "was undergoing",
+      "explanation": "Khu du lịch đang trong quá trình trải qua nâng cấp tu sửa dùng Quá khứ tiếp diễn."
+    },
+    {
+      "id": "15",
+      "text": "The visionary engineer (drop) ______ out of his postgraduate program to focus entirely on his invention.",
+      "verb": "drop",
+      "correct_answer": "dropped",
+      "explanation": "Hành động thôi học là một quyết định dứt khoát tại một thời điểm trong quá khứ."
+    },
+    {
+      "id": "16",
+      "text": "What (the researchers / discuss) ______ when the renowned professor walked into the lecture hall?",
+      "verb": "discuss",
+      "correct_answer": "were the researchers discussing",
+      "explanation": "Câu hỏi về hành động đang diễn tiến khi giáo sư bước vào phòng."
+    },
+    {
+      "id": "17",
+      "text": "During his childhood, he (spend) ______ long summer afternoons reading historical accounts in the library.",
+      "verb": "spend",
+      "correct_answer": "spent",
+      "explanation": "Thói quen trong thời thơ ấu đã kết thúc dùng Quá khứ đơn ('spent')."
+    },
+    {
+      "id": "18",
+      "text": "While the resistance forces (defend) ______ the border, local villagers transported rations and medicine.",
+      "verb": "defend",
+      "correct_answer": "were defending",
+      "explanation": "Hành động chiến đấu bảo vệ biên giới diễn ra song song với việc tiếp tế dùng Quá khứ tiếp diễn."
+    },
+    {
+      "id": "19",
+      "text": "The young prodigy (demonstrate) ______ remarkable mathematical genius at the age of ten, and he grew to be admired for his humility.",
+      "verb": "demonstrate",
+      "correct_answer": "demonstrated",
+      "explanation": "Sự việc bộc lộ tài năng tại mốc năm 10 tuổi dùng Quá khứ đơn."
+    },
+    {
+      "id": "20",
+      "text": "When she heard the news of her scholarship, she (feel) ______ on top of the world.",
+      "verb": "feel",
+      "correct_answer": "felt",
+      "explanation": "Cảm xúc xuất hiện ngay sau khi nghe tin báo trúng học bổng dùng Quá khứ đơn ('felt')."
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "4",
+  "type": "sentence_transformation",
+  "title": "Exercise 4: Sentence Transformation",
+  "instruction": "Rewrite each sentence using the cue provided so that it has the same meaning as the original sentence, paying close attention to article usage.",
+  "target_grammar": "Articles (review and extension)",
+  "questions": [
+    {
+      "id": "1",
+      "original_sentence": "Vietnamese cuisine is renowned worldwide because it combines fresh herbs and balanced flavours.",
+      "cue": "The",
+      "correct_answer": "The cuisine of Viet Nam is renowned worldwide for its blend of fresh herbs and balanced flavours.",
+      "acceptable_answers": [
+        "The cuisine of Viet Nam is renowned worldwide for its blend of fresh herbs and balanced flavours.",
+        "The cuisine of Viet Nam is renowned worldwide because it combines fresh herbs and balanced flavours."
+      ],
+      "explanation": "Chuyển tính từ chỉ quốc tịch 'Vietnamese cuisine' thành cụm danh từ xác định 'The cuisine of Viet Nam'."
+    },
+    {
+      "id": "2",
+      "original_sentence": "She was the first student who gave a presentation on cultural diversity in our seminar.",
+      "cue": "She was the first student to",
+      "correct_answer": "She was the first student to give a presentation on cultural diversity in our seminar.",
+      "acceptable_answers": [
+        "She was the first student to give a presentation on cultural diversity in our seminar.",
+        "She was the first student to present on cultural diversity in our seminar."
+      ],
+      "explanation": "Rút gọn mệnh đề quan hệ sau số thứ tự 'the first student' bằng động từ nguyên mẫu có to ('to give')."
+    },
+    {
+      "id": "3",
+      "original_sentence": "People believe that globalisation has a profound influence on modern youth culture.",
+      "cue": "Globalisation is believed",
+      "correct_answer": "Globalisation is believed to have a profound influence on modern youth culture.",
+      "acceptable_answers": [
+        "Globalisation is believed to have a profound influence on modern youth culture."
+      ],
+      "explanation": "Chuyển đổi câu bị động với động từ tường thuật, giữ nguyên danh từ trừu tượng 'Globalisation' với mạo từ zero."
+    },
+    {
+      "id": "4",
+      "original_sentence": "No other tourist attraction in our province is as popular as the ancient citadel.",
+      "cue": "The ancient citadel is the",
+      "correct_answer": "The ancient citadel is the most popular tourist attraction in our province.",
+      "acceptable_answers": [
+        "The ancient citadel is the most popular tourist attraction in our province."
+      ],
+      "explanation": "Chuyển từ so sánh bằng phủ định sang so sánh nhất với mạo từ xác định 'the most popular tourist attraction'."
+    },
+    {
+      "id": "5",
+      "original_sentence": "She bought an elaborate costume yesterday, and it was crafted from organic silk.",
+      "cue": "The elaborate costume that",
+      "correct_answer": "The elaborate costume that she bought yesterday was crafted from organic silk.",
+      "acceptable_answers": [
+        "The elaborate costume that she bought yesterday was crafted from organic silk.",
+        "The elaborate costume which she bought yesterday was crafted from organic silk."
+      ],
+      "explanation": "Biến đổi từ câu ghép với mạo từ bất định 'an elaborate costume' thành mệnh đề quan hệ xác định với 'The elaborate costume that...'."
+    },
+    {
+      "id": "6",
+      "original_sentence": "The carnival had such a captivating atmosphere that thousands of tourists joined the street parade.",
+      "cue": "The atmosphere of the carnival was so",
+      "correct_answer": "The atmosphere of the carnival was so captivating that thousands of tourists joined the street parade.",
+      "acceptable_answers": [
+        "The atmosphere of the carnival was so captivating that thousands of tourists joined the street parade."
+      ],
+      "explanation": "Chuyển cấu trúc 'such a + adj + noun' sang 'so + adj + that' với cụm danh từ xác định 'The atmosphere of the carnival'."
+    },
+    {
+      "id": "7",
+      "original_sentence": "Learning to play the violin requires more patience than learning any other musical instrument.",
+      "cue": "The violin is the",
+      "correct_answer": "The violin is the most demanding musical instrument to learn.",
+      "acceptable_answers": [
+        "The violin is the most demanding musical instrument to learn.",
+        "The violin is the most difficult musical instrument to learn."
+      ],
+      "explanation": "Dùng mạo từ 'the' cho nhạc cụ đại diện cả loài/loại nhạc cụ ('The violin') kết hợp so sánh nhất 'the most demanding musical instrument'."
+    },
+    {
+      "id": "8",
+      "original_sentence": "It is difficult for many exchange students to overcome a language barrier in an unfamiliar city.",
+      "cue": "Overcoming a",
+      "correct_answer": "Overcoming a language barrier in an unfamiliar city is difficult for many exchange students.",
+      "acceptable_answers": [
+        "Overcoming a language barrier in an unfamiliar city is difficult for many exchange students."
+      ],
+      "explanation": "Biến đổi cấu trúc 'It is adj for sb to V' thành danh từ/danh động từ làm chủ ngữ 'Overcoming a language barrier...'."
+    },
+    {
+      "id": "9",
+      "original_sentence": "The Pacific Ocean is wider and deeper than any other ocean on earth.",
+      "cue": "The Pacific Ocean is the",
+      "correct_answer": "The Pacific Ocean is the largest and deepest ocean on earth.",
+      "acceptable_answers": [
+        "The Pacific Ocean is the largest and deepest ocean on earth.",
+        "The Pacific Ocean is the biggest ocean on earth."
+      ],
+      "explanation": "Giữ nguyên mạo từ 'The' trước tên đại dương và áp dụng so sánh nhất 'the largest and deepest ocean on earth'."
+    },
+    {
+      "id": "10",
+      "original_sentence": "Children always feel thrilled when they take part in trick or treat on Halloween night.",
+      "cue": "Taking part in",
+      "correct_answer": "Taking part in trick or treat on Halloween night always makes children feel thrilled.",
+      "acceptable_answers": [
+        "Taking part in trick or treat on Halloween night always makes children feel thrilled.",
+        "Taking part in trick or treat on Halloween night brings great excitement to children."
+      ],
+      "explanation": "Chuyển thành danh động từ làm chủ ngữ với cụm từ không mạo từ 'trick or treat' và 'Halloween night'."
+    }
+  ]
+}

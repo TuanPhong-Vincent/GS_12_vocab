@@ -8,8 +8,8 @@
       "id": "1",
       "text": "The chemical spill caused severe river __________ that threatened local drinking water supplies.",
       "options": [
-        "pollutant",
         "pollute",
+        "pollutant",
         "polluted",
         "pollution"
       ],
@@ -19,10 +19,10 @@
       "id": "2",
       "text": "Aluminum cans and glass containers are completely __________ materials that we should never throw away.",
       "options": [
-        "recycling",
         "recyclable",
         "recycled",
-        "recycle"
+        "recycle",
+        "recycling"
       ],
       "correct_answer": "recyclable"
     },
@@ -30,8 +30,8 @@
       "id": "3",
       "text": "Many organic farmers strive to manage their acreage __________ to protect soil quality.",
       "options": [
-        "sustainable",
         "sustainably",
+        "sustainable",
         "sustain",
         "sustainability"
       ],
@@ -41,10 +41,10 @@
       "id": "4",
       "text": "Greasy napkins can __________ an entire batch of clean cardboard during processing.",
       "options": [
-        "contaminate",
+        "contaminated",
         "contamination",
-        "contaminating",
-        "contaminated"
+        "contaminate",
+        "contaminating"
       ],
       "correct_answer": "contaminate"
     },
@@ -53,8 +53,8 @@
       "text": "Leaving electrical appliances running in empty classrooms is a very __________ habit.",
       "options": [
         "waste",
-        "wastes",
         "wasteful",
+        "wastes",
         "wastefully"
       ],
       "correct_answer": "wasteful"
@@ -64,9 +64,9 @@
       "text": "Warm summer temperatures accelerate the __________ of organic kitchen scraps in the compost barrel.",
       "options": [
         "decomposition",
-        "decompose",
+        "decomposed",
         "decomposing",
-        "decomposed"
+        "decompose"
       ],
       "correct_answer": "decomposition"
     },
@@ -74,10 +74,10 @@
       "id": "7",
       "text": "Shoppers who bring their own __________ cloth bags help prevent millions of plastic sacks from polluting oceans.",
       "options": [
-        "reused",
         "reusing",
+        "reuse",
         "reusable",
-        "reuse"
+        "reused"
       ],
       "correct_answer": "reusable"
     },
@@ -85,10 +85,10 @@
       "id": "8",
       "text": "The delivery service wraps fragile glass bottles in protective paper __________.",
       "options": [
-        "packaging",
-        "packed",
         "package",
-        "pack"
+        "pack",
+        "packed",
+        "packaging"
       ],
       "correct_answer": "packaging"
     },
@@ -97,9 +97,9 @@
       "text": "Educating young citizens on environmental __________ ensures the long-term protection of natural habitats.",
       "options": [
         "sustain",
-        "sustainably",
         "sustainability",
-        "sustainable"
+        "sustainable",
+        "sustainably"
       ],
       "correct_answer": "sustainability"
     },
@@ -107,10 +107,10 @@
       "id": "10",
       "text": "Smoke particles from coal-fired power stations act as a dangerous atmospheric __________.",
       "options": [
-        "polluted",
-        "pollution",
         "pollute",
-        "pollutant"
+        "pollution",
+        "pollutant",
+        "polluted"
       ],
       "correct_answer": "pollutant"
     }

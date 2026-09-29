@@ -1,0 +1,165 @@
+{
+  "id": "3",
+  "type": "matching_halves",
+  "title": "Exercise 3: Match the Sentence Halves",
+  "instruction": "Match the sentence beginnings (1–10) with the appropriate endings (A–J) to build syntactically sound and coherent sentences illustrating article rules and cultural diversity.",
+  "target_grammar": "Articles (review and extension)",
+  "questions": [
+    {
+      "id": "1",
+      "half_a": "While traveling across the United Kingdom,"
+    },
+    {
+      "id": "2",
+      "half_a": "The master chef highlighted the local speciality"
+    },
+    {
+      "id": "3",
+      "half_a": "Although globalisation encourages cross-cultural dialogue,"
+    },
+    {
+      "id": "4",
+      "half_a": "During the mid-autumn festivities, children carried pumpkin lanterns"
+    },
+    {
+      "id": "5",
+      "half_a": "She purchased a hand-painted fan at the tourist attraction,"
+    },
+    {
+      "id": "6",
+      "half_a": "Teenagers love wearing creative costumes on Halloween,"
+    },
+    {
+      "id": "7",
+      "half_a": "Overcoming a language barrier requires consistent practice,"
+    },
+    {
+      "id": "8",
+      "half_a": "The annual multicultural carnival captivated thousands of spectators"
+    },
+    {
+      "id": "9",
+      "half_a": "Taking part in a traditional game like tug of war"
+    },
+    {
+      "id": "10",
+      "half_a": "The scientific expedition sailed across the Pacific Ocean"
+    }
+  ],
+  "options": [
+    {
+      "label": "A",
+      "half_b": "the exchange students encountered an unfamiliar regional dialect."
+    },
+    {
+      "label": "B",
+      "half_b": "because it was cooked with an organic, indigenous ingredient."
+    },
+    {
+      "label": "C",
+      "half_b": "some indigenous communities struggle to preserve their distinct cultural identity."
+    },
+    {
+      "label": "D",
+      "half_b": "while elders gathered around to enjoy a live performance of bamboo dancing."
+    },
+    {
+      "label": "E",
+      "half_b": "and the souvenir reminded her of the vibrant riverside community."
+    },
+    {
+      "label": "F",
+      "half_b": "yet venturing inside the spooky haunted house was still a cause for alarm."
+    },
+    {
+      "label": "G",
+      "half_b": "especially when communicating within a multicultural working environment."
+    },
+    {
+      "label": "H",
+      "half_b": "because it displayed a fascinating blend of international music and dance."
+    },
+    {
+      "label": "I",
+      "half_b": "serves as an enjoyable extracurricular activity that strengthens community bonding."
+    },
+    {
+      "label": "J",
+      "half_b": "to study the migration routes of rare marine mammals."
+    }
+  ],
+  "correct_matches": {
+    "1": "A",
+    "2": "B",
+    "3": "C",
+    "4": "D",
+    "5": "E",
+    "6": "F",
+    "7": "G",
+    "8": "H",
+    "9": "I",
+    "10": "J"
+  },
+  "pairs": [
+    {
+      "id": "1",
+      "first_half": "While traveling across the United Kingdom,",
+      "second_half": "the exchange students encountered an unfamiliar regional dialect.",
+      "second_half_label": "A"
+    },
+    {
+      "id": "2",
+      "first_half": "The master chef highlighted the local speciality",
+      "second_half": "because it was cooked with an organic, indigenous ingredient.",
+      "second_half_label": "B"
+    },
+    {
+      "id": "3",
+      "first_half": "Although globalisation encourages cross-cultural dialogue,",
+      "second_half": "some indigenous communities struggle to preserve their distinct cultural identity.",
+      "second_half_label": "C"
+    },
+    {
+      "id": "4",
+      "first_half": "During the mid-autumn festivities, children carried pumpkin lanterns",
+      "second_half": "while elders gathered around to enjoy a live performance of bamboo dancing.",
+      "second_half_label": "D"
+    },
+    {
+      "id": "5",
+      "first_half": "She purchased a hand-painted fan at the tourist attraction,",
+      "second_half": "and the souvenir reminded her of the vibrant riverside community.",
+      "second_half_label": "E"
+    },
+    {
+      "id": "6",
+      "first_half": "Teenagers love wearing creative costumes on Halloween,",
+      "second_half": "yet venturing inside the spooky haunted house was still a cause for alarm.",
+      "second_half_label": "F"
+    },
+    {
+      "id": "7",
+      "first_half": "Overcoming a language barrier requires consistent practice,",
+      "second_half": "especially when communicating within a multicultural working environment.",
+      "second_half_label": "G"
+    },
+    {
+      "id": "8",
+      "first_half": "The annual multicultural carnival captivated thousands of spectators",
+      "second_half": "because it displayed a fascinating blend of international music and dance.",
+      "second_half_label": "H"
+    },
+    {
+      "id": "9",
+      "first_half": "Taking part in a traditional game like tug of war",
+      "second_half": "serves as an enjoyable extracurricular activity that strengthens community bonding.",
+      "second_half_label": "I"
+    },
+    {
+      "id": "10",
+      "first_half": "The scientific expedition sailed across the Pacific Ocean",
+      "second_half": "to study the migration routes of rare marine mammals.",
+      "second_half_label": "J"
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "1",
+  "type": "multiple_choice",
+  "title": "Exercise 1: Multiple Choice Questions",
+  "instruction": "Choose the best option (A, B, C, or D) that correctly applies the Past Simple or Past Continuous tense.",
+  "target_grammar": "Past simple vs. Past continuous",
+  "questions": [
+    {
+      "id": "1",
+      "text": "While the young surgeon ______ in a remote field hospital, she kept a detailed diary of her wartime experiences.",
+      "options": [
+        "has served",
+        "was serving",
+        "is serving",
+        "served"
+      ],
+      "correct_answer": "was serving",
+      "explanation": "Hành động kéo dài làm nền trong quá khứ dùng thì Quá khứ tiếp diễn ('was serving') sau liên từ 'While'."
+    },
+    {
+      "id": "2",
+      "text": "Steve Jobs ______ out of Reed College in 1972, but he decided to audit creative calligraphy classes.",
+      "options": [
+        "dropped",
+        "drops",
+        "has dropped",
+        "was dropping"
+      ],
+      "correct_answer": "dropped",
+      "explanation": "Sự kiện lịch sử đã hoàn thành dứt điểm tại một mốc thời gian xác định (1972) dùng thì Quá khứ đơn ('dropped')."
+    },
+    {
+      "id": "3",
+      "text": "The visionary animator ______ a revolutionary computer animation technique when the studio suddenly lost all electrical power.",
+      "options": [
+        "pioneers",
+        "was pioneering",
+        "is pioneering",
+        "pioneered"
+      ],
+      "correct_answer": "was pioneering",
+      "explanation": "Hành động đang diễn tiến thì bị một hành động khác xen vào ('lost power') dùng Quá khứ tiếp diễn ('was pioneering')."
+    },
+    {
+      "id": "4",
+      "text": "General Vo Nguyen Giap ______ the enemy forces at Dien Bien Phu through his brilliant military genius, defending an independent nation.",
+      "options": [
+        "defeated",
+        "defeats",
+        "was defeating",
+        "had been defeating"
+      ],
+      "correct_answer": "defeated",
+      "explanation": "Chiến công lịch sử hoàn tất trong quá khứ dùng thì Quá khứ đơn ('defeated')."
+    },
+    {
+      "id": "5",
+      "text": "While my grandfather ______ his youth to the resistance war, my grandmother managed the family farm.",
+      "options": [
+        "is devoting",
+        "devoted",
+        "has devoted",
+        "was devoting"
+      ],
+      "correct_answer": "was devoting",
+      "explanation": "Diễn tả hành động kéo dài song song với một bối cảnh khác trong quá khứ dùng Quá khứ tiếp diễn sau 'While'."
+    },
+    {
+      "id": "6",
+      "text": "When the biographer contacted her, the author ______ a novel based on the life of an ancient national hero.",
+      "options": [
+        "writes",
+        "was writing",
+        "wrote",
+        "has written"
+      ],
+      "correct_answer": "was writing",
+      "explanation": "Hành động viết tiểu thuyết đang diễn ra tại thời điểm nhà viết tiểu sử liên hệ ('when the biographer contacted her')."
+    },
+    {
+      "id": "7",
+      "text": "The young entrepreneur felt ______ when his startup received its first major investment grant.",
+      "options": [
+        "is feeling on cloud nine",
+        "felt on cloud nine",
+        "on cloud nine",
+        "was feeling on cloud nine"
+      ],
+      "correct_answer": "on cloud nine",
+      "explanation": "Thành ngữ chỉ niềm vui tột cùng 'on cloud nine' đi sau động từ nối 'felt'."
+    },
+    {
+      "id": "8",
+      "text": "What ______ at 8 p.m. yesterday when the documentary about Queen Trinh Nu was broadcast?",
+      "options": [
+        "were you doing",
+        "have you done",
+        "do you do",
+        "did you do"
+      ],
+      "correct_answer": "were you doing",
+      "explanation": "Hỏi về hành động đang diễn ra tại một thời điểm chính xác trong quá khứ ('at 8 p.m. yesterday') dùng Quá khứ tiếp diễn."
+    },
+    {
+      "id": "9",
+      "text": "During his childhood, Alexander ______ school in a small village before moving to the capital city.",
+      "options": [
+        "has attended",
+        "was attending",
+        "is attending",
+        "attended"
+      ],
+      "correct_answer": "attended",
+      "explanation": "Thói quen hoặc sự việc diễn ra và đã kết thúc trong thời thơ ấu dùng thì Quá khứ đơn ('attended')."
+    },
+    {
+      "id": "10",
+      "text": "The film producer ______ the script while his creative design team was rendering digital graphics.",
+      "options": [
+        "reviews",
+        "reviewed",
+        "has reviewed",
+        "was reviewing"
+      ],
+      "correct_answer": "was reviewing",
+      "explanation": "Hai hành động diễn ra song song cùng lúc trong quá khứ: cả hai vế đều dùng Quá khứ tiếp diễn ('was reviewing' và 'was rendering')."
+    },
+    {
+      "id": "11",
+      "text": "She ______ her biological parents for the first time while she was visiting her hometown in 2015.",
+      "options": [
+        "met",
+        "was meeting",
+        "has met",
+        "meets"
+      ],
+      "correct_answer": "met",
+      "explanation": "Hành động gặp mặt xảy ra dứt khoát ('met') cắt ngang bối cảnh đang về thăm quê ('was visiting')."
+    },
+    {
+      "id": "12",
+      "text": "The medical researchers ______ an impressive achievement when they synthesized the novel vaccine.",
+      "options": [
+        "were celebrating",
+        "are celebrating",
+        "celebrated",
+        "celebrates"
+      ],
+      "correct_answer": "celebrated",
+      "explanation": "Hành động ăn mừng diễn ra ngay sau khi điều chế thành công vắc xin, chuỗi hành động kế tiếp dùng Quá khứ đơn."
+    },
+    {
+      "id": "13",
+      "text": "While the volunteers ______ relief supplies to disaster victims, an unexpected landslide blocked the mountain pass.",
+      "options": [
+        "transported",
+        "were transporting",
+        "have transported",
+        "are transporting"
+      ],
+      "correct_answer": "were transporting",
+      "explanation": "Hành động vận chuyển đang diễn tiến thì bị sạt lở đất cắt ngang."
+    },
+    {
+      "id": "14",
+      "text": "King Quang Trung ______ his soldiers to victory in the spring of 1789 through decisive tactical maneuvers.",
+      "options": [
+        "was leading",
+        "leads",
+        "has led",
+        "led"
+      ],
+      "correct_answer": "led",
+      "explanation": "Sự kiện lịch sử hào hùng hoàn tất tại thời điểm cụ thể ('spring of 1789') dùng Quá khứ đơn ('led')."
+    },
+    {
+      "id": "15",
+      "text": "Although the inventor was extremely ambitious, he ______ to drop out of university due to family hardships.",
+      "options": [
+        "has decided",
+        "decides",
+        "was deciding",
+        "decided"
+      ],
+      "correct_answer": "decided",
+      "explanation": "Động từ chỉ quyết định dứt khoát 'decided' dùng ở thì Quá khứ đơn."
+    },
+    {
+      "id": "16",
+      "text": "The couple ______ a long marriage filled with mutual respect until the husband passed away last winter.",
+      "options": [
+        "have had",
+        "were having",
+        "had",
+        "are having"
+      ],
+      "correct_answer": "had",
+      "explanation": "'Have' mang nghĩa sở hữu/trải qua hôn nhân bền vững là động từ chỉ trạng thái, không chia tiếp diễn; dùng Quá khứ đơn 'had'."
+    },
+    {
+      "id": "17",
+      "text": "While the technicians ______ cutting-edge technology into the theme park, safety inspectors inspected the rides.",
+      "options": [
+        "installed",
+        "have installed",
+        "were installing",
+        "are installing"
+      ],
+      "correct_answer": "were installing",
+      "explanation": "Hành động lắp đặt đang diễn ra dùng Quá khứ tiếp diễn sau 'While'."
+    },
+    {
+      "id": "18",
+      "text": "Marie Curie was dedicated to scientific research; she ______ her life to discover radioactivity and won two Nobel Prizes.",
+      "options": [
+        "devoted",
+        "was devoting",
+        "devotes",
+        "has devoted"
+      ],
+      "correct_answer": "devoted",
+      "explanation": "Chuỗi sự kiện lịch sử trong cuộc đời một nhà khoa học vĩ đại dùng Quá khứ đơn ('devoted ... and won')."
+    },
+    {
+      "id": "19",
+      "text": "The patient ______ from cancer when an innovative immunotherapy treatment was introduced.",
+      "options": [
+        "has suffered",
+        "was suffering",
+        "suffers",
+        "suffered"
+      ],
+      "correct_answer": "was suffering",
+      "explanation": "Tình trạng bệnh nhân đang chịu đựng kéo dài thì có liệu pháp mới xuất hiện xen vào."
+    },
+    {
+      "id": "20",
+      "text": "When the military genius ______ the strategic command, all divisions advanced simultaneously.",
+      "options": [
+        "gives",
+        "was giving",
+        "gave",
+        "has given"
+      ],
+      "correct_answer": "gave",
+      "explanation": "Hành động ra lệnh ngắn gọn dứt khoát kích hoạt chuỗi tấn công dùng Quá khứ đơn ('gave')."
+    }
+  ]
+}

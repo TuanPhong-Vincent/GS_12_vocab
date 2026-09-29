@@ -1,0 +1,165 @@
+{
+  "id": "3",
+  "type": "matching_halves",
+  "title": "Exercise 3: Match the Sentence Halves",
+  "instruction": "Match the sentence beginnings (1–10) with the appropriate endings (A–J) to create complete, grammatically sound sentences.",
+  "target_grammar": "Past simple vs. Past continuous",
+  "questions": [
+    {
+      "id": "1",
+      "half_a": "While Dr. Dang Thuy Tram was recording her wartime thoughts in her diary,"
+    },
+    {
+      "id": "2",
+      "half_a": "Steve Jobs was working relentlessly on the first Macintosh computer"
+    },
+    {
+      "id": "3",
+      "half_a": "The archaeological team discovered ancient military artifacts"
+    },
+    {
+      "id": "4",
+      "half_a": "When the young inventor heard that his design won the grand prize,"
+    },
+    {
+      "id": "5",
+      "half_a": "While the resistance soldiers were enduring harsh conditions in the mountains,"
+    },
+    {
+      "id": "6",
+      "half_a": "The visionary animator was sketching preliminary storyboards"
+    },
+    {
+      "id": "7",
+      "half_a": "General Vo Nguyen Giap devised revolutionary tactics to carry out attacks"
+    },
+    {
+      "id": "8",
+      "half_a": "While the newly married couple were traveling across Southeast Asia,"
+    },
+    {
+      "id": "9",
+      "half_a": "The medical researchers made an impressive scientific breakthrough"
+    },
+    {
+      "id": "10",
+      "half_a": "When the historical documentary ended on television last night,"
+    }
+  ],
+  "options": [
+    {
+      "label": "A",
+      "half_b": "she expressed profound love for her family and homeland."
+    },
+    {
+      "label": "B",
+      "half_b": "when a catastrophic technical malfunction damaged the prototype."
+    },
+    {
+      "label": "C",
+      "half_b": "while they were excavating the citadel of the ancient kingdom."
+    },
+    {
+      "label": "D",
+      "half_b": "he felt on cloud nine and called his biological parents immediately."
+    },
+    {
+      "label": "E",
+      "half_b": "local villagers were secretly transporting rice and medical supplies."
+    },
+    {
+      "label": "F",
+      "half_b": "while the sound engineers were composing the blockbuster soundtrack."
+    },
+    {
+      "label": "G",
+      "half_b": "while he was preparing his army for the historic campaign."
+    },
+    {
+      "label": "H",
+      "half_b": "they bonded over their mutual passion for wildlife photography."
+    },
+    {
+      "label": "I",
+      "half_b": "while they were investigating innovative therapies for cancer."
+    },
+    {
+      "label": "J",
+      "half_b": "the audience stood up and applauded the heroic sacrifices of the martyrs."
+    }
+  ],
+  "correct_matches": {
+    "1": "A",
+    "2": "B",
+    "3": "C",
+    "4": "D",
+    "5": "E",
+    "6": "F",
+    "7": "G",
+    "8": "H",
+    "9": "I",
+    "10": "J"
+  },
+  "pairs": [
+    {
+      "id": "1",
+      "first_half": "While Dr. Dang Thuy Tram was recording her wartime thoughts in her diary,",
+      "second_half": "she expressed profound love for her family and homeland.",
+      "second_half_label": "A"
+    },
+    {
+      "id": "2",
+      "first_half": "Steve Jobs was working relentlessly on the first Macintosh computer",
+      "second_half": "when a catastrophic technical malfunction damaged the prototype.",
+      "second_half_label": "B"
+    },
+    {
+      "id": "3",
+      "first_half": "The archaeological team discovered ancient military artifacts",
+      "second_half": "while they were excavating the citadel of the ancient kingdom.",
+      "second_half_label": "C"
+    },
+    {
+      "id": "4",
+      "first_half": "When the young inventor heard that his design won the grand prize,",
+      "second_half": "he felt on cloud nine and called his biological parents immediately.",
+      "second_half_label": "D"
+    },
+    {
+      "id": "5",
+      "first_half": "While the resistance soldiers were enduring harsh conditions in the mountains,",
+      "second_half": "local villagers were secretly transporting rice and medical supplies.",
+      "second_half_label": "E"
+    },
+    {
+      "id": "6",
+      "first_half": "The visionary animator was sketching preliminary storyboards",
+      "second_half": "while the sound engineers were composing the blockbuster soundtrack.",
+      "second_half_label": "F"
+    },
+    {
+      "id": "7",
+      "first_half": "General Vo Nguyen Giap devised revolutionary tactics to carry out attacks",
+      "second_half": "while he was preparing his army for the historic campaign.",
+      "second_half_label": "G"
+    },
+    {
+      "id": "8",
+      "first_half": "While the newly married couple were traveling across Southeast Asia,",
+      "second_half": "they bonded over their mutual passion for wildlife photography.",
+      "second_half_label": "H"
+    },
+    {
+      "id": "9",
+      "first_half": "The medical researchers made an impressive scientific breakthrough",
+      "second_half": "while they were investigating innovative therapies for cancer.",
+      "second_half_label": "I"
+    },
+    {
+      "id": "10",
+      "first_half": "When the historical documentary ended on television last night,",
+      "second_half": "the audience stood up and applauded the heroic sacrifices of the martyrs.",
+      "second_half_label": "J"
+    }
+  ]
+}

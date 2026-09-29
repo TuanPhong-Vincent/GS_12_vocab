@@ -1,0 +1,129 @@
+{
+  "id": "7",
+  "type": "sentence_combination",
+  "title": "Exercise 7: Sentence Combination",
+  "instruction": "Combine each pair of sentences into a single coherent sentence using the Past Simple and Past Continuous with the provided cue word.",
+  "target_grammar": "Past simple vs. Past continuous",
+  "questions": [
+    {
+      "id": "1",
+      "sentence_1": "Dr. Dang Thuy Tram was attending to wounded soldiers in the field hospital.",
+      "sentence_2": "Suddenly, a loud explosion rocked the clinic entrance.",
+      "cue": "Use 'when'",
+      "correct_answer": "Dr. Dang Thuy Tram was attending to wounded soldiers in the field hospital when a loud explosion rocked the clinic entrance.",
+      "acceptable_answers": [
+        "Dr. Dang Thuy Tram was attending to wounded soldiers in the field hospital when a loud explosion rocked the clinic entrance.",
+        "When a loud explosion rocked the clinic entrance, Dr. Dang Thuy Tram was attending to wounded soldiers in the field hospital."
+      ],
+      "explanation": "Dùng 'when' nối hành động ngắn bất ngờ xen vào ('rocked') với hành động dài đang tiếp diễn ('was attending')."
+    },
+    {
+      "id": "2",
+      "sentence_1": "Steve Jobs was studying unofficially at Reed College.",
+      "sentence_2": "He discovered a profound passion for calligraphy and typography.",
+      "cue": "Use 'While'",
+      "correct_answer": "While Steve Jobs was studying unofficially at Reed College, he discovered a profound passion for calligraphy and typography.",
+      "acceptable_answers": [
+        "While Steve Jobs was studying unofficially at Reed College, he discovered a profound passion for calligraphy and typography.",
+        "Steve Jobs discovered a profound passion for calligraphy and typography while he was studying unofficially at Reed College."
+      ],
+      "explanation": "Dùng 'While' mở đầu mệnh đề chỉ quá trình học tập kéo dài, mệnh đề chính dùng Quá khứ đơn 'discovered'."
+    },
+    {
+      "id": "3",
+      "sentence_1": "The animators were drawing character sketches for the new animated film.",
+      "sentence_2": "At the same time, the sound designers were recording audio effects.",
+      "cue": "Use 'while'",
+      "correct_answer": "The animators were drawing character sketches for the new animated film while the sound designers were recording audio effects.",
+      "acceptable_answers": [
+        "The animators were drawing character sketches for the new animated film while the sound designers were recording audio effects.",
+        "While the animators were drawing character sketches for the new animated film, the sound designers were recording audio effects."
+      ],
+      "explanation": "Dùng 'while' diễn tả hai hành động diễn ra song song cùng lúc trong quá khứ."
+    },
+    {
+      "id": "4",
+      "sentence_1": "General Vo Nguyen Giap was planning the strategic offensive.",
+      "sentence_2": "His military couriers brought vital intelligence from the northern front.",
+      "cue": "Use 'While'",
+      "correct_answer": "While General Vo Nguyen Giap was planning the strategic offensive, his military couriers brought vital intelligence from the northern front.",
+      "acceptable_answers": [
+        "While General Vo Nguyen Giap was planning the strategic offensive, his military couriers brought vital intelligence from the northern front.",
+        "General Vo Nguyen Giap's military couriers brought vital intelligence from the northern front while he was planning the strategic offensive."
+      ],
+      "explanation": "Hành động người liên lạc mang tin mật tới ('brought') xảy ra cắt ngang quá trình lập kế hoạch ('was planning')."
+    },
+    {
+      "id": "5",
+      "sentence_1": "The volunteers were distributing emergency rations to the flood victims.",
+      "sentence_2": "An unexpected downpour caused river levels to rise rapidly.",
+      "cue": "Use 'when'",
+      "correct_answer": "The volunteers were distributing emergency rations to the flood victims when an unexpected downpour caused river levels to rise rapidly.",
+      "acceptable_answers": [
+        "The volunteers were distributing emergency rations to the flood victims when an unexpected downpour caused river levels to rise rapidly.",
+        "When an unexpected downpour caused river levels to rise rapidly, the volunteers were distributing emergency rations to the flood victims."
+      ],
+      "explanation": "Dùng 'when' cho mệnh đề Quá khứ đơn diễn tả sự việc đột ngột xảy đến."
+    },
+    {
+      "id": "6",
+      "sentence_1": "The young biologist was conducting research in the pristine rainforest.",
+      "sentence_2": "She discovered an unrecorded species of medicinal flora.",
+      "cue": "Use 'While'",
+      "correct_answer": "While the young biologist was conducting research in the pristine rainforest, she discovered an unrecorded species of medicinal flora.",
+      "acceptable_answers": [
+        "While the young biologist was conducting research in the pristine rainforest, she discovered an unrecorded species of medicinal flora.",
+        "The young biologist discovered an unrecorded species of medicinal flora while she was conducting research in the pristine rainforest."
+      ],
+      "explanation": "Hành động phát hiện loài cây mới ('discovered') xảy ra trong quá trình nghiên cứu ('was conducting')."
+    },
+    {
+      "id": "7",
+      "sentence_1": "The film director was filming the climactic battle scene.",
+      "sentence_2": "The heavy camera crane suffered a severe mechanical failure.",
+      "cue": "Use 'while'",
+      "correct_answer": "The heavy camera crane suffered a severe mechanical failure while the film director was filming the climactic battle scene.",
+      "acceptable_answers": [
+        "The heavy camera crane suffered a severe mechanical failure while the film director was filming the climactic battle scene.",
+        "While the film director was filming the climactic battle scene, the heavy camera crane suffered a severe mechanical failure."
+      ],
+      "explanation": "Sự cố cơ học ('suffered') diễn ra trong lúc đoàn phim đang quay đại cảnh chiến đấu ('was filming')."
+    },
+    {
+      "id": "8",
+      "sentence_1": "The software engineer was demonstrating the cutting-edge AI model.",
+      "sentence_2": "The conference hall lost its internet connection completely.",
+      "cue": "Use 'when'",
+      "correct_answer": "The software engineer was demonstrating the cutting-edge AI model when the conference hall lost its internet connection completely.",
+      "acceptable_answers": [
+        "The software engineer was demonstrating the cutting-edge AI model when the conference hall lost its internet connection completely.",
+        "When the conference hall lost its internet connection completely, the software engineer was demonstrating the cutting-edge AI model."
+      ],
+      "explanation": "Mất kết nối mạng là sự cố xen vào quá trình kỹ sư đang thuyết trình giới thiệu mô hình."
+    },
+    {
+      "id": "9",
+      "sentence_1": "The couple were preparing for their wedding ceremony.",
+      "sentence_2": "They received congratulatory letters from their former professors.",
+      "cue": "Use 'While'",
+      "correct_answer": "While the couple were preparing for their wedding ceremony, they received congratulatory letters from their former professors.",
+      "acceptable_answers": [
+        "While the couple were preparing for their wedding ceremony, they received congratulatory letters from their former professors.",
+        "The couple received congratulatory letters from their former professors while they were preparing for their wedding ceremony."
+      ],
+      "explanation": "Hành động nhận thư chúc mừng xảy đến trong quá trình chuẩn bị hôn lễ."
+    },
+    {
+      "id": "10",
+      "sentence_1": "The historian was compiling biographical accounts of ancient queens.",
+      "sentence_2": "He uncovered rare royal manuscripts preserved in the temple archives.",
+      "cue": "Use 'While'",
+      "correct_answer": "While the historian was compiling biographical accounts of ancient queens, he uncovered rare royal manuscripts preserved in the temple archives.",
+      "acceptable_answers": [
+        "While the historian was compiling biographical accounts of ancient queens, he uncovered rare royal manuscripts preserved in the temple archives.",
+        "The historian uncovered rare royal manuscripts preserved in the temple archives while he was compiling biographical accounts of ancient queens."
+      ],
+      "explanation": "Quá trình biên soạn tài liệu là hành động nền kéo dài dùng Quá khứ tiếp diễn sau 'While'."
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "1",
+  "type": "multiple_choice",
+  "title": "Exercise 1: Multiple Choice Questions",
+  "instruction": "Choose the best option (A, B, C, or D) that correctly uses articles (a, an, the, or Ø for zero article).",
+  "target_grammar": "Articles (review and extension)",
+  "questions": [
+    {
+      "id": "1",
+      "text": "Many exchange students experience ______ culture shock when they first encounter unfamiliar customs in a foreign country.",
+      "options": [
+        "an",
+        "the",
+        "a",
+        "Ø"
+      ],
+      "correct_answer": "Ø",
+      "explanation": "'Culture shock' là danh từ không đếm được dùng với nghĩa chung khái quát, do đó ta dùng mạo từ zero (Ø)."
+    },
+    {
+      "id": "2",
+      "text": "During the autumn carnival, children carried ______ colourful pumpkin lantern through the illuminated village square.",
+      "options": [
+        "the",
+        "a",
+        "Ø",
+        "an"
+      ],
+      "correct_answer": "a",
+      "explanation": "Danh từ đếm được số ít 'pumpkin lantern' lần đầu được đề cập, đứng sau tính từ bắt đầu bằng phụ âm 'colourful', dùng mạo từ bất định 'a'."
+    },
+    {
+      "id": "3",
+      "text": "The international marine expedition sailed across ______ Atlantic Ocean to investigate endangered coral reefs.",
+      "options": [
+        "a",
+        "the",
+        "an",
+        "Ø"
+      ],
+      "correct_answer": "the",
+      "explanation": "Dùng mạo từ xác định 'the' trước tên của các đại dương (the Atlantic Ocean)."
+    },
+    {
+      "id": "4",
+      "text": "After exploring the floating market in the Mekong Delta, Liam bought ______ unique hand-woven scarf as a souvenir.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "Ø"
+      ],
+      "correct_answer": "a",
+      "explanation": "Tính từ 'unique' bắt đầu bằng âm bán nguyên âm /juː/, do đó dùng mạo từ bất định 'a' chứ không dùng 'an'."
+    },
+    {
+      "id": "5",
+      "text": "In our high school, participating in an extracurricular activity is considered ______ excellent way to appreciate cultural diversity.",
+      "options": [
+        "Ø",
+        "an",
+        "the",
+        "a"
+      ],
+      "correct_answer": "an",
+      "explanation": "Danh từ số ít đếm được đi kèm tính từ bắt đầu bằng nguyên âm ('excellent') dùng mạo từ bất định 'an'."
+    },
+    {
+      "id": "6",
+      "text": "The tourists stopped at a lively night market. ______ food stall they visited was famous for its spicy noodles and authentic broth.",
+      "options": [
+        "Ø",
+        "An",
+        "The",
+        "A"
+      ],
+      "correct_answer": "The",
+      "explanation": "Danh từ 'food stall' được nhắc lại lần thứ hai và đã được xác định cụ thể trong ngữ cảnh, nên dùng mạo từ 'The'."
+    },
+    {
+      "id": "7",
+      "text": "Our music teacher encouraged everyone in the class to learn to play ______ traditional guitar or the bamboo flute.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "Ø"
+      ],
+      "correct_answer": "the",
+      "explanation": "Dùng mạo từ 'the' trước danh từ chỉ nhạc cụ khi đi với động từ 'play' hoặc 'learn to play'."
+    },
+    {
+      "id": "8",
+      "text": "Every morning, my host family in Ha Noi has ______ breakfast together before going to work and school.",
+      "options": [
+        "a",
+        "the",
+        "an",
+        "Ø"
+      ],
+      "correct_answer": "Ø",
+      "explanation": "Tên các bữa ăn thông thường trong ngày (breakfast, lunch, dinner) dùng zero article (Ø)."
+    },
+    {
+      "id": "9",
+      "text": "Last summer, an international youth delegation traveled to ______ United Kingdom to attend a conference on globalisation.",
+      "options": [
+        "an",
+        "a",
+        "Ø",
+        "the"
+      ],
+      "correct_answer": "the",
+      "explanation": "Dùng mạo từ 'the' trước tên quốc gia có chứa từ 'Kingdom' (the United Kingdom)."
+    },
+    {
+      "id": "10",
+      "text": "During the highland festival, teenagers enthusiastically took part in ______ bamboo dancing on the central stage.",
+      "options": [
+        "Ø",
+        "an",
+        "a",
+        "the"
+      ],
+      "correct_answer": "Ø",
+      "explanation": "Tên các điệu nhảy truyền thống hoặc môn thể thao/trò chơi dân gian dùng zero article (Ø)."
+    },
+    {
+      "id": "11",
+      "text": "The guest speaker gave ______ inspiring lecture on how world cuisines influence modern eating trends.",
+      "options": [
+        "the",
+        "an",
+        "Ø",
+        "a"
+      ],
+      "correct_answer": "an",
+      "explanation": "Cụm danh từ số ít 'inspiring lecture' bắt đầu bằng nguyên âm /ɪ/ nên dùng mạo từ 'an'."
+    },
+    {
+      "id": "12",
+      "text": "Astronomers gathered in the observatory to observe ______ moon during the lunar eclipse celebration.",
+      "options": [
+        "the",
+        "a",
+        "Ø",
+        "an"
+      ],
+      "correct_answer": "the",
+      "explanation": "Dùng mạo từ 'the' trước các thiên thể và thực thể duy nhất trong tự nhiên (the sun, the moon, the earth)."
+    },
+    {
+      "id": "13",
+      "text": "The local chef explained that lemongrass is ______ essential ingredient in crafting authentic Vietnamese noodle soup.",
+      "options": [
+        "an",
+        "Ø",
+        "the",
+        "a"
+      ],
+      "correct_answer": "an",
+      "explanation": "Danh từ đếm được số ít 'ingredient' đi sau tính từ bắt đầu bằng nguyên âm 'essential' (/ɪˈsenʃl/), dùng 'an'."
+    },
+    {
+      "id": "14",
+      "text": "Students from various ethnic backgrounds gathered in ______ capital city to celebrate their shared cultural identity.",
+      "options": [
+        "a",
+        "an",
+        "Ø",
+        "the"
+      ],
+      "correct_answer": "the",
+      "explanation": "Thủ đô của một quốc gia là thực thể xác định duy nhất trong ngữ cảnh đó, do đó dùng mạo từ 'the'."
+    },
+    {
+      "id": "15",
+      "text": "My pen pal lives in ______ Japan, where ancient temples stand alongside futuristic skyscrapers.",
+      "options": [
+        "the",
+        "an",
+        "Ø",
+        "a"
+      ],
+      "correct_answer": "Ø",
+      "explanation": "Tên hầu hết các quốc gia ở dạng số ít thông thường (như Japan, Viet Nam, France) không dùng mạo từ (zero article Ø)."
+    },
+    {
+      "id": "16",
+      "text": "The students felt a slight chill as they stepped into ______ haunted house built for the charity carnival.",
+      "options": [
+        "a",
+        "the",
+        "Ø",
+        "an"
+      ],
+      "correct_answer": "a",
+      "explanation": "Danh từ số ít 'haunted house' được giới thiệu lần đầu, từ 'haunted' bắt đầu bằng âm phụ âm /h/, dùng mạo từ 'a'."
+    },
+    {
+      "id": "17",
+      "text": "Mount Fansipan is officially recognised as ______ highest mountain peak in the entire Indochinese region.",
+      "options": [
+        "Ø",
+        "the",
+        "an",
+        "a"
+      ],
+      "correct_answer": "the",
+      "explanation": "Trước tính từ so sánh nhất ('the highest') luôn dùng mạo từ xác định 'the'."
+    },
+    {
+      "id": "18",
+      "text": "On October 31st, children in many Western countries dress up in scary costumes and go ______ trick or treating.",
+      "options": [
+        "the",
+        "a",
+        "Ø",
+        "an"
+      ],
+      "correct_answer": "Ø",
+      "explanation": "Cụm thành ngữ và hoạt động lễ hội 'go trick or treating' / 'play trick or treat' không sử dụng mạo từ (zero article Ø)."
+    },
+    {
+      "id": "19",
+      "text": "Overcoming ______ language barrier is one of the most rewarding challenges for participants in culture exchange programs.",
+      "options": [
+        "an",
+        "the",
+        "Ø",
+        "a"
+      ],
+      "correct_answer": "a",
+      "explanation": "Danh từ đếm được số ít 'language barrier' được nói tới một cách khái quát mang nghĩa 'một rào cản', dùng 'a'."
+    },
+    {
+      "id": "20",
+      "text": "In the 21st century, ______ globalisation has accelerated the exchange of ideas, art forms, and cultural practices worldwide.",
+      "options": [
+        "a",
+        "an",
+        "Ø",
+        "the"
+      ],
+      "correct_answer": "Ø",
+      "explanation": "'Globalisation' là danh từ trừu tượng không đếm được dùng với ý nghĩa khái quát toàn cầu, dùng mạo từ zero (Ø)."
+    }
+  ]
+}

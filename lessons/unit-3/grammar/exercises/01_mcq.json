@@ -1,0 +1,249 @@
+{
+  "id": "1",
+  "type": "multiple_choice",
+  "title": "Exercise 1: Multiple Choice Questions",
+  "instruction": "Choose the best answer (A, B, C, or D) that correctly applies verbs with prepositions or relative clauses referring to a whole sentence.",
+  "target_grammar": "Verbs with prepositions, Relative clauses referring to a whole sentence",
+  "questions": [
+    {
+      "id": "1",
+      "text": "The environmental committee decided to dispose ______ all obsolete electronic devices through an authorized recycling center.",
+      "options": [
+        "of",
+        "for",
+        "from",
+        "with"
+      ],
+      "correct_answer": "of",
+      "explanation": "Động từ 'dispose' đi với giới từ 'of' (dispose of sth: vứt bỏ, xử lý rác thải đúng quy chuẩn)."
+    },
+    {
+      "id": "2",
+      "text": "More suburban commuters have switched to public transport, ______ has contributed significantly to reducing air pollution in the city center.",
+      "options": [
+        "that",
+        "this",
+        "which",
+        "what"
+      ],
+      "correct_answer": "which",
+      "explanation": "Mệnh đề quan hệ bổ nghĩa cho toàn bộ mệnh đề phía trước bắt buộc dùng ', which' (không dùng 'that', 'this' hay 'what')."
+    },
+    {
+      "id": "3",
+      "text": "Our biology teacher urged all students to participate ______ the weekend campaign to clean up plastic litter along the riverbank.",
+      "options": [
+        "on",
+        "at",
+        "in",
+        "with"
+      ],
+      "correct_answer": "in",
+      "explanation": "'participate' đi với giới từ 'in' (participate in sth: tham gia vào hoạt động gì)."
+    },
+    {
+      "id": "4",
+      "text": "The eco-club replaced disposable plastic cups with a reusable cup and glass jar, ______ helps minimize single-use packaging waste.",
+      "options": [
+        "what",
+        "who",
+        "that",
+        "which"
+      ],
+      "correct_answer": "which",
+      "explanation": "Đại từ quan hệ 'which' đứng sau dấu phẩy thay thế cho cả sự việc thay thế cốc nhựa ở vế trước."
+    },
+    {
+      "id": "5",
+      "text": "Environmentalists warn that rising global temperatures directly result ______ the burning of fossil fuels and heavy greenhouse gas emissions.",
+      "options": [
+        "from",
+        "in",
+        "to",
+        "for"
+      ],
+      "correct_answer": "from",
+      "explanation": "'result from sth' mang nghĩa 'bắt nguồn từ, do cái gì gây ra' (nguyên nhân đứng sau 'from')."
+    },
+    {
+      "id": "6",
+      "text": "Excessive accumulation of organic matter in landfills results ______ the production of hazardous methane and carbon dioxide.",
+      "options": [
+        "about",
+        "from",
+        "with",
+        "in"
+      ],
+      "correct_answer": "in",
+      "explanation": "'result in sth' mang nghĩa 'dẫn đến kết quả gì' (kết quả đứng sau 'in')."
+    },
+    {
+      "id": "7",
+      "text": "The local youth organization succeeded ______ encouraging households to sort waste into each proper recycling bin.",
+      "options": [
+        "in",
+        "for",
+        "on",
+        "at"
+      ],
+      "correct_answer": "in",
+      "explanation": "Cấu trúc 'succeed in doing sth' (thành công trong việc làm gì)."
+    },
+    {
+      "id": "8",
+      "text": "The industrial plant manager apologised ______ discharging untreated chemical pollutants into the municipal canal.",
+      "options": [
+        "with",
+        "for",
+        "about",
+        "to"
+      ],
+      "correct_answer": "for",
+      "explanation": "Cấu trúc 'apologise for doing sth' (xin lỗi vì đã làm điều gì)."
+    },
+    {
+      "id": "9",
+      "text": "Many conscious teenagers truly care ______ adopting a sustainable zero waste lifestyle to protect natural resources.",
+      "options": [
+        "to",
+        "about",
+        "with",
+        "for"
+      ],
+      "correct_answer": "about",
+      "explanation": "'care about sth' mang nghĩa 'quan tâm, coi trọng điều gì'."
+    },
+    {
+      "id": "10",
+      "text": "All residents in the green village rely ______ clean green energy generated from community solar panels and wind turbines.",
+      "options": [
+        "on",
+        "with",
+        "in",
+        "at"
+      ],
+      "correct_answer": "on",
+      "explanation": "'rely on sth' mang nghĩa 'trông cậy, dựa vào nguồn gì'."
+    },
+    {
+      "id": "11",
+      "text": "Before dropping a takeaway container into the recycling bin, you should rinse ______ any oily leftovers to prevent contamination.",
+      "options": [
+        "up",
+        "out",
+        "away",
+        "off"
+      ],
+      "correct_answer": "out",
+      "explanation": "Cụm động từ 'rinse out' có nghĩa là súc sạch, rửa sạch chất bẩn/thức ăn thừa bên trong hộp."
+    },
+    {
+      "id": "12",
+      "text": "The school cafeteria stopped providing single-use containers, ______ was warmly appreciated by eco-friendly students.",
+      "options": [
+        "that",
+        "which",
+        "it",
+        "as"
+      ],
+      "correct_answer": "which",
+      "explanation": "Mệnh đề quan hệ bổ nghĩa cho toàn bộ sự việc ở mệnh đề trước phải dùng ', which'."
+    },
+    {
+      "id": "13",
+      "text": "Stricter regulations are required to protect marine wildlife ______ consuming toxic plastic debris drifting in the ocean.",
+      "options": [
+        "against",
+        "for",
+        "from",
+        "with"
+      ],
+      "correct_answer": "from",
+      "explanation": "Cấu trúc 'protect sb/sth from doing sth' (bảo vệ ai/cái gì khỏi nguy cơ gì)."
+    },
+    {
+      "id": "14",
+      "text": "My family created a backyard compost pile, ______ allows us to turn each fruit peel and vegetable leftover into rich organic fertilizer.",
+      "options": [
+        "which",
+        "who",
+        "what",
+        "that"
+      ],
+      "correct_answer": "which",
+      "explanation": "Dùng ', which' thay thế cho toàn bộ sự việc lập hố ủ phân ở mệnh đề trước."
+    },
+    {
+      "id": "15",
+      "text": "The park rangers took urgent precautions to prevent the devastating wildfire ______ spreading toward endangered animal habitats.",
+      "options": [
+        "to",
+        "of",
+        "with",
+        "from"
+      ],
+      "correct_answer": "from",
+      "explanation": "Cấu trúc 'prevent sth from doing sth' (ngăn chặn cái gì khỏi...)."
+    },
+    {
+      "id": "16",
+      "text": "Installing a modern sensor tap and an automatic light across school buildings saves electricity and water, ______ is essential for green living.",
+      "options": [
+        "that",
+        "this",
+        "there",
+        "which"
+      ],
+      "correct_answer": "which",
+      "explanation": "Đại từ quan hệ 'which' thay thế cho toàn bộ nội dung của mệnh đề phía trước."
+    },
+    {
+      "id": "17",
+      "text": "Sustainable farming models refuse to depend ______ artificial chemical fertiliser that depletes soil fertility.",
+      "options": [
+        "with",
+        "on",
+        "for",
+        "in"
+      ],
+      "correct_answer": "on",
+      "explanation": "'depend on sth' (phụ thuộc vào cái gì)."
+    },
+    {
+      "id": "18",
+      "text": "Instead of buying bottled water, Minh carries a reusable bottle and refills it daily, ______ saves him considerable money in the long run.",
+      "options": [
+        "that",
+        "whose",
+        "which",
+        "whom"
+      ],
+      "correct_answer": "which",
+      "explanation": "Mệnh đề ', which' thay thế cho hành động mang bình nước và rót đầy nước mỗi ngày."
+    },
+    {
+      "id": "19",
+      "text": "The conservation committee strongly approved ______ the youth proposal to convert each cardboard box into a bird feeder and plant pot.",
+      "options": [
+        "about",
+        "for",
+        "of",
+        "with"
+      ],
+      "correct_answer": "of",
+      "explanation": "Cấu trúc 'approve of sth' mang nghĩa 'tán thành, ủng hộ việc gì'."
+    },
+    {
+      "id": "20",
+      "text": "Metropolitan cities are struggling to cope ______ hundreds of tons of solid household waste transported to landfills every day.",
+      "options": [
+        "to",
+        "for",
+        "against",
+        "with"
+      ],
+      "correct_answer": "with",
+      "explanation": "'cope with sth' nghĩa là 'đối phó, xoay xở xử lý vấn đề khó khăn gì'."
+    }
+  ]
+}

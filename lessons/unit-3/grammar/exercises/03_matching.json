@@ -1,0 +1,103 @@
+{
+  "id": "3",
+  "type": "matching_halves",
+  "title": "Exercise 3: Match the Sentence Halves",
+  "instruction": "Match the sentence beginnings (1–10) with the appropriate endings (A–J) to build syntactically sound and coherent sentences.",
+  "target_grammar": "Verbs with prepositions, Relative clauses referring to a whole sentence",
+  "questions": [
+    {
+      "id": "1",
+      "half_a": "Our residential community decided to replace every conventional street bulb with an automatic light,"
+    },
+    {
+      "id": "2",
+      "half_a": "Many careless households fail to rinse out greasy food residue from each takeaway container,"
+    },
+    {
+      "id": "3",
+      "half_a": "The youth environmental club passionately encourages students to participate"
+    },
+    {
+      "id": "4",
+      "half_a": "Conscious residents always separate each organic fruit peel and leftovers from household waste,"
+    },
+    {
+      "id": "5",
+      "half_a": "Local environmental activists strongly approve"
+    },
+    {
+      "id": "6",
+      "half_a": "The university dining hall decided to transition entirely to clean green energy,"
+    },
+    {
+      "id": "7",
+      "half_a": "The city council installed a water-saving sensor tap and smart meters across all municipal offices,"
+    },
+    {
+      "id": "8",
+      "half_a": "Farmers across the river valley depend"
+    },
+    {
+      "id": "9",
+      "half_a": "The creative craft club succeeded"
+    },
+    {
+      "id": "10",
+      "half_a": "Suburban commuters increasingly rely"
+    }
+  ],
+  "options": [
+    {
+      "label": "A",
+      "half_b": "which significantly reduces our municipal electricity bills and overall carbon footprint."
+    },
+    {
+      "label": "B",
+      "half_b": "which contaminates an entire batch of recyclable items inside each cardboard box at the depot."
+    },
+    {
+      "label": "C",
+      "half_b": "in weekend clean-up drives to prevent hazardous plastic litter from harming wild animals."
+    },
+    {
+      "label": "D",
+      "half_b": "which makes it much simpler to build a balanced, odorless compost pile in the garden."
+    },
+    {
+      "label": "E",
+      "half_b": "of banning single-use plastic straws and takeaway containers across all commercial stores."
+    },
+    {
+      "label": "F",
+      "half_b": "which inspires neighboring enterprises to adopt sustainable green living practices."
+    },
+    {
+      "label": "G",
+      "half_b": "which helps conserve scarce natural resources and prevents a severe waste of water."
+    },
+    {
+      "label": "H",
+      "half_b": "on natural compost layers instead of spraying synthetic chemical fertiliser over farmland."
+    },
+    {
+      "label": "I",
+      "half_b": "in converting discarded plastic containers into a charming plant pot and bird feeder."
+    },
+    {
+      "label": "J",
+      "half_b": "on electric buses and public transport, which noticeably mitigates urban air pollution."
+    }
+  ],
+  "correct_matches": {
+    "1": "A",
+    "2": "B",
+    "3": "C",
+    "4": "D",
+    "5": "E",
+    "6": "F",
+    "7": "G",
+    "8": "H",
+    "9": "I",
+    "10": "J"
+  }
+}

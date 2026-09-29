@@ -1,0 +1,116 @@
+{
+  "id": "4",
+  "type": "sentence_transformation",
+  "title": "Exercise 4: Sentence Transformation",
+  "instruction": "Rewrite each sentence using the cue provided so that it has the closest meaning to the original sentence.",
+  "target_grammar": "Verbs with prepositions, Relative clauses referring to a whole sentence",
+  "questions": [
+    {
+      "id": "1",
+      "original_sentence": "The school installed an automatic light in each classroom. This significantly decreased electricity consumption.",
+      "cue": "The school installed",
+      "correct_answer": "The school installed an automatic light in each classroom, which significantly decreased electricity consumption.",
+      "acceptable_answers": [
+        "The school installed an automatic light in each classroom, which significantly decreased electricity consumption.",
+        "The school installed an automatic light in each classroom, which helped decrease electricity consumption."
+      ],
+      "explanation": "Dùng đại từ quan hệ ', which' thay thế cho toàn bộ sự việc lắp đèn tự động ở mệnh đề trước."
+    },
+    {
+      "id": "2",
+      "original_sentence": "People dump untreated plastic packaging into rivers. This causes severe harm to wild animals.",
+      "cue": "People dump",
+      "correct_answer": "People dump untreated plastic packaging into rivers, which causes severe harm to wild animals.",
+      "acceptable_answers": [
+        "People dump untreated plastic packaging into rivers, which causes severe harm to wild animals.",
+        "People dump untreated plastic packaging into rivers, which harms wild animals."
+      ],
+      "explanation": "Kết hợp hai câu thành một bằng mệnh đề quan hệ ', which' để nêu hệ quả của hành vi vứt rác nhựa làm hại động vật hoang dã."
+    },
+    {
+      "id": "3",
+      "original_sentence": "The volunteers participated in cleaning up the polluted shoreline. This prevented plastic litter from drifting into the open ocean.",
+      "cue": "The volunteers participated in",
+      "correct_answer": "The volunteers participated in cleaning up the polluted shoreline, which prevented plastic litter from drifting into the open ocean.",
+      "acceptable_answers": [
+        "The volunteers participated in cleaning up the polluted shoreline, which prevented plastic litter from drifting into the open ocean.",
+        "The volunteers participated in cleaning up the polluted shoreline, which helped prevent plastic litter from drifting into the open ocean."
+      ],
+      "explanation": "Dùng ', which' thay cho toàn bộ nỗ lực dọn rác bờ biển của nhóm tình nguyện viên."
+    },
+    {
+      "id": "4",
+      "original_sentence": "Excessive burning of coal and fossil fuels leads to high greenhouse gas emissions.",
+      "cue": "High greenhouse gas emissions result",
+      "correct_answer": "High greenhouse gas emissions result from excessive burning of coal and fossil fuels.",
+      "acceptable_answers": [
+        "High greenhouse gas emissions result from excessive burning of coal and fossil fuels.",
+        "High greenhouse gas emissions result from the excessive burning of coal and fossil fuels."
+      ],
+      "explanation": "Chuyển từ 'lead to' (dẫn đến) sang 'result from' (bắt nguồn từ / do nguyên nhân gì gây ra)."
+    },
+    {
+      "id": "5",
+      "original_sentence": "Dumping unsorted household waste into a landfill causes catastrophic soil and groundwater pollution.",
+      "cue": "Dumping unsorted household waste into a landfill results",
+      "correct_answer": "Dumping unsorted household waste into a landfill results in catastrophic soil and groundwater pollution.",
+      "acceptable_answers": [
+        "Dumping unsorted household waste into a landfill results in catastrophic soil and groundwater pollution."
+      ],
+      "explanation": "Sử dụng cấu trúc 'result in sth' (gây ra, dẫn đến kết quả gì)."
+    },
+    {
+      "id": "6",
+      "original_sentence": "Lan always carries a reusable bottle, a reusable cup, and a metal straw to school. This habit helps her reduce single-use plastic waste.",
+      "cue": "Lan always carries a reusable bottle, a reusable cup, and a metal straw to school,",
+      "correct_answer": "Lan always carries a reusable bottle, a reusable cup, and a metal straw to school, which helps her reduce single-use plastic waste.",
+      "acceptable_answers": [
+        "Lan always carries a reusable bottle, a reusable cup, and a metal straw to school, which helps her reduce single-use plastic waste.",
+        "Lan always carries a reusable bottle, a reusable cup, and a metal straw to school, which helps reduce single-use plastic waste."
+      ],
+      "explanation": "Dùng đại từ ', which' thay cho thói quen mang bình nước, cốc dùng nhiều lần và ống hút kim loại đi học."
+    },
+    {
+      "id": "7",
+      "original_sentence": "The farming cooperative relies on organic compost instead of applying synthetic chemical fertiliser.",
+      "cue": "The farming cooperative depends",
+      "correct_answer": "The farming cooperative depends on organic compost instead of applying synthetic chemical fertiliser.",
+      "acceptable_answers": [
+        "The farming cooperative depends on organic compost instead of applying synthetic chemical fertiliser."
+      ],
+      "explanation": "Thay thế động từ 'relies on' bằng 'depends on' (dựa vào / phụ thuộc vào)."
+    },
+    {
+      "id": "8",
+      "original_sentence": "The eco-hotel began composting leftover kitchen scraps. This practice provides rich nutrient layers for organic gardens.",
+      "cue": "The eco-hotel began composting",
+      "correct_answer": "The eco-hotel began composting leftover kitchen scraps, which provides rich nutrient layers for organic gardens.",
+      "acceptable_answers": [
+        "The eco-hotel began composting leftover kitchen scraps, which provides rich nutrient layers for organic gardens."
+      ],
+      "explanation": "Dùng ', which' thay thế cho toàn bộ việc ủ thức ăn thừa của khách sạn sinh thái."
+    },
+    {
+      "id": "9",
+      "original_sentence": "You should not throw away a glass jar because you can easily reuse it as a charming plant pot.",
+      "cue": "Instead of",
+      "correct_answer": "Instead of throwing away a glass jar, you can easily reuse it as a charming plant pot.",
+      "acceptable_answers": [
+        "Instead of throwing away a glass jar, you can easily reuse it as a charming plant pot.",
+        "Instead of throwing a glass jar away, you can easily reuse it as a charming plant pot."
+      ],
+      "explanation": "Sau cụm giới từ 'Instead of' dùng danh động từ V-ing ('throwing away')."
+    },
+    {
+      "id": "10",
+      "original_sentence": "Many urban residents do not care about how much electricity they waste each month.",
+      "cue": "Many urban residents pay no attention to",
+      "correct_answer": "Many urban residents pay no attention to how much electricity they waste each month.",
+      "acceptable_answers": [
+        "Many urban residents pay no attention to how much electricity they waste each month.",
+        "Many urban residents pay no attention to their waste of electricity each month."
+      ],
+      "explanation": "Cụm 'pay no attention to' (không để ý đến) đồng nghĩa với 'do not care about'."
+    }
+  ]
+}

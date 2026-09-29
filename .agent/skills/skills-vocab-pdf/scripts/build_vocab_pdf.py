@@ -507,17 +507,27 @@ def render_single_exercise(ex, ex_num, workspace_root):
         for q_idx, q in enumerate(questions):
             q_id = q.get("id", str(q_idx + 1))
             sign_text = q.get("sign_text", "")
+            sign_img_raw = q.get("sign_image", "")
             q_stem = q.get("question", "What does this sign mean?")
             options = q.get("options", [])
+            target_sign = (workspace_root / sign_img_raw.lstrip("/\\")) if sign_img_raw else None
+            if target_sign and target_sign.exists():
+                sign_visual = f"""
+                    <div class="sign-board-book has-image">
+                        <img src="{to_file_uri(sign_img_raw, workspace_root)}" class="sign-img-book" alt="Sign {q_id}" />
+                    </div>"""
+            else:
+                sign_visual = f"""
+                    <div class="sign-board-book">
+                        <div class="sign-icon">🪧 NOTICE / SIGN</div>
+                        <div class="sign-text-content">{escape(sign_text)}</div>
+                    </div>"""
 
             item = f"""
             <div class="book-q-item sign-q-item">
                 <div class="sign-top-row">
                     <span class="q-badge">{q_id}</span>
-                    <div class="sign-board-book">
-                        <div class="sign-icon">🪧 NOTICE / SIGN</div>
-                        <div class="sign-text-content">{escape(sign_text)}</div>
-                    </div>
+                    {sign_visual}
                 </div>
                 <div class="sign-question-stem"><strong>{escape(q_stem)}</strong></div>
                 {render_mcq_options(options, q_idx, ex_num)}
@@ -1491,6 +1501,22 @@ def build_book_html(vocab_data, exercises_data, book_name, book_code, unit_num, 
             flex-grow: 1;
         }}
 
+        .sign-board-book.has-image {{
+            background: transparent;
+            border: none;
+            padding: 0;
+            max-width: 140px;
+        }}
+
+        .sign-img-book {{
+            width: 120px;
+            height: 120px;
+            object-fit: contain;
+            border-radius: 6px;
+            border: 1px solid #cbd5e1;
+            display: block;
+        }}
+
         .sign-icon {{
             font-size: 7.5pt;
             font-weight: 800;
@@ -1739,11 +1765,15 @@ def export_html_to_pdf(html_path, pdf_path, browser_executable=None):
 
     file_url = abs_html.as_uri()
 
+    import tempfile, shutil
+    temp_profile_dir = tempfile.mkdtemp(prefix="chrome_pdf_")
+
     flags = [
         browser,
         "--headless=new",
         "--disable-gpu",
         "--allow-file-access-from-files",
+        f"--user-data-dir={temp_profile_dir}",
         "--run-all-compositor-stages-before-draw",
         "--no-pdf-header-footer",
         f"--print-to-pdf={abs_pdf}",
@@ -1751,9 +1781,14 @@ def export_html_to_pdf(html_path, pdf_path, browser_executable=None):
     ]
 
     print(f"Rendering PDF with browser: {browser}...")
-    res = subprocess.run(flags, capture_output=True, text=True)
-    if res.returncode != 0:
-        print(f"[Warning] Headless browser returned code {res.returncode}: {res.stderr}", file=sys.stderr)
+    try:
+        res = subprocess.run(flags, capture_output=True, text=True, timeout=90)
+        if res.returncode != 0:
+            print(f"[Warning] Headless browser returned code {res.returncode}: {res.stderr}", file=sys.stderr)
+    except subprocess.TimeoutExpired:
+        print("[Warning] Headless browser timed out after 90 seconds.", file=sys.stderr)
+    finally:
+        shutil.rmtree(temp_profile_dir, ignore_errors=True)
 
     if abs_pdf.exists() and abs_pdf.stat().st_size > 0:
         optimize_pdf_size(abs_pdf)

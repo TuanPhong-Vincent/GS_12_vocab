@@ -1,0 +1,503 @@
+{
+  "id": "5",
+  "type": "guided_cloze",
+  "title": "Exercise 5: Guided Cloze Passages",
+  "instruction": "Read the passages below and choose the best answer (A, B, C, or D) for each numbered blank.",
+  "target_grammar": "Verbs with prepositions, Relative clauses referring to a whole sentence",
+  "passages": [
+    {
+      "passage_id": "1",
+      "title": "The Road to Sustainable Zero Waste Living",
+      "content": "In recent decades, rapid urbanization and consumerism have generated vast amounts of municipal (1) ______ that overwhelm local landfills. Discarded plastic takes centuries to (2) ______ naturally underground, releasing hazardous chemicals into soil. Furthermore, excess takeaway (3) ______ and single-use containers frequently clutter streets. To counter this crisis, modern citizens actively advocate (4) ______ living by adopting sustainable habits. Before discarding recyclable items, conscious people always (5) ______ out oily food residues so the items do not become (6) ______ during recycling. They diligently (7) ______ waste into designated receptacles, placing paper into the (8) ______ bin and food into a compost pit. Instead of throwing kitchen leftovers into a general rubbish (9) ______, families build an odorless (10) ______ pile in their gardens. They layer dry brown leaves with a moist (11) ______ peel, (12) ______ produces dark, rich humus for home gardens. This natural method eliminates any need to depend (13) ______ toxic chemical fertiliser that harms beneficial earthworms. In public buildings, administrators now install a modern (14) ______ tap and automatic lighting, (15) ______ prevents a senseless waste of electricity and water. Commuters are also encouraged to rely (16) ______ public transport rather than personal vehicles, (17) ______ helps combat dense city air pollution. Many eco-conscious workers bring a reusable (18) ______ to office coffee bars and carry a reusable water bottle, (19) ______ significantly curbs disposable cup pollution. All these practical steps demonstrate that communities genuinely (20) ______ about preserving our planet.",
+      "questions": [
+        {
+          "id": "1",
+          "blank_number": 1,
+          "options": [
+            "wildfire",
+            "waste",
+            "pot",
+            "layer"
+          ],
+          "correct_answer": "waste",
+          "explanation": "'municipal waste' nghĩa là rác thải đô thị / rác thải sinh hoạt."
+        },
+        {
+          "id": "2",
+          "blank_number": 2,
+          "options": [
+            "contaminate",
+            "refill",
+            "pollute",
+            "decompose"
+          ],
+          "correct_answer": "decompose",
+          "explanation": "'decompose' mang nghĩa phân hủy tự nhiên trong lòng đất."
+        },
+        {
+          "id": "3",
+          "blank_number": 3,
+          "options": [
+            "resources",
+            "fertiliser",
+            "awareness",
+            "packaging"
+          ],
+          "correct_answer": "packaging",
+          "explanation": "'takeaway packaging' là bao bì đóng gói đồ ăn mang về."
+        },
+        {
+          "id": "4",
+          "blank_number": 4,
+          "options": [
+            "green",
+            "toxic",
+            "chemical",
+            "contaminated"
+          ],
+          "correct_answer": "green",
+          "explanation": "'green living' là lối sống xanh, bảo vệ môi trường."
+        },
+        {
+          "id": "5",
+          "blank_number": 5,
+          "options": [
+            "turn",
+            "carry",
+            "rinse",
+            "clean"
+          ],
+          "correct_answer": "rinse",
+          "explanation": "Cụm động từ 'rinse out' nghĩa là súc sạch, rửa sạch chất bẩn bám dính."
+        },
+        {
+          "id": "6",
+          "blank_number": 6,
+          "options": [
+            "recyclable",
+            "reusable",
+            "sustainable",
+            "contaminated"
+          ],
+          "correct_answer": "contaminated",
+          "explanation": "'contaminated' có nghĩa là bị vấy bẩn, nhiễm tạp chất."
+        },
+        {
+          "id": "7",
+          "blank_number": 7,
+          "options": [
+            "suffer",
+            "harm",
+            "sort",
+            "build"
+          ],
+          "correct_answer": "sort",
+          "explanation": "'sort waste' nghĩa là phân loại rác thải tại nguồn."
+        },
+        {
+          "id": "8",
+          "blank_number": 8,
+          "options": [
+            "chemical",
+            "recycling",
+            "sensor",
+            "wildfire"
+          ],
+          "correct_answer": "recycling",
+          "explanation": "'recycling bin' là thùng rác tái chế chuyên dụng."
+        },
+        {
+          "id": "9",
+          "blank_number": 9,
+          "options": [
+            "tap",
+            "pile",
+            "jar",
+            "bin"
+          ],
+          "correct_answer": "bin",
+          "explanation": "'rubbish bin' là thùng rác sinh hoạt thông thường."
+        },
+        {
+          "id": "10",
+          "blank_number": 10,
+          "options": [
+            "compost",
+            "pollutant",
+            "resource",
+            "wildfire"
+          ],
+          "correct_answer": "compost",
+          "explanation": "'compost pile' là đống / hố ủ phân vi sinh hữu cơ."
+        },
+        {
+          "id": "11",
+          "blank_number": 11,
+          "options": [
+            "straw",
+            "fruit",
+            "light",
+            "glass"
+          ],
+          "correct_answer": "fruit",
+          "explanation": "'fruit peel' là vỏ hoa quả thừa sau khi ăn."
+        },
+        {
+          "id": "12",
+          "blank_number": 12,
+          "options": [
+            "that",
+            "where",
+            "which",
+            "what"
+          ],
+          "correct_answer": "which",
+          "explanation": "Mệnh đề quan hệ ', which' thay thế cho toàn bộ sự việc ủ lá khô và vỏ quả ở mệnh đề trước."
+        },
+        {
+          "id": "13",
+          "blank_number": 13,
+          "options": [
+            "with",
+            "from",
+            "on",
+            "in"
+          ],
+          "correct_answer": "on",
+          "explanation": "Cấu trúc 'depend on sth' (phụ thuộc vào cái gì)."
+        },
+        {
+          "id": "14",
+          "blank_number": 14,
+          "options": [
+            "landfill",
+            "sensor",
+            "metal",
+            "organic"
+          ],
+          "correct_answer": "sensor",
+          "explanation": "'sensor tap' là vòi nước cảm ứng tự ngắt tiết kiệm nước."
+        },
+        {
+          "id": "15",
+          "blank_number": 15,
+          "options": [
+            "which",
+            "that",
+            "it",
+            "this"
+          ],
+          "correct_answer": "which",
+          "explanation": "Dùng đại từ quan hệ ', which' thay thế cho toàn bộ hành động lắp vòi cảm ứng và đèn tự động."
+        },
+        {
+          "id": "16",
+          "blank_number": 16,
+          "options": [
+            "for",
+            "to",
+            "at",
+            "on"
+          ],
+          "correct_answer": "on",
+          "explanation": "Cấu trúc 'rely on sth' (dựa vào, trông cậy vào phương tiện gì)."
+        },
+        {
+          "id": "17",
+          "blank_number": 17,
+          "options": [
+            "which",
+            "that",
+            "it",
+            "what"
+          ],
+          "correct_answer": "which",
+          "explanation": "Mệnh đề quan hệ ', which' thay thế cho toàn bộ sự việc đi lại bằng xe buýt công cộng."
+        },
+        {
+          "id": "18",
+          "blank_number": 18,
+          "options": [
+            "cup",
+            "bin",
+            "pile",
+            "tap"
+          ],
+          "correct_answer": "cup",
+          "explanation": "'reusable cup' là cốc uống nước có thể dùng lại nhiều lần."
+        },
+        {
+          "id": "19",
+          "blank_number": 19,
+          "options": [
+            "whose",
+            "that",
+            "which",
+            "where"
+          ],
+          "correct_answer": "which",
+          "explanation": "Mệnh đề quan hệ ', which' thay thế cho hành vi mang cốc và bình nước cá nhân."
+        },
+        {
+          "id": "20",
+          "blank_number": 20,
+          "options": [
+            "participate",
+            "care",
+            "succeed",
+            "apologise"
+          ],
+          "correct_answer": "care",
+          "explanation": "'care about sth' mang nghĩa quan tâm sâu sắc đến việc bảo vệ môi trường."
+        }
+      ]
+    },
+    {
+      "passage_id": "2",
+      "title": "Protecting Our Ecosystem from Environmental Degradation",
+      "content": "Global environmental degradation has become one of the most critical challenges of our era. Massive deposits of untreated rubbish trapped in each open (21) ______ decompose anaerobically, (22) ______ in the emission of potent greenhouse gases like (23) ______ and carbon dioxide. These toxic gases trap atmospheric heat, (24) ______ accelerates catastrophic global climate (25) ______. Unchecked global warming intensifies prolonged droughts and severe (26) ______ that burn thousands of hectares of ancient forests every summer. When forests burn, hazardous smoke and dangerous (27) ______ particles fill the atmosphere, causing chronic respiratory illnesses among residents. Furthermore, carelessly discarded plastic items and takeaway (28) ______ clutter rivers and coastlines, where they (29) ______ wild animals that mistakenly ingest them. To cope (30) ______ these pressing issues, communities worldwide are taking bold action. Grassroots groups organize weekly drives to clean (31) ______ public beaches and urban canals. Volunteers succeed (32) ______ collecting tons of plastic waste and repurposing discarded materials into an attractive (33) ______ pot or a bird feeder. Progressive enterprises have also pledged to invest (34) ______ renewable green energy like wind and solar power. In everyday life, families separate garbage into organic scraps and recyclable cardboard (35) ______. They place dry organic waste in balanced (36) ______ inside garden compost pits instead of relying on toxic chemical fertilisers. Many schools also teach students to turn (37) ______ unnecessary electrical lights, which avoids a senseless (38) ______ of electricity. Adopting an eco-friendly mindset helps every family shrink its carbon footprint. Although changing established consumer habits requires persistent effort, the collective benefits are immense in the long (39) ______. We must all participate (40) ______ saving our fragile planet before irreversible ecological damage occurs.",
+      "questions": [
+        {
+          "id": "21",
+          "blank_number": 21,
+          "options": [
+            "footprint",
+            "landfill",
+            "transport",
+            "greenhouse"
+          ],
+          "correct_answer": "landfill",
+          "explanation": "'open landfill' là bãi rác lộ thiên."
+        },
+        {
+          "id": "22",
+          "blank_number": 22,
+          "options": [
+            "believing",
+            "depending",
+            "resulting",
+            "focusing"
+          ],
+          "correct_answer": "resulting",
+          "explanation": "'resulting in sth' là mệnh đề phân từ mang nghĩa 'dẫn đến kết quả là'."
+        },
+        {
+          "id": "23",
+          "blank_number": 23,
+          "options": [
+            "methane",
+            "compost",
+            "fertiliser",
+            "leftover"
+          ],
+          "correct_answer": "methane",
+          "explanation": "'methane' là khí mê-tan, một loại khí nhà kính gây hại."
+        },
+        {
+          "id": "24",
+          "blank_number": 24,
+          "options": [
+            "this",
+            "which",
+            "that",
+            "it"
+          ],
+          "correct_answer": "which",
+          "explanation": "Mệnh đề quan hệ ', which' thay thế cho việc giữ nhiệt khí quyển ở mệnh đề trước."
+        },
+        {
+          "id": "25",
+          "blank_number": 25,
+          "options": [
+            "bin",
+            "layer",
+            "change",
+            "tap"
+          ],
+          "correct_answer": "change",
+          "explanation": "'climate change' là cụm từ chỉ biến đổi khí hậu toàn cầu."
+        },
+        {
+          "id": "26",
+          "blank_number": 26,
+          "options": [
+            "containers",
+            "leftovers",
+            "wildfires",
+            "cardboard"
+          ],
+          "correct_answer": "wildfires",
+          "explanation": "'wildfires' là các vụ cháy rừng dữ dội trong mùa khô hạn."
+        },
+        {
+          "id": "27",
+          "blank_number": 27,
+          "options": [
+            "pollutant",
+            "feeder",
+            "pot",
+            "reusable"
+          ],
+          "correct_answer": "pollutant",
+          "explanation": "'pollutant particles' là các hạt bụi mịn chất ô nhiễm."
+        },
+        {
+          "id": "28",
+          "blank_number": 28,
+          "options": [
+            "layers",
+            "containers",
+            "resources",
+            "straws"
+          ],
+          "correct_answer": "containers",
+          "explanation": "'takeaway containers' là các hộp đựng đồ ăn mang đi bằng nhựa."
+        },
+        {
+          "id": "29",
+          "blank_number": 29,
+          "options": [
+            "refill",
+            "decompose",
+            "rinse",
+            "harm"
+          ],
+          "correct_answer": "harm",
+          "explanation": "'harm wild animals' nghĩa là làm hại, gây nguy hiểm cho động vật hoang dã."
+        },
+        {
+          "id": "30",
+          "blank_number": 30,
+          "options": [
+            "for",
+            "from",
+            "on",
+            "with"
+          ],
+          "correct_answer": "with",
+          "explanation": "'cope with sth' nghĩa là đương đầu, giải quyết khó khăn thử thách."
+        },
+        {
+          "id": "31",
+          "blank_number": 31,
+          "options": [
+            "off",
+            "away",
+            "up",
+            "out"
+          ],
+          "correct_answer": "up",
+          "explanation": "Cụm động từ 'clean up' nghĩa là thu dọn sạch sẽ rác thải."
+        },
+        {
+          "id": "32",
+          "blank_number": 32,
+          "options": [
+            "for",
+            "with",
+            "at",
+            "in"
+          ],
+          "correct_answer": "in",
+          "explanation": "Cấu trúc 'succeed in doing sth' (thành công trong việc làm gì)."
+        },
+        {
+          "id": "33",
+          "blank_number": 33,
+          "options": [
+            "carbon",
+            "cardboard",
+            "methane",
+            "plant"
+          ],
+          "correct_answer": "plant",
+          "explanation": "'plant pot' là chậu trồng cây."
+        },
+        {
+          "id": "34",
+          "blank_number": 34,
+          "options": [
+            "in",
+            "to",
+            "on",
+            "for"
+          ],
+          "correct_answer": "in",
+          "explanation": "Cấu trúc 'invest in sth' (đầu tư vào nguồn năng lượng nào)."
+        },
+        {
+          "id": "35",
+          "blank_number": 35,
+          "options": [
+            "boxes",
+            "footprints",
+            "taps",
+            "piles"
+          ],
+          "correct_answer": "boxes",
+          "explanation": "'cardboard boxes' là thùng giấy / hộp các-tông có thể tái chế."
+        },
+        {
+          "id": "36",
+          "blank_number": 36,
+          "options": [
+            "jars",
+            "layers",
+            "leftovers",
+            "pollutants"
+          ],
+          "correct_answer": "layers",
+          "explanation": "'layers' là các lớp (rải từng lớp rác hữu cơ khi ủ phân vi sinh)."
+        },
+        {
+          "id": "37",
+          "blank_number": 37,
+          "options": [
+            "out",
+            "off",
+            "up",
+            "away"
+          ],
+          "correct_answer": "off",
+          "explanation": "Cụm động từ 'turn off' nghĩa là tắt các thiết bị điện khi không dùng."
+        },
+        {
+          "id": "38",
+          "blank_number": 38,
+          "options": [
+            "layer",
+            "feeder",
+            "waste",
+            "peel"
+          ],
+          "correct_answer": "waste",
+          "explanation": "'waste of electricity' là sự lãng phí điện năng."
+        },
+        {
+          "id": "39",
+          "blank_number": 39,
+          "options": [
+            "run",
+            "speed",
+            "time",
+            "way"
+          ],
+          "correct_answer": "run",
+          "explanation": "Cụm thành ngữ 'in the long run' mang nghĩa về lâu về dài."
+        },
+        {
+          "id": "40",
+          "blank_number": 40,
+          "options": [
+            "for",
+            "with",
+            "at",
+            "in"
+          ],
+          "correct_answer": "in",
+          "explanation": "Cấu trúc 'participate in sth' (tham gia vào việc bảo vệ hành tinh)."
+        }
+      ]
+    }
+  ]
+}

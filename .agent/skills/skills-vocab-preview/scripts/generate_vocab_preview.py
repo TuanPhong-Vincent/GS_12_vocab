@@ -1934,6 +1934,7 @@ def render_signs_and_notices_body(ex, ex_index):
         q_id = q.get("id", str(q_idx + 1))
         sign_type = q.get("sign_type", "")
         sign_text = q.get("sign_text", "")
+        sign_image = q.get("sign_image", "")
         question_stem = q.get("question", "What does the sign say?")
         options = q.get("options", [])
         correct_answer = q.get("correct_answer", "")
@@ -1954,14 +1955,17 @@ def render_signs_and_notices_body(ex, ex_index):
             </label>"""
             opt_htmls.append(opt_markup)
 
-        q_item = f"""
-        <div class="question-item" data-correct="{escape(correct_answer)}">
-          <div class="q-stem-row">
-            <span class="q-num">{q_id}</span>
-            <div class="q-text">
-              <strong>{escape(question_stem)}</strong>
+        if sign_image:
+            sign_visual_html = f"""
+          <div class="sign-box has-image" style="background:#ffffff; border:1px solid var(--border-color); border-radius:8px; padding:6px; display:inline-block; max-width:200px; margin-left:34px; margin-bottom:12px;">
+            <img src="{escape(sign_image)}" alt="Sign {q_id}" style="width:100%; height:auto; aspect-ratio:1/1; object-fit:contain; display:block; border-radius:6px;"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+            <div class="sign-desc-text" style="display:none; font-size:12px; color:var(--text-muted); margin-top:6px;">
+              <strong>Mô tả:</strong> "{escape(sign_text)}"
             </div>
-          </div>
+          </div>"""
+        else:
+            sign_visual_html = f"""
           <div class="sign-box">
             <div class="sign-visual">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -1974,7 +1978,17 @@ def render_signs_and_notices_body(ex, ex_index):
             <div class="sign-desc-text">
               <strong>Mô tả biển báo:</strong> "{escape(sign_text)}"
             </div>
+          </div>"""
+
+        q_item = f"""
+        <div class="question-item" data-correct="{escape(correct_answer)}">
+          <div class="q-stem-row">
+            <span class="q-num">{q_id}</span>
+            <div class="q-text">
+              <strong>{escape(question_stem)}</strong>
+            </div>
           </div>
+          {sign_visual_html}
           <div class="options-grid">
             {''.join(opt_htmls)}
           </div>

@@ -1,0 +1,123 @@
+{
+  "id": "7",
+  "type": "sentence_combination",
+  "title": "Exercise 7: Sentence Combination",
+  "instruction": "Combine each pair of sentences into a single, cohesive sentence using the target grammatical structure indicated.",
+  "target_grammar": "Verbs with prepositions, Relative clauses referring to a whole sentence",
+  "questions": [
+    {
+      "id": "1",
+      "sentence_1": "The school cafeteria decided to eliminate every single-use takeaway container.",
+      "sentence_2": "This prevents hundreds of kilograms of non-biodegradable waste from entering landfills.",
+      "cue": "Use ', which'",
+      "correct_answer": "The school cafeteria decided to eliminate every single-use takeaway container, which prevents hundreds of kilograms of non-biodegradable waste from entering landfills.",
+      "acceptable_answers": [
+        "The school cafeteria decided to eliminate every single-use takeaway container, which prevents hundreds of kilograms of non-biodegradable waste from entering landfills.",
+        "The school cafeteria decided to eliminate every single-use takeaway container, which helps prevent hundreds of kilograms of non-biodegradable waste from entering landfills."
+      ],
+      "explanation": "Dùng đại từ quan hệ ', which' thay thế cho toàn bộ quyết định loại bỏ hộp đựng đồ ăn mang về dùng một lần."
+    },
+    {
+      "id": "2",
+      "sentence_1": "Burning agricultural leftovers generates excessive smoke and toxic carbon dioxide.",
+      "sentence_2": "This results in severe air pollution across neighboring residential districts.",
+      "cue": "Use 'results in'",
+      "correct_answer": "Burning agricultural leftovers generates excessive smoke and toxic carbon dioxide, which results in severe air pollution across neighboring residential districts.",
+      "acceptable_answers": [
+        "Burning agricultural leftovers generates excessive smoke and toxic carbon dioxide, which results in severe air pollution across neighboring residential districts.",
+        "Burning agricultural leftovers results in severe air pollution across neighboring residential districts."
+      ],
+      "explanation": "Kết hợp câu sử dụng cấu trúc ', which results in' chỉ kết quả dẫn đến ô nhiễm không khí nặng nề."
+    },
+    {
+      "id": "3",
+      "sentence_1": "Suburban commuters have increasingly switched from private vehicles to electric public transport.",
+      "sentence_2": "This demonstrates a notable growth in civic environmental awareness.",
+      "cue": "Use ', which'",
+      "correct_answer": "Suburban commuters have increasingly switched from private vehicles to electric public transport, which demonstrates a notable growth in civic environmental awareness.",
+      "acceptable_answers": [
+        "Suburban commuters have increasingly switched from private vehicles to electric public transport, which demonstrates a notable growth in civic environmental awareness."
+      ],
+      "explanation": "Mệnh đề ', which' thay thế cho hành vi chuyển sang dùng phương tiện công cộng của người dân."
+    },
+    {
+      "id": "4",
+      "sentence_1": "Careless tourists forgot to turn off their campfire before departing the forest.",
+      "sentence_2": "This caused a catastrophic wildfire that devastated hundreds of hectares of trees.",
+      "cue": "Use ', which'",
+      "correct_answer": "Careless tourists forgot to turn off their campfire before departing the forest, which caused a catastrophic wildfire that devastated hundreds of hectares of trees.",
+      "acceptable_answers": [
+        "Careless tourists forgot to turn off their campfire before departing the forest, which caused a catastrophic wildfire that devastated hundreds of hectares of trees."
+      ],
+      "explanation": "Dùng ', which' để nêu hệ quả đau lòng của việc quên dập tắt lửa trại."
+    },
+    {
+      "id": "5",
+      "sentence_1": "The conservation crew diligently cleaned up plastic debris along the coastal mangrove forest.",
+      "sentence_2": "This prevented toxic plastic fragments from harming wild animals in the nature reserve.",
+      "cue": "Use 'prevented ... from'",
+      "correct_answer": "The conservation crew diligently cleaned up plastic debris along the coastal mangrove forest, which prevented toxic plastic fragments from harming wild animals in the nature reserve.",
+      "acceptable_answers": [
+        "The conservation crew diligently cleaned up plastic debris along the coastal mangrove forest, which prevented toxic plastic fragments from harming wild animals in the nature reserve.",
+        "Cleaning up plastic debris along the coastal mangrove forest prevented toxic plastic fragments from harming wild animals in the nature reserve."
+      ],
+      "explanation": "Kết hợp câu dùng ', which prevented... from' diễn tả việc dọn rác đã ngăn chặn mảnh nhựa làm hại động vật hoang dã."
+    },
+    {
+      "id": "6",
+      "sentence_1": "Local vegetable farmers stopped relying on synthetic chemical fertiliser.",
+      "sentence_2": "They began spreading organic compost layers over their planting beds.",
+      "cue": "Use 'Instead of'",
+      "correct_answer": "Instead of relying on synthetic chemical fertiliser, local vegetable farmers began spreading organic compost layers over their planting beds.",
+      "acceptable_answers": [
+        "Instead of relying on synthetic chemical fertiliser, local vegetable farmers began spreading organic compost layers over their planting beds."
+      ],
+      "explanation": "Dùng 'Instead of + V-ing' (Thay vì dựa vào phân bón hóa học...)."
+    },
+    {
+      "id": "7",
+      "sentence_1": "The municipal office installed an automatic light and a sensor tap in every department.",
+      "sentence_2": "This prevents an unnecessary waste of electricity and water.",
+      "cue": "Use ', which'",
+      "correct_answer": "The municipal office installed an automatic light and a sensor tap in every department, which prevents an unnecessary waste of electricity and water.",
+      "acceptable_answers": [
+        "The municipal office installed an automatic light and a sensor tap in every department, which prevents an unnecessary waste of electricity and water."
+      ],
+      "explanation": "Mệnh đề ', which' thay cho toàn bộ việc lắp đặt đèn tự động và vòi cảm ứng thông minh."
+    },
+    {
+      "id": "8",
+      "sentence_1": "Students thoroughly rinsed out greasy food residues from each takeaway container.",
+      "sentence_2": "Then they placed the cleaned plastic item into the recycling bin.",
+      "cue": "Use 'Before'",
+      "correct_answer": "Before placing the cleaned plastic item into the recycling bin, students thoroughly rinsed out greasy food residues from each takeaway container.",
+      "acceptable_answers": [
+        "Before placing the cleaned plastic item into the recycling bin, students thoroughly rinsed out greasy food residues from each takeaway container.",
+        "Students thoroughly rinsed out greasy food residues from each takeaway container before placing it into the recycling bin."
+      ],
+      "explanation": "Dùng liên từ chỉ thời gian 'Before + V-ing' để kết hợp trình tự hai hành động."
+    },
+    {
+      "id": "9",
+      "sentence_1": "The manufacturing enterprise transitioned entirely to rooftop solar green energy.",
+      "sentence_2": "This will significantly shrink their company's carbon footprint in the long run.",
+      "cue": "Use ', which'",
+      "correct_answer": "The manufacturing enterprise transitioned entirely to rooftop solar green energy, which will significantly shrink their company's carbon footprint in the long run.",
+      "acceptable_answers": [
+        "The manufacturing enterprise transitioned entirely to rooftop solar green energy, which will significantly shrink their company's carbon footprint in the long run."
+      ],
+      "explanation": "Dùng ', which' thay thế cho toàn bộ việc chuyển đổi sang dùng năng lượng mặt trời."
+    },
+    {
+      "id": "10",
+      "sentence_1": "More families in our neighborhood are adopting sustainable zero waste habits.",
+      "sentence_2": "This clearly indicates that citizens genuinely care about environmental protection.",
+      "cue": "Use ', which'",
+      "correct_answer": "More families in our neighborhood are adopting sustainable zero waste habits, which clearly indicates that citizens genuinely care about environmental protection.",
+      "acceptable_answers": [
+        "More families in our neighborhood are adopting sustainable zero waste habits, which clearly indicates that citizens genuinely care about environmental protection."
+      ],
+      "explanation": "Dùng đại từ quan hệ ', which' đại diện cho việc các gia đình thực hành lối sống không rác thải."
+    }
+  ]
+}

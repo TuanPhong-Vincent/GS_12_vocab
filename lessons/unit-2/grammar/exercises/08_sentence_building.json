@@ -1,0 +1,106 @@
+{
+  "id": "8",
+  "type": "sentence_building",
+  "title": "Exercise 8: Sentence Building from Cues",
+  "instruction": "Use the given cue words to write complete, grammatically correct sentences, inserting appropriate articles (a, an, the, or Ø) and necessary prepositions or verb inflections.",
+  "target_grammar": "Articles (review and extension)",
+  "questions": [
+    {
+      "id": "1",
+      "cues": "globalisation / create / many / opportunity / for / youth / participate / culture exchange",
+      "correct_answer": "Globalisation creates many opportunities for youth to participate in culture exchange.",
+      "acceptable_answers": [
+        "Globalisation creates many opportunities for youth to participate in culture exchange.",
+        "Globalisation has created many opportunities for youth to participate in culture exchange."
+      ],
+      "explanation": "'Globalisation' dùng zero article, 'youth' chỉ giới trẻ nói chung, thêm giới từ 'in' sau 'participate'."
+    },
+    {
+      "id": "2",
+      "cues": "while / travel / across / United Kingdom / exchange / student / experience / culture shock",
+      "correct_answer": "While traveling across the United Kingdom, the exchange students experienced culture shock.",
+      "acceptable_answers": [
+        "While traveling across the United Kingdom, the exchange students experienced culture shock.",
+        "While traveling across the United Kingdom, an exchange student experienced culture shock."
+      ],
+      "explanation": "Thêm 'the' trước 'United Kingdom', 'the exchange students' và zero article trước 'culture shock'."
+    },
+    {
+      "id": "3",
+      "cues": "participating / traditional game / like / tug of war / be / great / extracurricular activity",
+      "correct_answer": "Participating in a traditional game like tug of war is a great extracurricular activity.",
+      "acceptable_answers": [
+        "Participating in a traditional game like tug of war is a great extracurricular activity."
+      ],
+      "explanation": "Thêm giới từ 'in', mạo từ 'a traditional game', zero article trước 'tug of war', và 'a great extracurricular activity'."
+    },
+    {
+      "id": "4",
+      "cues": "during / autumn / festival / children / carry / pumpkin lantern / and / wear / costume",
+      "correct_answer": "During the autumn festival, children carried pumpkin lanterns and wore colourful costumes.",
+      "acceptable_answers": [
+        "During the autumn festival, children carried pumpkin lanterns and wore colourful costumes.",
+        "During the autumn festival, children carry pumpkin lanterns and wear colourful costumes."
+      ],
+      "explanation": "Thêm 'the' trước 'autumn festival', dạng số nhiều 'pumpkin lanterns' và 'colourful costumes' dùng zero article."
+    },
+    {
+      "id": "5",
+      "cues": "local / chef / use / fresh / ingredient / to / prepare / unique / speciality / of / region",
+      "correct_answer": "The local chef used fresh ingredients to prepare a unique speciality of the region.",
+      "acceptable_answers": [
+        "The local chef used fresh ingredients to prepare a unique speciality of the region.",
+        "The local chef uses fresh ingredients to prepare the unique speciality of the region."
+      ],
+      "explanation": "Thêm 'The' trước 'local chef', zero article trước danh từ số nhiều 'fresh ingredients', 'a unique speciality' và 'the region'."
+    },
+    {
+      "id": "6",
+      "cues": "ancient / town / be / popular / tourist attraction / which / attract / visitors / all / over / world",
+      "correct_answer": "The ancient town is a popular tourist attraction which attracts visitors from all over the world.",
+      "acceptable_answers": [
+        "The ancient town is a popular tourist attraction which attracts visitors from all over the world."
+      ],
+      "explanation": "Thêm 'The ancient town', 'a popular tourist attraction', và cụm cố định 'from all over the world'."
+    },
+    {
+      "id": "7",
+      "cues": "she / buy / hand-crafted / souvenir / at / night market / after / enjoy / local / cuisine",
+      "correct_answer": "She bought a hand-crafted souvenir at the night market after enjoying the local cuisine.",
+      "acceptable_answers": [
+        "She bought a hand-crafted souvenir at the night market after enjoying the local cuisine.",
+        "She bought a hand-crafted souvenir at the night market after enjoying local cuisine."
+      ],
+      "explanation": "Thêm mạo từ 'a hand-crafted souvenir', 'the night market' và 'the local cuisine' (hoặc zero article)."
+    },
+    {
+      "id": "8",
+      "cues": "learning / to / play / flute / help / student / appreciate / cultural identity",
+      "correct_answer": "Learning to play the flute helps students appreciate their cultural identity.",
+      "acceptable_answers": [
+        "Learning to play the flute helps students appreciate their cultural identity.",
+        "Learning to play the flute helps students appreciate cultural identity."
+      ],
+      "explanation": "Dùng 'the' trước tên nhạc cụ 'the flute', chia động từ 'helps' theo danh động từ 'Learning'."
+    },
+    {
+      "id": "9",
+      "cues": "expedition / team / sail / across / Pacific Ocean / to / study / marine / life",
+      "correct_answer": "The expedition team sailed across the Pacific Ocean to study marine life.",
+      "acceptable_answers": [
+        "The expedition team sailed across the Pacific Ocean to study marine life."
+      ],
+      "explanation": "Thêm mạo từ xác định 'The expedition team', 'the Pacific Ocean' và zero article trước 'marine life'."
+    },
+    {
+      "id": "10",
+      "cues": "entering / dark / haunted house / during / carnival / be / not / cause for alarm",
+      "correct_answer": "Entering a dark haunted house during the carnival was not a cause for alarm.",
+      "acceptable_answers": [
+        "Entering a dark haunted house during the carnival was not a cause for alarm.",
+        "Entering a dark haunted house during the carnival is not a cause for alarm."
+      ],
+      "explanation": "Thêm 'a dark haunted house', 'the carnival', và cụm vị ngữ 'not a cause for alarm'."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "6",
+  "type": "error_identification",
+  "title": "Exercise 6: Error Identification & Correction",
+  "instruction": "Identify the underlined/bracketed part (A, B, C, or D) that contains a grammatical error in each sentence, then provide the correct form.",
+  "target_grammar": "Past simple vs. Past continuous",
+  "questions": [
+    {
+      "id": "1",
+      "text": "While Dr. Dang Thuy Tram [A: was treating] injured soldiers in the underground hospital, she [B: was writing] a poignant diary that later [C: inspired] millions of young [D: people].",
+      "options": ["A", "B", "C", "D"],
+      "correct_answer": "B",
+      "error_segment": "was writing",
+      "correction": "wrote",
+      "explanation": "Hành động viết nhật ký diễn ra định kỳ hoặc là hành động chính hoàn tất sau các đợt cứu chữa, dùng Quá khứ đơn 'wrote' thay cho Quá khứ tiếp diễn."
+    },
+    {
+      "id": "2",
+      "text": "Steve Jobs [A: dropped] out of college when he [B: was realizing] that calligraphy [C: would inspire] his future computer [D: typography].",
+      "options": ["A", "B", "C", "D"],
+      "correct_answer": "B",
+      "error_segment": "was realizing",
+      "correction": "realized",
+      "explanation": "'Realize' là động từ chỉ nhận thức/trạng thái (stative verb), không dùng ở thì tiếp diễn; phải sửa thành 'realized'."
+    },
+    {
+      "id": "3",
+      "text": "When the young inventor [A: was receiving] the prestigious international award, all the guests [B: in the hall] [C: stood] up and applauded with [D: immense] admiration.",
+      "options": ["A", "B", "C", "D"],
+      "correct_answer": "A",
+      "error_segment": "was receiving",
+      "correction": "received",
+      "explanation": "Thời điểm nhận giải thưởng là khoảnh khắc diễn ra tức thì, dứt khoát ('When the young inventor received...')."
+    },
+    {
+      "id": "4",
+      "text": "While the resistance forces [A: were defending] the border citadel, the enemy [B: were launching] a massive artillery barrage [C: without] prior [D: warning].",
+      "options": ["A", "B", "C", "D"],
+      "correct_answer": "B",
+      "error_segment": "were launching",
+      "correction": "launched",
+      "explanation": "Đợt bắn pháo kích bất ngờ của quân địch là hành động xen vào cắt ngang cuộc phòng thủ kéo dài, chia Quá khứ đơn 'launched'."
+    },
+    {
+      "id": "5",
+      "text": "During his childhood, the visionary artist [A: was living] in a quiet rural village where he [B: painted] landscapes and [C: observed] the wildlife [D: daily].",
+      "options": ["A", "B", "C", "D"],
+      "correct_answer": "A",
+      "error_segment": "was living",
+      "correction": "lived",
+      "explanation": "Diễn tả nơi sinh sống trong suốt thời thơ ấu như một sự kiện dài hạn hoàn tất trong quá khứ dùng Quá khứ đơn 'lived'."
+    },
+    {
+      "id": "6",
+      "text": "The computer animators [A: were rendering] the climax of the blockbuster [B: when] the entire power network [C: was shutting] down [D: abruptly].",
+      "options": ["A", "B", "C", "D"],
+      "correct_answer": "C",
+      "error_segment": "was shutting",
+      "correction": "shut",
+      "explanation": "Mạng lưới điện sập xuống đột ngột ('shut down') là hành động ngắn cắt ngang quá trình kết xuất đồ họa, chia Quá khứ đơn."
+    },
+    {
+      "id": "7",
+      "text": "While the military commanders [A: were analyzing] reconnaissance maps, an urgent courier [B: arrived] and [C: was delivering] an encoded message [D: to the general].",
+      "options": ["A", "B", "C", "D"],
+      "correct_answer": "C",
+      "error_segment": "was delivering",
+      "correction": "delivered",
+      "explanation": "Chuỗi hành động kế tiếp nhau của người liên lạc: đến nơi ('arrived') và chuyển giao mật thư ('delivered'), cả hai đều chia Quá khứ đơn."
+    },
+    {
+      "id": "8",
+      "text": "The couple [A: was having] a prosperous marriage for thirty years before the husband [B: passed] away from pancreatic cancer in a specialized [C: medical] [D: clinic].",
+      "options": ["A", "B", "C", "D"],
+      "correct_answer": "A",
+      "error_segment": "was having",
+      "correction": "had",
+      "explanation": "'Have' trong cụm 'have a marriage' diễn tả trạng thái trải nghiệm hôn nhân bền vững, không chia tiếp diễn; phải dùng 'had'."
+    },
+    {
+      "id": "9",
+      "text": "At 9 p.m. last Friday, the film producer [A: negotiated] terms with the studio executives while his partner [B: was finalizing] the visual effects [C: for the upcoming] [D: premiere].",
+      "options": ["A", "B", "C", "D"],
+      "correct_answer": "A",
+      "error_segment": "negotiated",
+      "correction": "was negotiating",
+      "explanation": "Tại mốc thời gian cụ thể trong quá khứ ('At 9 p.m. last Friday') diễn ra hai hành động song song kéo dài, phải dùng 'was negotiating'."
+    },
+    {
+      "id": "10",
+      "text": "When the doctor announced that the tumor [A: was benign], the patient and her family [B: were feeling] on cloud nine and [C: thanked] the medical staff [D: profusely].",
+      "options": ["A", "B", "C", "D"],
+      "correct_answer": "B",
+      "error_segment": "were feeling",
+      "correction": "felt",
+      "explanation": "Cảm giác vui sướng tột độ xuất hiện ngay lập tức sau thông báo của bác sĩ; 'feel' chỉ cảm xúc dứt khoát dùng Quá khứ đơn 'felt'."
+    }
+  ]
+}

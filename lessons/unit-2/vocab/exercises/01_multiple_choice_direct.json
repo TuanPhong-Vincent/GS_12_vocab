@@ -8,10 +8,10 @@
       "id": "1",
       "text": "Which phrase refers to the existence of a variety of cultural or ethnic groups within a single society?",
       "options": [
-        "culture shock",
+        "cultural diversity",
         "language barrier",
-        "extracurricular activity",
-        "cultural diversity"
+        "culture shock",
+        "extracurricular activity"
       ],
       "correct_answer": "cultural diversity"
     },
@@ -19,8 +19,8 @@
       "id": "2",
       "text": "What is the process by which businesses, cultures, and societies develop international influence and operate globally?",
       "options": [
-        "speciality",
         "globalisation",
+        "speciality",
         "origin",
         "custom"
       ],
@@ -30,10 +30,10 @@
       "id": "3",
       "text": "Which term describes the feeling of confusion and disorientation experienced by someone visiting an unfamiliar culture?",
       "options": [
+        "cultural diversity",
         "culture shock",
-        "tourist attraction",
         "bamboo dancing",
-        "cultural diversity"
+        "tourist attraction"
       ],
       "correct_answer": "culture shock"
     },
@@ -41,10 +41,10 @@
       "id": "4",
       "text": "What do we call a distinctive, iconic dish that a particular region or town is especially famous for preparing?",
       "options": [
-        "souvenir",
         "speciality",
+        "trend",
         "ingredient",
-        "trend"
+        "souvenir"
       ],
       "correct_answer": "speciality"
     },
@@ -52,10 +52,10 @@
       "id": "5",
       "text": "Which decorative item is made by carving a scary or funny face into a pumpkin and placing a candle inside?",
       "options": [
-        "carnival",
+        "costume",
         "haunted house",
         "pumpkin lantern",
-        "costume"
+        "carnival"
       ],
       "correct_answer": "pumpkin lantern"
     },
@@ -64,8 +64,8 @@
       "text": "What is a festive public celebration, typically involving parades, masquerade costumes, music, and street dancing?",
       "options": [
         "identity",
-        "cuisine",
         "carnival",
+        "cuisine",
         "origin"
       ],
       "correct_answer": "carnival"
@@ -74,10 +74,10 @@
       "id": "7",
       "text": "Which traditional contest involves two opposing teams pulling on opposite ends of a thick rope until one team crosses a line?",
       "options": [
-        "tug of war",
+        "extracurricular activity",
         "bamboo dancing",
         "trick or treat",
-        "extracurricular activity"
+        "tug of war"
       ],
       "correct_answer": "tug of war"
     },
@@ -86,9 +86,9 @@
       "text": "What term refers to an interesting place or historic monument that travelers visit for leisure and sightseeing?",
       "options": [
         "food stall",
+        "language barrier",
         "tourist attraction",
-        "haunted house",
-        "language barrier"
+        "haunted house"
       ],
       "correct_answer": "tourist attraction"
     },
@@ -96,10 +96,10 @@
       "id": "9",
       "text": "Which verb means to completely hold the attention and interest of someone by being extremely interesting or charming?",
       "options": [
-        "captivate",
-        "appreciate",
         "blend",
-        "originate"
+        "appreciate",
+        "originate",
+        "captivate"
       ],
       "correct_answer": "captivate"
     },
@@ -107,10 +107,10 @@
       "id": "10",
       "text": "Which phrase describes a school club, sport, or hobby pursued by students outside the regular academic classroom curriculum?",
       "options": [
-        "culture exchange",
         "traditional game",
         "cause for alarm",
-        "extracurricular activity"
+        "extracurricular activity",
+        "culture exchange"
       ],
       "correct_answer": "extracurricular activity"
     }
