@@ -62,7 +62,7 @@ flowchart TD
   - 🌍 **Góc 6 — Sự kiện Cộng đồng, Lễ hội & Văn hóa Thế giới:** Các phong trào thanh thiếu niên, ngày hội văn hóa, phong tục các nước, hoạt động tình nguyện...
 * **Ràng buộc Độ dài & Từ vựng (Length & Vocabulary Constraints):**
   - **Độ dài câu chuẩn đề thi:** Phải giữ câu ngắn gọn, súc tích (**10 – 14 từ/câu**, max 16 từ; hội thoại A-B **12 – 16 từ tổng cộng**). Tránh tạo ra các câu văn dài dòng, cồng kềnh với quá nhiều mệnh đề phụ.
-  - **Độ khó từ vựng chuẩn THCS (A2+/B1):** Tuyệt đối không đưa vào các từ vựng học thuật B2/C1/IELTS khó (như *synthetic fertilizers, nutrient level, soil pH, coastal erosion, stopover wetland habitat, drain natural swamps, rehabilitated, flipper, phantom power, illegal logging, coastal dunes, discharged, municipal authority*).
+  - **Độ khó từ vựng chuẩn THPT (A2+/B1):** Tuyệt đối không đưa vào các từ vựng học thuật B2/C1/IELTS khó (như *synthetic fertilizers, nutrient level, soil pH, coastal erosion, stopover wetland habitat, drain natural swamps, rehabilitated, flipper, phantom power, illegal logging, coastal dunes, discharged, municipal authority*).
 
 ### 3. Subagent 3: Grammar & Single-Key Integrity Verifier (`Pedagogical Integrity Verifier`)
 * **Role:** `Pedagogical Integrity Verifier` (TypeName: `research`)

@@ -42,15 +42,15 @@ Each entry in `words` must include every field below. The values (meanings and c
 
 All media paths are **absolute** and start with `/lessons/media/`. The remaining segments are derived from the target directory.
 
-- `{book_slug}` — short code for the book series. `global-success-9` → `gs9`, `global-success-6` → `gs6`, etc.
-- `{unit_slug}` — the unit folder name in lowercase with hyphens, e.g. `Unit 1` → `unit-1`.
+- `{book_slug}` — short code for the book series: `gs12` (for Global Success 12).
+- `{unit_slug}` — the unit folder name in lowercase with hyphens, e.g. `unit-1` to `unit-10`.
 - `{word-with-hyphens}` — `english_word` lowercased, spaces and underscores replaced with hyphens, punctuation removed.
 
 | Field | Template | Example |
 | - | - | - |
-| `audio_word` | `/lessons/media/{book_slug}/{unit_slug}/audio/{word-with-hyphens}.mp3` | `/lessons/media/gs9/unit-1/audio/police-officer.mp3` |
-| `audio_sentence` | `/lessons/media/{book_slug}/{unit_slug}/audio/{word-with-hyphens}-sentence.mp3` | `/lessons/media/gs9/unit-1/audio/police-officer-sentence.mp3` |
-| `image` | `/lessons/media/{book_slug}/{unit_slug}/images/{word-with-hyphens}.webp` | `/lessons/media/gs9/unit-1/images/police-officer.webp` |
-| `alt` | a short English description of what the image should depict | `Image for police officer` |
+| `audio_word` | `/lessons/media/{book_slug}/{unit_slug}/audio/{word-with-hyphens}.mp3` | `/lessons/media/gs12/unit-1/audio/childhood.mp3` |
+| `audio_sentence` | `/lessons/media/{book_slug}/{unit_slug}/audio/{word-with-hyphens}-sentence.mp3` | `/lessons/media/gs12/unit-1/audio/childhood-sentence.mp3` |
+| `image` | `/lessons/media/{book_slug}/{unit_slug}/images/{word-with-hyphens}.webp` | `/lessons/media/gs12/unit-1/images/childhood.webp` |
+| `alt` | a short English description of what the image should depict | `Childhood memories and upbringing` |
 
 Images use `.webp`; audio uses `.mp3`. The paths must be consistent across all three media fields for a single word — only the suffix differs.

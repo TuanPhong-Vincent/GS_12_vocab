@@ -50,10 +50,10 @@ Whenever you audit or edit sentences, systematically check against these 6 categ
   - *Ví dụ 2*: `"The basketball player threw the ball accurately and tried three difficult shots."` ❌ *(ném bóng chính xác và thử 3 cú ném ghép nối rời rạc)* $\rightarrow$ `"The basketball player threw the ball to his teammate and scored two points."` ✅
   - *Ví dụ 3*: `"The goalkeeper found his lucky sports shoes and caught the fast ball yesterday."` ❌ *(ghép chữ and khiên cưỡng)* $\rightarrow$ `"The goalkeeper found his lucky sports shoes before the match and caught every penalty shot."` ✅
 
-### 4. Age & Psychological Inappropriateness (Lệch tâm lý lứa tuổi học sinh)
-- **Vấn đề**: Câu văn mang giọng điệu hồi tưởng của người già hoặc người lớn trải đời, không phù hợp với học sinh THCS (11–15 tuổi).
-- **Cách xử lý**: Điều chỉnh ngữ cảnh phù hợp với đời sống học đường, sinh hoạt thường ngày và sở thích của lứa tuổi học sinh.
-  - *Ví dụ*: Học sinh lớp 6 nói: `"This cartoon reminds me of my happy childhood, so I often watch it."` ❌ $\rightarrow$ `"This cartoon is very funny, so I often watch it on weekends."` ✅
+### 4. Age & Psychological Appropriateness (Phù hợp tâm lý lứa tuổi học sinh THPT)
+- **Vấn đề**: Câu văn mang ngữ cảnh ấu trĩ tiểu học hoặc ngược lại là các biệt ngữ văn bản hành chính/luật pháp xa rời thực tế học sinh THPT (17–18 tuổi).
+- **Cách xử lý**: Điều chỉnh ngữ cảnh phù hợp với đời sống học sinh cấp 3: định hướng nghề nghiệp, chuẩn bị thi tốt nghiệp & đại học, trải nghiệm văn hóa, công nghệ số, dự án môi trường và tư duy phản biện.
+  - *Ví dụ*: `"The young child played with plastic toys on the floor."` ❌ $\rightarrow$ `"High school seniors often balance their revision schedule with extracurricular activities."` ✅
 
 ### 5. Fictional Names with Real Historical Anchors (Ghép tên hư cấu với mốc lịch sử thực)
 - **Vấn đề**: Tên nhân vật hư cấu lại ghép với mốc thời gian hoặc giải đấu thực tế cụ thể, gây sai lệch kiến thức thực tế.

@@ -1,90 +1,149 @@
 ---
 name: data-vocab-step-1-ocr-pdf-to-raw-content
-description: Use this skill when the user wants to turn specific pages of a textbook PDF into a structured `raw-content.md` for a Unit. Trigger when the user references a PDF file plus page numbers and wants the OCR/vision-extracted markdown saved under a Unit folder (typically `.../unit-N/vocab/raw-content.md`), or when the user is following the lesson-data pipeline and is on "vocab step 1 OCR raw content".
+description: Use this skill when the user wants to extract raw content for any Unit in Global Success 12 (GS12 Units 1–10) from the source textbook PDF (GS12.pdf). It slices scanned pages for multimodal vision transcription, extracts the exact textbook texts, and compiles a comprehensive, unified `raw-content.md` containing all sections (Getting Started, Language, Reading, Speaking, Listening, Writing, Communication and Culture/CLIL, Looking Back, Project).
 ---
 
-# PDF to Raw-Content Markdown
+# GS12 PDF to Raw-Content Markdown Skill
 
-## Role
+## Role & Purpose
 
-You are an experienced English teacher reading textbook pages. The markdown you produce must preserve the lesson exactly as printed — no invented sections, no summarized phrasing, and no skipped exercises.
+You are an expert English curriculum specialist and senior educator. Your mission is to extract and compile the complete, authentic unit content from the official **Global Success 12** Student's Book (`GS12.pdf`) into a structured `raw-content.md` file located at `lessons/unit-<N>/vocab/raw-content.md` (or `lessons/unit-<N>/raw-content.md`).
 
-## What this skill does
+The markdown document must faithfully capture the complete unit content — preserving exact dialogues, reading texts, grammar explanations, vocabulary lists, pronunciation targets, and exercise questions without omission, fabrication, or artificial summarization.
 
-Given a textbook PDF and a page range, convert the requested pages to PNG images, inspect and extract text from the images directly using the agent's built-in image reading tool (`view_file` with multimodal vision), and write a structured `raw-content.md` that faithfully mirrors the printed lesson (headings, exercises, tables, dialogs, captions). The temporary image folder is deleted at the end so only `raw-content.md` remains in the Unit folder.
+---
 
-## When to use this skill
+## Source PDF File
 
-- The user provides a PDF path and page numbers and asks for `raw-content.md`.
-- The user is following the lesson-data pipeline and is on "vocab step 1 OCR raw content".
-- A Unit folder is empty and needs its source markdown produced from a textbook scan.
+- **File**: `GS12.pdf` (Student's Book, located at workspace root `d:\GS12\GS12.pdf`)
+- **Total Pages**: 155 scanned high-resolution pages.
+- **Extraction Mechanism**:
+  1. Use script `scripts/pdf2images.py --unit <N> --out temp_pages` to render pages to high-resolution PNG images.
+  2. The agent calls `view_file` on each PNG image to visually read and transcribe the content with multimodal vision.
+  3. Compile all transcribed sections into the standard `raw-content.md`.
+  4. Clean up `temp_pages/` after transcription is complete.
 
-This skill does not cover vocabulary extraction, exercise generation, or any later pipeline step — each of those has its own skill.
+---
 
-## Non-negotiable rules
+## Master Page Mapping for Global Success 12 (GS12.pdf)
 
-1. **USE AGENT VISION TOOL ONLY FOR TEXT EXTRACTION**:
-   - The agent MUST use its own built-in tool (`view_file`) on each page image to read and extract text using multimodal vision.
-   - **STRICTLY PROHIBITED**: DO NOT write or run Python scripts to perform OCR (e.g. Tesseract, pytesseract, easyocr, cv2, ocr_tool.py). The agent directly "sees" and transcribes the images.
-2. **Faithful preservation**:
-   - Extract every visible text element on the requested pages: section headings, instructions, numbered exercises, tables, dialogs, examples, and captions.
-   - Later pipeline steps rely on complete, verbatim markdown.
-   - Do not invent, paraphrase, or hallucinate content. If any text is smudged or ambiguous, record it as seen or add a brief inline flag `[unclear: ...]`.
-3. **Exact output format**:
-   - Output must be a single Markdown file named exactly `raw-content.md` saved in the **Save Location**. No `.txt`, no other filenames.
-4. **Python execution**:
-   - Python is used ONLY for slicing the PDF into page images via `scripts/pdf2images.py`.
-   - Run via `python3` (or `poetry run python3` if a Poetry environment is configured).
+All page numbers are 1-indexed (matching PDF viewer page numbers):
 
-## Initial information needed
+| Unit | Title | Target Grammar | Pronunciation | SB Pages (`GS12.pdf`) |
+|:---:|:---|:---|:---|:---:|
+| **1** | **Life Stories We Admire** | Past simple vs. Past continuous | Diphthongs /eɪ/ and /əʊ/ | **8 – 19** |
+| **2** | **A Multicultural World** | Articles (review and extension) | Diphthongs /ɔɪ/, /aɪ/, /aʊ/ | **20 – 31** |
+| **3** | **Green Living** | Verbs with prepositions; Relative clauses referring to a whole sentence | Diphthongs /ɪə/, /eə/, /ʊə/ | **32 – 43** |
+| *Review 1* | *Units 1 – 3 Review* | Review Units 1 – 3 | Revision | *44 – 47* |
+| **4** | **Urbanisation** | Present perfect (review and extension); Double comparatives to show change | Unstressed words in connected speech | **48 – 59** |
+| **5** | **The World of Work** | Simple, compound, and complex sentences (review and extension) | Stressing auxiliary and modal verbs | **60 – 71** |
+| *Review 2* | *Units 4 – 5 Review* | Review Units 4 – 5 | Revision | *72 – 75* |
+| **6** | **Artificial Intelligence** | Active and passive causatives | Homophones | **76 – 87** |
+| **7** | **The World of Mass Media** | Adverbial clauses of manner and result | Linking /r/ between two vowels | **88 – 99** |
+| **8** | **Wildlife Conservation** | Adverbial clauses of condition and comparison | Assimilation | **100 – 111** |
+| *Review 3* | *Units 6 – 8 Review* | Review Units 6 – 8 | Revision | *112 – 115* |
+| **9** | **Career Paths** | Three-word phrasal verbs | Sentence stress and rhythm | **116 – 127** |
+| **10** | **Lifelong Learning** | Reported speech: reporting orders, requests, offers, and advice | Intonation in questions | **128 – 139** |
+| *Review 4* | *Units 9 – 10 Review* | Review Units 9 – 10 | Revision | *138 – 141* |
+| *Glossary* | *Alphabetical Wordlist* | Full GS12 vocabulary list | Oxford IPA & Meanings | *142 – 155* |
 
-Ask the user for three things before starting and wait until all three are provided:
+---
 
-1. **Input PDF File** (`file pdf đầu vào`) — the exact path to the PDF.
-2. **Pages to Process** (`trang cần xử lý`) — page numbers or page ranges (e.g. `5-10`, or `12`).
-3. **Save Location** (`vị trí lưu file`) — the directory where `raw-content.md` should be written (e.g. `.../unit-1/vocab`).
+## Standard Structure for `raw-content.md`
 
-Do not guess any of these. The page numbers in particular matter — textbooks contain many units in a single PDF.
+Every `raw-content.md` must be organized under the following standard markdown headers:
 
-## Workflow
+```markdown
+# Unit <N>: <UNIT TITLE>
 
-### Step 1 — Convert the requested pages to images
+## This unit includes:
+### LANGUAGE
+- Pronunciation: ...
+- Vocabulary: ...
+- Grammar: ...
+### SKILLS
+- Reading: ...
+- Speaking: ...
+- Listening: ...
+- Writing: ...
+### COMMUNICATION AND CULTURE / CLIL
+- Everyday English: ...
+- Culture / CLIL: ...
+### PROJECT
+- ...
 
-Run `scripts/pdf2images.py` to extract only the requested pages and save them as PNGs under `<Save Location>/pages/`:
+---
 
-```bash
-python3 .agent/skills/skills-data-vocab-step-1-ocr-raw-content/scripts/pdf2images.py <pdf_path> --output <save_location> --start <first_page> --end <last_page>
+## I. GETTING STARTED
+### <Lesson Title>
+#### 1. Listen and read. [Track X]
+<Full verbatim dialogue>
+#### 2. Read the conversation again and ...
+#### 3. Find words / phrases in the conversation that mean ...
+#### 4. Complete the sentences ...
+
+---
+
+## II. LANGUAGE
+### PRONUNCIATION
+...
+### VOCABULARY
+...
+### GRAMMAR
+...
+
+---
+
+## III. READING
+### <Reading Text Title>
+<Full reading passage verbatim>
+<Questions & exercises 1 to 5>
+
+---
+
+## IV. SPEAKING
+...
+
+---
+
+## V. LISTENING
+<Audio scripts if available or comprehension tasks>
+
+---
+
+## VI. WRITING
+<Writing task guidelines, outline, model sample>
+
+---
+
+## VII. COMMUNICATION AND CULTURE / CLIL
+### Everyday English
+### Culture / CLIL
+<Cultural reading text verbatim>
+
+---
+
+## VIII. LOOKING BACK
+### Pronunciation
+### Vocabulary
+### Grammar
+
+---
+
+## IX. PROJECT
+<Project description and presentation prompt>
 ```
 
-*(Note: If working in a poetry-managed project, you may use `poetry run python3 ...`).*
-If a single page is requested, set `--start` and `--end` to the same number.
+---
 
-### Step 2 — Read each image with agent tool (`view_file`) & transcribe to Markdown
+## Execution Workflow
 
-1. List the generated images in `<Save Location>/pages/` and sort them in natural page order (e.g. `page_7.png`, `page_8.png`, ...).
-2. Call `view_file` on each PNG image file individually.
-   - The image is loaded directly into your multimodal vision context.
-3. Transcribe and structure the content into clean Markdown:
-   - **Headings**: Unit titles and main sections become `#`, `##`, `###` headings.
-   - **Exercises**: Keep original numbers, options (A, B, C, D), and blanks (`___`).
-   - **Dialogs & Conversations**: Preserve speaker labels (e.g., `Phong: ...`, `Hung: ...`).
-   - **Tables**: Convert printed tables and matching grids into Markdown tables (`| ... | ... |`).
-   - **Vocabulary Boxes & Prompts**: Keep word boxes verbatim in bulleted or blockquote format.
-   - **Grammar & "Remember!" Boxes**: Format with Markdown blockquotes (`> **Remember!** ...`).
-4. Assemble all pages in page order into one cohesive document.
-
-### Step 3 — Save `raw-content.md`
-
-Use `write_to_file` to write the assembled content directly into `<Save Location>/raw-content.md` (NOT inside `pages/`).
-
-### Step 4 — Clean up temporary images
-
-Remove the temporary `pages/` directory so only `raw-content.md` remains in `<Save Location>`:
-
-```bash
-rm -rf <Save Location>/pages
-```
-
-### Step 5 — Confirm with the user
-
-Confirm to the user that `raw-content.md` has been created at the Save Location, mention the pages processed, and invite them to review the content before moving on to Step 2 (`data-vocab-step-2-raw-vocabulary`).
+1. Determine target unit `<N>` (e.g. Unit 4).
+2. Check page range from Master Mapping (e.g. pages 48 to 59).
+3. Run extraction script:
+   ```powershell
+   python .agent/skills/skills-data-vocab-step-1-ocr-raw-content/scripts/pdf2images.py --unit <N> --out temp_pages/u<N>
+   ```
+4. Read each page image using `view_file` to capture exact texts and questions.
+5. Save the transcribed content to `lessons/unit-<N>/vocab/raw-content.md` (or `lessons/unit-<N>/raw-content.md`).
+6. Clean up `temp_pages/u<N>/`.

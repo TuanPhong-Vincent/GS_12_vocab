@@ -809,11 +809,18 @@ def render_single_exercise_inner(ex, ex_idx, output_file, workspace_root):
             options = q.get("options", [])
             correct = q.get("correct_answer", "").strip()
 
-            sign_img_rel = resolve_asset_relpath(sign_img_raw, output_file, workspace_root)
+            # Check if sign image exists locally in vocab_dir or workspace_root
+            sign_img_rel = ""
+            out_dir = Path(output_file).resolve().parent
+            if sign_img_raw:
+                if (out_dir / sign_img_raw).exists():
+                    sign_img_rel = sign_img_raw
+                elif (out_dir / "exercises" / sign_img_raw).exists():
+                    sign_img_rel = f"exercises/{sign_img_raw}"
+                elif (workspace_root / sign_img_raw.lstrip("/\\")).exists():
+                    sign_img_rel = resolve_asset_relpath(sign_img_raw, output_file, workspace_root)
 
-            # Visual sign simulation box or actual sign image
-            target_sign_path = (workspace_root / sign_img_raw.lstrip("/\\")) if sign_img_raw else None
-            if sign_img_rel and target_sign_path and target_sign_path.exists():
+            if sign_img_rel:
                 sign_preview = f"""
             <div class="sign-board has-image">
                 <img src="{escape(sign_img_rel)}" alt="Sign #{escape(str(q_id))}" class="sign-img-view" loading="lazy">
@@ -2629,11 +2636,9 @@ def build_unified_index_html(vocab_data, exercises_data, book_name, unit_name, o
                             <p>{total_words} từ vựng chuẩn ngữ âm, nghĩa tiếng Việt, hình ảnh minh họa và phát âm giọng Mỹ</p>
                         </div>
                     </div>
-                    <div>
-                        <a href="cards.html" class="nav-item" style="border:1px solid #bfdbfe; font-size:12px; font-weight:700;" title="Mở trang thẻ riêng biệt">
-                            Mở Trang cards.html ↗
+                        <a href="cards.html" class="nav-item btn-standalone-link" style="border:1.5px solid #bfdbfe; font-size:12px; font-weight:700; background:#eff6ff; color:#1d4ed8; text-decoration:none; display:inline-flex; align-items:center; gap:6px; padding:6px 14px; border-radius:9999px;" title="Xem bộ flashcards từ vựng">
+                            Xem flashcards ↗
                         </a>
-                    </div>
                 </div>
                 <div class="theory-body">
                     {all_vocab_theory_html}

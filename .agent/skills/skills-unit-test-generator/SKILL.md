@@ -11,19 +11,19 @@ Bạn là một **Chuyên gia Khảo thí & Thiết kế Đề thi Tiếng Anh C
 - `lessons/unit-<N>/test/test1.json`
 - `lessons/unit-<N>/test/test2.json`
 
-Mỗi bài kiểm tra tuân thủ tuyệt đối **Định dạng cấu trúc Đề thi tốt nghiệp THPT từ năm 2025 của Bộ GD&ĐT** (40 câu hỏi trắc nghiệm khách quan, thời gian làm bài 50 phút), mô phỏng chuẩn xác từ kho dữ liệu tham chiếu tại [`reference/*.md`](file:///d:/GS10/reference/).
+Mỗi bài kiểm tra tuân thủ tuyệt đối **Định dạng cấu trúc Đề thi tốt nghiệp THPT từ năm 2025 của Bộ GD&ĐT** (40 câu hỏi trắc nghiệm khách quan, thời gian làm bài 50 phút).
 
 ---
 
 ## 2. Dữ Liệu Đầu Vào (Required Inputs)
 
 Trước khi thực hiện sinh đề, Agent phải nạp đầy đủ các nguồn tài nguyên sau:
-1. **Kho đề chuẩn tham chiếu ([`reference/*.md`](file:///d:/GS10/reference/)):**
-   - Nghiên cứu phong cách hành văn, độ dài đoạn đọc, cách đặt câu hỏi và phân tích đáp án trong các file: `TEST 1 - UNIT 2 - GV.md`, `TEST 2 - UNIT 2 - GV.md`, `TEST 1 - UNIT 3 - GV.md`, `UNIT 1 - Test 1 - GV.md`, v.v.
+1. **Kho đề chuẩn tham chiếu & Blueprint 2025:**
+   - Nghiên cứu phong cách hành văn, độ dài đoạn đọc, cách đặt câu hỏi và phân tích đáp án chuẩn Bộ GD&ĐT 2025.
 2. **Từ vựng mục tiêu của Unit (`lessons/unit-<N>/vocab/vocab.json` & `raw-vocabulary.md`):**
-   - Tích hợp tối thiểu 20–30 từ vựng cốt lõi, cụm cố định (collocations), từ đồng nghĩa/trái nghĩa, và từ loại phái sinh (derivatives) vào ngữ cảnh của các phần thi.
-3. **Ngữ pháp mục tiêu của Unit (`lessons/unit-<N>/grammar_raw.json` & `grammar-roadmap.md`):**
-   - Khảo sát trực tiếp điểm ngữ pháp trọng tâm của Unit (VD: Unit 1: *Present simple vs. continuous*; Unit 2: *Will / Be going to & Passive voice*; Unit 3: *Compound sentences & Infinitives*).
+   - Tích hợp tối thiểu 20–30 từ vựng cốt lõi, cụm cố định (collocations), từ đồng nghĩa/trái nghĩa, và từ loại phái sinh (derivatives) vào ngữ cảnh của các phần thi (chuẩn độ khó CEFR B1–B2 cho học sinh Lớp 12).
+3. **Ngữ pháp mục tiêu của Unit (`lessons/unit-<N>/grammar/grammar_raw.json` & `grammar-roadmap.md`):**
+   - Khảo sát trực tiếp điểm ngữ pháp trọng tâm của GS12 (VD: Unit 1: *Past simple vs. Past continuous*; Unit 2: *Articles*; Unit 3: *Verbs with prepositions & Relative clauses referring to a whole sentence*; Unit 4: *Present perfect & Double comparatives*).
    - Tuyệt đối không vượt quá trần ngữ pháp (grammar ceiling) của Unit đang học.
 
 ---

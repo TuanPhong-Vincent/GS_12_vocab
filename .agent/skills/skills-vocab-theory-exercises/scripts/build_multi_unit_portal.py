@@ -722,11 +722,9 @@ def build_master_index_html(units_info, output_file, workspace_root):
                                     <p>{u['total_words']} từ vựng chuẩn IPA Anh/Mỹ, ảnh minh họa trực quan, phát âm giọng chuẩn và nghĩa tiếng Việt</p>
                                 </div>
                             </div>
-                            <div>
-                                <a href="lessons/{u_id}/vocab/cards.html" class="nav-item" style="border:1px solid #bfdbfe; font-size:12px; font-weight:700;" title="Mở trang flashcards riêng">
-                                    Mở Flashcards ({escape(u['short_name'])}) ↗
+                                <a href="lessons/{u_id}/vocab/cards.html" class="nav-item btn-standalone-link" style="border:1.5px solid #bfdbfe; font-size:12px; font-weight:700; background:#eff6ff; color:#1d4ed8; text-decoration:none; display:inline-flex; align-items:center; gap:6px; padding:6px 14px; border-radius:9999px;" title="Xem bộ flashcards riêng">
+                                    Xem flashcards ({escape(u['short_name'])}) ↗
                                 </a>
-                            </div>
                         </div>
                         <div class="theory-body">
                             {vocab_cards_html}

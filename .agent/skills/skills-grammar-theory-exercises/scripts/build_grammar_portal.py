@@ -1608,11 +1608,11 @@ def generate_master_index(workspace_root, available_units, theory_db, output_fil
                         <div class="headline-icon-box">📐</div>
                         <div class="headline-text">
                             <h2>Unit {u}: Ngữ Pháp – {escape(u_info['grammar_topic'])}</h2>
-                            <p>Cấu trúc trình bày chuẩn sách giáo khoa (Pill Badges, Bảng xanh đậm, ⚠ WATCH OUT!) &bull; 8 dạng bài A–H ({u_info['g_q_count']} câu hỏi)</p>
+                            <p>Lý thuyết trọng tâm &bull; 8 dạng bài tập thực hành A–H ({u_info['g_q_count']} câu hỏi)</p>
                         </div>
                     </div>
-                    <a href="lessons/unit-{u}/grammar_unit{u}.html" target="_blank" class="nav-item" style="border:1px solid #bfdbfe; font-size:12px; font-weight:700;">
-                        Mở Trang Grammar Độc Lập ↗
+                    <a href="lessons/unit-{u}/grammar_unit{u}.html" target="_blank" class="nav-item btn-standalone-link" style="border:1.5px solid #bfdbfe; font-size:12px; font-weight:700; background:#eff6ff; color:#1d4ed8; text-decoration:none; display:inline-flex; align-items:center; gap:6px; padding:6px 14px; border-radius:9999px;" title="Xem bài học ngữ pháp độc lập">
+                        Xem bài học ngữ pháp ↗
                     </a>
                 </div>
 
@@ -2306,9 +2306,18 @@ def generate_master_index(workspace_root, available_units, theory_db, output_fil
     print(f"Master index.html generated successfully at: {output_file}")
 
 
-def build_unified_portal(target_unit=None):
+def build_unified_portal(target_unit=None, grade=None):
     workspace_root = Path(__file__).resolve().parent.parent.parent.parent.parent
-    theory_db = load_grammar_theory_db(workspace_root).get("GS12", {})
+    if not grade:
+        if (workspace_root / "GS10.pdf").exists() or "GS10" in str(workspace_root):
+            grade = "GS10"
+        elif (workspace_root / "GS12.pdf").exists() or "GS12" in str(workspace_root):
+            grade = "GS12"
+        else:
+            grade = "GS10"
+
+    full_db = load_grammar_theory_db(workspace_root)
+    theory_db = full_db.get(grade, {})
     available_units = get_units_list(workspace_root)
     
     # Generate standalone files for each unit
@@ -2325,12 +2334,13 @@ def build_unified_portal(target_unit=None):
         theory_html = render_grammar_theory_html(u, u_theory)
         exercises_html = render_grammar_exercises_html(u, ex_files_dict, u_theory)
 
+        grade_num = grade[2:] if grade.startswith("GS") else grade
         standalone_html = f"""<!DOCTYPE html>
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Success 12 • Unit {u} - Grammar Lesson</title>
+    <title>Global Success {grade_num} • Unit {u} - Grammar Lesson</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -2377,10 +2387,11 @@ def build_unified_portal(target_unit=None):
 def main():
     parser = argparse.ArgumentParser(description="Grammar & Vocabulary Portal Builder")
     parser.add_argument("--unit", type=int, help="Build specific unit (1-10)")
+    parser.add_argument("--grade", type=str, default=None, help="Grade identifier (GS10, GS11, GS12)")
     parser.add_argument("--all", action="store_true", help="Build all units and master index.html")
     args = parser.parse_args()
 
-    build_unified_portal(target_unit=args.unit)
+    build_unified_portal(target_unit=args.unit, grade=args.grade)
 
 
 if __name__ == "__main__":

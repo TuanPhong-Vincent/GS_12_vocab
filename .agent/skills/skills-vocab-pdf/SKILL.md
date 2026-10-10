@@ -52,7 +52,7 @@ You are an expert educational publisher and digital curriculum typesetter. Your 
 ### Step 1: Compile the Standard HTML
 Run `build_vocab_pdf.py` to generate the master HTML:
 ```powershell
-python ".agent/skills/skills-vocab-pdf copy/scripts/build_vocab_pdf.py" unit-1
+python ".agent/skills/skills-vocab-pdf/scripts/build_vocab_pdf.py" unit-1
 ```
 This produces:
 - `lessons/<unit>/vocab/vocab_unit<N>.html`
