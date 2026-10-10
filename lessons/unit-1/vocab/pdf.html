@@ -1,0 +1,3323 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLOBAL SUCCESS 12 • Unit 1: LIFE STORIES WE ADMIRE - Student Workbook</title>
+    
+    <!-- DUY NHẤT 1 FONT CHỮ: PLUS JAKARTA SANS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --c-blue: #1d4ed8;       /* Header bài tập & Section headers */
+            --c-orange: #ea580c;     /* Hướng dẫn làm bài */
+            --c-black: #000000;      /* Mọi văn bản còn lại */
+            --c-white: #ffffff;      /* Background luôn trắng */
+            --font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+            font-family: var(--font-family) !important;
+            margin: 0;
+            padding: 0;
+            background-color: transparent;
+            border-color: var(--c-black);
+        }
+
+        html, body {
+            background: var(--c-white) !important;
+            color: var(--c-black) !important;
+            font-size: 10.5pt;
+            line-height: 1.38;
+            -webkit-print-color-adjust: exact !important;
+            print-color-adjust: exact !important;
+        }
+
+        @page {
+            size: A4 portrait;
+            margin: 7mm 9mm 7mm 9mm;
+        }
+
+        @media screen {
+            body {
+                background: #f1f5f9 !important;
+                padding: 16px 0 60px 0;
+            }
+            .floating-action-bar {
+                max-width: 210mm !important;
+            }
+            .document-full-wrap {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+            }
+            .textbook-sheet {
+                width: 210mm;
+                min-height: 297mm;
+                margin: 0 auto;
+                background: var(--c-white) !important;
+                padding: 7mm 9mm 7mm 9mm;
+                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+        }
+
+        @media print {
+            body {
+                background: var(--c-white) !important;
+                font-size: 10.5pt !important;
+                line-height: 1.38 !important;
+                margin: 0 !important;
+                padding: 0 !important;
+                width: 100% !important;
+            }
+            .no-print {
+                display: none !important;
+            }
+            .page-break {
+                page-break-before: always !important;
+                break-before: page !important;
+            }
+            .avoid-break {
+                page-break-inside: avoid !important;
+                break-inside: avoid !important;
+                -webkit-column-break-inside: avoid !important;
+                display: inline-block !important;
+                width: 100% !important;
+            }
+            .document-full-wrap {
+                width: 100% !important;
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+            .textbook-sheet {
+                width: 100% !important;
+                max-width: 100% !important;
+                margin: 0 !important;
+                padding: 0 !important;
+                box-shadow: none !important;
+                border-radius: 0 !important;
+                box-sizing: border-box;
+            }
+        }
+
+        /* THANH CÔNG CỤ */
+        .floating-action-bar {
+            position: sticky;
+            top: 10px;
+            z-index: 1000;
+            max-width: 1180px;
+            margin: 10px auto;
+            background: #ffffff !important;
+            border: 2px solid var(--c-blue);
+            border-radius: 8px;
+            padding: 8px 16px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-act {
+            padding: 6px 16px;
+            border-radius: 6px;
+            font-size: 10.5pt;
+            font-weight: 700;
+            cursor: pointer;
+            border: 1px solid var(--c-black);
+            background: #ffffff;
+            color: var(--c-black);
+        }
+
+        .btn-act-primary {
+            background: var(--c-blue) !important;
+            color: #ffffff !important;
+            border-color: var(--c-blue);
+        }
+
+        .btn-act-key {
+            background: #ffffff !important;
+            color: var(--c-orange) !important;
+            border-color: var(--c-orange);
+        }
+
+        /* SHEET HEADERS */
+        .sheet-top-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            border-bottom: 2px solid var(--c-black);
+            padding-bottom: 5px;
+            margin-bottom: 8px;
+        }
+
+        .unit-main-heading {
+            font-size: 18.5pt;
+            font-weight: 800;
+            color: var(--c-blue) !important;
+            margin: 0;
+            line-height: 1.1;
+            letter-spacing: 0.5px;
+        }
+
+        .unit-sub-heading {
+            font-size: 12.5pt;
+            color: var(--c-black);
+            font-weight: 700;
+            margin-top: 1px;
+            line-height: 1.2;
+        }
+
+        .unit-topic-tag {
+            font-size: 8.2pt;
+            font-weight: 700;
+            color: var(--c-orange);
+            letter-spacing: 0.8px;
+            margin-top: 2px;
+        }
+
+        .student-info-strip {
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+            font-size: 9.5pt;
+            color: var(--c-black);
+            text-align: right;
+        }
+
+        .running-header-bar {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid var(--c-black);
+            padding-bottom: 4px;
+            margin-bottom: 8px;
+            font-size: 9.2pt;
+            font-weight: 700;
+            color: var(--c-black);
+        }
+
+        .section-title-wrap {
+            margin-bottom: 6px;
+        }
+
+        .section-heading-blue {
+            font-size: 13pt;
+            font-weight: 800;
+            color: var(--c-blue) !important;
+            text-transform: uppercase;
+            letter-spacing: 0.2px;
+        }
+
+        .section-instruction-orange {
+            font-size: 10pt;
+            color: var(--c-orange) !important;
+            font-style: italic;
+            font-weight: 600;
+            margin-top: 1px;
+        }
+
+        .category-header-wrap {
+            margin-top: 8px;
+            margin-bottom: 6px;
+            border-left: 4px solid var(--c-blue);
+            padding-left: 10px;
+        }
+
+        .category-title-blue {
+            font-size: 12pt;
+            font-weight: 800;
+            color: var(--c-blue) !important;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+
+        .ex-heading-blue {
+            font-size: 12.8pt;
+            font-weight: 800;
+            color: var(--c-blue) !important;
+            margin-top: 12px;
+            margin-bottom: 3px;
+            border-bottom: 1.5px solid var(--c-blue);
+            padding-bottom: 2px;
+            page-break-after: avoid !important;
+            break-after: avoid !important;
+        }
+
+        .ex-guide-orange {
+            font-size: 10.4pt;
+            color: var(--c-orange) !important;
+            font-style: italic;
+            font-weight: 600;
+            margin-bottom: 7px;
+            page-break-after: avoid !important;
+            break-after: avoid !important;
+        }
+
+        /* PHẦN I: TỪ VỰNG */
+        .vocab-3col-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 14px;
+            width: 100%;
+        }
+
+        .page1-grid {
+            row-gap: 36px;
+            margin-top: 8px;
+            margin-bottom: 14px;
+        }
+
+        .page2-grid-cat {
+            row-gap: 28px;
+            margin-top: 6px;
+            margin-bottom: 12px;
+        }
+
+        .cat-separation-gap {
+            height: 20px;
+            width: 100%;
+            clear: both;
+        }
+
+        .vocab-grid-cell {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px dotted #000000;
+            break-inside: avoid;
+            page-break-inside: avoid;
+            box-sizing: border-box;
+        }
+
+        .p1-cell {
+            gap: 14px;
+            padding: 16px 0;
+        }
+
+        .p2-cell {
+            gap: 12px;
+            padding: 13px 0;
+        }
+
+        .p1-cell .v-img-frame {
+            width: 96px;
+            height: 90px;
+            min-width: 96px;
+        }
+
+        .p2-cell .v-img-frame {
+            width: 88px;
+            height: 82px;
+            min-width: 88px;
+        }
+
+        .v-img-frame {
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .v-img-frame img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            display: block;
+        }
+
+        .v-content-block {
+            flex-grow: 1;
+            line-height: 1.28;
+            color: var(--c-black);
+            min-width: 0;
+        }
+
+        .p1-cell .v-word-text {
+            font-size: 14.5pt;
+        }
+        .p2-cell .v-word-text {
+            font-size: 13.6pt;
+        }
+
+        .v-word-text {
+            font-weight: 800;
+            color: var(--c-black);
+            white-space: nowrap;
+        }
+
+        .v-word-line {
+            display: flex;
+            align-items: baseline;
+            gap: 4px;
+            margin-bottom: 2px;
+            flex-wrap: wrap;
+        }
+
+        .p1-cell .v-pos-text {
+            font-size: 10pt;
+        }
+        .p2-cell .v-pos-text {
+            font-size: 9.5pt;
+        }
+
+        .v-pos-text {
+            font-weight: 700;
+            color: var(--c-black);
+        }
+
+        .p1-cell .v-ipa-text {
+            font-size: 9.6pt;
+        }
+        .p2-cell .v-ipa-text {
+            font-size: 9.2pt;
+        }
+
+        .v-ipa-text {
+            color: var(--c-black);
+            font-style: italic;
+            margin-bottom: 2px;
+        }
+
+        .p1-cell .v-mean-text {
+            font-size: 12pt;
+            line-height: 1.4;
+        }
+        .p2-cell .v-mean-text {
+            font-size: 11.5pt;
+            line-height: 1.36;
+        }
+
+        .v-mean-text {
+            font-weight: 600;
+            color: var(--c-black);
+            margin-bottom: 2px;
+        }
+
+        .p1-cell .v-colloc {
+            font-size: 9.2pt;
+        }
+        .p2-cell .v-colloc {
+            font-size: 8.8pt;
+        }
+
+        .v-colloc {
+            color: var(--c-black);
+            display: block;
+        }
+
+        /* PHẦN II: BÀI TẬP */
+        .open-2col-flow {
+            column-count: 2;
+            column-gap: 22px;
+            width: 100%;
+        }
+
+        .exercise-open-section {
+            margin-bottom: 10px;
+            width: 100%;
+        }
+
+        .q-open-item {
+            display: inline-block;
+            width: 100%;
+            margin-bottom: 8px;
+            font-size: 10.5pt;
+            line-height: 1.4;
+            color: var(--c-black);
+            break-inside: avoid !important;
+            page-break-inside: avoid !important;
+            -webkit-column-break-inside: avoid !important;
+        }
+
+        .q-line-stem {
+            display: flex;
+            align-items: baseline;
+            gap: 5px;
+            margin-bottom: 2px;
+        }
+
+        .q-seq-num {
+            font-weight: 800;
+            color: var(--c-black);
+            min-width: 22px;
+            font-size: 10.8pt;
+        }
+
+        .q-stem-body {
+            color: var(--c-black);
+            font-weight: 500;
+            font-size: 10.8pt;
+        }
+
+        .q-choices-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 10px;
+            row-gap: 3px;
+            padding-left: 22px;
+            font-size: 10.2pt;
+        }
+
+        .opt-choice {
+            color: var(--c-black);
+        }
+
+        /* TEACHER KEY */
+        .teacher-key-line {
+            display: none;
+            color: var(--c-orange);
+            font-size: 9.5pt;
+            font-weight: 700;
+            margin-left: 22px;
+            margin-top: 1px;
+        }
+
+        .show-teacher-key-active .teacher-key-line {
+            display: block !important;
+        }
+
+        .key-check-mark {
+            display: none;
+            color: var(--c-orange);
+            font-weight: 800;
+            font-size: 9.5pt;
+            margin-left: 3px;
+        }
+
+        .show-teacher-key-active .key-correct-target .key-check-mark {
+            display: inline !important;
+        }
+        .show-teacher-key-active .key-correct-target {
+            font-weight: 700;
+            color: var(--c-orange) !important;
+        }
+
+        /* BÀI 1 & 2 (TRANG 3) */
+        .ex1-item, .ex2-item {
+            margin-bottom: 26px !important;
+            font-size: 11.4pt !important;
+            line-height: 1.5 !important;
+        }
+        .ex1-item .q-seq-num, .ex2-item .q-seq-num {
+            font-size: 11.4pt !important;
+            min-width: 24px !important;
+        }
+        .ex1-item .q-stem-body, .ex2-item .q-stem-body {
+            font-size: 11.4pt !important;
+        }
+        .ex1-item .q-choices-grid, .ex2-item .q-choices-grid {
+            row-gap: 6px !important;
+            font-size: 11pt !important;
+            padding-left: 24px !important;
+        }
+
+        /* BÀI 3: HỘI THOẠI (TRANG 4) */
+        .ex3-item {
+            margin-bottom: 10px !important;
+            font-size: 10.2pt !important;
+            line-height: 1.35 !important;
+        }
+        .ex3-item .open-dialogue {
+            border-left: 2.5px solid var(--c-black);
+            padding-left: 8px;
+            margin-bottom: 4px;
+            font-size: 10.2pt;
+            line-height: 1.32;
+        }
+        .ex3-item .q-choices-grid {
+            row-gap: 3.5px !important;
+            column-gap: 8px !important;
+            font-size: 9.8pt !important;
+            line-height: 1.25 !important;
+        }
+
+        /* BÀI 4: TRANH ẢNH (TRANG 4) */
+        .pic-4col-grid {
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+            gap: 8px 12px;
+            width: 100% !important;
+            box-sizing: border-box !important;
+        }
+
+        .pic-open-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            box-sizing: border-box;
+            break-inside: avoid;
+            page-break-inside: avoid;
+        }
+
+        .pic-big-frame {
+            width: 100%;
+            height: 68px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 4px;
+            overflow: hidden;
+        }
+
+        .pic-big-frame img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            border-radius: 3px;
+        }
+
+        .pic-label-row {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 0 4px;
+        }
+
+        .pic-q-num {
+            font-size: 10.2pt;
+            font-weight: 700;
+            color: var(--c-black);
+            flex-shrink: 0;
+        }
+
+        .pic-dotted-slot {
+            flex-grow: 1;
+            border-bottom: 1.4px dotted #000000;
+            height: 18px;
+            display: block;
+        }
+
+        .open-dotted-line {
+            color: var(--c-black);
+            letter-spacing: -1px;
+            font-family: monospace !important;
+        }
+
+        /* BÀI 5: TỪ THEO NGHĨA (TRANG 5) */
+        .ex5-item {
+            margin-bottom: 16px !important;
+            font-size: 11.2pt !important;
+            line-height: 1.5 !important;
+        }
+        .ex5-item .q-seq-num {
+            font-size: 11.2pt !important;
+        }
+        .sub-parts-wrap {
+            flex-grow: 1;
+        }
+        .write-sub-item {
+            margin-bottom: 3px;
+        }
+
+        /* BÀI 6: WORD BOX (TRANG 5) */
+        .ex6-item {
+            margin-bottom: 16px !important;
+            font-size: 11.2pt !important;
+            line-height: 1.5 !important;
+        }
+        .ex6-item .q-seq-num {
+            font-size: 11.2pt !important;
+        }
+        .open-word-box {
+            border-top: 1.5px solid var(--c-black);
+            border-bottom: 1.5px solid var(--c-black);
+            padding: 7px 0;
+            margin-bottom: 12px;
+            font-size: 11.4pt;
+            color: var(--c-black);
+            page-break-after: avoid !important;
+            break-after: avoid !important;
+        }
+
+        .blank-open-slot {
+            font-weight: 600;
+            color: var(--c-black);
+        }
+
+        /* BÀI 7: ĐOẠN VĂN (TRANG 5 & TRANG 6) */
+        .open-passage-block {
+            margin-bottom: 8px;
+        }
+
+        .passage-body-text {
+            font-size: 11.8pt;
+            line-height: 1.76;
+            color: var(--c-black);
+            margin-bottom: 12px;
+        }
+
+        .para-slot-inline {
+            display: inline-block;
+            margin: 0 2px;
+        }
+
+        .passage-answer-grid-5 {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px 14px;
+            font-size: 10.8pt;
+            border-top: 1.4px dotted var(--c-black);
+            border-bottom: 1.4px dotted var(--c-black);
+            padding: 10px 0;
+            margin-bottom: 18px;
+        }
+
+        /* BÀI 8: SẮP XẾP CÂU (TRANG 6) */
+        .so-item {
+            margin-bottom: 22px !important;
+            font-size: 11pt !important;
+        }
+        .so-lead {
+            font-weight: 700;
+            color: var(--c-black);
+            margin-bottom: 5px;
+            font-size: 11.5pt;
+        }
+        .so-sub-lines {
+            margin-left: 16px;
+            margin-bottom: 8px;
+            font-size: 11pt;
+            line-height: 1.52;
+        }
+        .so-choices-row {
+            display: flex;
+            gap: 24px;
+            font-size: 11pt;
+            margin-top: 5px;
+        }
+
+        /* BÀI 9 & 10 (TRANG 6 & TRANG 7) */
+        .ex9-item {
+            margin-bottom: 22px !important;
+            font-size: 11.4pt !important;
+            line-height: 1.5 !important;
+        }
+        .ex9-item .q-seq-num {
+            font-size: 11.4pt !important;
+            min-width: 24px !important;
+        }
+        .ex9-item .q-choices-grid {
+            row-gap: 6px !important;
+            font-size: 11pt !important;
+            padding-left: 24px !important;
+        }
+        .ex10-item {
+            margin-bottom: 26px !important;
+            font-size: 11.4pt !important;
+            line-height: 1.5 !important;
+        }
+        .ex10-item .q-seq-num {
+            font-size: 11.4pt !important;
+            min-width: 24px !important;
+        }
+        .ex10-item .q-choices-grid {
+            row-gap: 5.5px !important;
+            font-size: 11pt !important;
+            padding-left: 24px !important;
+        }
+
+        /* BÀI 11: TỪ ĐIỂN MỞ (TRANG 7) */
+        .dict-open-entry {
+            display: inline-block;
+            width: 100%;
+            margin-bottom: 28px;
+            font-size: 10.8pt;
+            line-height: 1.45;
+            border-bottom: 1.2px dotted #000000;
+            padding-bottom: 14px;
+            break-inside: avoid;
+        }
+        .dict-head-text {
+            font-size: 12.5pt;
+            font-weight: 800;
+            color: var(--c-black);
+            margin-bottom: 4px;
+        }
+        .ipa-faded {
+            font-style: italic;
+        }
+        .dict-def-line {
+            font-size: 11pt;
+            margin-bottom: 5px;
+            line-height: 1.42;
+        }
+        .dict-bullets-inline {
+            padding-left: 18px;
+            margin-bottom: 6px;
+            font-size: 10.5pt;
+            line-height: 1.4;
+        }
+        .dict-sentences-box {
+            font-size: 10.8pt;
+            line-height: 1.48;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        /* BÀI 12: BIỂN BÁO (TRANG 8) */
+        .sign-open-item {
+            display: inline-flex;
+            width: 100%;
+            gap: 14px;
+            margin-bottom: 22px;
+            align-items: flex-start;
+            break-inside: avoid;
+        }
+
+        .sign-media-col {
+            width: 105px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 3px;
+            flex-shrink: 0;
+        }
+
+        .sign-tag-title {
+            font-size: 10.6pt;
+            font-weight: 800;
+            color: var(--c-black);
+        }
+
+        .sign-large-img {
+            max-width: 100%;
+            height: 96px;
+            max-height: 96px;
+            object-fit: contain;
+        }
+
+        .sign-desc-col {
+            flex-grow: 1;
+            font-size: 10.2pt;
+        }
+
+        .sign-stem-txt {
+            color: var(--c-black);
+            font-size: 11.2pt;
+            font-weight: 700;
+            line-height: 1.36;
+            margin-bottom: 5px;
+        }
+
+        .sign-options-stack {
+            display: flex;
+            flex-direction: column;
+            gap: 4.5px;
+            font-size: 10.2pt;
+            line-height: 1.32;
+        }
+
+        /* BÀI 13: BẢNG TỪ LOẠI (TRANG 9) */
+        .clean-open-table {
+            width: 100%;
+            table-layout: fixed;
+            border-collapse: collapse;
+            font-size: 11pt;
+            margin-bottom: 18px;
+        }
+
+        .clean-open-table th {
+            border-top: 1.5px solid var(--c-black);
+            border-bottom: 1.5px solid var(--c-black);
+            padding: 8px 8px;
+            color: var(--c-black);
+            font-weight: 800;
+            font-size: 11.2pt;
+            text-align: left;
+        }
+
+        .clean-open-table td {
+            border-bottom: 1px dotted #000000;
+            padding: 8px 8px;
+            color: var(--c-black);
+            font-size: 11pt;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        /* BÀI 14 & 15 (TRANG 9) */
+        .ex14-item, .ex15-item {
+            margin-bottom: 22px !important;
+            font-size: 11.2pt !important;
+            line-height: 1.45 !important;
+        }
+        .ex14-item .q-seq-num, .ex15-item .q-seq-num {
+            font-size: 11.2pt !important;
+            min-width: 24px !important;
+        }
+        .ex14-item .q-stem-body, .ex15-item .q-stem-body {
+            font-size: 11.2pt !important;
+        }
+        .ex14-item .q-choices-grid {
+            row-gap: 5px !important;
+            font-size: 10.8pt !important;
+            padding-left: 24px !important;
+        }
+
+        /* BÀI 16: DỊCH CÂU (TRANG 10) */
+        .trans-1col-stack {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            width: 100%;
+        }
+        .trans-open-row {
+            margin-bottom: 34px;
+            font-size: 12.5pt;
+            line-height: 1.55;
+        }
+        .trans-vi-text {
+            font-weight: 700;
+            color: var(--c-black);
+            margin-bottom: 8px;
+            font-size: 12.5pt;
+        }
+        .trans-write-slot {
+            display: flex;
+            align-items: flex-end;
+            gap: 8px;
+            height: 27px;
+            margin-top: 8px;
+            width: 100%;
+        }
+        .trans-arrow {
+            font-weight: bold;
+            color: var(--c-black);
+            flex-shrink: 0;
+            font-size: 12.5pt;
+            line-height: 1;
+        }
+        .trans-indent {
+            width: 14px;
+            flex-shrink: 0;
+        }
+        .trans-dotted-rule {
+            flex-grow: 1;
+            border-bottom: 1.4px dotted var(--c-black);
+            height: 100%;
+        }
+
+        /* BẢNG ĐÁP ÁN (TRANG 11) */
+        .answer-key-sheet {
+            padding-top: 0 !important;
+        }
+
+        .ak-4col-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 12px 14px;
+            margin-top: 10px;
+        }
+
+        .ak-item-open {
+            font-size: 9.4pt;
+            border-top: 1.3px solid var(--c-black);
+            padding-top: 6px;
+        }
+
+        .ak-item-title {
+            font-size: 10.2pt;
+            font-weight: 800;
+            color: var(--c-blue) !important;
+            margin-bottom: 4px;
+        }
+
+        .ak-flow {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px 8px;
+            font-size: 9pt;
+            line-height: 1.32;
+        }
+
+        .ak-stack {
+            font-size: 8.6pt;
+            line-height: 1.28;
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+        }
+
+        .ak-chip {
+            white-space: nowrap;
+        }
+
+        .hide-key-mode #page-answer-key {
+            display: none !important;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- THANH ĐIỀU KHIỂN NỔI -->
+    <div class="floating-action-bar no-print">
+        <div style="display: flex; align-items: center; gap: 10px;">
+            <button class="btn-act btn-act-primary" onclick="window.print()">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align: middle; margin-right: 5px;"><path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+                In Sách / Xuất PDF (Ctrl + P)
+            </button>
+            <button class="btn-act btn-act-key" id="btnToggleKey" onclick="toggleTeacherKey()">
+                👁️ Bật Đáp Án Nhanh
+            </button>
+        </div>
+        <div>
+            <button class="btn-act" id="btnToggleAk" onclick="toggleAnswerKey()">
+                📋 In Kèm Bảng Đáp Án: BẬT
+            </button>
+        </div>
+    </div>
+
+    <!-- TỔNG THỂ TOÀN TẬP TÀI LIỆU -->
+    <div class="document-full-wrap" id="docRoot">
+        
+    <!-- TRANG 1: HEADER & CORE VOCABULARY -->
+    <div class="textbook-sheet page-1-vocab" id="page-1">
+        <header class="sheet-top-header">
+            <div class="header-titles">
+                <h1 class="unit-main-heading">GLOBAL SUCCESS 12</h1>
+                <div class="unit-sub-heading">Unit 1: LIFE STORIES WE ADMIRE</div>
+                <div class="unit-topic-tag">CORE VOCABULARY & PRACTICE WORKBOOK</div>
+            </div>
+            <div class="student-info-strip">
+                <div class="si-item"><b>Full Name:</b> ............................................................</div>
+                <div class="si-item"><b>Class:</b> .................. &nbsp;&nbsp; <b>Date:</b> ....................</div>
+            </div>
+        </header>
+
+        <div class="section-title-wrap">
+            <h2 class="section-heading-blue">PART I: CORE VOCABULARY</h2>
+            <div class="section-instruction-orange">Study the core words, pronunciations, meanings, and collocations:</div>
+        </div>
+
+        
+        <div class="category-header-wrap">
+            <h3 class="category-title-blue">CATEGORY 1: LIFE STAGES AND MILESTONES (12 words)</h3>
+        </div>
+        <div class="vocab-3col-grid page1-grid">
+            
+    <div class="vocab-grid-cell p1-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/childhood.webp" alt="childhood" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">childhood</span>
+                <span class="v-pos-text">(n)</span>
+            </div>
+            <div class="v-ipa-text">/ˈtʃaɪldhʊd/</div>
+            <div class="v-mean-text">thời thơ ấu, tuổi thơ</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p1-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/youth.webp" alt="youth" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">youth</span>
+                <span class="v-pos-text">(n)</span>
+            </div>
+            <div class="v-ipa-text">/juːθ/</div>
+            <div class="v-mean-text">tuổi trẻ, thời thanh xuân</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p1-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/attend-school.webp" alt="attend school" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">attend school</span>
+                <span class="v-pos-text">(v.phr)</span>
+            </div>
+            <div class="v-ipa-text">/əˈtend skul/</div>
+            <div class="v-mean-text">đi học, theo học ở trường</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p1-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/attend-college.webp" alt="attend college" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">attend college</span>
+                <span class="v-pos-text">(v.phr)</span>
+            </div>
+            <div class="v-ipa-text">/əˈtend ˈkɑːlɪdʒ/</div>
+            <div class="v-mean-text">theo học cao đẳng, học đại học</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p1-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/drop-out.webp" alt="drop out" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">drop out</span>
+                <span class="v-pos-text">(phr.v)</span>
+            </div>
+            <div class="v-ipa-text">/drɑːp aʊt/</div>
+            <div class="v-mean-text">bỏ học, nghỉ học giữa chừng</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p1-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/marriage.webp" alt="marriage" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">marriage</span>
+                <span class="v-pos-text">(n)</span>
+            </div>
+            <div class="v-ipa-text">/ˈmærɪdʒ/</div>
+            <div class="v-mean-text">cuộc hôn nhân, sự kết hôn</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p1-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/have-a-long-marriage.webp" alt="have a long marriage" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">have a long marriage</span>
+                <span class="v-pos-text">(v.phr)</span>
+            </div>
+            <div class="v-ipa-text">/hæv ə lɔːŋ ˈmærɪdʒ/</div>
+            <div class="v-mean-text">có một cuộc hôn nhân lâu dài</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p1-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/adopt.webp" alt="adopt" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">adopt</span>
+                <span class="v-pos-text">(v)</span>
+            </div>
+            <div class="v-ipa-text">/əˈdɑːpt/</div>
+            <div class="v-mean-text">nhận nuôi (con nuôi)</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p1-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/biological-parents.webp" alt="biological parents" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">biological parents</span>
+                <span class="v-pos-text">(n.phr)</span>
+            </div>
+            <div class="v-ipa-text">/ˌbaɪəˈlɑːdʒɪkl ˈperənts/</div>
+            <div class="v-mean-text">cha mẹ ruột</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p1-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/cancer.webp" alt="cancer" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">cancer</span>
+                <span class="v-pos-text">(n)</span>
+            </div>
+            <div class="v-ipa-text">/ˈkænsɚ/</div>
+            <div class="v-mean-text">bệnh ung thư</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p1-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/pass-away.webp" alt="pass away" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">pass away</span>
+                <span class="v-pos-text">(phr.v)</span>
+            </div>
+            <div class="v-ipa-text">/pæs əˈweɪ/</div>
+            <div class="v-mean-text">qua đời, mất (nói giảm nói tránh)</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p1-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/death.webp" alt="death" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">death</span>
+                <span class="v-pos-text">(n)</span>
+            </div>
+            <div class="v-ipa-text">/deθ/</div>
+            <div class="v-mean-text">cái chết, sự qua đời</div>
+            
+        </div>
+    </div>
+        </div>
+        <div class="category-header-wrap">
+            <h3 class="category-title-blue">CATEGORY 2: PERSONALITY AND CHARACTER (10 words)</h3>
+        </div>
+        <div class="vocab-3col-grid page1-grid">
+            
+    <div class="vocab-grid-cell p1-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/genius.webp" alt="genius" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">genius</span>
+                <span class="v-pos-text">(n)</span>
+            </div>
+            <div class="v-ipa-text">/ˈdʒiːniəs/</div>
+            <div class="v-mean-text">thiên tài</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p1-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/visionary.webp" alt="visionary" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">visionary</span>
+                <span class="v-pos-text">(n)</span>
+            </div>
+            <div class="v-ipa-text">/ˈvɪʒəneri/</div>
+            <div class="v-mean-text">người nhìn xa trông rộng, nhà lãnh đạo có tầm nhìn</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p1-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/determination.webp" alt="determination" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">determination</span>
+                <span class="v-pos-text">(n)</span>
+            </div>
+            <div class="v-ipa-text">/dɪˌtɝːmɪˈneɪʃn/</div>
+            <div class="v-mean-text">sự quyết tâm, lòng kiên định</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p1-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/ambitious.webp" alt="ambitious" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">ambitious</span>
+                <span class="v-pos-text">(adj)</span>
+            </div>
+            <div class="v-ipa-text">/æmˈbɪʃəs/</div>
+            <div class="v-mean-text">có nhiều hoài bão, giàu tham vọng</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p1-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/well-educated.webp" alt="well educated" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">well educated</span>
+                <span class="v-pos-text">(adj)</span>
+            </div>
+            <div class="v-ipa-text">/ˌwel ˈedʒukeɪtɪd/</div>
+            <div class="v-mean-text">có học thức cao, được giáo dục tốt</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p1-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/dedicated-to.webp" alt="dedicated to" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">dedicated to</span>
+                <span class="v-pos-text">(adj.phr)</span>
+            </div>
+            <div class="v-ipa-text">/ˈdedɪkeɪtɪd tuː/</div>
+            <div class="v-mean-text">tận tâm, cống hiến hết mình cho</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p1-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/devote-to.webp" alt="devote to" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">devote to</span>
+                <span class="v-pos-text">(v.phr)</span>
+            </div>
+            <div class="v-ipa-text">/dɪˈvoʊt tuː/</div>
+            <div class="v-mean-text">cống hiến, dành hết tâm huyết cho</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p1-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/admire.webp" alt="admire" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">admire</span>
+                <span class="v-pos-text">(v)</span>
+            </div>
+            <div class="v-ipa-text">/ədˈmaɪɚ/</div>
+            <div class="v-mean-text">ngưỡng mộ, khâm phục</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p1-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/be-admired-for.webp" alt="be admired for" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">be admired for</span>
+                <span class="v-pos-text">(v.phr)</span>
+            </div>
+            <div class="v-ipa-text">/bi ədˈmaɪɚd fɔːr/</div>
+            <div class="v-mean-text">được ngưỡng mộ/khâm phục vì điều gì</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p1-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/bond-over.webp" alt="bond over" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">bond over</span>
+                <span class="v-pos-text">(phr.v)</span>
+            </div>
+            <div class="v-ipa-text">/bɑːnd ˈoʊvɚ/</div>
+            <div class="v-mean-text">gắn kết, trở nên thân thiết nhờ sở thích chung</div>
+            
+        </div>
+    </div>
+        </div>
+    </div>
+    
+
+    <!-- TRANG 2: CÁC CATEGORIES TIẾP THEO -->
+    <div class="textbook-sheet page-2-vocab page-break" id="page-2">
+        <header class="running-header-bar">
+            <span class="rh-left">GLOBAL SUCCESS 12 • UNIT 1: LIFE STORIES WE ADMIRE</span>
+            <span class="rh-right">PART I: CORE VOCABULARY (CONT.)</span>
+        </header>
+
+        
+        
+        <div class="category-header-wrap" style="margin-top: 4px;">
+            <h3 class="category-title-blue">CATEGORY 3: ACHIEVEMENTS AND SUCCESS (8 words)</h3>
+        </div>
+        <div class="vocab-3col-grid page2-grid-cat">
+            
+    <div class="vocab-grid-cell p2-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/achievement.webp" alt="achievement" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">achievement</span>
+                <span class="v-pos-text">(n)</span>
+            </div>
+            <div class="v-ipa-text">/əˈtʃiːvmənt/</div>
+            <div class="v-mean-text">thành tựu, thành tích</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p2-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/impressive-achievement.webp" alt="impressive achievement" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">impressive achievement</span>
+                <span class="v-pos-text">(n.phr)</span>
+            </div>
+            <div class="v-ipa-text">/ɪmˈpresɪv əˈtʃiːvmənt/</div>
+            <div class="v-mean-text">thành tựu ấn tượng</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p2-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/national-hero.webp" alt="national hero" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">national hero</span>
+                <span class="v-pos-text">(n.phr)</span>
+            </div>
+            <div class="v-ipa-text">/ˌnæʃnəl ˈhɪroʊ/</div>
+            <div class="v-mean-text">anh hùng dân tộc</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p2-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/military-genius.webp" alt="military genius" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">military genius</span>
+                <span class="v-pos-text">(n.phr)</span>
+            </div>
+            <div class="v-ipa-text">/ˈmɪləteri ˈdʒiːniəs/</div>
+            <div class="v-mean-text">thiên tài quân sự</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p2-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/cutting-edge-technology.webp" alt="cutting-edge technology" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">cutting-edge technology</span>
+                <span class="v-pos-text">(n.phr)</span>
+            </div>
+            <div class="v-ipa-text">/ˌkʌtɪŋ edʒ tekˈnɑːlədʒi/</div>
+            <div class="v-mean-text">công nghệ tiên tiến nhất, công nghệ đỉnh cao</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p2-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/blockbuster.webp" alt="blockbuster" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">blockbuster</span>
+                <span class="v-pos-text">(n)</span>
+            </div>
+            <div class="v-ipa-text">/ˈblɑːkbʌstɚ/</div>
+            <div class="v-mean-text">phim bom tấn (rất thành công và thu hút đông đảo người xem)</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p2-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/tourist-attraction.webp" alt="tourist attraction" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">tourist attraction</span>
+                <span class="v-pos-text">(n.phr)</span>
+            </div>
+            <div class="v-ipa-text">/ˈtʊrɪst əˈtrækʃn/</div>
+            <div class="v-mean-text">điểm thu hút khách du lịch, địa điểm du lịch</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p2-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/theme-park.webp" alt="theme park" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">theme park</span>
+                <span class="v-pos-text">(n.phr)</span>
+            </div>
+            <div class="v-ipa-text">/ˈθiːm pɑːrk/</div>
+            <div class="v-mean-text">công viên giải trí theo chủ đề</div>
+            
+        </div>
+    </div>
+        </div>
+        <div class='cat-separation-gap'></div>
+        <div class="category-header-wrap" style="margin-top: 4px;">
+            <h3 class="category-title-blue">CATEGORY 4: HISTORY AND LEADERSHIP (8 words)</h3>
+        </div>
+        <div class="vocab-3col-grid page2-grid-cat">
+            
+    <div class="vocab-grid-cell p2-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/rule.webp" alt="rule" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">rule</span>
+                <span class="v-pos-text">(v)</span>
+            </div>
+            <div class="v-ipa-text">/ruːl/</div>
+            <div class="v-mean-text">cai trị, trị vì</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p2-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/kingdom.webp" alt="kingdom" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">kingdom</span>
+                <span class="v-pos-text">(n)</span>
+            </div>
+            <div class="v-ipa-text">/ˈkɪŋdəm/</div>
+            <div class="v-mean-text">vương quốc</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p2-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/independent.webp" alt="independent" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">independent</span>
+                <span class="v-pos-text">(adj)</span>
+            </div>
+            <div class="v-ipa-text">/ˌɪndɪˈpendənt/</div>
+            <div class="v-mean-text">độc lập, tự chủ</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p2-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/defeat.webp" alt="defeat" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">defeat</span>
+                <span class="v-pos-text">(v)</span>
+            </div>
+            <div class="v-ipa-text">/dɪˈfiːt/</div>
+            <div class="v-mean-text">đánh bại, đánh thắng</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p2-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/resistance-war.webp" alt="resistance war" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">resistance war</span>
+                <span class="v-pos-text">(n.phr)</span>
+            </div>
+            <div class="v-ipa-text">/rɪˈzɪstəns wɔːr/</div>
+            <div class="v-mean-text">cuộc kháng chiến</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p2-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/surgeon.webp" alt="surgeon" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">surgeon</span>
+                <span class="v-pos-text">(n)</span>
+            </div>
+            <div class="v-ipa-text">/ˈsɝːdʒən/</div>
+            <div class="v-mean-text">bác sĩ phẫu thuật</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p2-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/field-hospital.webp" alt="field hospital" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">field hospital</span>
+                <span class="v-pos-text">(n.phr)</span>
+            </div>
+            <div class="v-ipa-text">/ˈfiːld hɑːspɪtl/</div>
+            <div class="v-mean-text">bệnh viện dã chiến</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p2-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/carry-out-attacks.webp" alt="carry out attacks" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">carry out attacks</span>
+                <span class="v-pos-text">(v.phr)</span>
+            </div>
+            <div class="v-ipa-text">/ˌkæri aʊt əˈtæks/</div>
+            <div class="v-mean-text">thực hiện các cuộc tấn công, tiến hành đánh úp</div>
+            
+        </div>
+    </div>
+        </div>
+        <div class='cat-separation-gap'></div>
+        <div class="category-header-wrap" style="margin-top: 4px;">
+            <h3 class="category-title-blue">CATEGORY 5: BIOGRAPHY AND MEDIA (5 words)</h3>
+        </div>
+        <div class="vocab-3col-grid page2-grid-cat">
+            
+    <div class="vocab-grid-cell p2-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/biography.webp" alt="biography" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">biography</span>
+                <span class="v-pos-text">(n)</span>
+            </div>
+            <div class="v-ipa-text">/baɪˈɑːɡrəfi/</div>
+            <div class="v-mean-text">tiểu sử, truyện ký</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p2-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/account.webp" alt="account" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">account</span>
+                <span class="v-pos-text">(n)</span>
+            </div>
+            <div class="v-ipa-text">/əˈkaʊnt/</div>
+            <div class="v-mean-text">lời kể, sự thuật lại sự việc đã xảy ra</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p2-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/animator.webp" alt="animator" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">animator</span>
+                <span class="v-pos-text">(n)</span>
+            </div>
+            <div class="v-ipa-text">/ˈænɪmeɪtɚ/</div>
+            <div class="v-mean-text">họa sĩ hoạt hình, người làm phim hoạt hình</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p2-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/film-producer.webp" alt="film producer" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">film producer</span>
+                <span class="v-pos-text">(n.phr)</span>
+            </div>
+            <div class="v-ipa-text">/ˈfɪlm prəˌduːsɚ/</div>
+            <div class="v-mean-text">nhà sản xuất phim</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p2-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/computer-animation.webp" alt="computer animation" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">computer animation</span>
+                <span class="v-pos-text">(n.phr)</span>
+            </div>
+            <div class="v-ipa-text">/kəmˈpjuːtɚ ˌænɪˈmeɪʃn/</div>
+            <div class="v-mean-text">hoạt hình vi tính, kỹ xảo hoạt họa máy tính</div>
+            
+        </div>
+    </div>
+        </div>
+        <div class='cat-separation-gap'></div>
+        <div class="category-header-wrap" style="margin-top: 4px;">
+            <h3 class="category-title-blue">CATEGORY 6: IDIOMS AND EXPRESSIONS (3 words)</h3>
+        </div>
+        <div class="vocab-3col-grid page2-grid-cat">
+            
+    <div class="vocab-grid-cell p2-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/on-top-of-the-world.webp" alt="on top of the world" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">on top of the world</span>
+                <span class="v-pos-text">(idiom)</span>
+            </div>
+            <div class="v-ipa-text">/ɑːn tɑːp əv ðə wɝːld/</div>
+            <div class="v-mean-text">vô cùng hạnh phúc, vui sướng ngất ngây</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p2-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/on-cloud-nine.webp" alt="on cloud nine" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">on cloud nine</span>
+                <span class="v-pos-text">(idiom)</span>
+            </div>
+            <div class="v-ipa-text">/ɑːn klaʊd naɪn/</div>
+            <div class="v-mean-text">lâng lâng sung sướng, ngập tràn hạnh phúc</div>
+            
+        </div>
+    </div>
+    <div class="vocab-grid-cell p2-cell">
+        <div class="v-img-frame">
+            <img src="../../media/gs12/unit-1/images/over-the-moon.webp" alt="over the moon" onerror="this.style.opacity='0.2';">
+        </div>
+        <div class="v-content-block">
+            <div class="v-word-line">
+                <span class="v-word-text">over the moon</span>
+                <span class="v-pos-text">(idiom)</span>
+            </div>
+            <div class="v-ipa-text">/ˈoʊvɚ ðə muːn/</div>
+            <div class="v-mean-text">sướng rơn, vui mừng khôn xiết</div>
+            
+        </div>
+    </div>
+        </div>
+    </div>
+    
+        
+    <!-- TRANG 3: BÀI TẬP 1 & 2 -->
+    <div class="textbook-sheet exercises-sheet page-break" id="page-3-exercises">
+        <header class="running-header-bar">
+            <span class="rh-left">GLOBAL SUCCESS 12 • UNIT 1: LIFE STORIES WE ADMIRE</span>
+            <span class="rh-right">PART II: PRACTICE EXERCISES</span>
+        </header>
+
+        <div class="section-title-wrap" style="margin-top: 6px; margin-bottom: 4px;">
+            <h2 class="section-heading-blue">PART II: PRACTICE EXERCISES</h2>
+            <div class="section-instruction-orange">Complete all 16 exercises based on Unit core vocabulary:</div>
+        </div>
+
+        <div class="exercise-open-section" id="ex-1">
+            <h3 class="ex-heading-blue">Exercise 1: Vocabulary Identification</h3>
+            <div class="ex-guide-orange">Choose the best answer (A, B, C, or D) to complete each definition or question:</div>
+            <div class="ex-open-content"><div class='open-2col-flow'>
+            <div class="q-open-item avoid-break ex1-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>1.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>Which phrase refers to leaving university or school before completing your studies?</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice key-correct-target'><b>A.</b> drop out<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>B.</b> attend school</span><span class='opt-choice '><b>C.</b> bond over</span><span class='opt-choice '><b>D.</b> pass away</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>drop out</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex1-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>2.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>What do we call an artist who creates drawings and digital models for animated movies?</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> a film producer</span><span class='opt-choice '><b>B.</b> a military genius</span><span class='opt-choice '><b>C.</b> a surgeon</span><span class='opt-choice key-correct-target'><b>D.</b> an animator<span class='key-check-mark'>✓</span></span>
+                </div>
+                <div class="teacher-key-line">Key: <b>an animator</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex1-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>3.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>Which term describes an extraordinary accomplishment that earns widespread praise?</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> a biological parent</span><span class='opt-choice '><b>B.</b> cutting-edge technology</span><span class='opt-choice '><b>C.</b> a tourist attraction</span><span class='opt-choice key-correct-target'><b>D.</b> an impressive achievement<span class='key-check-mark'>✓</span></span>
+                </div>
+                <div class="teacher-key-line">Key: <b>an impressive achievement</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex1-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>4.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>What kind of medical facility is temporarily set up near a combat zone to treat wounded soldiers?</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice key-correct-target'><b>A.</b> a field hospital<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>B.</b> a theme park</span><span class='opt-choice '><b>C.</b> a craft village</span><span class='opt-choice '><b>D.</b> a college campus</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>a field hospital</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex1-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>5.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>Which idiom describes a feeling of extreme happiness and elation?</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> under the weather</span><span class='opt-choice '><b>B.</b> down in the dumps</span><span class='opt-choice '><b>C.</b> at a crossroads</span><span class='opt-choice key-correct-target'><b>D.</b> on top of the world<span class='key-check-mark'>✓</span></span>
+                </div>
+                <div class="teacher-key-line">Key: <b>on top of the world</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex1-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>6.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>What is a book recounting a real person&#x27;s life history called?</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> a kingdom</span><span class='opt-choice key-correct-target'><b>B.</b> a biography<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>C.</b> an animation</span><span class='opt-choice '><b>D.</b> a blockbuster</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>a biography</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex1-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>7.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>Which adjective describes someone who has a strong desire to achieve great success or power?</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> visionary</span><span class='opt-choice '><b>B.</b> independent</span><span class='opt-choice key-correct-target'><b>C.</b> ambitious<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>D.</b> well educated</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>ambitious</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex1-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>8.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>What title is given to a courageous historical figure who fought to defend or liberate their nation?</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice key-correct-target'><b>A.</b> a national hero<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>B.</b> a film producer</span><span class='opt-choice '><b>C.</b> a talented artist</span><span class='opt-choice '><b>D.</b> a young genius</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>a national hero</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex1-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>9.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>What is the professional title of a doctor who specializes in performing surgical operations?</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> an animator</span><span class='opt-choice '><b>B.</b> a volunteer</span><span class='opt-choice key-correct-target'><b>C.</b> a surgeon<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>D.</b> a journalist</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>a surgeon</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex1-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>10.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>Which phrase refers to the mother and father who are genetically related to their child?</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> extended family</span><span class='opt-choice key-correct-target'><b>B.</b> biological parents<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>C.</b> elderly couple</span><span class='opt-choice '><b>D.</b> adoptive parents</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>biological parents</b></div>
+            </div></div></div>
+        </div>
+
+        <div class="exercise-open-section" id="ex-2">
+            <h3 class="ex-heading-blue">Exercise 2: Sentence Completion</h3>
+            <div class="ex-guide-orange">Choose the most appropriate word or phrase to complete each sentence:</div>
+            <div class="ex-open-content"><div class='open-2col-flow'>
+            <div class="q-open-item avoid-break ex2-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>1.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>While the young pianist was performing her solo recital, the audience recognized her remarkable musical __________.</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> marriage</span><span class='opt-choice '><b>B.</b> cancer</span><span class='opt-choice '><b>C.</b> death</span><span class='opt-choice key-correct-target'><b>D.</b> genius<span class='key-check-mark'>✓</span></span>
+                </div>
+                <div class="teacher-key-line">Key: <b>genius</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex2-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>2.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>The tech company invested heavily in __________ to build energy-efficient electric aircraft.</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> tourist attraction</span><span class='opt-choice '><b>B.</b> computer animation</span><span class='opt-choice key-correct-target'><b>C.</b> cutting-edge technology<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>D.</b> resistance war</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>cutting-edge technology</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex2-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>3.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>After completing secondary school in Manchester, Liam decided to __________ to study astrophysics.</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> carry out attacks</span><span class='opt-choice '><b>B.</b> pass away</span><span class='opt-choice key-correct-target'><b>C.</b> attend college<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>D.</b> attend school</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>attend college</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex2-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>4.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>Even when project funding was abruptly cancelled, the environmentalist showed immense __________ to finish planting the trees.</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> kingdom</span><span class='opt-choice '><b>B.</b> biography</span><span class='opt-choice '><b>C.</b> theme park</span><span class='opt-choice key-correct-target'><b>D.</b> determination<span class='key-check-mark'>✓</span></span>
+                </div>
+                <div class="teacher-key-line">Key: <b>determination</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex2-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>5.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>When the film studio released the superhero movie in July, it instantly became an international __________.</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> childhood</span><span class='opt-choice key-correct-target'><b>B.</b> blockbuster<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>C.</b> field hospital</span><span class='opt-choice '><b>D.</b> surgeon</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>blockbuster</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex2-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>6.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>The ancient stone fortress overlooking the bay is now a major __________ welcoming thousands of visitors each summer.</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> film producer</span><span class='opt-choice key-correct-target'><b>B.</b> tourist attraction<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>C.</b> national hero</span><span class='opt-choice '><b>D.</b> resistance war</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>tourist attraction</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex2-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>7.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>King Ferdinand __________ the realm with wisdom and fairness while foreign diplomats were negotiating peace treaties.</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice key-correct-target'><b>A.</b> ruled<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>B.</b> admired</span><span class='opt-choice '><b>C.</b> adopted</span><span class='opt-choice '><b>D.</b> defeated</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>ruled</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex2-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>8.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>Clara was __________ when the university committee awarded her the prestigious international scholarship.</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> independent</span><span class='opt-choice key-correct-target'><b>B.</b> over the moon<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>C.</b> dedicated to</span><span class='opt-choice '><b>D.</b> well educated</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>over the moon</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex2-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>9.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>Two engineering students __________ their shared passion for robotics while they were working in the campus laboratory.</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice key-correct-target'><b>A.</b> bonded over<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>B.</b> passed away</span><span class='opt-choice '><b>C.</b> carried out</span><span class='opt-choice '><b>D.</b> dropped out</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>bonded over</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex2-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>10.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>Every young researcher hopes to __________ significant scientific breakthroughs that benefit society.</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice key-correct-target'><b>A.</b> be admired for<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>B.</b> be devoted to</span><span class='opt-choice '><b>C.</b> be dedicated to</span><span class='opt-choice '><b>D.</b> be adopted by</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>be admired for</b></div>
+            </div></div></div>
+        </div>
+    </div>
+    
+
+    <!-- TRANG 4: BÀI TẬP 3 & 4 -->
+    <div class="textbook-sheet exercises-sheet page-break" id="page-4-exercises">
+        <header class="running-header-bar">
+            <span class="rh-left">GLOBAL SUCCESS 12 • UNIT 1: LIFE STORIES WE ADMIRE</span>
+            <span class="rh-right">PART II: PRACTICE EXERCISES (CONT.)</span>
+        </header>
+
+        <div class="exercise-open-section" id="ex-3">
+            <h3 class="ex-heading-blue" style="margin-top: 4px;">Exercise 3: Everyday Conversations</h3>
+            <div class="ex-guide-orange">Complete each daily conversation with the most suitable response:</div>
+            <div class="ex-open-content"><div class='open-2col-flow'>
+            <div class="q-open-item avoid-break ex3-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>1.</b></span>
+                    <span class="q-stem-body"><div class='open-dialogue'><div>Sophie: &#x27;Congratulations on winning the youth leadership award last night!&#x27;</div><div>Daniel: &#x27;______________________________&#x27;</div></div></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> I appreciate your kind words, and I hope to drop out of the project soon.</span><span class='opt-choice key-correct-target'><b>B.</b> Thank you so much, it was truly an impressive achievement for our team.<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>C.</b> Thanks a lot, although the doctor said my biological parents were resting.</span><span class='opt-choice '><b>D.</b> That is very kind of you, but we were carrying out attacks all afternoon.</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>Thank you so much, it was truly an impressive achievement for our team.</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex3-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>2.</b></span>
+                    <span class="q-stem-body"><div class='open-dialogue'><div>Liam: &#x27;Why is your older sister moving to Los Angeles this autumn?&#x27;</div><div>Chloe: &#x27;______________________________&#x27;</div></div></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> She intends to recover from cancer while volunteering in another county.</span><span class='opt-choice '><b>B.</b> She hopes to rule an ancient kingdom near the southern coastal borders.</span><span class='opt-choice '><b>C.</b> She is planning to construct a wartime field hospital for local medics.</span><span class='opt-choice key-correct-target'><b>D.</b> She wants to work as an animator for a famous digital animation studio.<span class='key-check-mark'>✓</span></span>
+                </div>
+                <div class="teacher-key-line">Key: <b>She wants to work as an animator for a famous digital animation studio.</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex3-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>3.</b></span>
+                    <span class="q-stem-body"><div class='open-dialogue'><div>Hannah: &#x27;How did you feel when you heard you passed the medical exam?&#x27;</div><div>Marcus: &#x27;______________________________&#x27;</div></div></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> I felt very exhausted because the army was preparing to defeat enemies.</span><span class='opt-choice '><b>B.</b> I was wondering whether our grandparents had enjoyed a long marriage.</span><span class='opt-choice '><b>C.</b> I was reading a biography when the headmaster asked me to leave school.</span><span class='opt-choice key-correct-target'><b>D.</b> I was on cloud nine and could not stop smiling for the rest of the day.<span class='key-check-mark'>✓</span></span>
+                </div>
+                <div class="teacher-key-line">Key: <b>I was on cloud nine and could not stop smiling for the rest of the day.</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex3-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>4.</b></span>
+                    <span class="q-stem-body"><div class='open-dialogue'><div>Olivia: &#x27;Do you want to visit the new historical theme park this Sunday?&#x27;</div><div>Ethan: &#x27;______________________________&#x27;</div></div></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> I cannot come along because my father is defending the national border.</span><span class='opt-choice '><b>B.</b> I will pass because the surgeon is operating on the injured soldiers now.</span><span class='opt-choice key-correct-target'><b>C.</b> I would love to join you because I really enjoy thrilling roller coasters.<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>D.</b> I am not interested because that place was destroyed during the civil war.</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>I would love to join you because I really enjoy thrilling roller coasters.</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex3-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>5.</b></span>
+                    <span class="q-stem-body"><div class='open-dialogue'><div>Lucas: &#x27;Who inspired you to pursue a career in aerospace research?&#x27;</div><div>Grace: &#x27;______________________________&#x27;</div></div></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> A famous monarch who ruled over three different kingdoms in the north.</span><span class='opt-choice '><b>B.</b> A humble volunteer who carried out unexpected attacks along the coast.</span><span class='opt-choice '><b>C.</b> A young student who dropped out of secondary school during the winter.</span><span class='opt-choice key-correct-target'><b>D.</b> A visionary astrophysicist who was designing lunar exploration modules.<span class='key-check-mark'>✓</span></span>
+                </div>
+                <div class="teacher-key-line">Key: <b>A visionary astrophysicist who was designing lunar exploration modules.</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex3-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>6.</b></span>
+                    <span class="q-stem-body"><div class='open-dialogue'><div>Noah: &#x27;Could you recommend an inspiring book for my history presentation?&#x27;</div><div>Emma: &#x27;______________________________&#x27;</div></div></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> You can visit the local tourist attraction before the ticket counter closes.</span><span class='opt-choice '><b>B.</b> You might ask the biological parents why their daughter changed her school.</span><span class='opt-choice key-correct-target'><b>C.</b> You should read this biography of a scientist who devoted her life to peace.<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>D.</b> You ought to watch this blockbuster movie about a fictional alien invader.</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>You should read this biography of a scientist who devoted her life to peace.</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex3-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>7.</b></span>
+                    <span class="q-stem-body"><div class='open-dialogue'><div>Ava: &#x27;Your grandparents look so joyful in their wedding anniversary photograph!&#x27;</div><div>Ben: &#x27;______________________________&#x27;</div></div></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> Indeed, they were fighting in a resistance war when the town was flooded.</span><span class='opt-choice key-correct-target'><b>B.</b> Yes, they have had a long marriage filled with mutual trust and harmony.<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>C.</b> Certainly, they decided to drop out of college before meeting each other.</span><span class='opt-choice '><b>D.</b> Yes, they were admitted to a field hospital shortly after moving abroad.</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>Yes, they have had a long marriage filled with mutual trust and harmony.</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex3-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>8.</b></span>
+                    <span class="q-stem-body"><div class='open-dialogue'><div>Mia: &#x27;How does Professor Bradley manage to master five different languages?&#x27;</div><div>Jack: &#x27;______________________________&#x27;</div></div></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice key-correct-target'><b>A.</b> He is extremely well educated and has spent decades studying linguistics.<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>B.</b> He was on top of the world when the laboratory equipment arrived by rail.</span><span class='opt-choice '><b>C.</b> He was producing an animated cartoon series when his cousin phoned him.</span><span class='opt-choice '><b>D.</b> He decided to adopt a rescue puppy while traveling through South America.</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>He is extremely well educated and has spent decades studying linguistics.</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex3-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>9.</b></span>
+                    <span class="q-stem-body"><div class='open-dialogue'><div>James: &#x27;How did our regional basketball team defeat the defending champions?&#x27;</div><div>Lily: &#x27;______________________________&#x27;</div></div></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> Our school was establishing a field hospital beside the athletic fields.</span><span class='opt-choice '><b>B.</b> Our players were visiting a famous tourist attraction across the capital.</span><span class='opt-choice key-correct-target'><b>C.</b> Our coach was a tactical genius who adjusted the formation at halftime.<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>D.</b> Our captain decided to attend school in another district after the match.</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>Our coach was a tactical genius who adjusted the formation at halftime.</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex3-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>10.</b></span>
+                    <span class="q-stem-body"><div class='open-dialogue'><div>Zoe: &#x27;I heard that Mr. Henderson passed away peacefully last weekend.&#x27;</div><div>Leo: &#x27;______________________________&#x27;</div></div></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice key-correct-target'><b>A.</b> Yes, his death is a huge loss to everyone in our community who knew him.<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>B.</b> Certainly, he showed remarkable determination while running the marathon.</span><span class='opt-choice '><b>C.</b> Yes, he was working as a film producer when the blockbuster debuted online.</span><span class='opt-choice '><b>D.</b> Indeed, he was celebrated as a military genius during the royal tournament.</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>Yes, his death is a huge loss to everyone in our community who knew him.</b></div>
+            </div></div></div>
+        </div>
+
+        <div class="exercise-open-section" id="ex-4">
+            <h3 class="ex-heading-blue">Exercise 4: Picture Vocabulary</h3>
+            <div class="ex-guide-orange">Look at the pictures and write the correct English word under each image:</div>
+            <div class="ex-open-content"><div class='pic-4col-grid'>
+            <div class="pic-open-item avoid-break">
+                <div class="pic-big-frame">
+                    <img src="../../media/gs12/unit-1/images/childhood.webp" alt="Picture 1" onerror="this.style.opacity='0.2';">
+                </div>
+                <div class="pic-label-row">
+                    <span class="pic-q-num"><b>1.</b></span>
+                    <span class="pic-dotted-slot"></span>
+                </div>
+                <div class="teacher-key-line"><b>childhood</b></div>
+            </div>
+            <div class="pic-open-item avoid-break">
+                <div class="pic-big-frame">
+                    <img src="../../media/gs12/unit-1/images/youth.webp" alt="Picture 2" onerror="this.style.opacity='0.2';">
+                </div>
+                <div class="pic-label-row">
+                    <span class="pic-q-num"><b>2.</b></span>
+                    <span class="pic-dotted-slot"></span>
+                </div>
+                <div class="teacher-key-line"><b>youth</b></div>
+            </div>
+            <div class="pic-open-item avoid-break">
+                <div class="pic-big-frame">
+                    <img src="../../media/gs12/unit-1/images/attend-school.webp" alt="Picture 3" onerror="this.style.opacity='0.2';">
+                </div>
+                <div class="pic-label-row">
+                    <span class="pic-q-num"><b>3.</b></span>
+                    <span class="pic-dotted-slot"></span>
+                </div>
+                <div class="teacher-key-line"><b>attend school</b></div>
+            </div>
+            <div class="pic-open-item avoid-break">
+                <div class="pic-big-frame">
+                    <img src="../../media/gs12/unit-1/images/attend-college.webp" alt="Picture 4" onerror="this.style.opacity='0.2';">
+                </div>
+                <div class="pic-label-row">
+                    <span class="pic-q-num"><b>4.</b></span>
+                    <span class="pic-dotted-slot"></span>
+                </div>
+                <div class="teacher-key-line"><b>attend college</b></div>
+            </div>
+            <div class="pic-open-item avoid-break">
+                <div class="pic-big-frame">
+                    <img src="../../media/gs12/unit-1/images/drop-out.webp" alt="Picture 5" onerror="this.style.opacity='0.2';">
+                </div>
+                <div class="pic-label-row">
+                    <span class="pic-q-num"><b>5.</b></span>
+                    <span class="pic-dotted-slot"></span>
+                </div>
+                <div class="teacher-key-line"><b>drop out</b></div>
+            </div>
+            <div class="pic-open-item avoid-break">
+                <div class="pic-big-frame">
+                    <img src="../../media/gs12/unit-1/images/marriage.webp" alt="Picture 6" onerror="this.style.opacity='0.2';">
+                </div>
+                <div class="pic-label-row">
+                    <span class="pic-q-num"><b>6.</b></span>
+                    <span class="pic-dotted-slot"></span>
+                </div>
+                <div class="teacher-key-line"><b>marriage</b></div>
+            </div>
+            <div class="pic-open-item avoid-break">
+                <div class="pic-big-frame">
+                    <img src="../../media/gs12/unit-1/images/have-a-long-marriage.webp" alt="Picture 7" onerror="this.style.opacity='0.2';">
+                </div>
+                <div class="pic-label-row">
+                    <span class="pic-q-num"><b>7.</b></span>
+                    <span class="pic-dotted-slot"></span>
+                </div>
+                <div class="teacher-key-line"><b>have a long marriage</b></div>
+            </div>
+            <div class="pic-open-item avoid-break">
+                <div class="pic-big-frame">
+                    <img src="../../media/gs12/unit-1/images/adopt.webp" alt="Picture 8" onerror="this.style.opacity='0.2';">
+                </div>
+                <div class="pic-label-row">
+                    <span class="pic-q-num"><b>8.</b></span>
+                    <span class="pic-dotted-slot"></span>
+                </div>
+                <div class="teacher-key-line"><b>adopt</b></div>
+            </div>
+            <div class="pic-open-item avoid-break">
+                <div class="pic-big-frame">
+                    <img src="../../media/gs12/unit-1/images/biological-parents.webp" alt="Picture 9" onerror="this.style.opacity='0.2';">
+                </div>
+                <div class="pic-label-row">
+                    <span class="pic-q-num"><b>9.</b></span>
+                    <span class="pic-dotted-slot"></span>
+                </div>
+                <div class="teacher-key-line"><b>biological parents</b></div>
+            </div>
+            <div class="pic-open-item avoid-break">
+                <div class="pic-big-frame">
+                    <img src="../../media/gs12/unit-1/images/genius.webp" alt="Picture 10" onerror="this.style.opacity='0.2';">
+                </div>
+                <div class="pic-label-row">
+                    <span class="pic-q-num"><b>10.</b></span>
+                    <span class="pic-dotted-slot"></span>
+                </div>
+                <div class="teacher-key-line"><b>genius</b></div>
+            </div>
+            <div class="pic-open-item avoid-break">
+                <div class="pic-big-frame">
+                    <img src="../../media/gs12/unit-1/images/visionary.webp" alt="Picture 11" onerror="this.style.opacity='0.2';">
+                </div>
+                <div class="pic-label-row">
+                    <span class="pic-q-num"><b>11.</b></span>
+                    <span class="pic-dotted-slot"></span>
+                </div>
+                <div class="teacher-key-line"><b>visionary</b></div>
+            </div>
+            <div class="pic-open-item avoid-break">
+                <div class="pic-big-frame">
+                    <img src="../../media/gs12/unit-1/images/determination.webp" alt="Picture 12" onerror="this.style.opacity='0.2';">
+                </div>
+                <div class="pic-label-row">
+                    <span class="pic-q-num"><b>12.</b></span>
+                    <span class="pic-dotted-slot"></span>
+                </div>
+                <div class="teacher-key-line"><b>determination</b></div>
+            </div>
+            <div class="pic-open-item avoid-break">
+                <div class="pic-big-frame">
+                    <img src="../../media/gs12/unit-1/images/well-educated.webp" alt="Picture 13" onerror="this.style.opacity='0.2';">
+                </div>
+                <div class="pic-label-row">
+                    <span class="pic-q-num"><b>13.</b></span>
+                    <span class="pic-dotted-slot"></span>
+                </div>
+                <div class="teacher-key-line"><b>well educated</b></div>
+            </div>
+            <div class="pic-open-item avoid-break">
+                <div class="pic-big-frame">
+                    <img src="../../media/gs12/unit-1/images/national-hero.webp" alt="Picture 14" onerror="this.style.opacity='0.2';">
+                </div>
+                <div class="pic-label-row">
+                    <span class="pic-q-num"><b>14.</b></span>
+                    <span class="pic-dotted-slot"></span>
+                </div>
+                <div class="teacher-key-line"><b>national hero</b></div>
+            </div>
+            <div class="pic-open-item avoid-break">
+                <div class="pic-big-frame">
+                    <img src="../../media/gs12/unit-1/images/military-genius.webp" alt="Picture 15" onerror="this.style.opacity='0.2';">
+                </div>
+                <div class="pic-label-row">
+                    <span class="pic-q-num"><b>15.</b></span>
+                    <span class="pic-dotted-slot"></span>
+                </div>
+                <div class="teacher-key-line"><b>military genius</b></div>
+            </div>
+            <div class="pic-open-item avoid-break">
+                <div class="pic-big-frame">
+                    <img src="../../media/gs12/unit-1/images/cutting-edge-technology.webp" alt="Picture 16" onerror="this.style.opacity='0.2';">
+                </div>
+                <div class="pic-label-row">
+                    <span class="pic-q-num"><b>16.</b></span>
+                    <span class="pic-dotted-slot"></span>
+                </div>
+                <div class="teacher-key-line"><b>cutting-edge technology</b></div>
+            </div>
+            <div class="pic-open-item avoid-break">
+                <div class="pic-big-frame">
+                    <img src="../../media/gs12/unit-1/images/tourist-attraction.webp" alt="Picture 17" onerror="this.style.opacity='0.2';">
+                </div>
+                <div class="pic-label-row">
+                    <span class="pic-q-num"><b>17.</b></span>
+                    <span class="pic-dotted-slot"></span>
+                </div>
+                <div class="teacher-key-line"><b>tourist attraction</b></div>
+            </div>
+            <div class="pic-open-item avoid-break">
+                <div class="pic-big-frame">
+                    <img src="../../media/gs12/unit-1/images/theme-park.webp" alt="Picture 18" onerror="this.style.opacity='0.2';">
+                </div>
+                <div class="pic-label-row">
+                    <span class="pic-q-num"><b>18.</b></span>
+                    <span class="pic-dotted-slot"></span>
+                </div>
+                <div class="teacher-key-line"><b>theme park</b></div>
+            </div>
+            <div class="pic-open-item avoid-break">
+                <div class="pic-big-frame">
+                    <img src="../../media/gs12/unit-1/images/rule.webp" alt="Picture 19" onerror="this.style.opacity='0.2';">
+                </div>
+                <div class="pic-label-row">
+                    <span class="pic-q-num"><b>19.</b></span>
+                    <span class="pic-dotted-slot"></span>
+                </div>
+                <div class="teacher-key-line"><b>rule</b></div>
+            </div>
+            <div class="pic-open-item avoid-break">
+                <div class="pic-big-frame">
+                    <img src="../../media/gs12/unit-1/images/kingdom.webp" alt="Picture 20" onerror="this.style.opacity='0.2';">
+                </div>
+                <div class="pic-label-row">
+                    <span class="pic-q-num"><b>20.</b></span>
+                    <span class="pic-dotted-slot"></span>
+                </div>
+                <div class="teacher-key-line"><b>kingdom</b></div>
+            </div></div></div>
+        </div>
+    </div>
+    
+
+    <!-- TRANG 5: BÀI TẬP 5, 6 & 7 (PART 1 - ĐOẠN VĂN) -->
+    <div class="textbook-sheet exercises-sheet page-break" id="page-5-exercises">
+        <header class="running-header-bar">
+            <span class="rh-left">GLOBAL SUCCESS 12 • UNIT 1: LIFE STORIES WE ADMIRE</span>
+            <span class="rh-right">PART II: PRACTICE EXERCISES (CONT.)</span>
+        </header>
+
+        <div class="exercise-open-section" id="ex-5">
+            <h3 class="ex-heading-blue" style="margin-top: 4px;">Exercise 5: Word Recall &amp; Definitions</h3>
+            <div class="ex-guide-orange">Write the English words that match the Vietnamese definitions below:</div>
+            <div class="ex-open-content"><div class='open-2col-flow'>
+            <div class="q-open-item avoid-break ex5-item">
+                <div class="q-seq-num"><b>1.</b></div>
+                <div class="sub-parts-wrap">
+                    
+                <div class="write-sub-item">
+                    <b>(a)</b> thời thơ ấu, tuổi thơ: <span class="open-dotted-line">................................................</span>
+                    <span class="teacher-key-line">➔ <b>childhood</b></span>
+                </div>
+                <div class="write-sub-item">
+                    <b>(b)</b> thời thanh xuân, tuổi trẻ: <span class="open-dotted-line">................................................</span>
+                    <span class="teacher-key-line">➔ <b>youth</b></span>
+                </div>
+                </div>
+            </div>
+            <div class="q-open-item avoid-break ex5-item">
+                <div class="q-seq-num"><b>2.</b></div>
+                <div class="sub-parts-wrap">
+                    
+                <div class="write-sub-item">
+                    <b>(a)</b> nhận nuôi (con nuôi): <span class="open-dotted-line">................................................</span>
+                    <span class="teacher-key-line">➔ <b>adopt</b></span>
+                </div>
+                <div class="write-sub-item">
+                    <b>(b)</b> cuộc hôn nhân, sự kết hôn: <span class="open-dotted-line">................................................</span>
+                    <span class="teacher-key-line">➔ <b>marriage</b></span>
+                </div>
+                </div>
+            </div>
+            <div class="q-open-item avoid-break ex5-item">
+                <div class="q-seq-num"><b>3.</b></div>
+                <div class="sub-parts-wrap">
+                    
+                <div class="write-sub-item">
+                    <b>(a)</b> thiên tài: <span class="open-dotted-line">................................................</span>
+                    <span class="teacher-key-line">➔ <b>genius</b></span>
+                </div>
+                <div class="write-sub-item">
+                    <b>(b)</b> người nhìn xa trông rộng: <span class="open-dotted-line">................................................</span>
+                    <span class="teacher-key-line">➔ <b>visionary</b></span>
+                </div>
+                </div>
+            </div>
+            <div class="q-open-item avoid-break ex5-item">
+                <div class="q-seq-num"><b>4.</b></div>
+                <div class="sub-parts-wrap">
+                    
+                <div class="write-sub-item">
+                    <b>(a)</b> sự quyết tâm, lòng kiên định: <span class="open-dotted-line">................................................</span>
+                    <span class="teacher-key-line">➔ <b>determination</b></span>
+                </div>
+                <div class="write-sub-item">
+                    <b>(b)</b> có nhiều hoài bão, giàu tham vọng: <span class="open-dotted-line">................................................</span>
+                    <span class="teacher-key-line">➔ <b>ambitious</b></span>
+                </div>
+                </div>
+            </div>
+            <div class="q-open-item avoid-break ex5-item">
+                <div class="q-seq-num"><b>5.</b></div>
+                <div class="sub-parts-wrap">
+                    
+                <div class="write-sub-item">
+                    <b>(a)</b> thành tựu, thành tích: <span class="open-dotted-line">................................................</span>
+                    <span class="teacher-key-line">➔ <b>achievement</b></span>
+                </div>
+                <div class="write-sub-item">
+                    <b>(b)</b> anh hùng dân tộc: <span class="open-dotted-line">................................................</span>
+                    <span class="teacher-key-line">➔ <b>national hero</b></span>
+                </div>
+                </div>
+            </div>
+            <div class="q-open-item avoid-break ex5-item">
+                <div class="q-seq-num"><b>6.</b></div>
+                <div class="sub-parts-wrap">
+                    
+                <div class="write-sub-item">
+                    <b>(a)</b> phim bom tấn: <span class="open-dotted-line">................................................</span>
+                    <span class="teacher-key-line">➔ <b>blockbuster</b></span>
+                </div>
+                <div class="write-sub-item">
+                    <b>(b)</b> công viên giải trí theo chủ đề: <span class="open-dotted-line">................................................</span>
+                    <span class="teacher-key-line">➔ <b>theme park</b></span>
+                </div>
+                </div>
+            </div>
+            <div class="q-open-item avoid-break ex5-item">
+                <div class="q-seq-num"><b>7.</b></div>
+                <div class="sub-parts-wrap">
+                    
+                <div class="write-sub-item">
+                    <b>(a)</b> vương quốc: <span class="open-dotted-line">................................................</span>
+                    <span class="teacher-key-line">➔ <b>kingdom</b></span>
+                </div>
+                <div class="write-sub-item">
+                    <b>(b)</b> độc lập, tự chủ: <span class="open-dotted-line">................................................</span>
+                    <span class="teacher-key-line">➔ <b>independent</b></span>
+                </div>
+                </div>
+            </div>
+            <div class="q-open-item avoid-break ex5-item">
+                <div class="q-seq-num"><b>8.</b></div>
+                <div class="sub-parts-wrap">
+                    
+                <div class="write-sub-item">
+                    <b>(a)</b> bác sĩ phẫu thuật: <span class="open-dotted-line">................................................</span>
+                    <span class="teacher-key-line">➔ <b>surgeon</b></span>
+                </div>
+                <div class="write-sub-item">
+                    <b>(b)</b> tiểu sử, truyện ký: <span class="open-dotted-line">................................................</span>
+                    <span class="teacher-key-line">➔ <b>biography</b></span>
+                </div>
+                </div>
+            </div>
+            <div class="q-open-item avoid-break ex5-item">
+                <div class="q-seq-num"><b>9.</b></div>
+                <div class="sub-parts-wrap">
+                    
+                <div class="write-sub-item">
+                    <b>(a)</b> họa sĩ hoạt hình: <span class="open-dotted-line">................................................</span>
+                    <span class="teacher-key-line">➔ <b>animator</b></span>
+                </div>
+                <div class="write-sub-item">
+                    <b>(b)</b> nhà sản xuất phim: <span class="open-dotted-line">................................................</span>
+                    <span class="teacher-key-line">➔ <b>film producer</b></span>
+                </div>
+                </div>
+            </div>
+            <div class="q-open-item avoid-break ex5-item">
+                <div class="q-seq-num"><b>10.</b></div>
+                <div class="sub-parts-wrap">
+                    
+                <div class="write-sub-item">
+                    <b>(a)</b> ngưỡng mộ, khâm phục: <span class="open-dotted-line">................................................</span>
+                    <span class="teacher-key-line">➔ <b>admire</b></span>
+                </div>
+                <div class="write-sub-item">
+                    <b>(b)</b> đánh bại, đánh thắng: <span class="open-dotted-line">................................................</span>
+                    <span class="teacher-key-line">➔ <b>defeat</b></span>
+                </div>
+                </div>
+            </div></div></div>
+        </div>
+
+        <div class="exercise-open-section" id="ex-6">
+            <h3 class="ex-heading-blue">Exercise 6: Word Box Sentences</h3>
+            <div class="ex-guide-orange">Fill in each blank with an appropriate word from the box:</div>
+            <div class="ex-open-content">
+        <div class="open-word-box">
+            <b>WORD BOX:</b> &nbsp; <b>genius</b> &nbsp;•&nbsp; <b>kingdom</b> &nbsp;•&nbsp; <b>childhood</b> &nbsp;•&nbsp; <b>animator</b> &nbsp;•&nbsp; <b>surgeon</b> &nbsp;•&nbsp; <b>defeat</b> &nbsp;•&nbsp; <b>adopt</b> &nbsp;•&nbsp; <b>biography</b> &nbsp;•&nbsp; <b>blockbuster</b> &nbsp;•&nbsp; <b>determination</b>
+        </div><div class='open-2col-flow' style='margin-top: 6px;'>
+            <div class="q-open-item avoid-break ex6-item">
+                <span class="q-seq-num"><b>1.</b></span>
+                <span class="q-stem-body">Arthur spent his entire <span class='blank-open-slot'>(1) .........................</span><span class='teacher-key-line'> [<b>childhood</b>]</span> on a quiet sheep farm in the Scottish highlands.</span>
+            </div>
+            <div class="q-open-item avoid-break ex6-item">
+                <span class="q-seq-num"><b>2.</b></span>
+                <span class="q-stem-body">A kind couple decided to <span class='blank-open-slot'>(2) .........................</span><span class='teacher-key-line'> [<b>adopt</b>]</span> two orphaned siblings and raise them as their own children.</span>
+            </div>
+            <div class="q-open-item avoid-break ex6-item">
+                <span class="q-seq-num"><b>3.</b></span>
+                <span class="q-stem-body">Even as a young boy, Wolfgang was hailed as a musical <span class='blank-open-slot'>(3) .........................</span><span class='teacher-key-line'> [<b>genius</b>]</span> who could compose concertos at age five.</span>
+            </div>
+            <div class="q-open-item avoid-break ex6-item">
+                <span class="q-seq-num"><b>4.</b></span>
+                <span class="q-stem-body">Despite fracturing his ankle in the qualifiers, the sprinter demonstrated extraordinary <span class='blank-open-slot'>(4) .........................</span><span class='teacher-key-line'> [<b>determination</b>]</span> to finish the race.</span>
+            </div>
+            <div class="q-open-item avoid-break ex6-item">
+                <span class="q-seq-num"><b>5.</b></span>
+                <span class="q-stem-body">With stunning special effects and a superstar cast, the sci-fi adventure became a summer <span class='blank-open-slot'>(5) .........................</span><span class='teacher-key-line'> [<b>blockbuster</b>]</span>.</span>
+            </div>
+            <div class="q-open-item avoid-break ex6-item">
+                <span class="q-seq-num"><b>6.</b></span>
+                <span class="q-stem-body">The ancient monarch expanded his vast <span class='blank-open-slot'>(6) .........................</span><span class='teacher-key-line'> [<b>kingdom</b>]</span> by signing trade agreements with neighboring lands.</span>
+            </div>
+            <div class="q-open-item avoid-break ex6-item">
+                <span class="q-seq-num"><b>7.</b></span>
+                <span class="q-stem-body">The chess grandmaster managed to <span class='blank-open-slot'>(7) .........................</span><span class='teacher-key-line'> [<b>defeat</b>]</span> his fiercest rival after five grueling hours of play.</span>
+            </div>
+            <div class="q-open-item avoid-break ex6-item">
+                <span class="q-seq-num"><b>8.</b></span>
+                <span class="q-stem-body">The experienced chief <span class='blank-open-slot'>(8) .........................</span><span class='teacher-key-line'> [<b>surgeon</b>]</span> performed the delicate coronary bypass operation with complete precision.</span>
+            </div>
+            <div class="q-open-item avoid-break ex6-item">
+                <span class="q-seq-num"><b>9.</b></span>
+                <span class="q-stem-body">Emily spent months researching historical archives before writing an acclaimed <span class='blank-open-slot'>(9) .........................</span><span class='teacher-key-line'> [<b>biography</b>]</span> of the astronomer.</span>
+            </div>
+            <div class="q-open-item avoid-break ex6-item">
+                <span class="q-seq-num"><b>10.</b></span>
+                <span class="q-stem-body">The creative digital <span class='blank-open-slot'>(10) .........................</span><span class='teacher-key-line'> [<b>animator</b>]</span> drew hundreds of storyboard sketches to bring the cartoon dragon to life.</span>
+            </div></div></div>
+        </div>
+
+        <div class="exercise-open-section" id="ex-7-part1">
+            <h3 class="ex-heading-blue">Exercise 7: Passage Completion</h3>
+            <div class="ex-guide-orange">Read the passage carefully and fill in each blank with a suitable word from the box:</div>
+            <div class="ex-open-content">
+                <div class="open-word-box">
+                    <b>WORD BOX:</b> &nbsp; <b>ambitious</b> &nbsp;•&nbsp; <b>admire</b> &nbsp;•&nbsp; <b>cancer</b> &nbsp;•&nbsp; <b>independent</b> &nbsp;•&nbsp; <b>achievement</b> &nbsp;•&nbsp; <b>rule</b> &nbsp;•&nbsp; <b>death</b> &nbsp;•&nbsp; <b>marriage</b> &nbsp;•&nbsp; <b>visionary</b> &nbsp;•&nbsp; <b>youth</b>
+                </div>
+                <div class="open-passage-block" style="margin-bottom: 0;">
+                    <div class="passage-body-text">
+                        <span>During her </span><span class='para-slot-inline'><b>(1)</b> .....................<span class='teacher-key-line'>[<b>youth</b>]</span></span><span>, Elena was fascinated by oceanic life and dreamed of exploring coral reefs. She was an </span><span class='para-slot-inline'><b>(2)</b> .....................<span class='teacher-key-line'>[<b>ambitious</b>]</span></span><span> young scientist who worked long hours in the laboratory while other students were resting. After her </span><span class='para-slot-inline'><b>(3)</b> .....................<span class='teacher-key-line'>[<b>marriage</b>]</span></span><span> to a fellow oceanographer, the couple established an </span><span class='para-slot-inline'><b>(4)</b> .....................<span class='teacher-key-line'>[<b>independent</b>]</span></span><span> marine research station on a remote Pacific island. Elena proved to be a true </span><span class='para-slot-inline'><b>(5)</b> .....................<span class='teacher-key-line'>[<b>visionary</b>]</span></span><span>, introducing underwater cameras long before other teams considered the technique. Her greatest scientific </span><span class='para-slot-inline'><b>(6)</b> .....................<span class='teacher-key-line'>[<b>achievement</b>]</span></span><span> came when she discovered a deep-sea ecosystem that seemed to follow its own natural </span><span class='para-slot-inline'><b>(7)</b> .....................<span class='teacher-key-line'>[<b>rule</b>]</span></span><span> of survival. Even when she was diagnosed with </span><span class='para-slot-inline'><b>(8)</b> .....................<span class='teacher-key-line'>[<b>cancer</b>]</span></span><span> in her fifties, she continued teaching students about marine conservation. Following her </span><span class='para-slot-inline'><b>(9)</b> .....................<span class='teacher-key-line'>[<b>death</b>]</span></span><span> in 2018, scientific journals published special editions to honor her groundbreaking legacy. Today, researchers around the globe still deeply </span><span class='para-slot-inline'><b>(10)</b> .....................<span class='teacher-key-line'>[<b>admire</b>]</span></span><span> her courage and enduring contributions.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- TRANG 6: BÀI TẬP 7 (PART 2 - ANSWER SLOTS), 8, 9 -->
+    <div class="textbook-sheet exercises-sheet page-break" id="page-6-exercises">
+        <header class="running-header-bar">
+            <span class="rh-left">GLOBAL SUCCESS 12 • UNIT 1: LIFE STORIES WE ADMIRE</span>
+            <span class="rh-right">PART II: PRACTICE EXERCISES (CONT.)</span>
+        </header>
+
+        <div class="exercise-open-section" id="ex-7-part2" style="margin-bottom: 12px;">
+            <div class="ex-sub-heading-blue" style="font-weight: 800; font-size: 11pt; color: var(--c-blue); margin-top: 4px; margin-bottom: 4px;">Exercise 7 (Continued) — Write Your Answers Below:</div>
+            <div class="passage-answer-grid-5">
+                <div class='slot-cell'><b>(1)</b> <span class='open-dotted-line'>..........................</span><span class='teacher-key-line'> ➔ <b>youth</b></span></div><div class='slot-cell'><b>(2)</b> <span class='open-dotted-line'>..........................</span><span class='teacher-key-line'> ➔ <b>ambitious</b></span></div><div class='slot-cell'><b>(3)</b> <span class='open-dotted-line'>..........................</span><span class='teacher-key-line'> ➔ <b>marriage</b></span></div><div class='slot-cell'><b>(4)</b> <span class='open-dotted-line'>..........................</span><span class='teacher-key-line'> ➔ <b>independent</b></span></div><div class='slot-cell'><b>(5)</b> <span class='open-dotted-line'>..........................</span><span class='teacher-key-line'> ➔ <b>visionary</b></span></div><div class='slot-cell'><b>(6)</b> <span class='open-dotted-line'>..........................</span><span class='teacher-key-line'> ➔ <b>achievement</b></span></div><div class='slot-cell'><b>(7)</b> <span class='open-dotted-line'>..........................</span><span class='teacher-key-line'> ➔ <b>rule</b></span></div><div class='slot-cell'><b>(8)</b> <span class='open-dotted-line'>..........................</span><span class='teacher-key-line'> ➔ <b>cancer</b></span></div><div class='slot-cell'><b>(9)</b> <span class='open-dotted-line'>..........................</span><span class='teacher-key-line'> ➔ <b>death</b></span></div><div class='slot-cell'><b>(10)</b> <span class='open-dotted-line'>..........................</span><span class='teacher-key-line'> ➔ <b>admire</b></span></div>
+            </div>
+        </div>
+
+        <div class="exercise-open-section" id="ex-8">
+            <h3 class="ex-heading-blue">Exercise 8: Sentence Ordering</h3>
+            <div class="ex-guide-orange">Put the sentences in the correct order to form a logical conversation or paragraph:</div>
+            <div class="ex-open-content"><div class='open-2col-flow'>
+            <div class="q-open-item avoid-break so-item">
+                <div class="so-lead"><b>1.</b> Rearrange the sentences:</div>
+                <div class="so-sub-lines"><div><b>(a)</b> a. Elena: &#x27;That remarkable victory certainly explains why his people celebrated him as a hero.&#x27;</div><div><b>(b)</b> b. Marcus: &#x27;I watched a fascinating documentary about an ancient military genius last night.&#x27;</div><div><b>(c)</b> c. Elena: &#x27;What made his wartime strategies so impressive to modern historians?&#x27;</div><div><b>(d)</b> d. Marcus: &#x27;He changed his battle tactics unexpectedly and forced the invading army to surrender.&#x27;</div></div>
+                <div class="so-choices-row"><span class='opt-choice '><b>A.</b> c-b-d-a</span><span class='opt-choice '><b>B.</b> b-d-c-a</span><span class='opt-choice '><b>C.</b> b-a-d-c</span><span class='opt-choice key-correct-target'><b>D.</b> b-c-d-a<span class='key-check-mark'>✓</span></span></div>
+                <div class="teacher-key-line">Key: <b>b-c-d-a</b></div>
+            </div>
+            <div class="q-open-item avoid-break so-item">
+                <div class="so-lead"><b>2.</b> Rearrange the sentences:</div>
+                <div class="so-sub-lines"><div><b>(a)</b> a. Sara: &#x27;Let&#x27;s meet at the train station at eight o&#x27;clock so we can arrive before the crowds.&#x27;</div><div><b>(b)</b> b. Tom: &#x27;That sounds exciting since I really want to examine the original lunar flight modules.&#x27;</div><div><b>(c)</b> c. Tom: &#x27;Are we still visiting the aviation museum for our history assignment this Saturday?&#x27;</div><div><b>(d)</b> d. Sara: &#x27;Yes, because the main exhibition features cutting-edge technology developed during the space race.&#x27;</div></div>
+                <div class="so-choices-row"><span class='opt-choice key-correct-target'><b>A.</b> c-d-b-a<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>B.</b> c-d-a-b</span><span class='opt-choice '><b>C.</b> c-b-d-a</span><span class='opt-choice '><b>D.</b> d-c-b-a</span></div>
+                <div class="teacher-key-line">Key: <b>c-d-b-a</b></div>
+            </div>
+            <div class="q-open-item avoid-break so-item">
+                <div class="so-lead"><b>3.</b> Rearrange the sentences:</div>
+                <div class="so-sub-lines"><div><b>(a)</b> a. Through intense determination and patient training, the young boy gradually built up his stamina.</div><div><b>(b)</b> b. Ten years later, he crossed the finish line of the national marathon to the cheers of thousands.</div><div><b>(c)</b> c. His parents encouraged him to take daily walks in the countryside to strengthen his breathing.</div><div><b>(d)</b> d. When Julian was diagnosed with a severe respiratory condition as a child, doctors doubted he could ever run.</div></div>
+                <div class="so-choices-row"><span class='opt-choice '><b>A.</b> d-c-b-a</span><span class='opt-choice '><b>B.</b> c-d-a-b</span><span class='opt-choice key-correct-target'><b>C.</b> d-c-a-b<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>D.</b> d-a-c-b</span></div>
+                <div class="teacher-key-line">Key: <b>d-c-a-b</b></div>
+            </div>
+            <div class="q-open-item avoid-break so-item">
+                <div class="so-lead"><b>4.</b> Rearrange the sentences:</div>
+                <div class="so-sub-lines"><div><b>(a)</b> a. A small team of independent animators began sketching storyboard concepts in an abandoned warehouse.</div><div><b>(b)</b> b. The touching story went on to become an unexpected global blockbuster that captivated audiences worldwide.</div><div><b>(c)</b> c. Film critics praised the innovative visuals when the indie project debuted at an international festival.</div><div><b>(d)</b> d. They spent three years perfecting their computer animation to create lifelike character expressions.</div></div>
+                <div class="so-choices-row"><span class='opt-choice key-correct-target'><b>A.</b> a-d-c-b<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>B.</b> d-a-c-b</span><span class='opt-choice '><b>C.</b> a-d-b-c</span><span class='opt-choice '><b>D.</b> a-c-d-b</span></div>
+                <div class="teacher-key-line">Key: <b>a-d-c-b</b></div>
+            </div>
+            <div class="q-open-item avoid-break so-item">
+                <div class="so-lead"><b>5.</b> Rearrange the sentences:</div>
+                <div class="so-sub-lines"><div><b>(a)</b> a. Working under flickering lanterns, the dedicated surgeon saved hundreds of lives with limited supplies.</div><div><b>(b)</b> b. Dr. Alistair volunteered to provide medical care when conflict broke out along the disputed frontier.</div><div><b>(c)</b> c. His selfless courage earned him the highest civilian honor when peace finally returned to the region.</div><div><b>(d)</b> d. He established a makeshift field hospital inside a mountain cavern to shelter the wounded from artillery fire.</div></div>
+                <div class="so-choices-row"><span class='opt-choice '><b>A.</b> b-d-c-a</span><span class='opt-choice key-correct-target'><b>B.</b> b-d-a-c<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>C.</b> b-a-d-c</span><span class='opt-choice '><b>D.</b> d-b-a-c</span></div>
+                <div class="teacher-key-line">Key: <b>b-d-a-c</b></div>
+            </div></div></div>
+        </div>
+
+        <div class="exercise-open-section" id="ex-9">
+            <h3 class="ex-heading-blue">Exercise 9: Synonyms &amp; Closest Meaning</h3>
+            <div class="ex-guide-orange">Choose the word or phrase that is CLOSEST in meaning to the underlined word:</div>
+            <div class="ex-open-content"><div class='open-2col-flow'>
+            <div class="q-open-item avoid-break ex9-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>1.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>The young cellist displayed musical <u><b>genius</b></u> when she effortlessly improvised a complex classical piece without sheet music.</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> average memory</span><span class='opt-choice '><b>B.</b> careful habit</span><span class='opt-choice '><b>C.</b> ordinary training</span><span class='opt-choice key-correct-target'><b>D.</b> exceptional talent<span class='key-check-mark'>✓</span></span>
+                </div>
+                <div class="teacher-key-line">Key: <b>exceptional talent</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex9-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>2.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>The company&#x27;s chief architect was a true <u><b>visionary</b></u> who anticipated renewable energy trends decades ahead of competitors.</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice key-correct-target'><b>A.</b> forward-thinking leader<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>B.</b> cautious investor</span><span class='opt-choice '><b>C.</b> practical assistant</span><span class='opt-choice '><b>D.</b> strict supervisor</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>forward-thinking leader</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex9-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>3.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>Completing a degree in astrophysics while working two night jobs was an <u><b>impressive achievement</b></u> for the young scholar.</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> easy experiment</span><span class='opt-choice '><b>B.</b> unpleasant task</span><span class='opt-choice key-correct-target'><b>C.</b> remarkable accomplishment<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>D.</b> common assignment</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>remarkable accomplishment</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex9-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>4.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>The veteran statesman was widely <u><b>admired for</b></u> his fairness and unwavering commitment to global peace.</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> criticized for</span><span class='opt-choice key-correct-target'><b>B.</b> respected for<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>C.</b> blamed for</span><span class='opt-choice '><b>D.</b> warned about</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>respected for</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex9-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>5.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>Many courageous patriots volunteered to fight in the <u><b>resistance war</b></u> to liberate their occupied homeland.</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> cultural exchange festival</span><span class='opt-choice '><b>B.</b> peaceful trade agreement</span><span class='opt-choice key-correct-target'><b>C.</b> fight for national liberation<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>D.</b> friendly border tournament</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>fight for national liberation</b></div>
+            </div></div></div>
+        </div>
+    </div>
+    
+
+    <!-- TRANG 7: BÀI TẬP 10 & 11 -->
+    <div class="textbook-sheet exercises-sheet page-break" id="page-7-exercises">
+        <header class="running-header-bar">
+            <span class="rh-left">GLOBAL SUCCESS 12 • UNIT 1: LIFE STORIES WE ADMIRE</span>
+            <span class="rh-right">PART II: PRACTICE EXERCISES (CONT.)</span>
+        </header>
+
+        <div class="exercise-open-section" id="ex-10">
+            <h3 class="ex-heading-blue" style="margin-top: 4px;">Exercise 10: Antonyms &amp; Opposite Meaning</h3>
+            <div class="ex-guide-orange">Choose the word or phrase that is OPPOSITE in meaning to the underlined word:</div>
+            <div class="ex-open-content"><div class='open-2col-flow'>
+            <div class="q-open-item avoid-break ex10-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>1.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>The new startup founder was remarkably <u><b>ambitious</b></u>, aiming to expand services to thirty countries within two years.</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice key-correct-target'><b>A.</b> complacent<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>B.</b> determined</span><span class='opt-choice '><b>C.</b> focused</span><span class='opt-choice '><b>D.</b> talented</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>complacent</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex10-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>2.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>After years of colonial governance, the nation finally established an <u><b>independent</b></u> parliament to govern its territory.</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> prosperous</span><span class='opt-choice '><b>B.</b> democratic</span><span class='opt-choice '><b>C.</b> sovereign</span><span class='opt-choice key-correct-target'><b>D.</b> subjugated<span class='key-check-mark'>✓</span></span>
+                </div>
+                <div class="teacher-key-line">Key: <b>subjugated</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex10-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>3.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>The allied general managed to <u><b>defeat</b></u> the hostile coalition after a strategic standoff in the river valley.</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice key-correct-target'><b>A.</b> lose to<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>B.</b> conquer</span><span class='opt-choice '><b>C.</b> overcome</span><span class='opt-choice '><b>D.</b> command</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>lose to</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex10-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>4.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>Doctors initially feared that the critically injured explorer might <u><b>pass away</b></u> during the blizzard, but emergency treatment kept him stable.</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> depart</span><span class='opt-choice '><b>B.</b> expire</span><span class='opt-choice key-correct-target'><b>C.</b> survive<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>D.</b> perish</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>survive</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex10-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>5.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>When Lucas received the confirmation letter that he had won first prize, he was <u><b>on top of the world</b></u>.</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> mildly surprised</span><span class='opt-choice key-correct-target'><b>B.</b> deeply sorrowful<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>C.</b> extremely cheerful</span><span class='opt-choice '><b>D.</b> pleasantly relaxed</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>deeply sorrowful</b></div>
+            </div></div></div>
+        </div>
+
+        <div class="exercise-open-section" id="ex-11">
+            <h3 class="ex-heading-blue">Exercise 11: Dictionary Skills &amp; In-Context Usage</h3>
+            <div class="ex-guide-orange">Study the dictionary entries and complete the practice sentences:</div>
+            <div class="ex-open-content"><div class='open-2col-flow'>
+            <div class="dict-open-entry avoid-break">
+                <div class="dict-head-text">
+                    <b>determination</b> <i>(noun)</i> <span class="ipa-faded">/dɪˌtɜːmɪˈneɪʃn/</span>
+                </div>
+                <div class="dict-def-line"><b>Def:</b> the ability to continue trying to achieve something difficult despite obstacles</div>
+                <ul class="dict-bullets-inline"><li>Her <u><b>determination to succeed against</b></u> poverty inspired everyone in the village.</li><li>In moments of sudden crisis, officers are trained to <u><b>act with determination</b></u>.</li></ul>
+                <div class="dict-sentences-box">
+                    <div><b>1.</b> The young apprentice possessed a relentless <span class='blank-open-slot'>( 1 ) ............................</span><span class='teacher-key-line'> [<b>determination to succeed against</b>]</span> all financial hardships and graduate top of his class.</div><div><b>2.</b> The polar research team crossed the vast ice shelf through sheer <span class='blank-open-slot'>( 2 ) ............................</span><span class='teacher-key-line'> [<b>unwavering determination</b>]</span> in freezing temperatures.</div>
+                </div>
+            </div>
+            <div class="dict-open-entry avoid-break">
+                <div class="dict-head-text">
+                    <b>admire</b> <i>(verb)</i> <span class="ipa-faded">/ədˈmaɪə/</span>
+                </div>
+                <div class="dict-def-line"><b>Def:</b> to respect somebody for what they have done or to look at something with pleasure</div>
+                <ul class="dict-bullets-inline"><li>Voters continued to <u><b>admire her for</b></u> her honesty throughout the political campaign.</li><li>After working alongside the experienced editor, the intern began to <u><b>come to admire</b></u> his patience.</li></ul>
+                <div class="dict-sentences-box">
+                    <div><b>3.</b> Art historians <span class='blank-open-slot'>( 3 ) ............................</span><span class='teacher-key-line'> [<b>greatly admire</b>]</span> the subtle brushwork and luminous color balance in this renaissance portrait.</div><div><b>4.</b> Colleagues throughout the medical faculty <span class='blank-open-slot'>( 4 ) ............................</span><span class='teacher-key-line'> [<b>admire her for</b>]</span> her unflagging dedication to pediatric research.</div>
+                </div>
+            </div>
+            <div class="dict-open-entry avoid-break">
+                <div class="dict-head-text">
+                    <b>achievement</b> <i>(noun)</i> <span class="ipa-faded">/əˈtʃiːvmənt/</span>
+                </div>
+                <div class="dict-def-line"><b>Def:</b> a thing that somebody has done successfully, especially using their own effort and skill</div>
+                <ul class="dict-bullets-inline"><li>Completing the difficult mountain trek gave the scouts a deep <u><b>sense of proud achievement</b></u>.</li><li>The scholarship committee evaluates candidates primarily on their high level of <u><b>academic achievement</b></u>.</li></ul>
+                <div class="dict-sentences-box">
+                    <div><b>5.</b> The university honors committee awards special medals to students who demonstrate outstanding <span class='blank-open-slot'>( 5 ) ............................</span><span class='teacher-key-line'> [<b>academic achievement</b>]</span> throughout their four years.</div><div><b>6.</b> After spending six months carving the wooden violin, the craftsman experienced a genuine <span class='blank-open-slot'>( 6 ) ............................</span><span class='teacher-key-line'> [<b>sense of proud achievement</b>]</span>.</div>
+                </div>
+            </div>
+            <div class="dict-open-entry avoid-break">
+                <div class="dict-head-text">
+                    <b>devote</b> <i>(verb)</i> <span class="ipa-faded">/dɪˈvəʊt/</span>
+                </div>
+                <div class="dict-def-line"><b>Def:</b> to give an amount of time, attention, or effort to something</div>
+                <ul class="dict-bullets-inline"><li>Engineers must <u><b>devote energy to</b></u> making renewable solar batteries more efficient.</li><li>Young volunteers often <u><b>devote themselves to</b></u> clearing litter along polluted shorelines.</li></ul>
+                <div class="dict-sentences-box">
+                    <div><b>7.</b> Senior researchers encouraged junior doctors to <span class='blank-open-slot'>( 7 ) ............................</span><span class='teacher-key-line'> [<b>devote time to</b>]</span> reading peer-reviewed clinical journals each week.</div><div><b>8.</b> During the humanitarian crisis, dozens of aid workers stepped forward to <span class='blank-open-slot'>( 8 ) ............................</span><span class='teacher-key-line'> [<b>devote themselves to</b>]</span> distributing food and clean water.</div>
+                </div>
+            </div>
+            <div class="dict-open-entry avoid-break">
+                <div class="dict-head-text">
+                    <b>independent</b> <i>(adjective)</i> <span class="ipa-faded">/ˌɪndɪˈpendənt/</span>
+                </div>
+                <div class="dict-def-line"><b>Def:</b> not governed or controlled by other people, countries, or organizations</div>
+                <ul class="dict-bullets-inline"><li>After decades under colonial administration, the nation fought to <u><b>become fully independent</b></u>.</li><li>By learning computer programming, teenagers can become <u><b>financially independent</b></u> at an early age.</li></ul>
+                <div class="dict-sentences-box">
+                    <div><b>9.</b> Because Arthur refused to blindly accept popular dogmas, his mentors praised him as a truly <span class='blank-open-slot'>( 9 ) ............................</span><span class='teacher-key-line'> [<b>independent thinker</b>]</span>.</div><div><b>10.</b> Through diligent budgeting and personal savings, the young graduate managed to become <span class='blank-open-slot'>( 10 ) ............................</span><span class='teacher-key-line'> [<b>financially independent</b>]</span> without relying on family allowances.</div>
+                </div>
+            </div></div></div>
+        </div>
+    </div>
+    
+
+    <!-- TRANG 8: BÀI TẬP 12 (BIỂN BÁO TOÀN TRANG) -->
+    <div class="textbook-sheet exercises-sheet page-break" id="page-8-exercises">
+        <header class="running-header-bar">
+            <span class="rh-left">GLOBAL SUCCESS 12 • UNIT 1: LIFE STORIES WE ADMIRE</span>
+            <span class="rh-right">PART II: PRACTICE EXERCISES (CONT.)</span>
+        </header>
+
+        <div class="exercise-open-section" id="ex-12">
+            <h3 class="ex-heading-blue" style="margin-top: 4px;">Exercise 12: Real-World Signs &amp; Notices</h3>
+            <div class="ex-guide-orange">Look at each sign or notice and choose the best explanation (A, B, C, or D):</div>
+            <div class="ex-open-content"><div class='open-2col-flow'>
+            <div class="sign-open-item avoid-break">
+                <div class="sign-media-col">
+                    <span class="sign-tag-title">Sign 1</span>
+                    <img src='../../../images/sign_1.png' alt='Sign #1' class='sign-large-img' loading='lazy' onerror="this.style.opacity='0.2';">
+                </div>
+                <div class="sign-desc-col">
+                    <div class="sign-stem-txt"><b>1. What does the sign mean?</b></div>
+                    <div class="sign-options-stack">
+                        <div class='sign-opt-row '><b>A.</b> Visitors must charge camera batteries before entering the archive room.</div><div class='sign-opt-row '><b>B.</b> Visitors can purchase digital cameras at the memorial museum entrance.</div><div class='sign-opt-row key-correct-target'><b>C.</b> Flash photography is strictly prohibited inside the historical archive.<span class='key-check-mark'>✓</span></div><div class='sign-opt-row '><b>D.</b> Taking photos without camera equipment is permitted in the gallery room.</div>
+                    </div>
+                    <div class="teacher-key-line">Key: <b>Flash photography is strictly prohibited inside the historical archive.</b></div>
+                </div>
+            </div>
+            <div class="sign-open-item avoid-break">
+                <div class="sign-media-col">
+                    <span class="sign-tag-title">Sign 2</span>
+                    <img src='../../../images/sign_2.png' alt='Sign #2' class='sign-large-img' loading='lazy' onerror="this.style.opacity='0.2';">
+                </div>
+                <div class="sign-desc-col">
+                    <div class="sign-stem-txt"><b>2. What does the sign mean?</b></div>
+                    <div class="sign-options-stack">
+                        <div class='sign-opt-row '><b>A.</b> Cleaning historical statues requires wearing protective rubber gloves.</div><div class='sign-opt-row '><b>B.</b> Visitors are encouraged to hold the ancient stone sculptures on display.</div><div class='sign-opt-row key-correct-target'><b>C.</b> Touching the historic artifacts in this exhibition gallery is forbidden.<span class='key-check-mark'>✓</span></div><div class='sign-opt-row '><b>D.</b> Standing close to the commemorative exhibition pedestal is not allowed.</div>
+                    </div>
+                    <div class="teacher-key-line">Key: <b>Touching the historic artifacts in this exhibition gallery is forbidden.</b></div>
+                </div>
+            </div>
+            <div class="sign-open-item avoid-break">
+                <div class="sign-media-col">
+                    <span class="sign-tag-title">Sign 3</span>
+                    <img src='../../../images/sign_3.png' alt='Sign #3' class='sign-large-img' loading='lazy' onerror="this.style.opacity='0.2';">
+                </div>
+                <div class="sign-desc-col">
+                    <div class="sign-stem-txt"><b>3. What does the sign say?</b></div>
+                    <div class="sign-options-stack">
+                        <div class='sign-opt-row key-correct-target'><b>A.</b> Listening to the biography audio tour via personal headphones is required.<span class='key-check-mark'>✓</span></div><div class='sign-opt-row '><b>B.</b> Speaking loudly into audio headsets is strictly forbidden in this section.</div><div class='sign-opt-row '><b>C.</b> Repairing damaged museum headphones can be requested at the service desk.</div><div class='sign-opt-row '><b>D.</b> Visitors should store audio headsets inside the cloakroom before exiting.</div>
+                    </div>
+                    <div class="teacher-key-line">Key: <b>Listening to the biography audio tour via personal headphones is required.</b></div>
+                </div>
+            </div>
+            <div class="sign-open-item avoid-break">
+                <div class="sign-media-col">
+                    <span class="sign-tag-title">Sign 4</span>
+                    <img src='../../../images/sign_4.png' alt='Sign #4' class='sign-large-img' loading='lazy' onerror="this.style.opacity='0.2';">
+                </div>
+                <div class="sign-desc-col">
+                    <div class="sign-stem-txt"><b>4. What does the sign say?</b></div>
+                    <div class="sign-options-stack">
+                        <div class='sign-opt-row '><b>A.</b> Watch out for high electrical voltage behind the antique museum lighting.</div><div class='sign-opt-row '><b>B.</b> Be aware that the gallery floor has become very slippery after scrubbing.</div><div class='sign-opt-row key-correct-target'><b>C.</b> Caution: the historic glass cabinets are fragile and must not be pushed.<span class='key-check-mark'>✓</span></div><div class='sign-opt-row '><b>D.</b> Notice that damaged glassware will be replaced by the restoration team soon.</div>
+                    </div>
+                    <div class="teacher-key-line">Key: <b>Caution: the historic glass cabinets are fragile and must not be pushed.</b></div>
+                </div>
+            </div>
+            <div class="sign-open-item avoid-break">
+                <div class="sign-media-col">
+                    <span class="sign-tag-title">Sign 5</span>
+                    <img src='../../../images/sign_5.png' alt='Sign #5' class='sign-large-img' loading='lazy' onerror="this.style.opacity='0.2';">
+                </div>
+                <div class="sign-desc-col">
+                    <div class="sign-stem-txt"><b>5. What does the sign say?</b></div>
+                    <div class="sign-options-stack">
+                        <div class='sign-opt-row '><b>A.</b> Beware: heavy moving cameras might cause loud noise in the production bay.</div><div class='sign-opt-row '><b>B.</b> Notice: overhead stage lighting will be switched off during the rehearsal.</div><div class='sign-opt-row '><b>C.</b> Attention: sound recording microphones are currently active in this studio.</div><div class='sign-opt-row key-correct-target'><b>D.</b> Warning: optical laser equipment is actively operating on the film set.<span class='key-check-mark'>✓</span></div>
+                    </div>
+                    <div class="teacher-key-line">Key: <b>Warning: optical laser equipment is actively operating on the film set.</b></div>
+                </div>
+            </div>
+            <div class="sign-open-item avoid-break">
+                <div class="sign-media-col">
+                    <span class="sign-tag-title">Sign 6</span>
+                    <img src='../../../images/sign_6.png' alt='Sign #6' class='sign-large-img' loading='lazy' onerror="this.style.opacity='0.2';">
+                </div>
+                <div class="sign-desc-col">
+                    <div class="sign-stem-txt"><b>6. What does the notice tell us?</b></div>
+                    <div class="sign-options-stack">
+                        <div class='sign-opt-row '><b>A.</b> Oral history recordings have been postponed until the studio opens tomorrow.</div><div class='sign-opt-row '><b>B.</b> Visitors can join the public interview session with veterans this morning.</div><div class='sign-opt-row '><b>C.</b> Sound equipment inside the archive room is currently undergoing repairs now.</div><div class='sign-opt-row key-correct-target'><b>D.</b> People must maintain silence because a wartime interview is being filmed.<span class='key-check-mark'>✓</span></div>
+                    </div>
+                    <div class="teacher-key-line">Key: <b>People must maintain silence because a wartime interview is being filmed.</b></div>
+                </div>
+            </div>
+            <div class="sign-open-item avoid-break">
+                <div class="sign-media-col">
+                    <span class="sign-tag-title">Sign 7</span>
+                    <img src='../../../images/sign_7.png' alt='Sign #7' class='sign-large-img' loading='lazy' onerror="this.style.opacity='0.2';">
+                </div>
+                <div class="sign-desc-col">
+                    <div class="sign-stem-txt"><b>7. What does the note say?</b></div>
+                    <div class="sign-options-stack">
+                        <div class='sign-opt-row '><b>A.</b> Sarah wants Leo to leave the history book on her study desk after lunch.</div><div class='sign-opt-row key-correct-target'><b>B.</b> Leo should take the borrowed biography back to the library before 4 p.m.<span class='key-check-mark'>✓</span></div><div class='sign-opt-row '><b>C.</b> Sarah needs Leo to purchase a new copy of the biography at the bookshop.</div><div class='sign-opt-row '><b>D.</b> Leo has to finish reading the historical biography together with Sarah.</div>
+                    </div>
+                    <div class="teacher-key-line">Key: <b>Leo should take the borrowed biography back to the library before 4 p.m.</b></div>
+                </div>
+            </div>
+            <div class="sign-open-item avoid-break">
+                <div class="sign-media-col">
+                    <span class="sign-tag-title">Sign 8</span>
+                    <img src='../../../images/sign_8.png' alt='Sign #8' class='sign-large-img' loading='lazy' onerror="this.style.opacity='0.2';">
+                </div>
+                <div class="sign-desc-col">
+                    <div class="sign-stem-txt"><b>8. What does the email say?</b></div>
+                    <div class="sign-options-stack">
+                        <div class='sign-opt-row '><b>A.</b> General Harrison has cancelled his military history lecture this afternoon.</div><div class='sign-opt-row key-correct-target'><b>B.</b> The historical lecture will take place in a different hall at two o&#x27;clock.<span class='key-check-mark'>✓</span></div><div class='sign-opt-row '><b>C.</b> The presentation has been extended because many visitors arrived early today.</div><div class='sign-opt-row '><b>D.</b> Students must register online in advance before attending the talk in Hall B.</div>
+                    </div>
+                    <div class="teacher-key-line">Key: <b>The historical lecture will take place in a different hall at two o&#x27;clock.</b></div>
+                </div>
+            </div>
+            <div class="sign-open-item avoid-break">
+                <div class="sign-media-col">
+                    <span class="sign-tag-title">Sign 9</span>
+                    <img src='../../../images/sign_9.png' alt='Sign #9' class='sign-large-img' loading='lazy' onerror="this.style.opacity='0.2';">
+                </div>
+                <div class="sign-desc-col">
+                    <div class="sign-stem-txt"><b>9. What does the notice tell us?</b></div>
+                    <div class="sign-options-stack">
+                        <div class='sign-opt-row key-correct-target'><b>A.</b> Customers get a complimentary documentary DVD when purchasing two biographies.<span class='key-check-mark'>✓</span></div><div class='sign-opt-row '><b>B.</b> Visitors receive two free documentary films when buying any history magazine.</div><div class='sign-opt-row '><b>C.</b> All historical books about visionary leaders are discounted by fifty percent.</div><div class='sign-opt-row '><b>D.</b> The book fair offers free biography volumes for anyone visiting this weekend.</div>
+                    </div>
+                    <div class="teacher-key-line">Key: <b>Customers get a complimentary documentary DVD when purchasing two biographies.</b></div>
+                </div>
+            </div>
+            <div class="sign-open-item avoid-break">
+                <div class="sign-media-col">
+                    <span class="sign-tag-title">Sign 10</span>
+                    <img src='../../../images/sign_10.png' alt='Sign #10' class='sign-large-img' loading='lazy' onerror="this.style.opacity='0.2';">
+                </div>
+                <div class="sign-desc-col">
+                    <div class="sign-stem-txt"><b>10. What does the flyer tell us?</b></div>
+                    <div class="sign-options-stack">
+                        <div class='sign-opt-row key-correct-target'><b>A.</b> Students with valid identification cards can attend the screenings for free.<span class='key-check-mark'>✓</span></div><div class='sign-opt-row '><b>B.</b> Moviegoers must purchase tickets online before October 10 to see the films.</div><div class='sign-opt-row '><b>C.</b> The film festival will showcase foreign animated cartoons for secondary kids.</div><div class='sign-opt-row '><b>D.</b> Cinema tickets are fifty percent off for all visitors during the five days.</div>
+                    </div>
+                    <div class="teacher-key-line">Key: <b>Students with valid identification cards can attend the screenings for free.</b></div>
+                </div>
+            </div></div></div>
+        </div>
+    </div>
+    
+
+    <!-- TRANG 9: BÀI TẬP 13, 14, 15 -->
+    <div class="textbook-sheet exercises-sheet page-break" id="page-9-exercises">
+        <header class="running-header-bar">
+            <span class="rh-left">GLOBAL SUCCESS 12 • UNIT 1: LIFE STORIES WE ADMIRE</span>
+            <span class="rh-right">PART II: PRACTICE EXERCISES (CONT.)</span>
+        </header>
+
+        <div class="exercise-open-section" id="ex-13">
+            <h3 class="ex-heading-blue" style="margin-top: 4px;">Exercise 13: Word Families Chart</h3>
+            <div class="ex-guide-orange">Study the word families chart and complete the missing forms:</div>
+            <div class="ex-open-content">
+        <table class="clean-open-table avoid-break">
+            <colgroup>
+                <col style="width: 6%;">
+                <col style="width: 24%;">
+                <col style="width: 17%;">
+                <col style="width: 18%;">
+                <col style="width: 18%;">
+                <col style="width: 17%;">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Base Word</th>
+                    <th>Verb</th>
+                    <th>Noun</th>
+                    <th>Adjective</th>
+                    <th>Adverb</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            <tr class="avoid-break">
+                <td style="text-align: center;">1</td>
+                <td><b>admire</b> <i>(verb)</i></td>
+                <td>admire</td>
+                <td>admiration, admirer</td>
+                <td>admirable</td>
+                <td>admirably</td>
+            </tr>
+            <tr class="avoid-break">
+                <td style="text-align: center;">2</td>
+                <td><b>achievement</b> <i>(noun)</i></td>
+                <td>achieve</td>
+                <td>achievement</td>
+                <td>achievable</td>
+                <td>—</td>
+            </tr>
+            <tr class="avoid-break">
+                <td style="text-align: center;">3</td>
+                <td><b>determination</b> <i>(noun)</i></td>
+                <td>determine</td>
+                <td>determination</td>
+                <td>determined</td>
+                <td>determinedly</td>
+            </tr>
+            <tr class="avoid-break">
+                <td style="text-align: center;">4</td>
+                <td><b>ambitious</b> <i>(adjective)</i></td>
+                <td>—</td>
+                <td>ambition</td>
+                <td>ambitious</td>
+                <td>ambitiously</td>
+            </tr>
+            <tr class="avoid-break">
+                <td style="text-align: center;">5</td>
+                <td><b>independent</b> <i>(adjective)</i></td>
+                <td>—</td>
+                <td>independence</td>
+                <td>independent</td>
+                <td>independently</td>
+            </tr>
+            <tr class="avoid-break">
+                <td style="text-align: center;">6</td>
+                <td><b>devote</b> <i>(verb)</i></td>
+                <td>devote</td>
+                <td>devotion</td>
+                <td>devoted</td>
+                <td>devotedly</td>
+            </tr>
+            <tr class="avoid-break">
+                <td style="text-align: center;">7</td>
+                <td><b>animator</b> <i>(noun)</i></td>
+                <td>animate</td>
+                <td>animator, animation</td>
+                <td>animated</td>
+                <td>—</td>
+            </tr>
+            <tr class="avoid-break">
+                <td style="text-align: center;">8</td>
+                <td><b>death</b> <i>(noun)</i></td>
+                <td>die</td>
+                <td>death</td>
+                <td>dead, deadly</td>
+                <td>—</td>
+            </tr>
+            <tr class="avoid-break">
+                <td style="text-align: center;">9</td>
+                <td><b>defeat</b> <i>(verb)</i></td>
+                <td>defeat</td>
+                <td>defeat</td>
+                <td>defeated</td>
+                <td>—</td>
+            </tr>
+            <tr class="avoid-break">
+                <td style="text-align: center;">10</td>
+                <td><b>visionary</b> <i>(noun)</i></td>
+                <td>—</td>
+                <td>vision, visionary</td>
+                <td>visionary</td>
+                <td>—</td>
+            </tr>
+            </tbody>
+        </table></div>
+        </div>
+
+        <div class="exercise-open-section" id="ex-14">
+            <h3 class="ex-heading-blue">Exercise 14: Word Form Choice</h3>
+            <div class="ex-guide-orange">Choose the correct form of the word to complete each sentence:</div>
+            <div class="ex-open-content"><div class='open-2col-flow'>
+            <div class="q-open-item avoid-break ex14-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>1.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>Everyone in the audience expressed deep __________ for the surgeon&#x27;s tireless dedication.</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> admirable</span><span class='opt-choice key-correct-target'><b>B.</b> admiration<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>C.</b> admire</span><span class='opt-choice '><b>D.</b> admirably</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>admiration</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex14-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>2.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>With regular practice and perseverance, your academic goals are completely __________.</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> achieving</span><span class='opt-choice '><b>B.</b> achieve</span><span class='opt-choice key-correct-target'><b>C.</b> achievable<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>D.</b> achievement</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>achievable</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex14-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>3.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>Despite multiple setbacks, the athlete remained __________ to win the international championship.</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> determinedly</span><span class='opt-choice key-correct-target'><b>B.</b> determined<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>C.</b> determine</span><span class='opt-choice '><b>D.</b> determination</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>determined</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex14-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>4.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>From an early age, Daniel showed immense __________ to become a leading aerospace engineer.</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice key-correct-target'><b>A.</b> ambition<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>B.</b> ambitioned</span><span class='opt-choice '><b>C.</b> ambitious</span><span class='opt-choice '><b>D.</b> ambitiously</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>ambition</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex14-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>5.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>The young journalist conducted interviews __________ without receiving guidance from senior staff.</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> independence</span><span class='opt-choice '><b>B.</b> independent</span><span class='opt-choice '><b>C.</b> independency</span><span class='opt-choice key-correct-target'><b>D.</b> independently<span class='key-check-mark'>✓</span></span>
+                </div>
+                <div class="teacher-key-line">Key: <b>independently</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex14-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>6.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>Sister Teresa showed profound __________ to helping impoverished communities throughout her life.</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice key-correct-target'><b>A.</b> devotion<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>B.</b> devotedly</span><span class='opt-choice '><b>C.</b> devoted</span><span class='opt-choice '><b>D.</b> devote</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>devotion</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex14-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>7.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>The studio produced an exciting __________ feature film that attracted millions of young viewers.</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> animation</span><span class='opt-choice '><b>B.</b> animate</span><span class='opt-choice '><b>C.</b> animating</span><span class='opt-choice key-correct-target'><b>D.</b> animated<span class='key-check-mark'>✓</span></span>
+                </div>
+                <div class="teacher-key-line">Key: <b>animated</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex14-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>8.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>The ancient tree stood completely __________ after several months of severe summer drought.</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> deadly</span><span class='opt-choice '><b>B.</b> die</span><span class='opt-choice key-correct-target'><b>C.</b> dead<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>D.</b> death</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>dead</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex14-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>9.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>The visiting soccer players looked deeply __________ as they walked off the pitch after the match.</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> defeat</span><span class='opt-choice key-correct-target'><b>B.</b> defeated<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>C.</b> defeats</span><span class='opt-choice '><b>D.</b> defeating</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>defeated</b></div>
+            </div>
+            <div class="q-open-item avoid-break ex14-item">
+                <div class="q-line-stem">
+                    <span class="q-seq-num"><b>10.</b></span>
+                    <span class="q-stem-body"><span class='stem-text'>The founder had a clear __________ for transforming clean energy technology across the continent.</span></span>
+                </div>
+                <div class="q-choices-grid">
+                    <span class='opt-choice '><b>A.</b> envision</span><span class='opt-choice '><b>B.</b> visioning</span><span class='opt-choice key-correct-target'><b>C.</b> vision<span class='key-check-mark'>✓</span></span><span class='opt-choice '><b>D.</b> visionary</span>
+                </div>
+                <div class="teacher-key-line">Key: <b>vision</b></div>
+            </div></div></div>
+        </div>
+
+        <div class="exercise-open-section" id="ex-15">
+            <h3 class="ex-heading-blue">Exercise 15: Word Formation Practice</h3>
+            <div class="ex-guide-orange">Supply the correct form of the word in brackets to complete each sentence:</div>
+            <div class="ex-open-content"><div class='open-2col-flow'>
+            <div class="q-open-item avoid-break ex15-item">
+                <span class="q-seq-num"><b>1.</b></span>
+                <span class="q-stem-body">The young mountaineer&#x27;s courage and perseverance were truly <span class='blank-open-slot'>...........................................</span><span class='teacher-key-line'> [<b>admirable</b>]</span>. <b>[ADMIRE]</b></span>
+            </div>
+            <div class="q-open-item avoid-break ex15-item">
+                <span class="q-seq-num"><b>2.</b></span>
+                <span class="q-stem-body">After years of financial dependence, the entrepreneur finally gained total <span class='blank-open-slot'>...........................................</span><span class='teacher-key-line'> [<b>independence</b>]</span>. <b>[INDEPENDENT]</b></span>
+            </div>
+            <div class="q-open-item avoid-break ex15-item">
+                <span class="q-seq-num"><b>3.</b></span>
+                <span class="q-stem-body">Even in the face of fierce criticism, she remained completely <span class='blank-open-slot'>...........................................</span><span class='teacher-key-line'> [<b>devoted</b>]</span> to her principles. <b>[DEVOTE]</b></span>
+            </div>
+            <div class="q-open-item avoid-break ex15-item">
+                <span class="q-seq-num"><b>4.</b></span>
+                <span class="q-stem-body">The young chess player advanced <span class='blank-open-slot'>...........................................</span><span class='teacher-key-line'> [<b>determinedly</b>]</span> through every stage of the national tournament. <b>[DETERMINE]</b></span>
+            </div>
+            <div class="q-open-item avoid-break ex15-item">
+                <span class="q-seq-num"><b>5.</b></span>
+                <span class="q-stem-body">Rebuilding the destroyed medieval library was an extraordinarily <span class='blank-open-slot'>...........................................</span><span class='teacher-key-line'> [<b>ambitious</b>]</span> project for the city. <b>[AMBITION]</b></span>
+            </div></div></div>
+        </div>
+    </div>
+    
+
+    <!-- TRANG 10: BÀI TẬP 16 (DỊCH CÂU TOÀN TRANG) -->
+    <div class="textbook-sheet exercises-sheet page-break" id="page-10-exercises">
+        <header class="running-header-bar">
+            <span class="rh-left">GLOBAL SUCCESS 12 • UNIT 1: LIFE STORIES WE ADMIRE</span>
+            <span class="rh-right">PART II: PRACTICE EXERCISES (CONT.)</span>
+        </header>
+
+        <div class="exercise-open-section" id="ex-16">
+            <h3 class="ex-heading-blue" style="margin-top: 4px;">Exercise 16: Sentence Translation</h3>
+            <div class="ex-guide-orange">Translate the following Vietnamese sentences into natural English:</div>
+            <div class="ex-open-content"><div class='trans-1col-stack'>
+            <div class="trans-open-row avoid-break">
+                <div class="trans-vi-text"><b>1.</b> Trong khi bác sĩ phẫu thuật đang tiến hành ca mổ khẩn cấp, bệnh viện dã chiến đã bị cúp điện.</div>
+                <div class="trans-write-slot"><span class="trans-arrow">➔</span><span class="trans-dotted-rule"></span></div>
+                <div class="trans-write-slot"><span class="trans-indent"></span><span class="trans-dotted-rule"></span></div>
+                <div class="teacher-key-line">Key: <b>While the surgeon was performing an emergency operation, the field hospital lost power.</b></div>
+            </div>
+            <div class="trans-open-row avoid-break">
+                <div class="trans-vi-text"><b>2.</b> Nhà lãnh đạo có tầm nhìn xa trông rộng đã cống hiến cả cuộc đời mình cho nền độc lập của đất nước.</div>
+                <div class="trans-write-slot"><span class="trans-arrow">➔</span><span class="trans-dotted-rule"></span></div>
+                <div class="trans-write-slot"><span class="trans-indent"></span><span class="trans-dotted-rule"></span></div>
+                <div class="teacher-key-line">Key: <b>The visionary leader devoted his whole life to the independence of the nation.</b></div>
+            </div>
+            <div class="trans-open-row avoid-break">
+                <div class="trans-vi-text"><b>3.</b> Cô ấy cảm thấy vui sướng ngất ngây khi bộ phim hoạt hình bom tấn của mình giành giải thưởng quốc tế.</div>
+                <div class="trans-write-slot"><span class="trans-arrow">➔</span><span class="trans-dotted-rule"></span></div>
+                <div class="trans-write-slot"><span class="trans-indent"></span><span class="trans-dotted-rule"></span></div>
+                <div class="teacher-key-line">Key: <b>She felt on top of the world when her animated blockbuster won an international award.</b></div>
+            </div>
+            <div class="trans-open-row avoid-break">
+                <div class="trans-vi-text"><b>4.</b> Nhiều chiến sĩ dũng cảm đã thực hiện các cuộc tấn công bất ngờ trong suốt cuộc kháng chiến.</div>
+                <div class="trans-write-slot"><span class="trans-arrow">➔</span><span class="trans-dotted-rule"></span></div>
+                <div class="trans-write-slot"><span class="trans-indent"></span><span class="trans-dotted-rule"></span></div>
+                <div class="teacher-key-line">Key: <b>Many brave soldiers carried out surprise attacks during the resistance war.</b></div>
+            </div>
+            <div class="trans-open-row avoid-break">
+                <div class="trans-vi-text"><b>5.</b> Ông bà tôi đã có một cuộc hôn nhân lâu dài và luôn luôn tương trợ lẫn nhau.</div>
+                <div class="trans-write-slot"><span class="trans-arrow">➔</span><span class="trans-dotted-rule"></span></div>
+                <div class="trans-write-slot"><span class="trans-indent"></span><span class="trans-dotted-rule"></span></div>
+                <div class="teacher-key-line">Key: <b>My grandparents had a long marriage and always supported each other.</b></div>
+            </div>
+            <div class="trans-open-row avoid-break">
+                <div class="trans-vi-text"><b>6.</b> Nhà sản xuất phim đã quyết định bỏ học đại học để theo đuổi niềm đam mê điện ảnh của mình.</div>
+                <div class="trans-write-slot"><span class="trans-arrow">➔</span><span class="trans-dotted-rule"></span></div>
+                <div class="trans-write-slot"><span class="trans-indent"></span><span class="trans-dotted-rule"></span></div>
+                <div class="teacher-key-line">Key: <b>The film producer decided to drop out of college to pursue his passion for cinema.</b></div>
+            </div>
+            <div class="trans-open-row avoid-break">
+                <div class="trans-vi-text"><b>7.</b> Khi người anh hùng dân tộc qua đời, hàng triệu người dân đã chia sẻ những lời triân chân thành.</div>
+                <div class="trans-write-slot"><span class="trans-arrow">➔</span><span class="trans-dotted-rule"></span></div>
+                <div class="trans-write-slot"><span class="trans-indent"></span><span class="trans-dotted-rule"></span></div>
+                <div class="teacher-key-line">Key: <b>When the national hero passed away, millions of citizens shared heartfelt tributes.</b></div>
+            </div>
+            <div class="trans-open-row avoid-break">
+                <div class="trans-vi-text"><b>8.</b> Vị thiên tài quân sự đã thay đổi chiến thuật chiến đấu trong khi quân địch đang tiến công.</div>
+                <div class="trans-write-slot"><span class="trans-arrow">➔</span><span class="trans-dotted-rule"></span></div>
+                <div class="trans-write-slot"><span class="trans-indent"></span><span class="trans-dotted-rule"></span></div>
+                <div class="teacher-key-line">Key: <b>The military genius changed his battle tactics while the enemy troops were advancing.</b></div>
+            </div>
+            <div class="trans-open-row avoid-break">
+                <div class="trans-vi-text"><b>9.</b> Hai sinh viên đã trở nên thân thiết nhờ sở thích chung về kỹ xảo hoạt họa máy tính khi còn học ở trường.</div>
+                <div class="trans-write-slot"><span class="trans-arrow">➔</span><span class="trans-dotted-rule"></span></div>
+                <div class="trans-write-slot"><span class="trans-indent"></span><span class="trans-dotted-rule"></span></div>
+                <div class="teacher-key-line">Key: <b>Two students bonded over their shared interest in computer animation while they were attending school.</b></div>
+            </div>
+            <div class="trans-open-row avoid-break">
+                <div class="trans-vi-text"><b>10.</b> Tôi đang đọc một cuốn tiểu sử truyền cảm hứng thì bạn tôi gọi điện rủ đi công viên giải trí.</div>
+                <div class="trans-write-slot"><span class="trans-arrow">➔</span><span class="trans-dotted-rule"></span></div>
+                <div class="trans-write-slot"><span class="trans-indent"></span><span class="trans-dotted-rule"></span></div>
+                <div class="teacher-key-line">Key: <b>I was reading an inspiring biography when my friend called to invite me to the theme park.</b></div>
+            </div></div></div>
+        </div>
+    </div>
+    
+        
+    <div class="textbook-sheet answer-key-sheet page-break" id="page-answer-key">
+        <header class="running-header-bar">
+            <span class="rh-left">GLOBAL SUCCESS 12 • UNIT 1: LIFE STORIES WE ADMIRE</span>
+            <span class="rh-right">PART III: ANSWER KEY & MODEL ANSWERS</span>
+        </header>
+
+        <div class="section-title-wrap" style="margin-top: 4px;">
+            <h2 class="section-heading-blue">PART III: ANSWER KEY & MODEL ANSWERS</h2>
+            <div class="section-instruction-orange">Official answer key for teacher verification and student reference:</div>
+        </div>
+        <div class="ak-4col-grid">
+    
+
+        <div class="ak-item-open avoid-break">
+            <div class="ak-item-title"><b>Ex 1:</b> Vocabulary Identification</div>
+            <div class="ak-item-body">
+                <div class='ak-flow'><span class='ak-chip'><b>1.</b> <b>A</b> (drop out)</span><span class='ak-chip'><b>2.</b> <b>D</b> (an animator)</span><span class='ak-chip'><b>3.</b> <b>D</b> (an impressive achievement)</span><span class='ak-chip'><b>4.</b> <b>A</b> (a field hospital)</span><span class='ak-chip'><b>5.</b> <b>D</b> (on top of the world)</span><span class='ak-chip'><b>6.</b> <b>B</b> (a biography)</span><span class='ak-chip'><b>7.</b> <b>C</b> (ambitious)</span><span class='ak-chip'><b>8.</b> <b>A</b> (a national hero)</span><span class='ak-chip'><b>9.</b> <b>C</b> (a surgeon)</span><span class='ak-chip'><b>10.</b> <b>B</b> (biological parents)</span></div>
+            </div>
+        </div>
+
+        <div class="ak-item-open avoid-break">
+            <div class="ak-item-title"><b>Ex 2:</b> Sentence Completion</div>
+            <div class="ak-item-body">
+                <div class='ak-flow'><span class='ak-chip'><b>1.</b> <b>D</b> (genius)</span><span class='ak-chip'><b>2.</b> <b>C</b> (cutting-edge technology)</span><span class='ak-chip'><b>3.</b> <b>C</b> (attend college)</span><span class='ak-chip'><b>4.</b> <b>D</b> (determination)</span><span class='ak-chip'><b>5.</b> <b>B</b> (blockbuster)</span><span class='ak-chip'><b>6.</b> <b>B</b> (tourist attraction)</span><span class='ak-chip'><b>7.</b> <b>A</b> (ruled)</span><span class='ak-chip'><b>8.</b> <b>B</b> (over the moon)</span><span class='ak-chip'><b>9.</b> <b>A</b> (bonded over)</span><span class='ak-chip'><b>10.</b> <b>A</b> (be admired for)</span></div>
+            </div>
+        </div>
+
+        <div class="ak-item-open avoid-break">
+            <div class="ak-item-title"><b>Ex 3:</b> Everyday Conversations</div>
+            <div class="ak-item-body">
+                <div class='ak-flow'><span class='ak-chip'><b>1.</b> <b>B</b> (Thank you so much, it was truly an impressive achievement for our team.)</span><span class='ak-chip'><b>2.</b> <b>D</b> (She wants to work as an animator for a famous digital animation studio.)</span><span class='ak-chip'><b>3.</b> <b>D</b> (I was on cloud nine and could not stop smiling for the rest of the day.)</span><span class='ak-chip'><b>4.</b> <b>C</b> (I would love to join you because I really enjoy thrilling roller coasters.)</span><span class='ak-chip'><b>5.</b> <b>D</b> (A visionary astrophysicist who was designing lunar exploration modules.)</span><span class='ak-chip'><b>6.</b> <b>C</b> (You should read this biography of a scientist who devoted her life to peace.)</span><span class='ak-chip'><b>7.</b> <b>B</b> (Yes, they have had a long marriage filled with mutual trust and harmony.)</span><span class='ak-chip'><b>8.</b> <b>A</b> (He is extremely well educated and has spent decades studying linguistics.)</span><span class='ak-chip'><b>9.</b> <b>C</b> (Our coach was a tactical genius who adjusted the formation at halftime.)</span><span class='ak-chip'><b>10.</b> <b>A</b> (Yes, his death is a huge loss to everyone in our community who knew him.)</span></div>
+            </div>
+        </div>
+
+        <div class="ak-item-open avoid-break">
+            <div class="ak-item-title"><b>Ex 4:</b> Picture Vocabulary</div>
+            <div class="ak-item-body">
+                <div class='ak-flow'><span class='ak-chip'><b>1.</b> childhood</span><span class='ak-chip'><b>2.</b> youth</span><span class='ak-chip'><b>3.</b> attend school</span><span class='ak-chip'><b>4.</b> attend college</span><span class='ak-chip'><b>5.</b> drop out</span><span class='ak-chip'><b>6.</b> marriage</span><span class='ak-chip'><b>7.</b> have a long marriage</span><span class='ak-chip'><b>8.</b> adopt</span><span class='ak-chip'><b>9.</b> biological parents</span><span class='ak-chip'><b>10.</b> genius</span><span class='ak-chip'><b>11.</b> visionary</span><span class='ak-chip'><b>12.</b> determination</span><span class='ak-chip'><b>13.</b> well educated</span><span class='ak-chip'><b>14.</b> national hero</span><span class='ak-chip'><b>15.</b> military genius</span><span class='ak-chip'><b>16.</b> cutting-edge technology</span><span class='ak-chip'><b>17.</b> tourist attraction</span><span class='ak-chip'><b>18.</b> theme park</span><span class='ak-chip'><b>19.</b> rule</span><span class='ak-chip'><b>20.</b> kingdom</span></div>
+            </div>
+        </div>
+
+        <div class="ak-item-open avoid-break">
+            <div class="ak-item-title"><b>Ex 5:</b> Word Recall &amp; Definitions</div>
+            <div class="ak-item-body">
+                <div class='ak-stack'><div><b>Q1:</b> (a) childhood | (b) youth</div><div><b>Q2:</b> (a) adopt | (b) marriage</div><div><b>Q3:</b> (a) genius | (b) visionary</div><div><b>Q4:</b> (a) determination | (b) ambitious</div><div><b>Q5:</b> (a) achievement | (b) national hero</div><div><b>Q6:</b> (a) blockbuster | (b) theme park</div><div><b>Q7:</b> (a) kingdom | (b) independent</div><div><b>Q8:</b> (a) surgeon | (b) biography</div><div><b>Q9:</b> (a) animator | (b) film producer</div><div><b>Q10:</b> (a) admire | (b) defeat</div></div>
+            </div>
+        </div>
+
+        <div class="ak-item-open avoid-break">
+            <div class="ak-item-title"><b>Ex 6:</b> Word Box Sentences</div>
+            <div class="ak-item-body">
+                <div class='ak-flow'><span class='ak-chip'><b>1.</b> childhood</span><span class='ak-chip'><b>2.</b> adopt</span><span class='ak-chip'><b>3.</b> genius</span><span class='ak-chip'><b>4.</b> determination</span><span class='ak-chip'><b>5.</b> blockbuster</span><span class='ak-chip'><b>6.</b> kingdom</span><span class='ak-chip'><b>7.</b> defeat</span><span class='ak-chip'><b>8.</b> surgeon</span><span class='ak-chip'><b>9.</b> biography</span><span class='ak-chip'><b>10.</b> animator</span></div>
+            </div>
+        </div>
+
+        <div class="ak-item-open avoid-break">
+            <div class="ak-item-title"><b>Ex 7:</b> Passage Completion</div>
+            <div class="ak-item-body">
+                <div class='ak-flow'><span class='ak-chip'><b>(1)</b> youth</span><span class='ak-chip'><b>(2)</b> ambitious</span><span class='ak-chip'><b>(3)</b> marriage</span><span class='ak-chip'><b>(4)</b> independent</span><span class='ak-chip'><b>(5)</b> visionary</span><span class='ak-chip'><b>(6)</b> achievement</span><span class='ak-chip'><b>(7)</b> rule</span><span class='ak-chip'><b>(8)</b> cancer</span><span class='ak-chip'><b>(9)</b> death</span><span class='ak-chip'><b>(10)</b> admire</span></div>
+            </div>
+        </div>
+
+        <div class="ak-item-open avoid-break">
+            <div class="ak-item-title"><b>Ex 8:</b> Sentence Ordering</div>
+            <div class="ak-item-body">
+                <div class='ak-flow'><span class='ak-chip'><b>1.</b> <b>D</b> (b-c-d-a)</span><span class='ak-chip'><b>2.</b> <b>A</b> (c-d-b-a)</span><span class='ak-chip'><b>3.</b> <b>C</b> (d-c-a-b)</span><span class='ak-chip'><b>4.</b> <b>A</b> (a-d-c-b)</span><span class='ak-chip'><b>5.</b> <b>B</b> (b-d-a-c)</span></div>
+            </div>
+        </div>
+
+        <div class="ak-item-open avoid-break">
+            <div class="ak-item-title"><b>Ex 9:</b> Synonyms &amp; Closest Meaning</div>
+            <div class="ak-item-body">
+                <div class='ak-flow'><span class='ak-chip'><b>1.</b> <b>D</b> (exceptional talent)</span><span class='ak-chip'><b>2.</b> <b>A</b> (forward-thinking leader)</span><span class='ak-chip'><b>3.</b> <b>C</b> (remarkable accomplishment)</span><span class='ak-chip'><b>4.</b> <b>B</b> (respected for)</span><span class='ak-chip'><b>5.</b> <b>C</b> (fight for national liberation)</span></div>
+            </div>
+        </div>
+
+        <div class="ak-item-open avoid-break">
+            <div class="ak-item-title"><b>Ex 10:</b> Antonyms &amp; Opposite Meaning</div>
+            <div class="ak-item-body">
+                <div class='ak-flow'><span class='ak-chip'><b>1.</b> <b>A</b> (complacent)</span><span class='ak-chip'><b>2.</b> <b>D</b> (subjugated)</span><span class='ak-chip'><b>3.</b> <b>A</b> (lose to)</span><span class='ak-chip'><b>4.</b> <b>C</b> (survive)</span><span class='ak-chip'><b>5.</b> <b>B</b> (deeply sorrowful)</span></div>
+            </div>
+        </div>
+
+        <div class="ak-item-open avoid-break">
+            <div class="ak-item-title"><b>Ex 11:</b> Dictionary Skills &amp; In-Context Usage</div>
+            <div class="ak-item-body">
+                <div class='ak-stack'><div><b>Entry 1 (determination):</b> #1: determination to succeed against, #2: unwavering determination</div><div><b>Entry 2 (admire):</b> #3: greatly admire, #4: admire her for</div><div><b>Entry 3 (achievement):</b> #5: academic achievement, #6: sense of proud achievement</div><div><b>Entry 4 (devote):</b> #7: devote time to, #8: devote themselves to</div><div><b>Entry 5 (independent):</b> #9: independent thinker, #10: financially independent</div></div>
+            </div>
+        </div>
+
+        <div class="ak-item-open avoid-break">
+            <div class="ak-item-title"><b>Ex 12:</b> Real-World Signs &amp; Notices</div>
+            <div class="ak-item-body">
+                <div class='ak-flow'><span class='ak-chip'><b>1.</b> <b>C</b></span><span class='ak-chip'><b>2.</b> <b>C</b></span><span class='ak-chip'><b>3.</b> <b>A</b></span><span class='ak-chip'><b>4.</b> <b>C</b></span><span class='ak-chip'><b>5.</b> <b>D</b></span><span class='ak-chip'><b>6.</b> <b>D</b></span><span class='ak-chip'><b>7.</b> <b>B</b></span><span class='ak-chip'><b>8.</b> <b>B</b></span><span class='ak-chip'><b>9.</b> <b>A</b></span><span class='ak-chip'><b>10.</b> <b>A</b></span></div>
+            </div>
+        </div>
+
+        <div class="ak-item-open avoid-break">
+            <div class="ak-item-title"><b>Ex 13:</b> Word Families Chart</div>
+            <div class="ak-item-body">
+                <div><i>(Refer to Exercise 13 table)</i></div>
+            </div>
+        </div>
+
+        <div class="ak-item-open avoid-break">
+            <div class="ak-item-title"><b>Ex 14:</b> Word Form Choice</div>
+            <div class="ak-item-body">
+                <div class='ak-flow'><span class='ak-chip'><b>1.</b> <b>B</b> (admiration)</span><span class='ak-chip'><b>2.</b> <b>C</b> (achievable)</span><span class='ak-chip'><b>3.</b> <b>B</b> (determined)</span><span class='ak-chip'><b>4.</b> <b>A</b> (ambition)</span><span class='ak-chip'><b>5.</b> <b>D</b> (independently)</span><span class='ak-chip'><b>6.</b> <b>A</b> (devotion)</span><span class='ak-chip'><b>7.</b> <b>D</b> (animated)</span><span class='ak-chip'><b>8.</b> <b>C</b> (dead)</span><span class='ak-chip'><b>9.</b> <b>B</b> (defeated)</span><span class='ak-chip'><b>10.</b> <b>C</b> (vision)</span></div>
+            </div>
+        </div>
+
+        <div class="ak-item-open avoid-break">
+            <div class="ak-item-title"><b>Ex 15:</b> Word Formation Practice</div>
+            <div class="ak-item-body">
+                <div class='ak-flow'><span class='ak-chip'><b>1.</b> admirable</span><span class='ak-chip'><b>2.</b> independence</span><span class='ak-chip'><b>3.</b> devoted</span><span class='ak-chip'><b>4.</b> determinedly</span><span class='ak-chip'><b>5.</b> ambitious</span></div>
+            </div>
+        </div>
+
+        <div class="ak-item-open avoid-break">
+            <div class="ak-item-title"><b>Ex 16:</b> Sentence Translation</div>
+            <div class="ak-item-body">
+                <div class='ak-stack'><div><b>1.</b> While the surgeon was performing an emergency operation, the field hospital lost power.</div><div><b>2.</b> The visionary leader devoted his whole life to the independence of the nation.</div><div><b>3.</b> She felt on top of the world when her animated blockbuster won an international award.</div><div><b>4.</b> Many brave soldiers carried out surprise attacks during the resistance war.</div><div><b>5.</b> My grandparents had a long marriage and always supported each other.</div><div><b>6.</b> The film producer decided to drop out of college to pursue his passion for cinema.</div><div><b>7.</b> When the national hero passed away, millions of citizens shared heartfelt tributes.</div><div><b>8.</b> The military genius changed his battle tactics while the enemy troops were advancing.</div><div><b>9.</b> Two students bonded over their shared interest in computer animation while they were attending school.</div><div><b>10.</b> I was reading an inspiring biography when my friend called to invite me to the theme park.</div></div>
+            </div>
+        </div>
+</div></div>
+    </div>
+
+    <script>
+        function toggleTeacherKey() {
+            const root = document.getElementById('docRoot');
+            const btn = document.getElementById('btnToggleKey');
+            root.classList.toggle('show-teacher-key-active');
+            if (root.classList.contains('show-teacher-key-active')) {
+                btn.innerHTML = '🙈 Ẩn Đáp Án';
+                btn.style.background = '#ea580c';
+                btn.style.color = '#ffffff';
+            } else {
+                btn.innerHTML = '👁️ Bật Đáp Án Nhanh';
+                btn.style.background = '#ffffff';
+                btn.style.color = '#ea580c';
+            }
+        }
+
+        function toggleAnswerKey() {
+            const root = document.getElementById('docRoot');
+            const btn = document.getElementById('btnToggleAk');
+            root.classList.toggle('hide-key-mode');
+            if (root.classList.contains('hide-key-mode')) {
+                btn.innerHTML = '📋 In Kèm Bảng Đáp Án: TẮT';
+                btn.style.color = '#dc2626';
+            } else {
+                btn.innerHTML = '📋 In Kèm Bảng Đáp Án: BẬT';
+                btn.style.color = 'var(--c-black)';
+            }
+        }
+    </script>
+</body>
+</html>

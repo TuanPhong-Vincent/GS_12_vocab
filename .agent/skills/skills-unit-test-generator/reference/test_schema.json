@@ -1,0 +1,157 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "UnitTestSchema",
+  "description": "JSON schema for Standardized 40-Question Unit Tests (2025 Vietnam National High School Exam Format)",
+  "type": "object",
+  "required": [
+    "test_id",
+    "unit_number",
+    "unit_title",
+    "grade",
+    "title",
+    "exam_format",
+    "duration_minutes",
+    "total_questions",
+    "target_grammar",
+    "option_distribution",
+    "answer_key_summary",
+    "sections",
+    "questions"
+  ],
+  "properties": {
+    "test_id": {
+      "type": "string",
+      "enum": ["test_1", "test_2"]
+    },
+    "unit_number": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 12
+    },
+    "unit_title": {
+      "type": "string"
+    },
+    "grade": {
+      "type": "string",
+      "enum": ["GS10", "GS11", "GS12"]
+    },
+    "title": {
+      "type": "string"
+    },
+    "exam_format": {
+      "type": "string"
+    },
+    "duration_minutes": {
+      "type": "integer",
+      "default": 50
+    },
+    "total_questions": {
+      "type": "integer",
+      "enum": [40]
+    },
+    "target_grammar": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "target_vocabulary_sample": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "option_distribution": {
+      "type": "object",
+      "required": ["A", "B", "C", "D"],
+      "properties": {
+        "A": { "type": "integer", "minimum": 8, "maximum": 13 },
+        "B": { "type": "integer", "minimum": 8, "maximum": 13 },
+        "C": { "type": "integer", "minimum": 8, "maximum": 13 },
+        "D": { "type": "integer", "minimum": 8, "maximum": 13 }
+      }
+    },
+    "answer_key_summary": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "enum": ["A", "B", "C", "D"]
+      }
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["section_id", "section_number", "title", "instruction", "questions_range"],
+        "properties": {
+          "section_id": { "type": "string" },
+          "section_number": { "type": "integer" },
+          "title": { "type": "string" },
+          "instruction": { "type": "string" },
+          "questions_range": {
+            "type": "array",
+            "items": { "type": "integer" },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "passage_title": { "type": "string" },
+          "passage_text": { "type": "string" },
+          "vietnamese_translation": { "type": "string" }
+        }
+      }
+    },
+    "questions": {
+      "type": "array",
+      "minItems": 40,
+      "maxItems": 40,
+      "items": {
+        "type": "object",
+        "required": [
+          "question_number",
+          "prompt",
+          "options",
+          "correct_answer",
+          "explanation"
+        ],
+        "properties": {
+          "question_number": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 40
+          },
+          "prompt": { "type": "string" },
+          "tested_skill": { "type": "string" },
+          "blank_index": { "type": ["integer", "null"] },
+          "options": {
+            "type": "object",
+            "required": ["A", "B", "C", "D"],
+            "properties": {
+              "A": { "type": "string", "minLength": 1 },
+              "B": { "type": "string", "minLength": 1 },
+              "C": { "type": "string", "minLength": 1 },
+              "D": { "type": "string", "minLength": 1 }
+            }
+          },
+          "correct_answer": {
+            "type": "string",
+            "enum": ["A", "B", "C", "D"]
+          },
+          "explanation": {
+            "type": "object",
+            "required": ["knowledge_type", "analysis"],
+            "properties": {
+              "knowledge_type": { "type": "string" },
+              "content": { "type": "string" },
+              "analysis": {
+                "type": "object",
+                "properties": {
+                  "A": { "type": "string" },
+                  "B": { "type": "string" },
+                  "C": { "type": "string" },
+                  "D": { "type": "string" }
+                }
+              }
+            }
+          },
+          "vietnamese_translation": { "type": "string" }
+        }
+      }
+    }
+  }
+}
